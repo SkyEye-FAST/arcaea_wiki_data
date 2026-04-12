@@ -2,7 +2,7 @@ name: Update Arcaea Story Data
 
 on:
   schedule:
-    - cron: "10 0 * * *"
+    - cron: "15 0 * * *"
   workflow_dispatch:
 
 jobs:
