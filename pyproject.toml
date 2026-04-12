@@ -1,0 +1,10 @@
+[project]
+name = "arcaea-story-wiki-data"
+version = "0.1.0"
+description = "Extract Arcaea story data for Chinese Arcaea Wiki"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "orjson>=3.11.8",
+    "requests>=2.33.1",
+]

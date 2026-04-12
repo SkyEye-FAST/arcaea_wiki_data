@@ -1,0 +1,40 @@
+name: Update Arcaea Story Data
+
+on:
+  schedule:
+    - cron: "10 0 * * *"
+  workflow_dispatch:
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          submodules: recursive
+
+      - name: Update submodule to latest
+        run: git submodule update --init --remote --recursive
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.14"
+
+      - name: Set up uv
+        uses: astral-sh/setup-uv@cec208311dfd045dd5311c1add060b2062131d57
+
+      - name: Sync dependencies
+        run: uv sync --frozen
+
+      - name: Generate Lua outputs
+        run: uv run update.py
+
+      - name: Commit changes
+        uses: EndBug/add-and-commit@v10
+        with:
+          default_author: github_actions
+          message: "chore: update story data"
