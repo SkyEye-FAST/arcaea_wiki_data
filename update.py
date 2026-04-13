@@ -7,8 +7,10 @@ This script reads story metadata/text from the local submodule and outputs:
 - output/arcaea_story_zh-hant.lua
 """
 
+import re
 import shutil
 import sys
+import time
 import zipfile
 from collections.abc import Callable
 from pathlib import Path
@@ -16,18 +18,34 @@ from typing import Any
 
 import orjson
 import requests
+from fake_useragent import UserAgent
+from requests.compat import urlparse
 
 PROJECT_ROOT = Path(__file__).resolve().parent
 SUBMODULE_ROOT = PROJECT_ROOT / "arcaea_story"
 STORY_ROOT = SUBMODULE_ROOT / "story"
 OUTPUT_DIR = PROJECT_ROOT / "output"
-CACHE_DIR = PROJECT_ROOT / ".cache"
-APK_CACHE_FILE = CACHE_DIR / "arcaea_latest.apk"
-PACKLIST_CACHE_FILE = CACHE_DIR / "packlist"
-SONGLIST_CACHE_FILE = CACHE_DIR / "songlist"
+OUTPUT_PACKLIST_FILE = OUTPUT_DIR / "packlist"
+OUTPUT_SONGLIST_FILE = OUTPUT_DIR / "songlist"
+OUTPUT_UNLOCKS_FILE = OUTPUT_DIR / "unlocks"
+OUTPUT_VERSION_FILE = OUTPUT_DIR / "version"
 LANGUAGES = ["zh-Hans", "zh-Hant", "en"]
 LANG_KEYS = {"en": "en", "zh-Hans": "zh-hans", "zh-Hant": "zh-hant"}
 APK_INFO_API = "https://webapi.lowiro.com/webapi/serve/static/bin/arcaea/apk/"
+RETRY_STATUS_CODES = {403, 429, 500, 502, 503, 504}
+MAX_HTTP_RETRIES = 5
+RETRY_BASE_DELAY = 1.5
+REQUEST_HEADERS_BASE = {
+    "Accept": "application/json, text/plain, */*",
+    "Accept-Language": "en-US,en;q=0.9,zh-CN;q=0.8",
+    "Connection": "keep-alive",
+    "DNT": "1",
+}
+
+FALLBACK_UA = (
+    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
+    "(KHTML, like Gecko) Chrome/135.0.7049.115 Safari/537.36"
+)
 
 
 def format_wiki_text(text: str) -> str:
@@ -39,8 +57,6 @@ def format_wiki_text(text: str) -> str:
         path = match.group(1)
         filename = Path(path).stem
         return f"[[文件:Story {filename} cg.jpg<WIKI_PIPE>300px]]"
-
-    import re
 
     text = re.sub(r"%%CG:([^%]+)%%", convert_cg, text)
     text = re.sub(r"%%(.*?)%%\{(.*?)\}", r"{{ruby<WIKI_PIPE>\1<WIKI_PIPE>\2}}", text)
@@ -55,8 +71,6 @@ def parse_json_story(
     """Parse a main/side JSON story file."""
     if not file_path.exists():
         return {}
-
-    import re
 
     with open(file_path, encoding="utf-8") as f:
         data = orjson.loads(f.read())
@@ -73,52 +87,6 @@ def parse_json_story(
     return result
 
 
-def load_entries_metadata(
-    entries_dir: Path, story_type: str
-) -> tuple[dict[str, tuple[str, int, str, str, str]], list[str]]:
-    """Load metadata from entries_<number> files."""
-    metadata: dict[str, tuple[str, int, str, str, str]] = {}
-    sequence: list[str] = []
-    entries_files = sorted(entries_dir.glob("entries_*"), key=lambda x: int(x.name.split("_")[1]))
-
-    for entry_file in entries_files:
-        try:
-            major = entry_file.name.split("_")[1]
-            with open(entry_file, encoding="utf-8") as f:
-                data = orjson.loads(f.read())
-
-            if "entries" not in data:
-                continue
-
-            for entry in data["entries"]:
-                story_data = entry.get("storyData")
-                alternate_prefix = entry.get("alternatePrefix", "")
-                minor = entry.get("minor", 0)
-                alternate_suffix = entry.get("alternateSuffix", "")
-                has_alternative = entry.get("hasAlternative", False)
-
-                val = (alternate_prefix, minor, story_type, alternate_suffix, major)
-
-                if story_data:
-                    metadata[story_data] = val
-                    sequence.append(story_data)
-                    if has_alternative:
-                        metadata[story_data + "a"] = val
-                        sequence.append(story_data + "a")
-                else:
-                    base_key = f"{major}-{minor}"
-                    sequence.append(base_key)
-                    if has_alternative:
-                        sequence.append(base_key + "a")
-                        metadata[base_key + "a"] = val
-
-                metadata[f"{major}-{minor}"] = val
-        except (orjson.JSONDecodeError, KeyError, ValueError):
-            continue
-
-    return metadata, sequence
-
-
 def parse_vns_story_set(
     vn_dir: Path,
     text_processor: Callable[[str], str],
@@ -126,8 +94,6 @@ def parse_vns_story_set(
     """Parse .vns stories and return language content by base key."""
     if not vn_dir.exists():
         return {}
-
-    import re
 
     files = list(vn_dir.glob("*_en.vns"))
     base_names = [f.name.replace("_en.vns", "") for f in files]
@@ -153,36 +119,192 @@ def parse_vns_story_set(
     return result
 
 
+def random_user_agent() -> str:
+    """Generate random UA using fake-useragent, with local fallback."""
+    try:
+        return UserAgent().random
+    except Exception:
+        return FALLBACK_UA
+
+
+def build_request_headers() -> dict[str, str]:
+    """Generate headers that mimic a real user request profile."""
+    headers = dict(REQUEST_HEADERS_BASE)
+    headers["User-Agent"] = random_user_agent()
+    return headers
+
+
+def build_pack_song_mapping(
+    packlist_raw: dict[str, Any],
+    songlist_raw: dict[str, Any],
+) -> tuple[dict[str, str], dict[str, str]]:
+    """Build quick lookup mappings for pack/song IDs to EN names."""
+    pack_mapping = {
+        pack["id"]: pack.get("name_localized", {}).get("en", pack["id"])
+        for pack in packlist_raw.get("packs", [])
+    }
+    song_mapping = {
+        song["id"]: song.get("title_localized", {}).get("en", song["id"])
+        for song in songlist_raw.get("songs", [])
+    }
+    return pack_mapping, song_mapping
+
+
+def derive_apk_filename(info_value: dict[str, Any], apk_url: str) -> str:
+    """Resolve APK filename from API payload/url using server-provided naming."""
+    for key in ["name", "fileName", "filename"]:
+        candidate = info_value.get(key)
+        if isinstance(candidate, str) and candidate.strip():
+            return Path(candidate.strip()).name
+
+    url_name = Path(urlparse(apk_url).path).name
+    if url_name:
+        return url_name
+
+    version = str(info_value.get("version", "")).strip()
+    version_clean = version[:-1] if version.endswith("c") else version
+    if version_clean:
+        return f"arcaea-{version_clean}.apk"
+    return "arcaea.apk"
+
+
+def request_with_retry(
+    session: requests.Session,
+    url: str,
+    *,
+    timeout: int,
+    stream: bool = False,
+) -> requests.Response:
+    """Run GET request with retry for transient HTTP failures (including 403)."""
+    last_error: Exception | None = None
+
+    for attempt in range(1, MAX_HTTP_RETRIES + 1):
+        try:
+            response = session.get(
+                url,
+                headers=build_request_headers(),
+                timeout=timeout,
+                stream=stream,
+            )
+
+            if response.status_code in RETRY_STATUS_CODES and attempt < MAX_HTTP_RETRIES:
+                wait_seconds = RETRY_BASE_DELAY * (2 ** (attempt - 1))
+                print(
+                    f"[2/5] HTTP {response.status_code} for {url}; retrying in {wait_seconds:.1f}s "
+                    f"({attempt}/{MAX_HTTP_RETRIES})...",
+                    flush=True,
+                )
+                response.close()
+                time.sleep(wait_seconds)
+                continue
+
+            response.raise_for_status()
+            return response
+        except requests.RequestException as exc:
+            last_error = exc
+            if attempt >= MAX_HTTP_RETRIES:
+                break
+            wait_seconds = RETRY_BASE_DELAY * (2 ** (attempt - 1))
+            print(
+                f"[2/5] Request failed: {exc}; retrying in {wait_seconds:.1f}s "
+                f"({attempt}/{MAX_HTTP_RETRIES})...",
+                flush=True,
+            )
+            time.sleep(wait_seconds)
+
+    if last_error is not None:
+        raise RuntimeError(f"Request failed after retries: {url}") from last_error
+    raise RuntimeError(f"Request failed after retries: {url}")
+
+
 def load_pack_song_mapping_from_apk() -> tuple[dict[str, str], dict[str, str]]:
     """Fetch latest APK and load packlist/songlist mapping from assets/app-data."""
-    CACHE_DIR.mkdir(parents=True, exist_ok=True)
+    OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
 
-    if PACKLIST_CACHE_FILE.exists() and SONGLIST_CACHE_FILE.exists():
-        print("[2/5] Loading pack/song mappings from local cache...", flush=True)
-        packlist_raw = orjson.loads(PACKLIST_CACHE_FILE.read_bytes())
-        songlist_raw = orjson.loads(SONGLIST_CACHE_FILE.read_bytes())
-    else:
-        apk_data: bytes | None = None
-        if APK_CACHE_FILE.exists():
-            print("[2/5] Loading APK from local cache...", flush=True)
-            apk_data = APK_CACHE_FILE.read_bytes()
-        else:
+    apk_url: str | None = None
+    version_name = ""
+    apk_output_file: Path | None = None
+
+    with requests.Session() as session:
+        try:
             print("[2/5] Fetching APK metadata...", flush=True)
-            info_resp = requests.get(APK_INFO_API, timeout=30)
-            info_resp.raise_for_status()
-            info = info_resp.json()
+            info_resp = request_with_retry(session, APK_INFO_API, timeout=30)
+            with info_resp:
+                info = info_resp.json()
 
             if not info.get("success"):
                 raise RuntimeError("Failed to fetch APK metadata")
 
-            apk_url = info["value"]["url"]
-            print("[2/5] Downloading APK package...", flush=True)
-            with requests.get(apk_url, stream=True, timeout=120) as apk_resp:
+            info_value = info.get("value", {})
+            apk_url = str(info_value["url"])
+            apk_filename = derive_apk_filename(info_value, apk_url)
+            apk_output_file = PROJECT_ROOT / apk_filename
+
+            version = str(info_value.get("version", "")).strip()
+            version_name = version[:-1] if version.endswith("c") else version
+            if version_name:
+                print(f"[2/5] Fetched version: {version_name}", flush=True)
+                OUTPUT_VERSION_FILE.write_text(version_name + "\n", encoding="utf-8")
+        except Exception as exc:
+            if not (
+                OUTPUT_PACKLIST_FILE.exists()
+                and OUTPUT_SONGLIST_FILE.exists()
+                and OUTPUT_UNLOCKS_FILE.exists()
+            ):
+                raise RuntimeError(
+                    "Unable to get APK metadata and no local output data exists"
+                ) from exc
+
+            if OUTPUT_VERSION_FILE.exists():
+                version_name = OUTPUT_VERSION_FILE.read_text(encoding="utf-8").strip()
+            print(
+                "[2/5] Failed to fetch latest metadata, using files in output/.",
+                flush=True,
+            )
+            packlist_raw = orjson.loads(OUTPUT_PACKLIST_FILE.read_bytes())
+            songlist_raw = orjson.loads(OUTPUT_SONGLIST_FILE.read_bytes())
+            if version_name:
+                print(f"[2/5] Latest version: {version_name}", flush=True)
+            print(
+                "[2/5] Loaded pack/song mappings: "
+                f"{len(packlist_raw.get('packs', []))} packs, "
+                f"{len(songlist_raw.get('songs', []))} songs.",
+                flush=True,
+            )
+
+            return build_pack_song_mapping(packlist_raw, songlist_raw)
+
+    if not apk_url:
+        raise RuntimeError("No APK URL available from metadata")
+
+    apk_data: bytes | None = None
+    if apk_output_file and apk_output_file.exists():
+        print(
+            f"[2/5] Reusing local APK: {apk_output_file.relative_to(PROJECT_ROOT)}",
+            flush=True,
+        )
+        apk_data = apk_output_file.read_bytes()
+
+    if apk_data is None:
+        print("[2/5] Downloading APK package...", flush=True)
+        with requests.Session() as session:
+            apk_resp = request_with_retry(session, apk_url, stream=True, timeout=120)
+            with apk_resp:
                 apk_resp.raise_for_status()
                 total_size = int(apk_resp.headers.get("content-length", 0))
                 downloaded = 0
                 bar_width = 30
                 chunks: list[bytes] = []
+
+                if not apk_output_file:
+                    apk_output_file = PROJECT_ROOT / derive_apk_filename({}, apk_url)
+
+                content_disposition = apk_resp.headers.get("content-disposition", "")
+                filename_match = re.search(r'filename\*?="?([^";]+)"?', content_disposition)
+                if filename_match:
+                    header_name = Path(filename_match.group(1).strip()).name
+                    if header_name:
+                        apk_output_file = PROJECT_ROOT / header_name
 
                 for chunk in apk_resp.iter_content(chunk_size=1024 * 1024):
                     if not chunk:
@@ -194,29 +316,47 @@ def load_pack_song_mapping_from_apk() -> tuple[dict[str, str], dict[str, str]]:
                         filled = min(bar_width, int(downloaded * bar_width / total_size))
                         percent = min(100, downloaded * 100 // total_size)
                         bar = "#" * filled + "-" * (bar_width - filled)
+                        downloaded_mb = downloaded / 1024 / 1024
+                        total_mb = total_size / 1024 / 1024
                         sys.stdout.write(
                             f"\r[2/5] Downloading APK package... [{bar}] {percent:3d}% "
-                            f"({downloaded / 1024 / 1024:.1f}/{total_size / 1024 / 1024:.1f} MB)"
+                            f"({downloaded_mb:.1f}/{total_mb:.1f} MB)"
                         )
                     else:
+                        downloaded_mb = downloaded / 1024 / 1024
                         sys.stdout.write(
-                            f"\r[2/5] Downloading APK package... {downloaded / 1024 / 1024:.1f} MB"
+                            f"\r[2/5] Downloading APK package... {downloaded_mb:.1f} MB"
                         )
                     sys.stdout.flush()
 
                 sys.stdout.write("\n")
                 sys.stdout.flush()
                 apk_data = b"".join(chunks)
-            APK_CACHE_FILE.write_bytes(apk_data)
 
-        from io import BytesIO
+        if not apk_output_file:
+            raise RuntimeError("Unable to determine APK output file name")
+        apk_output_file.write_bytes(apk_data)
+        print(f"[2/5] Saved APK: {apk_output_file.relative_to(PROJECT_ROOT)}", flush=True)
 
-        with zipfile.ZipFile(BytesIO(apk_data)) as apk_zip:
-            packlist_raw = orjson.loads(apk_zip.read("assets/songs/packlist"))
-            songlist_raw = orjson.loads(apk_zip.read("assets/songs/songlist"))
+    if apk_data is None:
+        raise RuntimeError("APK data is empty")
 
-        PACKLIST_CACHE_FILE.write_bytes(orjson.dumps(packlist_raw))
-        SONGLIST_CACHE_FILE.write_bytes(orjson.dumps(songlist_raw))
+    from io import BytesIO
+
+    with zipfile.ZipFile(BytesIO(apk_data)) as apk_zip:
+        packlist_bytes = apk_zip.read("assets/songs/packlist")
+        songlist_bytes = apk_zip.read("assets/songs/songlist")
+        unlocks_bytes = apk_zip.read("assets/songs/unlocks")
+
+    packlist_raw = orjson.loads(packlist_bytes)
+    songlist_raw = orjson.loads(songlist_bytes)
+
+    OUTPUT_PACKLIST_FILE.write_bytes(packlist_bytes)
+    OUTPUT_SONGLIST_FILE.write_bytes(songlist_bytes)
+    OUTPUT_UNLOCKS_FILE.write_bytes(unlocks_bytes)
+    if version_name:
+        OUTPUT_VERSION_FILE.write_text(version_name + "\n", encoding="utf-8")
+        print(f"[2/5] Latest version: {version_name}", flush=True)
 
     print(
         "[2/5] Loaded pack/song mappings: "
@@ -225,15 +365,7 @@ def load_pack_song_mapping_from_apk() -> tuple[dict[str, str], dict[str, str]]:
         flush=True,
     )
 
-    pack_mapping = {
-        pack["id"]: pack.get("name_localized", {}).get("en", pack["id"])
-        for pack in packlist_raw.get("packs", [])
-    }
-    song_mapping = {
-        song["id"]: song.get("title_localized", {}).get("en", song["id"])
-        for song in songlist_raw.get("songs", [])
-    }
-    return pack_mapping, song_mapping
+    return build_pack_song_mapping(packlist_raw, songlist_raw)
 
 
 def build_manual_mapping(manual_mapping_raw: dict[str, str]) -> dict[str, dict[str, str]]:

@@ -1,9 +1,4 @@
 __pycache__/
 .vscode/
 
-.cache/
-
-packlist
-songlist
-
 *.apk
