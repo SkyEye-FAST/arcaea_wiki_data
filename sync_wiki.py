@@ -133,6 +133,22 @@ def sync_pages(
     return changed
 
 
+def ensure_authenticated(site: BaseSite, attempted_user: str) -> None:
+    """Validate login state with userinfo and raise a helpful error if auth failed."""
+    userinfo = site.userinfo
+    is_anon = bool(userinfo.get("anon"))
+    current_user = userinfo.get("name")
+
+    if is_anon or not current_user:
+        raise RuntimeError(
+            "Wiki login failed: API still reports anonymous session. "
+            f"Attempted login user: {attempted_user!r}. "
+            "Check whether BotPassword suffix includes a leading '@', whether "
+            "the BotPassword account name is correct, and whether the password is "
+            "the BotPassword token (not the normal account password)."
+        )
+
+
 def main() -> None:
     """Run wiki sync flow using local output files and pywikibot config."""
     args = parse_args()
@@ -142,7 +158,7 @@ def main() -> None:
     if not args.dry_run:
         username = (os.environ.get("PYWIKIBOT_USERNAME") or "").strip()
         password = (os.environ.get("PYWIKIBOT_PASSWORD") or "").strip()
-        suffix = (os.environ.get("PYWIKIBOT_BOTPASSWORD_SUFFIX") or "").strip()
+        suffix = (os.environ.get("PYWIKIBOT_BOTPASSWORD_SUFFIX") or "").strip().lstrip("@")
 
         if password:
             if not username:
@@ -155,21 +171,10 @@ def main() -> None:
             pywikibot.config.password_file = None  # type: ignore
             login_manager = ClientLoginManager(site=site, user=login_user, password=password)
             login_manager.login()
-
-            if site.user() is None:
-                raise RuntimeError(
-                    "Wiki login failed: site.user() is None after login attempt. "
-                    "Check PYWIKIBOT_USERNAME, PYWIKIBOT_PASSWORD, and "
-                    "PYWIKIBOT_BOTPASSWORD_SUFFIX secrets."
-                )
+            ensure_authenticated(site, login_user)
         else:
             site.login()
-
-            if site.user() is None:
-                raise RuntimeError(
-                    "Wiki login failed when using default pywikibot login flow. "
-                    "Check user-config.py and password_file credentials."
-                )
+            ensure_authenticated(site, username or "<from-config>")
     else:
         print("Dry-run mode: skip login and do not write edits.")
 

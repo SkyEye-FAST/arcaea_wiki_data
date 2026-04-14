@@ -35,6 +35,27 @@ jobs:
       - name: Generate Lua outputs
         run: uv run update.py
 
+      - name: Debug wiki auth inputs
+        if: ${{ env.PYWIKIBOT_USERNAME != '' || env.PYWIKIBOT_PASSWORD != '' || env.PYWIKIBOT_BOTPASSWORD_SUFFIX != '' }}
+        run: |
+          python - <<'PY'
+          import os
+
+          username = (os.environ.get("PYWIKIBOT_USERNAME") or "").strip()
+          password = (os.environ.get("PYWIKIBOT_PASSWORD") or "").strip()
+          suffix = (os.environ.get("PYWIKIBOT_BOTPASSWORD_SUFFIX") or "").strip()
+
+          suffix_no_at = suffix.lstrip("@")
+          login_user = username if (not suffix_no_at or "@" in username) else f"{username}@{suffix_no_at}"
+
+          print(f"username_present={bool(username)}")
+          print(f"password_present={bool(password)}")
+          print(f"suffix_present={bool(suffix)}")
+          print(f"suffix_has_leading_at={suffix.startswith('@')}")
+          print(f"login_user_has_at={('@' in login_user)}")
+          print(f"login_user_length={len(login_user)}")
+          PY
+
       - name: Sync wiki pages
         if: ${{ env.PYWIKIBOT_USERNAME != '' && env.PYWIKIBOT_PASSWORD != '' && env.PYWIKIBOT_BOTPASSWORD_SUFFIX != '' }}
         run: |
