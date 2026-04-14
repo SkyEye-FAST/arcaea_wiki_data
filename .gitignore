@@ -1,4 +1,12 @@
 __pycache__/
 .vscode/
 
+logs/
+apicache/
+
 *.apk
+*.ctrl
+*.lwp
+*.cfg
+
+user-password.py

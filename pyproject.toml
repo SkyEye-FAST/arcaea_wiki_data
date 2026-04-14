@@ -4,4 +4,11 @@ version = "0.1.0"
 description = "Extract Arcaea story data for Chinese Arcaea Wiki"
 readme = "README.md"
 requires-python = ">=3.12"
-dependencies = ["fake-useragent>=2.1.0", "orjson>=3.11.8", "requests>=2.33.1"]
+dependencies = [
+    "fake-useragent>=2.1.0",
+    "mwparserfromhell>=0.7.2",
+    "orjson>=3.11.8",
+    "packaging>=26.0",
+    "pywikibot>=11.1.0",
+    "requests>=2.33.1",
+]

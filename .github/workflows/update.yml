@@ -1,8 +1,6 @@
 name: Update Arcaea Story Data
 
 on:
-  schedule:
-    - cron: "15 0 * * *"
   workflow_dispatch:
 
 jobs:
@@ -10,6 +8,10 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       contents: write
+    env:
+      PYWIKIBOT_USERNAME: ${{ secrets.PYWIKIBOT_USERNAME }}
+      PYWIKIBOT_PASSWORD: ${{ secrets.PYWIKIBOT_PASSWORD }}
+      PYWIKIBOT_BOTPASSWORD_SUFFIX: ${{ secrets.PYWIKIBOT_BOTPASSWORD_SUFFIX }}
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -32,6 +34,11 @@ jobs:
 
       - name: Generate Lua outputs
         run: uv run update.py
+
+      - name: Sync wiki pages
+        if: ${{ env.PYWIKIBOT_USERNAME != '' && env.PYWIKIBOT_PASSWORD != '' }}
+        run: |
+          uv run sync_wiki.py --summary "Bot: Sync data"
 
       - name: Commit changes
         uses: EndBug/add-and-commit@v10

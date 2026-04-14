@@ -1,20 +1,13 @@
-"""Export Arcaea story Lua files from submodule data.
-
-This script reads story metadata/text from the local submodule and outputs:
-- output/arcaea_story_data.lua
-- output/arcaea_story_en.lua
-- output/arcaea_story_zh-hans.lua
-- output/arcaea_story_zh-hant.lua
-"""
+"""Export Arcaea data files from game APK for wiki.arcaea.cn."""
 
 import re
-import shutil
 import sys
 import time
 import zipfile
 from collections.abc import Callable
 from pathlib import Path
 from typing import Any
+from urllib.parse import parse_qs
 
 import orjson
 import requests
@@ -29,15 +22,15 @@ OUTPUT_PACKLIST_FILE = OUTPUT_DIR / "packlist"
 OUTPUT_SONGLIST_FILE = OUTPUT_DIR / "songlist"
 OUTPUT_UNLOCKS_FILE = OUTPUT_DIR / "unlocks"
 OUTPUT_VERSION_FILE = OUTPUT_DIR / "version"
-LANGUAGES = ["zh-Hans", "zh-Hant", "en"]
-LANG_KEYS = {"en": "en", "zh-Hans": "zh-hans", "zh-Hant": "zh-hant"}
+LANGUAGES = ["zh-Hans", "zh-Hant", "en", "ja", "ko"]
+LANG_KEYS = {"en": "en", "zh-Hans": "zh-hans", "zh-Hant": "zh-hant", "ja": "ja", "ko": "ko"}
 APK_INFO_API = "https://webapi.lowiro.com/webapi/serve/static/bin/arcaea/apk/"
 RETRY_STATUS_CODES = {403, 429, 500, 502, 503, 504}
 MAX_HTTP_RETRIES = 5
 RETRY_BASE_DELAY = 1.5
 REQUEST_HEADERS_BASE = {
     "Accept": "application/json, text/plain, */*",
-    "Accept-Language": "en-US,en;q=0.9,zh-CN;q=0.8",
+    "Accept-Language": "en-US,en;q=0.9,zh-CN;q=0.8,ja;q=0.7,ko;q=0.6",
     "Connection": "keep-alive",
     "DNT": "1",
 }
@@ -46,6 +39,23 @@ FALLBACK_UA = (
     "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
     "(KHTML, like Gecko) Chrome/135.0.7049.115 Safari/537.36"
 )
+
+
+def load_pack_song_mapping_from_apk_bytes(
+    apk_data: bytes,
+) -> tuple[dict[str, str], dict[str, str], bytes, bytes, bytes]:
+    """Read pack/song data from APK bytes."""
+    from io import BytesIO
+
+    with zipfile.ZipFile(BytesIO(apk_data)) as apk_zip:
+        packlist_bytes = apk_zip.read("assets/songs/packlist")
+        songlist_bytes = apk_zip.read("assets/songs/songlist")
+        unlocks_bytes = apk_zip.read("assets/songs/unlocks")
+
+    packlist_raw = orjson.loads(packlist_bytes)
+    songlist_raw = orjson.loads(songlist_bytes)
+    pack_mapping, song_mapping = build_pack_song_mapping(packlist_raw, songlist_raw)
+    return pack_mapping, song_mapping, packlist_bytes, songlist_bytes, unlocks_bytes
 
 
 def format_wiki_text(text: str) -> str:
@@ -157,7 +167,16 @@ def derive_apk_filename(info_value: dict[str, Any], apk_url: str) -> str:
         if isinstance(candidate, str) and candidate.strip():
             return Path(candidate.strip()).name
 
-    url_name = Path(urlparse(apk_url).path).name
+    parsed = urlparse(apk_url)
+    query = parse_qs(parsed.query)
+    for key in ["filename", "fileName", "name"]:
+        values = query.get(key)
+        if values:
+            candidate = values[0].strip()
+            if candidate:
+                return Path(candidate).name
+
+    url_name = Path(parsed.path).name
     if url_name:
         return url_name
 
@@ -299,13 +318,6 @@ def load_pack_song_mapping_from_apk() -> tuple[dict[str, str], dict[str, str]]:
                 if not apk_output_file:
                     apk_output_file = PROJECT_ROOT / derive_apk_filename({}, apk_url)
 
-                content_disposition = apk_resp.headers.get("content-disposition", "")
-                filename_match = re.search(r'filename\*?="?([^";]+)"?', content_disposition)
-                if filename_match:
-                    header_name = Path(filename_match.group(1).strip()).name
-                    if header_name:
-                        apk_output_file = PROJECT_ROOT / header_name
-
                 for chunk in apk_resp.iter_content(chunk_size=1024 * 1024):
                     if not chunk:
                         continue
@@ -341,15 +353,13 @@ def load_pack_song_mapping_from_apk() -> tuple[dict[str, str], dict[str, str]]:
     if apk_data is None:
         raise RuntimeError("APK data is empty")
 
-    from io import BytesIO
-
-    with zipfile.ZipFile(BytesIO(apk_data)) as apk_zip:
-        packlist_bytes = apk_zip.read("assets/songs/packlist")
-        songlist_bytes = apk_zip.read("assets/songs/songlist")
-        unlocks_bytes = apk_zip.read("assets/songs/unlocks")
-
-    packlist_raw = orjson.loads(packlist_bytes)
-    songlist_raw = orjson.loads(songlist_bytes)
+    (
+        pack_mapping,
+        song_mapping,
+        packlist_bytes,
+        songlist_bytes,
+        unlocks_bytes,
+    ) = load_pack_song_mapping_from_apk_bytes(apk_data)
 
     OUTPUT_PACKLIST_FILE.write_bytes(packlist_bytes)
     OUTPUT_SONGLIST_FILE.write_bytes(songlist_bytes)
@@ -359,13 +369,11 @@ def load_pack_song_mapping_from_apk() -> tuple[dict[str, str], dict[str, str]]:
         print(f"[2/5] Latest version: {version_name}", flush=True)
 
     print(
-        "[2/5] Loaded pack/song mappings: "
-        f"{len(packlist_raw.get('packs', []))} packs, "
-        f"{len(songlist_raw.get('songs', []))} songs.",
+        f"[2/5] Loaded pack/song mappings: {len(pack_mapping)} packs, {len(song_mapping)} songs.",
         flush=True,
     )
 
-    return build_pack_song_mapping(packlist_raw, songlist_raw)
+    return pack_mapping, song_mapping
 
 
 def build_manual_mapping(manual_mapping_raw: dict[str, str]) -> dict[str, dict[str, str]]:
@@ -594,7 +602,7 @@ def write_lua_outputs(lua_story_data: dict[str, dict[str, Any]]) -> None:
             out.write("    },\n")
         out.write("}\n")
 
-    for lk in ["zh-hans", "zh-hant", "en"]:
+    for lk in ["zh-hans", "zh-hant", "en", "ja", "ko"]:
         lua_out_file = OUTPUT_DIR / f"arcaea_story_{lk}.lua"
         print(f"[5/5] Writing {lua_out_file.relative_to(PROJECT_ROOT)}...", flush=True)
         with open(lua_out_file, "w", encoding="utf-8") as out:
@@ -620,8 +628,7 @@ def main() -> None:
     if not STORY_ROOT.exists():
         raise FileNotFoundError(f"Story root not found: {STORY_ROOT}")
 
-    if OUTPUT_DIR.exists():
-        shutil.rmtree(OUTPUT_DIR)
+    OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
 
     print("[0/5] Starting Lua export pipeline...", flush=True)
 
