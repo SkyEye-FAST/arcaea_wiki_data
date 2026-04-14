@@ -50,7 +50,9 @@ jobs:
       - name: Sync wiki pages
         if: steps.auth.outputs.has_password == 'true'
         run: |
-          uv run sync_wiki.py --summary "Bot: Sync data"
+          VERSION=$(cat output/version)
+          echo "VERSION=$VERSION" >> $GITHUB_ENV
+          uv run sync_wiki.py --summary "Bot: Sync data to v$VERSION"
 
       - name: Commit changes
         uses: EndBug/add-and-commit@v10

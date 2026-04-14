@@ -134,7 +134,7 @@ def sync_pages(
 
 def ensure_authenticated(site: BaseSite, attempted_user: str) -> None:
     """Validate login state with userinfo and raise a helpful error if auth failed."""
-    userinfo = site.userinfo
+    userinfo: dict = site.userinfo
     is_anon = bool(userinfo.get("anon"))
     current_user = userinfo.get("name")
 
