@@ -9,7 +9,6 @@ jobs:
     permissions:
       contents: write
     env:
-      PYWIKIBOT_USERNAME: ${{ secrets.PYWIKIBOT_USERNAME }}
       PYWIKIBOT_PASSWORD_FILE_CONTENT: ${{ secrets.PYWIKIBOT_PASSWORD }}
     steps:
       - name: Checkout
@@ -35,23 +34,15 @@ jobs:
         run: uv run update.py
 
       - name: Debug wiki auth inputs
-        if: ${{ env.PYWIKIBOT_USERNAME != '' || env.PYWIKIBOT_PASSWORD_FILE_CONTENT != '' }}
+        if: ${{ env.PYWIKIBOT_PASSWORD_FILE_CONTENT != '' }}
         run: |
           python - <<'PY'
           import os
 
-          full_login_user = (os.environ.get("PYWIKIBOT_LOGIN_USER") or "").strip()
-          username = (os.environ.get("PYWIKIBOT_USERNAME") or "").strip()
           password_file_content = os.environ.get("PYWIKIBOT_PASSWORD_FILE_CONTENT") or ""
-          if full_login_user:
-              login_user = full_login_user
-              login_source = "full-login-user-secret"
-          else:
-              login_user = username
-              login_source = "username-secret"
+          login_user = "Masertwer"
+          login_source = "fixed-config"
 
-          print(f"full_login_user_present={bool(full_login_user)}")
-          print(f"username_present={bool(username)}")
           print(f"password_file_content_present={bool(password_file_content)}")
           print(f"password_file_content_length={len(password_file_content)}")
           print(f"login_source={login_source}")
@@ -73,7 +64,7 @@ jobs:
           PY
 
       - name: Sync wiki pages
-        if: ${{ env.PYWIKIBOT_PASSWORD_FILE_CONTENT != '' && env.PYWIKIBOT_USERNAME != '' }}
+        if: ${{ env.PYWIKIBOT_PASSWORD_FILE_CONTENT != '' }}
         run: |
           uv run sync_wiki.py --summary "Bot: Sync data"
 

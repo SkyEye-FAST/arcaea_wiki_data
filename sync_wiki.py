@@ -173,11 +173,8 @@ def main() -> None:
     if not args.dry_run:
         materialize_password_file_from_env()
 
-        full_login_user = (os.environ.get("PYWIKIBOT_LOGIN_USER") or "").strip()
-        username = (os.environ.get("PYWIKIBOT_USERNAME") or "").strip()
-
         site.login()
-        ensure_authenticated(site, full_login_user or username or "<from-config>")
+        ensure_authenticated(site, "Masertwer")
     else:
         print("Dry-run mode: skip login and do not write edits.")
 
