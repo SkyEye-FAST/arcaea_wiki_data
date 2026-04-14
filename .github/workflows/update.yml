@@ -8,8 +8,6 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       contents: write
-    env:
-      PYWIKIBOT_PASSWORD_FILE_CONTENT: ${{ secrets.PYWIKIBOT_PASSWORD }}
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -33,38 +31,24 @@ jobs:
       - name: Generate Lua outputs
         run: uv run update.py
 
-      - name: Debug wiki auth inputs
-        if: ${{ env.PYWIKIBOT_PASSWORD_FILE_CONTENT != '' }}
+      - name: Check wiki auth secret
+        id: auth
+        env:
+          PYWIKIBOT_PASSWORD: ${{ secrets.PYWIKIBOT_PASSWORD_FILE_CONTENT }}
         run: |
-          python - <<'PY'
-          import os
-
-          password_file_content = os.environ.get("PYWIKIBOT_PASSWORD_FILE_CONTENT") or ""
-          login_user = "Masertwer"
-          login_source = "fixed-config"
-
-          print(f"password_file_content_present={bool(password_file_content)}")
-          print(f"password_file_content_length={len(password_file_content)}")
-          print(f"login_source={login_source}")
-          print(f"login_user_has_at={('@' in login_user)}")
-          print(f"login_user_length={len(login_user)}")
-          PY
+          if [ -n "$PYWIKIBOT_PASSWORD" ]; then
+            echo "has_password=true" >> "$GITHUB_OUTPUT"
+          fi
 
       - name: Write user-password.cfg
-        if: ${{ env.PYWIKIBOT_PASSWORD_FILE_CONTENT != '' }}
+        if: steps.auth.outputs.has_password == 'true'
+        env:
+          PYWIKIBOT_PASSWORD: ${{ secrets.PYWIKIBOT_PASSWORD_FILE_CONTENT }}
         run: |
-          python - <<'PY'
-          import os
-          from pathlib import Path
-
-          content = os.environ["PYWIKIBOT_PASSWORD_FILE_CONTENT"]
-          path = Path("user-password.cfg")
-          path.write_text(content, encoding="utf-8")
-          print(f"wrote {path} ({len(content)} chars)")
-          PY
+          echo "$PYWIKIBOT_PASSWORD" > user-password.cfg
 
       - name: Sync wiki pages
-        if: ${{ env.PYWIKIBOT_PASSWORD_FILE_CONTENT != '' }}
+        if: steps.auth.outputs.has_password == 'true'
         run: |
           uv run sync_wiki.py --summary "Bot: Sync data"
 
