@@ -1,4 +1,4 @@
-name: Update Arcaea Story Data
+name: Update Arcaea Game Data
 
 on:
   workflow_dispatch:
