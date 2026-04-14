@@ -36,7 +36,7 @@ jobs:
         run: uv run update.py
 
       - name: Sync wiki pages
-        if: ${{ env.PYWIKIBOT_USERNAME != '' && env.PYWIKIBOT_PASSWORD != '' }}
+        if: ${{ env.PYWIKIBOT_USERNAME != '' && env.PYWIKIBOT_PASSWORD != '' && env.PYWIKIBOT_BOTPASSWORD_SUFFIX != '' }}
         run: |
           uv run sync_wiki.py --summary "Bot: Sync data"
 

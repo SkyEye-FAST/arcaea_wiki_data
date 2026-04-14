@@ -140,20 +140,36 @@ def main() -> None:
 
     site = pywikibot.Site("arcaea", "arcaea")
     if not args.dry_run:
-        username = os.environ.get("PYWIKIBOT_USERNAME")
-        password = os.environ.get("PYWIKIBOT_PASSWORD")
-        suffix = os.environ.get("PYWIKIBOT_BOTPASSWORD_SUFFIX")
+        username = (os.environ.get("PYWIKIBOT_USERNAME") or "").strip()
+        password = (os.environ.get("PYWIKIBOT_PASSWORD") or "").strip()
+        suffix = (os.environ.get("PYWIKIBOT_BOTPASSWORD_SUFFIX") or "").strip()
 
         if password:
             if not username:
                 raise ValueError("PYWIKIBOT_USERNAME is required when PYWIKIBOT_PASSWORD is set")
 
-            login_user = username if not suffix else f"{username}@{suffix}"
+            login_user = username
+            if suffix and "@" not in username:
+                login_user = f"{username}@{suffix}"
+
             pywikibot.config.password_file = None  # type: ignore
             login_manager = ClientLoginManager(site=site, user=login_user, password=password)
             login_manager.login()
+
+            if site.user() is None:
+                raise RuntimeError(
+                    "Wiki login failed: site.user() is None after login attempt. "
+                    "Check PYWIKIBOT_USERNAME, PYWIKIBOT_PASSWORD, and "
+                    "PYWIKIBOT_BOTPASSWORD_SUFFIX secrets."
+                )
         else:
             site.login()
+
+            if site.user() is None:
+                raise RuntimeError(
+                    "Wiki login failed when using default pywikibot login flow. "
+                    "Check user-config.py and password_file credentials."
+                )
     else:
         print("Dry-run mode: skip login and do not write edits.")
 
