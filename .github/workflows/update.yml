@@ -10,8 +10,7 @@ jobs:
       contents: write
     env:
       PYWIKIBOT_USERNAME: ${{ secrets.PYWIKIBOT_USERNAME }}
-      PYWIKIBOT_PASSWORD: ${{ secrets.PYWIKIBOT_PASSWORD }}
-      PYWIKIBOT_BOTPASSWORD_SUFFIX: ${{ secrets.PYWIKIBOT_BOTPASSWORD_SUFFIX }}
+      PYWIKIBOT_PASSWORD_FILE_CONTENT: ${{ secrets.PYWIKIBOT_PASSWORD }}
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -36,28 +35,45 @@ jobs:
         run: uv run update.py
 
       - name: Debug wiki auth inputs
-        if: ${{ env.PYWIKIBOT_USERNAME != '' || env.PYWIKIBOT_PASSWORD != '' || env.PYWIKIBOT_BOTPASSWORD_SUFFIX != '' }}
+        if: ${{ env.PYWIKIBOT_USERNAME != '' || env.PYWIKIBOT_PASSWORD_FILE_CONTENT != '' }}
         run: |
           python - <<'PY'
           import os
 
+          full_login_user = (os.environ.get("PYWIKIBOT_LOGIN_USER") or "").strip()
           username = (os.environ.get("PYWIKIBOT_USERNAME") or "").strip()
-          password = (os.environ.get("PYWIKIBOT_PASSWORD") or "").strip()
-          suffix = (os.environ.get("PYWIKIBOT_BOTPASSWORD_SUFFIX") or "").strip()
+          password_file_content = os.environ.get("PYWIKIBOT_PASSWORD_FILE_CONTENT") or ""
+          if full_login_user:
+              login_user = full_login_user
+              login_source = "full-login-user-secret"
+          else:
+              login_user = username
+              login_source = "username-secret"
 
-          suffix_no_at = suffix.lstrip("@")
-          login_user = username if (not suffix_no_at or "@" in username) else f"{username}@{suffix_no_at}"
-
+          print(f"full_login_user_present={bool(full_login_user)}")
           print(f"username_present={bool(username)}")
-          print(f"password_present={bool(password)}")
-          print(f"suffix_present={bool(suffix)}")
-          print(f"suffix_has_leading_at={suffix.startswith('@')}")
+          print(f"password_file_content_present={bool(password_file_content)}")
+          print(f"password_file_content_length={len(password_file_content)}")
+          print(f"login_source={login_source}")
           print(f"login_user_has_at={('@' in login_user)}")
           print(f"login_user_length={len(login_user)}")
           PY
 
+      - name: Write user-password.cfg
+        if: ${{ env.PYWIKIBOT_PASSWORD_FILE_CONTENT != '' }}
+        run: |
+          python - <<'PY'
+          import os
+          from pathlib import Path
+
+          content = os.environ["PYWIKIBOT_PASSWORD_FILE_CONTENT"]
+          path = Path("user-password.cfg")
+          path.write_text(content, encoding="utf-8")
+          print(f"wrote {path} ({len(content)} chars)")
+          PY
+
       - name: Sync wiki pages
-        if: ${{ env.PYWIKIBOT_USERNAME != '' && env.PYWIKIBOT_PASSWORD != '' && env.PYWIKIBOT_BOTPASSWORD_SUFFIX != '' }}
+        if: ${{ env.PYWIKIBOT_PASSWORD_FILE_CONTENT != '' && env.PYWIKIBOT_USERNAME != '' }}
         run: |
           uv run sync_wiki.py --summary "Bot: Sync data"
 

@@ -9,15 +9,12 @@ family_files = {
     "arcaea": "https://wiki.arcaea.cn/api.php",
 }
 
-if os.environ.get("PYWIKIBOT_USERNAME"):
-    usernames["arcaea"]["arcaea"] = os.environ["PYWIKIBOT_USERNAME"]  # type: ignore  # noqa: F821
-else:
-    usernames["arcaea"]["arcaea"] = "Masertwer"  # type: ignore  # noqa: F821
+login_user = (
+    os.environ.get("PYWIKIBOT_LOGIN_USER") or os.environ.get("PYWIKIBOT_USERNAME") or "Masertwer"
+)
+usernames["arcaea"]["arcaea"] = login_user  # type: ignore  # noqa: F821
 
-if os.environ.get("PYWIKIBOT_PASSWORD"):
-    password_file = None
-else:
-    password_file = "user-password.cfg"
+password_file = "user-password.cfg"
 
 put_throttle = 0
 maxlag = 5

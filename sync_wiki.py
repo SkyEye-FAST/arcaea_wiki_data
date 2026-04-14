@@ -6,7 +6,6 @@ import re
 from pathlib import Path
 
 import pywikibot
-from pywikibot.login import ClientLoginManager
 from pywikibot.site import BaseSite
 
 PROJECT_ROOT = Path(__file__).resolve().parent
@@ -149,6 +148,22 @@ def ensure_authenticated(site: BaseSite, attempted_user: str) -> None:
         )
 
 
+def materialize_password_file_from_env() -> None:
+    """Write user-password.cfg from env content when provided."""
+    content = os.environ.get("PYWIKIBOT_PASSWORD_FILE_CONTENT")
+    if content is None:
+        return
+
+    password_file = PROJECT_ROOT / "user-password.cfg"
+    password_file.write_text(content, encoding="utf-8")
+
+    try:
+        password_file.chmod(0o600)
+    except OSError:
+        # Best-effort only; chmod may be unsupported on some platforms.
+        pass
+
+
 def main() -> None:
     """Run wiki sync flow using local output files and pywikibot config."""
     args = parse_args()
@@ -156,25 +171,13 @@ def main() -> None:
 
     site = pywikibot.Site("arcaea", "arcaea")
     if not args.dry_run:
+        materialize_password_file_from_env()
+
+        full_login_user = (os.environ.get("PYWIKIBOT_LOGIN_USER") or "").strip()
         username = (os.environ.get("PYWIKIBOT_USERNAME") or "").strip()
-        password = (os.environ.get("PYWIKIBOT_PASSWORD") or "").strip()
-        suffix = (os.environ.get("PYWIKIBOT_BOTPASSWORD_SUFFIX") or "").strip().lstrip("@")
 
-        if password:
-            if not username:
-                raise ValueError("PYWIKIBOT_USERNAME is required when PYWIKIBOT_PASSWORD is set")
-
-            login_user = username
-            if suffix and "@" not in username:
-                login_user = f"{username}@{suffix}"
-
-            pywikibot.config.password_file = None  # type: ignore
-            login_manager = ClientLoginManager(site=site, user=login_user, password=password)
-            login_manager.login()
-            ensure_authenticated(site, login_user)
-        else:
-            site.login()
-            ensure_authenticated(site, username or "<from-config>")
+        site.login()
+        ensure_authenticated(site, full_login_user or username or "<from-config>")
     else:
         print("Dry-run mode: skip login and do not write edits.")
 

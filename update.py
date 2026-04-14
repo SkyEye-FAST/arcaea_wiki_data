@@ -242,7 +242,11 @@ def load_pack_song_mapping_from_apk() -> tuple[dict[str, str], dict[str, str]]:
 
     apk_url: str | None = None
     version_name = ""
+    current_version = ""
     apk_output_file: Path | None = None
+
+    if OUTPUT_VERSION_FILE.exists():
+        current_version = OUTPUT_VERSION_FILE.read_text(encoding="utf-8").strip()
 
     with requests.Session() as session:
         try:
@@ -263,6 +267,31 @@ def load_pack_song_mapping_from_apk() -> tuple[dict[str, str], dict[str, str]]:
             version_name = version[:-1] if version.endswith("c") else version
             if version_name:
                 print(f"[2/5] Fetched version: {version_name}", flush=True)
+
+                # If upstream version hasn't changed and outputs already exist,
+                # skip expensive APK download/extract and reuse current output files.
+                if (
+                    current_version == version_name
+                    and OUTPUT_PACKLIST_FILE.exists()
+                    and OUTPUT_SONGLIST_FILE.exists()
+                    and OUTPUT_UNLOCKS_FILE.exists()
+                ):
+                    print(
+                        "[2/5] Version unchanged; reusing existing output data and "
+                        "skipping APK download/extract.",
+                        flush=True,
+                    )
+
+                    packlist_raw = orjson.loads(OUTPUT_PACKLIST_FILE.read_bytes())
+                    songlist_raw = orjson.loads(OUTPUT_SONGLIST_FILE.read_bytes())
+                    print(
+                        "[2/5] Loaded pack/song mappings: "
+                        f"{len(packlist_raw.get('packs', []))} packs, "
+                        f"{len(songlist_raw.get('songs', []))} songs.",
+                        flush=True,
+                    )
+                    return build_pack_song_mapping(packlist_raw, songlist_raw)
+
                 OUTPUT_VERSION_FILE.write_text(version_name + "\n", encoding="utf-8")
         except Exception as exc:
             if not (
