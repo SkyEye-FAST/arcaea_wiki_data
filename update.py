@@ -7,12 +7,11 @@ import zipfile
 from collections.abc import Callable
 from pathlib import Path
 from typing import Any
-from urllib.parse import parse_qs
+from urllib.parse import parse_qs, urlparse
 
 import orjson
 import requests
 from fake_useragent import UserAgent
-from requests.compat import urlparse
 
 PROJECT_ROOT = Path(__file__).resolve().parent
 SUBMODULE_ROOT = PROJECT_ROOT / "arcaea_story"
@@ -82,8 +81,7 @@ def parse_json_story(
     if not file_path.exists():
         return {}
 
-    with open(file_path, encoding="utf-8") as f:
-        data = orjson.loads(f.read())
+    data = orjson.loads(file_path.read_bytes())
 
     sorted_keys = sorted(
         data.keys(),
@@ -117,8 +115,7 @@ def parse_vns_story_set(
                 chapter_content[lang] = ""
                 continue
 
-            with open(file_path, encoding="utf-8") as f:
-                full_text = f.read()
+            full_text = file_path.read_text(encoding="utf-8")
 
             matches = re.findall(r'(?:say|say_legacy)\s+"((?:[^"\\]|\\.)*)"', full_text, re.DOTALL)
             cleaned = [text_processor(m.replace(r"\"", '"')) for m in matches]
@@ -441,6 +438,16 @@ def build_story_data(
     def get_char_name(char_id: Any) -> str:
         return char_mapping.get(str(char_id), f"Unknown ({char_id})")
 
+    def get_title_clean(entry: dict[str, Any], major: str) -> str:
+        m = entry.get("minor", 0)
+        alt_p = entry.get("alternatePrefix", "")
+        alt_s = entry.get("alternateSuffix", "")
+        if alt_s:
+            return f"{alt_p or major}-{alt_s}"
+        if alt_p:
+            return f"{alt_p}-{m}"
+        return f"{major}-{m}"
+
     lua_story_data: dict[str, dict[str, Any]] = {}
 
     for story_dir in [STORY_ROOT / "main", STORY_ROOT / "side"]:
@@ -456,8 +463,7 @@ def build_story_data(
             processed_files += 1
             print(f"[3/5] Processing {entry_file.relative_to(PROJECT_ROOT)}...", flush=True)
             try:
-                with open(entry_file, encoding="utf-8") as f:
-                    data = orjson.loads(f.read())
+                data = orjson.loads(entry_file.read_bytes())
             except Exception:
                 continue
 
@@ -467,22 +473,11 @@ def build_story_data(
             minor_to_title: dict[int, str] = {}
             for entry in data["entries"]:
                 m = entry.get("minor", 0)
-                alt_p = entry.get("alternatePrefix", "")
-                alt_s = entry.get("alternateSuffix", "")
-                if alt_s:
-                    pref = alt_p if alt_p else major
-                    title = f"{pref}-{alt_s}"
-                elif alt_p:
-                    title = f"{alt_p}-{m}"
-                else:
-                    title = f"{major}-{m}"
-                minor_to_title[m] = title
+                minor_to_title[m] = get_title_clean(entry, major)
 
             for entry in data["entries"]:
                 story_data = entry.get("storyData")
                 minor = entry.get("minor", 0)
-                alt_prefix = entry.get("alternatePrefix", "")
-                alt_suffix = entry.get("alternateSuffix", "")
 
                 seq_key = story_data if story_data else f"{major}-{minor}"
                 keys_to_process = [seq_key]
@@ -494,14 +489,7 @@ def build_story_data(
                         continue
 
                     chapter_content = all_stories[key]
-
-                    if alt_suffix:
-                        prefix = alt_prefix if alt_prefix else major
-                        title_clean = f"{prefix}-{alt_suffix}"
-                    elif alt_prefix:
-                        title_clean = f"{alt_prefix}-{minor}"
-                    else:
-                        title_clean = f"{major}-{minor}"
+                    title_clean = get_title_clean(entry, major)
 
                     is_changed = key.endswith("a")
 
@@ -661,11 +649,8 @@ def main() -> None:
 
     print("[0/5] Starting Lua export pipeline...", flush=True)
 
-    with open(PROJECT_ROOT / "char_mapping.json", encoding="utf-8") as f:
-        char_mapping = orjson.loads(f.read())
-
-    with open(PROJECT_ROOT / "manual.json", encoding="utf-8") as f:
-        manual_mapping_raw = orjson.loads(f.read())
+    char_mapping = orjson.loads((PROJECT_ROOT / "char_mapping.json").read_bytes())
+    manual_mapping_raw = orjson.loads((PROJECT_ROOT / "manual.json").read_bytes())
     manual_mapping = build_manual_mapping(manual_mapping_raw)
 
     print("[1/5] Loaded local mapping files.", flush=True)
