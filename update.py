@@ -530,6 +530,18 @@ def build_story_data(
                         params["hidden"] = "1"
 
                     if not is_changed:
+                        if entry.get("storyCgPath") or entry.get("storyType") == "vn":
+                            params["hasCg"] = "1"
+
+                        icon = entry.get("icon")
+                        if icon:
+                            if icon.startswith("entry_"):
+                                icon = icon[6:]
+                            elif icon.startswith("cell"):
+                                icon = icon[5:]
+                            icon = icon.replace("-", "_")
+                            params["icon"] = icon
+
                         if req_minor_str:
                             params["requiredMinor"] = req_minor_str
                         if additional_req_str:
