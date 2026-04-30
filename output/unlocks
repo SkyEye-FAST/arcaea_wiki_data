@@ -7560,6 +7560,72 @@
           "credit": 280
         }
       ]
+    },
+    {
+      "songId": "asgore",
+      "ratingClass": 1,
+      "conditions": [
+        {
+          "type": 1,
+          "song_id": "spiderdance",
+          "song_difficulty": 1,
+          "grade": 0
+        },
+        {
+          "type": 1,
+          "song_id": "spearofjustice",
+          "song_difficulty": 1,
+          "grade": 0
+        },
+        {
+          "type": 0,
+          "credit": 80
+        }
+      ]
+    },
+    {
+      "songId": "asgore",
+      "ratingClass": 2,
+      "conditions": [
+        {
+          "type": 1,
+          "song_id": "spiderdance",
+          "song_difficulty": 2,
+          "grade": 0
+        },
+        {
+          "type": 1,
+          "song_id": "spearofjustice",
+          "song_difficulty": 2,
+          "grade": 0
+        },
+        {
+          "type": 0,
+          "credit": 120
+        }
+      ]
+    },
+    {
+      "songId": "asgore",
+      "ratingClass": 4,
+      "conditions": [
+        {
+          "type": 1,
+          "song_id": "spiderdance",
+          "song_difficulty": 4,
+          "grade": 0
+        },
+        {
+          "type": 1,
+          "song_id": "spearofjustice",
+          "song_difficulty": 4,
+          "grade": 0
+        },
+        {
+          "type": 0,
+          "credit": 180
+        }
+      ]
     }
   ]
 }

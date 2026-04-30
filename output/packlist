@@ -592,6 +592,23 @@
       }
     },
     {
+      "id": "undertale_append_1",
+      "section": "collab",
+      "pack_parent": "undertale",
+      "plus_character": -1,
+      "limitedSaleEndTime": 1809043200,
+      "name_localized": {
+        "en": "UNDERTALE Pack Append"
+      },
+      "description_localized": {
+        "en": "Hope: for a future of Humans and Monsters.\n\nRetrace your steps in the Underground with\n3 new songs from UNDERTALE.\n\nFeel the pounding of each and every one\nof those hearts!",
+        "ja": "きぼうをいだいて。　ニンゲンと\nモンスターの　みらいのために。\n\nUNDERTALEより、地底の世界の\n冒険を彩った3曲が登場。\n\n胸は高鳴り、今皆のこころがひとつになる。",
+        "ko": "희망...\n인간과 괴물이 평화롭게 지내는\n새롭고 밝은 미래의 시작입니다.\n\nUNDERTALE에서 건너온 3개의 악곡으로,\n지하 세계에서 겪었던 여정을 되돌아보세요.\n\n모든 이들의 심장이 박동하는 소리가 들려옵니다!",
+        "zh-Hant": "我希望：\n那個人類與怪物共存的未來。\n\n重溫地下世界的足跡，聆聽來自\nUNDERTALE的三首全新歌曲。\n\n感受每一顆跳動的心！",
+        "zh-Hans": "我希望：\n那个人类与怪物共存的未来。\n\n重温地下世界的足迹，聆听来自\nUNDERTALE的三首全新歌曲。\n\n感受每一颗跳动的心！"
+      }
+    },
+    {
       "id": "rotaeno",
       "section": "collab",
       "custom_banner": true,
