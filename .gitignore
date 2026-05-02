@@ -3,6 +3,9 @@ __pycache__/
 
 logs/
 apicache/
+.arcaea-story-data/
+.update-skipped
+arcaea_story/
 
 *.apk
 *.ctrl

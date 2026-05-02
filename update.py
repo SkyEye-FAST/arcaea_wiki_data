@@ -1,29 +1,36 @@
 """Export Arcaea data files from game APK for wiki.arcaea.cn."""
 
 import re
+import shutil
 import sys
 import time
 import zipfile
 from collections.abc import Callable
+from datetime import datetime, timedelta
 from pathlib import Path
 from typing import Any
 from urllib.parse import parse_qs, urlparse
+from zoneinfo import ZoneInfo
 
 import orjson
 import requests
 from fake_useragent import UserAgent
 
 PROJECT_ROOT = Path(__file__).resolve().parent
-SUBMODULE_ROOT = PROJECT_ROOT / "arcaea_story"
-STORY_ROOT = SUBMODULE_ROOT / "story"
+STORY_ROOT = PROJECT_ROOT / ".arcaea-story-data" / "story"
 OUTPUT_DIR = PROJECT_ROOT / "output"
 OUTPUT_PACKLIST_FILE = OUTPUT_DIR / "packlist"
 OUTPUT_SONGLIST_FILE = OUTPUT_DIR / "songlist"
 OUTPUT_UNLOCKS_FILE = OUTPUT_DIR / "unlocks"
 OUTPUT_VERSION_FILE = OUTPUT_DIR / "version"
+UPDATE_SKIPPED_MARKER = PROJECT_ROOT / ".update-skipped"
 LANGUAGES = ["zh-Hans", "zh-Hant", "en", "ja", "ko"]
 LANG_KEYS = {"en": "en", "zh-Hans": "zh-hans", "zh-Hant": "zh-hant", "ja": "ja", "ko": "ko"}
 APK_INFO_API = "https://webapi.lowiro.com/webapi/serve/static/bin/arcaea/apk/"
+UPDATE_LISTEN_TIMEZONE = ZoneInfo("Asia/Shanghai")
+UPDATE_LISTEN_START = (7, 55)
+UPDATE_LISTEN_END = (8, 10)
+UPDATE_LISTEN_POLL_SECONDS = 30
 RETRY_STATUS_CODES = {403, 429, 500, 502, 503, 504}
 MAX_HTTP_RETRIES = 5
 RETRY_BASE_DELAY = 1.5
@@ -43,18 +50,64 @@ FALLBACK_UA = (
 def load_pack_song_mapping_from_apk_bytes(
     apk_data: bytes,
 ) -> tuple[dict[str, str], dict[str, str], bytes, bytes, bytes]:
-    """Read pack/song data from APK bytes."""
+    """Read pack/song data from APK bytes and extract needed story sources."""
     from io import BytesIO
 
     with zipfile.ZipFile(BytesIO(apk_data)) as apk_zip:
         packlist_bytes = apk_zip.read("assets/songs/packlist")
         songlist_bytes = apk_zip.read("assets/songs/songlist")
         unlocks_bytes = apk_zip.read("assets/songs/unlocks")
+        extract_story_sources_from_apk_zip(apk_zip)
 
     packlist_raw = orjson.loads(packlist_bytes)
     songlist_raw = orjson.loads(songlist_bytes)
     pack_mapping, song_mapping = build_pack_song_mapping(packlist_raw, songlist_raw)
     return pack_mapping, song_mapping, packlist_bytes, songlist_bytes, unlocks_bytes
+
+
+def should_extract_story_member(relative_path: Path) -> bool:
+    """Return whether an APK app-data story member is used by this exporter."""
+    parts = relative_path.parts
+    if not parts:
+        return False
+
+    if parts[0] in {"main", "side"}:
+        return len(parts) == 2 and (parts[1].startswith("entries_") or parts[1] == "vn")
+
+    if parts[0] == "vn":
+        return len(parts) == 2 and parts[1].endswith(".vns")
+
+    return False
+
+
+def extract_story_sources_from_apk_zip(apk_zip: zipfile.ZipFile) -> None:
+    """Extract only story files consumed by this exporter from APK app-data."""
+    source_prefix = "assets/app-data/story/"
+    temp_story_root = STORY_ROOT.with_name(STORY_ROOT.name + ".tmp")
+
+    shutil.rmtree(temp_story_root, ignore_errors=True)
+    temp_story_root.mkdir(parents=True, exist_ok=True)
+
+    extracted_count = 0
+    for member in apk_zip.infolist():
+        if member.is_dir() or not member.filename.startswith(source_prefix):
+            continue
+
+        relative_path = Path(member.filename[len(source_prefix) :])
+        if not should_extract_story_member(relative_path):
+            continue
+
+        output_path = temp_story_root / relative_path
+        output_path.parent.mkdir(parents=True, exist_ok=True)
+        output_path.write_bytes(apk_zip.read(member))
+        extracted_count += 1
+
+    if extracted_count == 0:
+        raise RuntimeError("No usable story files found in APK app-data")
+
+    shutil.rmtree(STORY_ROOT, ignore_errors=True)
+    temp_story_root.replace(STORY_ROOT)
+    print(f"[2/5] Extracted {extracted_count} story source files.", flush=True)
 
 
 def format_wiki_text(text: str) -> str:
@@ -233,6 +286,91 @@ def request_with_retry(
     raise RuntimeError(f"Request failed after retries: {url}")
 
 
+def clean_version(version: str) -> str:
+    """Normalize APK metadata version strings for comparison/output."""
+    version = version.strip()
+    return version[:-1] if version.endswith("c") else version
+
+
+def fetch_latest_apk_version(session: requests.Session) -> str:
+    """Fetch the latest APK version from upstream metadata."""
+    info_resp = request_with_retry(session, APK_INFO_API, timeout=30)
+    with info_resp:
+        info = info_resp.json()
+
+    if not info.get("success"):
+        raise RuntimeError("Failed to fetch APK metadata")
+
+    info_value = info.get("value", {})
+    return clean_version(str(info_value.get("version", "")))
+
+
+def wait_for_new_apk_version() -> bool:
+    """Poll from 07:55 to 08:10 Asia/Shanghai until upstream version changes."""
+    current_version = ""
+    if OUTPUT_VERSION_FILE.exists():
+        current_version = OUTPUT_VERSION_FILE.read_text(encoding="utf-8").strip()
+
+    now = datetime.now(UPDATE_LISTEN_TIMEZONE)
+    start_at = now.replace(
+        hour=UPDATE_LISTEN_START[0],
+        minute=UPDATE_LISTEN_START[1],
+        second=0,
+        microsecond=0,
+    )
+    end_at = now.replace(
+        hour=UPDATE_LISTEN_END[0],
+        minute=UPDATE_LISTEN_END[1],
+        second=0,
+        microsecond=0,
+    )
+    if end_at <= start_at:
+        end_at += timedelta(days=1)
+
+    print(
+        "[0/5] Listening for new APK version from "
+        f"{start_at:%Y-%m-%d %H:%M} to {end_at:%Y-%m-%d %H:%M} "
+        f"({UPDATE_LISTEN_TIMEZONE.key}).",
+        flush=True,
+    )
+    if current_version:
+        print(f"[0/5] Current output version: {current_version}", flush=True)
+
+    if now < start_at:
+        wait_seconds = (start_at - now).total_seconds()
+        print(f"[0/5] Waiting {wait_seconds:.0f}s until listen window starts...", flush=True)
+        time.sleep(wait_seconds)
+    elif now > end_at:
+        print("[0/5] Listen window has already ended; skipping update.", flush=True)
+        return False
+
+    with requests.Session() as session:
+        while True:
+            now = datetime.now(UPDATE_LISTEN_TIMEZONE)
+            if now > end_at:
+                break
+
+            try:
+                latest_version = fetch_latest_apk_version(session)
+                if latest_version:
+                    print(f"[0/5] Latest upstream version: {latest_version}", flush=True)
+                    if latest_version != current_version:
+                        print("[0/5] New version detected; continuing export.", flush=True)
+                        return True
+                else:
+                    print("[0/5] Upstream metadata did not include a version.", flush=True)
+            except Exception as exc:
+                print(f"[0/5] Version check failed: {exc}", flush=True)
+
+            remaining_seconds = (end_at - datetime.now(UPDATE_LISTEN_TIMEZONE)).total_seconds()
+            if remaining_seconds <= 0:
+                break
+            time.sleep(min(UPDATE_LISTEN_POLL_SECONDS, remaining_seconds))
+
+    print("[0/5] No new version detected before 08:10; stopping.", flush=True)
+    return False
+
+
 def load_pack_song_mapping_from_apk() -> tuple[dict[str, str], dict[str, str]]:
     """Fetch latest APK and load packlist/songlist mapping from assets/app-data."""
     OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
@@ -260,8 +398,7 @@ def load_pack_song_mapping_from_apk() -> tuple[dict[str, str], dict[str, str]]:
             apk_filename = derive_apk_filename(info_value, apk_url)
             apk_output_file = PROJECT_ROOT / apk_filename
 
-            version = str(info_value.get("version", "")).strip()
-            version_name = version[:-1] if version.endswith("c") else version
+            version_name = clean_version(str(info_value.get("version", "")))
             if version_name:
                 print(f"[2/5] Fetched version: {version_name}", flush=True)
 
@@ -288,8 +425,6 @@ def load_pack_song_mapping_from_apk() -> tuple[dict[str, str], dict[str, str]]:
                         flush=True,
                     )
                     return build_pack_song_mapping(packlist_raw, songlist_raw)
-
-                OUTPUT_VERSION_FILE.write_text(version_name + "\n", encoding="utf-8")
         except Exception as exc:
             if not (
                 OUTPUT_PACKLIST_FILE.exists()
@@ -654,12 +789,17 @@ def write_lua_outputs(lua_story_data: dict[str, dict[str, Any]]) -> None:
 
 def main() -> None:
     """Run full Lua export pipeline."""
-    if not STORY_ROOT.exists():
-        raise FileNotFoundError(f"Story root not found: {STORY_ROOT}")
-
     OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
+    UPDATE_SKIPPED_MARKER.unlink(missing_ok=True)
 
     print("[0/5] Starting Lua export pipeline...", flush=True)
+
+    if not wait_for_new_apk_version():
+        UPDATE_SKIPPED_MARKER.write_text(
+            "no new version before listen deadline\n",
+            encoding="utf-8",
+        )
+        return
 
     char_mapping = orjson.loads((PROJECT_ROOT / "char_mapping.json").read_bytes())
     manual_mapping_raw = orjson.loads((PROJECT_ROOT / "manual.json").read_bytes())
@@ -668,6 +808,8 @@ def main() -> None:
     print("[1/5] Loaded local mapping files.", flush=True)
 
     pack_mapping, song_mapping = load_pack_song_mapping_from_apk()
+    if not STORY_ROOT.exists():
+        raise FileNotFoundError(f"Story root not found: {STORY_ROOT}")
 
     print("[3/5] Parsing story sources...", flush=True)
     main_stories = parse_json_story(STORY_ROOT / "main" / "vn", format_wiki_text)

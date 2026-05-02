@@ -11,11 +11,6 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-        with:
-          submodules: recursive
-
-      - name: Update submodule to latest
-        run: git submodule update --init --remote --recursive
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -29,9 +24,17 @@ jobs:
         run: uv sync --frozen
 
       - name: Generate Lua outputs
-        run: uv run update.py
+        id: generate
+        run: |
+          uv run update.py
+          if [ -f .update-skipped ]; then
+            echo "updated=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "updated=true" >> "$GITHUB_OUTPUT"
+          fi
 
       - name: Check wiki auth secret
+        if: steps.generate.outputs.updated == 'true'
         id: auth
         env:
           PYWIKIBOT_PASSWORD: ${{ secrets.PYWIKIBOT_PASSWORD_FILE_CONTENT }}
@@ -41,20 +44,21 @@ jobs:
           fi
 
       - name: Write user-password.cfg
-        if: steps.auth.outputs.has_password == 'true'
+        if: steps.generate.outputs.updated == 'true' && steps.auth.outputs.has_password == 'true'
         env:
           PYWIKIBOT_PASSWORD: ${{ secrets.PYWIKIBOT_PASSWORD_FILE_CONTENT }}
         run: |
           echo "$PYWIKIBOT_PASSWORD" > user-password.cfg
 
       - name: Sync wiki pages
-        if: steps.auth.outputs.has_password == 'true'
+        if: steps.generate.outputs.updated == 'true' && steps.auth.outputs.has_password == 'true'
         run: |
           VERSION=$(cat output/version)
           echo "VERSION=$VERSION" >> $GITHUB_ENV
           uv run sync_wiki.py --summary "Bot: Sync data to v$VERSION"
 
       - name: Commit changes
+        if: steps.generate.outputs.updated == 'true'
         uses: EndBug/add-and-commit@v10
         with:
           default_author: github_actions
