@@ -7,6 +7,7 @@ import time
 import zipfile
 from collections.abc import Callable
 from datetime import datetime, timedelta
+from io import BytesIO
 from pathlib import Path
 from typing import Any
 from urllib.parse import parse_qs, urlparse
@@ -30,7 +31,7 @@ APK_INFO_API = "https://webapi.lowiro.com/webapi/serve/static/bin/arcaea/apk/"
 UPDATE_LISTEN_TIMEZONE = ZoneInfo("Asia/Shanghai")
 UPDATE_LISTEN_START = (7, 55)
 UPDATE_LISTEN_END = (8, 10)
-UPDATE_LISTEN_POLL_SECONDS = 30
+UPDATE_LISTEN_POLL_SECONDS = 10
 RETRY_STATUS_CODES = {403, 429, 500, 502, 503, 504}
 MAX_HTTP_RETRIES = 5
 RETRY_BASE_DELAY = 1.5
@@ -47,39 +48,6 @@ FALLBACK_UA = (
 )
 
 
-def load_pack_song_mapping_from_apk_bytes(
-    apk_data: bytes,
-) -> tuple[dict[str, str], dict[str, str], bytes, bytes, bytes]:
-    """Read pack/song data from APK bytes and extract needed story sources."""
-    from io import BytesIO
-
-    with zipfile.ZipFile(BytesIO(apk_data)) as apk_zip:
-        packlist_bytes = apk_zip.read("assets/songs/packlist")
-        songlist_bytes = apk_zip.read("assets/songs/songlist")
-        unlocks_bytes = apk_zip.read("assets/songs/unlocks")
-        extract_story_sources_from_apk_zip(apk_zip)
-
-    packlist_raw = orjson.loads(packlist_bytes)
-    songlist_raw = orjson.loads(songlist_bytes)
-    pack_mapping, song_mapping = build_pack_song_mapping(packlist_raw, songlist_raw)
-    return pack_mapping, song_mapping, packlist_bytes, songlist_bytes, unlocks_bytes
-
-
-def should_extract_story_member(relative_path: Path) -> bool:
-    """Return whether an APK app-data story member is used by this exporter."""
-    parts = relative_path.parts
-    if not parts:
-        return False
-
-    if parts[0] in {"main", "side"}:
-        return len(parts) == 2 and (parts[1].startswith("entries_") or parts[1] == "vn")
-
-    if parts[0] == "vn":
-        return len(parts) == 2 and parts[1].endswith(".vns")
-
-    return False
-
-
 def extract_story_sources_from_apk_zip(apk_zip: zipfile.ZipFile) -> None:
     """Extract only story files consumed by this exporter from APK app-data."""
     source_prefix = "assets/app-data/story/"
@@ -94,7 +62,14 @@ def extract_story_sources_from_apk_zip(apk_zip: zipfile.ZipFile) -> None:
             continue
 
         relative_path = Path(member.filename[len(source_prefix) :])
-        if not should_extract_story_member(relative_path):
+        parts = relative_path.parts
+        is_entries_or_vn_json = (
+            len(parts) == 2
+            and parts[0] in {"main", "side"}
+            and (parts[1].startswith("entries_") or parts[1] == "vn")
+        )
+        is_vns_script = len(parts) == 2 and parts[0] == "vn" and parts[1].endswith(".vns")
+        if not (is_entries_or_vn_json or is_vns_script):
             continue
 
         output_path = temp_story_root / relative_path
@@ -179,18 +154,13 @@ def parse_vns_story_set(
     return result
 
 
-def random_user_agent() -> str:
-    """Generate random UA using fake-useragent, with local fallback."""
-    try:
-        return UserAgent().random
-    except Exception:
-        return FALLBACK_UA
-
-
 def build_request_headers() -> dict[str, str]:
     """Generate headers that mimic a real user request profile."""
     headers = dict(REQUEST_HEADERS_BASE)
-    headers["User-Agent"] = random_user_agent()
+    try:
+        headers["User-Agent"] = UserAgent().random
+    except Exception:
+        headers["User-Agent"] = FALLBACK_UA
     return headers
 
 
@@ -286,25 +256,6 @@ def request_with_retry(
     raise RuntimeError(f"Request failed after retries: {url}")
 
 
-def clean_version(version: str) -> str:
-    """Normalize APK metadata version strings for comparison/output."""
-    version = version.strip()
-    return version[:-1] if version.endswith("c") else version
-
-
-def fetch_latest_apk_version(session: requests.Session) -> str:
-    """Fetch the latest APK version from upstream metadata."""
-    info_resp = request_with_retry(session, APK_INFO_API, timeout=30)
-    with info_resp:
-        info = info_resp.json()
-
-    if not info.get("success"):
-        raise RuntimeError("Failed to fetch APK metadata")
-
-    info_value = info.get("value", {})
-    return clean_version(str(info_value.get("version", "")))
-
-
 def wait_for_new_apk_version() -> bool:
     """Poll from 07:55 to 08:10 Asia/Shanghai until upstream version changes."""
     current_version = ""
@@ -351,7 +302,15 @@ def wait_for_new_apk_version() -> bool:
                 break
 
             try:
-                latest_version = fetch_latest_apk_version(session)
+                info_resp = request_with_retry(session, APK_INFO_API, timeout=30)
+                with info_resp:
+                    info = info_resp.json()
+
+                if not info.get("success"):
+                    raise RuntimeError("Failed to fetch APK metadata")
+
+                latest_version = str(info.get("value", {}).get("version", "")).strip()
+                latest_version = latest_version.removesuffix("c")
                 if latest_version:
                     print(f"[0/5] Latest upstream version: {latest_version}", flush=True)
                     if latest_version != current_version:
@@ -398,7 +357,7 @@ def load_pack_song_mapping_from_apk() -> tuple[dict[str, str], dict[str, str]]:
             apk_filename = derive_apk_filename(info_value, apk_url)
             apk_output_file = PROJECT_ROOT / apk_filename
 
-            version_name = clean_version(str(info_value.get("version", "")))
+            version_name = str(info_value.get("version", "")).strip().removesuffix("c")
             if version_name:
                 print(f"[2/5] Fetched version: {version_name}", flush=True)
 
@@ -514,13 +473,15 @@ def load_pack_song_mapping_from_apk() -> tuple[dict[str, str], dict[str, str]]:
     if apk_data is None:
         raise RuntimeError("APK data is empty")
 
-    (
-        pack_mapping,
-        song_mapping,
-        packlist_bytes,
-        songlist_bytes,
-        unlocks_bytes,
-    ) = load_pack_song_mapping_from_apk_bytes(apk_data)
+    with zipfile.ZipFile(BytesIO(apk_data)) as apk_zip:
+        packlist_bytes = apk_zip.read("assets/songs/packlist")
+        songlist_bytes = apk_zip.read("assets/songs/songlist")
+        unlocks_bytes = apk_zip.read("assets/songs/unlocks")
+        extract_story_sources_from_apk_zip(apk_zip)
+
+    packlist_raw = orjson.loads(packlist_bytes)
+    songlist_raw = orjson.loads(songlist_bytes)
+    pack_mapping, song_mapping = build_pack_song_mapping(packlist_raw, songlist_raw)
 
     OUTPUT_PACKLIST_FILE.write_bytes(packlist_bytes)
     OUTPUT_SONGLIST_FILE.write_bytes(songlist_bytes)
