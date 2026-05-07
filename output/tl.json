@@ -1,0 +1,5330 @@
+{
+  "\n\n\nMemorize them.\n\n\n\n\nYou have %@ seconds.": {
+    "zh-Hans": "\n\n\n将它们牢记于心。\n\n\n\n\n尽你所能吧，你还有%@秒的时间。",
+    "zh-Hant": "\n\n\n將它們牢記於心。\n\n\n\n\n盡你所能吧，你還有%@秒的時間。"
+  },
+  "\n\nWARNING!\nWarped Shard/Stamina has already been consumed.\nExiting will abandon your Course.": {
+    "zh-Hans": "\n\n警告！体力 / 次元结晶已经被消耗\n退出将视为放弃挑战",
+    "zh-Hant": "\n\n警告！體力 / 次元結晶已經被消耗\n退出將視為放棄挑戰"
+  },
+  "\n\nWARNING! Stamina has already been consumed.\nExiting will lose World Mode progress.": {
+    "zh-Hans": "\n\n警告！在开始关卡时你的体力就已经被消耗！\n无视这条信息将失去本次应当获得的进展。",
+    "zh-Hant": "\n\n警告： 已經消耗了體力\n忽略警告將導致世界模式進度遺失。"
+  },
+  " Retry": {
+    "zh-Hans": "重试",
+    "zh-Hant": "重試"
+  },
+  " Unlock": {
+    "zh-Hans": "全部内容",
+    "zh-Hant": "全部內容"
+  },
+  "!": {
+    "zh-Hans": "!",
+    "zh-Hant": "!"
+  },
+  "%1 less than\n\"%2\"": {
+    "zh-Hans": "%1度次于\n\"%2\"",
+    "zh-Hant": "%1度次於\n\"%2\""
+  },
+  "%1 less than\nthe first played": {
+    "zh-Hans": "%1度次于\n首度游玩之曲",
+    "zh-Hant": "%1度次於\n首度遊玩之曲"
+  },
+  "%1 more than\n\"%2\"": {
+    "zh-Hans": "%1度胜过\n\"%2\"",
+    "zh-Hant": "%1度勝過\n\"%2\""
+  },
+  "%1 more than\nthe first played": {
+    "zh-Hans": "%1度胜过\n首度游玩之曲",
+    "zh-Hant": "%1度勝過\n首度遊玩之曲"
+  },
+  "%1@ Gain +%2@% World progress,\nx%3@ Recollection Rate loss": {
+    "zh-Hans": "%1@获得+%2@%世界进度\nx%3@回忆率损失量",
+    "zh-Hant": "%1@獲得+%2@%世界進度\nx%3@回憶率損失量"
+  },
+  "%1@ Songs Favorited": {
+    "zh-Hans": "已收藏 %1@ 首歌曲",
+    "zh-Hant": "已收藏 %1@ 首歌曲"
+  },
+  "%1@ in Act I, Part I must be completed before this story can be unlocked.": {
+    "zh-Hans": "须完成Act I: Part I的%1@以解锁此故事。",
+    "zh-Hant": "須完成Act I: Part I的%1@以解鎖此故事。"
+  },
+  "%1@MB of free space is recommended to install this update.\nPlease check your device's storage.": {
+    "zh-Hans": "此次更新需要占用%1@MB内存，请确保您的设备有足够存储空间。",
+    "zh-Hant": "此次更新預估需要佔用%1@MB，請確保您的設備有足夠存儲空間。"
+  },
+  "%1@MB will be downloaded.": {
+    "zh-Hans": "预计大小：%1@mb",
+    "zh-Hant": "預計大小：%1@mb"
+  },
+  "%@\nOR %2@": {
+    "zh-Hans": "%@\n或 %2@",
+    "zh-Hant": "%@\n或 %2@"
+  },
+  "%@\nUnlock using %2@ %3@?": {
+    "zh-Hans": "%@\n使用 %2@ %3@解除封印吗？",
+    "zh-Hant": "%@\n使用 %2@ %3@解除封印嗎？"
+  },
+  "%@\nUnlock using Memory Archive Ticket?": {
+    "zh-Hans": "%@\n确定通过消耗兑换券来获取该歌曲吗？",
+    "zh-Hant": "%@\n確定通過消耗兌換券來獲取該歌曲嗎？"
+  },
+  "%@ %2@ times. %3@": {
+    "zh-Hans": "%@ %2@回 %3@",
+    "zh-Hant": "%@ %2@回 %3@"
+  },
+  "%@ Fragments": {
+    "zh-Hans": "%@ 残片",
+    "zh-Hant": "%@ 殘片"
+  },
+  "%@ Fragments can be periodically converted to stamina.": {
+    "zh-Hans": "可定期消耗%@残片补充体力。",
+    "zh-Hant": "可定期消耗%@殘片補充體力。"
+  },
+  "%@ Minute(s) Until Full": {
+    "zh-Hans": "装满需要%@分钟",
+    "zh-Hant": "距離完全恢復還有 %@ 分鐘。"
+  },
+  "%@ OR %2@": {
+    "zh-Hans": "%@ 或 %2@",
+    "zh-Hant": "%@ 或 %2@"
+  },
+  "%@ STEPS": {
+    "zh-Hans": "%@ STEPS",
+    "zh-Hant": "%@ STEPS"
+  },
+  "%@ Second(s) Until Full": {
+    "zh-Hans": "装满需要%@秒",
+    "zh-Hant": "距離完全恢復還有 %@ 秒。"
+  },
+  "%@ Steps": {
+    "zh-Hans": "%@ 步",
+    "zh-Hant": "%@ 步"
+  },
+  "%@ after:": {
+    "zh-Hans": "剩余%@数量：",
+    "zh-Hant": "殘餘%@數量："
+  },
+  "%@ invited you to Link Play": {
+    "zh-Hans": "%@邀请你一起Link Play！",
+    "zh-Hant": "%@邀請你一起Link Play！"
+  },
+  "%@ needed:": {
+    "zh-Hans": "需要%@数量：",
+    "zh-Hant": "必要%@數量："
+  },
+  "%@ seconds remain": {
+    "zh-Hans": "仅剩%@秒",
+    "zh-Hant": "僅剩%@秒"
+  },
+  "%@/%2@ Obtained": {
+    "zh-Hans": "收集数量 %@/%2@",
+    "zh-Hant": "收集數量 %@/%2@"
+  },
+  "%@/%2@ packs unlocked": {
+    "zh-Hans": "已解锁 %@/%2@ 个曲包",
+    "zh-Hant": "已解鎖 %@/%2@ 個曲包"
+  },
+  "%@/%2@ songs unlocked": {
+    "zh-Hans": "%@/%2@首歌曲已解锁",
+    "zh-Hant": "%@/%2@首歌曲已解鎖"
+  },
+  "%@:%2@ Until Full": {
+    "zh-Hans": "装满需要%@:%2@",
+    "zh-Hant": "距離完全恢復還有 %@:%2@。"
+  },
+  "%@d": {
+    "zh-Hans": "%@天",
+    "zh-Hant": "%@天"
+  },
+  "%@d %2@h": {
+    "zh-Hans": "%@天 %2@时",
+    "zh-Hant": "%@天 %2@小時"
+  },
+  "%@h": {
+    "zh-Hans": "%@小时",
+    "zh-Hant": "%@小時"
+  },
+  "%@h %2@m": {
+    "zh-Hans": "%@时 %2@分",
+    "zh-Hant": "%@小時 %2@分"
+  },
+  "%@m": {
+    "zh-Hans": "%@分",
+    "zh-Hant": "%@分"
+  },
+  "%@s": {
+    "zh-Hans": "%@秒",
+    "zh-Hant": "%@秒"
+  },
+  "%i / %i Steps": {
+    "zh-Hans": "目前步数 %i/%i",
+    "zh-Hant": "目前步數 %i/%i"
+  },
+  "( ALL DIFFICULTIES )": {
+    "zh-Hans": "（全难度）",
+    "zh-Hant": "（全難度）"
+  },
+  "+%@ Songs": {
+    "zh-Hans": "+%@首歌曲",
+    "zh-Hant": "+%@首歌曲"
+  },
+  ", 108.": {
+    "zh-Hans": "，壹零捌。",
+    "zh-Hant": "，壹零捌。"
+  },
+  "- None -": {
+    "zh-Hans": "无",
+    "zh-Hant": "無"
+  },
+  "1 second remains": {
+    "zh-Hans": "仅剩1秒",
+    "zh-Hant": "僅剩1秒"
+  },
+  "5th Anniversary Ticket": {
+    "zh-Hans": "五周年兑换券",
+    "zh-Hant": "五週年兌換券"
+  },
+  "???": {
+    "zh-Hans": "???",
+    "zh-Hant": "???"
+  },
+  "@%d held": {
+    "zh-Hans": "已持有：@%d",
+    "zh-Hant": "已持有：@%d"
+  },
+  "A Perfect Wish": {
+    "zh-Hans": "完美之愿",
+    "zh-Hant": "完美之願"
+  },
+  "A failure.": {
+    "zh-Hans": "不堪一击",
+    "zh-Hant": "不堪一擊"
+  },
+  "A final entry, a final signature.": {
+    "zh-Hans": "最后的字句，最后的署名。",
+    "zh-Hant": "最後的字句，最後的署名。"
+  },
+  "A network error has occurred.\nPlease re-enter Axiom of the End.": {
+    "zh-Hans": "网络连接出现了问题\n请重新进入Axiom of the End",
+    "zh-Hant": "網路連線出現了問題\n請重新進入Axiom of the End"
+  },
+  "A network error has occurred.\nThe song could not be started online.\nPlease check your network and try again, or continue offline.\n": {
+    "zh-Hans": "网络出现错误，无法在线游玩歌曲\n请检查您的网络连接并重试，或者选择离线游玩\n",
+    "zh-Hant": "網路出現錯誤，無法在線遊玩歌曲\n請檢查您的網路連接並重試，或者選擇離線遊玩\n"
+  },
+  "A network error has occurred. Please try again.\nError Code: %1@": {
+    "zh-Hans": "网络连接错误，请重试。\n错误代码：%1@",
+    "zh-Hant": "網路連結錯誤，請重試。\n錯誤代碼：%1@"
+  },
+  "A new content update is available": {
+    "zh-Hans": "有新的内容可以下载。",
+    "zh-Hant": "有新的內容可以下載。"
+  },
+  "A new content update is required. Returning to title screen.": {
+    "zh-Hans": "有游戏内容需要更新，即将返回主页面。",
+    "zh-Hant": "有遊戲內容需要更新，即將返回主頁面。"
+  },
+  "A new map will open every week starting from when World Parallel opens.\nEach map opened will be available for 2 weeks.": {
+    "zh-Hans": "活动开始后，每周将可解锁其中一张地图，\n您只有两个星期的时间完成每张限时地图。",
+    "zh-Hant": "活動開始後，每周將可解鎖其中一張地圖，\n您只有兩個星期的時間完成每張限時地圖。"
+  },
+  "A new verification email has been sent\nto the registered address.": {
+    "zh-Hans": "邮件已重新发送。",
+    "zh-Hant": "郵件已重新寄送。"
+  },
+  "A new version of Arcaea is available from the App Store.\nPlease update to the latest version.": {
+    "zh-Hans": "Arcaea最新版本现可通过App Store获取，\n请先将游戏升级至最新版本。",
+    "zh-Hant": "Arcaea最新版本現可通過App Store獲取，\n請先將遊戲升級至最新版本。"
+  },
+  "A new version of Arcaea is available on Google Play.\nPlease update to the latest version.": {
+    "zh-Hans": "Arcaea最新版本现可通过Google Play获取，\n请先将游戏升级至最新版本。",
+    "zh-Hant": "Arcaea最新版本現可通過Google Play獲取，\n請先將遊戲升級至最新版本。"
+  },
+  "A new version of Arcaea is available to download.\nPlease update to the latest version.": {
+    "zh-Hans": "Arcaea最新版本现已发布，\n请先将游戏升级至最新版本。",
+    "zh-Hant": "Arcaea最新版本現已發行，\n請先將遊戲升級至最新版本。"
+  },
+  "A power forbidden to all but one.": {
+    "zh-Hans": "绝对禁忌的力量，只能为一人所用。",
+    "zh-Hant": "絕對禁忌的力量，只能為一人所用。"
+  },
+  "A problem occurred updating data...": {
+    "zh-Hans": "更新数据时发生了问题……",
+    "zh-Hant": "資料上傳時發生問題……"
+  },
+  "A recent refund of spent Memories has limited parts of\nyour account, and purchased content is currently frozen.\n\nPlease ensure any payments made aren't cancelled with\nyour payment processor.\n\nTo restore full access to your account, please\nre-purchase the amount of Memories refunded.": {
+    "zh-Hans": "近期的源点退款已导致您部分账户功能受限，\n您已购买的内容目前已被冻结。\n\n请前往付款时的支付平台检查您\n已支付的款项，确保其并未取消。\n\n如需恢复账户的完整访问权限，\n请重新购买已退款的源点数量。",
+    "zh-Hant": "近期的源點退款已導致您部分帳戶功能受限，\n您已購買的內容目前已被凍結。\n\n請前往付款時的平台檢查您已\n支付的款項，確保其並未取消。\n\n如需恢復帳戶的完整存取權限，\n請重新購買已退款的源點數量。"
+  },
+  "A rising tension": {
+    "zh-Hans": "局势愈发紧张",
+    "zh-Hant": "局勢愈發緊張"
+  },
+  "A song at the start of time": {
+    "zh-Hans": "时初之间的歌曲",
+    "zh-Hant": "時初之間的歌曲"
+  },
+  "A tempest descends": {
+    "zh-Hans": "风暴降临",
+    "zh-Hant": "風暴降臨"
+  },
+  "A temporary hold has been placed on your account.\nPlease visit the official website to resolve the issue.": {
+    "zh-Hans": "您的账号已被暂时冻结。请访问官方网站以解决此问题。",
+    "zh-Hant": "您的賬戶已被臨時凍結。請前往官方網頁解決這個問題。"
+  },
+  "AFFINITY": {
+    "zh-Hans": "相性契合",
+    "zh-Hant": "相性契合"
+  },
+  "AUDIO - Ad-lib effects on hitting floor lanes\nwhen playing a %2@ song": {
+    "zh-Hans": "音频 - 游玩 %2@ 的曲目时\n打击地面轨道会触发即兴演奏（AD-LIB）效果",
+    "zh-Hant": "音頻 - 遊玩 %2@ 的曲目時\n敲擊地面軌道會觸發 AD-LIB 效果"
+  },
+  "Abandon Course": {
+    "zh-Hans": "放弃挑战",
+    "zh-Hant": "放棄挑戰"
+  },
+  "Abandon Song": {
+    "zh-Hans": "退出乐曲",
+    "zh-Hant": "放棄本曲目"
+  },
+  "Accept": {
+    "zh-Hans": "接受",
+    "zh-Hant": "接受"
+  },
+  "Account Created": {
+    "zh-Hans": "账号已被创建",
+    "zh-Hant": "帳號已建立。"
+  },
+  "Account Management": {
+    "zh-Hans": "账号管理",
+    "zh-Hant": "賬號管理"
+  },
+  "Account deletion email has been sent.": {
+    "zh-Hans": "账号删除邮件已发送",
+    "zh-Hant": "賬號刪除email已發送"
+  },
+  "Achieve a high Recollection Rate on %1@ with %2@": {
+    "zh-Hans": "使用%2@游玩%1@并获得更高的回忆率",
+    "zh-Hant": "使用%2@遊玩%1@並獲得更高的回憶率"
+  },
+  "Achieve a high Recollection Rate on %1@ with %2@ sealed": {
+    "zh-Hans": "使用封印状态的%2@游玩%1@并获得更高的回忆率",
+    "zh-Hant": "使用封印狀態的%2@遊玩%1@並獲得更高的回憶率"
+  },
+  "Achievements": {
+    "zh-Hans": "成就",
+    "zh-Hant": "成就"
+  },
+  "Acid": {
+    "zh-Hans": "埃希德",
+    "zh-Hant": "埃希德"
+  },
+  "Act I": {
+    "zh-Hans": "Act I",
+    "zh-Hant": "Act I"
+  },
+  "Act II": {
+    "zh-Hans": "Act II",
+    "zh-Hant": "Act II"
+  },
+  "Activate": {
+    "zh-Hans": "激活",
+    "zh-Hant": "激活"
+  },
+  "Activate Memory Boost using Ticket?": {
+    "zh-Hans": "确定使用兑换券来激活源韵强化吗？",
+    "zh-Hant": "確定使用兌換券來激活源韻強化嗎？"
+  },
+  "Add": {
+    "zh-Hans": "添加",
+    "zh-Hant": "添加"
+  },
+  "Add Friends": {
+    "zh-Hans": "添加好友",
+    "zh-Hant": "添加好友"
+  },
+  "Adjust display speed\nof Story text": {
+    "zh-Hans": "调整剧情文本显示速度",
+    "zh-Hant": "調整劇情文本顯示速度"
+  },
+  "Adjust the position of\nlate/early timing display": {
+    "zh-Hans": "调整【过早/过晚】\n判定的显示位置",
+    "zh-Hant": "調整「過早/過晚」\n判定的顯示位置"
+  },
+  "Adjust the synchronization\nof music": {
+    "zh-Hans": "调整音乐的同步性",
+    "zh-Hant": "調整音樂同步性"
+  },
+  "Adjust the volume\nof note sound effects": {
+    "zh-Hans": "调整音符的音效音量",
+    "zh-Hant": "調整音符的音效音量"
+  },
+  "Adjust where the FR/PM\nindicators display": {
+    "zh-Hans": "调整 FR/PM\n指示灯的显示位置",
+    "zh-Hant": "調整 FR/PM\n指示燈的顯示位置"
+  },
+  "Advanced": {
+    "zh-Hans": "进阶",
+    "zh-Hant": "進階"
+  },
+  "Advanced Tutorial": {
+    "zh-Hans": "进阶教程",
+    "zh-Hant": "進階教學"
+  },
+  "Affinity": {
+    "zh-Hans": "相性契合",
+    "zh-Hant": "相性契合"
+  },
+  "After finishing a song,\nretry and clear it": {
+    "zh-Hans": "完成一首曲目后\n马上再次通关该首曲目",
+    "zh-Hant": "完成一首曲目後\n馬上再次通關該首曲目"
+  },
+  "After finishing a song,\n⸗⸗⸗⸗⸗⸗": {
+    "zh-Hans": "完成一首曲目后\n⸗⸗⸗",
+    "zh-Hant": "完成一首曲目後\n⸗⸗⸗"
+  },
+  "Ai-chan": {
+    "zh-Hans": "Ai酱",
+    "zh-Hant": "Ai醬"
+  },
+  "Alice & Tenniel": {
+    "zh-Hans": "爱丽丝 & 坦尼尔",
+    "zh-Hant": "愛麗絲 & 坦尼爾"
+  },
+  "All Songs": {
+    "zh-Hans": "全部歌曲",
+    "zh-Hant": "全部曲目"
+  },
+  "All songs are already downloaded!": {
+    "zh-Hans": "所有的曲目都已经下载完毕！",
+    "zh-Hant": "已經下載過所有歌曲了！"
+  },
+  "All songs downloaded successfully.": {
+    "zh-Hans": "已成功下载所有曲目。",
+    "zh-Hant": "已成功下載所有歌曲。"
+  },
+  "Allow other players to be matched into this room\nby setting it to Public?": {
+    "zh-Hans": "确定改为公共房间吗？其他玩家将能够通过\n随机匹配的方式加入您的房间。",
+    "zh-Hant": "確定改為公共房間嗎？其他玩家將能夠通過\n隨機匹配的方式加入您的房間。"
+  },
+  "Alluring Core": {
+    "zh-Hans": "蛊诱之核",
+    "zh-Hant": "蠱誘之核"
+  },
+  "Alternatively, quickly toggle between categories\nby tapping the left category buttons. ": {
+    "zh-Hans": "您也可以通过左侧的按钮来快速切换分类。",
+    "zh-Hant": "您也可以通過左側的按鈕來快速切換分類。"
+  },
+  "Alternatively, use a code to join an existing room.": {
+    "zh-Hans": "除此以外，您也可通过输入房间号加入任意房间游玩。",
+    "zh-Hant": "除此以外，您也可通過輸入房間號加入任意房間遊玩。"
+  },
+  "Amane": {
+    "zh-Hans": "天音",
+    "zh-Hant": "天音"
+  },
+  "Ambivalent Core": {
+    "zh-Hans": "悖异核心",
+    "zh-Hant": "悖異核心"
+  },
+  "An account has already been made from this device.": {
+    "zh-Hans": "已有一个账号由此设备创建",
+    "zh-Hant": "此設備已建立一組帳號。"
+  },
+  "An account registration is already pending for this device.\nStart a new registration?": {
+    "zh-Hans": "验证正在进行中，确定要重新开始该流程吗？",
+    "zh-Hant": "驗證正在進行中，確定要重新開始該程序嗎？"
+  },
+  "An account with this email address already exists.\nPlease log in to your existing account to link it with %@.": {
+    "zh-Hans": "该电子邮箱已存在相关帐号。\n请登入现有帐号以绑定%@。",
+    "zh-Hant": "該郵箱已存在相關帳號。\n請登錄現有帳號以綁定%@。"
+  },
+  "An account with this email address already exists.\nPlease log in with the appropriate third-party service\nto set up password login.": {
+    "zh-Hans": "该电子邮箱已经存在账号，\n请使用正确的第三方服务平台设置登录密码。",
+    "zh-Hant": "該電子信箱已經存在帳號，\n請使用正確的第三方服務平台設定登入密碼。"
+  },
+  "An email address must be linked with your account\nbefore it can be deleted.": {
+    "zh-Hans": "您必须先绑定邮箱才能永久关闭游戏帐号。",
+    "zh-Hant": "您必須先綁定郵箱才能永久關閉遊戲帳號。"
+  },
+  "An email with a verification link has been\nsent to your registered email address.\nTo complete account verification, please\nfollow the instructions outlined in this email.": {
+    "zh-Hans": "含有验证链接的邮件已经发至指定邮箱，\n请根据邮件指示完成账号验证。",
+    "zh-Hant": "含有驗證連結的郵件已寄送至指定電子信箱，\n請根據郵件提示完成帳戶驗證。"
+  },
+  "An error occurred completing purchases.\nPlease try restarting your device or Arcaea\nand ensuring that you're logged in to %@.": {
+    "zh-Hans": "处理交易时发生了错误。\n请尝试重启您的设备或游戏，\n并确保您已登录 %@。",
+    "zh-Hant": "處理購買時發生了錯誤。\n請嘗試重啟您的裝置或遊戲，\n並確保您已登入 %@。"
+  },
+  "An error occurred downloading the song. Please try again.": {
+    "zh-Hans": "下载歌曲时发生问题。请重试一次。",
+    "zh-Hant": "下載曲目時發生錯誤，請重試。"
+  },
+  "An error occurred redeeming your purchase.\nPlease check your internet connection and\nattempt tapping 'Complete Purchase'.\n\nContact support@lowiro.com if this error persists.": {
+    "zh-Hans": "系统在赎回您的购买时遭遇了未知的错误\n请检查您的网络连接是否正常，再尝试点击「恢复购买」按钮\n\n若相同的错误依旧存在，请尝试邮件联系 support@lowiro.com",
+    "zh-Hant": "系統在贖回您的購買時遭遇了未知的錯誤\n請檢查您的網路連線是否正常，再嘗試輕點「恢復購買」按鈕\n\n若相同的錯誤依舊存在，請嘗試電郵聯繫support@lowiro.com"
+  },
+  "An error occurred using Memory Boost Ticket.": {
+    "zh-Hans": "使用源韵强化兑换券时出现了错误。",
+    "zh-Hant": "使用源韻強化兌換券時出現了錯誤。"
+  },
+  "An unknown error has occurred.": {
+    "zh-Hans": "发生了未知错误",
+    "zh-Hant": "發生未知錯誤。"
+  },
+  "And now, the end": {
+    "zh-Hans": "当下，正是终焉",
+    "zh-Hant": "當下，正是終焉"
+  },
+  "Apophenia": {
+    "zh-Hans": "Apophenia",
+    "zh-Hant": "Apophenia"
+  },
+  "Apple": {
+    "zh-Hans": "Apple",
+    "zh-Hant": "Apple"
+  },
+  "Apply yourself. You understand \"value\" best, don't you?\nEach song you remember has been assigned a value. Remember their worth.\n\n\nBring them here and with their values, answer.\nDo not delay.\n": {
+    "zh-Hans": "所有东西都要讲究「先后次序」，而你对此了如指掌，对不对？\n那便来吧，使出你最大的能耐，记住每首歌曲的价码，以及它们真正的价值！\n\n\n将它们拿上前来，用行动告诉我它们真正的价值。\n\n",
+    "zh-Hant": "所有東西都要講究「先後次序」，而你對此了如指掌，不是嗎？\n那便來吧，使出你最大的能耐，記住每首歌曲的價碼，以及它們真正的價值！\n\n\n將它們拿上前來，用行動告訴我它們真正的價值。\n\n"
+  },
+  "Arc notes can also turn into Traces.\nYou don't need to touch traces.": {
+    "zh-Hans": "音弧可能变化成「音轨」\n你并不需要碰触音轨",
+    "zh-Hant": "「音弧」也可能形成「音軌」\n遊玩時無需碰觸「音軌」"
+  },
+  "Arc notes can reappear during Traces.\nTouch and hold them as before.": {
+    "zh-Hans": "音弧可能在音轨上重新生成\n此时需要像之前一样按住它们",
+    "zh-Hant": "音軌中可能再次出現音弧\n此時必須依照之前的規則按住。"
+  },
+  "Arcaea": {
+    "zh-Hans": "Arcaea",
+    "zh-Hant": "Arcaea"
+  },
+  "Arcaea Online (%1@)": {
+    "zh-Hans": "Arcaea Online (%1@)",
+    "zh-Hant": "Arcaea Online (%1@)"
+  },
+  "Arcaea sends notifications when your World Mode stamina is full,": {
+    "zh-Hans": "体力恢复至满格时和/或受到Link Play邀请时，",
+    "zh-Hant": "體力恢復至滿格時和/或受到Link Play邀請時，"
+  },
+  "Arcaea's story is bundled with certain song packs.": {
+    "zh-Hans": "韵律源点的故事与部分歌曲包相连。",
+    "zh-Hant": "韻律源點的故事與部分歌曲包相連。"
+  },
+  "Archive": {
+    "zh-Hans": "档案",
+    "zh-Hant": "檔案"
+  },
+  "Archive Story": {
+    "zh-Hans": "档案故事",
+    "zh-Hant": "檔案故事"
+  },
+  "Archive△ || Eternal, Beyond△": {
+    "zh-Hans": "档案△ | | Eternal, Beyond△",
+    "zh-Hant": "檔案△ | | Eternal, Beyond△"
+  },
+  "Are you sure you want to download data from Cloud?": {
+    "zh-Hans": "确定想要下载云端数据吗？",
+    "zh-Hant": "確定想要下載雲端數據嗎？"
+  },
+  "Are you sure you want to overwrite your Cloud Save?": {
+    "zh-Hans": "确定想要覆盖云端数据吗？",
+    "zh-Hant": "確定想要覆蓋雲端數據嗎？"
+  },
+  "Are you sure you want to remove '%@'?": {
+    "zh-Hans": "真的要将 %@ 移出列表吗？",
+    "zh-Hant": "真的要將 %@ 移出列表嗎？"
+  },
+  "Areus": {
+    "zh-Hans": "阿莱乌斯",
+    "zh-Hant": "阿萊烏斯"
+  },
+  "Aria": {
+    "zh-Hans": "Aria",
+    "zh-Hant": "Aria"
+  },
+  "Article I": {
+    "zh-Hans": "第一条",
+    "zh-Hant": "第一條"
+  },
+  "Article II": {
+    "zh-Hans": "第二条",
+    "zh-Hant": "第二條"
+  },
+  "Article III": {
+    "zh-Hans": "第三条",
+    "zh-Hant": "第三條"
+  },
+  "Article IV": {
+    "zh-Hans": "第四条",
+    "zh-Hant": "第四條"
+  },
+  "Artist": {
+    "zh-Hans": "作曲家",
+    "zh-Hant": "作曲家"
+  },
+  "Ascendant - 6th Seeker": {
+    "zh-Hans": "至高：第六探索者",
+    "zh-Hant": "至高：第六探索者"
+  },
+  "Ascendant - 8th Seeker": {
+    "zh-Hans": "至高：第八探索者",
+    "zh-Hant": "至高：第八探索者"
+  },
+  "Ascension": {
+    "zh-Hans": "Ascension",
+    "zh-Hant": "Ascension"
+  },
+  "At or above 90% Recollection Rate\nLOST notes reduce Rate to 85%": {
+    "zh-Hans": "回忆率达90%及以上时\n流失音符将使回忆率降至85%",
+    "zh-Hant": "回憶率達90%及以上時\n流失音符將使回憶率降至85%"
+  },
+  "Audio": {
+    "zh-Hans": "音频",
+    "zh-Hant": "音訊"
+  },
+  "Audio Preset": {
+    "zh-Hans": "音频预设",
+    "zh-Hant": "音頻預設"
+  },
+  "Audio offset is used to compensate for delays\nplaying back audio on your device.\n\nIf you are EARLY adjust down (-)  If you are LATE adjust up (+)\n\nWireless headphones may increase your offset\nby 200 milliseconds or more.": {
+    "zh-Hans": "若您感到设备的音频与画面不同步（延迟），\n您可以尝试调整音频的偏移率。\n\n如果EARLY过多请点击减少（-） 如果LATE过多请点击增加（+）\n\n使用无线耳机设备可能会附加约200毫秒的延迟。",
+    "zh-Hant": "若您感到裝置影音不同步（延遲），\n您可以嘗試調整音訊的偏移率。\n \n如果EARLY過多請點擊減少（-） 如果LATE過多請點擊增加（+）\n \n使用無線耳機裝置可能會附加約200毫秒的延遲。"
+  },
+  "Available": {
+    "zh-Hans": "可以游玩",
+    "zh-Hant": "可以遊玩"
+  },
+  "Available now": {
+    "zh-Hans": "随时可交换",
+    "zh-Hant": "現可使用"
+  },
+  "Awaken": {
+    "zh-Hans": "唤醒",
+    "zh-Hant": "喚醒"
+  },
+  "Axium": {
+    "zh-Hans": "Axium",
+    "zh-Hant": "Axium"
+  },
+  "Ayu": {
+    "zh-Hans": "彩梦",
+    "zh-Hant": "彩夢"
+  },
+  "Azure": {
+    "zh-Hans": "Azure",
+    "zh-Hant": "Azure"
+  },
+  "BALANCE": {
+    "zh-Hans": "平衡型",
+    "zh-Hant": "平衡"
+  },
+  "BEYOND": {
+    "zh-Hans": "BEYOND",
+    "zh-Hant": "BEYOND"
+  },
+  "BEYOND\nTOTAL": {
+    "zh-Hans": "BEYOND\n计量值",
+    "zh-Hant": "BEYOND\n計量值"
+  },
+  "BEYOND CHALLENGE - FAR notes decrease Recollection Rate": {
+    "zh-Hans": "BEYOND 挑战 - 判定为模糊（Far）时减少回忆率",
+    "zh-Hant": "BEYOND 挑戰 - 判定為模糊（Far）時減少回憶率"
+  },
+  "BGM": {
+    "zh-Hans": "BGM",
+    "zh-Hant": "BGM"
+  },
+  "Back": {
+    "zh-Hans": "返回",
+    "zh-Hant": "返回"
+  },
+  "Basic": {
+    "zh-Hans": "基础",
+    "zh-Hant": "基礎"
+  },
+  "Be absolute: what you have\nrelied on until now will be ruined.": {
+    "zh-Hans": "「你所仰仗的，都将灰飞烟灭。」\n这一点，【绝对】无误。",
+    "zh-Hant": "「你所仰仗的，都將灰飛煙滅。」\n這一點，【絕對】無誤。"
+  },
+  "Be tougher and progress.\nRemember your old fate.": {
+    "zh-Hans": "成长，超越，变得更强。于此铭记旧时的命途。",
+    "zh-Hant": "成長，超越，變得更強。於此銘記舊時的命途。"
+  },
+  "Begin the \"Arcaea\"\nprologue in Story Mode": {
+    "zh-Hans": "在故事模式中开启\n序章《Arcaea》",
+    "zh-Hant": "在故事模式中開啓\n序章《Arcaea》"
+  },
+  "Beginnings": {
+    "zh-Hans": "一切的始初",
+    "zh-Hant": "一切的始初"
+  },
+  "Beyond": {
+    "zh-Hans": "BEYOND",
+    "zh-Hant": "BEYOND"
+  },
+  "Beyond\nBoost": {
+    "zh-Hans": "Beyond强化",
+    "zh-Hant": "Beyond強化"
+  },
+  "Beyond Boost": {
+    "zh-Hans": "Beyond强化",
+    "zh-Hant": "Beyond強化"
+  },
+  "Binary Core": {
+    "zh-Hans": "双生核心",
+    "zh-Hant": "雙生核心"
+  },
+  "Bonus": {
+    "zh-Hans": "返还",
+    "zh-Hant": "返還"
+  },
+  "Boost": {
+    "zh-Hans": "强化",
+    "zh-Hant": "強化"
+  },
+  "Boost Activated!": {
+    "zh-Hans": "增益已激活！",
+    "zh-Hant": "增益已激活！"
+  },
+  "Boost Active": {
+    "zh-Hans": "增益生效中",
+    "zh-Hant": "增益生效中"
+  },
+  "Boosted progress": {
+    "zh-Hans": "强化后步数",
+    "zh-Hant": "強化後步數"
+  },
+  "Boosts": {
+    "zh-Hans": "强化",
+    "zh-Hant": "強化"
+  },
+  "Bottom": {
+    "zh-Hans": "界面底部",
+    "zh-Hant": "介面底部"
+  },
+  "Boundless Divide": {
+    "zh-Hans": "无央的决裂",
+    "zh-Hant": "無央的決裂"
+  },
+  "Breakthrough": {
+    "zh-Hans": "Breakthrough",
+    "zh-Hant": "Breakthrough"
+  },
+  "Brillante": {
+    "zh-Hans": "布丽兰特",
+    "zh-Hant": "布麗蘭特"
+  },
+  "Bundle price": {
+    "zh-Hans": "捆绑包价格",
+    "zh-Hant": "捆綁包價格"
+  },
+  "CANCEL": {
+    "zh-Hans": "取消",
+    "zh-Hant": "取消"
+  },
+  "CHALLENGE": {
+    "zh-Hans": "挑战型",
+    "zh-Hant": "挑戰"
+  },
+  "CHUNITHM + HARD - STEP and OVER\nincreased by 2 per each full gauge": {
+    "zh-Hans": "CHUNITHM + 困难 - 曲目结算时\n每满一格收集条增加2步数与2超量值",
+    "zh-Hant": "CHUNITHM + 困難 - 曲目結算時\n每滿一格收集條增加2步數與2超量值"
+  },
+  "CHUNITHM - Clear Requirement: 7": {
+    "zh-Hans": "CHUNITHM - 通关需求：7",
+    "zh-Hant": "CHUNITHM - 通關需求：7"
+  },
+  "CHUNITHM Core": {
+    "zh-Hans": "CHUNITHM 核心",
+    "zh-Hant": "CHUNITHM 核心"
+  },
+  "CLEAR": {
+    "zh-Hans": "通关",
+    "zh-Hant": "過關"
+  },
+  "CONFLICT - Reverse the paradigms\nof Light and Conflict.": {
+    "zh-Hans": "纷争 - 逆转光芒与纷争的规则",
+    "zh-Hant": "紛爭 - 逆轉光芒與紛爭的規則"
+  },
+  "CREATOR": {
+    "zh-Hans": "创世型",
+    "zh-Hant": "創世"
+  },
+  "Cadenza": {
+    "zh-Hans": "Cadenza",
+    "zh-Hant": "Cadenza"
+  },
+  "Cancel": {
+    "zh-Hans": "取消",
+    "zh-Hant": "取消"
+  },
+  "Cancel Search": {
+    "zh-Hans": "取消匹配",
+    "zh-Hant": "取消匹配"
+  },
+  "Cancel searching for a public Link Play room?": {
+    "zh-Hans": "确定取消Link Play随机匹配吗？",
+    "zh-Hant": "確定取消Link Play隨即匹配嗎？"
+  },
+  "Categories": {
+    "zh-Hans": "类别",
+    "zh-Hant": "類別"
+  },
+  "Category": {
+    "zh-Hans": "类别",
+    "zh-Hant": "類別"
+  },
+  "Caution": {
+    "zh-Hans": "警告",
+    "zh-Hant": "警告"
+  },
+  "Challenge": {
+    "zh-Hans": "挑战",
+    "zh-Hant": "挑戰"
+  },
+  "Challenge[ALTEREGO]": {
+    "zh-Hans": "磨难已然降临",
+    "zh-Hant": "磨難已然降臨"
+  },
+  "Change your Partner": {
+    "zh-Hans": "更换搭档",
+    "zh-Hant": "更換搭檔"
+  },
+  "Chapter": {
+    "zh-Hans": "章节",
+    "zh-Hant": "章節"
+  },
+  "Chapter %1@": {
+    "zh-Hans": "第%1@章",
+    "zh-Hant": "第%1@章"
+  },
+  "Check Status": {
+    "zh-Hans": "进度查询",
+    "zh-Hant": "進度查詢"
+  },
+  "Chinatsu": {
+    "zh-Hans": "千夏",
+    "zh-Hant": "千夏"
+  },
+  "Choose a Tutorial to play.": {
+    "zh-Hans": "选择教程种类",
+    "zh-Hant": "選擇教學種類"
+  },
+  "Choose a song difficulty and select Ready": {
+    "zh-Hans": "选择一个难度并准备",
+    "zh-Hant": "選擇一個難度並準備"
+  },
+  "Choose how to pause\nor disable pausing": {
+    "zh-Hans": "设置或停用暂停功能",
+    "zh-Hant": "設定或停用暫停功能"
+  },
+  "Choose your preferred title screen, background music,\nand scenery to use throughout Arcaea.": {
+    "zh-Hans": "更换游戏标题界面、BGM及场景",
+    "zh-Hant": "更換遊戲標題介面、BGM及場景"
+  },
+  "Chuni Penguin": {
+    "zh-Hans": "中二企鹅",
+    "zh-Hant": "中二企鵝"
+  },
+  "Claim": {
+    "zh-Hans": "领取",
+    "zh-Hant": "領取"
+  },
+  "Claim All": {
+    "zh-Hans": "全部领取",
+    "zh-Hant": "全部領取"
+  },
+  "Clean Up": {
+    "zh-Hans": "一键清空",
+    "zh-Hant": "一鍵清空"
+  },
+  "Clear": {
+    "zh-Hans": "通关",
+    "zh-Hant": "通關"
+  },
+  "Clear #1f1e33": {
+    "zh-Hans": "通关《#1f1e33》",
+    "zh-Hant": "通關《#1f1e33》"
+  },
+  "Clear %1@ %2@ songs": {
+    "zh-Hans": "通关%1@次%2@曲目",
+    "zh-Hant": "通關%1@次%2@曲目"
+  },
+  "Clear %1@ %2@ songs (%3@/%1@)": {
+    "zh-Hans": "通关%1@次%2@曲目 (%3@/%1@)",
+    "zh-Hant": "通關%1@次%2@曲目 (%3@/%1@)"
+  },
+  "Clear %1@ %2@ songs with Grade %4@ or above": {
+    "zh-Hans": "以%4@或更高的成绩通关%1@次%2@曲目",
+    "zh-Hant": "以%4@或更高的成績通關%1@次%2@曲目"
+  },
+  "Clear %1@ %2@ songs with Grade %4@ or above (%3@/%1@)": {
+    "zh-Hans": "以%4@或更高的成绩通关%1@次%2@曲目（%3@/%1@）",
+    "zh-Hant": "以%4@或更高的成績通關%1@次%2@曲目 (%3@/%1@)"
+  },
+  "Clear %1@ %2@ with a Full Recall": {
+    "zh-Hans": "FULL RECALL通关%1@ %2@",
+    "zh-Hant": "FULL RECALL通關%1@ %2@"
+  },
+  "Clear %1@ level %2@ songs": {
+    "zh-Hans": "通关%1@首%2@难度曲目",
+    "zh-Hant": "通關%1@首%2@難度曲目"
+  },
+  "Clear %1@ level %2@ songs (%3@/%1@)": {
+    "zh-Hans": "通关%1@首%2@难度曲目（%3@/%1@）",
+    "zh-Hant": "通關%1@首%2@難度曲目（%3@/%1@）"
+  },
+  "Clear %1@ level %2@ songs with Grade %4@ or above": {
+    "zh-Hans": "以%4@或更高的成绩通关%1@次难度%2@的曲目",
+    "zh-Hant": "以%4@或更高的成績通關%1@次難度%2@的曲目"
+  },
+  "Clear %1@ level %2@ songs with Grade %4@ or above (%3@/%1@)": {
+    "zh-Hans": "以%4@或更高的成绩通关%1@次难度%2@的曲目（%3@/%1@）",
+    "zh-Hant": "以%4@或更高的成績通關%1@次難度%2@的曲目 (%3@/%1@)"
+  },
+  "Clear %@ %2@": {
+    "zh-Hans": "通关 %@ %2@",
+    "zh-Hant": "通關 %@ %2@"
+  },
+  "Clear %@ %2@ with Grade %3@ or above": {
+    "zh-Hans": "以 %3@ 或以上成绩通关 %@ %2@",
+    "zh-Hant": "以 %3@ 或以上成績通關 %@ %2@"
+  },
+  "Clear '%1@' with '%2@'\nto unlock this story.": {
+    "zh-Hans": "使用搭档\"%2@\"通关\"%1@\"以解锁此故事。",
+    "zh-Hant": "使用搭檔\"%2@\"通關\"%1@\"以解鎖此故事。"
+  },
+  "Clear '%@' to unlock this story.": {
+    "zh-Hans": "通关\"%@\"以解锁此故事。",
+    "zh-Hant": "通關\"%@\"以解鎖此故事。"
+  },
+  "Clear 1 song each from\nVersions 1 to 4 in order": {
+    "zh-Hans": "按顺序从1.x版本到4.x版本\n各通关一首歌曲",
+    "zh-Hant": "按順序從1.x版本到4.x版本\n各通關一首歌曲"
+  },
+  "Clear Equilibrium, Antagonism,\nand Dantalion in sequence": {
+    "zh-Hans": "依照下列顺序通关：《Equilibrium》,\n《Antagonism》,《Dantalion》",
+    "zh-Hant": "按照以下順序通關：《Equilibrium》,\n《Antagonism》,《Dantalion》"
+  },
+  "Clear a Course\nin Course Mode": {
+    "zh-Hans": "在段位挑战中\n通关任意段位",
+    "zh-Hant": "在段位挑戰中\n通關任意段位"
+  },
+  "Clear a song on\nany difficulty": {
+    "zh-Hans": "通关任意难度的歌曲",
+    "zh-Hant": "通關任意難度的歌曲"
+  },
+  "Clear a song on PRS\ndifficulty or higher": {
+    "zh-Hans": "通关任意歌曲的\nPRS或更高难度",
+    "zh-Hant": "通關任意歌曲的\nPRS或更高難度"
+  },
+  "Clear a song using\nTempest Tairitsu": {
+    "zh-Hans": "使用对立（Tempest）\n通关一首曲目",
+    "zh-Hant": "使用對立（Tempest）\n通關一首曲目"
+  },
+  "Clear a song while each digit\nof your Fragments is odd": {
+    "zh-Hans": "残片数的每一位数均为奇数时\n游玩并通关一首曲目",
+    "zh-Hant": "殘片數的每一位數均為奇數時\n遊玩並通關一首曲目"
+  },
+  "Clear a song with 0 LOSTs": {
+    "zh-Hans": "曲目结算时共有0个LOST",
+    "zh-Hant": "曲目結算時共有0個LOST"
+  },
+  "Clear an anomaly or terminal\nsong with its jacket's Partner": {
+    "zh-Hans": "使用曲绘上的搭档\n通关一首对应的异象曲或终末曲",
+    "zh-Hant": "使用曲繪上的搭檔\n通關一首對應的異象曲或終末曲"
+  },
+  "Clear any song to unlock this story.": {
+    "zh-Hans": "通关任意歌曲以解锁此故事。",
+    "zh-Hant": "通關任意歌曲以解鎖此故事。"
+  },
+  "Clear any song with '%1@'\nto unlock this story.": {
+    "zh-Hans": "使用搭档\"%1@\"以解锁此故事。",
+    "zh-Hant": "使用搭檔\"%1@\"以解鎖此故事。"
+  },
+  "Clear the first song of\nFinal Verdict": {
+    "zh-Hans": "通关Final Verdict的\n第一支曲目",
+    "zh-Hant": "通關Final Verdict的\n第一支曲目"
+  },
+  "Clear three songs of\nincreasing level in a row": {
+    "zh-Hans": "连续通关三首曲目，难度递增",
+    "zh-Hant": "連續通關三首曲目，難度遞增"
+  },
+  "Clear with AA grade 5 times": {
+    "zh-Hans": "以 AA 评级通关 5 次",
+    "zh-Hant": "以 AA 評級通關 5 次"
+  },
+  "Clear with EX grade 5 times": {
+    "zh-Hans": "以 EX 评级通关 5 次",
+    "zh-Hant": "以 EX 評級通關 5 次"
+  },
+  "Clear with a 'HARD' skill": {
+    "zh-Hans": "使用包含“困难”的技能通关",
+    "zh-Hant": "使用包含“困難”的技能通關"
+  },
+  "Clear with over 300 max combo": {
+    "zh-Hans": "通关时最高连击数不低于 300",
+    "zh-Hant": "通關時最高連擊數不低於 300"
+  },
+  "Clear ⸗⸗⸗⸗ from\n⸗⸗⸗ 1 to 4 ⸗⸗⸗": {
+    "zh-Hans": "⸗⸗⸗ 从1.x ⸗⸗⸗ 到4.x ⸗⸗⸗",
+    "zh-Hant": "⸗⸗⸗ 從1.x ⸗⸗⸗ 到4.x ⸗⸗⸗"
+  },
+  "Cloud Sync": {
+    "zh-Hans": "云端同步",
+    "zh-Hant": "雲端同步"
+  },
+  "Cloud save data is from a different device.\nPlease choose how to proceed:": {
+    "zh-Hans": "云端存储数据来自另一个设备。\n请选择你的方式：",
+    "zh-Hant": "雲端儲存資料來自另一台設備。\n請選擇你要採取的行動："
+  },
+  "Cloud save downloaded successfully!": {
+    "zh-Hans": "成功下载数据！",
+    "zh-Hant": "雲端儲存資料下載成功！"
+  },
+  "Cloud save uploaded successfully!": {
+    "zh-Hans": "成功上传数据！",
+    "zh-Hant": "雲端儲存資料上傳成功！"
+  },
+  "Code:": {
+    "zh-Hans": "序列码：",
+    "zh-Hant": "序號："
+  },
+  "Collaboration": {
+    "zh-Hans": "联动",
+    "zh-Hant": "聯動"
+  },
+  "Colorblind Mode": {
+    "zh-Hans": "色彩辅助",
+    "zh-Hant": "視覺輔助"
+  },
+  "Colorful Core": {
+    "zh-Hans": "缤纷核心",
+    "zh-Hant": "繽紛核心"
+  },
+  "Combo": {
+    "zh-Hans": "连击数量",
+    "zh-Hant": "連擊數量"
+  },
+  "Coming Soon": {
+    "zh-Hans": "即将来临",
+    "zh-Hant": "即將來臨"
+  },
+  "Compassion": {
+    "zh-Hans": "慈悲",
+    "zh-Hant": "慈悲"
+  },
+  "Complete": {
+    "zh-Hans": "完成",
+    "zh-Hant": "完成"
+  },
+  "Complete Arcaea's\nbeginner tutorial": {
+    "zh-Hans": "完成新手教程",
+    "zh-Hant": "完成新手教學"
+  },
+  "Complete Purchase": {
+    "zh-Hans": "恢复购买",
+    "zh-Hant": "恢復購買"
+  },
+  "Complete a song with\nan EX grade or higher": {
+    "zh-Hans": "完成歌曲时获得\nEX或更高评级",
+    "zh-Hant": "完成歌曲時獲得\nEX或更高評級"
+  },
+  "Complete all Missions\nin Tier %@": {
+    "zh-Hans": "已完成阶段%@的所有任务",
+    "zh-Hant": "已完成階段%@的所有任務"
+  },
+  "Complete previous Tier\nto unlock this Mission": {
+    "zh-Hans": "请先完成上一阶段\n的所有任务",
+    "zh-Hant": "請先完成上一階段\n的所有任務"
+  },
+  "Complete the \"Arcaea\"\nprologue in Story Mode": {
+    "zh-Hans": "完成故事模式中的\n序章《Arcaea》",
+    "zh-Hant": "完成故事模式中的\n序章《Arcaea》"
+  },
+  "Complete the challenge on %@": {
+    "zh-Hans": "完成%@难度的挑战",
+    "zh-Hant": "完成%@難度的挑戰"
+  },
+  "Complete ‘Black Fate’ and see VS-8 to progress to this Pack": {
+    "zh-Hans": "在开启本曲包前，请先完成「Black Fate」曲包并阅读故事 VS-8",
+    "zh-Hant": "在開啟本曲包前，請先完成「Black Fate」曲包並閱讀故事 VS-8"
+  },
+  "Complete[REMOVE_FOR_MISSIONS]": {
+    "zh-Hans": "已完成",
+    "zh-Hant": "已完成"
+  },
+  "Completed": {
+    "zh-Hans": "已完成",
+    "zh-Hant": "已完成"
+  },
+  "Confirm": {
+    "zh-Hans": "确认",
+    "zh-Hant": "確定"
+  },
+  "Confirm Cloud Overwrite": {
+    "zh-Hans": "确认覆盖云端数据",
+    "zh-Hant": "確認覆蓋雲端數據"
+  },
+  "Confirm Data Download": {
+    "zh-Hans": "确认数据下载",
+    "zh-Hant": "確認下載資料"
+  },
+  "Confirm Difficulty": {
+    "zh-Hans": "请选择难度",
+    "zh-Hant": "請選擇難度"
+  },
+  "Confirm[ALTEREGO]": {
+    "zh-Hans": "锁定",
+    "zh-Hant": "鎖定"
+  },
+  "Confirmation": {
+    "zh-Hans": "确认",
+    "zh-Hant": "確認"
+  },
+  "Contemplate finality": {
+    "zh-Hans": "注视一切的终结",
+    "zh-Hant": "注視一切的終結"
+  },
+  "Continue": {
+    "zh-Hans": "继续",
+    "zh-Hant": "繼續"
+  },
+  "Continue ": {
+    "zh-Hans": "继续",
+    "zh-Hant": "繼續"
+  },
+  "Continue Matching": {
+    "zh-Hans": "继续匹配",
+    "zh-Hant": "繼續匹配"
+  },
+  "Continue Offline": {
+    "zh-Hans": "离线游玩",
+    "zh-Hant": "離線遊玩"
+  },
+  "Continue[STORY]": {
+    "zh-Hans": "继续探索",
+    "zh-Hant": "繼續探索"
+  },
+  "Control the speed at\nwhich notes approach": {
+    "zh-Hans": "控制音符的下落速度",
+    "zh-Hant": "控制音符下落速度"
+  },
+  "Could not connect to Store.\nPlease check your device settings.": {
+    "zh-Hans": "无法连接至商店。\n请检查您设备的系统设置。",
+    "zh-Hant": "無法連線至商店。\n請檢查您裝置的系統設定。"
+  },
+  "Could not connect to online server.": {
+    "zh-Hans": "无法连接至服务器",
+    "zh-Hant": "無法連接線上伺服器。"
+  },
+  "Course Mode": {
+    "zh-Hans": "段位挑战",
+    "zh-Hant": "段位挑戰"
+  },
+  "Course has been abandoned": {
+    "zh-Hans": "已放弃本次段位挑战",
+    "zh-Hant": "已放棄本次段位挑戰"
+  },
+  "Create Account": {
+    "zh-Hans": "创建账号",
+    "zh-Hant": "建立帳號"
+  },
+  "Create an account": {
+    "zh-Hans": "创建帐号",
+    "zh-Hant": "建立帳號"
+  },
+  "Create or join a room where up to 4 players\ncan simultaneously play any song in Arcaea.": {
+    "zh-Hans": "联机模式下，玩家可通过创建或加入房间在线游玩Arcaea，\n每个房间至多同时加入四名玩家。",
+    "zh-Hant": "聯機模式下，玩家可通過創建或加入房間在線遊玩Arcaea，\n每個房間至多同時加入四名玩家。"
+  },
+  "Crimson Core": {
+    "zh-Hans": "深红核心",
+    "zh-Hant": "深紅核心"
+  },
+  "Current Progress": {
+    "zh-Hans": "目前进度",
+    "zh-Hant": "目前進度"
+  },
+  "Customize": {
+    "zh-Hans": "个性化设置",
+    "zh-Hant": "個性化設定"
+  },
+  "DATA IN CLOUD": {
+    "zh-Hans": "云端数据",
+    "zh-Hant": "雲端數據"
+  },
+  "DATA ON DEVICE": {
+    "zh-Hans": "本地数据",
+    "zh-Hant": "本地數據"
+  },
+  "DISABLED": {
+    "zh-Hans": "已失效",
+    "zh-Hant": "已失效"
+  },
+  "DORO*C": {
+    "zh-Hans": "DORO*C",
+    "zh-Hant": "DORO*C"
+  },
+  "Date": {
+    "zh-Hans": "日期",
+    "zh-Hant": "日期"
+  },
+  "Day / Night appearance\nwhen playing a %@ song": {
+    "zh-Hans": "游玩 %@ 歌曲时，\n显示昼/夜主题",
+    "zh-Hant": "遊玩 %@ 歌曲時\n顯示晝/夜主題"
+  },
+  "Debut": {
+    "zh-Hans": "Debut",
+    "zh-Hant": "Debut"
+  },
+  "Decline": {
+    "zh-Hans": "拒绝",
+    "zh-Hant": "拒絕"
+  },
+  "Decline[INVITE]": {
+    "zh-Hans": "拒绝",
+    "zh-Hant": "拒絕"
+  },
+  "Default": {
+    "zh-Hans": "默认",
+    "zh-Hant": "默認"
+  },
+  "Default[CUSTOMIZE]": {
+    "zh-Hans": "默认",
+    "zh-Hant": "默認"
+  },
+  "Delete": {
+    "zh-Hans": "删除",
+    "zh-Hant": "刪除"
+  },
+  "Delete Account": {
+    "zh-Hans": "删除账号",
+    "zh-Hant": "刪除賬號"
+  },
+  "Delete all downloaded songs?\nThey can be downloaded again at any time.": {
+    "zh-Hans": "删除所有已下载的曲目吗？\n您可以随时重新下载这些曲目。",
+    "zh-Hant": "刪除全部已下載的歌曲嗎？\n您可以隨時重新下載它們。"
+  },
+  "Delete complete.": {
+    "zh-Hans": "删除完毕。",
+    "zh-Hant": "刪除完畢。"
+  },
+  "Desolate Core": {
+    "zh-Hans": "荒芜核心",
+    "zh-Hant": "荒蕪核心"
+  },
+  "Device limit reached.": {
+    "zh-Hans": "设备数量已达到上限",
+    "zh-Hant": "設備數量已達到上限"
+  },
+  "Difficulty": {
+    "zh-Hans": "难度",
+    "zh-Hant": "難度"
+  },
+  "Difficulty can be changed later": {
+    "zh-Hans": "之后也可以更换难度",
+    "zh-Hant": "之後也可以更換難度"
+  },
+  "Disabled": {
+    "zh-Hans": "关闭",
+    "zh-Hant": "關閉"
+  },
+  "Disabling note sounds may greatly change perceived offset.\nYou will need to re-calibrate your offset after doing so.": {
+    "zh-Hans": "关闭音符打击音效可能会使偏移指数发生大幅变化。\n你将需要在关闭音效后设置新的偏移度。",
+    "zh-Hant": "關閉敲擊效果音可能會導致樂曲的偏移指數大幅變動。\n請在關閉效果音後設置新的偏移度。"
+  },
+  "Disconnected from Link Play": {
+    "zh-Hans": "已从Link Play断开连接",
+    "zh-Hant": "已從Link Play斷開連接"
+  },
+  "Disconnecting in...": {
+    "zh-Hans": "连接即将中断……",
+    "zh-Hant": "即將終止連接⋯⋯"
+  },
+  "Discover a song\nthrough World Mode": {
+    "zh-Hans": "在世界模式中获取\n任意一首曲目",
+    "zh-Hant": "在世界模式中獲取\n任意一首曲目"
+  },
+  "Display a visual effect\non screen touch": {
+    "zh-Hans": "显示屏幕的\n触控视觉效果",
+    "zh-Hant": "顯示螢幕的\n觸控視覺效果"
+  },
+  "Display furigana\nfor story text": {
+    "zh-Hans": "Display furigana\nfor story text",
+    "zh-Hant": "Display furigana\nfor story text"
+  },
+  "Do Not Receive Emails": {
+    "zh-Hans": "不接受邮件推送",
+    "zh-Hant": "不接受郵件推送"
+  },
+  "Does not expire.": {
+    "zh-Hans": "长期存在。",
+    "zh-Hant": "長期有效。"
+  },
+  "Don't be led astray by Illusions.": {
+    "zh-Hans": "切勿被幻象蒙蔽",
+    "zh-Hant": "切勿被幻象蒙蔽"
+  },
+  "Done": {
+    "zh-Hans": "完成",
+    "zh-Hant": "完成"
+  },
+  "Dormant Echoes": {
+    "zh-Hans": "沉眠的回声",
+    "zh-Hant": "沉眠的回聲"
+  },
+  "Double Tap": {
+    "zh-Hans": "双击",
+    "zh-Hant": "雙擊"
+  },
+  "Download": {
+    "zh-Hans": "下载",
+    "zh-Hant": "下載"
+  },
+  "Download \"%@\"?": {
+    "zh-Hans": "下载「%@」？",
+    "zh-Hant": "是否下載 「%@」？"
+  },
+  "Download '%1@' Pack?": {
+    "zh-Hans": "确认下载歌曲包《%1@》？",
+    "zh-Hant": "確認下載歌曲包《%1@》？"
+  },
+  "Download All": {
+    "zh-Hans": "全部下载",
+    "zh-Hant": "全部下載"
+  },
+  "Download Pack?": {
+    "zh-Hans": "确认下载该曲包？",
+    "zh-Hant": "確認下載此曲包？"
+  },
+  "Download all owned songs?\nThis will take a while.\n\nSignificant data charges will be incurred on a cellular plan.": {
+    "zh-Hans": "一键下载所有已购入的曲目吗？\n这将会耗费一段时间。\n\n如果您正在使用流量，这将会产生流量费用。",
+    "zh-Hant": "一鍵下載所有已購入的歌曲嗎？ \n這將會耗費一段時間。 \n\n如果您正在使用移動數據，這將會產生費用。"
+  },
+  "Download song?": {
+    "zh-Hans": "下载曲目吗？",
+    "zh-Hant": "下載歌曲嗎？"
+  },
+  "Download song?\n%@": {
+    "zh-Hans": "下载曲目吗?\n%@",
+    "zh-Hant": "下載歌曲嗎?\n%@"
+  },
+  "Download songs for course mode?": {
+    "zh-Hans": "是否下载本段位的歌曲？",
+    "zh-Hant": "是否下載本段位的歌曲？"
+  },
+  "Download was cancelled.": {
+    "zh-Hans": "下载已取消",
+    "zh-Hant": "下載已取消"
+  },
+  "Downloading": {
+    "zh-Hans": "正在下载",
+    "zh-Hant": "正在下載"
+  },
+  "Downloading %@%...": {
+    "zh-Hans": "正在下载 %@%……",
+    "zh-Hant": "正在下載 %@%……"
+  },
+  "Downloading on a mobile network will use %1@MB data.": {
+    "zh-Hans": "使用移动数据下载预计将消耗%1@MB 。",
+    "zh-Hant": "使用行動數據下載預估將消耗預計%1@MB。"
+  },
+  "Downloading on a mobile network will use %2@MB+ data.": {
+    "zh-Hans": "使用移动数据下载预计将消耗至少%2@MB 。",
+    "zh-Hant": "使用行動數據下載預估將消耗預計至少%2@MB。"
+  },
+  "Downloads": {
+    "zh-Hans": "管理下载",
+    "zh-Hant": "管理下載"
+  },
+  "Downloads all owned songs to this device.": {
+    "zh-Hans": "一键下载全部已购曲目。",
+    "zh-Hant": "一鍵下載全部已購入歌曲。"
+  },
+  "Due to a user refund of spent Memories, your account\nhas been restricted, and purchased content is frozen.\n\nPlease be aware that refunding purchases\nis against Arcaea's Terms of Service.\n\nIn order to reinstate your account, please re-purchase\nrefunded Memories until they are no longer in deficit.": {
+    "zh-Hans": "由于用户对使用过的记忆源点进行退款，\n您的账户已被限制，并且所有已购买内容会被冻结。\n\n请注意，退款行为是违反Arcaea服务条款的。\n\n若想恢复您的账户，\n请重新购买记忆源点直到可以完全填补之前的空缺。",
+    "zh-Hant": "由於用戶對使用過的記憶源點進行退款，\n您的賬戶已被限制，並且所有已購買內容會被凍結。\n\n請注意，退款行為是違反Arcaea服務條款的。\n\n若想恢復您的賬戶，\n請重新購買記憶源點直到可以完全填補之前的空缺。"
+  },
+  "E/S Primera": {
+    "zh-Hans": " ",
+    "zh-Hant": " "
+  },
+  "EASY + All Notes and Arcs reversed": {
+    "zh-Hans": "简单 + 所有的音符与音弧反转",
+    "zh-Hant": "簡單 + 反轉所有的音符與音弧。"
+  },
+  "EASY + Earn +%@ Fragments\nwhen playing a %2@ song": {
+    "zh-Hans": "简单 + 在游玩 %2@ 的歌曲时\n获得 %@ 额外残片",
+    "zh-Hant": "簡單 + 遊玩 %2@ 曲目時，\n獲得 %@ 額外殘片"
+  },
+  "EASY + Pay %@ Fragments on start\nThis skill changes during the night": {
+    "zh-Hans": "简单 + 歌曲开始时支付%@残片\n此技能在夜晚会改变",
+    "zh-Hant": "簡單 + 歌曲開始時支付%@殘片\n此技能在夜間會改變"
+  },
+  "EASY + Recollection Rate cannot decrease\nRecollection Rate gain is heavily reduced": {
+    "zh-Hans": "简单 + 回忆率不会减少\n但回忆率增加速度大幅放缓",
+    "zh-Hant": "簡單 + 回憶率不會減少\n但回憶率增加速度大幅放緩"
+  },
+  "EASY - Recollection Gauge starts at %@%\nReduced Recollection Rate gain per note": {
+    "zh-Hans": "简单 - 回忆率的初始数值变为 %@%\n减少命中音符所获得的回忆率",
+    "zh-Hant": "簡單 - 回憶率的初始數值變為 %@%\n減少擊中音符所獲得的回憶率"
+  },
+  "EASY - Recollection Rate loss reduced\nfor LOST notes": {
+    "zh-Hans": "简单 - 音符流失后的回忆率丢失程度减小",
+    "zh-Hant": "簡單 - 音符流失造成的回憶率降低程度減少"
+  },
+  "EVENT": {
+    "zh-Hans": "限时活动",
+    "zh-Hant": "限時活動"
+  },
+  "Earn +%@ Fragment(s)\nfor each %2@ combo reached": {
+    "zh-Hans": "每达成 %2@ 连击时，\n最终残片奖励增加 %@",
+    "zh-Hant": "每達成 %2@ 連擊時，\n最終殘片獎勵增加 %@"
+  },
+  "Earn +%@ Fragments\nupon clearing a preferred song": {
+    "zh-Hans": "通关一首「精选曲目」时\n获得 %@ 额外残片",
+    "zh-Hant": "通關一首「精選曲目」時\n獲得 +%@ 額外殘片"
+  },
+  "Earn +%@ Fragments\nwhen playing a Conflict Side song": {
+    "zh-Hans": "在游玩 纷争之侧 的歌曲时\n获得 %@ 额外残片",
+    "zh-Hant": "遊玩 紛爭之側 曲目時，\n獲得 %@ 額外殘片"
+  },
+  "Earn +%@ Fragments\nwhen playing a Light Side song": {
+    "zh-Hans": "在游玩 光芒之侧 的歌曲时\n获得 %@ 额外残片",
+    "zh-Hant": "遊玩 光芒之側 曲目時，\n獲得 %@ 額外殘片"
+  },
+  "Earn +%@ Fragments\nwhen playing a Stellights song": {
+    "zh-Hans": "在游玩 Stellights 的歌曲时\n获得 %@ 额外残片",
+    "zh-Hant": "遊玩 Stellights 曲目時，\n獲得 %@ 額外殘片"
+  },
+  "Earn +%@ Fragments (increases for each\nconsecutive play with other Partners)": {
+    "zh-Hans": "获得+%@额外残片（连续使用其他搭档\n游玩歌曲时获得的残片量随游玩次数上升）",
+    "zh-Hant": "獲得+%@額外殘片（連續使用其他搭檔\n遊玩歌曲時獲得的殘片量隨遊玩次數上升）"
+  },
+  "Earn +%@ Fragments (increases for each\nconsecutive play with this Partner)": {
+    "zh-Hans": "获得+%@额外残片（连续使用该搭档\n游玩歌曲时获得的残片量随游玩次数上升）",
+    "zh-Hant": "獲得+%@額外殘片（連續使用該搭檔\n遊玩歌曲時獲得的殘片量隨遊玩次數上升）"
+  },
+  "Earn +%@ Fragments for achieving\n%2@ grade or above": {
+    "zh-Hans": "获得 %2@ 或更高成绩时额外获取 +%@ 残片",
+    "zh-Hant": "達成 %2@ 或更高成績時額外獲得 +%@ 殘片"
+  },
+  "Earn +%@ Fragments on\nPure Memory (Max Score)": {
+    "zh-Hans": "纯粹回忆（满分）通关时额外获取 +%@ 残片",
+    "zh-Hant": "純粹回憶（滿分）時額外獲得 +%@ 殘片"
+  },
+  "Earn 1 Fragment per %@ PURE notes\nLose 1 Fragment per LOST note": {
+    "zh-Hans": "每%@个纯粹（PURE）判定获得1额外残片\n每个流失（LOST）判定失去1残片",
+    "zh-Hant": "每%@個純粹（PURE）判定獲得1額外殘片\n每個流失（LOST）判定失去1殘片"
+  },
+  "Earn up to +%2@ Fragments based on Max Recall\nEarn +%@ Fragments on Clear": {
+    "zh-Hans": "以最高连击数为基准值获得最高 +%2@ 残片\n在通关时获得 +%@ 残片",
+    "zh-Hant": "以最高連擊數為基準值獲得最高 +%2@ 殘片\n在通關時獲得 +%@ 殘片"
+  },
+  "Earn up to +%@% Fragments\nbased on score": {
+    "zh-Hans": "以歌曲结算成绩为基准值\n获得最高 +%@% 的残片奖励",
+    "zh-Hant": "以歌曲結算成績為基準值\n獲得最高 +%@% 的殘片獎勵"
+  },
+  "Earn up to 20 Fragments based on\nnumber of notes hit": {
+    "zh-Hans": "根据击中音符数获得最高20残片的奖励",
+    "zh-Hant": "根據擊中音符數獲得最高20殘片的獎勵"
+  },
+  "Easy": {
+    "zh-Hans": "简单通关",
+    "zh-Hant": "EASY"
+  },
+  "Eclipse": {
+    "zh-Hans": "Eclipse",
+    "zh-Hant": "Eclipse"
+  },
+  "Edit visibility settings, preview your Profile Card,\nand share screenshots at any time from the top-left interface.": {
+    "zh-Hans": "您可以随时在页面左上角更改私隐设置，预览和分享您的个人档案卡。",
+    "zh-Hant": "您可以隨時在介面左上角更改私隱設置，預覽和分享您的個人檔案卡。"
+  },
+  "Elapsed time: %@": {
+    "zh-Hans": "已等待时长：%@",
+    "zh-Hant": "已等待時長：%@"
+  },
+  "Elegy": {
+    "zh-Hans": "Elegy",
+    "zh-Hant": "Elegy"
+  },
+  "Email (confirm)": {
+    "zh-Hans": "确认电子邮箱",
+    "zh-Hant": "電子信箱（確認用）"
+  },
+  "Email address": {
+    "zh-Hans": "电子邮箱",
+    "zh-Hant": "電子信箱"
+  },
+  "Email does not match": {
+    "zh-Hans": "电子邮箱不相符",
+    "zh-Hant": "電子信箱不符。"
+  },
+  "Email, ID or Username": {
+    "zh-Hans": "电子邮箱、ID或用户名",
+    "zh-Hant": "電子信箱、ID 或使用者名稱"
+  },
+  "Enable Timer": {
+    "zh-Hans": "开启计时",
+    "zh-Hant": "開啟計時"
+  },
+  "Enable to change\nArc colors": {
+    "zh-Hans": "开启以改变\n音弧配色",
+    "zh-Hant": "開啟以改變\n音弧配色"
+  },
+  "Enable to include\nlate/early 'Pure' timings": {
+    "zh-Hans": "开启后会在纯粹（Pure）时\n显示【过早/过晚】",
+    "zh-Hant": "開啟使純粹（Pure）時\n顯示「過早/過晚」"
+  },
+  "Enabled": {
+    "zh-Hans": "开启",
+    "zh-Hant": "開啟"
+  },
+  "Ended": {
+    "zh-Hans": "结束",
+    "zh-Hant": "已結束"
+  },
+  "Endless Gallery": {
+    "zh-Hans": "无尽之展观",
+    "zh-Hant": "無盡之展觀"
+  },
+  "Enter a Public room to join matchmaking with other online players,\nor open a Private room to invite friends.": {
+    "zh-Hans": "您可通过公共房间与随机匹配到的玩家一起游玩，\n也可邀请好友加入私人房间游玩。",
+    "zh-Hant": "您可通過公共房間與隨機匹配到的玩家一起遊玩，\n也可邀請好友加入私人房間遊玩。"
+  },
+  "Enter room code": {
+    "zh-Hans": "输入房间号码",
+    "zh-Hant": "輸入房間號碼"
+  },
+  "Error": {
+    "zh-Hans": "错误",
+    "zh-Hant": "錯誤"
+  },
+  "Error updating the room with new purchase.": {
+    "zh-Hans": "购买后更新房间发生错误",
+    "zh-Hant": "購買後更新房間發生錯誤"
+  },
+  "Estimated size: %2@MB+": {
+    "zh-Hans": "预计产生流量：大于%2@MB",
+    "zh-Hant": "預計消耗數據：超過%2@MB"
+  },
+  "Ether Drop": {
+    "zh-Hans": "以太之滴",
+    "zh-Hant": "以太之滴"
+  },
+  "Ether Drops": {
+    "zh-Hans": "以太之滴",
+    "zh-Hant": "以太之滴"
+  },
+  "Ether Drops to spend": {
+    "zh-Hans": "使用数量",
+    "zh-Hant": "使用數量"
+  },
+  "Eto": {
+    "zh-Hans": "爱托",
+    "zh-Hant": "愛托"
+  },
+  "Eto & Hoppe": {
+    "zh-Hans": "爱托 & 荷珀",
+    "zh-Hant": "愛托 & 荷珀"
+  },
+  "Eto & Luna": {
+    "zh-Hans": "爱托 & 露娜",
+    "zh-Hant": "愛托 & 露娜"
+  },
+  "Etude": {
+    "zh-Hans": "Etude",
+    "zh-Hant": "Etude"
+  },
+  "Evanescent Domain": {
+    "zh-Hans": "崩落的界域",
+    "zh-Hant": "崩落的界域"
+  },
+  "Event": {
+    "zh-Hans": "活动",
+    "zh-Hant": "活動"
+  },
+  "Existing Account Found": {
+    "zh-Hans": "该帐号已存在",
+    "zh-Hant": "該帳號已存在"
+  },
+  "Experience Aegleseeker": {
+    "zh-Hans": "游玩《Aegleseeker》",
+    "zh-Hant": "遊玩《Aegleseeker》"
+  },
+  "Experience Arghena": {
+    "zh-Hans": "游玩《Arghena》",
+    "zh-Hant": "遊玩《Arghena》"
+  },
+  "Experience Designant.": {
+    "zh-Hans": "探究Designant.",
+    "zh-Hant": "探究Designant."
+  },
+  "Experience Undying Macula": {
+    "zh-Hans": "体验Undying Macula",
+    "zh-Hant": "體驗Undying Macula"
+  },
+  "Expires in %@": {
+    "zh-Hans": "%@ 后过期",
+    "zh-Hant": "%@ 後過期"
+  },
+  "Explore Arcaea, and on your journey fulfill missions to unlock rewards.": {
+    "zh-Hans": "在探索Arcaea的旅途中完成任务并解锁奖励吧！",
+    "zh-Hant": "在探索Arcaea的旅途中完成任務並解鎖獎勵吧！"
+  },
+  "Extend": {
+    "zh-Hans": "扩充",
+    "zh-Hant": "擴充"
+  },
+  "Extend Friend Limit": {
+    "zh-Hans": "扩充好友上限",
+    "zh-Hant": "擴充好友上限"
+  },
+  "FAVORITES": {
+    "zh-Hans": "FAVORITES",
+    "zh-Hant": "FAVORITES"
+  },
+  "FEVER GAUGE + Earn 1 Fragment when\nFEVER reaches x5": {
+    "zh-Hans": "FEVER收集条 + FEVER每达到x5时\n额外获得1残片",
+    "zh-Hant": "FEVER收集條 + FEVER每到達x5時\n額外獲得1殘片"
+  },
+  "FEVER GAUGE + HARD - Recollection Rate gain\nreduced when FEVER is low": {
+    "zh-Hans": "FEVER收集条 + 困难 - FEVER等级低时\n降低命中音符所获得的回忆率",
+    "zh-Hant": "FEVER收集條 + 困難 - FEVER等級低時\n降低命中音符所獲得的回憶率"
+  },
+  "FEVER Gauge + World progress increased based\non PURE note count and FEVER level": {
+    "zh-Hans": "FEVER收集条 + 根据纯粹音符数\n与FEVER等级提高世界模式进度",
+    "zh-Hant": "FEVER收集條 + 根據純粹音符數\n與FEVER等級提高世界模式進度"
+  },
+  "FIRST CLEAR": {
+    "zh-Hans": "初次通关",
+    "zh-Hant": "初次完成"
+  },
+  "FR": {
+    "zh-Hans": "FR",
+    "zh-Hant": "FR"
+  },
+  "FR/PM Indicator": {
+    "zh-Hans": "FR/PM 指示灯",
+    "zh-Hant": "FR/PM 指示燈"
+  },
+  "FRAGMENTS": {
+    "zh-Hans": "残片",
+    "zh-Hant": "殘片"
+  },
+  "FREE TO PLAY": {
+    "zh-Hans": "免费内容",
+    "zh-Hant": "免費內容"
+  },
+  "Face the songs you have already confronted and find a way forward.": {
+    "zh-Hans": "直面与你相遇过的歌曲，探索前进的道路",
+    "zh-Hant": "直面與你相遇過的歌曲，探索前進的道路"
+  },
+  "Facebook": {
+    "zh-Hans": "Facebook",
+    "zh-Hant": "Facebook"
+  },
+  "Failed to get the latest content information.\nPlease check your internet connection. Error Code: %1@": {
+    "zh-Hans": "无法获取更新信息，请检查网络连接。\n错误代码：%1@",
+    "zh-Hant": "無法獲取更新信息，請檢查網路連結。\n錯誤代碼：%1@"
+  },
+  "Fantasia": {
+    "zh-Hans": "Fantasia",
+    "zh-Hant": "Fantasia"
+  },
+  "Fast": {
+    "zh-Hans": "快",
+    "zh-Hant": "快"
+  },
+  "Fatalis": {
+    "zh-Hans": "Fatalis",
+    "zh-Hant": "Fatalis"
+  },
+  "Favorite each Tairitsu,\nclear Her song with Her": {
+    "zh-Hans": "收藏所有对立并使用任意对立\n通关一首她的曲目",
+    "zh-Hant": "收藏所有對立並使用任意對立\n通關一首她的曲目"
+  },
+  "Find the entries of her journal": {
+    "zh-Hans": "找到她日志中的页面",
+    "zh-Hant": "找到她日誌中的頁面"
+  },
+  "Find the new Map in Chapter 5 of World Mode": {
+    "zh-Hans": "请在世界模式第五章中找到全新的地图",
+    "zh-Hant": "請在世界模式第五章中找到全新的地圖"
+  },
+  "Find the path to a different future": {
+    "zh-Hans": "寻找通往不同未来的道路",
+    "zh-Hant": "尋找通往不同未來的道路"
+  },
+  "Find the place she caught someone's eye, and where she was taken into another world.": {
+    "zh-Hans": "找到谁人的视线落在她身上的地方，她被带到另一个世界的地方。",
+    "zh-Hant": "找到誰人的視線落在她身上的地方，她被帶到另一個世界的地方。"
+  },
+  "Find the woman who took her to another world.": {
+    "zh-Hans": "找到将她带到另一个世界的人。",
+    "zh-Hant": "找到將她帶到另一個世界的人。"
+  },
+  "Finish": {
+    "zh-Hans": "完成",
+    "zh-Hant": "完成"
+  },
+  "Finish a song while only getting\nall PUREs, FARs, or LOSTs": {
+    "zh-Hans": "曲目结算时皆为PURE判定、\nFAR判定或LOST判定",
+    "zh-Hant": "曲目結算時皆為PURE判定、\nFAR判定或LOST判定"
+  },
+  "Finish a song while only getting\nall ⸗⸗⸗⸗⸗⸗": {
+    "zh-Hans": "曲目结算时皆为⸗⸗\n⸗⸗⸗⸗⸗",
+    "zh-Hant": "曲目結算時皆為⸗⸗\n⸗⸗⸗"
+  },
+  "Finish a song with a\n1.2x or higher Partner\nfragment multiplier": {
+    "zh-Hans": "使用残片倍率为1.2x或\n更高的搭档完成一首歌曲",
+    "zh-Hant": "使用殘片倍率為1.2x或\n更高的搭檔完成一首歌曲"
+  },
+  "Finish a song with a Partner fragment multipler\nof 1.2x or more": {
+    "zh-Hans": "使用残片倍率为1.2x或\n更高的搭档完成一首歌曲",
+    "zh-Hant": "使用殘片倍率為1.2x或\n更高的搭檔完成一首歌曲"
+  },
+  "Flow": {
+    "zh-Hans": "Flow",
+    "zh-Hant": "Flow"
+  },
+  "Follow the movement of Arc notes\nby moving your finger left or right.": {
+    "zh-Hans": "跟着「音弧」的移动方向滑动",
+    "zh-Hant": "跟著「音弧」的移動方向滑動。"
+  },
+  "For Conflict, one Contest△": {
+    "zh-Hans": "在同一个比赛中，独属于纷争之侧的角逐△",
+    "zh-Hant": "在同一個比賽中，獨屬於紛爭之側的角逐△"
+  },
+  "For Light, one Contest△": {
+    "zh-Hans": "在同一个比赛中，独属于光芒之侧的角逐△",
+    "zh-Hant": "在同一個比賽中，獨屬於光芒之側的角逐△"
+  },
+  "For the one who might find this: I'll write down all that I know, for you.": {
+    "zh-Hans": "如果有人哪天发现了这本日志：它存在的意义便是你。我会告诉你一切我所发现的事。",
+    "zh-Hant": "如果有人哪天發現了這本日誌：它存在的意義就是你。我會告訴你一切我所發現的事。"
+  },
+  "Forget an old adage. Hurry along.": {
+    "zh-Hans": "加快脚步。古老的声音于耳畔消散。",
+    "zh-Hant": "加快腳步。古老的聲音於耳畔消散。"
+  },
+  "Forgot Password?": {
+    "zh-Hans": "忘记密码？",
+    "zh-Hant": "忘記密碼？"
+  },
+  "Forgotten Construct": {
+    "zh-Hans": "遗忘的构念",
+    "zh-Hant": "遺忘的構念"
+  },
+  "Forlorn": {
+    "zh-Hans": "哀寂",
+    "zh-Hant": "哀寂"
+  },
+  "Fracture": {
+    "zh-Hans": "Fracture",
+    "zh-Hant": "Fracture"
+  },
+  "Fracture & MIR-203": {
+    "zh-Hans": "Fracture & MIR-203",
+    "zh-Hant": "Fracture & MIR-203"
+  },
+  "Frag": {
+    "zh-Hans": "残数",
+    "zh-Hant": "殘数"
+  },
+  "Frag Boost": {
+    "zh-Hans": "残片深化",
+    "zh-Hant": "殘片深化"
+  },
+  "Fragment Boost": {
+    "zh-Hans": "残片深化",
+    "zh-Hant": "殘片深化"
+  },
+  "Fragment gain doubled upon earning\n%1@ Fragments using other Partners": {
+    "zh-Hans": "使用其他搭档获得%1@个残片后\n下一次游玩获取的残片数量翻倍",
+    "zh-Hant": "使用其他搭檔獲得%1@個殘片後\n下一次遊玩獲取的殘片數量翻倍"
+  },
+  "Fragments": {
+    "zh-Hans": "残片",
+    "zh-Hant": "殘片"
+  },
+  "Fragments Used": {
+    "zh-Hans": "已使用残片",
+    "zh-Hant": "已使用殘片"
+  },
+  "Fragments after": {
+    "zh-Hans": "剩余残片：",
+    "zh-Hant": "結算後殘片"
+  },
+  "Fragments are used to unlock new songs.\nThey are acquired as you play.": {
+    "zh-Hans": "残片可用于解锁新曲目\n游戏中可以获得残片",
+    "zh-Hant": "殘片可用於解鎖新曲目\n遊戲中可以獲得殘片。"
+  },
+  "Fragments before": {
+    "zh-Hans": "拥有残片：",
+    "zh-Hant": "現有殘片"
+  },
+  "Frame Rate": {
+    "zh-Hans": "帧率",
+    "zh-Hant": "幀率"
+  },
+  "Free": {
+    "zh-Hans": "免费",
+    "zh-Hant": "免費"
+  },
+  "Free unlock period has passed": {
+    "zh-Hans": "免费解锁有效期已经结束",
+    "zh-Hant": "免費解鎖有效期已經結束"
+  },
+  "Friend ID:": {
+    "zh-Hans": "好友 ID：",
+    "zh-Hant": "好友 ID："
+  },
+  "Friends": {
+    "zh-Hans": "好友",
+    "zh-Hant": "好友"
+  },
+  "From the creators of Arcaea, In Falsus is the upcoming\nVisual Novel-styled rhythm game coming to PC in 2026.\n\nThe demo for lowiro's second original music game\nreceives a new update, with a new song, new Scenario,\nand an early look at the Card Integration system\nand Encounter gameplay.\n\nTruth and Falsehood intertwine\nacross the endless sea of consciousness...\nPlay the demo and Wishlist now!": {
+    "zh-Hans": "由《韵律源点Arcaea》的创作团队打造的视觉小说风格\n节奏游戏《In Falsus》即将于2026年登陆PC平台。\n\nlowiro的第二款原创音乐游戏试玩版迎来全新更新，\n新增一首歌曲、一段新剧情，展示了卡牌合铸系统\n和「遭遇」玩法！\n\n真实与谎言交织于无尽的意识之海……\n\n立即体验试玩版并加入愿望清单吧！",
+    "zh-Hant": "由《Arcaea》的創作團隊打造的視覺小說風格\n節奏遊戲《In Falsus》即將於2026年登陸PC平台。\n\nlowiro的第二款原創音樂遊戲試玩版迎來全新更新，\n新增一首歌曲、一段新劇情，展示了卡牌合鑄系統\n和「遭遇」玩法！\n\n真實與謊言交織於無盡的意識之海…\n\n立即體驗體驗版並加入願望清單！ "
+  },
+  "Full": {
+    "zh-Hans": "解锁",
+    "zh-Hant": "解鎖"
+  },
+  "Full Unlock": {
+    "zh-Hans": "解锁全部内容",
+    "zh-Hant": "解鎖全部內容"
+  },
+  "Furigana": {
+    "zh-Hans": "Furigana",
+    "zh-Hant": "Furigana"
+  },
+  "GUEST": {
+    "zh-Hans": "游客",
+    "zh-Hant": "訪客"
+  },
+  "Gain +20 on all stats on first\nArcaea Next Stage song play daily": {
+    "zh-Hans": "每日首次游玩Next Stage曲目时\n角色所有能力数值+20",
+    "zh-Hant": "每日首次遊玩Next Stage曲目時\n角色所有能力數值+20"
+  },
+  "Gain or lose Rank based on performance\nRisk and Reward increase at higher Ranks": {
+    "zh-Hans": "根据游玩表现定级\n回报与损失比例随等级上升增加",
+    "zh-Hant": "根據遊玩表現定級\n收益與損失比例隨等級上升增加"
+  },
+  "Game data is out of sync due to another device.\nPlease check your progress after re-entering World Mode.": {
+    "zh-Hans": "因为其他设备的缘故，此次游戏数据同步失败。\n请在重新进入世界模式后检查您的进展度。",
+    "zh-Hant": "因為其他設備的緣故，此次遊戲數據同步失敗。\n請在重新進入世界模式後檢查您的進展度。"
+  },
+  "Game data restored from cloud save.": {
+    "zh-Hans": "已从云端读取游戏数据",
+    "zh-Hant": "已從雲端恢復遊戲資料"
+  },
+  "Game data saved to cloud.": {
+    "zh-Hans": "游戏数据已保存于云端",
+    "zh-Hant": "已將遊戲資料儲存於雲端"
+  },
+  "Gameplay": {
+    "zh-Hans": "玩法",
+    "zh-Hant": "玩法"
+  },
+  "Genre": {
+    "zh-Hans": "分区",
+    "zh-Hant": "分區"
+  },
+  "Give Lead": {
+    "zh-Hans": "设置为房主",
+    "zh-Hant": "設置為房主"
+  },
+  "Glass gathered without balance": {
+    "zh-Hans": "玻璃相聚，却无法成对",
+    "zh-Hant": "玻璃相聚，卻無法成對"
+  },
+  "Go back": {
+    "zh-Hans": "退出",
+    "zh-Hant": "退出"
+  },
+  "Go to Map": {
+    "zh-Hans": "前往对应地图",
+    "zh-Hant": "前往對應地圖"
+  },
+  "Go to Pack": {
+    "zh-Hans": "前往获取",
+    "zh-Hant": "前往獲取"
+  },
+  "Good luck in the upper levels of Arcaea!": {
+    "zh-Hans": "祝你在 Arcaea 的进阶难度中好运！",
+    "zh-Hant": "祝你在 Arcaea 的進階難度中順利！"
+  },
+  "Google": {
+    "zh-Hans": "谷歌",
+    "zh-Hant": "Google"
+  },
+  "Google Play": {
+    "zh-Hans": "Google Play",
+    "zh-Hant": "Google Play"
+  },
+  "Google Play services are not available.\nPlease try updating Google Play and re-launching Arcaea.": {
+    "zh-Hans": "暂时无法使用 Google Play 服务\n请试着升级 Google Play 并重启 Arcaea",
+    "zh-Hant": "目前無法使用 Google Play 服務\n請嘗試更新 Google Play，再重新啟動《Arcaea》。"
+  },
+  "Grade": {
+    "zh-Hans": "评级",
+    "zh-Hant": "評級"
+  },
+  "Grade %@ or above": {
+    "zh-Hans": "成绩到达 %@ 或以上",
+    "zh-Hant": "%@ 及以上評價"
+  },
+  "Graphics Quality": {
+    "zh-Hans": "图像质量",
+    "zh-Hant": "圖像質素"
+  },
+  "Graphics Quality has been set to Lower for improved\nperformance. This can be changed at any time from Settings.": {
+    "zh-Hans": "为确保游戏体验，图像质量已设置为较低。\n您可以于设置处随时更改。",
+    "zh-Hant": "為確保遊戲體驗，圖像質素已設置為較低。\n您可以於設置處隨時更改。"
+  },
+  "Grievous Lady": {
+    "zh-Hans": "Grievous Lady",
+    "zh-Hant": "Grievous Lady"
+  },
+  "Groove Core": {
+    "zh-Hans": "音炫核心",
+    "zh-Hant": "音炫核心"
+  },
+  "Group By": {
+    "zh-Hans": "分类方式",
+    "zh-Hant": "分類方式"
+  },
+  "Group songs by any\ncategory then open\na group": {
+    "zh-Hans": "按任意方式分类歌曲\n并打开该曲目分类夹",
+    "zh-Hant": "按任意方式分類歌曲\n並打開該曲目分類夾"
+  },
+  "HARD + 6% chance to lose 6x Recollection Rate\nSTEP increased by 6 on clear": {
+    "zh-Hans": "困难 + 流失判定时有6%概率丢失6倍回忆率\n曲目通关时获得+6步数加成",
+    "zh-Hant": "困難 + 流失判定時有6%概率丟失6倍回憶率\n曲目通關時獲得+6步數加成"
+  },
+  "HARD + Earn +%@ Fragments\nReward increases for consecutive clears": {
+    "zh-Hans": "困难 - 获得+%@残片\n奖励随连续通关次数上升",
+    "zh-Hant": "困難 - 獲得+%@殘片\n獎勵隨連續通關次數上升"
+  },
+  "HARD + FAR notes slightly decrease\nRecollection Rate": {
+    "zh-Hans": "困难 + 判定为模糊（Far）时略微减少回忆率",
+    "zh-Hant": "困難 + 模糊（Far）判定時略微減少回憶率"
+  },
+  "HARD + For every 1/5 of song progress\n-10 Recollection Rate, +2 Fragments": {
+    "zh-Hans": "困难 + 每推进1/5歌曲游玩进度\n减少10点回忆率并获得两个残片",
+    "zh-Hant": "困難 + 每推進1/5歌曲遊玩進度\n減少10點回憶率並獲得兩個殘片"
+  },
+  "HARD + Gain +%@ Fragments on Track Clear\nThis skill changes during the day": {
+    "zh-Hans": "困难 + 歌曲通关时获得%@额外残片\n此技能在白天会改变",
+    "zh-Hant": "困難 + 歌曲通關時獲得%@額外殘片\n此技能在白天會改變"
+  },
+  "HARD + Gain 10 STEP for every 1/3rd of total\nnote count that max combo reaches": {
+    "zh-Hans": "困难 + 最大连击数达到歌曲音符总量\n的每1/3时，增加10步数",
+    "zh-Hant": "困難 + 最大連擊數達到歌曲音符總量\n的每1/3時，增加10步數"
+  },
+  "HARD + Increased Recollection Rate\nchange per note": {
+    "zh-Hans": "困难 + 击中音符后回忆率的变化增加",
+    "zh-Hant": "困難 + 擊中音符後回憶率的變化增加"
+  },
+  "HARD + LOST notes decrease Recollection Rate\nbased on current combo": {
+    "zh-Hans": "困难 + 判定为流失（LOST）时根据\n当前连击数减少回忆率",
+    "zh-Hant": "困難 + 判定為流失（LOST）時根據\n當前連擊數減少回憶率"
+  },
+  "HARD + Lose %@ Fragments on Track Lost": {
+    "zh-Hans": "困难 + 在 Track Lost 时丢失 %@ 残片",
+    "zh-Hant": "困難 + 在 Track Lost 時丟失 %@ 殘片"
+  },
+  "HARD + Lose Emotions. Weaken an aspect of\nHikari & Vanessa by -10 per Emotion lost": {
+    "zh-Hans": "困难 + 失去情感。每份破碎的情感会使\nHikari & Vanessa的一项能力造成-10的损失",
+    "zh-Hant": "困難 + 失去情感。每份破碎的情感會使\nHikari & Vanessa的一項能力造成-10的損失"
+  },
+  "HARD + MIRROR - OVER increased by\nup to %@ based on Recollection Rate": {
+    "zh-Hans": "困难 + 镜像 - 超量（OVER）加成随回忆率提升\n提升量最多为%@",
+    "zh-Hant": "困難 + 鏡像 - 超量（OVER）加成隨回憶率提升\n提升量最多為%@"
+  },
+  "HARD + MIRROR - Track Lost when\nRecollection Rate reaches 0%": {
+    "zh-Hans": "困难 + 镜像 - 回忆率归零后直接判定为乐曲失败",
+    "zh-Hant": "困難 + 鏡像 - 回憶率降至 0% 時，曲目視為失敗"
+  },
+  "HARD + Max Recollection Gauge decreases\nbased on current Recollection Rate": {
+    "zh-Hans": "困难 + 回忆率最大值\n会根据当前回忆率而减少",
+    "zh-Hant": "困難 + 回憶率最大值\n會根據當前回憶率而減少"
+  },
+  "HARD + O.N.G.E.K.I. (50)": {
+    "zh-Hans": "困难 + O.N.G.E.K.I. (50)",
+    "zh-Hant": "困難 + O.N.G.E.K.I. (50)"
+  },
+  "HARD + Recollection Rate gain disabled\nfor the last 1/4 of song": {
+    "zh-Hans": "困难 + 在歌曲最后1/4部分不会获得回忆率",
+    "zh-Hant": "困難 + 在歌曲最後1/4部分不會獲得回憶率"
+  },
+  "HARD + Recollection Rate gain disabled\nwhen below %@ combo": {
+    "zh-Hans": "困难 + 连击数小于 %@ 时不会增加回忆率",
+    "zh-Hant": "困難 + 連擊少於 %@ 時不會增加回憶率"
+  },
+  "HARD + Recollection Rate gradually decreases\nwith song progress": {
+    "zh-Hans": "困难 + 回忆率随歌曲进行不断减少",
+    "zh-Hant": "困難 + 回憶率隨歌曲進行不斷減少"
+  },
+  "HARD + World Mode progress increased by 1\nfor each %@ combo reached": {
+    "zh-Hans": "困难 + 每达%@连击数世界模式进度+1",
+    "zh-Hant": "困難 + 每達%@連擊數世界模式進度+1"
+  },
+  "HARD - Fatalis Gauge + sacrifices stamina\nto overload World Mode": {
+    "zh-Hans": "困难 - 宿命收集条 + 牺牲体力\n让世界模式过载",
+    "zh-Hant": "困難 - 宿命收集條 + 犧牲體力\n讓世界模式過載"
+  },
+  "HARD - Forlorn Gauge": {
+    "zh-Hans": "困难 - 哀寂收集条",
+    "zh-Hant": "困難 - 哀寂收集條"
+  },
+  "HARD - Gauge persists + Earn +%@ Fragments\nReward increases for consecutive clears": {
+    "zh-Hans": "困难 - 回忆率留存至下一曲目 + 获得+%@残片\n奖励随连续通关次数上升",
+    "zh-Hant": "困難 - 回憶率留存至下一曲目 + 獲得+%@殘片\n獎勵隨連續通關次數上升"
+  },
+  "HARD - Irruption Gauge": {
+    "zh-Hans": "困难 - 侵袭收集条",
+    "zh-Hant": "困難 - 侵襲收集條"
+  },
+  "HARD - Irruption Gauge - Chance to usurp\nPartners' World plays with 2x progress": {
+    "zh-Hans": "困难 - 侵袭收集条 - 有概率以两倍\n进度侵占当前搭档的世界模式进度",
+    "zh-Hant": "困難 - 侵襲收集條 - 有機率以兩倍\n進度侵占當前搭檔的世界模式進度"
+  },
+  "HARD - Tempest Gauge": {
+    "zh-Hans": "困难 - 风暴收集条",
+    "zh-Hant": "困難 - 風暴收集條"
+  },
+  "HARD - Track Lost after %@ FAR or LOST notes": {
+    "zh-Hans": "困难 - 达到%@个模糊或流失判定时挑战立即失败",
+    "zh-Hant": "困難 - 達到%@個模糊或流失判定時挑戰即刻失敗"
+  },
+  "HARD - Track Lost after %@ LOST notes": {
+    "zh-Hans": "困难 - 流失%@个音符后，当前游玩曲目将立即失败",
+    "zh-Hant": "困難 - 流失%@個音符後，歌曲將立即失敗"
+  },
+  "HARD - Track Lost when Recollection Rate\nreaches 0%": {
+    "zh-Hans": "困难 - 回忆率归零后直接判定为乐曲失败",
+    "zh-Hant": "困難 - 回憶率降至 0% 時，曲目視為失敗"
+  },
+  "Hard": {
+    "zh-Hans": "困难通关",
+    "zh-Hant": "HARD"
+  },
+  "Haruna": {
+    "zh-Hans": "榛名",
+    "zh-Hant": "榛名"
+  },
+  "Have their Stories align (15-6 | 16-6)": {
+    "zh-Hans": "连接她们的故事（15-6｜16-6）",
+    "zh-Hant": "連結她們的故事（15-6｜16-6）"
+  },
+  "Helena": {
+    "zh-Hans": "海琳娜",
+    "zh-Hant": "海琳娜"
+  },
+  "Her old self is something she can hardly recall. Find and treasure a song of that reflection.": {
+    "zh-Hans": "她回想不起过去自己的模样。找到并珍藏一首反映她过去的歌曲。",
+    "zh-Hant": "她回想不起過去自己的模樣。找到並珍藏一首反映她過去的歌。"
+  },
+  "Her power is currently restrained.\nInsight cannot usurp Partners' World plays.": {
+    "zh-Hans": "她的能量暂受抑制。\n洞烛无法侵入其他搭档在世界模式中的进度。",
+    "zh-Hant": "她的能量暫受抑制。\n洞燭無法侵入其他搭檔在世界模式中的進度。"
+  },
+  "Her skill can be disabled within the character select screen.": {
+    "zh-Hans": "此外，在角色选择界面关闭她的技能后，她将无法侵袭其他搭档。",
+    "zh-Hant": "此外，在角色選擇介面關閉她的技能後，她將無法侵襲其他搭檔。"
+  },
+  "Herald.": {
+    "zh-Hans": "使徒级。",
+    "zh-Hant": "使徒級。"
+  },
+  "Hidden": {
+    "zh-Hans": "隐藏",
+    "zh-Hant": "隱藏"
+  },
+  "Hide": {
+    "zh-Hans": "隐藏",
+    "zh-Hant": "隱藏"
+  },
+  "Hide Text": {
+    "zh-Hans": "隐藏文本",
+    "zh-Hant": "隱藏文本"
+  },
+  "High Score": {
+    "zh-Hans": "最好成绩",
+    "zh-Hant": "最好成績"
+  },
+  "Hikari": {
+    "zh-Hans": "光",
+    "zh-Hant": "光"
+  },
+  "Hikari & El Clear": {
+    "zh-Hans": "光 & 克莱尔",
+    "zh-Hant": "光 & 克萊爾"
+  },
+  "Hikari & Fisica": {
+    "zh-Hans": "光 & 菲希卡",
+    "zh-Hant": "光 & 菲希卡"
+  },
+  "Hikari & Seine": {
+    "zh-Hans": "光 & 赛依娜",
+    "zh-Hant": "光 & 晴音"
+  },
+  "Hikari & Selene Sheryl": {
+    "zh-Hans": "光 & 赛润妮·雪儿",
+    "zh-Hant": "光 & 賽潤妮·雪兒"
+  },
+  "Hikari & Tairitsu": {
+    "zh-Hans": "光 & 对立",
+    "zh-Hant": "光 & 對立"
+  },
+  "Hikari & Tairitsu[ANS]": {
+    "zh-Hans": "光 & 对立",
+    "zh-Hant": "光 & 對立"
+  },
+  "Hikari & Vanessa": {
+    "zh-Hans": "Hikari & Vanessa",
+    "zh-Hant": "Hikari & Vanessa"
+  },
+  "Hold a finger where Arc notes approach.\nKeep holding until the note has ended.": {
+    "zh-Hans": "当「音弧」来临时用一只手指长按\n在音弧结束前一直保持按压",
+    "zh-Hant": "當「音弧」靠近時，以一支手指壓住，直到「音弧」消失。"
+  },
+  "Hollow Core": {
+    "zh-Hans": "中空核心",
+    "zh-Hant": "中空核心"
+  },
+  "Horizon of Anamnesis": {
+    "zh-Hans": "回首的天际",
+    "zh-Hant": "回首的天際"
+  },
+  "I Agree": {
+    "zh-Hans": "同意",
+    "zh-Hant": "同意"
+  },
+  "I can certainly confirm it by now: the flow of time from here and in relation to Arcaea\nseems to be strange. It reminds me of time dilation.": {
+    "zh-Hans": "现在我可以肯定：这个地方的时间流逝的速度本身，\n以及和Arcaea世界时间流逝的关系均似乎有些诡异。这听起来很像时间膨胀。",
+    "zh-Hant": "現在我可以肯定：這個地方的時間流逝的速度本身，\n以及和Arcaea世界時間流逝的關係均似乎有些詭異。這聽起來很像時間膨脹。"
+  },
+  "ID must be 9 digits.": {
+    "zh-Hans": "ID 应为九位数字",
+    "zh-Hant": "ID 均為 9 位數字。"
+  },
+  "INTRUDER": {
+    "zh-Hans": "侵袭者",
+    "zh-Hant": "侵襲者"
+  },
+  "If you're enjoying Arcaea, please consider writing a review.\nThis will help us gain fans and bring more content!": {
+    "zh-Hans": "觉得Arcaea怎么样？\n如果可以的话，请务必抽空给我们写一下您的意见，\n让我们做得更好！",
+    "zh-Hant": "覺得 Arcaea 好玩嗎？撥空為我們寫個回饋意見吧！"
+  },
+  "Ignore": {
+    "zh-Hans": "无视",
+    "zh-Hant": "忽略"
+  },
+  "Ignore Random Restriction Steps\nAfter World progress, this skill changes": {
+    "zh-Hans": "不会触发随机限制格\n世界模式下技能将在曲目结算后改变",
+    "zh-Hant": "不會觸發隨機限制格\n世界模式下技能將在曲目結算後改變"
+  },
+  "Ignore Speed and Random Restriction Steps,\nWorld progress halved below Grade EX": {
+    "zh-Hans": "不会触发速度与随机限制格，\n但此时若成绩低于「EX」则世界模式进度减半",
+    "zh-Hant": "不會觸發速度與隨機限制格，\n但此時若成績低於「EX」則世界模式進度減半"
+  },
+  "Ilith": {
+    "zh-Hans": "依莉丝",
+    "zh-Hant": "依麗絲"
+  },
+  "Ilith & Ivy": {
+    "zh-Hans": "Ilith & Ivy",
+    "zh-Hant": "Ilith & Ivy"
+  },
+  "Illusion": {
+    "zh-Hans": "幻象",
+    "zh-Hant": "幻象"
+  },
+  "Illustration": {
+    "zh-Hans": "插画",
+    "zh-Hant": "插畫"
+  },
+  "In Falsus - Demo Update Out Now!": {
+    "zh-Hans": "In Falsus - 试玩版内容更新！",
+    "zh-Hant": "In Falsus -體驗版內容更新！"
+  },
+  "In Lead selection, the Lead selects a song to play.": {
+    "zh-Hans": "房主选择模式下，游玩的曲目将由房主一人决定。",
+    "zh-Hant": "房主選擇模式下，遊玩的曲目將由房主一人決定。"
+  },
+  "In Turns selection, each player takes turns selecting a song to play.": {
+    "zh-Hans": "全员轮选模式下，游玩的曲目将由所有成员轮流决定。",
+    "zh-Hant": "全員輪選模式下，遊玩的曲目將由所有成員輪流決定。"
+  },
+  "In Vote selection, a song is selected randomly from all player votes.": {
+    "zh-Hans": "投票选择模式下，游玩的曲目将随机抽取，并由所有成员投票表决。",
+    "zh-Hant": "投票選擇模式下，遊玩的曲目將隨機抽取，並由所有成員投票表決。"
+  },
+  "In World Parallel, you can join with others through\nLink Play to grant an additional \"Sync Boost\" bonus.": {
+    "zh-Hans": "在World Parallel中，你可以通过与其他人Link Play\n获取名为“同频强化”的额外加成，加速进度。",
+    "zh-Hant": "在World Parallel中，你可以通過與其他人Link Play\n獲取名為「同頻強化」的額外加成，加速進度。"
+  },
+  "In a land of scattered glass: alone, afraid, and\nunafraid, they met first with tragedy, and then\neach other. Now, their memories have taken shape.\n\nMain Story Chronicles contains each Main Story\nchapter up to and including Black Fate. Join Hikari\nand Tairitsu on their arduous journeys, and beyond.": {
+    "zh-Hans": "在那布满玻璃碎片的世界中，伴随着孤独、恐惧\n与坚定的内心，在经历了种种悲剧后最终互相邂逅。\n现在，她们的记忆也已成形。\n\n主线回忆录将包含「Black Fate」\n以及之前所有的主线剧情曲包。\n加入光与对立的这场艰巨的旅途，直至远方吧。",
+    "zh-Hant": "在那佈滿玻璃碎片的世界中，伴隨著孤獨、恐懼\n與堅定的內心，在經歷了種種悲劇後最終互相邂逅。\n現在，她們的記憶也已成形。\n\n主線回憶錄將包含「Black Fate」\n以及之前所有的主線劇情曲包。\n加入光與對立的這場艱鉅的旅途，直至遠方吧。"
+  },
+  "In order to use the Arcaea online services\nyou must read and agree to the following:": {
+    "zh-Hans": "如要享受韵律源点的网络相关服务，\n您必须阅读并同意如下条款：",
+    "zh-Hant": "如要享受Arcaea的網路相關服務，\n您必須閱讀並同意如下條款："
+  },
+  "In-App Purchase": {
+    "zh-Hans": "APP内购买",
+    "zh-Hant": "APP內購買"
+  },
+  "In-Progress": {
+    "zh-Hans": "进行中",
+    "zh-Hant": "進行中"
+  },
+  "In-app purchases are not available on this device.\nPlease check your device settings.": {
+    "zh-Hans": "此设备已禁用APP内部付款\n请检查您的系统设置",
+    "zh-Hant": "此裝置已禁用APP內部付款\n請檢查您的系統設置"
+  },
+  "Incorrect.": {
+    "zh-Hans": "颠倒是非",
+    "zh-Hant": "顛倒是非"
+  },
+  "Increased Recollection Rate change per note\nNo Recollection Rate gain for FAR notes": {
+    "zh-Hans": "击中音符后回忆率的变化增加\n但判定为模糊（Far）时不会获取任何回忆率",
+    "zh-Hant": "擊中音符后回憶率的變化增加\n但判定為模糊（Far）時不增加任何回憶率"
+  },
+  "Inscribe the name upon %@": {
+    "zh-Hans": "于%@上刻下真名",
+    "zh-Hant": "於%@上刻下真名"
+  },
+  "Inscribed Law": {
+    "zh-Hans": "镌刻法则",
+    "zh-Hant": "鐫刻法則"
+  },
+  "Insight": {
+    "zh-Hans": "洞烛",
+    "zh-Hant": "洞燭"
+  },
+  "Instant": {
+    "zh-Hans": "即刻显示",
+    "zh-Hant": "即刻顯示"
+  },
+  "Instantly obtain all songs in '%@'": {
+    "zh-Hans": "立即获取「%@」中的全部曲目",
+    "zh-Hant": "立即獲取「%@」中的全部曲目"
+  },
+  "Insufficient Cores": {
+    "zh-Hans": "核心不足",
+    "zh-Hant": "核心不足"
+  },
+  "Intruder": {
+    "zh-Hans": "侵袭者",
+    "zh-Hant": "侵襲者"
+  },
+  "Intruder Progress": {
+    "zh-Hans": "侵袭者效果",
+    "zh-Hant": "侵襲者效果"
+  },
+  "Intruder Sealed": {
+    "zh-Hans": "侵袭者封印中",
+    "zh-Hant": "已將侵襲者封印"
+  },
+  "Intruder Skill": {
+    "zh-Hans": "侵袭者技能",
+    "zh-Hant": "侵襲者技能"
+  },
+  "Invalid Code": {
+    "zh-Hans": "无效的序列码",
+    "zh-Hant": "此序號無效。"
+  },
+  "Invalid Room Code.": {
+    "zh-Hans": "房间号码无效",
+    "zh-Hant": "房間號碼無效"
+  },
+  "Invite": {
+    "zh-Hans": "邀请",
+    "zh-Hant": "邀請"
+  },
+  "Invite Notification": {
+    "zh-Hans": "Link Play邀请通知",
+    "zh-Hant": "Link Play邀請通知"
+  },
+  "Invited '%@' to Link Play.": {
+    "zh-Hans": "已向“%@”发送Link Play邀请",
+    "zh-Hant": "已向“%@”發送Link Play邀請"
+  },
+  "Isabelle": {
+    "zh-Hans": "伊莎贝尔",
+    "zh-Hant": "伊莎貝爾"
+  },
+  "It is a complete certainty that I died. I know what I feel, and I know that it was my fault.": {
+    "zh-Hans": "我已死去，这毋庸置疑。我知道我的感受，我明白这都是我的错。",
+    "zh-Hant": "我已死去，這毋庸置疑。我知道我的感受，我明白這都是我的錯。"
+  },
+  "It's time to introduce Arcaea's advanced note types.": {
+    "zh-Hans": "现在，让我们认识一下 Arcaea 的进阶音符",
+    "zh-Hant": "接下來介紹《Arcaea》的進階音符。"
+  },
+  "Join": {
+    "zh-Hans": "加入",
+    "zh-Hant": "加入"
+  },
+  "Kanae": {
+    "zh-Hans": "群愿",
+    "zh-Hant": "群願"
+  },
+  "Kick Player": {
+    "zh-Hans": "请玩家离开",
+    "zh-Hant": "請玩家離開"
+  },
+  "Kou": {
+    "zh-Hans": "红",
+    "zh-Hant": "紅"
+  },
+  "LAST CLOUD SAVE:": {
+    "zh-Hans": "上次云端存档",
+    "zh-Hant": "上次雲端存檔"
+  },
+  "LAW": {
+    "zh-Hans": "法则",
+    "zh-Hant": "法則"
+  },
+  "LEVEL %@": {
+    "zh-Hans": "难度 %@",
+    "zh-Hant": "難度 %@"
+  },
+  "LEVEL ???": {
+    "zh-Hans": "难度 ???",
+    "zh-Hant": "難度 ???"
+  },
+  "LIGHT - Rewrite the paradigms\nof Light and Conflict.": {
+    "zh-Hans": "光芒 - 改写光芒与纷争的规则",
+    "zh-Hant": "光芒 - 改寫光芒與紛爭的規則"
+  },
+  "LIMITED": {
+    "zh-Hans": "期间限定",
+    "zh-Hant": "期間限定"
+  },
+  "LINK PLAY": {
+    "zh-Hans": "LINK PLAY",
+    "zh-Hant": "LINK PLAY"
+  },
+  "Lacrymira": {
+    "zh-Hans": "拉可弥拉",
+    "zh-Hant": "拉可彌拉"
+  },
+  "Lagrange": {
+    "zh-Hans": "拉格兰",
+    "zh-Hant": "拉格蘭"
+  },
+  "Language": {
+    "zh-Hans": "语言",
+    "zh-Hant": "語言"
+  },
+  "Last Play": {
+    "zh-Hans": "上次游玩",
+    "zh-Hant": "上次遊玩"
+  },
+  "Last Played": {
+    "zh-Hans": "上次游玩",
+    "zh-Hant": "上次遊玩"
+  },
+  "Late/Early Position": {
+    "zh-Hans": "【过早/过晚】位置",
+    "zh-Hant": "「過早/過晚」位置"
+  },
+  "Lead": {
+    "zh-Hans": "房主选择",
+    "zh-Hant": "房主選擇"
+  },
+  "Leave Room": {
+    "zh-Hans": "离开房间",
+    "zh-Hant": "離開房間"
+  },
+  "Leave the current Link Play room?": {
+    "zh-Hans": "退出当前房间？",
+    "zh-Hant": "退出當前房間？"
+  },
+  "Leaving Song Select will cause you to disconnect\nfrom Link Play": {
+    "zh-Hans": "在选择歌曲时离开将会导致你\n从Link Play断开连接",
+    "zh-Hant": "在選擇歌曲時離開將會導致你\n從Link Play斷開連接"
+  },
+  "Let's Link Play in Arcaea! Room Code: %1@ %2@\n#arcaea_link": {
+    "zh-Hans": "一起来玩Arcaea Link Play吧！房间号码：%1@ %2@\n#arcaea_link",
+    "zh-Hant": "一起來玩Arcaea Link Play吧！房間號碼：%1@ %2@\n#arcaea_link"
+  },
+  "Let's put everything new together!": {
+    "zh-Hans": "让我们把所有元素放在一起！",
+    "zh-Hant": "讓我們把所有新東西放在一起！"
+  },
+  "Let's refresh how Arc notes move from side to side.": {
+    "zh-Hans": "让我们先复习一下「音弧」是怎么移动的",
+    "zh-Hant": "我們重新回顧一下「音弧」怎麼移動。"
+  },
+  "Let's try it out for real!": {
+    "zh-Hans": "那么，开始实战演习吧！",
+    "zh-Hant": "讓我們正式開始吧！"
+  },
+  "Lethe": {
+    "zh-Hans": "忘却",
+    "zh-Hant": "忘卻"
+  },
+  "Level": {
+    "zh-Hans": "等级",
+    "zh-Hant": "等級"
+  },
+  "Level Up": {
+    "zh-Hans": "升级",
+    "zh-Hant": "升級"
+  },
+  "Level Up a Partner\nto level 12 or higher": {
+    "zh-Hans": "选取一位搭档并将其\n升至12级或更高",
+    "zh-Hant": "選取一位搭檔並將其\n升至12級或更高"
+  },
+  "Level Warning": {
+    "zh-Hans": "等级警告",
+    "zh-Hant": "等級警告"
+  },
+  "Level after": {
+    "zh-Hans": "升级后",
+    "zh-Hant": "升級後"
+  },
+  "Level before": {
+    "zh-Hans": "目前等级",
+    "zh-Hant": "目前等級"
+  },
+  "Lily": {
+    "zh-Hans": "莉莉",
+    "zh-Hant": "莉莉"
+  },
+  "Link Email": {
+    "zh-Hans": "绑定邮箱",
+    "zh-Hant": "綁定郵箱"
+  },
+  "Link Play": {
+    "zh-Hans": "Link Play",
+    "zh-Hant": "Link Play"
+  },
+  "Linka": {
+    "zh-Hans": "凛可",
+    "zh-Hant": "凜花"
+  },
+  "Locked": {
+    "zh-Hans": "未解锁",
+    "zh-Hant": "未解鎖"
+  },
+  "Login": {
+    "zh-Hans": "登入",
+    "zh-Hant": "登入"
+  },
+  "Login Present": {
+    "zh-Hans": "登录奖励",
+    "zh-Hant": "登入獎勵"
+  },
+  "Login to get new packs, add friends,\nand use network features": {
+    "zh-Hans": "登录来获取新故事包、添加好友\n或使用在线功能",
+    "zh-Hant": "馬上登入取得新故事包、添加好友\n以及使用線上功能。"
+  },
+  "Logout": {
+    "zh-Hans": "登出",
+    "zh-Hant": "登出"
+  },
+  "Long Press": {
+    "zh-Hans": "长按",
+    "zh-Hant": "長按"
+  },
+  "Lost": {
+    "zh-Hans": "通关失败",
+    "zh-Hant": "LOST"
+  },
+  "Lost Chapter: Beyond": {
+    "zh-Hans": "Lost Chapter: Beyond",
+    "zh-Hant": "Lost Chapter: Beyond"
+  },
+  "Lost World": {
+    "zh-Hans": "失落的世界",
+    "zh-Hant": "失落的世界"
+  },
+  "Lower": {
+    "zh-Hans": "较低",
+    "zh-Hant": "較低"
+  },
+  "Luin": {
+    "zh-Hans": "露恩",
+    "zh-Hant": "露恩"
+  },
+  "Luna": {
+    "zh-Hans": "露娜",
+    "zh-Hant": "露娜"
+  },
+  "Luna & Ilot": {
+    "zh-Hans": "露娜 & 伊洛",
+    "zh-Hant": "露娜 & 伊洛"
+  },
+  "Luna & Mia": {
+    "zh-Hans": "露娜 & 美亚",
+    "zh-Hant": "露娜 & 美亞"
+  },
+  "MAX": {
+    "zh-Hans": "最高",
+    "zh-Hant": "最高"
+  },
+  "MDA-21": {
+    "zh-Hans": "MDA-21",
+    "zh-Hant": "MDA-21"
+  },
+  "MIR-203": {
+    "zh-Hans": "MIR-203",
+    "zh-Hant": "MIR-203"
+  },
+  "MIRROR + FAR judgements hidden": {
+    "zh-Hans": "镜像 + 隐藏模糊（Far）判定",
+    "zh-Hant": "鏡像 + 隱藏模糊（Far）判定"
+  },
+  "MIRROR - All Notes and Arcs reversed": {
+    "zh-Hans": "镜像 - 所有的音符与音弧反转",
+    "zh-Hant": "鏡像 - 反轉所有的音符與音弧。"
+  },
+  "MTA-XXX": {
+    "zh-Hans": "MTA-XXX",
+    "zh-Hant": "MTA-XXX"
+  },
+  "MUSE DASH - Sky Notes become ghosts\nwhen playing a Muse Dash song": {
+    "zh-Hans": "MUSE DASH - 游玩Muse Dash歌曲时\n天空音符将变为幽灵",
+    "zh-Hant": "MUSE DASH - 遊玩Muse Dash歌曲時\n天空音符將變為幽靈"
+  },
+  "Main": {
+    "zh-Hans": "主线",
+    "zh-Hant": "主線"
+  },
+  "Main Menu": {
+    "zh-Hans": "主菜单",
+    "zh-Hant": "主選單"
+  },
+  "Main Story": {
+    "zh-Hans": "主线故事",
+    "zh-Hant": "主線故事"
+  },
+  "Main Story Chronicles": {
+    "zh-Hans": "主线回忆录",
+    "zh-Hant": "主線回憶錄"
+  },
+  "Main Story[PACKLIST]": {
+    "zh-Hans": "主线",
+    "zh-Hant": "主線"
+  },
+  "Manage Downloads": {
+    "zh-Hans": "管理下载",
+    "zh-Hant": "管理下載"
+  },
+  "Map": {
+    "zh-Hans": "地图",
+    "zh-Hant": "地圖"
+  },
+  "Marija": {
+    "zh-Hans": "玛莉嘉",
+    "zh-Hant": "瑪莉嘉"
+  },
+  "Match \"%@\"": {
+    "zh-Hans": "与\"%@\"同频",
+    "zh-Hant": "與\"%@\"同頻"
+  },
+  "Max downloads exceeded. Please wait 24 hours and try again.": {
+    "zh-Hans": "下载量超过了限制。请在24小时后重试。",
+    "zh-Hant": "下載量超過了限制。請在24小時后重試。"
+  },
+  "Maximum friend limit extended!": {
+    "zh-Hans": "已成功扩充好友上限！",
+    "zh-Hant": "已成功擴充好友上限！"
+  },
+  "Maximum level 20 > 30": {
+    "zh-Hans": "最高级数 20 > 30",
+    "zh-Hant": "最高等級 20 > 30"
+  },
+  "Maya": {
+    "zh-Hans": "摩耶",
+    "zh-Hant": "摩耶"
+  },
+  "Maya, 1.": {
+    "zh-Hans": "摩耶，壹。",
+    "zh-Hant": "摩耶，壹。"
+  },
+  "Maya, 42.": {
+    "zh-Hans": "摩耶，肆拾贰。",
+    "zh-Hant": "摩耶，肆拾贰。"
+  },
+  "Maya, 8.": {
+    "zh-Hans": "摩耶，捌。",
+    "zh-Hant": "摩耶，捌。"
+  },
+  "Memories": {
+    "zh-Hans": "记忆源点",
+    "zh-Hant": "記憶源點"
+  },
+  "Memories after": {
+    "zh-Hans": "剩余记忆源点：",
+    "zh-Hant": "結算後記憶源點"
+  },
+  "Memories and packs are connected to your account.\nUse Cloud Save to save your scores and unlocks": {
+    "zh-Hans": "记忆源点与故事包是与账号绑定的\n使用「云端存储」可以保存解锁数据与离线分数",
+    "zh-Hant": "回憶／故事包已與你的帳號綁定\n可使用「雲端儲存」儲存已解封的數據／離線分數等資料。"
+  },
+  "Memories are obtainable through the Arcaea website.": {
+    "zh-Hans": "记忆源点可从 Arcaea 官网获得",
+    "zh-Hant": "記憶源點可從《Arcaea》官網取得。"
+  },
+  "Memories are used to unlock new songs and packs.\nYou need to be online and signed in to use them.": {
+    "zh-Hans": "记忆源点可用于解锁故事包\n你需要登录来使用它们",
+    "zh-Hant": "記憶源點可用於解除新故事包的封印\n你必須登入帳號在線上使用。"
+  },
+  "Memories before": {
+    "zh-Hans": "拥有的记忆源点：",
+    "zh-Hant": "現有記憶源點"
+  },
+  "Memories can be used to purchase\nsongs, packs and future content.\n\nYou need to be online and signed in\nto use them.\n\nMemories are tied to your Arcaea account\nand never expire.\n\nPurchases are made in accordance with:": {
+    "zh-Hans": "付费货币「记忆源点」可用于购买单曲、\n曲包与指定后续内容\n\n联网登录的状态下，方可使用此货币\n\n记忆源点与你的韵律源点账号绑定，永久有效\n\n游戏内容的相关购买将遵循以下条款：",
+    "zh-Hant": "付費貨幣「記憶源點」可用於購入單曲、\n曲包與指定後續內容\n\n要想使用此貨幣，你必須先聯網並登入遊戲賬號\n\n記憶源點與你的Arcaea賬號綁定，永久有效\n\n遊戲內容的有關購買將遵循下列條款："
+  },
+  "Memory\nBoost": {
+    "zh-Hans": "源韵强化",
+    "zh-Hant": "源韻強化"
+  },
+  "Memory Archive Ticket": {
+    "zh-Hans": "回忆档案馆兑换券",
+    "zh-Hant": "回憶檔案館兌換券"
+  },
+  "Memory Boost": {
+    "zh-Hans": "源韵强化",
+    "zh-Hant": "源韻強化"
+  },
+  "Memory Boost active. In this chapter, your next play progress\nand Partner experience gain will have a %@x multiplier.": {
+    "zh-Hans": "源韵强化已处于激活状态。\n本章节下一次游玩进度与经验值将会增加 %@ 倍。",
+    "zh-Hant": "源韻強化已處於激活狀態。\n本章節下一次遊玩進度與經驗值將會增長 %@ 倍。"
+  },
+  "Memory Boost increases progress and experience for your next World play.\nIt stays active until you play a song in any map. (Excludes Legacy chapters)": {
+    "zh-Hans": "激活「源韵强化」将使下一次游玩世界模式时的结算步数与经验值增加数倍。\n在游玩任意世界歌曲前，此增益效果将一直处于激活状态（除古昔章节）。",
+    "zh-Hant": "激活「源韻强化」將使下一次遊玩世界模式時的結算步數與經驗值成倍增長。\n在遊玩任意世界歌曲前，此增益效果將一直處於激活狀態（除古昔章節）。"
+  },
+  "Memory Boost, Stamina Boost, and Beyond Boost do not influence each other\nand instead stack cumulatively.": {
+    "zh-Hans": "源韵强化、体力强化和Beyond强化效果相互独立，\n任意两者生效时效果均不会叠加。",
+    "zh-Hant": "源韻強化、體力強化和Beyond強化效果相互獨立，\n任意兩者生效時效果均不會疊加。"
+  },
+  "Menus Only": {
+    "zh-Hans": "仅菜单",
+    "zh-Hant": "僅菜單"
+  },
+  "Middle": {
+    "zh-Hans": "界面中央",
+    "zh-Hant": "介面中央"
+  },
+  "Midsummer": {
+    "zh-Hans": "盛夏",
+    "zh-Hant": "盛夏"
+  },
+  "Mika Yurisaki": {
+    "zh-Hans": "百合咲美香",
+    "zh-Hant": "百合咲美香"
+  },
+  "Milk": {
+    "zh-Hans": "咪璐库",
+    "zh-Hant": "咪璐庫"
+  },
+  "Minuet": {
+    "zh-Hans": "Minuet",
+    "zh-Hant": "Minuet"
+  },
+  "Mir": {
+    "zh-Hans": "迷尔",
+    "zh-Hant": "迷爾"
+  },
+  "Miss both special notes in\nInfinite Strife, and clear it": {
+    "zh-Hans": "通关Inifinite Strife,\n并漏掉其中的两个特殊键",
+    "zh-Hant": "通關Infinite Strife,\n並漏掉其中兩個特殊鍵"
+  },
+  "Mission Complete": {
+    "zh-Hans": "已完成任务",
+    "zh-Hant": "已完成任務"
+  },
+  "Mission Rewards": {
+    "zh-Hans": "任务奖励",
+    "zh-Hant": "任務獎勵"
+  },
+  "Missions": {
+    "zh-Hans": "任务",
+    "zh-Hant": "任務"
+  },
+  "Mithra Tercera": {
+    "zh-Hans": "密特拉·泰尔塞拉",
+    "zh-Hant": "密特拉·泰爾賽拉"
+  },
+  "More": {
+    "zh-Hans": "其他",
+    "zh-Hant": "其他"
+  },
+  "More players are needed to start.": {
+    "zh-Hans": "需要更多的玩家以开始",
+    "zh-Hant": "需要更多的玩家以開始"
+  },
+  "Music": {
+    "zh-Hans": "音乐",
+    "zh-Hant": "歌曲"
+  },
+  "Music Game": {
+    "zh-Hans": "音乐游戏",
+    "zh-Hant": "音樂遊戲"
+  },
+  "Music Play": {
+    "zh-Hans": "开始游戏",
+    "zh-Hant": "開始遊戲"
+  },
+  "My Rank": {
+    "zh-Hans": "我的排名",
+    "zh-Hant": "我的排名"
+  },
+  "NEXT": {
+    "zh-Hans": "下一个",
+    "zh-Hant": "下一步"
+  },
+  "NEXT\nCHAPTER": {
+    "zh-Hans": "下一\n章节",
+    "zh-Hant": "下一\n章節"
+  },
+  "Nai": {
+    "zh-Hans": "奈伊",
+    "zh-Hant": "奈伊"
+  },
+  "Name": {
+    "zh-Hans": "名称",
+    "zh-Hant": "名稱"
+  },
+  "Nami": {
+    "zh-Hans": "奈美",
+    "zh-Hant": "奈美"
+  },
+  "Nami & Sui": {
+    "zh-Hans": "奈美 & 希依",
+    "zh-Hant": "奈美 & 希依"
+  },
+  "Nell": {
+    "zh-Hans": "尼尔",
+    "zh-Hant": "尼爾"
+  },
+  "Network Error": {
+    "zh-Hans": "网络错误",
+    "zh-Hant": "網路錯誤"
+  },
+  "New Story Unlocked": {
+    "zh-Hans": "已解锁新故事",
+    "zh-Hant": "已解鎖新故事"
+  },
+  "News & Updates": {
+    "zh-Hans": "最新资讯与更新",
+    "zh-Hant": "更新與最新資訊"
+  },
+  "No": {
+    "zh-Hans": "取消",
+    "zh-Hant": "取消"
+  },
+  "No Events": {
+    "zh-Hans": "暂无活动",
+    "zh-Hant": "暫無活動"
+  },
+  "No Recollection Rate loss for\nthe first %@ LOST notes": {
+    "zh-Hans": "前%@个流失（LOST）判定\n不会减少回忆率",
+    "zh-Hant": "前%@個流失（LOST）判定\n不會減少回憶率"
+  },
+  "No Thanks": {
+    "zh-Hans": "不了，谢谢",
+    "zh-Hant": "不了，謝謝"
+  },
+  "No data found to sync.": {
+    "zh-Hans": "没有在云端发现任何数据",
+    "zh-Hant": "無資料可供同步。"
+  },
+  "No events are currently running.": {
+    "zh-Hans": "暂未举行任何活动",
+    "zh-Hant": "暫未舉行任何活動"
+  },
+  "No incomplete purchases found.": {
+    "zh-Hans": "没有发现尚未完成的购买",
+    "zh-Hant": "沒有發現尚未完成的購買。"
+  },
+  "None": {
+    "zh-Hans": "无",
+    "zh-Hant": "無"
+  },
+  "Nono": {
+    "zh-Hans": "诺诺",
+    "zh-Hant": "諾諾"
+  },
+  "Nonoka": {
+    "zh-Hans": "野乃香",
+    "zh-Hant": "野乃香"
+  },
+  "Not Available": {
+    "zh-Hans": "无法游玩",
+    "zh-Hant": "無法遊玩"
+  },
+  "Not Played": {
+    "zh-Hans": "无游玩记录",
+    "zh-Hant": "無遊玩記錄"
+  },
+  "Not a single soul could have predicted this truth.\nThe truth is what befell.\nWhat it entails yet remains shrouded.\n\nFind 3 more songs in this addition to\nSevered Eden, all winning entries of\nthe \"Imagining After\" Song Contest.": {
+    "zh-Hans": "此般真相，无人能料。\n降临于此的，便是真相。\n但真相昭示着的，仍为未知。\n\nImagining After大赛的另三首优胜曲目，\n现已加入Severed Eden。",
+    "zh-Hant": "此般真相，無人能料。\n降臨於此的，便是真相。\n但真相昭示著的，仍為未知。\n\nImagining After大賽的另三首優勝曲目，\n現已加入Severed Eden。"
+  },
+  "Not all players are able to play this song.": {
+    "zh-Hans": "有玩家无法游玩这首歌曲",
+    "zh-Hant": "有玩家無法遊玩這首歌曲"
+  },
+  "Not all players are available to start.": {
+    "zh-Hans": "有玩家目前无法开始",
+    "zh-Hant": "有玩家目前無法開始"
+  },
+  "Not available in Streaming Mode": {
+    "zh-Hans": "Not available in Streaming Mode",
+    "zh-Hant": "Not available in Streaming Mode"
+  },
+  "Not enough %@": {
+    "zh-Hans": "%@余额不足",
+    "zh-Hant": "%@餘額不足。"
+  },
+  "Note Design": {
+    "zh-Hans": "谱面设计",
+    "zh-Hant": "音符設計"
+  },
+  "Note Speed": {
+    "zh-Hans": "音符流速",
+    "zh-Hant": "音符流速"
+  },
+  "Note Volume": {
+    "zh-Hans": "音效音量",
+    "zh-Hant": "音效音量"
+  },
+  "Note judgement details displayed": {
+    "zh-Hans": "显示判定详情",
+    "zh-Hant": "顯示詳細判定"
+  },
+  "Note sounds disabled\ndue to high offset": {
+    "zh-Hans": "因为偏移率过高，\n音符音效已关闭",
+    "zh-Hant": "音效偏移量高，\n故將音符音量停用。"
+  },
+  "Note speed restricted by World Map": {
+    "zh-Hans": "音符流速已被此地图限制",
+    "zh-Hant": "音符流速已被此地圖限制"
+  },
+  "Notice": {
+    "zh-Hans": "告示",
+    "zh-Hant": "告示"
+  },
+  "Notifications can be individually toggled in the Settings menu.": {
+    "zh-Hans": "您可前往设置界面进一步设置具体希望推送的内容。",
+    "zh-Hant": "您可前往設置界面進一步設置具體希望推送的內容。"
+  },
+  "Now, your steps matter again:\nhalf of them.": {
+    "zh-Hans": "用双脚丈量这个世界，这固然值得令人钦佩。\n但也别忘了，有时事情可是会事倍功半的哦。",
+    "zh-Hant": "用雙腳丈量這個世界，這固然值得令人欽佩。\n但也別忘了，有時事情可是會事倍功半的哦。"
+  },
+  "O.N.G.E.K.I. - Boost random stats\non dealing Overdamage": {
+    "zh-Hans": "O.N.G.E.K.I. - 造成溢伤\n后随机提高一种搭档能力",
+    "zh-Hant": "O.N.G.E.K.I. - 造成溢傷\n後隨機提升一種搭檔能力"
+  },
+  "O.N.G.E.K.I. - Fragment reward on\ndealing Overdamage": {
+    "zh-Hans": "O.N.G.E.K.I. - 溢伤（Overdamage）额外\n奖励残片",
+    "zh-Hant": "O.N.G.E.K.I. - 溢傷（Overdamage）額外\n獎勵殘片"
+  },
+  "O.N.G.E.K.I. - On Track Complete,\ndeal Overdamage based on accuracy": {
+    "zh-Hans": "O.N.G.E.K.I. - 通关歌曲时\n根据准确率造成溢伤（Overdamage）",
+    "zh-Hant": "O.N.G.E.K.I. - 通關歌曲時\n根據準確率造成溢傷（Overdamage）"
+  },
+  "O.N.G.E.K.I. - Reward Overdamage fragments\nbased on performance": {
+    "zh-Hans": "O.N.G.E.K.I. - 根据溢伤表现获得残片奖励",
+    "zh-Hant": "O.N.G.E.K.I. - 根據溢傷表現獲得殘片獎勵"
+  },
+  "OBTAINED": {
+    "zh-Hans": "已获取",
+    "zh-Hant": "已獲取"
+  },
+  "OFFLINE": {
+    "zh-Hans": "离线",
+    "zh-Hant": "離線"
+  },
+  "OK": {
+    "zh-Hans": "好的",
+    "zh-Hant": "好"
+  },
+  "OR": {
+    "zh-Hans": "或",
+    "zh-Hant": "或"
+  },
+  "OR %@": {
+    "zh-Hans": "或 %@",
+    "zh-Hant": "或 %@"
+  },
+  "OVERFLOW - EASY Recollection Rate \nHARD upon reaching 100% Recollection": {
+    "zh-Hans": "溢出 - 简单模式回忆率\n但当回忆率到达100%后转变为困难",
+    "zh-Hant": "溢出 - 簡單模式的回憶率\n但在回憶率到達100%時轉變為困難"
+  },
+  "Obtain %@": {
+    "zh-Hans": "获取%@",
+    "zh-Hant": "獲取%@"
+  },
+  "Obtain %@ %2@ when you purchase this %3@.": {
+    "zh-Hans": "购买此%3@可以获得 %@ %2@",
+    "zh-Hant": "購買此%3@可以獲得 %@ %2@"
+  },
+  "Obtain '%1@'\nto unlock this story.": {
+    "zh-Hans": "获取\"%1@\"以解锁此故事。",
+    "zh-Hant": "獲取\"%1@\"以解鎖此故事。"
+  },
+  "Obtain '%1@' and '%2@'\nto unlock this story.": {
+    "zh-Hans": "获取\"%1@\"与\"%2@\"以解锁此故事。",
+    "zh-Hant": "獲取\"%1@\"與\"%2@\"以解鎖此故事。"
+  },
+  "Obtain '%@' to unlock this story.": {
+    "zh-Hans": "获取\"%@\"以解锁此故事。",
+    "zh-Hant": "獲取\"%@\"以解鎖此故事。"
+  },
+  "Obtain Memories": {
+    "zh-Hans": "获取记忆源点",
+    "zh-Hant": "取得記憶源點"
+  },
+  "Obtain Potential %@ or above": {
+    "zh-Hans": "个人游玩潜力值 %@ 或以上",
+    "zh-Hant": "個人遊玩潛力值 %@ 或以上"
+  },
+  "Obtain any Core for\nAwakening Partners in\nWorld Mode": {
+    "zh-Hans": "在世界模式中获取任意\n一种用于觉醒搭档的核心",
+    "zh-Hant": "在世界模式中獲取任意\n一種用於覺醒搭檔的核心"
+  },
+  "Obtain any Core for Awakening Partners\nin World Mode": {
+    "zh-Hans": "在世界模式中获取任意\n一种用于觉醒搭档的核心",
+    "zh-Hant": "在世界模式中獲取任意\n一種用於覺醒搭檔的核心"
+  },
+  "Obtain either the song '%1@'\nor '%2@' to read this story.": {
+    "zh-Hans": "获取《%1@》或《%2@》\n歌曲来阅读此段故事。",
+    "zh-Hant": "獲取《%1@》或《%2@》\n歌曲來閱讀此段故事。"
+  },
+  "Obtain either the song '%1@' or '%2@' to read this story.": {
+    "zh-Hans": "获取《%1@》或《%2@》歌曲来阅读此段故事。",
+    "zh-Hant": "獲取《%1@》或《%2@》歌曲來閱讀此段故事。"
+  },
+  "Obtain in %1@ of World Mode": {
+    "zh-Hans": "通过世界模式%1@获取",
+    "zh-Hant": "透過世界模式%1@獲取"
+  },
+  "Obtain in World Mode": {
+    "zh-Hans": "经由世界模式获取",
+    "zh-Hant": "通過世界模式獲取"
+  },
+  "Obtain that which you seek": {
+    "zh-Hans": "得到你所渴求的",
+    "zh-Hant": "得到你所渴求的"
+  },
+  "Obtain the '%@' pack to read this story.\nYou must be online and logged in to purchase packs.": {
+    "zh-Hans": "获取《%@》曲包来阅读此段故事。\n您需要联网并登录才能购买歌曲包。",
+    "zh-Hant": "獲取《%@》曲包來閱讀此段故事。\n您需要聯網並登錄才能購買歌曲包。"
+  },
+  "Obtain the Lasting Eden Pack": {
+    "zh-Hans": "前往获取Lasting Eden",
+    "zh-Hant": "前往獲取Lasting Eden"
+  },
+  "Obtain the Partner '%@'": {
+    "zh-Hans": "获得搭档「%@」",
+    "zh-Hant": "獲得搭檔「%@」"
+  },
+  "Obtain the song '%@' from World Mode\nto read this story.": {
+    "zh-Hans": "前往世界模式获取歌曲「%@」\n以阅读此故事。",
+    "zh-Hant": "前往世界模式獲取歌曲「%@」\n以閱讀此故事。"
+  },
+  "Obtain the song '%@' to read this story.\nYou must be online and logged in to unlock songs.": {
+    "zh-Hans": "获取《%@》歌曲来阅读此段故事。\n您需要联网并登录才能购买歌曲。",
+    "zh-Hant": "獲取《%@》歌曲來閱讀此段故事。\n您需要聯網並登錄才能購買歌曲。"
+  },
+  "Obtain this song in a limited time event for free": {
+    "zh-Hans": "游玩限时地图可免费解锁此首单曲",
+    "zh-Hant": "遊玩限時地圖可免費解鎖這首單曲"
+  },
+  "Obtained": {
+    "zh-Hans": "获取顺序",
+    "zh-Hant": "獲取順序"
+  },
+  "Offset": {
+    "zh-Hans": "偏移率",
+    "zh-Hant": "偏移"
+  },
+  "Offset Setup": {
+    "zh-Hans": "偏移率设置",
+    "zh-Hant": "偏移設定"
+  },
+  "On next song play,\nFragment gain is doubled": {
+    "zh-Hans": "下次歌曲游玩时\n获取的残片数量翻倍",
+    "zh-Hant": "下次歌曲遊玩時\n獲取的殘片數量翻倍"
+  },
+  "One Last Dream": {
+    "zh-Hans": "最终之梦",
+    "zh-Hant": "最終之夢"
+  },
+  "One background△": {
+    "zh-Hans": "同一背景△",
+    "zh-Hant": "同一背景△"
+  },
+  "One or more purchases successfully completed.": {
+    "zh-Hans": "一次或多次购买已成功恢复",
+    "zh-Hant": "一次或多次購買已成功恢復。"
+  },
+  "Open App Store": {
+    "zh-Hans": "打开App Store",
+    "zh-Hant": "打開App Store"
+  },
+  "Open Google Play": {
+    "zh-Hans": "打开Google Play",
+    "zh-Hant": "打開Google Play"
+  },
+  "Open Site": {
+    "zh-Hans": "打开官网",
+    "zh-Hant": "打開網頁"
+  },
+  "Open the Settings menu": {
+    "zh-Hans": "打开设定界面",
+    "zh-Hant": "打開設定介面"
+  },
+  "Open the map at the bottom of the screen to view progress\ntowards the next reward, activate boosts, or join Link Play.": {
+    "zh-Hans": "点击页面底端的地图以加入Link Play\n或获取与下一奖励的距离和已生效的强化信息。",
+    "zh-Hant": "點擊頁面底端的地圖以加入Link Play\n或獲取與下一獎勵的距離和已生效的強化信息。"
+  },
+  "Original": {
+    "zh-Hans": "原创",
+    "zh-Hant": "原創"
+  },
+  "Other than side to side, Arc notes can also move vertically.\nMove your finger up and down to follow the height of the Arc note.": {
+    "zh-Hans": "除了左右平移，音弧还可能上下移动\n请上下滑动来跟随音弧的路线",
+    "zh-Hant": "除了向兩側移動外，「音弧」也可能上下移動。\n你須隨著音弧的高低移動手指。"
+  },
+  "Outer Reaches": {
+    "zh-Hans": "谜域的界外",
+    "zh-Hant": "謎域的界外"
+  },
+  "Overdrive": {
+    "zh-Hans": "超量",
+    "zh-Hant": "超量"
+  },
+  "Overview": {
+    "zh-Hans": "章节预览",
+    "zh-Hant": "章節預覽"
+  },
+  "Overwrite Cloud Save": {
+    "zh-Hans": "覆盖云端数据",
+    "zh-Hant": "蓋過雲端儲存紀錄"
+  },
+  "Ownership of Lasting Eden is\nrequired to obtain this Pack Append.": {
+    "zh-Hans": "购买此Pack Append前\n需要持有曲包Lasting Eden",
+    "zh-Hant": "購買此Pack Append前\n需要持有曲包Lasting Eden"
+  },
+  "PARTNER": {
+    "zh-Hans": "搭档",
+    "zh-Hant": "搭檔"
+  },
+  "PERFORMANCE": {
+    "zh-Hans": "精彩展现",
+    "zh-Hant": "精彩展現"
+  },
+  "PLAY": {
+    "zh-Hans": "游玩",
+    "zh-Hant": "遊玩"
+  },
+  "PM": {
+    "zh-Hans": "PM",
+    "zh-Hant": "PM"
+  },
+  "PROG = OVER + STEP/2": {
+    "zh-Hans": "进度 = 超量 + 步数/2",
+    "zh-Hant": "進度 = 超量 + 步數/2"
+  },
+  "PROG = OVER - ||OVER-FRAG|-|OVER-STEP||": {
+    "zh-Hans": "进度 = 超量 - ||超量-残数|-|超量-步数||",
+    "zh-Hant": "進度 = 超量 - ||超量-殘数|-|超量-步數||"
+  },
+  "PROG x= FRAG": {
+    "zh-Hans": "进度 x= 残数",
+    "zh-Hant": "進度 x= 殘数"
+  },
+  "PROG x= max(1.0, 2.0 - 0.1 x LEVEL)": {
+    "zh-Hans": "进度 x= max(1.0, 2.0 - 0.1 x 等级)",
+    "zh-Hant": "進度 x= max(1.0, 2.0 - 0.1 x 等級)"
+  },
+  "Pack": {
+    "zh-Hans": "曲包",
+    "zh-Hant": "曲包"
+  },
+  "Pack Append": {
+    "zh-Hans": "Pack Append",
+    "zh-Hant": "Pack Append"
+  },
+  "Pack required to\nunlock FTR difficulty": {
+    "zh-Hans": "需要这些曲包\n以解锁 FTR 难度",
+    "zh-Hant": "需要這些曲包\n以解鎖 FTR 難度"
+  },
+  "Page %1@/%2@": {
+    "zh-Hans": "第%1@页/共%2@页",
+    "zh-Hant": "第%1@頁/共%2@頁"
+  },
+  "Pandora Nemesis": {
+    "zh-Hans": "潘多拉涅墨西斯",
+    "zh-Hant": "潘多拉涅墨西斯"
+  },
+  "Part I": {
+    "zh-Hans": "Part I",
+    "zh-Hant": "Part I"
+  },
+  "Part II": {
+    "zh-Hans": "Part II",
+    "zh-Hant": "Part II"
+  },
+  "Part III": {
+    "zh-Hans": "Part III",
+    "zh-Hant": "Part III"
+  },
+  "Partner": {
+    "zh-Hans": "搭档",
+    "zh-Hant": "搭檔"
+  },
+  "Partner Progress": {
+    "zh-Hans": "搭档效果",
+    "zh-Hant": "搭檔效果"
+  },
+  "Partner Sealed": {
+    "zh-Hans": "搭档封印中",
+    "zh-Hant": "已將搭檔封印"
+  },
+  "Partner Skill": {
+    "zh-Hans": "搭档技能",
+    "zh-Hant": "搭檔技能"
+  },
+  "Partner Storage": {
+    "zh-Hans": "搭档储备",
+    "zh-Hant": "搭檔儲備"
+  },
+  "Partner stats and skills are available when logged in.": {
+    "zh-Hans": "角色的「能力值」与「技能」只在登录后有效",
+    "zh-Hant": "搭檔的「數值」和「技能」在登錄狀態中有效。"
+  },
+  "Partners gain experience while playing in World Mode.\nHigher-level Partners and ones with difficult abilities help you progress faster.": {
+    "zh-Hans": "游玩「世界模式」会让搭档获取经验值\n更高的等级与角色属性会让你获取的进展速度加快",
+    "zh-Hant": "在世界模式中遊玩可使得搭檔獲取經驗值。\n搭檔等級越高，技能越具有挑戰性，進展會更加迅速。"
+  },
+  "Partners share %@% of their Fragments with Kou,\nreceived after playing a song (Total: %2@)": {
+    "zh-Hans": "所有搭档将现有残片的%@%分享给红（总和为%2@）\n残片在游玩一首歌曲后获得",
+    "zh-Hant": "所有搭檔將現有殘片的%@%分享給紅（總和為%2@）\n殘片在遊玩一首歌曲後獲得"
+  },
+  "Password": {
+    "zh-Hans": "密码",
+    "zh-Hant": "密碼"
+  },
+  "Password (confirm)": {
+    "zh-Hans": "确认密码",
+    "zh-Hant": "密碼（確認用）"
+  },
+  "Password does not match": {
+    "zh-Hans": "密码不相符",
+    "zh-Hant": "密碼與確認欄不符。"
+  },
+  "Password must be at least 8 characters": {
+    "zh-Hans": "密码至少得拥有八位数",
+    "zh-Hant": "密碼必須至少為 8 個字元"
+  },
+  "Pause Type": {
+    "zh-Hans": "暂停模式",
+    "zh-Hant": "暫停模式"
+  },
+  "Pay %@ Fragments to extend maximum friends to %2@?": {
+    "zh-Hans": "花费 %@ 残片将好友上限扩充至 %2@ ？",
+    "zh-Hant": "花費 %@ 殘片將好友上限擴充至 %2@ ？"
+  },
+  "Pay 10 Fragments on start\nGain 1 Milk on clear": {
+    "zh-Hans": "曲目开始时消耗10残片\n每通关一首曲目获得一瓶牛奶",
+    "zh-Hant": "曲目開始時消耗10殘片\n每通關一首曲目獲得一瓶牛奶"
+  },
+  "Pay the chart level in Fragments on start\nEarn +10 Fragments on EX or above": {
+    "zh-Hans": "在游玩歌曲时先支付等同于歌曲难度值的残片\n获得「EX」或更高成绩时额外奖励10残片",
+    "zh-Hant": "在遊玩歌曲時先支付等同於歌曲難度值的殘片\n獲得「EX」或更高成績時額外獎勵10殘片"
+  },
+  "Peacemaker": {
+    "zh-Hans": "和平缔造者",
+    "zh-Hant": "和平締造者"
+  },
+  "Performance": {
+    "zh-Hans": "精彩程度",
+    "zh-Hant": "精彩程度"
+  },
+  "Performance does not effect ascent or descent\nUpon failure, all will be lost": {
+    "zh-Hans": "游玩表现不会导致等级上升或下降\n一损俱损，荡然无存",
+    "zh-Hant": "遊玩表現不會導致等級上升或下降\n一損俱損，蕩然無存"
+  },
+  "Personal IDs and stats are only visible on your own Profile Card.\nView friends' Profile Cards and scores by adding their ID via the Network menu.": {
+    "zh-Hans": "玩家的个人ID和曲目通关情况仅您个人可见。\n您可以通过“网络”菜单添加好友ID以查看好友的档案卡片及最高分。",
+    "zh-Hant": "玩家的個人ID和曲目通關情況僅您個人可見。\n您可以透過「網路」選單新增好友ID以查看好友的檔案卡及最高分。"
+  },
+  "Phase": {
+    "zh-Hans": "Phase",
+    "zh-Hant": "Phase"
+  },
+  "Play %@ %2@": {
+    "zh-Hans": "游玩 %@ %2@",
+    "zh-Hant": "遊玩 %@ %2@"
+  },
+  "Play Result": {
+    "zh-Hans": "游玩结果",
+    "zh-Hant": "遊玩結果"
+  },
+  "Play a song that is\nabove your Potential": {
+    "zh-Hans": "游玩一首高于\n玩家当前的潜力值的曲目",
+    "zh-Hant": "遊玩一首高於\n玩家當前的潛力值的曲目"
+  },
+  "Play in progress.\nThis Room cannot currently be joined.": {
+    "zh-Hans": "此房间正在游玩歌曲\n目前无法加入",
+    "zh-Hant": "此房間正在遊玩歌曲\n目前無法加入"
+  },
+  "Player ID": {
+    "zh-Hans": "玩家ID",
+    "zh-Hant": "玩家ID"
+  },
+  "Player Potential shown\nwhen enabled": {
+    "zh-Hans": "开启时将展示\n玩家的潜力值",
+    "zh-Hant": "開啟時將展示\n玩家的潛力值"
+  },
+  "Players can suggest songs, appearing as messages.\nTap a message to quickly jump to a suggested song.": {
+    "zh-Hans": "玩家可以推荐歌曲，推荐的歌曲将以消息显示\n点击此消息可以快速跳转至被推荐的歌曲",
+    "zh-Hant": "玩家可以推薦歌曲，推薦的歌曲將以消息顯示\n點擊此消息可以快速跳轉至被推薦的歌曲"
+  },
+  "Playing in World Mode consumes stamina. Stamina regenerates over time.": {
+    "zh-Hans": "在「世界模式」进行游戏会消耗体力。体力每隔一段时间会自我恢复",
+    "zh-Hant": "世界模式會消耗體力， 而體力會隨時間回復。"
+  },
+  "Please email 'contact@lowiro.com' for any game or account issues.": {
+    "zh-Hans": "对于任何游戏或账号的问题，\n请发送邮件至'contact@lowiro.com'",
+    "zh-Hant": "對於任何遊戲或賬號的問題，\n請發送email至'contact@lowiro.com'"
+  },
+  "Please enter a valid code.": {
+    "zh-Hans": "请输入有效的序列码",
+    "zh-Hant": "請輸入有效序號。"
+  },
+  "Please enter a valid email address": {
+    "zh-Hans": "请输入有效的电子邮箱地址",
+    "zh-Hant": "請輸入有效的電子信箱。"
+  },
+  "Please select an active event map to begin.": {
+    "zh-Hans": "请选择您想要解锁的地图。",
+    "zh-Hant": "請選擇您想要解鎖的地圖。"
+  },
+  "Please update Arcaea to the latest version.": {
+    "zh-Hans": "请将Arcaea更新至最新版本。",
+    "zh-Hant": "請將Arcaea更新至最新版本。"
+  },
+  "Please wait %@ minutes before requesting\nanother verification email.": {
+    "zh-Hans": "请于%@分钟后再试。",
+    "zh-Hant": "請在%@分鐘後重新嘗試。"
+  },
+  "Please wait 24 hours before using this feature again.": {
+    "zh-Hans": "请在再次使用此功能前等待24小时。",
+    "zh-Hant": "請在再次使用此功能前等待24小時。"
+  },
+  "Pop / Recommended": {
+    "zh-Hans": "流行/推荐",
+    "zh-Hant": "流行/推薦"
+  },
+  "Potential": {
+    "zh-Hans": "潜力值",
+    "zh-Hant": "潛力值"
+  },
+  "Prepare to start...": {
+    "zh-Hans": "准备开始……",
+    "zh-Hant": "準備開始……"
+  },
+  "Preparing": {
+    "zh-Hans": "准备中",
+    "zh-Hant": "準備中"
+  },
+  "Present difficulties and above provide a greater challenge.\n\nBefore challenging this level we recommend that you\nplay the Advanced Tutorial.\n\nYou can view the Tutorial later from Main Menu > About.": {
+    "zh-Hans": "「Present」及更高难度将更具挑战性\n\n在挑战此难度前建议先学习\n「进阶教程」\n\n你可以在主菜单的「其他」选项中找到相同的教程",
+    "zh-Hant": "「Present」難度以上的挑戰性較高\n\n建議你在挑戰此難度前\n進行「進階教學」\n\n你可從「主選單 > 其他」瞭解教學內容。"
+  },
+  "Price": {
+    "zh-Hans": "价格",
+    "zh-Hant": "價格"
+  },
+  "Privacy Policy": {
+    "zh-Hans": "隐私政策",
+    "zh-Hant": "隱私政策"
+  },
+  "Privacy Policy Update": {
+    "zh-Hans": "隐私政策更新",
+    "zh-Hant": "隱私權政策更新"
+  },
+  "Private": {
+    "zh-Hans": "私人",
+    "zh-Hant": "私人"
+  },
+  "Proceed": {
+    "zh-Hans": "忽略",
+    "zh-Hant": "忽略"
+  },
+  "Proceed[MACULA]": {
+    "zh-Hans": "前进",
+    "zh-Hant": "前進"
+  },
+  "Profile": {
+    "zh-Hans": "档案",
+    "zh-Hant": "檔案"
+  },
+  "Profile Cards display player IDs, gameplay stats,\nand customizations such as Partners and banners.": {
+    "zh-Hans": "玩家个人档案界面将显示您的ID、\n曲目通关情况以及可自定义设置的搭档和名片。",
+    "zh-Hant": "玩家個人檔案介面將顯示您的ID、\n曲目通關情況以及可自訂設定的搭檔和名片。"
+  },
+  "Progress": {
+    "zh-Hans": "进程",
+    "zh-Hant": "進程"
+  },
+  "Progress through World Mode to earn songs, Partners, & other rewards.": {
+    "zh-Hans": "游玩世界模式来解锁新歌曲、解封搭档并获得其他奖励",
+    "zh-Hant": "隨著世界模式進度進行，你可獲得新曲目、新搭檔以及其他獎勵。"
+  },
+  "Progress through a total of %@X steps in this chapter in order to unlock this Map": {
+    "zh-Hans": "在此章节总计行进 %@X 步，方能解锁这张地图",
+    "zh-Hant": "在此章節總計行進 %@X 步，方能解鎖這張地圖"
+  },
+  "Progressing through Main Story packs and World Mode\nunlocks a variety of title screens and sceneries.": {
+    "zh-Hans": "游玩主线曲包并取得相应世界模式进度以解锁更多标题界面与场景。",
+    "zh-Hant": "遊玩主線曲包並取得對應世界模式進度以解鎖更多標題介面與場景。"
+  },
+  "Public": {
+    "zh-Hans": "公共",
+    "zh-Hant": "公共"
+  },
+  "Purchase": {
+    "zh-Hans": "购买",
+    "zh-Hant": "購買"
+  },
+  "Purchase Error": {
+    "zh-Hans": "购买错误",
+    "zh-Hant": "購買時發生異常"
+  },
+  "Purchase through Arcaea Online": {
+    "zh-Hans": "通过Arcaea Online支付",
+    "zh-Hant": "透過Arcaea Online支付"
+  },
+  "Purchases Pending": {
+    "zh-Hans": "等待中的购买",
+    "zh-Hant": "等待中的購買"
+  },
+  "Purchases are available on all\nof your Arcaea devices.": {
+    "zh-Hans": "您所购买的游戏产品将在您的任何设备上生效。",
+    "zh-Hant": "您所購買的遊戲產品將於您的任何裝置上生效。"
+  },
+  "Pure Late/Early": {
+    "zh-Hans": "纯粹【过早/过晚】",
+    "zh-Hant": "純粹「過早/過晚」"
+  },
+  "Quit": {
+    "zh-Hans": "退出",
+    "zh-Hant": "退出"
+  },
+  "Quit near the end of a song": {
+    "zh-Hans": "在曲目即将结束时退出游玩",
+    "zh-Hant": "在曲目即將結束時退出遊玩"
+  },
+  "Quit ⸗⸗⸗⸗": {
+    "zh-Hans": "⸗⸗⸗⸗⸗退出游玩",
+    "zh-Hant": "⸗⸗⸗⸗⸗退出遊玩"
+  },
+  "Quitting will abandon the course.\nStamina/Warped Shard will be spent!": {
+    "zh-Hans": "在此退出将视为放弃本次段位挑战\n本次消耗的体力与次元结晶将不返还！",
+    "zh-Hant": "在此退出將視為放棄本次段位挑戰\n本次消耗的體力與次元結晶將不返還！"
+  },
+  "Quitting will abandon the current song.\nStamina/Fragments will be spent without progress!": {
+    "zh-Hans": "退出当前乐曲将会失去此关进度。\n你将不会得到任何进展，且体力依旧会被消耗！",
+    "zh-Hant": "退出代表你將放棄目前的曲目，\n體力仍會消耗，而且你將不會獲得任何進度！"
+  },
+  "Quitting will cause you to leave the room!": {
+    "zh-Hans": "退出会导致你离开房间！",
+    "zh-Hant": "退出會導致你離開房間！"
+  },
+  "READY": {
+    "zh-Hans": "准备",
+    "zh-Hant": "準備"
+  },
+  "REMAIN": {
+    "zh-Hans": "残余",
+    "zh-Hant": "殘餘"
+  },
+  "REQUIREMENT": {
+    "zh-Hans": "需求",
+    "zh-Hant": "條件"
+  },
+  "RESTRICTION - Random + Double World progress\nAfter World progress, this skill changes": {
+    "zh-Hans": "限制 – 随机曲目 + 世界进度翻倍\n世界模式下技能将在曲目结算后改变",
+    "zh-Hant": "限制 – 隨機曲目 + 世界進度翻倍\n世界模式下技能將在曲目結算後改變"
+  },
+  "REWARDS": {
+    "zh-Hans": "奖励",
+    "zh-Hant": "獎勵"
+  },
+  "ROOM CODE": {
+    "zh-Hans": "房间号码",
+    "zh-Hant": "房間號碼"
+  },
+  "Random": {
+    "zh-Hans": "随机",
+    "zh-Hant": "隨機"
+  },
+  "Random Fragment bonus upon\ncompleting song": {
+    "zh-Hans": "歌曲游玩结束时奖励随机数量的残片",
+    "zh-Hant": "樂曲遊玩結束時獎勵隨機數量的殘片。"
+  },
+  "Randomly triggers MIRROR\nGain +%@ Fragments on MIRROR": {
+    "zh-Hans": "一定概率造成全曲谱面镜像\n于镜像状态下通关时，奖励 %@ 额外残片",
+    "zh-Hant": "一定概率造成全曲譜面鏡像\n於鏡像狀態下通關時，獎勵 %@ 額外殘片"
+  },
+  "Rank %1@: Earn +%2@% Fragments,\nx%3@ Recollection Rate loss": {
+    "zh-Hans": "%1@级：获得+%2@%残片\n回忆率损失量x%3@",
+    "zh-Hant": "%1@級：獲得+%2@%殘片\n回憶率損失量x%3@"
+  },
+  "Reach 3.50 Potential": {
+    "zh-Hans": "潜力值达到3.50",
+    "zh-Hant": "潛力值達到3.50"
+  },
+  "Reach 70 percent Recollection Rate or above\nby the end of the song to clear it.": {
+    "zh-Hans": "获取70%的回忆率来通关歌曲",
+    "zh-Hant": "在曲目結束時獲得 70% 以上的回憶率即可過關。"
+  },
+  "Read '%@'": {
+    "zh-Hans": "阅读剧情【%@】",
+    "zh-Hant": "閱讀劇情【%@】"
+  },
+  "Read through %1@ in Story Mode": {
+    "zh-Hans": "完成故事模式%1@",
+    "zh-Hant": "完成故事模式%1@"
+  },
+  "Read ‘VS-6’ to Unlock": {
+    "zh-Hans": "阅读剧情 VS-6 以解除封印",
+    "zh-Hant": "閱讀劇情 VS-6 以解除封印"
+  },
+  "Recall": {
+    "zh-Hans": "Recall",
+    "zh-Hant": "Recall"
+  },
+  "Recall Emotions. Each Emotion\nboosts an aspect of Ilith & Ivy by +10": {
+    "zh-Hans": "重拾情感。每份情感会给\nIlith & Ivy的一项能力带来+10的提升",
+    "zh-Hant": "重拾情感。每份情感會給\nIlith & Ivy的一項能力帶來+10的提升"
+  },
+  "Receive Emails": {
+    "zh-Hans": "接受邮件推送",
+    "zh-Hant": "接受郵件推送"
+  },
+  "Receive a notification\nwhen stamina is full": {
+    "zh-Hans": "体力槽完全恢复后\n将发送通知提醒玩家",
+    "zh-Hant": "體力槽完全恢復後\n將發送通知提醒玩家"
+  },
+  "Receive notifications\nwhen invited to Link Play": {
+    "zh-Hans": "收到Link Play邀请时\n向我发送通知",
+    "zh-Hant": "收到Link Play邀請时\n向我發送通知"
+  },
+  "Receive occasional emails about lowiro games and news": {
+    "zh-Hans": "接收lowiro游戏及其他资讯相关的邮件",
+    "zh-Hant": "收取lowiro遊戲及其他資訊相關的郵件"
+  },
+  "Recollection Gauge and OVER reduced by 1\nfor every 2 FAR notes": {
+    "zh-Hans": "每两个模糊（FAR）判定发生时\n回忆率及超量（OVER）均减少1点",
+    "zh-Hant": "每兩個模糊（FAR）判定發生時\n回憶率及超量（OVER）均減少1點"
+  },
+  "Recollection Gauge measures Grade\n(Track Lost on Grade A or below)": {
+    "zh-Hans": "回忆率的读数将决定最终通关评级\n(获得 A 级或以下评分则为通关失败)",
+    "zh-Hant": "回憶率的讀數將決定最終通關評級\n(獲得 A 級或以下評分則為通關失敗)"
+  },
+  "Recollection Gauge measures Grade (Track Lost\nwhen grade falls below personal best)": {
+    "zh-Hans": "回忆率的读数将决定最终通关评级\n(读数低于个人最佳成绩评级时立即失败)",
+    "zh-Hant": "回憶率的讀數將決定最終通關評級\n(讀數低於個人最佳成績評級時立即失敗)"
+  },
+  "Recollection Gauge set to 0 for LOST notes": {
+    "zh-Hans": "流失音符时回忆率归零",
+    "zh-Hant": "音符流失時回憶率歸零"
+  },
+  "Recollection Gauge starts at %@%\nRecollection Rate gain reduced to %2@%": {
+    "zh-Hans": "回忆率的初始数值变为 %@%\n回忆率增长倍数减少至 %2@%",
+    "zh-Hant": "回憶率的初始數值變為 %@%\n回憶率增長倍數減至 %2@%"
+  },
+  "Recollection Rate at 1/4 song progress\nis converted to stat bonus": {
+    "zh-Hans": "歌曲游玩抵达全曲1/4进度时\n回忆率将全部转化为角色能力加成",
+    "zh-Hant": "歌曲遊玩抵達全曲1/4進度時\n回憶率將全部轉換為角色能力加成"
+  },
+  "Recollection Rate gain increased,\nbut decreases with song progress": {
+    "zh-Hans": "提高初始回忆率增长倍数\n增长倍数会随着歌曲进行逐渐下降",
+    "zh-Hant": "提高初始回憶率增長倍數\n增長倍數會隨著歌曲進行逐漸下降"
+  },
+  "Recollection Rate gain reduces above 50%\nand increases below 50%": {
+    "zh-Hans": "回忆率收集速度在50%以上时放缓\n并在50%以下时增快",
+    "zh-Hant": "回憶率收集速度在50%以上時放緩\n並在50%以下時增快"
+  },
+  "Recollection loss 4x if not using BALANCE Partner": {
+    "zh-Hans": "搭档类型非平衡型时回忆率损失量提升至四倍",
+    "zh-Hant": "搭檔類型非平衡型時回憶率損失量提升至四倍"
+  },
+  "Recollection loss 4x if not using SUPPORT Partner": {
+    "zh-Hans": "搭档类型非支援型时回忆率损失量提升至四倍",
+    "zh-Hant": "搭檔類型非支援型時回憶率損失量提升至四倍"
+  },
+  "Recollection loss greatly increased based on OVER": {
+    "zh-Hans": "根据搭档超量值大幅增加回忆率损失量",
+    "zh-Hant": "根據搭檔超量值大幅增加回憶率損失量"
+  },
+  "Recommended: %@": {
+    "zh-Hans": "建议：%@",
+    "zh-Hant": "建議： %@"
+  },
+  "Recommends songs daily. Gain 41 Fragments\non first clear of each song": {
+    "zh-Hans": "每日推荐歌曲。首次通关\n推荐曲目可获得41个残片",
+    "zh-Hant": "每日推薦歌曲。首次通關\n推薦曲目可獲得41個殘片"
+  },
+  "Redeem": {
+    "zh-Hans": "兑换",
+    "zh-Hant": "兌換"
+  },
+  "Redeem Code": {
+    "zh-Hans": "兑换码",
+    "zh-Hant": "兌換序號"
+  },
+  "Reduces graphics quality for\nlower performance devices": {
+    "zh-Hans": "使用较低的图像质量\n以确保设备运行稳定",
+    "zh-Hant": "使用較低的圖像質素\n以確保設備運行穩定"
+  },
+  "Refill": {
+    "zh-Hans": "获取",
+    "zh-Hant": "補充"
+  },
+  "Refill Stamina": {
+    "zh-Hans": "获取体力",
+    "zh-Hant": "補充體力"
+  },
+  "Register": {
+    "zh-Hans": "注册",
+    "zh-Hant": "註冊"
+  },
+  "Registrations from this IP address are restricted.\nTry again later or contact support@lowiro.com": {
+    "zh-Hans": "无法在此IP地址下登录游戏。请于片刻后重新尝试，\n或者发送邮件联系 support@lowiro.com。",
+    "zh-Hant": "無法在此IP地址下登入遊戲。請於片刻後重新嘗試，\n或者發送信件聯繫 support@lowiro.com。"
+  },
+  "Regulus": {
+    "zh-Hans": "轩辕十四",
+    "zh-Hant": "軒轅十四"
+  },
+  "Remember a better girl, and stay to certain time.": {
+    "zh-Hans": "回忆定格在那段时日，于此铭记卓越的少女。",
+    "zh-Hant": "回憶定格在那段時日，於此銘記卓越的少女。"
+  },
+  "Remember a weaker girl, and stay to certain time.": {
+    "zh-Hans": "回忆定格在那段时日，于此铭记羸弱的少女。",
+    "zh-Hant": "回憶定格在那段時日，於此銘記羸弱的少女。"
+  },
+  "Remember an old adage. Do not rush.": {
+    "zh-Hans": "无需心急。古老的声音在耳畔响起。",
+    "zh-Hant": "無需心急。古老的聲音在耳畔響起。"
+  },
+  "Remember what is, plainly, before your eyes.\nStay to it.": {
+    "zh-Hans": "遵循，明晰，眼见为实。于此铭记眼前的一切。",
+    "zh-Hant": "遵循，明晰，眼見為實。於此銘記眼前的一切。"
+  },
+  "Remember what you have gained through\nmemories, or choose a 4th option.": {
+    "zh-Hans": "回忆带来了许多东西，在那驻足，或探求第四种选择。",
+    "zh-Hant": "回憶帶來了許多東西，在那駐足，或探求第四種選擇。"
+  },
+  "Removed from room": {
+    "zh-Hans": "已从房间移除",
+    "zh-Hant": "已從房間移除"
+  },
+  "Removes all downloaded songs.\nThey can be downloaded again at any time.": {
+    "zh-Hans": "移除所有已下载的曲目。\n您可以随时重新下载这些曲目。",
+    "zh-Hant": "清除全部已下載的歌曲。\n您可以隨時重新下載它們。"
+  },
+  "Requirement": {
+    "zh-Hans": "条件",
+    "zh-Hant": "條件"
+  },
+  "Requirements": {
+    "zh-Hans": "解锁条件",
+    "zh-Hant": "解鎖條件"
+  },
+  "Requires email confirmation": {
+    "zh-Hans": "需要邮件确认",
+    "zh-Hant": "需要email確認"
+  },
+  "Resend Email": {
+    "zh-Hans": "重新验证",
+    "zh-Hant": "重新驗證"
+  },
+  "Reset": {
+    "zh-Hans": "重置",
+    "zh-Hant": "重置"
+  },
+  "Resolve to lose nothing": {
+    "zh-Hans": "下定决心，不会失去任何东西",
+    "zh-Hant": "下定決心，不會失去任何東西"
+  },
+  "Restart": {
+    "zh-Hans": "重新开始",
+    "zh-Hant": "重新開始"
+  },
+  "Restriction": {
+    "zh-Hans": "限制",
+    "zh-Hant": "限制"
+  },
+  "Result": {
+    "zh-Hans": "结果",
+    "zh-Hant": "結果"
+  },
+  "Resume": {
+    "zh-Hans": "返回",
+    "zh-Hant": "返回"
+  },
+  "Retrace our journey": {
+    "zh-Hans": "回忆旅途的过往",
+    "zh-Hant": "回憶旅途的過往"
+  },
+  "Retry": {
+    "zh-Hans": "重试",
+    "zh-Hant": "重試"
+  },
+  "Reunion": {
+    "zh-Hans": "Reunion",
+    "zh-Hant": "Reunion"
+  },
+  "Reveal a Truth": {
+    "zh-Hans": "洞悉真相",
+    "zh-Hant": "明悉真相"
+  },
+  "Reveal a Whisper": {
+    "zh-Hans": "聆听低语",
+    "zh-Hant": "聆聽低語"
+  },
+  "Review Now": {
+    "zh-Hans": "现在就去",
+    "zh-Hant": "現在去寫"
+  },
+  "Rewards": {
+    "zh-Hans": "奖励",
+    "zh-Hant": "獎勵"
+  },
+  "Rewards unlocked in World Mode can be used and played offline.": {
+    "zh-Hans": "从「世界模式」得到的奖励可以在离线状态使用与游玩",
+    "zh-Hant": "從「世界模式」得到的獎勵可以在離線狀態使用與遊玩"
+  },
+  "Room Management": {
+    "zh-Hans": "房间管理",
+    "zh-Hant": "房間管理"
+  },
+  "Room Options": {
+    "zh-Hans": "房间选项",
+    "zh-Hant": "房間選項"
+  },
+  "Room codes can only be used to join Private rooms.": {
+    "zh-Hans": "房间号加入仅适用于私人房间。",
+    "zh-Hant": "房間號加入僅適用於私人房間。"
+  },
+  "Room is full.": {
+    "zh-Hans": "房间已满",
+    "zh-Hant": "房間已滿"
+  },
+  "Run game at >60 FPS\nUses more battery": {
+    "zh-Hans": "以 >60FPS 运行游戏\n会消耗更多电量",
+    "zh-Hant": "以 >60FPS 運行遊戲\n會消耗更多電量"
+  },
+  "SEALED": {
+    "zh-Hans": "封印中",
+    "zh-Hant": "封印"
+  },
+  "SEEKER": {
+    "zh-Hans": "探索者",
+    "zh-Hant": "探索者"
+  },
+  "SELECT": {
+    "zh-Hans": "选择",
+    "zh-Hant": "選擇"
+  },
+  "STAFF LINK": {
+    "zh-Hans": "STAFF LINK",
+    "zh-Hant": "STAFF LINK"
+  },
+  "STAMINA": {
+    "zh-Hans": "体力",
+    "zh-Hant": "體力"
+  },
+  "STEP progress carries over to the next World\nplay when using Stamina (Current: %@)": {
+    "zh-Hans": "消耗体力后，本次步数进度保存并于\n下次世界模式中加算。（当前进度：%@）",
+    "zh-Hant": "消耗體力後，本步數進度保存並於\n下次世界模式加算。 （當前進度：%@）"
+  },
+  "SUPPORT": {
+    "zh-Hans": "支援型",
+    "zh-Hant": "支援"
+  },
+  "Saki": {
+    "zh-Hans": "咲姬",
+    "zh-Hant": "咲姬"
+  },
+  "Salt": {
+    "zh-Hans": "莎露朵",
+    "zh-Hant": "莎露朵"
+  },
+  "Sapphire": {
+    "zh-Hans": "萨菲亚",
+    "zh-Hant": "薩菲亞"
+  },
+  "Saya": {
+    "zh-Hans": "咲弥",
+    "zh-Hant": "咲彌"
+  },
+  "Saya & Elizabeth": {
+    "zh-Hans": "咲弥 & 伊莉莎白",
+    "zh-Hant": "咲彌 & 伊莉莎白"
+  },
+  "Scarlet Core": {
+    "zh-Hans": "绯红核心",
+    "zh-Hant": "緋紅核心"
+  },
+  "Scenery": {
+    "zh-Hans": "场景",
+    "zh-Hant": "場景"
+  },
+  "Score displays distance\nto closest Grade threshold": {
+    "zh-Hans": "当前分数将显示为\n与距离最近评级的分数之差",
+    "zh-Hant": "當前分數將顯示為\n與距離最近評級的分數之差"
+  },
+  "Search...": {
+    "zh-Hans": "搜索",
+    "zh-Hant": "檢索"
+  },
+  "Search[ALTEREGO]": {
+    "zh-Hans": "搜寻",
+    "zh-Hant": "搜尋"
+  },
+  "Searching for an open room...": {
+    "zh-Hans": "正在为您随机匹配房间……",
+    "zh-Hant": "正在為您隨機分配房間⋯⋯"
+  },
+  "Seele": {
+    "zh-Hans": "希尔",
+    "zh-Hant": "希爾"
+  },
+  "Select": {
+    "zh-Hans": "选择",
+    "zh-Hant": "選擇"
+  },
+  "Select \"All Songs\"\nfrom the Pack List\nin Music Play": {
+    "zh-Hans": "在主页面选择开始游戏\n并在曲包选取界面中\n选择\"全部歌曲\"",
+    "zh-Hant": "在主頁面選擇開始遊戲\n並在曲包選取介面中\n選擇「全部歌曲」"
+  },
+  "Select BGM": {
+    "zh-Hans": "选择BGM",
+    "zh-Hant": "選擇BGM"
+  },
+  "Select Purchase Method": {
+    "zh-Hans": "请选择支付方式",
+    "zh-Hant": "請選擇支付方式"
+  },
+  "Select Scenery": {
+    "zh-Hans": "选择场景",
+    "zh-Hant": "選擇場景"
+  },
+  "Select Title Screen": {
+    "zh-Hans": "选择标题界面",
+    "zh-Hant": "選擇標題介面"
+  },
+  "Select a Course": {
+    "zh-Hans": "选择一个段位",
+    "zh-Hant": "選擇段位"
+  },
+  "Select a Song": {
+    "zh-Hans": "选择一首歌曲",
+    "zh-Hant": "選擇曲目"
+  },
+  "Select a map and play songs to progress towards rewards.": {
+    "zh-Hans": "选择一个地图并游玩曲目来获得进展数值",
+    "zh-Hant": "選擇地圖遊玩曲目，獲得最後的獎勵。"
+  },
+  "Select the Partner '%@'": {
+    "zh-Hans": "选择搭档「%@」",
+    "zh-Hant": "選擇搭檔「%@」"
+  },
+  "Selene Sheryl": {
+    "zh-Hans": "赛润妮·雪儿",
+    "zh-Hant": "賽潤妮·雪兒"
+  },
+  "Send Email": {
+    "zh-Hans": "发送邮件",
+    "zh-Hant": "發送Email"
+  },
+  "Send another email for account verification?": {
+    "zh-Hans": "确定要重新发送验证邮件吗？",
+    "zh-Hant": "確定要重新寄送驗證郵件嗎？"
+  },
+  "Sending...": {
+    "zh-Hans": "数据传输中……",
+    "zh-Hant": "數據傳輸中..."
+  },
+  "Sense of Incompleteness": {
+    "zh-Hans": "遗缺的感知",
+    "zh-Hant": "遺缺的感知"
+  },
+  "Serene Core": {
+    "zh-Hans": "静谧之核",
+    "zh-Hant": "靜謐之核"
+  },
+  "Serial code claimed successfully!": {
+    "zh-Hans": "序列码验证成功！",
+    "zh-Hant": "序號兌換成功！"
+  },
+  "Set": {
+    "zh-Hans": "设置",
+    "zh-Hant": "設定"
+  },
+  "Setsuna": {
+    "zh-Hans": "刹那",
+    "zh-Hant": "剎那"
+  },
+  "Settings": {
+    "zh-Hans": "设定",
+    "zh-Hant": "設定"
+  },
+  "Setup": {
+    "zh-Hans": "设定",
+    "zh-Hant": "設定"
+  },
+  "Setup is not complete. Are you sure you want to cancel?": {
+    "zh-Hans": "设置尚未结束。确定退出吗？",
+    "zh-Hant": "設定尚未結束。確定退出嗎？"
+  },
+  "Severed Eden": {
+    "zh-Hans": "Severed Eden",
+    "zh-Hant": "Severed Eden"
+  },
+  "Severed Eden - Chapter 2": {
+    "zh-Hans": "Severed Eden - Chapter 2",
+    "zh-Hant": "Severed Eden - Chapter 2"
+  },
+  "Shama": {
+    "zh-Hans": "夏玛",
+    "zh-Hant": "夏瑪"
+  },
+  "Share": {
+    "zh-Hans": "分享",
+    "zh-Hant": "分享"
+  },
+  "Shikoku": {
+    "zh-Hans": "紫黑",
+    "zh-Hant": "紫黑"
+  },
+  "Shirabe": {
+    "zh-Hans": "调",
+    "zh-Hant": "調"
+  },
+  "Shirahime": {
+    "zh-Hans": "白姬",
+    "zh-Hant": "白姬"
+  },
+  "Show": {
+    "zh-Hans": "显示",
+    "zh-Hant": "顯示"
+  },
+  "Show Partner skill\nbefore song start": {
+    "zh-Hans": "在歌曲开始前\n显示搭档技能",
+    "zh-Hant": "在歌曲開始前\n顯示搭檔技能"
+  },
+  "Show Potential": {
+    "zh-Hans": "显示潜力值",
+    "zh-Hant": "顯示潛力值"
+  },
+  "Show Touches": {
+    "zh-Hans": "触控显示",
+    "zh-Hant": "觸控顯示"
+  },
+  "Sia": {
+    "zh-Hans": "兮娅",
+    "zh-Hant": "兮婭"
+  },
+  "Side": {
+    "zh-Hans": "支线",
+    "zh-Hant": "支線"
+  },
+  "Side Story": {
+    "zh-Hans": "支线故事",
+    "zh-Hant": "支線故事"
+  },
+  "Side Story[PACKLIST]": {
+    "zh-Hans": "支线",
+    "zh-Hant": "支線"
+  },
+  "Simple: let the weaker\nand younger be swifter.": {
+    "zh-Hans": "这回，弱小的你，年少的你，也将大放异彩。\n所谓的弱者，从来就不存在。",
+    "zh-Hant": "這回，弱小的你，年少的你，也將大放異彩。\n所謂的弱者，從來就不存在。"
+  },
+  "Single Tap": {
+    "zh-Hans": "单击",
+    "zh-Hant": "單擊"
+  },
+  "Skill Display": {
+    "zh-Hans": "技能显示",
+    "zh-Hant": "技能顯示"
+  },
+  "Skill and stats are inactive": {
+    "zh-Hans": "「技能」与「能力值」未被激活",
+    "zh-Hant": "搭檔「技能」與「數值」均未啟動。"
+  },
+  "Skill inactive in World Mode": {
+    "zh-Hans": "此技能在世界模式中不会生效",
+    "zh-Hant": "此技能在世界模式中不會生效"
+  },
+  "Skill unlocked after Awakening": {
+    "zh-Hans": "角色技能将在觉醒后解锁",
+    "zh-Hant": "角色技能將在覺醒後解鎖。"
+  },
+  "Skill unlocked at level %@": {
+    "zh-Hans": "技能将在 %@ 级解锁",
+    "zh-Hant": "技能將在 %@ 級解鎖。"
+  },
+  "Skills change various gameplay aspects and difficulty.": {
+    "zh-Hans": "「技能」会改变游戏规则与难度",
+    "zh-Hant": "「技能」會影響遊戲的難度與規則"
+  },
+  "Skip": {
+    "zh-Hans": "跳过",
+    "zh-Hant": "跳過"
+  },
+  "Skip Vote": {
+    "zh-Hans": "不指定曲目",
+    "zh-Hant": "不指定曲目"
+  },
+  "Sky notes can appear along Traces.\nTap them in the air when they reach the upper input line.": {
+    "zh-Hans": "「天空音符」可能在音轨上生成\n在它们到达上端判定线时点击它们",
+    "zh-Hant": "「音軌」中可能出現「天空音符」，\n此時必須在天空音符接觸上輸入線時，從螢幕上方輕點。"
+  },
+  "Slide songs to the right to add them to Favorites.": {
+    "zh-Hans": "将歌曲向右划动就可以将它们加入「Favorites」",
+    "zh-Hant": "將歌曲向右滑動就可以將它們加入「Favorites」"
+  },
+  "Slow": {
+    "zh-Hans": "稍慢",
+    "zh-Hant": "稍慢"
+  },
+  "Slower": {
+    "zh-Hans": "慢",
+    "zh-Hant": "慢"
+  },
+  "Some maps have requirements to start them.\nOther maps are timed events, so check back often to find them.": {
+    "zh-Hans": "解锁某些地图需要达成特殊条件\n有的地图为限时活动地图，记得经常来查看一下",
+    "zh-Hant": "部分地圖在完成特殊要求後才會開啟。\n有些地圖則是限時活動的所在地，記得隨時回來看看喔！"
+  },
+  "Sonata": {
+    "zh-Hans": "Sonata",
+    "zh-Hant": "Sonata"
+  },
+  "Song Packs are organized by category. Scroll the category panel vertically\nto switch the current category, and horizontally to browse the Packs within.": {
+    "zh-Hans": "曲包按类别归纳，您可以上下拖拽\"类别\"所在的侧边栏区域\n来更换分类，也可以在曲包预览区域左右滑动来浏览曲包。",
+    "zh-Hant": "曲包按類別歸納，您可以上下拖拽「類別」所在之側邊欄區域\n來更換分類，也可以在曲包預覽區域左右滑動來瀏覽曲包。"
+  },
+  "Song Select": {
+    "zh-Hans": "选曲方式",
+    "zh-Hant": "選曲方式"
+  },
+  "Song.": {
+    "zh-Hans": "曲级。",
+    "zh-Hant": "曲級。"
+  },
+  "Songs can be sorted by Title, Difficulty, Date, or Grade.": {
+    "zh-Hans": "您可以按标题、难度、日期和评级将歌曲排序。",
+    "zh-Hant": "您可以按標題、難度、日期和評級將歌曲排序。"
+  },
+  "Songs included: %@": {
+    "zh-Hans": "包含歌曲：%@",
+    "zh-Hant": "收錄曲目： %@"
+  },
+  "Songs required to\nunlock FTR difficulty": {
+    "zh-Hans": "需要这些歌曲\n以解锁 FTR 难度",
+    "zh-Hant": "需要這些歌曲\n以解鎖 FTR 難度"
+  },
+  "Sort By": {
+    "zh-Hans": "排序方式",
+    "zh-Hant": "排序方式"
+  },
+  "Spend %1@ Fragments to Reveal a Truth?": {
+    "zh-Hans": "花费 %1@ 残片以洞悉一个真相？",
+    "zh-Hant": "花費 %1@ 殘片以洞悉一個真相？"
+  },
+  "Spend %1@ Fragments to Reveal a Whisper?": {
+    "zh-Hans": "是否花费 %1@ 残片聆听低语？",
+    "zh-Hant": "是否花費 %1@ 殘片聆聽低語？"
+  },
+  "Spend %@ memories to activate boost?": {
+    "zh-Hans": "花费 %@ 记忆源点以激活源韵强化吗？",
+    "zh-Hant": "花費  %@ 記憶源點以激活源韻強化嗎？"
+  },
+  "Spend %@ memories to refill stamina?": {
+    "zh-Hans": "使用 %@ 记忆源点来获取体力？",
+    "zh-Hant": "是否使用 %@ 記憶源點來補充體力？"
+  },
+  "Spend Ether Drops to upgrade Intruder": {
+    "zh-Hans": "花费以太之滴升级侵入者",
+    "zh-Hant": "花費以太之滴升級侵入者"
+  },
+  "Spend Ether Drops to upgrade Partner": {
+    "zh-Hans": "花费以太之滴升级搭档",
+    "zh-Hant": "花費以太之滴升級搭檔"
+  },
+  "Spend Stamina\nand complete a song\nin World Mode": {
+    "zh-Hans": "在世界模式中消耗体力\n并完整游玩一首曲目",
+    "zh-Hant": "在世界模式中消耗體力\n並完整遊玩一首曲目"
+  },
+  "Spire of Convergence": {
+    "zh-Hans": "聚合的塔尖",
+    "zh-Hant": "聚合的塔尖"
+  },
+  "Spire of the Gods": {
+    "zh-Hans": "神明的塔尖",
+    "zh-Hant": "神明的塔尖"
+  },
+  "Stamina": {
+    "zh-Hans": "体力",
+    "zh-Hant": "體力"
+  },
+  "Stamina\nBoost": {
+    "zh-Hans": "体力\n强化",
+    "zh-Hant": "體力\n強化"
+  },
+  "Stamina Boost": {
+    "zh-Hans": "体力强化",
+    "zh-Hant": "體力強化"
+  },
+  "Stamina Notification": {
+    "zh-Hans": "体力槽通知",
+    "zh-Hant": "體力槽通知"
+  },
+  "Stamina Steps grant you additional stamina when stopped on.\nYou'll miss the reward if you pass over it, so aim carefully!": {
+    "zh-Hans": "体力阶梯将在你止步于此时赠送你额外的体力。\n若不慎越过此阶，你将丢失这个奖励。请小心留意！",
+    "zh-Hant": "體力階梯將在你止步於此時贈送你額外的體力。 \n若不慎越過此階，你將遺失這個獎勵。請小心留意！"
+  },
+  "Stamina Used": {
+    "zh-Hans": "交换后体力：",
+    "zh-Hant": "結算後體力"
+  },
+  "Stamina after": {
+    "zh-Hans": "交换后体力：",
+    "zh-Hant": "結算後體力"
+  },
+  "Stamina before": {
+    "zh-Hans": "拥有的体力：",
+    "zh-Hant": "現有體力"
+  },
+  "Stamina can be refilled using Memories or Fragments.": {
+    "zh-Hans": "你可以使用残片或记忆源点获取体力",
+    "zh-Hant": "可使用記憶源點或殘片補充體力。"
+  },
+  "Stamina refilled!": {
+    "zh-Hans": "体力已获取！",
+    "zh-Hant": "體力已回復！"
+  },
+  "Standard / High": {
+    "zh-Hans": "标准/高",
+    "zh-Hant": "標準/高"
+  },
+  "Standard progress": {
+    "zh-Hans": "基础步数",
+    "zh-Hant": "基礎步數"
+  },
+  "Star.": {
+    "zh-Hans": "恒星级。",
+    "zh-Hant": "恆星級。"
+  },
+  "Start": {
+    "zh-Hans": "开始",
+    "zh-Hant": "開始"
+  },
+  "Starting in...": {
+    "zh-Hans": "即将开始……",
+    "zh-Hant": "即將開始……"
+  },
+  "Stats": {
+    "zh-Hans": "通关记录",
+    "zh-Hant": "通關紀錄"
+  },
+  "Stats affect various aspects of gameplay and world progress.": {
+    "zh-Hans": "角色的「能力值」会影响普通游戏的进行与「世界模式」的进展",
+    "zh-Hant": "搭檔的「數值」將影響平常遊玩和世界探索進度。"
+  },
+  "Stats are temporarily doubled\nupon clearing a maimai song": {
+    "zh-Hans": "通关一首maimai曲目后\n该角色的所有数值暂时翻倍",
+    "zh-Hant": "通關一首maimai曲目後\n此角色的所有數值暫時翻倍"
+  },
+  "Stella": {
+    "zh-Hans": "星",
+    "zh-Hant": "星"
+  },
+  "Step": {
+    "zh-Hans": "步数",
+    "zh-Hant": "步數"
+  },
+  "Stored Progress": {
+    "zh-Hans": "储备进度",
+    "zh-Hant": "儲備進度"
+  },
+  "Stories in Act II are intended to be read after finishing Final Verdict.\nFor the best experience, it is recommended to complete Final Verdict before proceeding.": {
+    "zh-Hans": "第二幕故事的前置剧情为Final Verdict。\n为确保最佳游戏体验，推荐在完成Final Verdict后再阅读此故事。",
+    "zh-Hant": "第二幕故事的前置劇情為Final Verdict。\n爲確保最佳游戲體驗，推薦在完成Final Verdict後再閲讀此故事。"
+  },
+  "Story": {
+    "zh-Hans": "故事",
+    "zh-Hant": "故事"
+  },
+  "Story Mode": {
+    "zh-Hans": "故事模式",
+    "zh-Hant": "故事模式"
+  },
+  "Story Mode contains the game's unlockable storyline.": {
+    "zh-Hans": "「故事模式」包含游戏的剧情，供玩家依次解锁",
+    "zh-Hant": "「故事模式」包含遊戲的劇情，供玩家依次解鎖"
+  },
+  "Story Text Speed": {
+    "zh-Hans": "剧情文本显示速度",
+    "zh-Hant": "劇情文本顯示速度"
+  },
+  "Submit to entropy": {
+    "zh-Hans": "在飘忽不定中屈服",
+    "zh-Hant": "在飄忽不定中屈服"
+  },
+  "Submit to resignation": {
+    "zh-Hans": "在功亏一篑中屈服",
+    "zh-Hant": "在功虧一簣中屈服"
+  },
+  "Submit to silence": {
+    "zh-Hans": "在寂若死灰中屈服",
+    "zh-Hant": "在寂若死灰中屈服"
+  },
+  "Success": {
+    "zh-Hans": "成功",
+    "zh-Hant": "成功"
+  },
+  "Success! Welcome to Arcaea!": {
+    "zh-Hans": "成功！欢迎来到 Arcaea！",
+    "zh-Hant": "成功！ 歡迎來到 Arcaea！"
+  },
+  "Suggested by": {
+    "zh-Hans": "推荐者",
+    "zh-Hant": "推薦者"
+  },
+  "Summer": {
+    "zh-Hans": "夏日",
+    "zh-Hant": "夏日"
+  },
+  "Sunder the world, wield a miracle": {
+    "zh-Hans": "创造奇迹，冲破世界",
+    "zh-Hant": "創造奇蹟，衝破世界"
+  },
+  "Sunset Core": {
+    "zh-Hans": "暮色核心",
+    "zh-Hant": "暮色核心"
+  },
+  "Sync": {
+    "zh-Hans": "同步",
+    "zh-Hant": "同步"
+  },
+  "Sync Boost": {
+    "zh-Hans": "同频强化",
+    "zh-Hant": "同頻強化"
+  },
+  "Sync Boost grants a bonus to progress\ndepending on the total combined score of the lobby.": {
+    "zh-Hans": "通过同频强化获得世界进度加成，\n加成量将根据联机房间的综合表现决定。",
+    "zh-Hant": "通過同頻強化獲得世界進度加成，\n加成量將根據房間所有成員的綜合表現決定。"
+  },
+  "Sync Rate": {
+    "zh-Hans": "同步率",
+    "zh-Hant": "同步率"
+  },
+  "TANO*C Core": {
+    "zh-Hans": "TANO*C 核心",
+    "zh-Hant": "TANO*C 核心"
+  },
+  "Tairitsu": {
+    "zh-Hans": "对立",
+    "zh-Hant": "對立"
+  },
+  "Tairitsu & Chuni Penguin": {
+    "zh-Hans": "对立 & 中二企鹅",
+    "zh-Hant": "對立 & 中二企鵝"
+  },
+  "Tairitsu & El Fail": {
+    "zh-Hans": "对立 & 菲尔",
+    "zh-Hant": "對立 & 菲爾"
+  },
+  "Tairitsu & Trin": {
+    "zh-Hans": "对立 & 托凛",
+    "zh-Hant": "對立 & 托凜"
+  },
+  "Take her hand": {
+    "zh-Hans": "牵着她的手",
+    "zh-Hant": "牽著她的手"
+  },
+  "Tap": {
+    "zh-Hans": "点击",
+    "zh-Hant": "輕點"
+  },
+  "Tap 'Sync' at the top left of your screen any time to upload all of your scores.\nOnce synchronized they can be safely restored to any new devices.": {
+    "zh-Hans": "轻点屏幕左上角的「同步」按钮以上传您的分数。\n云端同步成功后，分数将能被安全存储至其他设备。",
+    "zh-Hant": "輕點螢幕左上角的「同步」按鈕以上傳您的分數。\n雲端同步成功後，分數將能被安全存儲至其他設備。"
+  },
+  "Tap Floor notes as soon as they touch the input line.\nTap the appropriate one of 4 floor lanes.": {
+    "zh-Hans": "点击接触判定线的「地面音符」\n记得在四条轨道中点击正确的那条",
+    "zh-Hant": "點擊接觸判定線的「地面音符」\n記得在四條軌道中點擊正確的那條"
+  },
+  "Tap Music Play to get started playing songs.": {
+    "zh-Hans": "若想开始游玩歌曲，请点击「开始游戏」按钮",
+    "zh-Hant": "想要開始遊玩歌曲，請輕點「開始遊戲」按鍵"
+  },
+  "Tap a Partner's stats or skill to seal them.\nThis will deactivate their stats and skill.": {
+    "zh-Hans": "「封印」搭档会使「技能」与「能力值」无效化\n点击技能框即可封印搭档",
+    "zh-Hant": "將搭檔「封印」會使「數值」和「技能」無效化。\n輕點技能欄即可將搭檔封印。"
+  },
+  "Tap and hold long notes. Start when they reach\nthe input line and release when they have passed it.": {
+    "zh-Hans": "点击并长按“长音符”\n在它们接触判定线时按住，并在离开线时放开",
+    "zh-Hant": "在長音符到達輸入線的瞬間壓住音階，\n在音符結束時放開。"
+  },
+  "Tap the button once on every 3rd Beat": {
+    "zh-Hans": "在每个第三拍点击按钮",
+    "zh-Hant": "在每個第三拍輕點按鍵一次。"
+  },
+  "Tap this icon to change your current Partner.": {
+    "zh-Hans": "点击此按钮即可切换搭档角色",
+    "zh-Hant": "輕點此按鈕即能切換搭檔角色"
+  },
+  "Tap to claim Tier reward": {
+    "zh-Hans": "点击领取阶段奖励",
+    "zh-Hant": "點擊領取階段獎勵"
+  },
+  "Tap to obtain %@": {
+    "zh-Hans": "点击获取%@",
+    "zh-Hant": "點擊獲取%@"
+  },
+  "Tap to obtain with Memory Archive Ticket": {
+    "zh-Hans": "点击消耗回忆档案馆兑换券获取该歌曲",
+    "zh-Hant": "點擊消耗回憶檔案館兌換券獲取該歌曲"
+  },
+  "Tap to purchase": {
+    "zh-Hans": "点击获取",
+    "zh-Hant": "輕點購買"
+  },
+  "Tap to receive": {
+    "zh-Hans": "轻点以获取",
+    "zh-Hant": "輕點獲取"
+  },
+  "Tap to receive memories for any incomplete purchases": {
+    "zh-Hans": "点击以获取未成功购买的记忆源点",
+    "zh-Hant": "點擊以獲取未成功購買的記憶源點"
+  },
+  "Tap to switch preset\nfor audio setups": {
+    "zh-Hans": "点击切换预设项目",
+    "zh-Hant": "輕點切換預設項目"
+  },
+  "Tap to switch to a different song pack.": {
+    "zh-Hans": "点击此处即可切换曲包",
+    "zh-Hant": "輕點此處便可切換曲包"
+  },
+  "Tempest": {
+    "zh-Hans": "Tempest",
+    "zh-Hant": "Tempest"
+  },
+  "Terms of Service": {
+    "zh-Hans": "服务条款",
+    "zh-Hant": "服務條款"
+  },
+  "Thank You": {
+    "zh-Hans": "谢谢你",
+    "zh-Hant": "非常感謝"
+  },
+  "Thank you for calling back to me.": {
+    "zh-Hans": "谢谢你回应我的呼唤。",
+    "zh-Hant": "謝謝妳回應我的呼喚。"
+  },
+  "Thank you for your purchase!\nYour continued support helps the Arcaea project.": {
+    "zh-Hans": "谢谢你的购买\n你的支持会极大地帮助我们把游戏做得更好",
+    "zh-Hant": "謝謝你的購買\n以及對於《Arcaea》企劃的支持。"
+  },
+  "The 'Beyond Boost' gauge rises as stamina is spent in World Mode to a max of 200%.\n When enabled, the boost increases your next Beyond Chapter play progress.": {
+    "zh-Hans": "在世界模式消耗体力后，「Beyond强化」进度条将会填充，最高可获200%加成。\nBeyond强化生效时，下次Beyond章节的游玩进度将得到提升。",
+    "zh-Hant": "在世界模式消耗體力後，「Beyond強化」進度條將會填充，最高可獲200%加成。\nBeyond強化生效時，下次Beyond章節的遊玩進度將得到提升。"
+  },
+  "The Arcaea network is currently under maintenance.": {
+    "zh-Hans": "Arcaea 的服务器正在维护中",
+    "zh-Hant": "Arcaea 伺服器正在維護中"
+  },
+  "The Lead selects a song to play.": {
+    "zh-Hans": "房主选择将要游玩的一首歌曲",
+    "zh-Hant": "房主選擇將要遊玩的一首歌曲"
+  },
+  "The battle begins again": {
+    "zh-Hans": "战斗，再次开始",
+    "zh-Hant": "戰鬥，再次開始"
+  },
+  "The current map will be progressed by each song play\nbased on the active Partner's STEP value.": {
+    "zh-Hans": "当前地图每次游玩后所取得的进度\n由已选择搭档的步数（STEP）大小决定。",
+    "zh-Hant": "當前地圖每次遊玩後所取得的進度\n由已選擇搭檔的步數（STEP）大小決定。"
+  },
+  "The data on this device will be replaced with the cloud save.": {
+    "zh-Hans": "将会用云端数据替换本机数据",
+    "zh-Hant": "本設備資料將以雲端儲存紀錄蓋過。"
+  },
+  "The lowiro Privacy Policy has been updated to allow you\nto receive emails about lowiro games and updates.\nYou can unsubscribe at any time.\n\nBy continuing to use Arcaea, you acknowledge and accept\nour updated Privacy Policy.": {
+    "zh-Hans": "lowiro隐私政策现已更新，\n您将收到有关lowiro游戏和资讯的电子邮件推送。\n您可以随时取消订阅。\n\n继续使用Arcaea即表示\n您已阅读并接受我们更新后的隐私政策。",
+    "zh-Hant": "lowiro隱私權政策現已更新，\n您將收到有關lowiro遊戲和資訊的電子郵件推播。\n您可以隨時取消訂閱。\n\n繼續使用Arcaea即表示\n您已閱讀並接受我們更新後的隱私權政策。"
+  },
+  "The purchase could not be completed.": {
+    "zh-Hans": "购买无法完成",
+    "zh-Hant": "購買無法完成。"
+  },
+  "The room you were invited to is no longer available.": {
+    "zh-Hans": "当前房间已不存在。",
+    "zh-Hant": "當前房間已不存在。"
+  },
+  "The story of Arcaea draws to a close.\n\nA choice has been made and the fate of two is sealed. Choices made cannot be undone.\n\nYou have now unlocked the ability to re-play past Anomalies\nwhen their conditions are met.\n\nAn additional story entry has been unlocked.": {
+    "zh-Hans": "Arcaea 的故事画上了句号。\n\n你已经做出了选择，而她们二人的命运也已被确定。所有做出的选择已无法收回。\n\n现在你可以在达成相应条件后重新进入过去的异象。\n\n一个新的故事已解锁。",
+    "zh-Hant": "Arcaea 的故事畫上了句號。\n\n你已經做出了選擇，而她們二人的命運也已被確定。所有做出的選擇已無法收回。\n\n現在你可以在達成相應條件後重新進入過去的異象。\n\n一個新的故事已解鎖。"
+  },
+  "Their Story": {
+    "zh-Hans": "她们的故事",
+    "zh-Hant": "她們的故事"
+  },
+  "There are players in your room\nwho have not purchased or unlocked this song.": {
+    "zh-Hans": "房间内有玩家尚未购买或解锁这首歌曲",
+    "zh-Hant": "房間內有玩家尚未購買或解鎖這首歌曲"
+  },
+  "There is a new version of Arcaea available. Please update.": {
+    "zh-Hans": "韵律源点目前有新版本，请进行更新。",
+    "zh-Hant": "Arcaea目前有新版本，請進行更新。"
+  },
+  "There was a problem downloading data. Please check your device's storage.\nError Code: %1@": {
+    "zh-Hans": "下载时出现问题。请确保设备有足够的储存空间。\n错误代码：%1@",
+    "zh-Hant": "下載時出現問題。請確保裝置有足夠的儲存空間。\n錯誤代碼：%1@"
+  },
+  "There was a problem receiving the server response.": {
+    "zh-Hans": "尝试获取服务器响应时发生问题",
+    "zh-Hant": "獲取伺服器回應時發生問題。"
+  },
+  "There was a problem receiving the server response.\nPlease check your progress after re-entering World Mode.": {
+    "zh-Hans": "尝试获取服务器响应时发生问题\n请再次进入世界模式确定你的进度",
+    "zh-Hant": "獲取伺服器回應時發生問題\n請再次進入世界模式並確認進度"
+  },
+  "There was a problem saving the song. Please check storage.": {
+    "zh-Hans": "保存歌曲时发生问题。请检查设备空间容量。",
+    "zh-Hant": "儲存曲目時發生問題，請檢查儲存功能。"
+  },
+  "There was a problem submitting this score online.": {
+    "zh-Hans": "上传分数时发生了问题。",
+    "zh-Hant": "上傳分數時發生問題。"
+  },
+  "This Intruder has reached maximum level.": {
+    "zh-Hans": "此侵入者已达到等级界限。",
+    "zh-Hant": "此侵襲者已到達最高等級。"
+  },
+  "This Pack is available to obtain until 30 April 2027.\n\nOnce obtained, the Pack's contents can continue\nto be accessed after 30 April 2027.": {
+    "zh-Hans": "当前曲包为期间限定获得内容，须在2027年4月30日前取得，\n规定时段内未获取的，将无法通过任何其他方式获取。\n\n在规定时段内购买该曲包后，\n曲包内容在2027年4月30日后仍然有效。",
+    "zh-Hant": "當前曲包為期間限定獲得內容，須在2027年4月30日前取得，\n規定時段內未獲取的，將無法通過任何其他方式獲取。\n\n在規定時段內購買該曲包後，\n曲包內容在2027年4月30日後仍然有效。"
+  },
+  "This Pack is available to obtain until 9 March 2027.\n\nOnce obtained, the Pack's contents can continue\nto be accessed after 9 March 2027.": {
+    "zh-Hans": "当前曲包为期间限定获得内容，须在2027年3月9日前取得，\n规定时段内未获取的，将无法通过任何其他方式获取。\n\n在规定时段内购买该曲包后，\n曲包内容在2027年3月9日后仍然有效。",
+    "zh-Hant": "當前曲包為期間限定獲得內容，須在2027年3月9日前取得，\n規定時段內未獲取的，將無法通過任何其他方式獲取。\n\n在規定時段內購買該曲包後，\n曲包內容在2027年3月9日後仍然有效。"
+  },
+  "This Pack is not yet available.\nPlease check back soon!": {
+    "zh-Hans": "抱歉，该曲包尚未公开发行，请耐心等待。 ",
+    "zh-Hant": "抱歉，該曲包尚未公開發行，請耐心等待。"
+  },
+  "This Partner has reached maximum level.": {
+    "zh-Hans": "此搭档已经到达等级界限。",
+    "zh-Hant": "此搭檔已到達最高等級。"
+  },
+  "This Partner has reached maximum level.\nAwaken the Partner to upgrade them further.": {
+    "zh-Hans": "此搭档已经到达等级界限。\n唤醒搭档以进一步升级。",
+    "zh-Hant": "此搭檔已到達最高等級。\n喚醒搭檔便可進一步升級。"
+  },
+  "This Partner is obtained through World Mode.": {
+    "zh-Hans": "游玩世界模式即可解锁此搭档",
+    "zh-Hant": "此搭檔可從世界模式中找到。"
+  },
+  "This Partner must be level 20 to awaken.": {
+    "zh-Hans": "此角色需抵达20级后才可唤醒。",
+    "zh-Hant": "此搭檔需到達20級方可喚醒。"
+  },
+  "This account is locked.": {
+    "zh-Hans": "此账户已被冻结",
+    "zh-Hant": "此帳號已遭鎖定。"
+  },
+  "This account is not verified.\nPlease check your registered email inbox\nfor instructions on how to complete verification.": {
+    "zh-Hans": "账号未认证，请查阅注册邮箱并根据邮件指示完成验证。",
+    "zh-Hant": "帳戶未驗證，請查閱註冊電子信箱並根據郵件提示完成驗證。"
+  },
+  "This account registration has expired.\nPlease register a new account.": {
+    "zh-Hans": "未在指定时间内完成验证。\n验证链接已失效，请重新注册帐号。",
+    "zh-Hant": "未在指定時間內完成驗證。\n驗證連結已失效，請重新註冊帳户。"
+  },
+  "This can be adjusted at any time from settings": {
+    "zh-Hans": "可以在设定页面随时更改此项设定",
+    "zh-Hant": "你隨時可從設定調整之。"
+  },
+  "This code has already been claimed.": {
+    "zh-Hans": "此序列码已被使用",
+    "zh-Hant": "此序號已使用。"
+  },
+  "This email address is already in use.": {
+    "zh-Hans": "此电子邮箱已被注册过",
+    "zh-Hant": "此電子信箱已有人使用。"
+  },
+  "This event has already ended. Your score was not submitted.": {
+    "zh-Hans": "该活动已结束，您的成绩将不会被提交。",
+    "zh-Hant": "該活動已結束，您的成績將不會被提交。"
+  },
+  "This event map has ended and is no longer available.": {
+    "zh-Hans": "活动已结束",
+    "zh-Hant": "此活動地圖已結束或無法使用。"
+  },
+  "This event map is currently not available!": {
+    "zh-Hans": "此活动地图目前无法进入！",
+    "zh-Hant": "活動地圖目前無法使用！"
+  },
+  "This feature has already been used on this device.": {
+    "zh-Hans": "该设备已使用过本功能",
+    "zh-Hant": "該設備已使用過本功能"
+  },
+  "This feature has been restricted for your account.\nIf you are unsure why, please contact support@lowiro.com": {
+    "zh-Hans": "非常抱歉，您已被限制使用此功能\n若您并不知晓发生了什么，请联系support@lowiro.com",
+    "zh-Hant": "非常抱歉，您已被禁止使用此功能\n若您並不知曉發生了什麼，請聯繫support@lowiro.com"
+  },
+  "This feature is currently not available.": {
+    "zh-Hans": "目前无法使用这项功能。",
+    "zh-Hant": "目前無法使用這項功能。"
+  },
+  "This item is currently unavailable to purchase.": {
+    "zh-Hans": "此物品目前无法获取",
+    "zh-Hant": "目前無法購買此物品。"
+  },
+  "This map has already been completed!": {
+    "zh-Hans": "此地图已完成！",
+    "zh-Hant": "已完成此地圖！"
+  },
+  "This memory... was it always here?": {
+    "zh-Hans": "这段回忆……一直都在吗？",
+    "zh-Hant": "這段回憶……一直都在嗎？"
+  },
+  "This purchase has already been completed.\nPlease attempt tapping 'Complete Purchase'\nContact support@lowiro.com if you have concerns.": {
+    "zh-Hans": "购买已成功进行。\n请尝试点击「恢复购买」按扭。\n如果您还有问题，欢迎邮箱咨询support@lowiro.com。",
+    "zh-Hant": "購買已成功進行。\n請嘗試點選「恢復購買」按扭。\n如果您還有問題，歡迎由電郵聯繫support@lowiro.com。"
+  },
+  "This purchase requires additional steps.\nPlease attempt tapping 'Complete Purchase'\nor restarting Arcaea once complete.": {
+    "zh-Hans": "本次购买需进行额外的操作步骤。\n请尝试点击「恢复购买」按钮，\n并重新启动韵律源点。",
+    "zh-Hant": "本次購買需進行額外的操作步驟。\n請嘗試點選「恢復購買」按鈕，\n並重新啟動Arcaea。"
+  },
+  "This score could not be submitted online.\nPlease restart or update Arcaea.": {
+    "zh-Hans": "分数无法上传至服务器。\n请重启或更新游戏。",
+    "zh-Hant": "分數無法上傳至服務器。\n請重啟或更新遊戲。"
+  },
+  "This serial code is not yet redeemable.\nThe redeem period will be announced at a later date.": {
+    "zh-Hans": "兑换码尚不可兑换，生效时间将另行通知。",
+    "zh-Hant": "兌換碼尚不可兌換，生效時間將另行通知。"
+  },
+  "This song is available by progressing through World Mode.": {
+    "zh-Hans": "此歌曲可经由「世界模式」解锁",
+    "zh-Hant": "遊玩「世界模式」可解除此曲目之封印。"
+  },
+  "This song is available through completing Beginner Missions.": {
+    "zh-Hans": "该歌曲需通过完成新手任务解锁",
+    "zh-Hant": "該歌曲需通過完成新手任務解鎖"
+  },
+  "This song is available to obtain until 9 March 2027.\n\nOnce obtained, the song can continue\nto be accessed after 9 March 2027.": {
+    "zh-Hans": "当前曲目为期间限定获得内容，须在2027年3月9日前取得，\n规定时段内未获取的，将无法通过任何其他方式获取。\n\n在规定时段内购买该曲目后，\n曲目内容在2027年3月9日后仍然有效。",
+    "zh-Hant": "當前曲目為期間限定獲得內容，須在2027年3月9日前取得，\n規定時段內未獲取的，將無法通過任何其他方式獲取。\n\n在規定時段內購買該曲目後，\n曲目內容在2027年3月9日後仍然有效。"
+  },
+  "This song is not yet available.\nPlease check back soon!": {
+    "zh-Hans": "这首歌曲暂时无法游玩\n之后再来试试吧！",
+    "zh-Hant": "目前無法遊玩此曲目。\n請稍後再試！"
+  },
+  "This story is intended to be read after %1@ and %2@.\nFor the best experience, it is recommended to have read %1@ and %2@ before proceeding.": {
+    "zh-Hans": "此故事前置剧情为%1@与%2@。\n为确保最佳游戏体验，推荐在阅览%1@与%2@后再阅读此故事。",
+    "zh-Hant": "此故事前置劇情為%1@與%2@。\n為確保最佳遊戲體驗，推薦在閱覽%1@與%2@後再閱讀此故事。"
+  },
+  "This story is intended to be read after %1@.\nFor the best experience, it is recommended to have read %1@ before proceeding.": {
+    "zh-Hans": "此故事前置剧情为%1@。\n为确保最佳游戏体验，推荐在阅览%1@后再阅读此故事。",
+    "zh-Hant": "此故事前置劇情為%1@。\n為確保最佳遊戲體驗，推薦在閱覽%1@後再閱讀此故事。"
+  },
+  "This user does not exist.": {
+    "zh-Hans": "用户不存在",
+    "zh-Hant": "此使用者不存在。"
+  },
+  "This user is already your friend.": {
+    "zh-Hans": "此用户已是好友",
+    "zh-Hant": "此玩家已是你的好友。"
+  },
+  "This username is already in use.": {
+    "zh-Hans": "此用户名已被占用",
+    "zh-Hant": "此使用者名稱已有人使用。"
+  },
+  "This version of Arcaea is preparing for release. \nPlease check back in a few minutes.": {
+    "zh-Hans": "当前Arcaea版本正在准备发布\n请稍等几分钟",
+    "zh-Hant": "當前Arcaea版本正在準備發布\n請稍候幾分鐘"
+  },
+  "This will delete your account permanently!\nYou will be sent an email to complete the process.": {
+    "zh-Hans": "这将永久删除你的账号！\n你将收到一封邮件以确认是否要继续删除账号",
+    "zh-Hant": "這將永久刪除你的賬號！\n你將收到一封認證email以確認是否要繼續刪除賬號"
+  },
+  "Throne.": {
+    "zh-Hans": "王座级。",
+    "zh-Hant": "王座級。"
+  },
+  "Tier reward has been claimed": {
+    "zh-Hans": "该阶段奖励已领取",
+    "zh-Hant": "該階段獎勵已領取"
+  },
+  "Time remaining until Course abandoned": {
+    "zh-Hans": "在以下时间截止后段位挑战将自动放弃",
+    "zh-Hant": "在以下時間截止後段位挑戰將自動放棄"
+  },
+  "Time to next conversion:": {
+    "zh-Hans": "下一次交换机会：",
+    "zh-Hant": "距離下次補充的時間："
+  },
+  "Time up.": {
+    "zh-Hans": "时间到了",
+    "zh-Hant": "時間到了"
+  },
+  "Title": {
+    "zh-Hans": "标题",
+    "zh-Hant": "標題"
+  },
+  "Title Screen": {
+    "zh-Hans": "标题界面",
+    "zh-Hant": "標題介面"
+  },
+  "To Main Menu": {
+    "zh-Hans": "主菜单",
+    "zh-Hant": "主選單"
+  },
+  "To World Mode": {
+    "zh-Hans": "前往世界模式",
+    "zh-Hant": "前往世界模式"
+  },
+  "To progress through the story, you will need to complete requirements.": {
+    "zh-Hans": "要在故事中前进，您将需要达成各种条件。",
+    "zh-Hant": "要在故事中前進，您將需要達成各種條件。"
+  },
+  "Toa Kozukata": {
+    "zh-Hans": "不来方永爱",
+    "zh-Hant": "不來方永愛"
+  },
+  "Top": {
+    "zh-Hans": "界面顶端",
+    "zh-Hant": "介面頂端"
+  },
+  "Transcend your limit": {
+    "zh-Hans": "超越你的极限",
+    "zh-Hant": "超越你的極限"
+  },
+  "Transfer your scores and unlocks to any other device\nby logging in and using the Cloud Save feature.\n\nCloud Save is not a dedicated backup feature.\nPlease only use one account per device, and\nnote that Fragments are not transferred.": {
+    "zh-Hans": "登录并使用云存档功能\n即可转移你的分数与解锁进程至其他设备。\n\n云存档功能并不推荐用于备份。\n请在每一台设备上仅使用一个账号，\n并注意残片不能被转移。",
+    "zh-Hant": "登錄並使用雲存檔功能\n來轉移你的分數與解鎖進程至其他設備。\n\n雲存檔功能並不建議被用作備份。\n請在每台設備上僅使用一個賬號，\n並留意殘片不能被轉移"
+  },
+  "Tsumugi": {
+    "zh-Hans": "纺",
+    "zh-Hant": "紡"
+  },
+  "Turns": {
+    "zh-Hans": "全员轮选",
+    "zh-Hant": "全員輪選"
+  },
+  "Tutorial": {
+    "zh-Hans": "教程",
+    "zh-Hant": "教學"
+  },
+  "Twilight": {
+    "zh-Hans": "暮光",
+    "zh-Hant": "暮光"
+  },
+  "UNLOCK": {
+    "zh-Hans": "解除封印",
+    "zh-Hant": "解除封印"
+  },
+  "UNiVERSE": {
+    "zh-Hans": "大～宇～宙",
+    "zh-Hant": "大～宇～宙"
+  },
+  "Umbral Core": {
+    "zh-Hans": "暗影核心",
+    "zh-Hant": "暗影核心"
+  },
+  "Unavailable Offline": {
+    "zh-Hans": "离线模式下不可用",
+    "zh-Hant": "離線狀態下不可用"
+  },
+  "Unlock": {
+    "zh-Hans": "解锁",
+    "zh-Hant": "解除封印"
+  },
+  "Unlock %@ %2@": {
+    "zh-Hans": "解锁%@ %2@",
+    "zh-Hant": "解鎖%@ %2@"
+  },
+  "Unlock %@ by purchasing %2@": {
+    "zh-Hans": "购买「%2@」即可解锁「%@」",
+    "zh-Hant": "購買「%2@」即可解鎖「%@」"
+  },
+  "Unlock %@ by purchasing the %2@ pack": {
+    "zh-Hans": "购买「%2@」故事包即可解锁「%@」",
+    "zh-Hant": "購買「%2@」故事包即可解鎖「%@」"
+  },
+  "Unlock Conditions": {
+    "zh-Hans": "解锁条件",
+    "zh-Hant": "解除封印條件"
+  },
+  "Unlock Conditions[CUSTOMIZE]": {
+    "zh-Hans": "解锁条件",
+    "zh-Hant": "解锁条件"
+  },
+  "Unlock Hint": {
+    "zh-Hans": "获取提示",
+    "zh-Hant": "獲取提示"
+  },
+  "Unlock Requirement": {
+    "zh-Hans": "解锁条件",
+    "zh-Hant": "解鎖條件"
+  },
+  "Unlock [WORLD]": {
+    "zh-Hans": "解锁故事",
+    "zh-Hant": "解鎖故事"
+  },
+  "Unlock a map in 2\ndifferent World Chapters": {
+    "zh-Hans": "在两个不同的世界章节中\n分别解锁一个地图",
+    "zh-Hant": "在兩個不同的世界章節中\n分別解鎖一個地圖"
+  },
+  "Unlock a song\nusing fragments": {
+    "zh-Hans": "使用残片解锁一首歌曲",
+    "zh-Hant": "使用殘片解鎖一首歌曲"
+  },
+  "Unlock all rewards to claim Tier reward": {
+    "zh-Hans": "完成该阶段全部任务可获取以下奖励",
+    "zh-Hant": "完成該階段全部任務可獲取以下獎勵"
+  },
+  "Unlock new Partners by obtaining song packs or\nthrough World Mode.": {
+    "zh-Hans": "通过游玩「世界模式」或购买故事包来解锁新搭档。",
+    "zh-Hant": "你可通過購買「故事包」或遊玩「世界模式」解鎖新搭檔。"
+  },
+  "Unlocked by reaching Potential 9.00": {
+    "zh-Hans": "潜力值到达 9.00 以解锁",
+    "zh-Hant": "潛力值到達 9.00 以解鎖"
+  },
+  "Unlocked in Axiom of the End": {
+    "zh-Hans": "在「Axiom of the End」中解锁",
+    "zh-Hant": "在「Axiom of the End」中解鎖"
+  },
+  "Unlocked in World Mode\n Chapter %@": {
+    "zh-Hans": "经由世界模式解除封印\n  章节 %@",
+    "zh-Hant": "通過世界模式解除封印\n  章節 %@"
+  },
+  "Unlocked in World Mode\n Lost Chapter: Beyond": {
+    "zh-Hans": "经由世界模式解除封印\nLost Chapter: Beyond",
+    "zh-Hant": "通過世界模式解除封印\nLost Chapter: Beyond"
+  },
+  "Update '%1@' Pack?": {
+    "zh-Hans": "更新《%1@》曲包吗？",
+    "zh-Hant": "更新曲包《%1@》嗎？"
+  },
+  "Update Pack?": {
+    "zh-Hans": "是否更新曲包？",
+    "zh-Hant": "是否更新曲包？"
+  },
+  "Upgrade": {
+    "zh-Hans": "升级",
+    "zh-Hant": "升級"
+  },
+  "Upload": {
+    "zh-Hans": "上传",
+    "zh-Hant": "上傳"
+  },
+  "Use Cloud Save": {
+    "zh-Hans": "使用云端存档",
+    "zh-Hant": "使用雲端存檔"
+  },
+  "Use Cores to awaken Partner?": {
+    "zh-Hans": "使用核心来唤醒搭档吗？",
+    "zh-Hant": "使用核心喚醒搭檔嗎？"
+  },
+  "Use Fragments": {
+    "zh-Hans": "使用残片",
+    "zh-Hant": "使用殘片"
+  },
+  "Use Memories": {
+    "zh-Hans": "使用记忆源点",
+    "zh-Hant": "使用記憶源點"
+  },
+  "Use Random Song to pick\na song, and clear it": {
+    "zh-Hans": "使用曲目随机功能\n游玩并通关一首曲目",
+    "zh-Hant": "使用曲目隨機功能\n遊玩並通關一首曲目"
+  },
+  "Use Warped Shard to play this course?": {
+    "zh-Hans": "是否使用次元结晶进行本次段位挑战？",
+    "zh-Hant": "是否使用次元結晶進行本次段位挑戰？"
+  },
+  "Use a Partner with a\nSTEP stat over 50 to\nprogress in World Mode": {
+    "zh-Hans": "在世界模式中成功使用任意\n步数能力值大于50的搭档",
+    "zh-Hant": "在世界模式成功使用任意\n步數能力值>50的搭檔"
+  },
+  "Use a Partner with a STEP stat over 50\nto progress in World Mode": {
+    "zh-Hans": "在世界模式中成功使用任意\n步数能力值大于50的搭档",
+    "zh-Hant": "在世界模式中成功使用任意\n步數能力值大於50的搭檔"
+  },
+  "Use all Milk (Current: %@). Each Milk grants\na +11% chance to gain 100 Fragments": {
+    "zh-Hans": "消耗全部牛奶（已拥有：%@瓶）\n每瓶牛奶能让得到100个残片的概率增加11%",
+    "zh-Hant": "消耗全部牛奶（已擁有：%@瓶）\n每瓶牛奶能讓得到100個殘片的概率增加11%"
+  },
+  "Use an Ether Drop to\nupgrade a Partner": {
+    "zh-Hans": "使用以太之滴升级搭档",
+    "zh-Hant": "使用以太之滴升級搭檔"
+  },
+  "Use two fingers when two Arc notes appear.\nKeep the same finger on one color of Arc note for its duration.": {
+    "zh-Hans": "当两个音弧同时出现时，使用两只手指\n请一直在同色的音弧上使用同一只手指",
+    "zh-Hant": "當兩個音弧同時出現時，使用兩隻手指\n請一直在同色的音弧上使用同一隻手指"
+  },
+  "Username": {
+    "zh-Hans": "用户名",
+    "zh-Hant": "使用者名稱"
+  },
+  "Username must be 3-15 characters a-Z 0-9": {
+    "zh-Hans": "账户名包含3到15个字符：英文字母或阿拉伯数字",
+    "zh-Hant": "使用者名稱必須為 3~15 碼的英數字元、大小寫有別。"
+  },
+  "Username or password incorrect.": {
+    "zh-Hans": "用户名或密码错误",
+    "zh-Hant": "使用者名稱或帳號不正確。"
+  },
+  "VIIM": {
+    "zh-Hans": "VIIM",
+    "zh-Hant": "VIIM"
+  },
+  "VISUAL - 'Nutritious' note appearance\nwhen playing a %2@ song": {
+    "zh-Hans": "视觉 - 在游玩%2@曲目时，\n显示「营养丰富」类的音符",
+    "zh-Hant": "視覺 - 在遊玩%2@曲目時，\n顯示「營養豐富」類音符。"
+  },
+  "VISUAL - Recollection Gauge is hidden": {
+    "zh-Hans": "视觉 - 隐藏回忆率",
+    "zh-Hant": "視覺 - 隱藏回憶率"
+  },
+  "Variety": {
+    "zh-Hans": "综合",
+    "zh-Hant": "綜合"
+  },
+  "Verifying files...": {
+    "zh-Hans": "更新校验中……",
+    "zh-Hant": "更新驗證中……"
+  },
+  "Version": {
+    "zh-Hans": "游戏版本",
+    "zh-Hant": "遊戲版本"
+  },
+  "View your Profile Card": {
+    "zh-Hans": "查看个人档案",
+    "zh-Hant": "查看個人檔案"
+  },
+  "Visibility": {
+    "zh-Hans": "房间属性设定",
+    "zh-Hant": "房間屬性設定"
+  },
+  "Visual": {
+    "zh-Hans": "视觉",
+    "zh-Hant": "視覺"
+  },
+  "Vita": {
+    "zh-Hans": "维塔",
+    "zh-Hant": "維塔"
+  },
+  "Vote": {
+    "zh-Hans": "投票选择",
+    "zh-Hant": "投票選擇"
+  },
+  "Voting Results": {
+    "zh-Hans": "投票结果",
+    "zh-Hant": "投票結果"
+  },
+  "WACCA Core": {
+    "zh-Hans": "WACCA 核心",
+    "zh-Hant": "WACCA 核心"
+  },
+  "WARNING! Cancelling will consume\nyour Warped Shard/Stamina.": {
+    "zh-Hans": "警告！一旦取消，你的体力 / 次元结晶将不会返还",
+    "zh-Hant": "警告！一旦取消，你的體力 / 次元結晶將不會返還"
+  },
+  "WARNING! You are using a modified version of Arcaea.\nContinued use will result in the banning of your account.\nThis is a final warning.": {
+    "zh-Hans": "警告！你正在使用修改版的 Arcaea 。\n继续使用会导致你的账号被封号。\n这是最后一次警告。",
+    "zh-Hant": "警告！你正在使用修改版的Arcaea。\n如若繼續使用，你的賬號將被封號。\n這是最後一次警告。"
+  },
+  "WORLD\nTOTAL": {
+    "zh-Hans": "进度\n总计",
+    "zh-Hant": "進度\n總計"
+  },
+  "Waiting for more players to join the room.": {
+    "zh-Hans": "正在等待其他玩家加入。",
+    "zh-Hant": "正在等待其他玩家加入。"
+  },
+  "Waiting for other players to finish...": {
+    "zh-Hans": "正在等待其他玩家结束……",
+    "zh-Hant": "正在等待其他玩家結束……"
+  },
+  "Waiting for others to vote...": {
+    "zh-Hans": "等待他人投票中……",
+    "zh-Hant": "等待他人投票中⋯⋯"
+  },
+  "Waiting for players to join...": {
+    "zh-Hans": "等待玩家加入……",
+    "zh-Hant": "等待玩家加入……"
+  },
+  "Waiting for the Lead's selection...": {
+    "zh-Hans": "等待房主选择……",
+    "zh-Hant": "等待房主選擇……"
+  },
+  "Waiting for your vote...": {
+    "zh-Hans": "请投票",
+    "zh-Hant": "請投票"
+  },
+  "Wanderer": {
+    "zh-Hans": "Wanderer",
+    "zh-Hant": "Wanderer"
+  },
+  "Warning": {
+    "zh-Hans": "警告",
+    "zh-Hant": "警告"
+  },
+  "Warped Shard": {
+    "zh-Hans": "次元结晶",
+    "zh-Hant": "次元結晶"
+  },
+  "Warped Shards can be used instead of stamina to start any unlocked course.\nThey are obtained through World Mode and various means.": {
+    "zh-Hans": "次元结晶可以代替体力用于挑战任意已解锁的段位\n它们可以通过世界模式等各种方式获得",
+    "zh-Hant": "次元結晶可以代替體力用於挑戰任意已解鎖的段位\n它們可以通過世界模式等各種方式獲得"
+  },
+  "Watch Axiom of the End\nfrom above for 4 minutes": {
+    "zh-Hans": "注视Axiom of the End\n初始界面四分钟",
+    "zh-Hant": "注視Axiom of the End\n原始頁面四分鐘"
+  },
+  "Watch the upper input area for Sky notes.": {
+    "zh-Hans": "请留意出现在上端输入线的「天空音符」",
+    "zh-Hant": "留意輸入區域上方的「天空」音符。"
+  },
+  "Welcome": {
+    "zh-Hans": "欢迎",
+    "zh-Hant": "歡迎"
+  },
+  "Welcome to Arcaea!\nHere are the basics to get started.": {
+    "zh-Hans": "欢迎来到韵律源点Arcaea！\n让我们一起学习游玩基本操作",
+    "zh-Hant": "歡迎來到Arcaea！\n讓我們一起學習遊玩基本操作"
+  },
+  "Welcome to Arcaea!\nPlease complete setup for best timing.\n\nYou can re-configure this later through the Settings menu.": {
+    "zh-Hans": "欢迎来到 Arcaea！\n请完成设置来完善时间判定。\n\n你可以稍后在游戏设定页更改这项设定",
+    "zh-Hant": "歡迎來到 Arcaea！\n請完成設置來完善時間判定。\n\n你之後可從設定選單調整此項目。"
+  },
+  "When 5 notes are LOST, FRAG reduced by 3\nper additional LOST note": {
+    "zh-Hans": "流失五个音符后，每多流失\n一个音符，残数将减少3",
+    "zh-Hant": "流失五個音符後，每多流失\n一個音符，殘數將減少3"
+  },
+  "When a new minute begins,\nstart and clear a song": {
+    "zh-Hans": "现实世界的每分钟开始时\n开始游玩任意一首曲目并通关",
+    "zh-Hant": "現實世界的每分鐘開始時\n開始遊玩任意一首曲目並通關"
+  },
+  "When enabled, players have a timed window to select songs and difficulties.": {
+    "zh-Hans": "计时状态下，选择曲目与难度的时间将有所限制。",
+    "zh-Hant": "計時狀態下，選擇曲目與難度的時間將有所限制。"
+  },
+  "When lost: woe to the strong.": {
+    "zh-Hans": "流失之刻：祸兮，有力之人！",
+    "zh-Hant": "流失之刻：禍兮，有力之人！"
+  },
+  "When lost: woe to the unequal.": {
+    "zh-Hans": "流失之刻：祸兮，不公之人！",
+    "zh-Hant": "流失之刻：禍兮，不公之人！"
+  },
+  "When lost: woe to the unhelpful.": {
+    "zh-Hans": "流失之刻：祸兮，无情之人！",
+    "zh-Hant": "流失之刻：禍兮，無情之人！"
+  },
+  "When set, your profile Partner will be shown to friends\nand on leaderboards. You can change or remove which Partner is set at any time.": {
+    "zh-Hans": "在设置后，你将会在好友及排行榜中展示档案上的搭档。\n你可以在任意时候更换或移除所展示的搭档。",
+    "zh-Hant": "在設置後，你將會在好友及排行榜中展示檔案上的搭檔。\n你可以在任意時候更換或移除所展示的搭檔。"
+  },
+  "When usurping a Partner, Lacrymira's stats will be used.": {
+    "zh-Hans": "拉可弥拉侵袭搭档后，游玩结果的评估将以拉可弥拉的能力进行计算。",
+    "zh-Hant": "拉可彌拉侵襲搭檔後，遊玩結果的評估將以拉可彌拉的能力進行計算。"
+  },
+  "While some songs are unlocked with Fragments, others are unlocked in World Mode.": {
+    "zh-Hans": "你可以使用残片解锁部分歌曲而其余的曲目则大多需要通过「世界模式」解锁",
+    "zh-Hant": "你可以使用殘片解鎖部分歌曲而其餘的曲目必須經由「世界模式」才能解鎖"
+  },
+  "Winter": {
+    "zh-Hans": "冬日",
+    "zh-Hant": "冬日"
+  },
+  "Wishlist Now": {
+    "zh-Hans": "点击加入愿望清单",
+    "zh-Hant": "點擊加入願望清單"
+  },
+  "With Lacrymira's skill unlocked, she is able to usurp song plays or Track Lost events in World Mode.": {
+    "zh-Hans": "拉可弥拉的技能现已解锁，她将能够侵袭世界模式中的任意游玩过程乃至影响游玩失败的判定时间。",
+    "zh-Hant": "拉可彌拉的技能現已解鎖，她將能夠侵襲世界模式中的任意遊玩過程乃至影響遊玩失敗的判定時間。"
+  },
+  "With perfection or imperfection": {
+    "zh-Hans": "完美地，或是空洞地",
+    "zh-Hant": "完美地，或是空洞地"
+  },
+  "World": {
+    "zh-Hans": "世界",
+    "zh-Hant": "世界"
+  },
+  "World Boost": {
+    "zh-Hans": "世界强化",
+    "zh-Hant": "世界強化"
+  },
+  "World Boost active.\nAll progress in World Mode increased by %@%.": {
+    "zh-Hans": "世界强化生效中，世界模式进度提高%@%。",
+    "zh-Hant": "世界強化生效中，世界模式進度提高%@%。"
+  },
+  "World Mode has been overloaded.\nThe overload will clear in %@.\n\nRefilling stamina will immediately restore World Mode.": {
+    "zh-Hans": "世界模式已过载\n过载将于 %@ 后恢复\n\n补充体力将立即恢复世界模式",
+    "zh-Hant": "世界模式已過載\n過載將於 %@ 後恢復\n\n補充體力將立即恢復世界模式"
+  },
+  "World Mode has been overloaded.\nThe overload will clear in %@.\n\nRefilling stamina will immediately restore World Mode.\nWould you like to refill your Stamina\nor continue Link Play with Map progress disabled?": {
+    "zh-Hans": "世界模式已经过载，过载将于%@后恢复。\n\n补充体力将立即恢复世界模式。\n您可选择补充体力或直接跳过并继续游玩。\n体力不足的情况下将无法获得新的进度。",
+    "zh-Hant": "世界模式已經過載，過載將於%@後恢復。\n\n補充體力將立即恢復世界模式。\n您可選擇補充體力或直接跳過並繼續遊玩。\n體力不足的情況下將無法獲得新的進度。"
+  },
+  "World Mode progress randomly increased\nor decreased between %2@ and %3@": {
+    "zh-Hans": "世界进度在 %2@ 和 %3@ 之间随机增减",
+    "zh-Hant": "世界進度在 %2@ 和 %3@ 之間隨機增減"
+  },
+  "World Overload": {
+    "zh-Hans": "世界过载",
+    "zh-Hant": "世界過載"
+  },
+  "World Parallel is a limited-time event where\n3 new Limited Partners and rewards can be obtained.": {
+    "zh-Hans": "限时活动“World Parallel”涵盖三个全新限时搭档及更多奖励。",
+    "zh-Hant": "限時活動“World Parallel”涵蓋三個全新限時搭檔及更多獎勵。"
+  },
+  "World progress doubled when Stamina\nis greater than or equal to 6": {
+    "zh-Hans": "体力大于等于6格时世界进度翻倍",
+    "zh-Hant": "體力大於等於6格時世界進度翻倍"
+  },
+  "World progress increased by\n%@ if a Fragment reward is collected": {
+    "zh-Hans": "获得残片奖励时\n世界进度额外前进 %@",
+    "zh-Hant": "獲得殘片獎勵時\n世界進度額外前進 %@"
+  },
+  "World progress increased by\n%@ when starting on a Restriction Step": {
+    "zh-Hans": "在歌曲限制格上游玩歌曲时\n世界进度额外前进 %@",
+    "zh-Hant": "在歌曲限制格上游玩歌曲時\n世界進度額外前進 %@"
+  },
+  "World progress increased by up to 10\nbased on completed Maps in a Chapter": {
+    "zh-Hans": "根据单个章节地图的完成情况\n额外获得最高10的世界模式进度",
+    "zh-Hant": "根據單一章節地圖的完成情況\n額外獲得最高10的世界模式進度"
+  },
+  "Yes": {
+    "zh-Hans": "确定",
+    "zh-Hant": "確定"
+  },
+  "You already own this item.": {
+    "zh-Hans": "你已经拥有了此物品",
+    "zh-Hant": "你已擁有此物品。"
+  },
+  "You are Lead. Select a song...": {
+    "zh-Hans": "你是房主，请选择歌曲……",
+    "zh-Hant": "你是房主，請選擇歌曲……"
+  },
+  "You are at the point of no return.\nProceeding will make a decision that you can not reverse.": {
+    "zh-Hans": "你即将走上这条不归之路\n一旦前进，你将无法撤回当前的决定",
+    "zh-Hant": "你即將走上這條不歸之路\n一旦前進，你將無法撤回當前的決定"
+  },
+  "You are close to the end of this map!\nAre you sure you want to activate Memory Boost?": {
+    "zh-Hans": "您已接近此地图的尾声！\n您确认要激活源韵强化吗？",
+    "zh-Hant": "您已接近此地圖的尾聲！\n您確認要激活源韻强化嗎？"
+  },
+  "You are not the Lead.": {
+    "zh-Hans": "你不是房主",
+    "zh-Hant": "你不是房主"
+  },
+  "You can also organize songs into groups by Version, Level, or Grade.": {
+    "zh-Hans": "于此同时，您也可以按游戏版本、等级和评级将歌曲分类。",
+    "zh-Hant": "與此同時，您也可以按遊戲版本、等級和評級將歌曲分類。"
+  },
+  "You can check this Tutorial again any time\nfrom the main menu.": {
+    "zh-Hans": "你可以随时在主菜单的「其他」选项查看教程",
+    "zh-Hant": "你可從主選單的「其他」選項再次觀看教學。"
+  },
+  "You can come back any time to reread story entries you've already unlocked.": {
+    "zh-Hans": "您可以在任何时候回来重新阅读您已解锁的故事。",
+    "zh-Hant": "您可以在任何時候回來重新閱讀您已解鎖的故事。"
+  },
+  "You can see what pack you'll need for a specific story entry by tapping on it.": {
+    "zh-Hans": "只需点击对应的故事入口，您便能知晓此段故事需求的歌曲包。",
+    "zh-Hant": "只需輕點對應的故事入口，您便能知曉此段故事需求的歌曲包。 "
+  },
+  "You can't be friends with yourself ;_;": {
+    "zh-Hans": "你不能加自己为好友 ;_;",
+    "zh-Hant": "你無法添加自己為好友 ;_;"
+  },
+  "You cannot make a new account\nfrom this IP address today.": {
+    "zh-Hans": "你今天不能再使用这个IP地址\n创建新的账号",
+    "zh-Hant": "你今天不能再使用這個IP地址\n創建新的賬號"
+  },
+  "You currently cannot add more friends.\nExtend your friend limit to add more.": {
+    "zh-Hans": "你目前无法添加更多好友。 \n请先扩充你的好友栏位。",
+    "zh-Hant": "你目前無法添加更多好友。\n請先擴充你的好友欄。"
+  },
+  "You currently have a total of %@ Fragments\n(including stacks of %2@).": {
+    "zh-Hans": "目前共持有%@残片（包括%2@残片的累积）",
+    "zh-Hant": "目前共持有%@殘片（包括%2@殘片的累積）"
+  },
+  "You do not have enough Stamina\nto progress in World Parallel.\n\nWould you like to refill your Stamina\nor continue Link Play with Map progress disabled?": {
+    "zh-Hans": "体力不足以继续进行World Parallel。\n\n您可选择补充体力以继续推进进度\n或直接跳过并继续通过Link Play游玩。\n体力不足的情况下将无法获得新的进度。",
+    "zh-Hant": "體力不足以繼續進行World Parallel。\n\n您可選擇補充體力以繼續推進進度\n或直接跳過並繼續通過Link Play遊玩。\n體力不足的情況下將無法獲得新的進度。"
+  },
+  "You do not have enough Stamina.": {
+    "zh-Hans": "你没有足够的体力",
+    "zh-Hant": "你沒有足夠的體力"
+  },
+  "You do not have enough Warped Shards.": {
+    "zh-Hans": "你没有足够的次元结晶",
+    "zh-Hant": "你沒有足夠的次元結晶"
+  },
+  "You do not have enough stamina.": {
+    "zh-Hans": "你没有足够的体力",
+    "zh-Hant": "你的體力不足。"
+  },
+  "You have been logged out by another device.\nPlease restart Arcaea.": {
+    "zh-Hans": "您的账号已在别处登录。\n请重启Arcaea。",
+    "zh-Hant": "您的賬戶已在他處登入。\n請重啟Arcaea。"
+  },
+  "You have incomplete purchases pending.\nThese may require any or all of the following to be done:\n• A parent to approve your purchase\n• Paying for the purchase at a store\n• Waiting for payment approval\nOnce the necessary steps are complete,\nplease tap \"Complete Purchase\".": {
+    "zh-Hans": "你有等待中的购买\n这可能需要先完成以下一个或多个事项：\n* 请求一名监护人以许可你的购买\n* 在商城为此次购买支付费用\n* 等待购买被批准\n\n在这些事项完成后请点击「恢复购买」",
+    "zh-Hant": "你有等待中的購買\n這可能需要先完成以下一或多個事項：\n* 請求一名監護人以許可你的購買\n* 在商城為此次購買支付費用\n* 等待購買被批准\n\n在這些事項完成後請點擊「恢復購買」"
+  },
+  "You have incomplete purchases.\nPlease attempt tapping 'Complete Purchase'.": {
+    "zh-Hans": "您的账号拥有尚未完成的交易。\n请尝试点击「恢复购买」按钮。",
+    "zh-Hant": "您的賬號擁有尚未完成的交易。\n請嘗試輕點「恢復購買」按鈕。"
+  },
+  "You have no Ether Drops. Ether Drops can be acquired\nby progressing through World Mode.": {
+    "zh-Hans": "你没有以太之滴。\n以太之滴可以通过游玩世界模式获取。",
+    "zh-Hant": "您未持有以太之滴。以太之滴可通過遊玩世界模式獲取。"
+  },
+  "You have not yet unlocked a special song in this course.": {
+    "zh-Hans": "你还没有解锁当前段位中的一首特别歌曲",
+    "zh-Hant": "你還沒有解鎖當前段位中的一首特別歌曲"
+  },
+  "You have not yet unlocked all of the songs in this course.": {
+    "zh-Hans": "你还没有解锁当前段位中的全部歌曲",
+    "zh-Hant": "你還沒有解鎖當前段位中的全部歌曲"
+  },
+  "You have reached the maximum friend limit.": {
+    "zh-Hans": "你的好友列表已满",
+    "zh-Hant": "你的好友數量已經達到了上限"
+  },
+  "You may complete these requirements on any difficulty level.": {
+    "zh-Hans": "故事条件可在任何难易度下达成。",
+    "zh-Hant": "故事條件可在任何難易度下達成。"
+  },
+  "You must be online and logged in to play Link Play.\nLog in via Network on the main menu.": {
+    "zh-Hans": "你必须在线登录才能在Link Play中游玩\n请通过主菜单中的「网络」登录",
+    "zh-Hant": "你必須聯網登入才能在Link Play中游玩\n請通過主菜單中的「線上」登入"
+  },
+  "You must be online and logged in to unlock songs.": {
+    "zh-Hans": "您需要联网并登录才能购买歌曲。",
+    "zh-Hant": "您需要聯網並登錄才能購買歌曲。"
+  },
+  "You must be online and logged in to unlock songs.\nLog in via Network on the main menu.": {
+    "zh-Hans": "你需要登录来解锁歌曲\n通过主菜单的「网络」选项登录",
+    "zh-Hant": "你必須登入帳號，在線上解除曲目封印。"
+  },
+  "You must be online and logged in to upgrade Intruders.": {
+    "zh-Hans": "您必须联网并登录来升级侵入者。",
+    "zh-Hant": "您必須聯網并登入遊戲以升級侵入者。"
+  },
+  "You must be online and logged in to upgrade Partners.": {
+    "zh-Hans": "您必须联网并登录来升级搭档。",
+    "zh-Hant": "您必須聯網并登入遊戲以升級搭檔。"
+  },
+  "You must be online and logged into an account\nto claim mission rewards.": {
+    "zh-Hans": "奖励需在帐号已登入并在线的状态下领取",
+    "zh-Hant": "獎勵需在帳號登入線上的狀態下領取"
+  },
+  "You must complete the previous course to challenge this one.": {
+    "zh-Hans": "在开始挑战本段位前，你必须先通过上一个段位",
+    "zh-Hant": "在開始挑戰本段位前，你必須先通過上一個段位"
+  },
+  "You must integrate %@ more Beyond to unlock this Map.": {
+    "zh-Hans": "还需完成%@个Beyond地图以解锁此地图。",
+    "zh-Hant": "還需完成%@個Beyond地圖以解鎖此地圖。"
+  },
+  "You must integrate %@ more Beyonds to unlock this Map.": {
+    "zh-Hans": "还需完成%@个Beyond地图以解锁此地图。",
+    "zh-Hant": "還需完成%@個Beyond地圖以解鎖此地圖。"
+  },
+  "You must unlock the previous map to reveal this song.": {
+    "zh-Hans": "你必须解锁前一个地图以揭晓这首歌曲",
+    "zh-Hant": "你必須解鎖前一個地圖以揭曉這首歌曲"
+  },
+  "You must unlock ‘%@’ %2@ and ‘%3@’ %4@ to engage this song.": {
+    "zh-Hans": "你必须解锁‘%@’ %2@和‘%3@’ %4@以进行这首歌曲",
+    "zh-Hant": "你必須解鎖‘%@’ %2@和‘%3@’ %4@以進行這首歌曲"
+  },
+  "You must unlock ‘%@’ %2@ to engage this song.": {
+    "zh-Hans": "进入此曲前，你必须先解锁 %2@ 难度的「%@」",
+    "zh-Hant": "進入此曲前，你必須先解鎖 %2@ 難度的「%@」"
+  },
+  "You no longer have enough Fragments\nto use this boost.": {
+    "zh-Hans": "你没有足够的残片来激活这项加成",
+    "zh-Hant": "你沒有足夠的殘片來激活這項加成"
+  },
+  "You were removed from the room.": {
+    "zh-Hans": "你已被请出房间",
+    "zh-Hant": "你已被請出房間"
+  },
+  "You'll also earn Fragments to unlock more songs and difficulties.": {
+    "zh-Hans": "游玩时获取的「残片」能用来解锁新的曲目或难度",
+    "zh-Hant": "遊玩時獲得的「殘片」點數能用於解鎖新的曲目與難度"
+  },
+  "You've logged into over 2 devices in 24 hours.\nPlease wait %@ before using this new device.": {
+    "zh-Hans": "你已在24小时内登入两台设备。\n请在使用这台新设备前等待 %@。",
+    "zh-Hant": "你已在24小時內登入兩台設備。\n請於使用這台新設備前等待 %@。"
+  },
+  "Your account functionality is currently limited.": {
+    "zh-Hans": "您的账户目前已被限制。",
+    "zh-Hant": "您的賬戶目前已被限制。"
+  },
+  "Your cloud save will be replaced with data from this device.": {
+    "zh-Hans": "将会用本机数据替换云端数据",
+    "zh-Hant": "將以本設備之資料蓋過雲端儲存紀錄。"
+  },
+  "Your email address will be used to log in": {
+    "zh-Hans": "你将需要电子邮箱地址来登入",
+    "zh-Hant": "你將以註冊的電子信箱登入。"
+  },
+  "Your friends list is full.": {
+    "zh-Hans": "好友列表已满",
+    "zh-Hant": "你的好友名單已滿。"
+  },
+  "Your gauge has not increased enough to use Beyond Boost.": {
+    "zh-Hans": "进度条尚未达到激活Beyond强化所需的最小填充量",
+    "zh-Hant": "進度條尚未達到激活Beyond強化所需的最小填充量"
+  },
+  "Your purchase has been completed successfully.": {
+    "zh-Hans": "购买成功！",
+    "zh-Hant": "購買成功！"
+  },
+  "Your want of fragments:\nmake that matter as well.": {
+    "zh-Hans": "渴望获得更多……贪婪，是人性的本能。\n那么，更多的残片，是否足够填补你的空虚呢？",
+    "zh-Hant": "渴望獲得更多……貪婪，是人性的本能。\n那麼，更多的殘片，是否足夠填補你的空虛呢？"
+  },
+  "You’re early!": {
+    "zh-Hans": "你来得真早！",
+    "zh-Hant": "你來早了！"
+  },
+  "Yume": {
+    "zh-Hans": "柚梅",
+    "zh-Hant": "夢"
+  },
+  "Yuno": {
+    "zh-Hans": "梦乃",
+    "zh-Hant": "夢乃"
+  },
+  "Zero": {
+    "zh-Hans": "Zero",
+    "zh-Hant": "Zero"
+  },
+  "[PARALLEL]Boosts": {
+    "zh-Hans": "强化",
+    "zh-Hant": "強化"
+  },
+  "[PARALLEL]Performance": {
+    "zh-Hans": "表现",
+    "zh-Hant": "表現"
+  },
+  "[PARALLEL]Refill": {
+    "zh-Hans": "补充",
+    "zh-Hant": "補充"
+  },
+  "[PARALLEL]Skip": {
+    "zh-Hans": "跳过",
+    "zh-Hant": "跳過"
+  },
+  "[PARALLEL]Sync": {
+    "zh-Hans": "同频",
+    "zh-Hant": "同頻"
+  },
+  "[PROFILEMONTH]%1@": {
+    "zh-Hans": "%1@",
+    "zh-Hant": "%1@"
+  },
+  "[PROFILEYEAR]%1@": {
+    "zh-Hans": "%1@",
+    "zh-Hant": "%1@"
+  },
+  "[PROFILE]Friends": {
+    "zh-Hans": "仅好友",
+    "zh-Hant": "僅好友"
+  },
+  "[PROFILE]None": {
+    "zh-Hans": "无",
+    "zh-Hant": "無"
+  },
+  "[PROFILE]Options": {
+    "zh-Hans": "设定",
+    "zh-Hant": "設定"
+  },
+  "[PROFILE]Private": {
+    "zh-Hans": "私密",
+    "zh-Hant": "私密"
+  },
+  "[PROFILE]Visibility": {
+    "zh-Hans": "隐私设定",
+    "zh-Hant": "私隱設定"
+  },
+  "[RESULT]Boosts": {
+    "zh-Hans": "总强化",
+    "zh-Hant": "總強化"
+  },
+  "and when you are invited to Link Play.": {
+    "zh-Hans": "Arcaea将给您推送通知。",
+    "zh-Hant": "Arcaea將給您推送通知。"
+  },
+  "complete": {
+    "zh-Hans": "完成",
+    "zh-Hant": "完成"
+  },
+  "from '%@'": {
+    "zh-Hans": "来自 《%@》",
+    "zh-Hant": "來自《%@》"
+  },
+  "has joined the room": {
+    "zh-Hans": "加入了房间",
+    "zh-Hant": "加入了房間"
+  },
+  "has left the room": {
+    "zh-Hans": "离开了房间",
+    "zh-Hant": "離開了房間"
+  },
+  "is now the Lead": {
+    "zh-Hans": "现在是房主",
+    "zh-Hant": "現在是房主"
+  },
+  "maimai Core": {
+    "zh-Hans": "舞萌核心",
+    "zh-Hant": "舞萌核心"
+  },
+  "now": {
+    "zh-Hans": "现在",
+    "zh-Hant": "現在"
+  },
+  "or": {
+    "zh-Hans": "或",
+    "zh-Hant": "或"
+  },
+  "remain": {
+    "zh-Hans": "残余",
+    "zh-Hant": "殘餘"
+  },
+  "song": {
+    "zh-Hans": "歌曲",
+    "zh-Hant": "歌曲"
+  },
+  "song pack": {
+    "zh-Hans": "曲包",
+    "zh-Hant": "曲包"
+  },
+  "the App Store": {
+    "zh-Hans": "App Store",
+    "zh-Hant": "App Store"
+  },
+  "via Arcaea Online": {
+    "zh-Hans": "通过Arcaea Online支付之权益",
+    "zh-Hant": "透過Arcaea Online支付之權益"
+  },
+  "with 5th Anniversary Ticket": {
+    "zh-Hans": "将使用五周年兑换券",
+    "zh-Hant": "將使用五週年兌換券"
+  },
+  "x%@ Boost": {
+    "zh-Hans": "x%@ 增益",
+    "zh-Hant": "x%@ 增益"
+  },
+  "△BPM△": {
+    "zh-Hans": "△BPM△",
+    "zh-Hant": "△BPM△"
+  },
+  "△Difficulty△": {
+    "zh-Hans": "△难度△",
+    "zh-Hant": "△難度△"
+  },
+  "▽BPM△": {
+    "zh-Hans": "▽BPM△",
+    "zh-Hant": "▽BPM△"
+  },
+  "⸗ anomaly or ⸗ song\nwhile using ⸗⸗⸗⸗": {
+    "zh-Hans": "使用⸗⸗⸗\n⸗⸗异象曲或⸗⸗",
+    "zh-Hant": "使用⸗⸗⸗\n⸗⸗異象曲或⸗⸗"
+  },
+  "⸗⸗ Axiom of the end\n⸗⸗⸗⸗": {
+    "zh-Hans": "⸗⸗Axiom of the End\n初始界面⸗⸗",
+    "zh-Hant": "⸗⸗Axiom of the End\n原始頁面⸗⸗"
+  },
+  "⸗⸗ Random ⸗⸗⸗": {
+    "zh-Hans": "⸗⸗⸗随机⸗⸗\n⸗⸗⸗",
+    "zh-Hant": "⸗⸗隨機⸗⸗\n⸗⸗⸗"
+  },
+  "⸗⸗ each digit ⸗⸗\n⸗⸗⸗⸗⸗⸗": {
+    "zh-Hans": "⸗⸗⸗每一位数⸗⸗\n⸗⸗⸗",
+    "zh-Hant": "⸗⸗每一位數⸗⸗\n⸗⸗⸗"
+  },
+  "⸗⸗each Tairitsu⸗⸗\n⸗⸗ her s⸗⸗ Her": {
+    "zh-Hans": "⸗⸗所有对立⸗⸗任意对立\n⸗⸗⸗她的⸗⸗",
+    "zh-Hant": "⸗⸗所有對立⸗⸗任意對立\n⸗⸗⸗她的⸗⸗"
+  },
+  "⸗⸗⸗⸗ LOSTs": {
+    "zh-Hans": "⸗⸗⸗⸗⸗LOST",
+    "zh-Hant": "⸗⸗⸗⸗⸗LOST"
+  },
+  "⸗⸗⸗⸗ first song of\n⸗⸗⸗⸗⸗⸗": {
+    "zh-Hans": "⸗⸗⸗\n第一支曲目",
+    "zh-Hant": "⸗⸗⸗\n第一支曲目"
+  },
+  "⸗⸗⸗⸗ minute begins,\n⸗⸗⸗⸗⸗⸗⸗⸗": {
+    "zh-Hans": "⸗⸗每分钟开始时\n⸗⸗⸗⸗",
+    "zh-Hant": "⸗⸗每分鐘開始時\n⸗⸗⸗⸗"
+  },
+  "⸗⸗⸗⸗⸗ in\nInfinite Strife, ⸗⸗⸗": {
+    "zh-Hans": "⸗⸗Infinite Strife,，\n⸗⸗⸗",
+    "zh-Hant": "⸗⸗Inifinite Strife,\n⸗⸗⸗"
+  },
+  "⸗⸗⸗⸗⸗⸗\nTempest Tairitsu": {
+    "zh-Hans": "使用對立（Tempest）\n⸗⸗⸗",
+    "zh-Hant": "使用對立（Tempest）\n⸗⸗⸗"
+  },
+  "⸗⸗⸗⸗⸗⸗\nabove ⸗⸗ Potential": {
+    "zh-Hans": "⸗⸗高于\n⸗⸗潜力值的曲目",
+    "zh-Hant": "⸗⸗高於\n⸗⸗潛力值的曲目"
+  },
+  "⸗⸗⸗⸗⸗⸗\n⸗⸗ level ⸗⸗⸗⸗": {
+    "zh-Hans": "⸗⸗⸗⸗⸗难度⸗⸗⸗",
+    "zh-Hant": "⸗⸗⸗⸗⸗難度⸗⸗⸗"
+  }
+}

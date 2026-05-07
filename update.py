@@ -2,6 +2,7 @@
 
 import re
 import shutil
+import struct
 import sys
 import time
 import zipfile
@@ -24,12 +25,14 @@ OUTPUT_PACKLIST_FILE = OUTPUT_DIR / "packlist"
 OUTPUT_SONGLIST_FILE = OUTPUT_DIR / "songlist"
 OUTPUT_UNLOCKS_FILE = OUTPUT_DIR / "unlocks"
 OUTPUT_VERSION_FILE = OUTPUT_DIR / "version"
+OUTPUT_TL_DIR = OUTPUT_DIR / "tl"
+OUTPUT_TL_JSON_FILE = OUTPUT_DIR / "tl.json"
 UPDATE_SKIPPED_MARKER = PROJECT_ROOT / ".update-skipped"
 LANGUAGES = ["zh-Hans", "zh-Hant", "en", "ja", "ko"]
 LANG_KEYS = {"en": "en", "zh-Hans": "zh-hans", "zh-Hant": "zh-hant", "ja": "ja", "ko": "ko"}
 APK_INFO_API = "https://webapi.lowiro.com/webapi/serve/static/bin/arcaea/apk/"
 UPDATE_LISTEN_TIMEZONE = ZoneInfo("Asia/Shanghai")
-UPDATE_LISTEN_START = (7, 55)
+UPDATE_LISTEN_START = (7, 50)
 UPDATE_LISTEN_END = (8, 10)
 UPDATE_LISTEN_POLL_SECONDS = 10
 RETRY_STATUS_CODES = {403, 429, 500, 502, 503, 504}
@@ -46,6 +49,151 @@ FALLBACK_UA = (
     "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
     "(KHTML, like Gecko) Chrome/135.0.7049.115 Safari/537.36"
 )
+
+TL_LANGUAGES = ["zh-Hans", "zh-Hant"]
+
+
+def po_escape(value: str) -> str:
+    """Escape a gettext string literal for PO output."""
+    return (
+        value.replace("\\", "\\\\")
+        .replace("\t", "\\t")
+        .replace("\r", "\\r")
+        .replace("\n", "\\n")
+        .replace('"', '\\"')
+    )
+
+
+def po_string(keyword: str, value: str) -> list[str]:
+    """Format a PO keyword as one or more string-literal lines."""
+    if "\n" not in value:
+        return [f'{keyword} "{po_escape(value)}"']
+
+    lines = [f'{keyword} ""']
+    parts = value.splitlines(keepends=True)
+    lines.extend(f'"{po_escape(part)}"' for part in parts)
+    return lines
+
+
+def parse_mo_entries(mo_bytes: bytes) -> list[dict[str, str]]:
+    """Parse GNU gettext .mo bytes into msgid/msgstr entries."""
+    if len(mo_bytes) < 28:
+        raise ValueError("Invalid MO file: too short")
+
+    magic_le = 0x950412DE
+    magic_be = 0xDE120495
+    magic = struct.unpack("<I", mo_bytes[:4])[0]
+    if magic == magic_le:
+        endian = "<"
+    elif magic == magic_be:
+        endian = ">"
+    else:
+        raise ValueError("Invalid MO file: bad magic")
+
+    _, _, msg_count, originals_offset, translations_offset, _, _ = struct.unpack(
+        f"{endian}7I", mo_bytes[:28]
+    )
+
+    entries: list[dict[str, str]] = []
+    for idx in range(msg_count):
+        original_len, original_offset = struct.unpack(
+            f"{endian}2I", mo_bytes[originals_offset + idx * 8 : originals_offset + idx * 8 + 8]
+        )
+        translation_len, translation_offset = struct.unpack(
+            f"{endian}2I",
+            mo_bytes[translations_offset + idx * 8 : translations_offset + idx * 8 + 8],
+        )
+
+        original = mo_bytes[original_offset : original_offset + original_len].decode("utf-8")
+        translation = mo_bytes[translation_offset : translation_offset + translation_len].decode(
+            "utf-8"
+        )
+
+        msgctxt = ""
+        msgid = original
+        if "\x04" in original:
+            msgctxt, msgid = original.split("\x04", 1)
+
+        if "\x00" in msgid:
+            msgid, msgid_plural = msgid.split("\x00", 1)
+        else:
+            msgid_plural = ""
+
+        entry = {"msgid": msgid, "msgstr": translation}
+        if msgctxt:
+            entry["msgctxt"] = msgctxt
+        if msgid_plural:
+            entry["msgid_plural"] = msgid_plural
+        entries.append(entry)
+
+    return entries
+
+
+def write_po_file(po_path: Path, entries: list[dict[str, str]]) -> None:
+    """Write parsed gettext entries as a decompiled PO file."""
+    lines: list[str] = []
+    for entry in entries:
+        if entry["msgid"] == "":
+            lines.extend(po_string("msgid", entry["msgid"]))
+            lines.extend(po_string("msgstr", entry["msgstr"]))
+            lines.append("")
+            continue
+
+        if "msgctxt" in entry:
+            lines.extend(po_string("msgctxt", entry["msgctxt"]))
+        lines.extend(po_string("msgid", entry["msgid"]))
+        if "msgid_plural" in entry:
+            lines.extend(po_string("msgid_plural", entry["msgid_plural"]))
+            for plural_index, msgstr in enumerate(entry["msgstr"].split("\x00")):
+                lines.extend(po_string(f"msgstr[{plural_index}]", msgstr))
+        else:
+            lines.extend(po_string("msgstr", entry["msgstr"]))
+        lines.append("")
+
+    po_path.write_text("\n".join(lines), encoding="utf-8")
+
+
+def extract_tl_from_apk_zip(apk_zip: zipfile.ZipFile) -> None:
+    """Extract zh gettext catalogs from APK and write MO/PO/merged JSON outputs."""
+    OUTPUT_TL_DIR.mkdir(parents=True, exist_ok=True)
+
+    language_entries: dict[str, list[dict[str, str]]] = {}
+    for lang in TL_LANGUAGES:
+        mo_member = f"assets/tl/{lang}.mo"
+        mo_bytes = apk_zip.read(mo_member)
+        mo_path = OUTPUT_TL_DIR / f"{lang}.mo"
+        po_path = OUTPUT_TL_DIR / f"{lang}.po"
+
+        mo_path.write_bytes(mo_bytes)
+        entries = parse_mo_entries(mo_bytes)
+        write_po_file(po_path, entries)
+        language_entries[lang] = entries
+
+    merged: dict[str, dict[str, str]] = {}
+    for lang, entries in language_entries.items():
+        for entry in entries:
+            msgid = entry["msgid"]
+            if not msgid:
+                continue
+            key = f"{entry.get('msgctxt', '')}\x04{msgid}" if "msgctxt" in entry else msgid
+            merged.setdefault(key, {})[lang] = entry["msgstr"]
+
+    OUTPUT_TL_JSON_FILE.write_bytes(
+        orjson.dumps(merged, option=orjson.OPT_INDENT_2 | orjson.OPT_APPEND_NEWLINE)
+    )
+    print(
+        f"[2/5] Extracted tl catalogs: {', '.join(TL_LANGUAGES)} ({len(merged)} merged strings).",
+        flush=True,
+    )
+
+
+def tl_outputs_exist() -> bool:
+    """Return whether all gettext catalog outputs already exist."""
+    return (
+        OUTPUT_TL_JSON_FILE.exists()
+        and all((OUTPUT_TL_DIR / f"{lang}.mo").exists() for lang in TL_LANGUAGES)
+        and all((OUTPUT_TL_DIR / f"{lang}.po").exists() for lang in TL_LANGUAGES)
+    )
 
 
 def extract_story_sources_from_apk_zip(apk_zip: zipfile.ZipFile) -> None:
@@ -257,7 +405,7 @@ def request_with_retry(
 
 
 def wait_for_new_apk_version() -> bool:
-    """Poll from 07:55 to 08:10 Asia/Shanghai until upstream version changes."""
+    """Poll from 07:50 to 08:10 Asia/Shanghai until upstream version changes."""
     current_version = ""
     if OUTPUT_VERSION_FILE.exists():
         current_version = OUTPUT_VERSION_FILE.read_text(encoding="utf-8").strip()
@@ -287,13 +435,12 @@ def wait_for_new_apk_version() -> bool:
     if current_version:
         print(f"[0/5] Current output version: {current_version}", flush=True)
 
-    if now < start_at:
-        wait_seconds = (start_at - now).total_seconds()
-        print(f"[0/5] Waiting {wait_seconds:.0f}s until listen window starts...", flush=True)
-        time.sleep(wait_seconds)
-    elif now > end_at:
-        print("[0/5] Listen window has already ended; skipping update.", flush=True)
-        return False
+    if now < start_at or now > end_at:
+        print(
+            "[0/5] Current time is outside the listen window; fetching APK metadata directly.",
+            flush=True,
+        )
+        return True
 
     with requests.Session() as session:
         while True:
@@ -368,6 +515,8 @@ def load_pack_song_mapping_from_apk() -> tuple[dict[str, str], dict[str, str]]:
                     and OUTPUT_PACKLIST_FILE.exists()
                     and OUTPUT_SONGLIST_FILE.exists()
                     and OUTPUT_UNLOCKS_FILE.exists()
+                    and STORY_ROOT.exists()
+                    and tl_outputs_exist()
                 ):
                     print(
                         "[2/5] Version unchanged; reusing existing output data and "
@@ -478,6 +627,7 @@ def load_pack_song_mapping_from_apk() -> tuple[dict[str, str], dict[str, str]]:
         songlist_bytes = apk_zip.read("assets/songs/songlist")
         unlocks_bytes = apk_zip.read("assets/songs/unlocks")
         extract_story_sources_from_apk_zip(apk_zip)
+        extract_tl_from_apk_zip(apk_zip)
 
     packlist_raw = orjson.loads(packlist_bytes)
     songlist_raw = orjson.loads(songlist_bytes)

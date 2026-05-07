@@ -11,4 +11,10 @@ dependencies = [
     "packaging>=26.0",
     "pywikibot>=11.1.0",
     "requests>=2.33.1",
+    "tzdata>=2026.1",
+]
+
+[dependency-groups]
+dev = [
+    "ruff>=0.14.0",
 ]
