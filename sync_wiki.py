@@ -24,52 +24,11 @@ PAGE_FILE_MAP = {
     "Template:Unlocks.json": OUTPUT_DIR / "unlocks",
 }
 
-
-def update_template_version_mobile_only(old_text: str, version_text: str) -> str:
-    """Update only the mobile version value in Template:Version content."""
-    version = version_text.strip()
-    pattern = re.compile(
-        r"(?m)^(\s*\|\s*mobile\s*=\s*\{\{\s*游戏版本\s*\|\s*)"
-        r"v[^\|\}\s]+"
-        r"(\s*(?:\|[^\}]*)?\}\}\s*)$"
-    )
-
-    if not pattern.search(old_text):
-        raise ValueError(
-            "Template:Version does not contain a recognizable mobile parameter "
-            "like '|mobile={{游戏版本|v...}}'."
-        )
-
-    return pattern.sub(rf"\g<1>v{version}\g<2>", old_text, count=1)
-
-
-def parse_args() -> argparse.Namespace:
-    """Parse command line arguments for the sync script."""
-    parser = argparse.ArgumentParser(
-        description="Upload output files to wiki.arcaea.cn with pywikibot.",
-    )
-    parser.add_argument(
-        "--summary",
-        default="Bot: sync Arcaea story data",
-        help="Edit summary used for all page updates.",
-    )
-    parser.add_argument(
-        "--dry-run",
-        action="store_true",
-        help="Show pending changes but do not write to wiki.",
-    )
-    parser.add_argument(
-        "--page",
-        action="append",
-        dest="pages",
-        help="Optional page title filter; repeatable.",
-    )
-    parser.add_argument(
-        "--minor",
-        action="store_true",
-        help="Mark edits as minor edits.",
-    )
-    return parser.parse_args()
+TEMPLATE_VERSION_MOBILE_RE = re.compile(
+    r"(?m)^(\s*\|\s*mobile\s*=\s*\{\{\s*游戏版本\s*\|\s*)"
+    r"v[^\|\}\s]+"
+    r"(\s*(?:\|[^\}]*)?\}\}\s*)$"
+)
 
 
 def ensure_inputs(selected_pages: list[str] | None) -> dict[str, Path]:
@@ -111,7 +70,16 @@ def sync_pages(
         old_text = page.text
 
         if title == "Template:Version":
-            new_text = update_template_version_mobile_only(old_text, source_text)
+            if not TEMPLATE_VERSION_MOBILE_RE.search(old_text):
+                raise ValueError(
+                    "Template:Version does not contain a recognizable mobile parameter "
+                    "like '|mobile={{游戏版本|v...}}'."
+                )
+            new_text = TEMPLATE_VERSION_MOBILE_RE.sub(
+                rf"\g<1>v{source_text.strip()}\g<2>",
+                old_text,
+                count=1,
+            )
         else:
             new_text = source_text
 
@@ -166,7 +134,31 @@ def materialize_password_file_from_env() -> None:
 
 def main() -> None:
     """Run wiki sync flow using local output files and pywikibot config."""
-    args = parse_args()
+    parser = argparse.ArgumentParser(
+        description="Upload output files to wiki.arcaea.cn with pywikibot.",
+    )
+    parser.add_argument(
+        "--summary",
+        default="Bot: sync Arcaea story data",
+        help="Edit summary used for all page updates.",
+    )
+    parser.add_argument(
+        "--dry-run",
+        action="store_true",
+        help="Show pending changes but do not write to wiki.",
+    )
+    parser.add_argument(
+        "--page",
+        action="append",
+        dest="pages",
+        help="Optional page title filter; repeatable.",
+    )
+    parser.add_argument(
+        "--minor",
+        action="store_true",
+        help="Mark edits as minor edits.",
+    )
+    args = parser.parse_args()
     mapping = ensure_inputs(args.pages)
 
     site = pywikibot.Site("arcaea", "arcaea")

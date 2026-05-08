@@ -7,12 +7,10 @@ import sys
 import time
 import zipfile
 from collections.abc import Callable
-from datetime import datetime, timedelta
 from io import BytesIO
 from pathlib import Path
 from typing import Any
 from urllib.parse import parse_qs, urlparse
-from zoneinfo import ZoneInfo
 
 import orjson
 import requests
@@ -27,14 +25,9 @@ OUTPUT_UNLOCKS_FILE = OUTPUT_DIR / "unlocks"
 OUTPUT_VERSION_FILE = OUTPUT_DIR / "version"
 OUTPUT_TL_DIR = OUTPUT_DIR / "tl"
 OUTPUT_TL_JSON_FILE = OUTPUT_DIR / "tl.json"
-UPDATE_SKIPPED_MARKER = PROJECT_ROOT / ".update-skipped"
 LANGUAGES = ["zh-Hans", "zh-Hant", "en", "ja", "ko"]
 LANG_KEYS = {"en": "en", "zh-Hans": "zh-hans", "zh-Hant": "zh-hant", "ja": "ja", "ko": "ko"}
 APK_INFO_API = "https://webapi.lowiro.com/webapi/serve/static/bin/arcaea/apk/"
-UPDATE_LISTEN_TIMEZONE = ZoneInfo("Asia/Shanghai")
-UPDATE_LISTEN_START = (7, 50)
-UPDATE_LISTEN_END = (8, 10)
-UPDATE_LISTEN_POLL_SECONDS = 10
 RETRY_STATUS_CODES = {403, 429, 500, 502, 503, 504}
 MAX_HTTP_RETRIES = 5
 RETRY_BASE_DELAY = 1.5
@@ -53,9 +46,9 @@ FALLBACK_UA = (
 TL_LANGUAGES = ["zh-Hans", "zh-Hant"]
 
 
-def po_escape(value: str) -> str:
-    """Escape a gettext string literal for PO output."""
-    return (
+def po_string(keyword: str, value: str) -> list[str]:
+    """Format a PO keyword as one or more string-literal lines."""
+    escaped = (
         value.replace("\\", "\\\\")
         .replace("\t", "\\t")
         .replace("\r", "\\r")
@@ -63,15 +56,20 @@ def po_escape(value: str) -> str:
         .replace('"', '\\"')
     )
 
-
-def po_string(keyword: str, value: str) -> list[str]:
-    """Format a PO keyword as one or more string-literal lines."""
     if "\n" not in value:
-        return [f'{keyword} "{po_escape(value)}"']
+        return [f'{keyword} "{escaped}"']
 
     lines = [f'{keyword} ""']
     parts = value.splitlines(keepends=True)
-    lines.extend(f'"{po_escape(part)}"' for part in parts)
+    for part in parts:
+        escaped_part = (
+            part.replace("\\", "\\\\")
+            .replace("\t", "\\t")
+            .replace("\r", "\\r")
+            .replace("\n", "\\n")
+            .replace('"', '\\"')
+        )
+        lines.append(f'"{escaped_part}"')
     return lines
 
 
@@ -187,15 +185,6 @@ def extract_tl_from_apk_zip(apk_zip: zipfile.ZipFile) -> None:
     )
 
 
-def tl_outputs_exist() -> bool:
-    """Return whether all gettext catalog outputs already exist."""
-    return (
-        OUTPUT_TL_JSON_FILE.exists()
-        and all((OUTPUT_TL_DIR / f"{lang}.mo").exists() for lang in TL_LANGUAGES)
-        and all((OUTPUT_TL_DIR / f"{lang}.po").exists() for lang in TL_LANGUAGES)
-    )
-
-
 def extract_story_sources_from_apk_zip(apk_zip: zipfile.ZipFile) -> None:
     """Extract only story files consumed by this exporter from APK app-data."""
     source_prefix = "assets/app-data/story/"
@@ -302,16 +291,6 @@ def parse_vns_story_set(
     return result
 
 
-def build_request_headers() -> dict[str, str]:
-    """Generate headers that mimic a real user request profile."""
-    headers = dict(REQUEST_HEADERS_BASE)
-    try:
-        headers["User-Agent"] = UserAgent().random
-    except Exception:
-        headers["User-Agent"] = FALLBACK_UA
-    return headers
-
-
 def build_pack_song_mapping(
     packlist_raw: dict[str, Any],
     songlist_raw: dict[str, Any],
@@ -367,9 +346,15 @@ def request_with_retry(
 
     for attempt in range(1, MAX_HTTP_RETRIES + 1):
         try:
+            headers = dict(REQUEST_HEADERS_BASE)
+            try:
+                headers["User-Agent"] = UserAgent().random
+            except Exception:
+                headers["User-Agent"] = FALLBACK_UA
+
             response = session.get(
                 url,
-                headers=build_request_headers(),
+                headers=headers,
                 timeout=timeout,
                 stream=stream,
             )
@@ -404,80 +389,10 @@ def request_with_retry(
     raise RuntimeError(f"Request failed after retries: {url}")
 
 
-def wait_for_new_apk_version() -> bool:
-    """Poll from 07:50 to 08:10 Asia/Shanghai until upstream version changes."""
-    current_version = ""
-    if OUTPUT_VERSION_FILE.exists():
-        current_version = OUTPUT_VERSION_FILE.read_text(encoding="utf-8").strip()
-
-    now = datetime.now(UPDATE_LISTEN_TIMEZONE)
-    start_at = now.replace(
-        hour=UPDATE_LISTEN_START[0],
-        minute=UPDATE_LISTEN_START[1],
-        second=0,
-        microsecond=0,
-    )
-    end_at = now.replace(
-        hour=UPDATE_LISTEN_END[0],
-        minute=UPDATE_LISTEN_END[1],
-        second=0,
-        microsecond=0,
-    )
-    if end_at <= start_at:
-        end_at += timedelta(days=1)
-
-    print(
-        "[0/5] Listening for new APK version from "
-        f"{start_at:%Y-%m-%d %H:%M} to {end_at:%Y-%m-%d %H:%M} "
-        f"({UPDATE_LISTEN_TIMEZONE.key}).",
-        flush=True,
-    )
-    if current_version:
-        print(f"[0/5] Current output version: {current_version}", flush=True)
-
-    if now < start_at or now > end_at:
-        print(
-            "[0/5] Current time is outside the listen window; fetching APK metadata directly.",
-            flush=True,
-        )
-        return True
-
-    with requests.Session() as session:
-        while True:
-            now = datetime.now(UPDATE_LISTEN_TIMEZONE)
-            if now > end_at:
-                break
-
-            try:
-                info_resp = request_with_retry(session, APK_INFO_API, timeout=30)
-                with info_resp:
-                    info = info_resp.json()
-
-                if not info.get("success"):
-                    raise RuntimeError("Failed to fetch APK metadata")
-
-                latest_version = str(info.get("value", {}).get("version", "")).strip()
-                latest_version = latest_version.removesuffix("c")
-                if latest_version:
-                    print(f"[0/5] Latest upstream version: {latest_version}", flush=True)
-                    if latest_version != current_version:
-                        print("[0/5] New version detected; continuing export.", flush=True)
-                        return True
-                else:
-                    print("[0/5] Upstream metadata did not include a version.", flush=True)
-            except Exception as exc:
-                print(f"[0/5] Version check failed: {exc}", flush=True)
-
-            remaining_seconds = (end_at - datetime.now(UPDATE_LISTEN_TIMEZONE)).total_seconds()
-            if remaining_seconds <= 0:
-                break
-            time.sleep(min(UPDATE_LISTEN_POLL_SECONDS, remaining_seconds))
-
-    print("[0/5] No new version detected before 08:10; stopping.", flush=True)
-    return False
-
-
-def load_pack_song_mapping_from_apk() -> tuple[dict[str, str], dict[str, str]]:
+def load_pack_song_mapping_from_apk(
+    *,
+    force_refresh: bool = False,
+) -> tuple[dict[str, str], dict[str, str]]:
     """Fetch latest APK and load packlist/songlist mapping from assets/app-data."""
     OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
 
@@ -511,12 +426,15 @@ def load_pack_song_mapping_from_apk() -> tuple[dict[str, str], dict[str, str]]:
                 # If upstream version hasn't changed and outputs already exist,
                 # skip expensive APK download/extract and reuse current output files.
                 if (
-                    current_version == version_name
+                    not force_refresh
+                    and current_version == version_name
                     and OUTPUT_PACKLIST_FILE.exists()
                     and OUTPUT_SONGLIST_FILE.exists()
                     and OUTPUT_UNLOCKS_FILE.exists()
                     and STORY_ROOT.exists()
-                    and tl_outputs_exist()
+                    and OUTPUT_TL_JSON_FILE.exists()
+                    and all((OUTPUT_TL_DIR / f"{lang}.mo").exists() for lang in TL_LANGUAGES)
+                    and all((OUTPUT_TL_DIR / f"{lang}.po").exists() for lang in TL_LANGUAGES)
                 ):
                     print(
                         "[2/5] Version unchanged; reusing existing output data and "
@@ -646,19 +564,6 @@ def load_pack_song_mapping_from_apk() -> tuple[dict[str, str], dict[str, str]]:
     )
 
     return pack_mapping, song_mapping
-
-
-def build_manual_mapping(manual_mapping_raw: dict[str, str]) -> dict[str, dict[str, str]]:
-    """Convert manual mapping text into key-value override dicts."""
-    manual_mapping: dict[str, dict[str, str]] = {}
-    for k, v in manual_mapping_raw.items():
-        overrides = {}
-        for line in v.strip().split("\n"):
-            if line.startswith("|"):
-                key, val = line[1:].split("=", 1)
-                overrides[key.strip()] = val.strip()
-        manual_mapping[k] = overrides
-    return manual_mapping
 
 
 def build_story_data(
@@ -898,27 +803,26 @@ def write_lua_outputs(lua_story_data: dict[str, dict[str, Any]]) -> None:
             out.write("}\n")
 
 
-def main() -> None:
+def main(*, force_refresh: bool = False) -> None:
     """Run full Lua export pipeline."""
     OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
-    UPDATE_SKIPPED_MARKER.unlink(missing_ok=True)
 
     print("[0/5] Starting Lua export pipeline...", flush=True)
 
-    if not wait_for_new_apk_version():
-        UPDATE_SKIPPED_MARKER.write_text(
-            "no new version before listen deadline\n",
-            encoding="utf-8",
-        )
-        return
-
     char_mapping = orjson.loads((PROJECT_ROOT / "char_mapping.json").read_bytes())
     manual_mapping_raw = orjson.loads((PROJECT_ROOT / "manual.json").read_bytes())
-    manual_mapping = build_manual_mapping(manual_mapping_raw)
+    manual_mapping: dict[str, dict[str, str]] = {}
+    for k, v in manual_mapping_raw.items():
+        overrides = {}
+        for line in v.strip().split("\n"):
+            if line.startswith("|"):
+                key, val = line[1:].split("=", 1)
+                overrides[key.strip()] = val.strip()
+        manual_mapping[k] = overrides
 
     print("[1/5] Loaded local mapping files.", flush=True)
 
-    pack_mapping, song_mapping = load_pack_song_mapping_from_apk()
+    pack_mapping, song_mapping = load_pack_song_mapping_from_apk(force_refresh=force_refresh)
     if not STORY_ROOT.exists():
         raise FileNotFoundError(f"Story root not found: {STORY_ROOT}")
 
