@@ -302,7 +302,7 @@ return {
         ["requiredMinor"] = "VS-3",
         ["requiredPurchase"] = "Black Fate",
         ["clearChar"] = "光",
-        ["clearSong"] = "＃1f1e33{{!}}#1f1e33",
+        ["clearSong"] = "＃1f1e33|#1f1e33",
     },
     ["VS-5"] = {
         ["hasCg"] = "1",
@@ -1058,7 +1058,7 @@ return {
         ["requiredMinor"] = "17-1",
         ["requiredPurchase"] = "Sunset Radiance",
         ["clearChar"] = "群愿",
-        ["clearSong"] = "AI［UE］OON{{!}}AI[UE]OON",
+        ["clearSong"] = "AI［UE］OON|AI[UE]OON",
     },
     ["17-3"] = {
         ["icon"] = "kanae",
