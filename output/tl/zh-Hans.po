@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"PO-Revision-Date: 2026-03-25 19:45+0000\n"
+"PO-Revision-Date: 2026-05-20 14:23+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: zh_CN\n"
@@ -224,11 +224,19 @@ msgstr "仅剩1秒"
 msgid "5th Anniversary Ticket"
 msgstr "五周年兑换券"
 
+msgid "99+"
+msgstr "99+"
+
 msgid "???"
 msgstr "???"
 
 msgid "@%d held"
 msgstr "已持有：@%d"
+
+msgid ""
+"A Partner's Base level begins at 1, progresses through to Max at 20,\n"
+"and further to 30 if they can be Awakened."
+msgstr "每个搭档的初始等级为1，最大等级为20，觉醒后可进一步升至30级。"
 
 msgid "A Perfect Wish"
 msgstr "完美之愿"
@@ -349,6 +357,9 @@ msgstr ""
 "音频 - 游玩 %2@ 的曲目时\n"
 "打击地面轨道会触发即兴演奏（AD-LIB）效果"
 
+msgid "AWAKENED"
+msgstr "觉醒后"
+
 msgid "Abandon Course"
 msgstr "放弃挑战"
 
@@ -396,6 +407,9 @@ msgstr "添加"
 
 msgid "Add Friends"
 msgstr "添加好友"
+
+msgid "Add a Partner to the top slot to update the Partner displayed on your Profile."
+msgstr "在顶部位置新增搭档，即可更新个人名片中展示的搭档。"
 
 msgid ""
 "Adjust display speed\n"
@@ -721,6 +735,9 @@ msgstr "BGM"
 
 msgid "Back"
 msgstr "返回"
+
+msgid "Base"
+msgstr "初始"
 
 msgid "Basic"
 msgstr "基础"
@@ -1256,6 +1273,9 @@ msgstr "删除完毕。"
 msgid "Desolate Core"
 msgstr "荒芜核心"
 
+msgid "Details"
+msgstr "详细"
+
 msgid "Device limit reached."
 msgstr "设备数量已达到上限"
 
@@ -1379,24 +1399,6 @@ msgstr "管理下载"
 
 msgid "Downloads all owned songs to this device."
 msgstr "一键下载全部已购曲目。"
-
-msgid ""
-"Due to a user refund of spent Memories, your account\n"
-"has been restricted, and purchased content is frozen.\n"
-"\n"
-"Please be aware that refunding purchases\n"
-"is against Arcaea's Terms of Service.\n"
-"\n"
-"In order to reinstate your account, please re-purchase\n"
-"refunded Memories until they are no longer in deficit."
-msgstr ""
-"由于用户对使用过的记忆源点进行退款，\n"
-"您的账户已被限制，并且所有已购买内容会被冻结。\n"
-"\n"
-"请注意，退款行为是违反Arcaea服务条款的。\n"
-"\n"
-"若想恢复您的账户，\n"
-"请重新购买记忆源点直到可以完全填补之前的空缺。"
 
 msgid "E/S Primera"
 msgstr " "
@@ -1532,6 +1534,11 @@ msgid "Eclipse"
 msgstr "Eclipse"
 
 msgid ""
+"Edit Presets by selecting a Partner from the left-hand side list,\n"
+"then tapping the desired slot."
+msgstr "若要编辑预设，请从左侧清单中选择搭档，然后点选槽位完成设置。"
+
+msgid ""
 "Edit visibility settings, preview your Profile Card,\n"
 "and share screenshots at any time from the top-left interface."
 msgstr "您可以随时在页面左上角更改私隐设置，预览和分享您的个人档案卡。"
@@ -1653,9 +1660,6 @@ msgstr "扩充"
 msgid "Extend Friend Limit"
 msgstr "扩充好友上限"
 
-msgid "FAVORITES"
-msgstr "FAVORITES"
-
 msgid ""
 "FEVER GAUGE + Earn 1 Fragment when\n"
 "FEVER reaches x5"
@@ -1685,6 +1689,9 @@ msgstr "FR"
 
 msgid "FR/PM Indicator"
 msgstr "FR/PM 指示灯"
+
+msgid "FRAG"
+msgstr "残数"
 
 msgid "FRAGMENTS"
 msgstr "残片"
@@ -1720,6 +1727,9 @@ msgid ""
 msgstr ""
 "收藏所有对立并使用任意对立\n"
 "通关一首她的曲目"
+
+msgid "Filter"
+msgstr "筛选"
 
 msgid "Find the entries of her journal"
 msgstr "找到她日志中的页面"
@@ -1803,9 +1813,6 @@ msgstr "Fracture"
 msgid "Fracture & MIR-203"
 msgstr "Fracture & MIR-203"
 
-msgid "Frag"
-msgstr "残数"
-
 msgid "Frag Boost"
 msgstr "残片深化"
 
@@ -1852,30 +1859,6 @@ msgstr "好友 ID："
 
 msgid "Friends"
 msgstr "好友"
-
-msgid ""
-"From the creators of Arcaea, In Falsus is the upcoming\n"
-"Visual Novel-styled rhythm game coming to PC in 2026.\n"
-"\n"
-"The demo for lowiro's second original music game\n"
-"receives a new update, with a new song, new Scenario,\n"
-"and an early look at the Card Integration system\n"
-"and Encounter gameplay.\n"
-"\n"
-"Truth and Falsehood intertwine\n"
-"across the endless sea of consciousness...\n"
-"Play the demo and Wishlist now!"
-msgstr ""
-"由《韵律源点Arcaea》的创作团队打造的视觉小说风格\n"
-"节奏游戏《In Falsus》即将于2026年登陆PC平台。\n"
-"\n"
-"lowiro的第二款原创音乐游戏试玩版迎来全新更新，\n"
-"新增一首歌曲、一段新剧情，展示了卡牌合铸系统\n"
-"和「遭遇」玩法！\n"
-"\n"
-"真实与谎言交织于无尽的意识之海……\n"
-"\n"
-"立即体验试玩版并加入愿望清单吧！"
 
 msgid "Full"
 msgstr "解锁"
@@ -2261,9 +2244,6 @@ msgstr "幻象"
 msgid "Illustration"
 msgstr "插画"
 
-msgid "In Falsus - Demo Update Out Now!"
-msgstr "In Falsus - 试玩版内容更新！"
-
 msgid "In Lead selection, the Lead selects a song to play."
 msgstr "房主选择模式下，游玩的曲目将由房主一人决定。"
 
@@ -2601,6 +2581,9 @@ msgstr "玛莉嘉"
 msgid "Match \"%@\""
 msgstr "与\"%@\"同频"
 
+msgid "Max"
+msgstr "最大值"
+
 msgid "Max downloads exceeded. Please wait 24 hours and try again."
 msgstr "下载量超过了限制。请在24小时后重试。"
 
@@ -2781,6 +2764,11 @@ msgstr "奈美"
 msgid "Nami & Sui"
 msgstr "奈美 & 希依"
 
+msgid ""
+"Navigate directly to the currently selected Partner's Story chapters\n"
+"from the bottom menu."
+msgstr "通过下方菜单可直接跳转至当前搭档的故事。"
+
 msgid "Nell"
 msgstr "尼尔"
 
@@ -2937,6 +2925,9 @@ msgstr "或"
 msgid "OR %@"
 msgstr "或 %@"
 
+msgid "OVER"
+msgstr "超量"
+
 msgid ""
 "OVERFLOW - EASY Recollection Rate \n"
 "HARD upon reaching 100% Recollection"
@@ -3034,7 +3025,7 @@ msgid "Obtain this song in a limited time event for free"
 msgstr "游玩限时地图可免费解锁此首单曲"
 
 msgid "Obtained"
-msgstr "获取顺序"
+msgstr "已获取"
 
 msgid "Offset"
 msgstr "偏移率"
@@ -3048,6 +3039,9 @@ msgid ""
 msgstr ""
 "下次歌曲游玩时\n"
 "获取的残片数量翻倍"
+
+msgid "On the right-hand side, swap between Partners that have variant forms."
+msgstr "可通过在屏幕右侧操作切换搭档的不同衍生形态。"
 
 msgid "One Last Dream"
 msgstr "最终之梦"
@@ -3090,9 +3084,6 @@ msgstr ""
 msgid "Outer Reaches"
 msgstr "谜域的界外"
 
-msgid "Overdrive"
-msgstr "超量"
-
 msgid "Overview"
 msgstr "章节预览"
 
@@ -3117,6 +3108,12 @@ msgstr "游玩"
 
 msgid "PM"
 msgstr "PM"
+
+msgid "PRE-AWAKENING"
+msgstr "觉醒前"
+
+msgid "PREVIEW"
+msgstr "预览"
 
 msgid "PROG = OVER + STEP/2"
 msgstr "进度 = 超量 + 步数/2"
@@ -3172,9 +3169,6 @@ msgstr "搭档技能"
 
 msgid "Partner Storage"
 msgstr "搭档储备"
-
-msgid "Partner stats and skills are available when logged in."
-msgstr "角色的「能力值」与「技能」只在登录后有效"
 
 msgid ""
 "Partners gain experience while playing in World Mode.\n"
@@ -3337,6 +3331,24 @@ msgstr ""
 "\n"
 "你可以在主菜单的「其他」选项中找到相同的教程"
 
+msgid "Presets"
+msgstr "快速设置"
+
+msgid ""
+"Presets can be accessed easily from other menus by holding and\n"
+"swiping down on the main Partner icon in the top bar."
+msgstr "按住顶部栏中的主搭档图片并向下滑动，即可从其他选单轻松选择预设。"
+
+msgid "Preview"
+msgstr "预览"
+
+msgid ""
+"Preview a Partner's FRAG, STEP, and OVER stats at Base, Max, and\n"
+"Awakened levels by tapping the top left bars."
+msgstr ""
+"点击左上角的侧边栏预览搭档的FRAG、STEP及OVER的初始、\n"
+"最大值及觉醒等级等相关信息。"
+
 msgid "Price"
 msgstr "价格"
 
@@ -3401,6 +3413,9 @@ msgstr "您所购买的游戏产品将在您的任何设备上生效。"
 
 msgid "Pure Late/Early"
 msgstr "纯粹【过早/过晚】"
+
+msgid "Quickly swap between Partners by selecting and adding up to three into Presets."
+msgstr "透过选择并添加最多三个搭档到预设中，即可快速切换搭档。"
 
 msgid "Quit"
 msgstr "退出"
@@ -3733,11 +3748,20 @@ msgstr "探索者"
 msgid "SELECT"
 msgstr "选择"
 
+msgid "SKILL ACTIVE"
+msgstr "技能生效中"
+
 msgid "STAFF LINK"
 msgstr "STAFF LINK"
 
 msgid "STAMINA"
 msgstr "体力"
+
+msgid "STATUS"
+msgstr "状态"
+
+msgid "STEP"
+msgstr "步数"
 
 msgid ""
 "STEP progress carries over to the next World\n"
@@ -3746,8 +3770,14 @@ msgstr ""
 "消耗体力后，本次步数进度保存并于\n"
 "下次世界模式中加算。（当前进度：%@）"
 
+msgid "STORY"
+msgstr "故事"
+
 msgid "SUPPORT"
 msgstr "支援型"
+
+msgid "SWITCH"
+msgstr "切换形态"
 
 msgid "Saki"
 msgstr "咲姬"
@@ -3822,8 +3852,23 @@ msgstr "选择一首歌曲"
 msgid "Select a map and play songs to progress towards rewards."
 msgstr "选择一个地图并游玩曲目来获得进展数值"
 
+msgid ""
+"Select an obtained Partner to level up, switch between base and\n"
+"Awakened forms, or add to favorites by tapping their icon once more."
+msgstr "点击已获取的搭档进行升级、切换基础形态和觉醒形态。再次点击可将其收藏。"
+
 msgid "Select the Partner '%@'"
 msgstr "选择搭档「%@」"
+
+msgid ""
+"Select the desired Partner by scrolling from the list on the left.\n"
+"Find Partners easily by tapping the Filter icon or entering a name in the Search bar."
+msgstr ""
+"从左侧清单中选择所需的搭档。\n"
+"想要寻找搭档，可点击筛选搭档形象图或在搜寻栏中直接输入搭档名称。"
+
+msgid "Selecting an unobtained Partner will preview their Skill and max level stats."
+msgstr "可以通过点击未获取搭档预览其技能及最高等级属性。"
 
 msgid "Selene Sheryl"
 msgstr "赛润妮·雪儿"
@@ -3935,9 +3980,6 @@ msgstr "角色技能将在觉醒后解锁"
 msgid "Skill unlocked at level %@"
 msgstr "技能将在 %@ 级解锁"
 
-msgid "Skills change various gameplay aspects and difficulty."
-msgstr "「技能」会改变游戏规则与难度"
-
 msgid "Skip"
 msgstr "跳过"
 
@@ -3995,6 +4037,9 @@ msgid ""
 msgstr ""
 "需要这些歌曲\n"
 "以解锁 FTR 难度"
+
+msgid "Sort"
+msgstr "种类"
 
 msgid "Sort By"
 msgstr "排序方式"
@@ -4087,9 +4132,6 @@ msgstr "即将开始……"
 msgid "Stats"
 msgstr "通关记录"
 
-msgid "Stats affect various aspects of gameplay and world progress."
-msgstr "角色的「能力值」会影响普通游戏的进行与「世界模式」的进展"
-
 msgid ""
 "Stats are temporarily doubled\n"
 "upon clearing a maimai song"
@@ -4099,9 +4141,6 @@ msgstr ""
 
 msgid "Stella"
 msgstr "星"
-
-msgid "Step"
-msgstr "步数"
 
 msgid "Stored Progress"
 msgstr "储备进度"
@@ -4171,6 +4210,9 @@ msgstr "同步率"
 msgid "TANO*C Core"
 msgstr "TANO*C 核心"
 
+msgid "TYPE"
+msgstr "类别"
+
 msgid "Tairitsu"
 msgstr "对立"
 
@@ -4205,13 +4247,6 @@ msgstr ""
 
 msgid "Tap Music Play to get started playing songs."
 msgstr "若想开始游玩歌曲，请点击「开始游戏」按钮"
-
-msgid ""
-"Tap a Partner's stats or skill to seal them.\n"
-"This will deactivate their stats and skill."
-msgstr ""
-"「封印」搭档会使「技能」与「能力值」无效化\n"
-"点击技能框即可封印搭档"
 
 msgid ""
 "Tap and hold long notes. Start when they reach\n"
@@ -4383,7 +4418,7 @@ msgstr ""
 "规定时段内未获取的，将无法通过任何其他方式获取。\n"
 "\n"
 "在规定时段内购买该曲包后，\n"
-"曲包内容在2027年4月30日后仍然有效。"
+"曲包内容在2027年3月9日后仍然有效。"
 
 msgid ""
 "This Pack is available to obtain until 9 March 2027.\n"
@@ -4414,9 +4449,6 @@ msgstr ""
 
 msgid "This Partner is obtained through World Mode."
 msgstr "游玩世界模式即可解锁此搭档"
-
-msgid "This Partner must be level 20 to awaken."
-msgstr "此角色需抵达20级后才可唤醒。"
 
 msgid "This account is locked."
 msgstr "此账户已被冻结"
@@ -4599,6 +4631,9 @@ msgstr "要在故事中前进，您将需要达成各种条件。"
 msgid "Toa Kozukata"
 msgstr "不来方永爱"
 
+msgid "Toggle"
+msgstr "变更形态"
+
 msgid "Top"
 msgstr "界面顶端"
 
@@ -4686,11 +4721,6 @@ msgstr "使用残片解锁一首歌曲"
 msgid "Unlock all rewards to claim Tier reward"
 msgstr "完成该阶段全部任务可获取以下奖励"
 
-msgid ""
-"Unlock new Partners by obtaining song packs or\n"
-"through World Mode."
-msgstr "通过游玩「世界模式」或购买故事包来解锁新搭档。"
-
 msgid "Unlocked by reaching Potential 9.00"
 msgstr "潜力值到达 9.00 以解锁"
 
@@ -4710,6 +4740,9 @@ msgid ""
 msgstr ""
 "经由世界模式解除封印\n"
 "Lost Chapter: Beyond"
+
+msgid "Unowned"
+msgstr "未获取"
 
 msgid "Update '%1@' Pack?"
 msgstr "更新《%1@》曲包吗？"
@@ -4801,6 +4834,9 @@ msgstr ""
 msgid "VISUAL - Recollection Gauge is hidden"
 msgstr "视觉 - 隐藏回忆率"
 
+msgid "Variants"
+msgstr "衍生形态"
+
 msgid "Variety"
 msgstr "综合"
 
@@ -4809,6 +4845,12 @@ msgstr "更新校验中……"
 
 msgid "Version"
 msgstr "游戏版本"
+
+msgid "View"
+msgstr "全屏显示"
+
+msgid "View All"
+msgstr "查看全部"
 
 msgid "View your Profile Card"
 msgstr "查看个人档案"
@@ -4943,13 +4985,6 @@ msgstr "流失之刻：祸兮，不公之人！"
 msgid "When lost: woe to the unhelpful."
 msgstr "流失之刻：祸兮，无情之人！"
 
-msgid ""
-"When set, your profile Partner will be shown to friends\n"
-"and on leaderboards. You can change or remove which Partner is set at any time."
-msgstr ""
-"在设置后，你将会在好友及排行榜中展示档案上的搭档。\n"
-"你可以在任意时候更换或移除所展示的搭档。"
-
 msgid "When usurping a Partner, Lacrymira's stats will be used."
 msgstr "拉可弥拉侵袭搭档后，游玩结果的评估将以拉可弥拉的能力进行计算。"
 
@@ -4958,9 +4993,6 @@ msgstr "你可以使用残片解锁部分歌曲而其余的曲目则大多需要
 
 msgid "Winter"
 msgstr "冬日"
-
-msgid "Wishlist Now"
-msgstr "点击加入愿望清单"
 
 msgid "With Lacrymira's skill unlocked, she is able to usurp song plays or Track Lost events in World Mode."
 msgstr "拉可弥拉的技能现已解锁，她将能够侵袭世界模式中的任意游玩过程乃至影响游玩失败的判定时间。"
@@ -5194,12 +5226,6 @@ msgstr ""
 "你需要登录来解锁歌曲\n"
 "通过主菜单的「网络」选项登录"
 
-msgid "You must be online and logged in to upgrade Intruders."
-msgstr "您必须联网并登录来升级侵入者。"
-
-msgid "You must be online and logged in to upgrade Partners."
-msgstr "您必须联网并登录来升级搭档。"
-
 msgid ""
 "You must be online and logged into an account\n"
 "to claim mission rewards."
@@ -5293,6 +5319,12 @@ msgstr "跳过"
 msgid "[PARALLEL]Sync"
 msgstr "同频"
 
+msgid "[PARTNERSELECT]Date"
+msgstr "获取顺序"
+
+msgid "[PARTNERSELECT]Locked"
+msgstr "已锁定"
+
 msgid "[PROFILEMONTH]%1@"
 msgstr "%1@"
 
@@ -5317,6 +5349,12 @@ msgstr "隐私设定"
 msgid "[RESULT]Boosts"
 msgstr "总强化"
 
+msgid "[SKILL]SEALED"
+msgstr "技能不可用"
+
+msgid "[STORYPROGRESS]Story"
+msgstr "故事"
+
 msgid "and when you are invited to Link Play."
 msgstr "Arcaea将给您推送通知。"
 
@@ -5331,6 +5369,9 @@ msgstr "加入了房间"
 
 msgid "has left the room"
 msgstr "离开了房间"
+
+msgid "illust:"
+msgstr "illust:"
 
 msgid "is now the Lead"
 msgstr "现在是房主"
