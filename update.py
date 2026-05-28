@@ -22,6 +22,7 @@ OUTPUT_DIR = PROJECT_ROOT / "output"
 OUTPUT_PACKLIST_FILE = OUTPUT_DIR / "packlist"
 OUTPUT_SONGLIST_FILE = OUTPUT_DIR / "songlist"
 OUTPUT_UNLOCKS_FILE = OUTPUT_DIR / "unlocks"
+OUTPUT_CHARACTERS_FILE = OUTPUT_DIR / "characters.json"
 OUTPUT_VERSION_FILE = OUTPUT_DIR / "version"
 OUTPUT_TL_DIR = OUTPUT_DIR / "tl"
 OUTPUT_TL_JSON_FILE = OUTPUT_DIR / "tl.json"
@@ -431,6 +432,7 @@ def load_pack_song_mapping_from_apk(
                     and OUTPUT_PACKLIST_FILE.exists()
                     and OUTPUT_SONGLIST_FILE.exists()
                     and OUTPUT_UNLOCKS_FILE.exists()
+                    and OUTPUT_CHARACTERS_FILE.exists()
                     and STORY_ROOT.exists()
                     and OUTPUT_TL_JSON_FILE.exists()
                     and all((OUTPUT_TL_DIR / f"{lang}.mo").exists() for lang in TL_LANGUAGES)
@@ -456,6 +458,7 @@ def load_pack_song_mapping_from_apk(
                 OUTPUT_PACKLIST_FILE.exists()
                 and OUTPUT_SONGLIST_FILE.exists()
                 and OUTPUT_UNLOCKS_FILE.exists()
+                and OUTPUT_CHARACTERS_FILE.exists()
             ):
                 raise RuntimeError(
                     "Unable to get APK metadata and no local output data exists"
@@ -544,16 +547,23 @@ def load_pack_song_mapping_from_apk(
         packlist_bytes = apk_zip.read("assets/songs/packlist")
         songlist_bytes = apk_zip.read("assets/songs/songlist")
         unlocks_bytes = apk_zip.read("assets/songs/unlocks")
+        characters_bytes = apk_zip.read("assets/char/characters.json")
         extract_story_sources_from_apk_zip(apk_zip)
         extract_tl_from_apk_zip(apk_zip)
 
     packlist_raw = orjson.loads(packlist_bytes)
     songlist_raw = orjson.loads(songlist_bytes)
+    characters_raw = orjson.loads(characters_bytes)
     pack_mapping, song_mapping = build_pack_song_mapping(packlist_raw, songlist_raw)
 
     OUTPUT_PACKLIST_FILE.write_bytes(packlist_bytes)
     OUTPUT_SONGLIST_FILE.write_bytes(songlist_bytes)
     OUTPUT_UNLOCKS_FILE.write_bytes(unlocks_bytes)
+    OUTPUT_CHARACTERS_FILE.write_bytes(characters_bytes)
+    print(
+        f"[2/5] Extracted characters JSON: {len(characters_raw)} entries.",
+        flush=True,
+    )
     if version_name:
         OUTPUT_VERSION_FILE.write_text(version_name + "\n", encoding="utf-8")
         print(f"[2/5] Latest version: {version_name}", flush=True)
