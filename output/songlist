@@ -33987,6 +33987,10 @@
             "bpm_base": 180,
             "set": "extend_4",
             "purchase": "extend_4",
+            "source_localized": {
+                "en": "vivid/stasis"
+            },
+            "source_copyright": "(Hajimeli)",
             "audioPreview": 0,
             "audioPreviewEnd": 0,
             "side": 0,
