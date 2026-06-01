@@ -44,7 +44,7 @@ FALLBACK_UA = (
     "(KHTML, like Gecko) Chrome/135.0.7049.115 Safari/537.36"
 )
 
-TL_LANGUAGES = ["zh-Hans", "zh-Hant"]
+TL_LANGUAGES = ["zh-Hans", "zh-Hant", "ja", "ko"]
 
 
 def po_string(keyword: str, value: str) -> list[str]:

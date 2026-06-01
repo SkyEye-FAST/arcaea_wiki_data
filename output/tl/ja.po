@@ -1,0 +1,5694 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"PO-Revision-Date: 2026-05-21 05:34+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 3.9\n"
+"X-Poedit-Basepath: ../../Classes\n"
+"X-Poedit-KeywordsList: _\n"
+"X-Poedit-SearchPath-0: .\n"
+
+msgid ""
+"\n"
+"\n"
+"\n"
+"Memorize them.\n"
+"\n"
+"\n"
+"\n"
+"\n"
+"You have %@ seconds."
+msgstr ""
+"\n"
+"\n"
+"\n"
+"\n"
+"記憶なさい。曲と数字、それぞれをね。\n"
+"\n"
+"\n"
+"\n"
+"\n"
+"制限時間は%@秒──さあ、始めましょう。"
+
+msgid ""
+"\n"
+"\n"
+"WARNING!\n"
+"Warped Shard/Stamina has already been consumed.\n"
+"Exiting will abandon your Course."
+msgstr ""
+"\n"
+"\n"
+"警告: 消費されたスタミナ/次元の硝片は返却されません。\n"
+"リタイアすると、コース全てを終了します。"
+
+msgid ""
+"\n"
+"\n"
+"WARNING! Stamina has already been consumed.\n"
+"Exiting will lose World Mode progress."
+msgstr ""
+"\n"
+"\n"
+"注意！スタミナが消費されています\n"
+"これを無視するとワールドモードの進行状態が失われます"
+
+msgid " Retry"
+msgstr "リトライ"
+
+msgid " Unlock"
+msgstr "解禁する"
+
+msgid "!"
+msgstr "!"
+
+msgid ""
+"%1 less than\n"
+"\"%2\""
+msgstr ""
+"【%2】より\n"
+"値が%1少ない曲"
+
+msgid ""
+"%1 less than\n"
+"the first played"
+msgstr ""
+"初めにプレイした曲より\n"
+"値が%1少ない曲"
+
+msgid ""
+"%1 more than\n"
+"\"%2\""
+msgstr ""
+"【%2】より\n"
+"値が%1多い曲"
+
+msgid ""
+"%1 more than\n"
+"the first played"
+msgstr ""
+"初めにプレイした曲より\n"
+"値が%1多い曲"
+
+msgid ""
+"%1@ Gain +%2@% World progress,\n"
+"x%3@ Recollection Rate loss"
+msgstr ""
+"%1@級: World進行度が+%2@%\n"
+"さらに、想起率減少量がx%3@倍に"
+
+msgid "%1@ Songs Favorited"
+msgstr "%1@曲が登録済み"
+
+msgid "%1@ in Act I, Part I must be completed before this story can be unlocked."
+msgstr "本ストーリーの解禁には《Act I》Part Iにある『%1@』の完了が必要です。"
+
+msgid ""
+"%1@MB of free space is recommended to install this update.\n"
+"Please check your device's storage."
+msgstr ""
+"本アップデートは、 %1@MBの空き容量がインストールに推奨されています。\n"
+"端末のストレージ状況をご確認ください。"
+
+msgid "%1@MB will be downloaded."
+msgstr "%1@mb のデータがダウンロードされます。"
+
+msgid ""
+"%@\n"
+"OR %2@"
+msgstr ""
+"【%@】 または\n"
+"【%2@】"
+
+msgid ""
+"%@\n"
+"Unlock using %2@ %3@?"
+msgstr ""
+"%@\n"
+"%2@%3@を消費して上記アイテムを解放しますか？"
+
+msgid ""
+"%@\n"
+"Unlock using Memory Archive Ticket?"
+msgstr ""
+"%@\n"
+"Memory Archiveチケットを消費して\n"
+"上記アイテムに引き換えますか？"
+
+msgid "%@ %2@ times. %3@"
+msgstr "【%@】を%2@回達成 %3@"
+
+msgid "%@ Fragments"
+msgstr "%@ 個の欠片"
+
+msgid "%@ Fragments can be periodically converted to stamina."
+msgstr "欠片は%@ずつ、定期的にスタミナに変換できます。"
+
+msgid "%@ Minute(s) Until Full"
+msgstr "回復完了まで %@分"
+
+msgid "%@ OR %2@"
+msgstr "【%@】 または 【%2@】"
+
+msgid "%@ STEPS"
+msgstr "%@ STEPS"
+
+msgid "%@ Second(s) Until Full"
+msgstr "回復完了まで %@秒"
+
+msgid "%@ Steps"
+msgstr "残り %@ ステップ"
+
+msgid "%@ after:"
+msgstr "購入後の%@"
+
+msgid "%@ invited you to Link Play"
+msgstr "%@さんをLink Playに招待しますか？"
+
+msgid "%@ needed:"
+msgstr "消費する%@"
+
+msgid "%@ seconds remain"
+msgstr "あと%@秒。"
+
+msgid "%@/%2@ Obtained"
+msgstr "%@/%2@ 獲得済み"
+
+msgid "%@/%2@ packs unlocked"
+msgstr "解禁済みパック %@/%2@"
+
+msgid "%@/%2@ songs unlocked"
+msgstr "収録曲の%@/%2@を解禁済み"
+
+msgid "%@:%2@ Until Full"
+msgstr "回復完了まで %@:%2@"
+
+msgid "%@d"
+msgstr "%@日"
+
+msgid "%@d %2@h"
+msgstr "%@日%2@時間"
+
+msgid "%@h"
+msgstr "%@時間"
+
+msgid "%@h %2@m"
+msgstr "%@時間%2@分"
+
+msgid "%@m"
+msgstr "%@分"
+
+msgid "%@s"
+msgstr "%@秒"
+
+msgid "%i / %i Steps"
+msgstr "%i / %i ステップ"
+
+msgid "( ALL DIFFICULTIES )"
+msgstr "（全難易度）"
+
+msgid "+%@ Songs"
+msgstr "+%@ Songs"
+
+msgid ", 108."
+msgstr "- 108.〕"
+
+msgid "- None -"
+msgstr "-なし-"
+
+msgid "1 second remains"
+msgstr "あと1秒。"
+
+msgid "5th Anniversary Ticket"
+msgstr "5周年記念チケット"
+
+msgid "99+"
+msgstr "99+"
+
+msgid "???"
+msgstr "???"
+
+msgid "@%d held"
+msgstr "保有: @%d 個"
+
+msgid ""
+"A Partner's Base level begins at 1, progresses through to Max at 20,\n"
+"and further to 30 if they can be Awakened."
+msgstr ""
+"パートナーの初期レベルは1で、最大20まで成長させることができます。\n"
+"覚醒可能な場合は最大レベルが30まで上昇します。"
+
+msgid "A Perfect Wish"
+msgstr "無欠の願い"
+
+msgid "A failure."
+msgstr "失敗──。"
+
+msgid "A final entry, a final signature."
+msgstr "書き連ねた毎日に、最後の一筆を。"
+
+msgid ""
+"A network error has occurred.\n"
+"Please re-enter Axiom of the End."
+msgstr ""
+"ネットワークエラーが発生しました。\n"
+"再度、Axiom of the Endに入り直してください。"
+
+msgid ""
+"A network error has occurred.\n"
+"The song could not be started online.\n"
+"Please check your network and try again, or continue offline.\n"
+msgstr ""
+"ネットワーク上のエラーにより、\n"
+"オンラインでプレイができません。\n"
+"接続状況をご確認の上、再度お試しになるか、\n"
+"オフラインでプレイください。\n"
+
+msgid ""
+"A network error has occurred. Please try again.\n"
+"Error Code: %1@"
+msgstr ""
+"ネットワークの接続にエラーが発生しました。\n"
+"時間を置いてもう一度お試しください。\n"
+"エラーコード: %1@"
+
+msgid "A new content update is available"
+msgstr "新しく更新されたコンテンツがダウンロード可能になりました。"
+
+msgid "A new content update is required. Returning to title screen."
+msgstr "ゲームデータの更新が必要です。タイトルへ戻ります。"
+
+msgid ""
+"A new map will open every week starting from when World Parallel opens.\n"
+"Each map opened will be available for 2 weeks."
+msgstr "なお、開催期間中には、毎週新たなイベントマップが開放されます。"
+
+msgid ""
+"A new verification email has been sent\n"
+"to the registered address."
+msgstr ""
+"認証リンクを含む新しいメールを送付しました。\n"
+"ご登録アドレスのメールボックスをご確認下さい。"
+
+msgid ""
+"A new version of Arcaea is available from the App Store.\n"
+"Please update to the latest version."
+msgstr ""
+"App Storeより、アプリの新しいバージョンが配信されています。\n"
+"Arcaeaを最新版にアップデートしてください。"
+
+msgid ""
+"A new version of Arcaea is available on Google Play.\n"
+"Please update to the latest version."
+msgstr ""
+"Google Playより、アプリの新しいバージョンが配信されています。\n"
+"Arcaeaを最新版にアップデートしてください。"
+
+msgid ""
+"A new version of Arcaea is available to download.\n"
+"Please update to the latest version."
+msgstr ""
+"新しいバージョンのArcaeaの新しいバージョンが配信されています。\n"
+"アプリを最新版にアップデートしてください。"
+
+msgid "A power forbidden to all but one."
+msgstr "その力、許されし者は他に無し。"
+
+msgid "A problem occurred updating data..."
+msgstr "データの更新時に問題が発生しました…"
+
+msgid ""
+"A recent refund of spent Memories has limited parts of\n"
+"your account, and purchased content is currently frozen.\n"
+"\n"
+"Please ensure any payments made aren't cancelled with\n"
+"your payment processor.\n"
+"\n"
+"To restore full access to your account, please\n"
+"re-purchase the amount of Memories refunded."
+msgstr ""
+"すでに消費済みのメモリーに対する返金が発生したため、\n"
+"現在お使いのアカウントは購入が必要なコンテンツなど、\n"
+"一部の機能が制限されています。\n"
+"\n"
+"心当たりのない場合、決済事業者側によるキャンセルなど\n"
+"正常に決済が完了しているかをご確認ください。\n"
+"\n"
+"返金相当額のメモリーをご購入いただくことで、\n"
+"再度アカウントの全ての機能にアクセスできるようになります。"
+
+msgid "A rising tension"
+msgstr "駆け上がる戦慄"
+
+msgid "A song at the start of time"
+msgstr "時の始まりに奏でる曲"
+
+msgid "A tempest descends"
+msgstr "降臨する暴風"
+
+msgid ""
+"A temporary hold has been placed on your account.\n"
+"Please visit the official website to resolve the issue."
+msgstr ""
+"アカウントに一時停止措置を適用しております。\n"
+"公式サイトをご確認のうえ、対応をよろしくおねがいします。"
+
+msgid "AFFINITY"
+msgstr "親和度"
+
+msgid ""
+"AUDIO - Ad-lib effects on hitting floor lanes\n"
+"when playing a %2@ song"
+msgstr ""
+"AUDIO - %2@楽曲をプレイ時、\n"
+"フロアレーンをタップ時、アドリブ音が再生"
+
+msgid "AWAKENED"
+msgstr "覚醒後"
+
+msgid "Abandon Course"
+msgstr "リタイアする"
+
+msgid "Abandon Song"
+msgstr "楽曲を放棄"
+
+msgid "Accept"
+msgstr "承認"
+
+msgid "Account Created"
+msgstr "アカウント作成済"
+
+msgid "Account Management"
+msgstr "アカウント管理"
+
+msgid "Account deletion email has been sent."
+msgstr "アカウントの削除確認メールが送信されました"
+
+msgid "Achieve a high Recollection Rate on %1@ with %2@"
+msgstr "『%2@』と共に【%1@】で高い想起率を獲得せよ"
+
+msgid "Achieve a high Recollection Rate on %1@ with %2@ sealed"
+msgstr "封印されし『%2@』と共に【%1@】で高い想起率を獲得せよ"
+
+msgid "Achievements"
+msgstr "実績"
+
+msgid "Acid"
+msgstr "アシッド"
+
+msgid "Act I"
+msgstr "Act I"
+
+msgid "Act II"
+msgstr "Act II"
+
+msgid "Activate"
+msgstr "起動する"
+
+msgid "Activate Memory Boost using Ticket?"
+msgstr ""
+"チケットを消費して、\n"
+"メモリーブーストを発動しますか？"
+
+msgid "Add"
+msgstr "追加"
+
+msgid "Add Friends"
+msgstr "フレンドを追加"
+
+msgid "Add a Partner to the top slot to update the Partner displayed on your Profile."
+msgstr "プロフィールには、上部のスロットに登録されたパートナーが表示されます。"
+
+msgid ""
+"Adjust display speed\n"
+"of Story text"
+msgstr ""
+"Story Mode内の\n"
+"テキスト表示速度を\n"
+"調整します"
+
+msgid ""
+"Adjust the position of\n"
+"late/early timing display"
+msgstr ""
+"タイミング表示の位置を\n"
+"選択できます"
+
+msgid ""
+"Adjust the synchronization\n"
+"of music"
+msgstr ""
+"音楽と譜面のズレを\n"
+"微調整できます"
+
+msgid ""
+"Adjust the volume\n"
+"of note sound effects"
+msgstr ""
+"タップ音の音量を\n"
+"調整します"
+
+msgid ""
+"Adjust where the FR/PM\n"
+"indicators display"
+msgstr ""
+"FR/PM表示位置の\n"
+"調整ができます。"
+
+msgid "Advanced"
+msgstr "応用編"
+
+msgid "Advanced Tutorial"
+msgstr "チュートリアルへ"
+
+msgid "Affinity"
+msgstr "親和度ボーナス"
+
+msgid ""
+"After finishing a song,\n"
+"retry and clear it"
+msgstr ""
+"リザルトからリトライし、\n"
+"同曲をクリア"
+
+msgid ""
+"After finishing a song,\n"
+"⸗⸗⸗⸗⸗⸗"
+msgstr ""
+"リザルトから⸗⸗⸗\n"
+"⸗⸗⸗⸗⸗"
+
+msgid "Ai-chan"
+msgstr "Ai-chan"
+
+msgid "Alice & Tenniel"
+msgstr "アリス＆テニエル"
+
+msgid "All Songs"
+msgstr "全曲"
+
+msgid "All songs are already downloaded!"
+msgstr "楽曲はすべてダウンロード済みです。"
+
+msgid "All songs downloaded successfully."
+msgstr "全ての楽曲が無事ダウンロードされました。"
+
+msgid ""
+"Allow other players to be matched into this room\n"
+"by setting it to Public?"
+msgstr ""
+"ルームを公開にしますか？ \n"
+"オンラインの他プレイヤーが参加できるようになります。"
+
+msgid "Alluring Core"
+msgstr "蠱惑の核"
+
+msgid ""
+"Alternatively, quickly toggle between categories\n"
+"by tapping the left category buttons. "
+msgstr ""
+"または、画面左側の『カテゴリ』ボタンをタップして、\n"
+"手早く特定カテゴリへの切替えも可能です。"
+
+msgid "Alternatively, use a code to join an existing room."
+msgstr ""
+"『非公開ルーム』では、フレンドの招待のほか、\n"
+"『ルームコード』を共有したプレイヤーと遊べます。"
+
+msgid "Amane"
+msgstr "天々音"
+
+msgid "Ambivalent Core"
+msgstr "相反の核"
+
+msgid "An account has already been made from this device."
+msgstr "既にこの端末で登録したアカウントが存在します"
+
+msgid ""
+"An account registration is already pending for this device.\n"
+"Start a new registration?"
+msgstr ""
+"保留中のアカウント認証手続きがあります。\n"
+"認証プロセスを新たにやりなおしますか？"
+
+msgid ""
+"An account with this email address already exists.\n"
+"Please log in to your existing account to link it with %@."
+msgstr ""
+"すでに同じメールアドレスで登録されたアカウントが存在します。\n"
+"該当アカウントにログインしてから、\n"
+"%@との連携を行ってください。"
+
+msgid ""
+"An account with this email address already exists.\n"
+"Please log in with the appropriate third-party service\n"
+"to set up password login."
+msgstr ""
+"すでに同じメールアドレスで登録されたアカウントが存在します。\n"
+"登録した外部サービスでログイン後、\n"
+"ログイン用パスワードを設定してください。"
+
+msgid ""
+"An email address must be linked with your account\n"
+"before it can be deleted."
+msgstr ""
+"アカウント削除の前に、アカウントにメールアドレスを\n"
+"連携する必要があります。"
+
+msgid ""
+"An email with a verification link has been\n"
+"sent to your registered email address.\n"
+"To complete account verification, please\n"
+"follow the instructions outlined in this email."
+msgstr ""
+"認証リンクを含む新しいメールを送付しました。\n"
+"ご登録アドレスのメールボックスをご確認下さい。"
+
+msgid ""
+"An error occurred completing purchases.\n"
+"Please try restarting your device or Arcaea\n"
+"and ensuring that you're logged in to %@."
+msgstr ""
+"支払い時にエラーが発生しました。\n"
+"デバイスかArcaeaアプリを再起動し、\n"
+" %@ にログインしてあることをご確認下さい。"
+
+msgid "An error occurred downloading the song. Please try again."
+msgstr ""
+"楽曲のダウンロード中にエラーが発生しました\n"
+"再度実行して下さい"
+
+msgid ""
+"An error occurred redeeming your purchase.\n"
+"Please check your internet connection and\n"
+"attempt tapping 'Complete Purchase'.\n"
+"\n"
+"Contact support@lowiro.com if this error persists."
+msgstr ""
+"アプリ内課金に失敗しました。\n"
+"インターネットの接続を確認した上で、\n"
+"【購入を完了する】ボタンをお試しください。\n"
+"\n"
+"不具合が解決せずに続く場合は、\n"
+"support@lowiro.comまでお問い合わせくださいませ。"
+
+msgid "An error occurred using Memory Boost Ticket."
+msgstr "メモリーブーストチケットの使用で問題が発生しました。"
+
+msgid "An unknown error has occurred."
+msgstr "不明なエラーが発生しました"
+
+msgid "And now, the end"
+msgstr "開幕する終末"
+
+msgid "Apophenia"
+msgstr "Apophenia"
+
+msgid "Apple"
+msgstr "Apple"
+
+msgid ""
+"Apply yourself. You understand \"value\" best, don't you?\n"
+"Each song you remember has been assigned a value. Remember their worth.\n"
+"\n"
+"\n"
+"Bring them here and with their values, answer.\n"
+"Do not delay.\n"
+msgstr ""
+"──クイズをしましょう、誰にでも出来る簡単なもの。\n"
+"あなたでも物事の貴賤、値の大小はわかるわね。\n"
+"大事なのは2つ──見慣れた楽曲と、それぞれに付与された数字だけ。\n"
+"\n"
+"\n"
+"そして選別するの、要求されるままの楽曲を。\n"
+"時間厳守、遅れないことね。\n"
+
+msgid ""
+"Arc notes can also turn into Traces.\n"
+"You don't need to touch traces."
+msgstr ""
+"アークノートは、トレースノートに変化することがあります\n"
+"トレースノートにタップする必要はありません"
+
+msgid ""
+"Arc notes can reappear during Traces.\n"
+"Touch and hold them as before."
+msgstr ""
+"トレースノートが、アークノートに再び変わることがあります\n"
+"その場合はもういちどタップしましょう"
+
+msgid "Arcaea"
+msgstr "Arcaea"
+
+msgid "Arcaea Online (%1@)"
+msgstr "Arcaea Online (%1@)"
+
+msgid "Arcaea sends notifications when your World Mode stamina is full,"
+msgstr "スタミナの全回復、Link Playの招待などを"
+
+msgid "Arcaea's story is bundled with certain song packs."
+msgstr "Arcaeaの物語は特定の楽曲パックに収録されています。"
+
+msgid "Archive"
+msgstr "アーカイブ"
+
+msgid "Archive Story"
+msgstr "アーカイブ"
+
+msgid "Archive△ || Eternal, Beyond△"
+msgstr "アーカイブ△ || Eternal または Beyond△"
+
+msgid "Are you sure you want to download data from Cloud?"
+msgstr "本当にこの端末のデータを上書きしますか？"
+
+msgid "Are you sure you want to overwrite your Cloud Save?"
+msgstr "本当にクラウド上のデータを上書きしますか？"
+
+msgid "Are you sure you want to remove '%@'?"
+msgstr "本当に「%@」さんをフレンドリストから外しますか？"
+
+msgid "Areus"
+msgstr "アレウス"
+
+msgid "Aria"
+msgstr "Aria"
+
+msgid "Article I"
+msgstr "第1問"
+
+msgid "Article II"
+msgstr "第2問"
+
+msgid "Article III"
+msgstr "第3問"
+
+msgid "Article IV"
+msgstr "第4問"
+
+msgid "Artist"
+msgstr "作曲者"
+
+msgid "Ascendant - 6th Seeker"
+msgstr "天賦第六究明者"
+
+msgid "Ascendant - 8th Seeker"
+msgstr "天賦第八究明者"
+
+msgid "Ascension"
+msgstr "Ascension"
+
+msgid ""
+"At or above 90% Recollection Rate\n"
+"LOST notes reduce Rate to 85%"
+msgstr ""
+"想起率90%以上でノートをLOST時\n"
+"想起率85%まで即時低下"
+
+msgid "Audio"
+msgstr "音声設定"
+
+msgid "Audio Preset"
+msgstr "音声プリセット"
+
+msgid ""
+"Audio offset is used to compensate for delays\n"
+"playing back audio on your device.\n"
+"\n"
+"If you are EARLY adjust down (-)  If you are LATE adjust up (+)\n"
+"\n"
+"Wireless headphones may increase your offset\n"
+"by 200 milliseconds or more."
+msgstr ""
+"音ズレ調整は楽曲と譜面判定の\n"
+"ズレを補正できるオプションです。\n"
+"\n"
+"EARLY が多いときは(-)、LATE が多いときには(+)を押して、\n"
+"判定がちょうどいい値に調節して下さい。\n"
+"\n"
+"※無線ヘッドホン等を使用する場合、\n"
+"通常より200ms以上ズレが多くなることがあります。"
+
+msgid "Available"
+msgstr "選曲可能"
+
+msgid "Available now"
+msgstr "利用可能"
+
+msgid "Awaken"
+msgstr "覚醒"
+
+msgid "Axium"
+msgstr "Axium"
+
+msgid "Ayu"
+msgstr "彩夢"
+
+msgid "Azure"
+msgstr "Azure"
+
+msgid "BALANCE"
+msgstr "バランス"
+
+msgid "BEYOND"
+msgstr "BEYOND"
+
+msgid ""
+"BEYOND\n"
+"TOTAL"
+msgstr ""
+"BEYOND\n"
+"解禁率"
+
+msgid "BEYOND CHALLENGE - FAR notes decrease Recollection Rate"
+msgstr "BEYOND CHALLENGE - FAR判定で想起率が減少"
+
+msgid "BGM"
+msgstr "BGM"
+
+msgid "Back"
+msgstr "戻る"
+
+msgid "Base"
+msgstr "初期"
+
+msgid "Basic"
+msgstr "基本編"
+
+msgid ""
+"Be absolute: what you have\n"
+"relied on until now will be ruined."
+msgstr ""
+"いい言葉だよね、『絶対』って。\n"
+"台無しにしたらさ、楽しそうだろう？"
+
+msgid ""
+"Be tougher and progress.\n"
+"Remember your old fate."
+msgstr ""
+"進むなら強くあるコトさ──\n"
+"かつての分かれ道、覚えているだろう？"
+
+msgid ""
+"Begin the \"Arcaea\"\n"
+"prologue in Story Mode"
+msgstr ""
+"『Story Mode』で\n"
+"プロローグ『Arcaea』\n"
+"を読み始める"
+
+msgid "Beginnings"
+msgstr "旅立ち"
+
+msgid "Beyond"
+msgstr "Beyond"
+
+msgid ""
+"Beyond\n"
+"Boost"
+msgstr ""
+"Beyond\n"
+"ブースト"
+
+msgid "Beyond Boost"
+msgstr "Beyond ブースト"
+
+msgid "Binary Core"
+msgstr "双極の核"
+
+msgid "Bonus"
+msgstr "個ボーナス"
+
+msgid "Boost"
+msgstr "ブースト"
+
+msgid "Boost Activated!"
+msgstr "ブースト効果が発動しました。"
+
+msgid "Boost Active"
+msgstr "ブースト使用中"
+
+msgid "Boosted progress"
+msgstr "ブースト使用時"
+
+msgid "Boosts"
+msgstr "ブースト"
+
+msgid "Bottom"
+msgstr "画面下部"
+
+msgid "Boundless Divide"
+msgstr "果てない齟齬"
+
+msgid "Breakthrough"
+msgstr "Breakthrough"
+
+msgid "Brillante"
+msgstr "ブリランテ"
+
+msgid "Bundle price"
+msgstr "セット価格"
+
+msgid "CANCEL"
+msgstr "キャンセル"
+
+msgid "CHALLENGE"
+msgstr "チャレンジ"
+
+msgid ""
+"CHUNITHM + HARD - STEP and OVER\n"
+"increased by 2 per each full gauge"
+msgstr ""
+"チュウニズム + HARD - ゲージノルマの\n"
+"数に応じて、STEP値とOVER値が2増加"
+
+msgid "CHUNITHM - Clear Requirement: 7"
+msgstr "CHUNITHM - クリア条件【7】"
+
+msgid "CHUNITHM Core"
+msgstr "CHUNITHMの核"
+
+msgid "CLEAR"
+msgstr "クリア"
+
+msgid ""
+"CONFLICT - Reverse the paradigms\n"
+"of Light and Conflict."
+msgstr "対立 - 光と対立のパラダイム属性を反転させる。"
+
+msgid "CREATOR"
+msgstr "創造主"
+
+msgid "Cadenza"
+msgstr "Cadenza"
+
+msgid "Cancel"
+msgstr "キャンセル"
+
+msgid "Cancel Search"
+msgstr "キャンセル"
+
+msgid "Cancel searching for a public Link Play room?"
+msgstr "マッチングをキャンセルしますか？"
+
+msgid "Categories"
+msgstr "カテゴリ"
+
+msgid "Category"
+msgstr "ストーリー"
+
+msgid "Caution"
+msgstr "注意"
+
+msgid "Challenge"
+msgstr "挑戦する"
+
+msgid "Challenge[ALTEREGO]"
+msgstr "帳尻合わせの試練"
+
+msgid "Change your Partner"
+msgstr "『パートナー』を変更する"
+
+msgid "Chapter"
+msgstr "チャプター"
+
+msgid "Chapter %1@"
+msgstr "Chapter %1@"
+
+msgid "Check Status"
+msgstr "認証状況の確認"
+
+msgid "Chinatsu"
+msgstr "千夏"
+
+msgid "Choose a Tutorial to play."
+msgstr "難易度を選択してください"
+
+msgid "Choose a song difficulty and select Ready"
+msgstr "難易度を選んだら、『READY』を選択"
+
+msgid ""
+"Choose how to pause\n"
+"or disable pausing"
+msgstr ""
+"ポーズボタンの方式変更\n"
+"または非表示が選べます"
+
+msgid ""
+"Choose your preferred title screen, background music,\n"
+"and scenery to use throughout Arcaea."
+msgstr "Arcaeaで使用するタイトル画面、BGM、情景を好きなものに変更できます。"
+
+msgid "Chuni Penguin"
+msgstr "チュウニペンギン"
+
+msgid "Claim"
+msgstr "入手"
+
+msgid "Claim All"
+msgstr "全て入手"
+
+msgid "Clean Up"
+msgstr "全て除去"
+
+msgid "Clear"
+msgstr "クリア"
+
+msgid "Clear #1f1e33"
+msgstr "【#1f1e33】をクリア"
+
+msgid "Clear %1@ %2@ songs"
+msgstr "%2@楽曲を%1@曲クリア"
+
+msgid "Clear %1@ %2@ songs (%3@/%1@)"
+msgstr "%2@楽曲を%1@曲クリア (%3@ / %1@)"
+
+msgid "Clear %1@ %2@ songs with Grade %4@ or above"
+msgstr "%2@難易度の楽曲を%4@グレード以上で%1@曲クリア"
+
+msgid "Clear %1@ %2@ songs with Grade %4@ or above (%3@/%1@)"
+msgstr "%2@難易度の楽曲を%4@グレード以上で%1@曲クリア (%3@ / %1@)"
+
+msgid "Clear %1@ %2@ with a Full Recall"
+msgstr "%1@ [%2@]をFULL RECALLでクリア"
+
+msgid "Clear %1@ level %2@ songs"
+msgstr "Lv. %2@の楽曲を%1@曲クリアする"
+
+msgid "Clear %1@ level %2@ songs (%3@/%1@)"
+msgstr "Lv. %1@の楽曲を%2@曲クリアする(%3@/%1@)"
+
+msgid "Clear %1@ level %2@ songs with Grade %4@ or above"
+msgstr "レベル%2@の楽曲を%4@グレード以上で%1@曲クリア"
+
+msgid "Clear %1@ level %2@ songs with Grade %4@ or above (%3@/%1@)"
+msgstr "レベル%2@の楽曲を%4@グレード以上で%1@曲クリア (%3@ / %1@)"
+
+msgid "Clear %@ %2@"
+msgstr "%@ %2@ のクリア"
+
+msgid "Clear %@ %2@ with Grade %3@ or above"
+msgstr "%@ %2@を%3@グレード以上でクリア"
+
+msgid ""
+"Clear '%1@' with '%2@'\n"
+"to unlock this story."
+msgstr ""
+"パートナー『%2@』を使用し\n"
+"【%1@】クリアでストーリーが解禁"
+
+msgid "Clear '%@' to unlock this story."
+msgstr "【%@】クリアで本ストーリーが解禁"
+
+msgid ""
+"Clear 1 song each from\n"
+"Versions 1 to 4 in order"
+msgstr ""
+"Ver. 1からVer. 4まで\n"
+"各Ver.の楽曲を順番に1つずつクリア"
+
+msgid ""
+"Clear Equilibrium, Antagonism,\n"
+"and Dantalion in sequence"
+msgstr ""
+"【Equilibrium】【Antagonism】、\n"
+"【Dantalion】を順番にクリア"
+
+msgid ""
+"Clear a Course\n"
+"in Course Mode"
+msgstr ""
+"『Course Mode』で\n"
+"コースを1つクリアする"
+
+msgid ""
+"Clear a song on\n"
+"any difficulty"
+msgstr ""
+"いずれかの難易度で\n"
+"楽曲をクリアする"
+
+msgid ""
+"Clear a song on PRS\n"
+"difficulty or higher"
+msgstr ""
+"『PRS以上の難易度』で\n"
+"楽曲をクリアする"
+
+msgid ""
+"Clear a song using\n"
+"Tempest Tairitsu"
+msgstr ""
+"対立 (テンペスト)で\n"
+"楽曲を一つクリア"
+
+msgid ""
+"Clear a song while each digit\n"
+"of your Fragments is odd"
+msgstr ""
+"欠片の数(全桁)が奇数の時に、\n"
+"楽曲をクリアする"
+
+msgid "Clear a song with 0 LOSTs"
+msgstr "LOSTなしで楽曲を一つクリア"
+
+msgid ""
+"Clear an anomaly or terminal\n"
+"song with its jacket's Partner"
+msgstr ""
+"アノマリー/ターミナル曲を\n"
+"ジャケットのパートナーでクリア"
+
+msgid "Clear any song to unlock this story."
+msgstr "任意楽曲のクリアでストーリーが解禁"
+
+msgid ""
+"Clear any song with '%1@'\n"
+"to unlock this story."
+msgstr ""
+"パートナー『%1@』を使用して\n"
+"任意楽曲のクリアでストーリーが解禁"
+
+msgid ""
+"Clear the first song of\n"
+"Final Verdict"
+msgstr ""
+"Final Verdictの\n"
+"初めの曲をクリア"
+
+msgid ""
+"Clear three songs of\n"
+"increasing level in a row"
+msgstr ""
+"3曲連続で楽曲のレベルを\n"
+"一つずつ上げながらクリア"
+
+msgid "Clear with AA grade 5 times"
+msgstr "AAグレードで5回クリア"
+
+msgid "Clear with EX grade 5 times"
+msgstr "EXグレードで5回クリア"
+
+msgid "Clear with a 'HARD' skill"
+msgstr "「HARD」スキルでクリア"
+
+msgid "Clear with over 300 max combo"
+msgstr "マックスコンボ300以上でクリア"
+
+msgid ""
+"Clear ⸗⸗⸗⸗ from\n"
+"⸗⸗⸗ 1 to 4 ⸗⸗⸗"
+msgstr "⸗⸗⸗ 1から ⸗⸗⸗ 4まで ⸗⸗⸗⸗"
+
+msgid "Cloud Sync"
+msgstr "クラウド同期"
+
+msgid ""
+"Cloud save data is from a different device.\n"
+"Please choose how to proceed:"
+msgstr ""
+"クラウド上に別のデバイスのセーブデータが存在します\n"
+"下記いずれかを選択して下さい:"
+
+msgid "Cloud save downloaded successfully!"
+msgstr "クラウドデータのダウンロードに成功しました！"
+
+msgid "Cloud save uploaded successfully!"
+msgstr "クラウドデータのアップロードに成功しました！"
+
+msgid "Code:"
+msgstr "コード:"
+
+msgid "Collaboration"
+msgstr "コラボレーション"
+
+msgid "Colorblind Mode"
+msgstr "色覚補助モード"
+
+msgid "Colorful Core"
+msgstr "生彩の核"
+
+msgid "Combo"
+msgstr "コンボの下"
+
+msgid "Coming Soon"
+msgstr "近日予定"
+
+msgid "Compassion"
+msgstr "慈哀"
+
+msgid "Complete"
+msgstr "開拓済み"
+
+msgid ""
+"Complete Arcaea's\n"
+"beginner tutorial"
+msgstr ""
+"チュートリアル\n"
+"を完了する"
+
+msgid "Complete Purchase"
+msgstr "購入を完了する"
+
+msgid ""
+"Complete a song with\n"
+"an EX grade or higher"
+msgstr ""
+"いずれかの楽曲を『EX』\n"
+"以上のグレードでクリア"
+
+msgid ""
+"Complete all Missions\n"
+"in Tier %@"
+msgstr "Tier %@の全ミッションを達成しました"
+
+msgid ""
+"Complete previous Tier\n"
+"to unlock this Mission"
+msgstr ""
+"本ミッション開放には\n"
+"これより下位のTierを\n"
+"コンプリートして下さい"
+
+msgid ""
+"Complete the \"Arcaea\"\n"
+"prologue in Story Mode"
+msgstr ""
+"『Story Mode』で\n"
+"新規プロローグ\n"
+"『Arcaea』を読了"
+
+msgid "Complete the challenge on %@"
+msgstr "難易度[%@]にて試練を越えよ"
+
+msgid "Complete ‘Black Fate’ and see VS-8 to progress to this Pack"
+msgstr "本パックのプレイには、『Black Fate』のクリアと、VS-8の読了が必要です"
+
+msgid "Complete[REMOVE_FOR_MISSIONS]"
+msgstr "達成"
+
+msgid "Completed"
+msgstr "開拓済み"
+
+msgid "Confirm"
+msgstr "確認"
+
+msgid "Confirm Cloud Overwrite"
+msgstr "確認: クラウドデータの上書き"
+
+msgid "Confirm Data Download"
+msgstr "確認: データの上書き"
+
+msgid "Confirm Difficulty"
+msgstr "難易度を設定してください"
+
+msgid "Confirm[ALTEREGO]"
+msgstr "決定する"
+
+msgid "Confirmation"
+msgstr "確認"
+
+msgid "Contemplate finality"
+msgstr "ただ、終末を凝望す"
+
+msgid "Continue"
+msgstr "続きへ"
+
+msgid "Continue "
+msgstr "次へ"
+
+msgid "Continue Matching"
+msgstr "しない"
+
+msgid "Continue Offline"
+msgstr "オフラインでプレイ"
+
+msgid "Continue[STORY]"
+msgstr "続きを読む"
+
+msgid ""
+"Control the speed at\n"
+"which notes approach"
+msgstr ""
+"譜面の速さを\n"
+"調節します"
+
+msgid ""
+"Could not connect to Store.\n"
+"Please check your device settings."
+msgstr ""
+"ストアに接続できませんでした。\n"
+"デバイスの設定をご確認ください。"
+
+msgid "Could not connect to online server."
+msgstr "サーバーへの接続に失敗しました"
+
+msgid "Course Mode"
+msgstr "Course Mode"
+
+msgid "Course has been abandoned"
+msgstr "コースをリタイアしました。"
+
+msgid "Create Account"
+msgstr "アカウントを作成"
+
+msgid "Create an account"
+msgstr "『アカウント』を作成する"
+
+msgid ""
+"Create or join a room where up to 4 players\n"
+"can simultaneously play any song in Arcaea."
+msgstr ""
+"Arcaeaを最大4人で同時プレイできる機能です。\n"
+"『ルーム』を作るか、誰かの『ルーム』に参加して下さい。"
+
+msgid "Crimson Core"
+msgstr "朱の核"
+
+msgid "Current Progress"
+msgstr "進行状況"
+
+msgid "Customize"
+msgstr "変更する"
+
+msgid "DATA IN CLOUD"
+msgstr "クラウド上のデータ"
+
+msgid "DATA ON DEVICE"
+msgstr "端末上のデータ"
+
+msgid "DISABLED"
+msgstr "無効"
+
+msgid "DORO*C"
+msgstr "DORO*C"
+
+msgid "Date"
+msgstr "追加日"
+
+msgid ""
+"Day / Night appearance\n"
+"when playing a %@ song"
+msgstr ""
+"%@楽曲をプレイ時、\n"
+"昼夜での背景変化"
+
+msgid "Debut"
+msgstr "Debut"
+
+msgid "Decline"
+msgstr "辞退する"
+
+msgid "Decline[INVITE]"
+msgstr "辞退"
+
+msgid "Default"
+msgstr "通常"
+
+msgid "Default[CUSTOMIZE]"
+msgstr "デフォルト"
+
+msgid "Delete"
+msgstr "削除する"
+
+msgid "Delete Account"
+msgstr "アカウント削除"
+
+msgid ""
+"Delete all downloaded songs?\n"
+"They can be downloaded again at any time."
+msgstr ""
+"ダウンロードされた全楽曲を削除しますか？\n"
+"再ダウンロードはいつでも可能です。"
+
+msgid "Delete complete."
+msgstr "削除が完了しました。"
+
+msgid "Desolate Core"
+msgstr "荒廃の核"
+
+msgid "Details"
+msgstr "詳細"
+
+msgid "Device limit reached."
+msgstr "登録されたデバイスの数が上限に達しました"
+
+msgid "Difficulty"
+msgstr "難易度"
+
+msgid "Difficulty can be changed later"
+msgstr "あとで切り替えることも可能です。"
+
+msgid "Disabled"
+msgstr "無効"
+
+msgid ""
+"Disabling note sounds may greatly change perceived offset.\n"
+"You will need to re-calibrate your offset after doing so."
+msgstr ""
+"効果音をOFFにすると、体感オフセットが大きく変わります。\n"
+"OFFにする際は音ズレ調整の項目を再設定してください。"
+
+msgid "Disconnected from Link Play"
+msgstr "Link Playから切断されました"
+
+msgid "Disconnecting in..."
+msgstr ""
+"【注意】間もなくLink Playより離脱します。\n"
+"離脱まであと："
+
+msgid ""
+"Discover a song\n"
+"through World Mode"
+msgstr ""
+"World Modeで\n"
+"楽曲を1つ開放する"
+
+msgid ""
+"Display a visual effect\n"
+"on screen touch"
+msgstr ""
+"画面をタッチした際に\n"
+"エフェクトを表示する"
+
+msgid ""
+"Display furigana\n"
+"for story text"
+msgstr ""
+"Storyのテキストに\n"
+"ルビを表示する"
+
+msgid "Do Not Receive Emails"
+msgstr "メールを受け取らない"
+
+msgid "Does not expire."
+msgstr "受け取り期限なし"
+
+msgid "Don't be led astray by Illusions."
+msgstr "幻影に騙されないで。"
+
+msgid "Done"
+msgstr "完了"
+
+msgid "Dormant Echoes"
+msgstr "眠れる残響"
+
+msgid "Double Tap"
+msgstr "タップ2回"
+
+msgid "Download"
+msgstr "ダウンロード"
+
+msgid "Download \"%@\"?"
+msgstr "\"%@\"をダウンロードしますか？"
+
+msgid "Download '%1@' Pack?"
+msgstr "\"%1@'パックをダウンロードしますか?"
+
+msgid "Download All"
+msgstr "全てダウンロード"
+
+msgid "Download Pack?"
+msgstr "この楽曲パックをダウンロードしますか?"
+
+msgid ""
+"Download all owned songs?\n"
+"This will take a while.\n"
+"\n"
+"Significant data charges will be incurred on a cellular plan."
+msgstr ""
+"購入済みの全楽曲をダウンロードしますか？\n"
+"環境によっては時間がかかります。\n"
+"\n"
+"また、モバイル用通信サービスをご利用の場合、\n"
+"請求が高額になる場合があります。"
+
+msgid "Download song?"
+msgstr "楽曲をダウンロードしますか？"
+
+msgid ""
+"Download song?\n"
+"%@"
+msgstr ""
+"楽曲をダウンロードしますか?\n"
+"%@"
+
+msgid "Download songs for course mode?"
+msgstr "コースに必要な楽曲をダウンロードしますか？"
+
+msgid "Download was cancelled."
+msgstr "ダウンロードがキャンセルされました。"
+
+msgid "Downloading"
+msgstr "ダウンロード中…"
+
+msgid "Downloading %@%..."
+msgstr "%@% ダウンロード中…"
+
+msgid "Downloading on a mobile network will use %1@MB data."
+msgstr ""
+"こちらをモバイルネットワークでダウンロードすると、\n"
+"約%1@ MBのデータ通信量を消費します。"
+
+msgid "Downloading on a mobile network will use %2@MB+ data."
+msgstr ""
+"こちらをモバイルネットワークでダウンロードすると、\n"
+"%2@ MB以上のデータ通信量を消費します。"
+
+msgid "Downloads"
+msgstr "ダウンロード管理"
+
+msgid "Downloads all owned songs to this device."
+msgstr "所有している全楽曲をダウンロードします"
+
+msgid "E/S Primera"
+msgstr " "
+
+msgid "EASY + All Notes and Arcs reversed"
+msgstr "EASY + プレイ時、左右対称に譜面が反転"
+
+msgid ""
+"EASY + Earn +%@ Fragments\n"
+"when playing a %2@ song"
+msgstr ""
+"EASY + %2@楽曲をプレイ時、\n"
+"得られる欠片の数が+%@"
+
+msgid ""
+"EASY + Pay %@ Fragments on start\n"
+"This skill changes during the night"
+msgstr ""
+"EASY + 開幕に欠片を%@個消費する\n"
+"夜になるとスキル効果が変化"
+
+msgid ""
+"EASY + Recollection Rate cannot decrease\n"
+"Recollection Rate gain is heavily reduced"
+msgstr ""
+"EASY + 想起率が減少しない\n"
+"想起率の増加が大幅に減少"
+
+msgid ""
+"EASY - Recollection Gauge starts at %@%\n"
+"Reduced Recollection Rate gain per note"
+msgstr ""
+"EASY - 想起率ゲージが %@%からスタート\n"
+"1ノートあたりの想起率増加が減衰"
+
+msgid ""
+"EASY - Recollection Rate loss reduced\n"
+"for LOST notes"
+msgstr ""
+"EASY - ノートを外したときの\n"
+"想起率減少を抑えます"
+
+msgid "EVENT"
+msgstr "EVENT"
+
+msgid ""
+"Earn +%@ Fragment(s)\n"
+"for each %2@ combo reached"
+msgstr "%2@ コンボ到達ごとに+%@ の欠片を獲得"
+
+msgid ""
+"Earn +%@ Fragments\n"
+"upon clearing a preferred song"
+msgstr ""
+"白姫の気まぐれ曲をクリア時\n"
+"欠片を+%@獲得"
+
+msgid ""
+"Earn +%@ Fragments\n"
+"when playing a Conflict Side song"
+msgstr ""
+"「対立」サイド楽曲をプレイ時、\n"
+"得られる欠片の数が+%@"
+
+msgid ""
+"Earn +%@ Fragments\n"
+"when playing a Light Side song"
+msgstr ""
+"「光」サイド楽曲をプレイ時、\n"
+"得られる欠片の数が+%@"
+
+msgid ""
+"Earn +%@ Fragments\n"
+"when playing a Stellights song"
+msgstr ""
+"Stellights楽曲をプレイ時、\n"
+"得られる欠片の数が+%@"
+
+msgid ""
+"Earn +%@ Fragments (increases for each\n"
+"consecutive play with other Partners)"
+msgstr ""
+"欠片を+%@個獲得（他のパートナーを使うたび、\n"
+"1曲あたりの効果アップ）"
+
+msgid ""
+"Earn +%@ Fragments (increases for each\n"
+"consecutive play with this Partner)"
+msgstr ""
+"欠片を+%@個獲得（本パートナーを使うたび、\n"
+"1曲あたりの効果アップ）"
+
+msgid ""
+"Earn +%@ Fragments for achieving\n"
+"%2@ grade or above"
+msgstr ""
+"%2@グレード以上を達成時、\n"
+"得られる欠片の数が+%@"
+
+msgid ""
+"Earn +%@ Fragments on\n"
+"Pure Memory (Max Score)"
+msgstr ""
+"Pure Memory（理論値）達成時、\n"
+"得られる欠片の数が+%@"
+
+msgid ""
+"Earn 1 Fragment per %@ PURE notes\n"
+"Lose 1 Fragment per LOST note"
+msgstr ""
+"PUREノート%@つ毎に、欠片を1つ入手\n"
+"LOSTノート1つ毎に、その欠片を1つ喪失"
+
+msgid ""
+"Earn up to +%2@ Fragments based on Max Recall\n"
+"Earn +%@ Fragments on Clear"
+msgstr ""
+"最大コンボ数に応じて、欠片を最大+%2@\n"
+"クリアで欠片を+%@獲得"
+
+msgid ""
+"Earn up to +%@% Fragments\n"
+"based on score"
+msgstr ""
+"スコアに応じて、\n"
+"最大%@%の追加欠片を獲得"
+
+msgid ""
+"Earn up to 20 Fragments based on\n"
+"number of notes hit"
+msgstr ""
+"ノートのヒット数に応じて\n"
+"追加で最大20個の欠片を獲得"
+
+msgid "Easy"
+msgstr "EASY"
+
+msgid "Eclipse"
+msgstr "Eclipse"
+
+msgid ""
+"Edit Presets by selecting a Partner from the left-hand side list,\n"
+"then tapping the desired slot."
+msgstr ""
+"プリセットの登録は、リストからパートナーを選択後、\n"
+"セットするスロットをタップで行えます。"
+
+msgid ""
+"Edit visibility settings, preview your Profile Card,\n"
+"and share screenshots at any time from the top-left interface."
+msgstr ""
+"左上のボタンから、自分のカードの公開設定やプレビュー表示、\n"
+"SNS共有などが出来ます。"
+
+msgid "Elapsed time: %@"
+msgstr "経過した時間: %@"
+
+msgid "Elegy"
+msgstr "Elegy"
+
+msgid "Email (confirm)"
+msgstr "メールアドレス(確認)"
+
+msgid "Email address"
+msgstr "メールアドレス"
+
+msgid "Email does not match"
+msgstr "メールアドレスが一致しません"
+
+msgid "Email, ID or Username"
+msgstr "メール、IDまたはユーザー名"
+
+msgid "Enable Timer"
+msgstr "選曲タイマー"
+
+msgid ""
+"Enable to change\n"
+"Arc colors"
+msgstr ""
+"アークノートの色が\n"
+"変わります。"
+
+msgid ""
+"Enable to include\n"
+"late/early 'Pure' timings"
+msgstr ""
+"Pure判定を\n"
+"2段階で表示します"
+
+msgid "Enabled"
+msgstr "有効"
+
+msgid "Ended"
+msgstr "イベント終了"
+
+msgid "Endless Gallery"
+msgstr "終わりなき画楼"
+
+msgid ""
+"Enter a Public room to join matchmaking with other online players,\n"
+"or open a Private room to invite friends."
+msgstr ""
+"『公開ルーム』では、\n"
+"現在オンライン状態のプレイヤーと遊べます。"
+
+msgid "Enter room code"
+msgstr "ルームコードを入力"
+
+msgid "Error"
+msgstr "エラー"
+
+msgid "Error updating the room with new purchase."
+msgstr ""
+"新たに購入したものでルームを更新する際、\n"
+"不明なエラーが発生しました"
+
+msgid "Estimated size: %2@MB+"
+msgstr "推定サイズ: %2@MB+\""
+
+msgid "Ether Drop"
+msgstr "エーテルの雫"
+
+msgid "Ether Drops"
+msgstr "エーテルの雫"
+
+msgid "Ether Drops to spend"
+msgstr "消費するエーテルの雫の数"
+
+msgid "Eto"
+msgstr "エト"
+
+msgid "Eto & Hoppe"
+msgstr "エト＆ホッパ"
+
+msgid "Eto & Luna"
+msgstr "エト＆ルナ"
+
+msgid "Etude"
+msgstr "Etude"
+
+msgid "Evanescent Domain"
+msgstr "うたかたの狭間"
+
+msgid "Event"
+msgstr "イベント"
+
+msgid "Existing Account Found"
+msgstr "重複アカウント"
+
+msgid "Experience Aegleseeker"
+msgstr "楽曲『Aegleseeker』をプレイする"
+
+msgid "Experience Arghena"
+msgstr "楽曲『Arghena』をプレイする"
+
+msgid "Experience Designant."
+msgstr "楽曲『Designant.』を\"識\"る"
+
+msgid "Experience Undying Macula"
+msgstr "【Undying Macula】へ往く"
+
+msgid "Expires in %@"
+msgstr "%@で失効します"
+
+msgid "Explore Arcaea, and on your journey fulfill missions to unlock rewards."
+msgstr "Arcaeaの世界を見てみましょう。ミッションを達成すると報酬が入手できます。"
+
+msgid "Extend"
+msgstr "拡張"
+
+msgid "Extend Friend Limit"
+msgstr "フレンド登録数上限を拡張する"
+
+msgid ""
+"FEVER GAUGE + Earn 1 Fragment when\n"
+"FEVER reaches x5"
+msgstr ""
+"FEVERゲージ + ゲージが\n"
+"Lv. 5到達毎に、欠片を1つ獲得"
+
+msgid ""
+"FEVER GAUGE + HARD - Recollection Rate gain\n"
+"reduced when FEVER is low"
+msgstr ""
+"FEVERゲージ + HARD - ゲージLv.低下時\n"
+"想起率も増加量低下"
+
+msgid ""
+"FEVER Gauge + World progress increased based\n"
+"on PURE note count and FEVER level"
+msgstr ""
+"FEVERゲージ + PUREの数と、\n"
+"ゲージLv.に応じてWorld進行度増加"
+
+msgid "FIRST CLEAR"
+msgstr "初回クリア"
+
+msgid "FR"
+msgstr "FR"
+
+msgid "FR/PM Indicator"
+msgstr "FR/PM表示"
+
+msgid "FRAG"
+msgstr "欠片"
+
+msgid "FRAGMENTS"
+msgstr "欠片"
+
+msgid "FREE TO PLAY"
+msgstr "フリープレイ曲あり"
+
+msgid "Face the songs you have already confronted and find a way forward."
+msgstr "対峙せよ、かつて抗った数多の曲たちへ。そして活路を見い出せ。"
+
+msgid "Facebook"
+msgstr "Facebook"
+
+msgid ""
+"Failed to get the latest content information.\n"
+"Please check your internet connection. Error Code: %1@"
+msgstr ""
+"最新ゲームデータの取得に失敗しました。\n"
+"ネットワークの接続状況をご確認ください。エラーコード: %1@"
+
+msgid "Fantasia"
+msgstr "Fantasia"
+
+msgid "Fast"
+msgstr "早め"
+
+msgid "Fatalis"
+msgstr "Fatalis"
+
+msgid ""
+"Favorite each Tairitsu,\n"
+"clear Her song with Her"
+msgstr ""
+"対立を全てお気に入り登録\n"
+"彼女の曲を対立でクリア"
+
+msgid "Filter"
+msgstr "フィルター"
+
+msgid "Find the entries of her journal"
+msgstr "少女の手記──〔その記述〕を辿る"
+
+msgid "Find the new Map in Chapter 5 of World Mode"
+msgstr "World Mode: Chapter 5の新マップを見い出せ"
+
+msgid "Find the path to a different future"
+msgstr "活路を見出せ、異なる未来へと"
+
+msgid "Find the place she caught someone's eye, and where she was taken into another world."
+msgstr ""
+"少女が誰かの目線を感じた場所へ。\n"
+"異なる領域へと攫われた場所へ。"
+
+msgid "Find the woman who took her to another world."
+msgstr ""
+"少女を攫ったあの女を。\n"
+"神にも能いしあの女を。"
+
+msgid "Finish"
+msgstr "終了する"
+
+msgid ""
+"Finish a song while only getting\n"
+"all PUREs, FARs, or LOSTs"
+msgstr ""
+"判定1種で曲をプレイ\n"
+"(PURE、FAR、LOSTのみ)"
+
+msgid ""
+"Finish a song while only getting\n"
+"all ⸗⸗⸗⸗⸗⸗"
+msgstr ""
+"判定⸗⸗曲をプレイ\n"
+"(⸗⸗のみ)"
+
+msgid ""
+"Finish a song with a\n"
+"1.2x or higher Partner\n"
+"fragment multiplier"
+msgstr ""
+"『欠片獲得倍率』が\n"
+"x1.2以上のパートナーで\n"
+"いずれかの楽曲をプレイ"
+
+msgid ""
+"Finish a song with a Partner fragment multipler\n"
+"of 1.2x or more"
+msgstr ""
+"『欠片獲得倍率』がx1.2以上のパートナーで\n"
+"いずれかの楽曲をプレイ"
+
+msgid "Flow"
+msgstr "Flow"
+
+msgid ""
+"Follow the movement of Arc notes\n"
+"by moving your finger left or right."
+msgstr "動くアークノートをなぞるように、左右に動かしてみましょう"
+
+msgid "For Conflict, one Contest△"
+msgstr "とあるコンテスト曲（Conflict属性）△"
+
+msgid "For Light, one Contest△"
+msgstr "とあるコンテスト曲（Light属性）△"
+
+msgid "For the one who might find this: I'll write down all that I know, for you."
+msgstr ""
+"〔私の知る限りをここに記そう。\n"
+"この手記を読むかもしれない、あなたのために〕"
+
+msgid "Forget an old adage. Hurry along."
+msgstr "急ぎたまえよ──古臭い言い回しなど忘れるコトだ。"
+
+msgid "Forgot Password?"
+msgstr "パスワードを忘れた"
+
+msgid "Forgotten Construct"
+msgstr "忘らるる造形"
+
+msgid "Forlorn"
+msgstr "佗棄"
+
+msgid "Fracture"
+msgstr "Fracture"
+
+msgid "Fracture & MIR-203"
+msgstr "Fracture & MIR-203"
+
+msgid "Frag Boost"
+msgstr "欠片ブースト"
+
+msgid "Fragment Boost"
+msgstr "欠片ブースト"
+
+msgid ""
+"Fragment gain doubled upon earning\n"
+"%1@ Fragments using other Partners"
+msgstr ""
+"他パートナーで欠片をあと%1@個\n"
+"入手すると獲得できる欠片が2倍"
+
+msgid "Fragments"
+msgstr "欠片"
+
+msgid "Fragments Used"
+msgstr "使用した欠片の数"
+
+msgid "Fragments after"
+msgstr "使用後の欠片"
+
+msgid ""
+"Fragments are used to unlock new songs.\n"
+"They are acquired as you play."
+msgstr ""
+"欠片はゲームをプレイしていくことで蓄積され、\n"
+"ゲーム内コンテンツのアンロックに使われます"
+
+msgid "Fragments before"
+msgstr "使用前の欠片"
+
+msgid "Frame Rate"
+msgstr "フレームレート"
+
+msgid "Free"
+msgstr "無料"
+
+msgid "Free unlock period has passed"
+msgstr "無料解禁期間は終了しました"
+
+msgid "Friend ID:"
+msgstr "フレンドID:"
+
+msgid "Friends"
+msgstr "フレンド"
+
+msgid "Full"
+msgstr "全曲"
+
+msgid "Full Unlock"
+msgstr "全曲解禁する"
+
+msgid "Furigana"
+msgstr "ルビ表示"
+
+msgid "GUEST"
+msgstr "ゲスト"
+
+msgid ""
+"Gain +20 on all stats on first\n"
+"Arcaea Next Stage song play daily"
+msgstr ""
+"Arcaea Next Stage楽曲をその日初プレイ時\n"
+"すべてのステータスが+20増加"
+
+msgid ""
+"Gain or lose Rank based on performance\n"
+"Risk and Reward increase at higher Ranks"
+msgstr ""
+"プレイ功績に応じて階級が上下\n"
+"高い階級ほどリスクと報酬が増加"
+
+msgid ""
+"Game data is out of sync due to another device.\n"
+"Please check your progress after re-entering World Mode."
+msgstr ""
+"プレイヤーデータがもう一つの端末と同期できません。\n"
+"\n"
+"ワールドモードを選択し直してから、状況を再度確認してください"
+
+msgid "Game data restored from cloud save."
+msgstr "ゲームデータがクラウドから復元されました"
+
+msgid "Game data saved to cloud."
+msgstr "クラウドにゲームデータが保存されました"
+
+msgid "Gameplay"
+msgstr "プレイ設定"
+
+msgid "Genre"
+msgstr "カテゴリ"
+
+msgid "Give Lead"
+msgstr "選曲権をわたす"
+
+msgid "Glass gathered without balance"
+msgstr "欠けた欠片、割り切れぬ均衡"
+
+msgid "Go back"
+msgstr "戻る"
+
+msgid "Go to Map"
+msgstr "ワールドマップへ"
+
+msgid "Go to Pack"
+msgstr "パック詳細へ"
+
+msgid "Good luck in the upper levels of Arcaea!"
+msgstr "では引き続き、Arcaeaの上級者向けコンテンツをお楽しみください"
+
+msgid "Google"
+msgstr "Google"
+
+msgid "Google Play"
+msgstr "Google Play"
+
+msgid ""
+"Google Play services are not available.\n"
+"Please try updating Google Play and re-launching Arcaea."
+msgstr ""
+"Google Playサービスが利用できません\n"
+"Google Playを更新し、アプリを再起動してください"
+
+msgid "Grade"
+msgstr "グレード"
+
+msgid "Grade %@ or above"
+msgstr "グレード %@ 以上"
+
+msgid "Graphics Quality"
+msgstr "グラフィック品質"
+
+msgid ""
+"Graphics Quality has been set to Lower for improved\n"
+"performance. This can be changed at any time from Settings."
+msgstr ""
+"動作安定のため、グラフィック品質が【軽量】に変更されました。\n"
+"この設定はいつでも変更可能です。"
+
+msgid "Grievous Lady"
+msgstr "Grievous Lady"
+
+msgid "Groove Core"
+msgstr "グルーヴの核"
+
+msgid "Group By"
+msgstr "フォルダー"
+
+msgid ""
+"Group songs by any\n"
+"category then open\n"
+"a group"
+msgstr ""
+"検索ウィンドウで\n"
+"曲をフォルダで分類し\n"
+"フォルダをどれか開く"
+
+msgid ""
+"HARD + 6% chance to lose 6x Recollection Rate\n"
+"STEP increased by 6 on clear"
+msgstr ""
+"HARD + 6%の確率でゲージの減少量が6倍\n"
+"クリア時、一時的にSTEP値を6増加 "
+
+msgid ""
+"HARD + Earn +%@ Fragments\n"
+"Reward increases for consecutive clears"
+msgstr ""
+"HARD + 欠片を%@個獲得\n"
+"連続クリアの度、獲得量が上昇"
+
+msgid ""
+"HARD + FAR notes slightly decrease\n"
+"Recollection Rate"
+msgstr "HARD + FAR判定時に想起率がわずかに減少"
+
+msgid ""
+"HARD + For every 1/5 of song progress\n"
+"-10 Recollection Rate, +2 Fragments"
+msgstr ""
+"HARD + 楽曲が1/5進行する毎に\n"
+"想起率が10減少し、欠片を2つ獲得"
+
+msgid ""
+"HARD + Gain +%@ Fragments on Track Clear\n"
+"This skill changes during the day"
+msgstr ""
+"HARD + クリア時に欠片を%@個獲得する\n"
+"昼間になるとスキル効果が変化"
+
+msgid ""
+"HARD + Gain 10 STEP for every 1/3rd of total\n"
+"note count that max combo reaches"
+msgstr ""
+"HARD + 最大コンボ数がトータルノーツ数の\n"
+"1/3に達するごとにSTEP値が10増加"
+
+msgid ""
+"HARD + Increased Recollection Rate\n"
+"change per note"
+msgstr "HARD + 想起率増減の割合が上昇する"
+
+msgid ""
+"HARD + LOST notes decrease Recollection Rate\n"
+"based on current combo"
+msgstr ""
+"HARD + 現在のコンボ数に応じて、\n"
+"LOST判定で減少する想起率が変動"
+
+msgid "HARD + Lose %@ Fragments on Track Lost"
+msgstr "HARD + Track Lostの際、%@欠片が失われます"
+
+msgid ""
+"HARD + Lose Emotions. Weaken an aspect of\n"
+"Hikari & Vanessa by -10 per Emotion lost"
+msgstr ""
+"HARD + 感情の喪失　感情1つの喪失につき\n"
+"Hikari & Vanessaの性能1つが-10される"
+
+msgid ""
+"HARD + MIRROR - OVER increased by\n"
+"up to %@ based on Recollection Rate"
+msgstr ""
+"HARD + MIRROR - 想起率に応じて、\n"
+"OVERの値が%@まで上昇する"
+
+msgid ""
+"HARD + MIRROR - Track Lost when\n"
+"Recollection Rate reaches 0%"
+msgstr ""
+"HARD + MIRROR - 想起率0%の時点で\n"
+"楽曲は強制終了、Track Lostとなる"
+
+msgid ""
+"HARD + Max Recollection Gauge decreases\n"
+"based on current Recollection Rate"
+msgstr ""
+"HARD + 現在の想起率に応じて、\n"
+"想起率ゲージの最大値が減少"
+
+msgid "HARD + O.N.G.E.K.I. (50)"
+msgstr "HARD + O.N.G.E.K.I. (50)"
+
+msgid ""
+"HARD + Recollection Rate gain disabled\n"
+"for the last 1/4 of song"
+msgstr ""
+"HARD + 楽曲のうち、終盤1/4で、\n"
+"想起率ゲージの上昇のみが無効化"
+
+msgid ""
+"HARD + Recollection Rate gain disabled\n"
+"when below %@ combo"
+msgstr "HARD + %@コンボ未満は想起率増加なし"
+
+msgid ""
+"HARD + Recollection Rate gradually decreases\n"
+"with song progress"
+msgstr ""
+"HARD + 楽曲の進行度合いにより、\n"
+"少しずつ想起率が減少"
+
+msgid ""
+"HARD + World Mode progress increased by 1\n"
+"for each %@ combo reached"
+msgstr ""
+"HARD + World Modeの進行度が、\n"
+"%@コンボ毎に1増える"
+
+msgid ""
+"HARD - Fatalis Gauge + sacrifices stamina\n"
+"to overload World Mode"
+msgstr ""
+"HARD - フェイタリスゲージ + スタミナを犠牲に\n"
+"World Modeを過負荷状態にする"
+
+msgid "HARD - Forlorn Gauge"
+msgstr "HARD - 『佗棄』ゲージ"
+
+msgid ""
+"HARD - Gauge persists + Earn +%@ Fragments\n"
+"Reward increases for consecutive clears"
+msgstr ""
+"HARD - 想起率は持ち越し + 欠片を%@個獲得\n"
+"連続クリアの度、獲得量が上昇"
+
+msgid "HARD - Irruption Gauge"
+msgstr "HARD - Irruptionゲージ"
+
+msgid ""
+"HARD - Irruption Gauge - Chance to usurp\n"
+"Partners' World plays with 2x progress"
+msgstr ""
+"HARD - Irruptionゲージ - World進行度2倍\n"
+"稀に他パートナーの想起率を簒奪"
+
+msgid "HARD - Tempest Gauge"
+msgstr "HARD - テンペストゲージ"
+
+msgid "HARD - Track Lost after %@ FAR or LOST notes"
+msgstr ""
+"HARD - LOSTかFAR判定が%@に到達時、\n"
+"即時Track Lost"
+
+msgid "HARD - Track Lost after %@ LOST notes"
+msgstr "HARD - LOST判定が%@に到達時、即時Track Lost"
+
+msgid ""
+"HARD - Track Lost when Recollection Rate\n"
+"reaches 0%"
+msgstr ""
+"HARD - 想起率ゲージが0%時点で強制終了\n"
+"Track Lostとなる"
+
+msgid "Hard"
+msgstr "HARD"
+
+msgid "Haruna"
+msgstr "はるな"
+
+msgid "Have their Stories align (15-6 | 16-6)"
+msgstr "彼女たちの物語を並べる (15-6 | 16-6)"
+
+msgid "Helena"
+msgstr "ヘレナ"
+
+msgid "Her old self is something she can hardly recall. Find and treasure a song of that reflection."
+msgstr ""
+"少女が思い出せるのは僅かな過去。\n"
+"探し出すのは音楽に映された彼女。"
+
+msgid ""
+"Her power is currently restrained.\n"
+"Insight cannot usurp Partners' World plays."
+msgstr ""
+"封じられし埒外の力──識眼は縛られた。\n"
+"(Worldモードへの介入は発生しません)"
+
+msgid "Her skill can be disabled within the character select screen."
+msgstr "（パートナー選択画面からスキル封印も可能）"
+
+msgid "Herald."
+msgstr "使者"
+
+msgid "Hidden"
+msgstr "ボタン非表示"
+
+msgid "Hide"
+msgstr "非表示"
+
+msgid "Hide Text"
+msgstr "テキストを非表示"
+
+msgid "High Score"
+msgstr "ハイスコア"
+
+msgid "Hikari"
+msgstr "光"
+
+msgid "Hikari & El Clear"
+msgstr "光＆エル・クリア"
+
+msgid "Hikari & Fisica"
+msgstr "光＆フィシカ"
+
+msgid "Hikari & Seine"
+msgstr "光＆セイネ"
+
+msgid "Hikari & Selene Sheryl"
+msgstr "光＆セレネ・シェリル"
+
+msgid "Hikari & Tairitsu"
+msgstr "光と対立"
+
+msgid "Hikari & Tairitsu[ANS]"
+msgstr "光＆対立"
+
+msgid "Hikari & Vanessa"
+msgstr "Hikari & Vanessa"
+
+msgid ""
+"Hold a finger where Arc notes approach.\n"
+"Keep holding until the note has ended."
+msgstr ""
+"流れてくる線、アークノートを長押ししましょう\n"
+"ノートの終わりまで、押し続けて下さい"
+
+msgid "Hollow Core"
+msgstr "空虚の核"
+
+msgid "Horizon of Anamnesis"
+msgstr "追憶の地平"
+
+msgid "I Agree"
+msgstr "同意する"
+
+msgid ""
+"I can certainly confirm it by now: the flow of time from here and in relation to Arcaea\n"
+"seems to be strange. It reminds me of time dilation."
+msgstr ""
+"〔明言できる、この館の時の流れは奇妙で、Arcaeaの世界と違う。\n"
+"まるでタイム・ダイレーションのようだ〕"
+
+msgid "ID must be 9 digits."
+msgstr "9桁の数字を入れてください"
+
+msgid "INTRUDER"
+msgstr "侵犯者"
+
+msgid ""
+"If you're enjoying Arcaea, please consider writing a review.\n"
+"This will help us gain fans and bring more content!"
+msgstr ""
+"Arcaea、お楽しみ頂けているでしょうか？\n"
+"よりよく、楽しいコンテンツ提供のため、\n"
+"レビューにご協力ください！"
+
+msgid "Ignore"
+msgstr "無視"
+
+msgid ""
+"Ignore Random Restriction Steps\n"
+"After World progress, this skill changes"
+msgstr ""
+"ランダム選曲マスの効果を無視\n"
+"Worldを進行後、スキルが変化"
+
+msgid ""
+"Ignore Speed and Random Restriction Steps,\n"
+"World progress halved below Grade EX"
+msgstr ""
+"速度固定・ランダム選曲マスの効果を無視\n"
+"EXグレード未満の場合、STEP数が半減"
+
+msgid "Ilith"
+msgstr "イリス"
+
+msgid "Ilith & Ivy"
+msgstr "Ilith & Ivy"
+
+msgid "Illusion"
+msgstr "幻影"
+
+msgid "Illustration"
+msgstr "イラスト"
+
+msgid "In Lead selection, the Lead selects a song to play."
+msgstr "代表制では、リーダーがプレイ楽曲を選びます。"
+
+msgid "In Turns selection, each player takes turns selecting a song to play."
+msgstr "交代制では、プレイごとに曲を選ぶ人が順番に変わります。"
+
+msgid "In Vote selection, a song is selected randomly from all player votes."
+msgstr "投票制では、メンバーそれぞれが選んだ曲から、ランダムに選曲されます。"
+
+msgid ""
+"In World Parallel, you can join with others through\n"
+"Link Play to grant an additional \"Sync Boost\" bonus."
+msgstr ""
+"また、『World Parallel』を他のプレイヤーとLink Playで進めると\n"
+"『シンクブースト』分のボーナスも獲得できます。"
+
+msgid ""
+"In a land of scattered glass: alone, afraid, and\n"
+"unafraid, they met first with tragedy, and then\n"
+"each other. Now, their memories have taken shape.\n"
+"\n"
+"Main Story Chronicles contains each Main Story\n"
+"chapter up to and including Black Fate. Join Hikari\n"
+"and Tairitsu on their arduous journeys, and beyond."
+msgstr ""
+"硝子の地平、別々に目覚めた少女たち。\n"
+"怯える少女、臆さぬ少女。\n"
+"悲劇を越え、ついに二人は邂逅する。\n"
+"旅路はいま、ここに収束する。\n"
+"\n"
+"『Black Fate』までのパック5種を含むセットです。\n"
+"光と対立の数奇な旅路を巡り、そしてその先へ──。"
+
+msgid ""
+"In order to use the Arcaea online services\n"
+"you must read and agree to the following:"
+msgstr ""
+"Arcaeaに関連するオンラインサービスのご利用には、\n"
+"以下規約をご一読の上で、同意が必要です:"
+
+msgid "In-App Purchase"
+msgstr "アプリ内課金で支払う"
+
+msgid "In-Progress"
+msgstr "進行中"
+
+msgid ""
+"In-app purchases are not available on this device.\n"
+"Please check your device settings."
+msgstr ""
+"アプリ内課金は本デバイスではご利用いただけません。\n"
+"デバイスの設定をご確認ください。"
+
+msgid "Incorrect."
+msgstr "不正解──。"
+
+msgid ""
+"Increased Recollection Rate change per note\n"
+"No Recollection Rate gain for FAR notes"
+msgstr ""
+"想起率増減の割合が上昇する\n"
+"FAR判定の際、想起率は上がらない"
+
+msgid "Inscribe the name upon %@"
+msgstr "以下の名を示せ %@"
+
+msgid "Inscribed Law"
+msgstr "摂理の介入"
+
+msgid "Insight"
+msgstr "識眼"
+
+msgid "Instant"
+msgstr "最速"
+
+msgid "Instantly obtain all songs in '%@'"
+msgstr "【%@】の楽曲を全て入手する"
+
+msgid "Insufficient Cores"
+msgstr "核が不足しています"
+
+msgid "Intruder"
+msgstr "侵犯者"
+
+msgid "Intruder Progress"
+msgstr "侵犯の成果"
+
+msgid "Intruder Sealed"
+msgstr "封印中"
+
+msgid "Intruder Skill"
+msgstr "侵犯者の御業"
+
+msgid "Invalid Code"
+msgstr "無効なコードです"
+
+msgid "Invalid Room Code."
+msgstr "このルームコードは無効です。"
+
+msgid "Invite"
+msgstr "招待"
+
+msgid "Invite Notification"
+msgstr "Link Play通知"
+
+msgid "Invited '%@' to Link Play."
+msgstr "%@さんをLink Playに招待しました。"
+
+msgid "Isabelle"
+msgstr "イゼヴェル"
+
+msgid "It is a complete certainty that I died. I know what I feel, and I know that it was my fault."
+msgstr ""
+"〔紛れもなく私は死んだ。あの感情を、感覚を覚えている。\n"
+"なにより全てが自分の所為だったと、知っている〕"
+
+msgid "It's time to introduce Arcaea's advanced note types."
+msgstr "Arcaeaに登場する、他のノートについて学びましょう"
+
+msgid "Join"
+msgstr "参加"
+
+msgid "Kanae"
+msgstr "叶永"
+
+msgid "Kick Player"
+msgstr "プレイヤーの強制退出"
+
+msgid "Kou"
+msgstr "紅"
+
+msgid "LAST CLOUD SAVE:"
+msgstr "直近のクラウドセーブ"
+
+msgid "LAW"
+msgstr "摂理"
+
+msgid "LEVEL %@"
+msgstr "LEVEL %@"
+
+msgid "LEVEL ???"
+msgstr "LEVEL ???"
+
+msgid ""
+"LIGHT - Rewrite the paradigms\n"
+"of Light and Conflict."
+msgstr "光 - 光と対立のパラダイム属性を書き換える。"
+
+msgid "LIMITED"
+msgstr "期間限定"
+
+msgid "LINK PLAY"
+msgstr "LINK PLAY"
+
+msgid "Lacrymira"
+msgstr "ラクリミラ"
+
+msgid "Lagrange"
+msgstr "ラグランジュ"
+
+msgid "Language"
+msgstr "言語設定"
+
+msgid "Last Play"
+msgstr "前の曲"
+
+msgid "Last Played"
+msgstr "一つ前にプレイした曲"
+
+msgid "Late/Early Position"
+msgstr "Late/Earlyの位置"
+
+msgid "Lead"
+msgstr "代表制"
+
+msgid "Leave Room"
+msgstr "退出する"
+
+msgid "Leave the current Link Play room?"
+msgstr "参加しているルームから退出しますか？"
+
+msgid ""
+"Leaving Song Select will cause you to disconnect\n"
+"from Link Play"
+msgstr ""
+"選曲画面から移動しますか？\n"
+"Link Playから切断されてしまいます"
+
+msgid ""
+"Let's Link Play in Arcaea! Room Code: %1@ %2@\n"
+"#arcaea_link"
+msgstr ""
+"Arcaeaで一緒にLink Playしよう！ルームコード：%1@ %2@\n"
+"#arcaea_link"
+
+msgid "Let's put everything new together!"
+msgstr "では、さっそくやってみましょう"
+
+msgid "Let's refresh how Arc notes move from side to side."
+msgstr "では、まずはアークノートの復習から。"
+
+msgid "Let's try it out for real!"
+msgstr "それでは、実際にやってみましょう！"
+
+msgid "Lethe"
+msgstr "レーテー"
+
+msgid "Level"
+msgstr "レベル"
+
+msgid "Level Up"
+msgstr "レベルアップ"
+
+msgid ""
+"Level Up a Partner\n"
+"to level 12 or higher"
+msgstr ""
+"パートナーを1人\n"
+"レベルアップさせて\n"
+"レベル12以上にする"
+
+msgid "Level Warning"
+msgstr "注意: 難易度が高い設定です"
+
+msgid "Level after"
+msgstr "レベル（進化後）"
+
+msgid "Level before"
+msgstr "レベル（進化前）"
+
+msgid "Lily"
+msgstr "リリィ"
+
+msgid "Link Email"
+msgstr "メールアドレスを連携する"
+
+msgid "Link Play"
+msgstr "Link Play"
+
+msgid "Linka"
+msgstr "リンカ"
+
+msgid "Locked"
+msgstr "ロック"
+
+msgid "Login"
+msgstr "ログイン"
+
+msgid "Login Present"
+msgstr "ログイン報酬"
+
+msgid ""
+"Login to get new packs, add friends,\n"
+"and use network features"
+msgstr ""
+"ログインすることで、新しいパックの入手、\n"
+"フレンドの追加、オンライン機能などが利用できます。"
+
+msgid "Logout"
+msgstr "ログアウト"
+
+msgid "Long Press"
+msgstr "長押し"
+
+msgid "Lost"
+msgstr "LOST"
+
+msgid "Lost Chapter: Beyond"
+msgstr "Lost Chapter: Beyond"
+
+msgid "Lost World"
+msgstr "失われた世界"
+
+msgid "Lower"
+msgstr "軽量"
+
+msgid "Luin"
+msgstr "ルーン"
+
+msgid "Luna"
+msgstr "ルナ"
+
+msgid "Luna & Ilot"
+msgstr "ルナ＆イロ"
+
+msgid "Luna & Mia"
+msgstr "ルナ＆美亜"
+
+msgid "MAX"
+msgstr "MAX"
+
+msgid "MDA-21"
+msgstr "MDA-21"
+
+msgid "MIR-203"
+msgstr "MIR-203"
+
+msgid "MIRROR + FAR judgements hidden"
+msgstr "MIRROR + FAR判定の非表示"
+
+msgid "MIRROR - All Notes and Arcs reversed"
+msgstr "MIRROR - プレイ時、左右対称に譜面が反転"
+
+msgid "MTA-XXX"
+msgstr "MTA-XXX"
+
+msgid ""
+"MUSE DASH - Sky Notes become ghosts\n"
+"when playing a Muse Dash song"
+msgstr ""
+"MUSE DASH - Muse Dash楽曲をプレイ時、\n"
+"スカイノートがゴーストに変身する"
+
+msgid "Main"
+msgstr "メイン"
+
+msgid "Main Menu"
+msgstr "Main Menu"
+
+msgid "Main Story"
+msgstr "メイン"
+
+msgid "Main Story Chronicles"
+msgstr "メインストーリークロニクル"
+
+msgid "Main Story[PACKLIST]"
+msgstr "メインストーリー"
+
+msgid "Manage Downloads"
+msgstr "ダウンロードの管理"
+
+msgid "Map"
+msgstr "マップ"
+
+msgid "Marija"
+msgstr "マリヤ"
+
+msgid "Match \"%@\""
+msgstr "値が%@の曲"
+
+msgid "Max"
+msgstr "最大レベル"
+
+msgid "Max downloads exceeded. Please wait 24 hours and try again."
+msgstr ""
+"サーバのダウンロードリクエスト数が超過しました。\n"
+"24時間後にもう一度試してください。"
+
+msgid "Maximum friend limit extended!"
+msgstr "登録上限が拡張されました。"
+
+msgid "Maximum level 20 > 30"
+msgstr "最大レベル 20→30"
+
+msgid "Maya"
+msgstr "マヤ"
+
+msgid "Maya, 1."
+msgstr "〔マヤ - 1.〕"
+
+msgid "Maya, 42."
+msgstr "〔マヤ - 42.〕"
+
+msgid "Maya, 8."
+msgstr "〔マヤ - 8.〕"
+
+msgid "Memories"
+msgstr "メモリー"
+
+msgid "Memories after"
+msgstr "使用後のメモリー"
+
+msgid ""
+"Memories and packs are connected to your account.\n"
+"Use Cloud Save to save your scores and unlocks"
+msgstr ""
+"購入済みのメモリーと拡張パックはアカウントに記録されます\n"
+"解禁状況やスコアの保存は【クラウド同期】機能をご利用ください"
+
+msgid "Memories are obtainable through the Arcaea website."
+msgstr "メモリーはArcaea公式サイトからでも購入できます。"
+
+msgid ""
+"Memories are used to unlock new songs and packs.\n"
+"You need to be online and signed in to use them."
+msgstr ""
+"メモリーは拡張コンテンツの開放に使います\n"
+"メモリーを使用するにはサインインが必要です"
+
+msgid "Memories before"
+msgstr "使用前のメモリー"
+
+msgid ""
+"Memories can be used to purchase\n"
+"songs, packs and future content.\n"
+"\n"
+"You need to be online and signed in\n"
+"to use them.\n"
+"\n"
+"Memories are tied to your Arcaea account\n"
+"and never expire.\n"
+"\n"
+"Purchases are made in accordance with:"
+msgstr ""
+"メモリーは楽曲やコンテンツパックなど、\n"
+"今後のコンテンツを購入するのに使えます。\n"
+"\n"
+"使用するには、Arcaeaアカウントにサインインの上、\n"
+"オンラインである必要があります。\n"
+"\n"
+"また、メモリーはArcaeaアカウントに紐付けされており、\n"
+"失効することはございません。\n"
+"\n"
+"支払いについての方針はこちら："
+
+msgid ""
+"Memory\n"
+"Boost"
+msgstr ""
+"メモリー\n"
+"ブースト"
+
+msgid "Memory Archive Ticket"
+msgstr "Memory Archiveチケット"
+
+msgid "Memory Boost"
+msgstr "メモリーブースト"
+
+msgid ""
+"Memory Boost active. In this chapter, your next play progress\n"
+"and Partner experience gain will have a %@x multiplier."
+msgstr ""
+"現在、メモリーブーストが発動中です。\n"
+"本チャプターでは次曲の進行度・経験値が%@倍になります。"
+
+msgid ""
+"Memory Boost increases progress and experience for your next World play.\n"
+"It stays active until you play a song in any map. (Excludes Legacy chapters)"
+msgstr ""
+"メモリーブーストを使用すると、World Modeの進行度と経験値が増加します\n"
+"レガシーチャプター以外のどこかのマップで1曲プレイするまで有効です。"
+
+msgid ""
+"Memory Boost, Stamina Boost, and Beyond Boost do not influence each other\n"
+"and instead stack cumulatively."
+msgstr ""
+"メモリーブーストとスタミナブースト、そしてBeyondブーストの効果は重複しません。\n"
+"複数を同時適用した場合、各倍率を足した数値が最終倍率となります。"
+
+msgid "Menus Only"
+msgstr "メニュー画面のみ"
+
+msgid "Middle"
+msgstr "画面中部"
+
+msgid "Midsummer"
+msgstr "盛夏"
+
+msgid "Mika Yurisaki"
+msgstr "百合咲ミカ"
+
+msgid "Milk"
+msgstr "みるく"
+
+msgid "Minuet"
+msgstr "Minuet"
+
+msgid "Mir"
+msgstr "ミール"
+
+msgid ""
+"Miss both special notes in\n"
+"Infinite Strife, and clear it"
+msgstr ""
+"【Infinite Strife,】の特殊ノーツ\n"
+"つとも拾わずにクリア"
+
+msgid "Mission Complete"
+msgstr "ミッション完了"
+
+msgid "Mission Rewards"
+msgstr "ミッション報酬"
+
+msgid "Missions"
+msgstr "ミッション"
+
+msgid "Mithra Tercera"
+msgstr "ミスラ・テルセーラ"
+
+msgid "More"
+msgstr "More"
+
+msgid "More players are needed to start."
+msgstr "開始にはプレイヤー人数が足りません。"
+
+msgid "Music"
+msgstr "作曲"
+
+msgid "Music Game"
+msgstr "音楽ゲーム"
+
+msgid "Music Play"
+msgstr "Music Play"
+
+msgid "My Rank"
+msgstr "ランク"
+
+msgid "NEXT"
+msgstr "次"
+
+msgid ""
+"NEXT\n"
+"CHAPTER"
+msgstr ""
+"次の\n"
+"チャプターへ"
+
+msgid "Nai"
+msgstr "ナイ"
+
+msgid "Name"
+msgstr "名前"
+
+msgid "Nami"
+msgstr "奈実"
+
+msgid "Nami & Sui"
+msgstr "奈実＆スイ"
+
+msgid ""
+"Navigate directly to the currently selected Partner's Story chapters\n"
+"from the bottom menu."
+msgstr ""
+"下のストーリーボタンから、パートナーと関連するストーリーに\n"
+"直接移動することができます。"
+
+msgid "Nell"
+msgstr "ネール"
+
+msgid "Network Error"
+msgstr "ネットワークエラー"
+
+msgid "New Story Unlocked"
+msgstr "ストーリーが解禁されました"
+
+msgid "News & Updates"
+msgstr "News & Updates"
+
+msgid "No"
+msgstr "いいえ"
+
+msgid "No Events"
+msgstr "イベントなし"
+
+msgid ""
+"No Recollection Rate loss for\n"
+"the first %@ LOST notes"
+msgstr ""
+"最初のLOSTノート%@個まで\n"
+"想起率が減らなくなる"
+
+msgid "No Thanks"
+msgstr "今はしない"
+
+msgid "No data found to sync."
+msgstr "同期するためのデータがありません"
+
+msgid "No events are currently running."
+msgstr "開催中のイベントはありません。"
+
+msgid "No incomplete purchases found."
+msgstr "未完了の購入手続きはありませんでした。"
+
+msgid "None"
+msgstr "なし"
+
+msgid "Nono"
+msgstr "ノノ"
+
+msgid "Nonoka"
+msgstr "ノノカ"
+
+msgid "Not Available"
+msgstr "選曲できません"
+
+msgid "Not Played"
+msgstr "未プレイ"
+
+msgid ""
+"Not a single soul could have predicted this truth.\n"
+"The truth is what befell.\n"
+"What it entails yet remains shrouded.\n"
+"\n"
+"Find 3 more songs in this addition to\n"
+"Severed Eden, all winning entries of\n"
+"the \"Imagining After\" Song Contest."
+msgstr ""
+"誰も予期などしなかった。誰も防げはしなかった。\n"
+"ただ、降り掛かった現実だけが真実で。\n"
+"\n"
+"──待つモノは、ただ、未知数。\n"
+"\n"
+"『Severed Eden』に加わる新たな音色、\n"
+"『Imagining After』の入賞曲3つが追加。"
+
+msgid "Not all players are able to play this song."
+msgstr "この曲をプレイできないプレイヤーさんがいます。"
+
+msgid "Not all players are available to start."
+msgstr "プレイヤー全員の準備が出来ていません。"
+
+msgid "Not available in Streaming Mode"
+msgstr "ストリーミングモードではご利用できません"
+
+msgid "Not enough %@"
+msgstr "%@が不足しています"
+
+msgid "Note Design"
+msgstr "譜面制作"
+
+msgid "Note Speed"
+msgstr "譜面速度"
+
+msgid "Note Volume"
+msgstr "SE音量"
+
+msgid "Note judgement details displayed"
+msgstr "ノーツ判定の内訳を表示"
+
+msgid ""
+"Note sounds disabled\n"
+"due to high offset"
+msgstr ""
+"遅延補正の値が高いため、\n"
+"効果音が無効になります"
+
+msgid "Note speed restricted by World Map"
+msgstr "ワールドマップの特殊効果マスによりノート速度が制限されています"
+
+msgid "Notice"
+msgstr "お知らせ"
+
+msgid "Notifications can be individually toggled in the Settings menu."
+msgstr "各通知のオンオフは、ゲーム内設定から変更できます。"
+
+msgid ""
+"Now, your steps matter again:\n"
+"half of them."
+msgstr ""
+"さあ、キミの足取りが再び真価を問われるよ。\n"
+"けれど半分だ、半分だけさ……"
+
+msgid ""
+"O.N.G.E.K.I. - Boost random stats\n"
+"on dealing Overdamage"
+msgstr ""
+"O.N.G.E.K.I. - オーバーダメージで\n"
+"ステータスがランダムにブースト"
+
+msgid ""
+"O.N.G.E.K.I. - Fragment reward on\n"
+"dealing Overdamage"
+msgstr ""
+"オンゲキ - オーバーダメージによる\n"
+"欠片ボーナス"
+
+msgid ""
+"O.N.G.E.K.I. - On Track Complete,\n"
+"deal Overdamage based on accuracy"
+msgstr ""
+"O.N.G.E.K.I. - 楽曲終了時、\n"
+"精度に応じたOVER DAMAGEを与える"
+
+msgid ""
+"O.N.G.E.K.I. - Reward Overdamage fragments\n"
+"based on performance"
+msgstr ""
+"O.N.G.E.K.I. - オーバーダメージ毎に\n"
+"パフォーマンスに応じた欠片を獲得"
+
+msgid "OBTAINED"
+msgstr "獲得済"
+
+msgid "OFFLINE"
+msgstr "オフライン"
+
+msgid "OK"
+msgstr "OK"
+
+msgid "OR"
+msgstr "OR"
+
+msgid "OR %@"
+msgstr "または 「%@」"
+
+msgid "OVER"
+msgstr "突破値"
+
+msgid ""
+"OVERFLOW - EASY Recollection Rate \n"
+"HARD upon reaching 100% Recollection"
+msgstr ""
+"オーバーフロー -  想起率が100%まではEasyモード\n"
+"100%に到達した瞬間 Hardモードになります"
+
+msgid "Obtain %@"
+msgstr "%@を獲得する"
+
+msgid "Obtain %@ %2@ when you purchase this %3@."
+msgstr "この%3@を購入時、%2@を%@個獲得します。"
+
+msgid ""
+"Obtain '%1@'\n"
+"to unlock this story."
+msgstr "楽曲【%1@】入手でストーリーが解禁"
+
+msgid ""
+"Obtain '%1@' and '%2@'\n"
+"to unlock this story."
+msgstr ""
+"楽曲【%1@】と\n"
+"【%2@】入手でストーリーが解禁"
+
+msgid "Obtain '%@' to unlock this story."
+msgstr "楽曲【%@】入手でストーリーが解禁"
+
+msgid "Obtain Memories"
+msgstr "メモリーを補充する"
+
+msgid "Obtain Potential %@ or above"
+msgstr "ポテンシャル %@ 以上を獲得"
+
+msgid ""
+"Obtain any Core for\n"
+"Awakening Partners in\n"
+"World Mode"
+msgstr ""
+"World Modeにて\n"
+"パートナー覚醒アイテム\n"
+"『核』をどれか1つ入手"
+
+msgid ""
+"Obtain any Core for Awakening Partners\n"
+"in World Mode"
+msgstr ""
+"World Modeにてパートナー覚醒アイテム\n"
+"『核』をどれか1つ入手"
+
+msgid ""
+"Obtain either the song '%1@'\n"
+"or '%2@' to read this story."
+msgstr ""
+"楽曲【%1@】【%2@】\n"
+"どちらかの所持で本ストーリーが解禁されます。"
+
+msgid "Obtain either the song '%1@' or '%2@' to read this story."
+msgstr "楽曲【%1@】【%2@】どちらかの所持で本ストーリーが解禁されます。"
+
+msgid "Obtain in %1@ of World Mode"
+msgstr "World Modeで%1@を獲得する"
+
+msgid "Obtain in World Mode"
+msgstr "ワールドモードにて入手"
+
+msgid "Obtain that which you seek"
+msgstr "追い求めた真実(モノ)の入手"
+
+msgid ""
+"Obtain the '%@' pack to read this story.\n"
+"You must be online and logged in to purchase packs."
+msgstr ""
+"ストーリーを読むためには追加コンテンツパック\n"
+"【%@】を入手してください。\n"
+"購入にはログインして、オンラインである必要があります。"
+
+msgid "Obtain the Lasting Eden Pack"
+msgstr "『Lasting Eden』を購入"
+
+msgid "Obtain the Partner '%@'"
+msgstr "パートナー『%@』の入手"
+
+msgid ""
+"Obtain the song '%@' from World Mode\n"
+"to read this story."
+msgstr ""
+"このストーリーを読むには、World Modeで\n"
+"楽曲『%@』を獲得する必要があります。"
+
+msgid ""
+"Obtain the song '%@' to read this story.\n"
+"You must be online and logged in to unlock songs."
+msgstr ""
+"本ストーリーを読むには楽曲【%@】を\n"
+"入手してください。\n"
+"購入にはログインと、オンライン状態である必要があります。"
+
+msgid "Obtain this song in a limited time event for free"
+msgstr "期間限定で本楽曲を無料で解禁/入手しましょう"
+
+msgid "Obtained"
+msgstr "所持済み"
+
+msgid "Offset"
+msgstr "音ズレ調整"
+
+msgid "Offset Setup"
+msgstr "音ズレを計測する"
+
+msgid ""
+"On next song play,\n"
+"Fragment gain is doubled"
+msgstr "次に楽曲プレイ時、獲得できる欠片が2倍"
+
+msgid "On the right-hand side, swap between Partners that have variant forms."
+msgstr ""
+"衣装・形態違いのあるパートナーでは、右のボタンより\n"
+"それぞれを切り替えることができます。"
+
+msgid "One Last Dream"
+msgstr "終わりの末夢"
+
+msgid "One background△"
+msgstr "1つの背景△"
+
+msgid "One or more purchases successfully completed."
+msgstr "ひとつかそれ以上の購入が完了しました。"
+
+msgid "Open App Store"
+msgstr "App Storeを開く"
+
+msgid "Open Google Play"
+msgstr "Google Playを開く"
+
+msgid "Open Site"
+msgstr "Webサイトを開く"
+
+msgid "Open the Settings menu"
+msgstr "『設定』メニューを開く"
+
+msgid ""
+"Open the map at the bottom of the screen to view progress\n"
+"towards the next reward, activate boosts, or join Link Play."
+msgstr ""
+"画面下部のマップから、次報酬までの状況確認、\n"
+"ブーストの起動、またはリンクプレイへの参加が可能です。"
+
+msgid "Original"
+msgstr "オリジナル"
+
+msgid ""
+"Other than side to side, Arc notes can also move vertically.\n"
+"Move your finger up and down to follow the height of the Arc note."
+msgstr ""
+"アークノートは横だけでなく、縦にも動きます\n"
+"ノートをなぞるように、上下に指を動かしましょう"
+
+msgid "Outer Reaches"
+msgstr "世界の外れ"
+
+msgid "Overview"
+msgstr "マップ一覧"
+
+msgid "Overwrite Cloud Save"
+msgstr "クラウドデータを上書き"
+
+msgid ""
+"Ownership of Lasting Eden is\n"
+"required to obtain this Pack Append."
+msgstr ""
+"このPack Appendの購入には、\n"
+"『Lasting Eden』の所持が必須です。"
+
+msgid "PARTNER"
+msgstr "パートナー"
+
+msgid "PERFORMANCE"
+msgstr "パフォーマンス"
+
+msgid "PLAY"
+msgstr "プレイ"
+
+msgid "PM"
+msgstr "PM"
+
+msgid "PRE-AWAKENING"
+msgstr "覚醒前"
+
+msgid "PREVIEW"
+msgstr "プレビュー"
+
+msgid "PROG = OVER + STEP/2"
+msgstr "進行度 = 突破値 + STEP値/2"
+
+msgid "PROG = OVER - ||OVER-FRAG|-|OVER-STEP||"
+msgstr "進行度 = 突破値 - ||突破値 - FRAG値| - |突破値 - STEP値||"
+
+msgid "PROG x= FRAG"
+msgstr "進行度 x= FRAG値"
+
+msgid "PROG x= max(1.0, 2.0 - 0.1 x LEVEL)"
+msgstr "進行度 x= max(1.0, 2.0 - 0.1 x LEVEL)"
+
+msgid "Pack"
+msgstr "パック"
+
+msgid "Pack Append"
+msgstr "Pack Append"
+
+msgid ""
+"Pack required to\n"
+"unlock FTR difficulty"
+msgstr ""
+"難易度FTR解禁には\n"
+"上記のパックが必要です"
+
+msgid "Page %1@/%2@"
+msgstr "ページ %1@/%2@"
+
+msgid "Pandora Nemesis"
+msgstr "パンドラネメシス"
+
+msgid "Part I"
+msgstr "Part I"
+
+msgid "Part II"
+msgstr "Part II"
+
+msgid "Part III"
+msgstr "Part III"
+
+msgid "Partner"
+msgstr "パートナー"
+
+msgid "Partner Progress"
+msgstr "パートナー効果"
+
+msgid "Partner Sealed"
+msgstr "封印中"
+
+msgid "Partner Skill"
+msgstr "パートナースキル"
+
+msgid "Partner Storage"
+msgstr "パートナー蓄積分"
+
+msgid ""
+"Partners gain experience while playing in World Mode.\n"
+"Higher-level Partners and ones with difficult abilities help you progress faster."
+msgstr ""
+"パートナーはワールドモードをプレイすることで経験値を獲得します\n"
+"高いレベルになると、より高度なアビリティを習得して進行を早めることができます"
+
+msgid ""
+"Partners share %@% of their Fragments with Kou,\n"
+"received after playing a song (Total: %2@)"
+msgstr ""
+"他パートナーで入手した欠片の%@%を蓄積する\n"
+"1曲プレイ後に合計(計:%2@個)をプレゼント"
+
+msgid "Password"
+msgstr "パスワード"
+
+msgid "Password (confirm)"
+msgstr "パスワード(確認)"
+
+msgid "Password does not match"
+msgstr "パスワードが一致しません"
+
+msgid "Password must be at least 8 characters"
+msgstr "パスワードは8文字以上にしてください"
+
+msgid "Pause Type"
+msgstr "ポーズ方式"
+
+msgid "Pay %@ Fragments to extend maximum friends to %2@?"
+msgstr "%@ 欠片を支払うことで上限を %2@に増やすことができます。"
+
+msgid ""
+"Pay 10 Fragments on start\n"
+"Gain 1 Milk on clear"
+msgstr ""
+"開始時に欠片10個を支払い\n"
+"クリアのたびに『牛乳』を1本獲得"
+
+msgid ""
+"Pay the chart level in Fragments on start\n"
+"Earn +10 Fragments on EX or above"
+msgstr ""
+"開始時、譜面難度と同数の欠片を消費し\n"
+"EXグレード以上で得られる欠片が+10"
+
+msgid "Peacemaker"
+msgstr "ピースメーカー"
+
+msgid "Performance"
+msgstr "パフォーマンスレート"
+
+msgid ""
+"Performance does not effect ascent or descent\n"
+"Upon failure, all will be lost"
+msgstr ""
+"特進も降格も功績に関与しない\n"
+"失敗時、すべてが失われる"
+
+msgid ""
+"Personal IDs and stats are only visible on your own Profile Card.\n"
+"View friends' Profile Cards and scores by adding their ID via the Network menu."
+msgstr "『ネットワーク』で追加したフレンドは、プロフカードとハイスコアが見れます。"
+
+msgid "Phase"
+msgstr "Phase"
+
+msgid "Play %@ %2@"
+msgstr "%@ %2@ をプレイする"
+
+msgid "Play Result"
+msgstr "プレイ結果"
+
+msgid ""
+"Play a song that is\n"
+"above your Potential"
+msgstr ""
+"ポテンシャル上の実力を\n"
+"超えたスコアを出す"
+
+msgid ""
+"Play in progress.\n"
+"This Room cannot currently be joined."
+msgstr ""
+"楽曲プレイ中です。\n"
+"今すぐこのルームに参加することはできません。"
+
+msgid "Player ID"
+msgstr "プレイヤーID"
+
+msgid ""
+"Player Potential shown\n"
+"when enabled"
+msgstr ""
+"有効時に\n"
+"ポテンシャルを表示"
+
+msgid ""
+"Players can suggest songs, appearing as messages.\n"
+"Tap a message to quickly jump to a suggested song."
+msgstr ""
+"楽曲のおすすめもできます。おすすめすると\n"
+"メッセージとして表示されます。タップするとその曲に移動します。"
+
+msgid "Playing in World Mode consumes stamina. Stamina regenerates over time."
+msgstr "ワールドモードをプレイするとスタミナを消費します スタミナは時間とともに回復されます"
+
+msgid "Please email 'contact@lowiro.com' for any game or account issues."
+msgstr ""
+"アカウント・ゲームにおける不具合は、\n"
+"『contact@lowiro.com』までお問い合わせ下さい"
+
+msgid "Please enter a valid code."
+msgstr "有効なコードを入力してください"
+
+msgid "Please enter a valid email address"
+msgstr "有効なメールアドレスを入力してください"
+
+msgid "Please select an active event map to begin."
+msgstr "各マップ開放期間は2週間、開放中のマップを選択して参加しましょう。"
+
+msgid "Please update Arcaea to the latest version."
+msgstr "Arcaeaを最新版にアップデートしてください。"
+
+msgid ""
+"Please wait %@ minutes before requesting\n"
+"another verification email."
+msgstr "認証メールの再申請まで、あと%@分ほどお待ち下さい。"
+
+msgid "Please wait 24 hours before using this feature again."
+msgstr "本機能の再使用は24時間後までお待ち下さい。"
+
+msgid "Pop / Recommended"
+msgstr "ポップ・おすすめ"
+
+msgid "Potential"
+msgstr "ポテンシャル"
+
+msgid "Prepare to start..."
+msgstr "準備中…"
+
+msgid "Preparing"
+msgstr "準備中"
+
+msgid ""
+"Present difficulties and above provide a greater challenge.\n"
+"\n"
+"Before challenging this level we recommend that you\n"
+"play the Advanced Tutorial.\n"
+"\n"
+"You can view the Tutorial later from Main Menu > About."
+msgstr ""
+"'Present'以上の難易度には複雑な譜面が含まれています\n"
+"\n"
+"プレイする前に'チュートリアルへ'を選択し、\n"
+"上級者向けのチュートリアルをやってみましょう\n"
+"\n"
+"メインメニューのAboutから行くこともできます"
+
+msgid "Presets"
+msgstr "プリセット"
+
+msgid ""
+"Presets can be accessed easily from other menus by holding and\n"
+"swiping down on the main Partner icon in the top bar."
+msgstr ""
+"プリセットからパートナーを切り替えるには、\n"
+"画面上部のパートナーアイコンを、長押ししてから下にスワイプします。"
+
+msgid "Preview"
+msgstr "プレビュー"
+
+msgid ""
+"Preview a Partner's FRAG, STEP, and OVER stats at Base, Max, and\n"
+"Awakened levels by tapping the top left bars."
+msgstr ""
+"左上の各ボタンで、初期時・最大レベル時・覚醒時における\n"
+"パートナーのFRAG・STEP・OVERステータス値を確認できます。"
+
+msgid "Price"
+msgstr "価格"
+
+msgid "Privacy Policy"
+msgstr "個人情報保護方針"
+
+msgid "Privacy Policy Update"
+msgstr "プライバシーポリシーの改定"
+
+msgid "Private"
+msgstr "非公開"
+
+msgid "Proceed"
+msgstr "進む"
+
+msgid "Proceed[MACULA]"
+msgstr "前へ"
+
+msgid "Profile"
+msgstr "プロフィール"
+
+msgid ""
+"Profile Cards display player IDs, gameplay stats,\n"
+"and customizations such as Partners and banners."
+msgstr ""
+"『プロフカード』では、自分のIDやクリア状況のほか、バナーや\n"
+"パートナーなども表示出来ます（IDとクリア状況は非公開）"
+
+msgid "Progress"
+msgstr "進捗状況"
+
+msgid "Progress through World Mode to earn songs, Partners, & other rewards."
+msgstr ""
+"ワールドモードを進めていくことで\n"
+"楽曲やパートナーなどのコンテンツを開放することができます"
+
+msgid "Progress through a total of %@X steps in this chapter in order to unlock this Map"
+msgstr "本マップの解禁には、このチャプターでトータル、%@Xステップ分の踏破が必要です。"
+
+msgid ""
+"Progressing through Main Story packs and World Mode\n"
+"unlocks a variety of title screens and sceneries."
+msgstr ""
+"メインストーリーパックの進行、またはWorld Modeの開拓によって、\n"
+"タイトル画面と情景が解禁されていきます。"
+
+msgid "Public"
+msgstr "公開"
+
+msgid "Purchase"
+msgstr "購入する"
+
+msgid "Purchase Error"
+msgstr "購入エラー"
+
+msgid "Purchase through Arcaea Online"
+msgstr "Arcaea Online経由で支払う"
+
+msgid "Purchases Pending"
+msgstr "保留中の購入手続き"
+
+msgid ""
+"Purchases are available on all\n"
+"of your Arcaea devices."
+msgstr ""
+"購入済みコンテンツはArcaeaをインストールした\n"
+"すべての端末からご利用が可能です。"
+
+msgid "Pure Late/Early"
+msgstr "Pure L/E表示"
+
+msgid "Quickly swap between Partners by selecting and adding up to three into Presets."
+msgstr ""
+"パートナーをプリセットに登録することで最大3人まで、\n"
+"パートナーリスト外からも簡単に切り替えることができます。"
+
+msgid "Quit"
+msgstr "中断する"
+
+msgid "Quit near the end of a song"
+msgstr "楽曲の終了直前にリタイア"
+
+msgid "Quit ⸗⸗⸗⸗"
+msgstr "⸗⸗⸗にリタイア"
+
+msgid ""
+"Quitting will abandon the course.\n"
+"Stamina/Warped Shard will be spent!"
+msgstr ""
+"リタイアすると、コース全てを終了します。\n"
+"消費されたスタミナ/次元の硝片は返却されません。"
+
+msgid ""
+"Quitting will abandon the current song.\n"
+"Stamina/Fragments will be spent without progress!"
+msgstr ""
+"終了するとプレイ中の楽曲を放棄してしまいます\n"
+"消費したスタミナは戻すことができません！"
+
+msgid "Quitting will cause you to leave the room!"
+msgstr ""
+"終了するとルームから退出します！\n"
+"本当によろしいですか？"
+
+msgid "READY"
+msgstr "READY"
+
+msgid "REMAIN"
+msgstr "残り "
+
+msgid "REQUIREMENT"
+msgstr "マップの解放条件"
+
+msgid ""
+"RESTRICTION - Random + Double World progress\n"
+"After World progress, this skill changes"
+msgstr ""
+"RESTRICTION - ランダム選曲 + World進行度2倍\n"
+"Worldを進行後、スキルが変化"
+
+msgid "REWARDS"
+msgstr "クリア報酬"
+
+msgid "ROOM CODE"
+msgstr "ルームコード"
+
+msgid "Random"
+msgstr "ランダム"
+
+msgid ""
+"Random Fragment bonus upon\n"
+"completing song"
+msgstr "楽曲終了時、ランダムの欠片ボーナス"
+
+msgid ""
+"Randomly triggers MIRROR\n"
+"Gain +%@ Fragments on MIRROR"
+msgstr ""
+"MIRROR機能がランダムに発動\n"
+"発動時、欠片が+%@"
+
+msgid ""
+"Rank %1@: Earn +%2@% Fragments,\n"
+"x%3@ Recollection Rate loss"
+msgstr ""
+"%1@級: 欠片獲得個数が+%2@%\n"
+"さらに想起率減少量がx%3@倍に"
+
+msgid "Reach 3.50 Potential"
+msgstr ""
+"『ポテンシャル』が\n"
+"3.50に到達する"
+
+msgid ""
+"Reach 70 percent Recollection Rate or above\n"
+"by the end of the song to clear it."
+msgstr "曲の終わったときに左のゲージが70%以上で、クリアとなります"
+
+msgid "Read '%@'"
+msgstr "%@の読了"
+
+msgid "Read through %1@ in Story Mode"
+msgstr "Story Modeで%1@を読了する"
+
+msgid "Read ‘VS-6’ to Unlock"
+msgstr "「VS-6」の読了で解禁"
+
+msgid "Recall"
+msgstr "Recall"
+
+msgid ""
+"Recall Emotions. Each Emotion\n"
+"boosts an aspect of Ilith & Ivy by +10"
+msgstr ""
+"感情の回収を実行。回収した感情ごとに、\n"
+"Ilith & Ivyの機能を+10する"
+
+msgid "Receive Emails"
+msgstr "メールを受け取る"
+
+msgid ""
+"Receive a notification\n"
+"when stamina is full"
+msgstr ""
+"スタミナ全快時に\n"
+"お知らせします"
+
+msgid ""
+"Receive notifications\n"
+"when invited to Link Play"
+msgstr ""
+"招待を受信時に\n"
+"お知らせします"
+
+msgid "Receive occasional emails about lowiro games and news"
+msgstr "随時lowiroの最新情報をメールで受け取る"
+
+msgid ""
+"Recollection Gauge and OVER reduced by 1\n"
+"for every 2 FAR notes"
+msgstr ""
+"FAR2つごとに、突破値と\n"
+"想起率ゲージから1減少"
+
+msgid ""
+"Recollection Gauge measures Grade\n"
+"(Track Lost on Grade A or below)"
+msgstr ""
+"想起率ゲージで暫定グレードを表示\n"
+"(A以下でTrack Lost)"
+
+msgid ""
+"Recollection Gauge measures Grade (Track Lost\n"
+"when grade falls below personal best)"
+msgstr ""
+"想起率ゲージで暫定グレードを表示\n"
+"(自己ベスト以下に滑落時、Track Lost)"
+
+msgid "Recollection Gauge set to 0 for LOST notes"
+msgstr "ミスのたびに想起率が0%になります"
+
+msgid ""
+"Recollection Gauge starts at %@%\n"
+"Recollection Rate gain reduced to %2@%"
+msgstr ""
+"想起率ゲージが %@%からスタート\n"
+"想起率上昇の割合が%2@%に低減"
+
+msgid ""
+"Recollection Rate at 1/4 song progress\n"
+"is converted to stat bonus"
+msgstr ""
+"楽曲の1/4時点での想起率を\n"
+"ステータス値へのボーナスに変換"
+
+msgid ""
+"Recollection Rate gain increased,\n"
+"but decreases with song progress"
+msgstr ""
+"想起率の増加率が上昇\n"
+"増加率は楽曲が進むにつれて減少する"
+
+msgid ""
+"Recollection Rate gain reduces above 50%\n"
+"and increases below 50%"
+msgstr ""
+"想起率が50%を下回るほど増加量アップ\n"
+"50%を上回るほど増加量ダウン"
+
+msgid "Recollection loss 4x if not using BALANCE Partner"
+msgstr "TYPE: バランス以外は想起率の減少量4倍"
+
+msgid "Recollection loss 4x if not using SUPPORT Partner"
+msgstr "TYPE: サポート以外は想起率の減少量4倍"
+
+msgid "Recollection loss greatly increased based on OVER"
+msgstr "OVER値に応じて、想起率の減少量が肥大"
+
+msgid "Recommended: %@"
+msgstr "おすすめの値: %@"
+
+msgid ""
+"Recommends songs daily. Gain 41 Fragments\n"
+"on first clear of each song"
+msgstr ""
+"日替わりで楽曲をおすすめする\n"
+"該当楽曲のクリアで欠片41個を獲得"
+
+msgid "Redeem"
+msgstr "確認"
+
+msgid "Redeem Code"
+msgstr "コードを利用"
+
+msgid ""
+"Reduces graphics quality for\n"
+"lower performance devices"
+msgstr ""
+"グラフィック品質の切り替え\n"
+"（性能に余裕がない端末向け）"
+
+msgid "Refill"
+msgstr "回復"
+
+msgid "Refill Stamina"
+msgstr "スタミナを回復"
+
+msgid "Register"
+msgstr "登録"
+
+msgid ""
+"Registrations from this IP address are restricted.\n"
+"Try again later or contact support@lowiro.com"
+msgstr ""
+"このIPからの登録は制限されています。\n"
+"後で再度お試しになるか、サポートまでご連絡ください"
+
+msgid "Regulus"
+msgstr "レグルス"
+
+msgid "Remember a better girl, and stay to certain time."
+msgstr ""
+"ある時期に留まることだ──\n"
+"聡い少女を思い出す方さ、わかるだろう？"
+
+msgid "Remember a weaker girl, and stay to certain time."
+msgstr ""
+"ある時期に留まることだ──\n"
+"惰弱な少女を思い出す方さ、わかるだろう？"
+
+msgid "Remember an old adage. Do not rush."
+msgstr "焦らないことだ───昔から、そう言うだろう。"
+
+msgid ""
+"Remember what is, plainly, before your eyes.\n"
+"Stay to it."
+msgstr ""
+"そのままにしておくコトさ──ありのまま、\n"
+"よく見るものがあるだろう？"
+
+msgid ""
+"Remember what you have gained through\n"
+"memories, or choose a 4th option."
+msgstr ""
+"重ねてきたメモリーの一つか、\n"
+"4つ目の高みから一つさ──選べるだろう？"
+
+msgid "Removed from room"
+msgstr "部屋から退出させました"
+
+msgid ""
+"Removes all downloaded songs.\n"
+"They can be downloaded again at any time."
+msgstr ""
+"ダウンロードされた全楽曲を削除します。\n"
+"なお、いつでも再ダウンロードが可能です。"
+
+msgid "Requirement"
+msgstr "購入条件"
+
+msgid "Requirements"
+msgstr "解禁条件"
+
+msgid "Requires email confirmation"
+msgstr "削除確認メールより、承認が必要です"
+
+msgid "Resend Email"
+msgstr "メールの再送信"
+
+msgid "Reset"
+msgstr "リセット"
+
+msgid "Resolve to lose nothing"
+msgstr "失わないという覚悟"
+
+msgid "Restart"
+msgstr "再設定する"
+
+msgid "Restriction"
+msgstr "制限中"
+
+msgid "Result"
+msgstr "結果"
+
+msgid "Resume"
+msgstr "つづける"
+
+msgid "Retrace our journey"
+msgstr "軌跡を辿る、旅路を追憶する"
+
+msgid "Retry"
+msgstr "リトライ"
+
+msgid "Reunion"
+msgstr "Reunion"
+
+msgid "Reveal a Truth"
+msgstr "真実を明かす"
+
+msgid "Reveal a Whisper"
+msgstr "喚び声を聞く"
+
+msgid "Review Now"
+msgstr "レビューを書く"
+
+msgid "Rewards"
+msgstr "報酬"
+
+msgid "Rewards unlocked in World Mode can be used and played offline."
+msgstr "ワールドモードで開放したコンテンツはオフラインで使うことができます"
+
+msgid "Room Management"
+msgstr "ルーム管理"
+
+msgid "Room Options"
+msgstr "ルーム設定"
+
+msgid "Room codes can only be used to join Private rooms."
+msgstr "ルームコードは非公開ルームにのみ利用可能です。"
+
+msgid "Room is full."
+msgstr "このルームは満員です。"
+
+msgid ""
+"Run game at >60 FPS\n"
+"Uses more battery"
+msgstr ""
+"有効時に60FPS以上で稼働\n"
+"(バッテリー負荷:高)"
+
+msgid "SEALED"
+msgstr "封印"
+
+msgid "SEEKER"
+msgstr "究明者"
+
+msgid "SELECT"
+msgstr "選択"
+
+msgid "SKILL ACTIVE"
+msgstr "スキル発動中"
+
+msgid "STAFF LINK"
+msgstr "STAFF LINK"
+
+msgid "STAMINA"
+msgstr "スタミナ"
+
+msgid "STATUS"
+msgstr "状態"
+
+msgid "STEP"
+msgstr "ステップ"
+
+msgid ""
+"STEP progress carries over to the next World\n"
+"play when using Stamina (Current: %@)"
+msgstr ""
+"スタミナ消費したプレー時、STEPを蓄積\n"
+"次回のWorld進行時に加算 (計: %@)"
+
+msgid "STORY"
+msgstr "ストーリー"
+
+msgid "SUPPORT"
+msgstr "サポート"
+
+msgid "SWITCH"
+msgstr "属性切替"
+
+msgid "Saki"
+msgstr "咲姫"
+
+msgid "Salt"
+msgstr "ソルト"
+
+msgid "Sapphire"
+msgstr "サファイア"
+
+msgid "Saya"
+msgstr "サヤ"
+
+msgid "Saya & Elizabeth"
+msgstr "サヤ＆エリザベス"
+
+msgid "Scarlet Core"
+msgstr "緋赤の核"
+
+msgid "Scenery"
+msgstr "情景"
+
+msgid ""
+"Score displays distance\n"
+"to closest Grade threshold"
+msgstr ""
+"次グレードまでの距離を\n"
+"スコアの代わりに表示"
+
+msgid "Search..."
+msgstr "検索"
+
+msgid "Search[ALTEREGO]"
+msgstr "選別開始"
+
+msgid "Searching for an open room..."
+msgstr "参加可能なルームを検索中…"
+
+msgid "Seele"
+msgstr "セーレ"
+
+msgid "Select"
+msgstr "選択"
+
+msgid ""
+"Select \"All Songs\"\n"
+"from the Pack List\n"
+"in Music Play"
+msgstr ""
+"パック選択画面から\n"
+"『全曲』を選択する"
+
+msgid "Select BGM"
+msgstr "BGMを選択"
+
+msgid "Select Purchase Method"
+msgstr "支払い方法を選択してください"
+
+msgid "Select Scenery"
+msgstr "情景設定"
+
+msgid "Select Title Screen"
+msgstr "タイトル画面を選択"
+
+msgid "Select a Course"
+msgstr "コースを選んでください"
+
+msgid "Select a Song"
+msgstr "楽曲を選んでください"
+
+msgid "Select a map and play songs to progress towards rewards."
+msgstr "コンテンツを開放するには、マップを選択し、楽曲をプレイします"
+
+msgid ""
+"Select an obtained Partner to level up, switch between base and\n"
+"Awakened forms, or add to favorites by tapping their icon once more."
+msgstr ""
+"所持済みのパートナーではレベルアップ、通常と覚醒の切り替えなどが行えます。\n"
+"パートナーのアイコンをもう一度タップすると、お気に入りへの追加ができます。"
+
+msgid "Select the Partner '%@'"
+msgstr "パートナー『%@』を選択"
+
+msgid ""
+"Select the desired Partner by scrolling from the list on the left.\n"
+"Find Partners easily by tapping the Filter icon or entering a name in the Search bar."
+msgstr ""
+"左側のリストをスクロールして、パートナーを選択できます。\n"
+"フィルターのタップ、検索欄への名前入力でパートナーを探すこともできます。"
+
+msgid "Selecting an unobtained Partner will preview their Skill and max level stats."
+msgstr ""
+"未所持のパートナーを選択すると、そのパートナーの\n"
+"最大レベル時のスキルとステータスを確認できます。"
+
+msgid "Selene Sheryl"
+msgstr "セレネ・シェリル"
+
+msgid "Send Email"
+msgstr "確認メールを送る"
+
+msgid "Send another email for account verification?"
+msgstr "アカウントの認証メールを再送信しますか？"
+
+msgid "Sending..."
+msgstr "送信中..."
+
+msgid "Sense of Incompleteness"
+msgstr "未完の感覚"
+
+msgid "Serene Core"
+msgstr "穏閑の核"
+
+msgid "Serial code claimed successfully!"
+msgstr "シリアルコードの認証に成功しました！"
+
+msgid "Set"
+msgstr "セット"
+
+msgid "Setsuna"
+msgstr "セツナ"
+
+msgid "Settings"
+msgstr "設定"
+
+msgid "Setup"
+msgstr "調整する"
+
+msgid "Setup is not complete. Are you sure you want to cancel?"
+msgstr ""
+"設定は完了していません。変更した内容が失われますが、\n"
+"キャンセルしますか？"
+
+msgid "Severed Eden"
+msgstr "Severed Eden"
+
+msgid "Severed Eden - Chapter 2"
+msgstr "Severed Eden - Chapter 2"
+
+msgid "Shama"
+msgstr "しゃま"
+
+msgid "Share"
+msgstr "シェア"
+
+msgid "Shikoku"
+msgstr "紫黒"
+
+msgid "Shirabe"
+msgstr "調"
+
+msgid "Shirahime"
+msgstr "白姫"
+
+msgid "Show"
+msgstr "表示"
+
+msgid ""
+"Show Partner skill\n"
+"before song start"
+msgstr ""
+"楽曲プレイ直前に\n"
+"パートナースキルを表示"
+
+msgid "Show Potential"
+msgstr "ポテンシャル表示"
+
+msgid "Show Touches"
+msgstr "タッチエフェクト"
+
+msgid "Sia"
+msgstr "シア"
+
+msgid "Side"
+msgstr "サイド"
+
+msgid "Side Story"
+msgstr "サイド"
+
+msgid "Side Story[PACKLIST]"
+msgstr "サイドストーリー"
+
+msgid ""
+"Simple: let the weaker\n"
+"and younger be swifter."
+msgstr ""
+"単純さ、簡潔さ、慎ましいくらいさ。\n"
+"若く青く、弱いものほど身軽なものさ……"
+
+msgid "Single Tap"
+msgstr "タップ1回"
+
+msgid "Skill Display"
+msgstr "スキル表示"
+
+msgid "Skill and stats are inactive"
+msgstr "スキルとステータスが無効化されています"
+
+msgid "Skill inactive in World Mode"
+msgstr "World Modeにてスキル使用不能"
+
+msgid "Skill unlocked after Awakening"
+msgstr "覚醒後にスキルが解禁されます"
+
+msgid "Skill unlocked at level %@"
+msgstr "スキルはレベル%@でアンロック"
+
+msgid "Skip"
+msgstr "スキップ"
+
+msgid "Skip Vote"
+msgstr "おまかせ選曲"
+
+msgid ""
+"Sky notes can appear along Traces.\n"
+"Tap them in the air when they reach the upper input line."
+msgstr ""
+"すこし上の方にスカイノートが流れてくることがあります\n"
+"上のラインに合わせてタップしましょう"
+
+msgid "Slide songs to the right to add them to Favorites."
+msgstr "楽曲を右にスワイプして、『Favorites』に追加できます。"
+
+msgid "Slow"
+msgstr "遅め"
+
+msgid "Slower"
+msgstr "かなり遅め"
+
+msgid ""
+"Some maps have requirements to start them.\n"
+"Other maps are timed events, so check back often to find them."
+msgstr ""
+"いくつかのマップには開始条件があります\n"
+"期間限定のマップもあるため、定期的に確認しましょう"
+
+msgid "Sonata"
+msgstr "Sonata"
+
+msgid ""
+"Song Packs are organized by category. Scroll the category panel vertically\n"
+"to switch the current category, and horizontally to browse the Packs within."
+msgstr ""
+"楽曲パックはカテゴリ順に並んでいます。上下スワイプでカテゴリ切り替え、\n"
+"左右にスワイプで該当カテゴリのパックが一覧できます。"
+
+msgid "Song Select"
+msgstr "選曲権"
+
+msgid "Song."
+msgstr "唄"
+
+msgid "Songs can be sorted by Title, Difficulty, Date, or Grade."
+msgstr "楽曲は曲名順、難易度順、日付順、グレード順に並べ替えることができます。"
+
+msgid "Songs included: %@"
+msgstr "追加される楽曲数: %@"
+
+msgid ""
+"Songs required to\n"
+"unlock FTR difficulty"
+msgstr ""
+"難易度FTR解禁には\n"
+"上記の楽曲が必要です"
+
+msgid "Sort"
+msgstr "ソート"
+
+msgid "Sort By"
+msgstr "ソート順"
+
+msgid "Spend %1@ Fragments to Reveal a Truth?"
+msgstr "欠片%1@個を消費して、真実を明かしますか？"
+
+msgid "Spend %1@ Fragments to Reveal a Whisper?"
+msgstr "欠片%1@個を消費して、喚び声を聞きますか？"
+
+msgid "Spend %@ memories to activate boost?"
+msgstr "%@ メモリーでブースト機能を起動しますか？"
+
+msgid "Spend %@ memories to refill stamina?"
+msgstr "%@メモリーを使ってスタミナを回復しますか？"
+
+msgid "Spend Ether Drops to upgrade Intruder"
+msgstr "エーテルの雫を消費してかの侵犯者を強化"
+
+msgid "Spend Ether Drops to upgrade Partner"
+msgstr "エーテルの雫を消費してパートナーを強化"
+
+msgid ""
+"Spend Stamina\n"
+"and complete a song\n"
+"in World Mode"
+msgstr ""
+"『World Mode』で\n"
+"『スタミナ』を消費し\n"
+"楽曲を最後までプレイ"
+
+msgid "Spire of Convergence"
+msgstr "収束の螺旋塔"
+
+msgid "Spire of the Gods"
+msgstr "神々の螺旋塔"
+
+msgid "Stamina"
+msgstr "スタミナ"
+
+msgid ""
+"Stamina\n"
+"Boost"
+msgstr ""
+"スタミナ\n"
+"ブースト"
+
+msgid "Stamina Boost"
+msgstr "スタミナブースト"
+
+msgid "Stamina Notification"
+msgstr "スタミナ回復通知"
+
+msgid ""
+"Stamina Steps grant you additional stamina when stopped on.\n"
+"You'll miss the reward if you pass over it, so aim carefully!"
+msgstr ""
+"スタミナステップの上に止まると追加でスタミナを入手することができます。\n"
+"通り過ぎると入手できませんので、注意して狙ってください。"
+
+msgid "Stamina Used"
+msgstr "使用後のスタミナ"
+
+msgid "Stamina after"
+msgstr "使用後のスタミナ"
+
+msgid "Stamina before"
+msgstr "使用前のスタミナ"
+
+msgid "Stamina can be refilled using Memories or Fragments."
+msgstr "メモリーと欠片を使ってスタミナを回復することができます"
+
+msgid "Stamina refilled!"
+msgstr "スタミナが回復しました！"
+
+msgid "Standard / High"
+msgstr "標準/高"
+
+msgid "Standard progress"
+msgstr "通常時"
+
+msgid "Star."
+msgstr "恒星"
+
+msgid "Start"
+msgstr "開始"
+
+msgid "Starting in..."
+msgstr "開始まで…"
+
+msgid "Stats"
+msgstr "クリア状況"
+
+msgid ""
+"Stats are temporarily doubled\n"
+"upon clearing a maimai song"
+msgstr ""
+"maimai楽曲をクリア時のみ\n"
+"ステータスが一時的に上昇する"
+
+msgid "Stella"
+msgstr "ステラ"
+
+msgid "Stored Progress"
+msgstr "蓄積中の進行度"
+
+msgid ""
+"Stories in Act II are intended to be read after finishing Final Verdict.\n"
+"For the best experience, it is recommended to complete Final Verdict before proceeding."
+msgstr ""
+"メインストーリー《Act II》は、《Act I》最終章『Final Verdict』後の物語です。\n"
+"《Act II》突入前に、『Final Verdict』を綴ることをおすすめします。"
+
+msgid "Story"
+msgstr "Story"
+
+msgid "Story Mode"
+msgstr "Story Mode"
+
+msgid "Story Mode contains the game's unlockable storyline."
+msgstr "Story Modeには、開放することで読み進められるゲームの物語があります。"
+
+msgid "Story Text Speed"
+msgstr "テキスト速度"
+
+msgid "Submit to entropy"
+msgstr "混沌に降れ"
+
+msgid "Submit to resignation"
+msgstr "成就の前に散れ"
+
+msgid "Submit to silence"
+msgstr "沈黙に降れ"
+
+msgid "Success"
+msgstr "成功"
+
+msgid "Success! Welcome to Arcaea!"
+msgstr "登録が完了しました。Arcaeaの世界へようこそ！"
+
+msgid "Suggested by"
+msgstr "おすすめの一曲"
+
+msgid "Summer"
+msgstr "サマー"
+
+msgid "Sunder the world, wield a miracle"
+msgstr "奇跡を成すは、世を裂く異端"
+
+msgid "Sunset Core"
+msgstr "暮相の核"
+
+msgid "Sync"
+msgstr "同期"
+
+msgid "Sync Boost"
+msgstr "シンクブースト"
+
+msgid ""
+"Sync Boost grants a bonus to progress\n"
+"depending on the total combined score of the lobby."
+msgstr ""
+"シンクブーストが発動するとルーム合計スコアに応じて、\n"
+"進行度ボーナスを付加します。"
+
+msgid "Sync Rate"
+msgstr "シンク率"
+
+msgid "TANO*C Core"
+msgstr "TANO*Cの核"
+
+msgid "TYPE"
+msgstr "タイプ"
+
+msgid "Tairitsu"
+msgstr "対立"
+
+msgid "Tairitsu & Chuni Penguin"
+msgstr "対立＆チュウニペンギン"
+
+msgid "Tairitsu & El Fail"
+msgstr "対立＆エル・フェイル"
+
+msgid "Tairitsu & Trin"
+msgstr "対立＆トリン"
+
+msgid "Take her hand"
+msgstr "かの少女の手を取れ"
+
+msgid "Tap"
+msgstr "タップ"
+
+msgid ""
+"Tap 'Sync' at the top left of your screen any time to upload all of your scores.\n"
+"Once synchronized they can be safely restored to any new devices."
+msgstr ""
+"画面左の【同期】ボタンをタップして、いつでもスコアをアップロードできます。\n"
+"同期が完了次第、データはどの端末からも安全に復旧して頂けます。"
+
+msgid ""
+"Tap Floor notes as soon as they touch the input line.\n"
+"Tap the appropriate one of 4 floor lanes."
+msgstr ""
+"フロアノートが画面下のラインに触れるタイミングで\n"
+"4つのうち、適切なレーンをタップしてください"
+
+msgid "Tap Music Play to get started playing songs."
+msgstr "Music Playをタップすると、楽曲が遊べるモードに移ります。"
+
+msgid ""
+"Tap and hold long notes. Start when they reach\n"
+"the input line and release when they have passed it."
+msgstr ""
+"ロングノートは長押ししましょう。\n"
+"流れてきたら押し始めて、切れる時に指を離します"
+
+msgid "Tap the button once on every 3rd Beat"
+msgstr "3ビートごとにボタンをタップしてください"
+
+msgid "Tap this icon to change your current Partner."
+msgstr "アイコンをタップしてパートナーを選択。"
+
+msgid "Tap to claim Tier reward"
+msgstr "タップしてTier報酬を入手"
+
+msgid "Tap to obtain %@"
+msgstr "タップで%@を獲得"
+
+msgid "Tap to obtain with Memory Archive Ticket"
+msgstr "Memory Archiveチケットを消費して獲得"
+
+msgid "Tap to purchase"
+msgstr "購入"
+
+msgid "Tap to receive"
+msgstr "タップして受け取る"
+
+msgid "Tap to receive memories for any incomplete purchases"
+msgstr "タップして購入未完了分のメモリーを受け取る"
+
+msgid ""
+"Tap to switch preset\n"
+"for audio setups"
+msgstr ""
+"タップすると音声設定の\n"
+"プリセットを切替えます"
+
+msgid "Tap to switch to a different song pack."
+msgstr "タップすると、他の楽曲パックに切り替えることが出来ます。"
+
+msgid "Tempest"
+msgstr "Tempest"
+
+msgid "Terms of Service"
+msgstr "利用規約"
+
+msgid "Thank You"
+msgstr "ありがとうございます"
+
+msgid "Thank you for calling back to me."
+msgstr "〔ありがとう。あのとき、私にこたえてくれて〕"
+
+msgid ""
+"Thank you for your purchase!\n"
+"Your continued support helps the Arcaea project."
+msgstr ""
+"購入処理が完了しました\n"
+"ご愛顧、誠にありがとうございます。"
+
+msgid ""
+"The 'Beyond Boost' gauge rises as stamina is spent in World Mode to a max of 200%.\n"
+" When enabled, the boost increases your next Beyond Chapter play progress."
+msgstr ""
+"World Modeでスタミナ消費時、『Beyond ブースト』ゲージが上昇します（最大200%）\n"
+"『Beyond ブースト』を起動すると、Beyondチャプターの進行度が増加します。"
+
+msgid "The Arcaea network is currently under maintenance."
+msgstr "ネットワーク機能は現在メンテナンス中です。"
+
+msgid "The Lead selects a song to play."
+msgstr "選曲者は遊ぶ曲を選びます。"
+
+msgid "The battle begins again"
+msgstr "そして再度、戦端を開く"
+
+msgid ""
+"The current map will be progressed by each song play\n"
+"based on the active Partner's STEP value."
+msgstr ""
+"このマップは、楽曲プレイ毎に、\n"
+"現在のパートナーのSTEP値に基づいて進行します。"
+
+msgid "The data on this device will be replaced with the cloud save."
+msgstr "クラウドのデータをDLして、この端末のデータを上書きします。"
+
+msgid ""
+"The lowiro Privacy Policy has been updated to allow you\n"
+"to receive emails about lowiro games and updates.\n"
+"You can unsubscribe at any time.\n"
+"\n"
+"By continuing to use Arcaea, you acknowledge and accept\n"
+"our updated Privacy Policy."
+msgstr ""
+"プライバシーポリシーを改定しました。\n"
+"今後はメールでもlowiroの最新情報を受け取れるようになります。\n"
+"(配信は不定期で、受信設定はあとから変更も可能です)\n"
+"\n"
+"なお、Arcaeaを継続的にご利用いただく場合、\n"
+"改定後のプライバシーポリシーにご同意頂いたものとします。"
+
+msgid "The purchase could not be completed."
+msgstr "購入処理が完了できませんでした"
+
+msgid "The room you were invited to is no longer available."
+msgstr "すでにこのルームは利用できません。"
+
+msgid ""
+"The story of Arcaea draws to a close.\n"
+"\n"
+"A choice has been made and the fate of two is sealed. Choices made cannot be undone.\n"
+"\n"
+"You have now unlocked the ability to re-play past Anomalies\n"
+"when their conditions are met.\n"
+"\n"
+"An additional story entry has been unlocked."
+msgstr ""
+"Arcaeaの物語は幕を閉じました。\n"
+"\n"
+"二人の宿命における選択は成され、綴じられました。\n"
+"もう結果は覆りません。\n"
+"\n"
+"『新たな能力』が解禁されました。\n"
+"条件を満たした時、再びアノマリーの追体験が可能です。\n"
+"\n"
+"新しく『ストーリー』が一つ解禁されています。"
+
+msgid "Their Story"
+msgstr "彼女らの物語"
+
+msgid ""
+"There are players in your room\n"
+"who have not purchased or unlocked this song."
+msgstr ""
+"この曲を解禁していない、または\n"
+"まだ未購入のプレイヤーさんがいます。"
+
+msgid "There is a new version of Arcaea available. Please update."
+msgstr ""
+"新しいバージョンがリリースされています。\n"
+"アプリストアからアップデートしてください"
+
+msgid ""
+"There was a problem downloading data. Please check your device's storage.\n"
+"Error Code: %1@"
+msgstr ""
+"ダウンロード中に問題が発生しました。\n"
+"端末ストレージの空き容量をご確認ください。\n"
+"エラーコード: %1@"
+
+msgid "There was a problem receiving the server response."
+msgstr "サーバーとの接続にエラーが発生しました"
+
+msgid ""
+"There was a problem receiving the server response.\n"
+"Please check your progress after re-entering World Mode."
+msgstr ""
+"サーバーとの接続に問題が発生しました\n"
+"ワールドモードに再度入り直してください"
+
+msgid "There was a problem saving the song. Please check storage."
+msgstr "楽曲の保存時に問題が発生しました。ストレージ容量を確認してください"
+
+msgid "There was a problem submitting this score online."
+msgstr "スコアの送信処理中にエラーが発生しました"
+
+msgid "This Intruder has reached maximum level."
+msgstr "かの侵犯者は最大レベルに到達しました"
+
+msgid ""
+"This Pack is available to obtain until 30 April 2027.\n"
+"\n"
+"Once obtained, the Pack's contents can continue\n"
+"to be accessed after 30 April 2027."
+msgstr ""
+"このパックは、2027/04/30 までの\n"
+"期間限定で入手できます。\n"
+"\n"
+"パック内の楽曲は、一度入手すると\n"
+"上記の期間後もプレイ可能です。"
+
+msgid ""
+"This Pack is available to obtain until 9 March 2027.\n"
+"\n"
+"Once obtained, the Pack's contents can continue\n"
+"to be accessed after 9 March 2027."
+msgstr ""
+"このパックは、2027/03/09 までの\n"
+"期間限定で入手できます。\n"
+"\n"
+"パック内の楽曲は、一度入手すると\n"
+"上記の期間後もプレイ可能です。"
+
+msgid ""
+"This Pack is not yet available.\n"
+"Please check back soon!"
+msgstr ""
+"まだリリース前のパックです。\n"
+"もうしばらくお待ち下さい！"
+
+msgid "This Partner has reached maximum level."
+msgstr "パートナーは最大レベルに到達しました。"
+
+msgid ""
+"This Partner has reached maximum level.\n"
+"Awaken the Partner to upgrade them further."
+msgstr ""
+"パートナーが最大レベルに到達しました。\n"
+"更にレベルを上げるためには、パートナーを覚醒させてください。"
+
+msgid "This Partner is obtained through World Mode."
+msgstr "このパートナーはワールドモードで獲得可能です"
+
+msgid "This account is locked."
+msgstr "このアカウントはロックされています"
+
+msgid ""
+"This account is not verified.\n"
+"Please check your registered email inbox\n"
+"for instructions on how to complete verification."
+msgstr ""
+"アカウントの認証が済んでいません。\n"
+"ご登録のアドレスのメールボックスをご確認の上、\n"
+"認証プロセスを完了してください。"
+
+msgid ""
+"This account registration has expired.\n"
+"Please register a new account."
+msgstr ""
+"この認証リンクは失効しています。\n"
+"お手数ですが初めからアカウント登録をやり直して下さい。"
+
+msgid "This can be adjusted at any time from settings"
+msgstr "この項目は設定からいつでも変えることができます"
+
+msgid "This code has already been claimed."
+msgstr "このコードは既に使用されています"
+
+msgid "This email address is already in use."
+msgstr "このメールアドレスは既に利用されています"
+
+msgid "This event has already ended. Your score was not submitted."
+msgstr "該当のイベントは終了しました。スコアは送信されません。"
+
+msgid "This event map has ended and is no longer available."
+msgstr "このイベントマップは既に終了しているか、もう利用できません"
+
+msgid "This event map is currently not available!"
+msgstr "このイベントマップは現在利用できません！"
+
+msgid "This feature has already been used on this device."
+msgstr "本機能はこの端末にすでに適用されています。"
+
+msgid ""
+"This feature has been restricted for your account.\n"
+"If you are unsure why, please contact support@lowiro.com"
+msgstr ""
+"本機能はこのアカウントでは制限されています。\n"
+"心当たりのない方はsupport@lowiro.comにお問合せください。"
+
+msgid "This feature is currently not available."
+msgstr "本機能は現在、ご利用いただけません。"
+
+msgid "This item is currently unavailable to purchase."
+msgstr "このアイテムは現在購入することができません"
+
+msgid "This map has already been completed!"
+msgstr "このマップはすでに開拓済みです！"
+
+msgid "This memory... was it always here?"
+msgstr "……こんなモノ、今まであったかしら？"
+
+msgid ""
+"This purchase has already been completed.\n"
+"Please attempt tapping 'Complete Purchase'\n"
+"Contact support@lowiro.com if you have concerns."
+msgstr ""
+"この購入手続きは完了しています。\n"
+"以下の【購入を完了する】ボタンをタップしてください。\n"
+"もし質問、ご不明点などありましたら、\n"
+"support@lowiro.comまでお問い合わせください。"
+
+msgid ""
+"This purchase requires additional steps.\n"
+"Please attempt tapping 'Complete Purchase'\n"
+"or restarting Arcaea once complete."
+msgstr ""
+"この支払いには追加の手順が必要です。\n"
+"下の【購入を完了する】をタップするか、\n"
+"完了時にArcaeaアプリを再起動して下さい。"
+
+msgid ""
+"This score could not be submitted online.\n"
+"Please restart or update Arcaea."
+msgstr ""
+"このスコアはネットワークに送信出来ませんでした。\n"
+"Arcaeaを再起動するか、更新してください。"
+
+msgid ""
+"This serial code is not yet redeemable.\n"
+"The redeem period will be announced at a later date."
+msgstr ""
+"このシリアルコードはまだ使用できません。\n"
+"使用可能なタイミングは公式の告知をお待ち下さい。"
+
+msgid "This song is available by progressing through World Mode."
+msgstr "この楽曲はワールドモードで開放することができます"
+
+msgid "This song is available through completing Beginner Missions."
+msgstr "本楽曲は『ビギナーミッション』の途中で解禁できます。"
+
+msgid ""
+"This song is available to obtain until 9 March 2027.\n"
+"\n"
+"Once obtained, the song can continue\n"
+"to be accessed after 9 March 2027."
+msgstr ""
+"この楽曲は、2027/03/09 までの\n"
+"期間限定で入手できます。\n"
+"\n"
+"楽曲は、一度入手すると\n"
+"上記の期間後もプレイ可能です。"
+
+msgid ""
+"This song is not yet available.\n"
+"Please check back soon!"
+msgstr ""
+"まだリリース前の楽曲です\n"
+"もうしばらくお待ち下さい！"
+
+msgid ""
+"This story is intended to be read after %1@ and %2@.\n"
+"For the best experience, it is recommended to have read %1@ and %2@ before proceeding."
+msgstr ""
+"本ストーリーは『%1@』『%2@』のつづきです。\n"
+"より良い体験のため、本ストーリー前に『%1@』『%2@』の読了がおすすめです。"
+
+msgid ""
+"This story is intended to be read after %1@.\n"
+"For the best experience, it is recommended to have read %1@ before proceeding."
+msgstr ""
+"本ストーリーは『%1@』のつづきです。\n"
+"より良い体験のため、本ストーリー前に『%1@』の読了がおすすめです。"
+
+msgid "This user does not exist."
+msgstr "そのユーザーが存在しません"
+
+msgid "This user is already your friend."
+msgstr "このユーザーは既にあなたのフレンドになっています"
+
+msgid "This username is already in use."
+msgstr "このユーザー名は既に使用されています"
+
+msgid ""
+"This version of Arcaea is preparing for release. \n"
+"Please check back in a few minutes."
+msgstr ""
+"このバージョンのArcaeaは現在、リリースの準備中です。\n"
+"しばらくしてから再度お試しください。"
+
+msgid ""
+"This will delete your account permanently!\n"
+"You will be sent an email to complete the process."
+msgstr ""
+"アカウントを完全に削除します。よろしいですか？\n"
+"問題なければ下のボタンを押して下さい。\n"
+"ご登録のアドレスに確認メールが送信されます。"
+
+msgid "Throne."
+msgstr "玉座"
+
+msgid "Tier reward has been claimed"
+msgstr "このTier報酬は入手済みです"
+
+msgid "Time remaining until Course abandoned"
+msgstr "リタイアまでの残り時間"
+
+msgid "Time to next conversion:"
+msgstr "次の変換まで:"
+
+msgid "Time up."
+msgstr "時間切れ──。"
+
+msgid "Title"
+msgstr "曲名"
+
+msgid "Title Screen"
+msgstr "タイトル画面"
+
+msgid "To Main Menu"
+msgstr "Main Menuへ"
+
+msgid "To World Mode"
+msgstr "World Modeへ"
+
+msgid "To progress through the story, you will need to complete requirements."
+msgstr "物語を進めるためには、条件を満たす必要があります。"
+
+msgid "Toa Kozukata"
+msgstr "不来方 とあ"
+
+msgid "Toggle"
+msgstr "イラスト変更"
+
+msgid "Top"
+msgstr "画面上部"
+
+msgid "Transcend your limit"
+msgstr "克己せよ、超越せよ"
+
+msgid ""
+"Transfer your scores and unlocks to any other device\n"
+"by logging in and using the Cloud Save feature.\n"
+"\n"
+"Cloud Save is not a dedicated backup feature.\n"
+"Please only use one account per device, and\n"
+"note that Fragments are not transferred."
+msgstr ""
+"ログイン後、クラウドセーブ機能をご利用していただくことで、\n"
+"解禁した楽曲とハイスコアを他のデバイスへ転送することが可能です。\n"
+"\n"
+"クラウドセーブ機能はバックアップ機能とは異なります。\n"
+"端末１つにつきご利用されるアカウントも１つに留めてください。 \n"
+"転送の対象は解禁した楽曲とハイスコアのみで、欠片は含まれません。"
+
+msgid "Tsumugi"
+msgstr "つむぎ"
+
+msgid "Turns"
+msgstr "交代制"
+
+msgid "Tutorial"
+msgstr "チュートリアル"
+
+msgid "Twilight"
+msgstr "宵闇"
+
+msgid "UNLOCK"
+msgstr "アンロック"
+
+msgid "UNiVERSE"
+msgstr "ゆにばーす"
+
+msgid "Umbral Core"
+msgstr "虚影の核"
+
+msgid "Unavailable Offline"
+msgstr "オフライン"
+
+msgid "Unlock"
+msgstr "アンロック"
+
+msgid "Unlock %@ %2@"
+msgstr "%@ %2@の解禁"
+
+msgid "Unlock %@ by purchasing %2@"
+msgstr "'%2@' を購入すると パートナー '%@' が追加されます"
+
+msgid "Unlock %@ by purchasing the %2@ pack"
+msgstr ""
+"拡張パック '%2@' を購入すると\n"
+"パートナー '%@' が追加されます"
+
+msgid "Unlock Conditions"
+msgstr "楽曲の解放条件"
+
+msgid "Unlock Conditions[CUSTOMIZE]"
+msgstr "解禁条件"
+
+msgid "Unlock Hint"
+msgstr "ヒントを開示する"
+
+msgid "Unlock Requirement"
+msgstr "解禁条件"
+
+msgid "Unlock [WORLD]"
+msgstr "ストーリーの解禁"
+
+msgid ""
+"Unlock a map in 2\n"
+"different World Chapters"
+msgstr ""
+"2つの『チャプター』で\n"
+"ワールドマップを解放"
+
+msgid ""
+"Unlock a song\n"
+"using fragments"
+msgstr ""
+"『欠片』を使って\n"
+"楽曲を開放する"
+
+msgid "Unlock all rewards to claim Tier reward"
+msgstr "このTierの全ミッションを完了すると、報酬が獲得できます"
+
+msgid "Unlocked by reaching Potential 9.00"
+msgstr "ポテンシャルが9.0に到達すると、解禁されます"
+
+msgid "Unlocked in Axiom of the End"
+msgstr "Axiom of the Endにて解禁可能"
+
+msgid ""
+"Unlocked in World Mode\n"
+" Chapter %@"
+msgstr ""
+"World Modeにて解禁可能\n"
+"対象マップ: Chapter %@"
+
+msgid ""
+"Unlocked in World Mode\n"
+" Lost Chapter: Beyond"
+msgstr ""
+"World Modeにて解禁可能\n"
+"Lost Chapter: Beyond"
+
+msgid "Unowned"
+msgstr "未解放"
+
+msgid "Update '%1@' Pack?"
+msgstr "楽曲パック【%1@】を更新しますか？"
+
+msgid "Update Pack?"
+msgstr "この楽曲パックを更新しますか？"
+
+msgid "Upgrade"
+msgstr "強化"
+
+msgid "Upload"
+msgstr "アップロード"
+
+msgid "Use Cloud Save"
+msgstr "クラウドのデータを使用する"
+
+msgid "Use Cores to awaken Partner?"
+msgstr "パートナーの覚醒に核を使いますか？"
+
+msgid "Use Fragments"
+msgstr "欠片を使う"
+
+msgid "Use Memories"
+msgstr "メモリーを使う"
+
+msgid ""
+"Use Random Song to pick\n"
+"a song, and clear it"
+msgstr ""
+"ランダムボタンで選曲、\n"
+"楽曲をクリアする"
+
+msgid "Use Warped Shard to play this course?"
+msgstr "次元の硝片を消費して、このコースをプレイしますか？"
+
+msgid ""
+"Use a Partner with a\n"
+"STEP stat over 50 to\n"
+"progress in World Mode"
+msgstr ""
+"ステータス『STEP値』が\n"
+"50以上のパートナーで\n"
+"World Modeを進める"
+
+msgid ""
+"Use a Partner with a STEP stat over 50\n"
+"to progress in World Mode"
+msgstr ""
+"ステータス『STEP値』が50以上のパートナーで\n"
+"World Modeを進める"
+
+msgid ""
+"Use all Milk (Current: %@). Each Milk grants\n"
+"a +11% chance to gain 100 Fragments"
+msgstr ""
+"『牛乳』を全て消費し (現在: %@本)、\n"
+"1本あたり11%の確率で欠片100個を獲得"
+
+msgid ""
+"Use an Ether Drop to\n"
+"upgrade a Partner"
+msgstr ""
+"『エーテルの雫』を使い\n"
+"パートナーを強化する"
+
+msgid ""
+"Use two fingers when two Arc notes appear.\n"
+"Keep the same finger on one color of Arc note for its duration."
+msgstr ""
+"アークノートが2つ流れてきたら、指を2本使いましょう\n"
+"ノートが続いている間は指を変えることはできません"
+
+msgid "Username"
+msgstr "ユーザー名"
+
+msgid "Username must be 3-15 characters a-Z 0-9"
+msgstr ""
+"ユーザー名は3文字以上15文字以下の\n"
+"英数字にしてください"
+
+msgid "Username or password incorrect."
+msgstr "ユーザー名またはパスワードが間違っています"
+
+msgid "VIIM"
+msgstr "VIIM"
+
+msgid ""
+"VISUAL - 'Nutritious' note appearance\n"
+"when playing a %2@ song"
+msgstr ""
+"VISUAL - %2@楽曲をプレイ時、\n"
+"ノートのデザインが「リコピン」になる"
+
+msgid "VISUAL - Recollection Gauge is hidden"
+msgstr "VISUAL - 想起率が非表示になります"
+
+msgid "Variants"
+msgstr "形態変更"
+
+msgid "Variety"
+msgstr "バラエティ"
+
+msgid "Verifying files..."
+msgstr "DLファイルを確認中…"
+
+msgid "Version"
+msgstr "Ver."
+
+msgid "View"
+msgstr "全体表示"
+
+msgid "View All"
+msgstr "全パートナー"
+
+msgid "View your Profile Card"
+msgstr ""
+"『プロフィールカード』\n"
+"を確認する"
+
+msgid "Visibility"
+msgstr "ルームの公開設定"
+
+msgid "Visual"
+msgstr "画面設定"
+
+msgid "Vita"
+msgstr "ヴィータ"
+
+msgid "Vote"
+msgstr "投票制"
+
+msgid "Voting Results"
+msgstr "投票結果"
+
+msgid "WACCA Core"
+msgstr "WACCAの核"
+
+msgid ""
+"WARNING! Cancelling will consume\n"
+"your Warped Shard/Stamina."
+msgstr ""
+"警告: すでにスタミナ・次元の硝片を消費しています。\n"
+"DLをキャンセルしても、消費分は返却されません。"
+
+msgid ""
+"WARNING! You are using a modified version of Arcaea.\n"
+"Continued use will result in the banning of your account.\n"
+"This is a final warning."
+msgstr ""
+"警告！改変・クラックされたArcaeaの使用が確認されました。\n"
+"該当環境の継続使用はアカウント凍結の対象です。\n"
+"これは最終警告です。"
+
+msgid ""
+"WORLD\n"
+"TOTAL"
+msgstr ""
+"トータル\n"
+"進行度"
+
+msgid "Waiting for more players to join the room."
+msgstr "他のプレイヤーが揃うまでお待ち下さい。"
+
+msgid "Waiting for other players to finish..."
+msgstr "他のプレイヤーさんの終了を待っています…"
+
+msgid "Waiting for others to vote..."
+msgstr "他プレイヤーの選曲を待っています"
+
+msgid "Waiting for players to join..."
+msgstr "プレイヤーの参加を待っています…"
+
+msgid "Waiting for the Lead's selection..."
+msgstr "選曲者さんが曲を選んでいます…"
+
+msgid "Waiting for your vote..."
+msgstr "遊びたい楽曲を選んでください"
+
+msgid "Wanderer"
+msgstr "Wanderer"
+
+msgid "Warning"
+msgstr "警告"
+
+msgid "Warped Shard"
+msgstr "次元の硝片"
+
+msgid ""
+"Warped Shards can be used instead of stamina to start any unlocked course.\n"
+"They are obtained through World Mode and various means."
+msgstr ""
+"次元の硝片をスタミナの代わりに消費することで、解禁済みのコースをプレイ出来ます。\n"
+"本アイテムはWorld Modeなど、様々なタイミングで入手できます。"
+
+msgid ""
+"Watch Axiom of the End\n"
+"from above for 4 minutes"
+msgstr ""
+"Axiom of the Endの\n"
+"トップ画面を、4分眺める"
+
+msgid "Watch the upper input area for Sky notes."
+msgstr "少し上に流れてくるノートには、専用のラインがあります"
+
+msgid "Welcome"
+msgstr "ようこそ"
+
+msgid ""
+"Welcome to Arcaea!\n"
+"Here are the basics to get started."
+msgstr ""
+"Arcaea（アーケア）の世界へようこそ！\n"
+"さっそく、楽しみ方を学んでいきましょう"
+
+msgid ""
+"Welcome to Arcaea!\n"
+"Please complete setup for best timing.\n"
+"\n"
+"You can re-configure this later through the Settings menu."
+msgstr ""
+"Arcaea(アーケア)の世界へようこそ！\n"
+"まずは判定タイミングの設定を行いましょう。\n"
+"\n"
+"この設定は後から変更も可能です。"
+
+msgid ""
+"When 5 notes are LOST, FRAG reduced by 3\n"
+"per additional LOST note"
+msgstr ""
+"5回以上LOSTになった際\n"
+"LOST1回ごとにFRAG値が3ずつ減少"
+
+msgid ""
+"When a new minute begins,\n"
+"start and clear a song"
+msgstr ""
+"時刻の秒針が0のときに\n"
+"楽曲を開始、クリアする"
+
+msgid "When enabled, players have a timed window to select songs and difficulties."
+msgstr "選曲時、タイムリミットを設けます。"
+
+msgid "When lost: woe to the strong."
+msgstr "憐れなりや喪う者、強き者は嘆きを見る"
+
+msgid "When lost: woe to the unequal."
+msgstr "憐れなりや喪う者、均衡なき者に災いあり"
+
+msgid "When lost: woe to the unhelpful."
+msgstr "憐れなりや喪う者、無援の者に災いあり"
+
+msgid "When usurping a Partner, Lacrymira's stats will be used."
+msgstr "パートナーの『簒奪』発生時、ラクリミラのステータスが参照される。"
+
+msgid "While some songs are unlocked with Fragments, others are unlocked in World Mode."
+msgstr "欠片で解禁できる楽曲もありますが、その他の曲はWorld Modeにて解禁できます。"
+
+msgid "Winter"
+msgstr "ウィンター"
+
+msgid "With Lacrymira's skill unlocked, she is able to usurp song plays or Track Lost events in World Mode."
+msgstr ""
+"今、ラクリミラのスキルが開放された。\n"
+"World Modeでの楽曲プレイ時や、トラックロスト時に『簒奪』が発生。"
+
+msgid "With perfection or imperfection"
+msgstr "完全か、不完全のいずれか"
+
+msgid "World"
+msgstr "全世界"
+
+msgid "World Boost"
+msgstr "Worldブースト"
+
+msgid ""
+"World Boost active.\n"
+"All progress in World Mode increased by %@%."
+msgstr ""
+"Worldブーストが発動済みです。\n"
+"Worldモード内、すべての進行度に\n"
+"%@%のボーナスが加算されます。"
+
+msgid ""
+"World Mode has been overloaded.\n"
+"The overload will clear in %@.\n"
+"\n"
+"Refilling stamina will immediately restore World Mode."
+msgstr ""
+"World Modeが過負荷状態です。\n"
+"解消までの所要時間: %@\n"
+"\n"
+"この状態はスタミナ回復時に解消されます。"
+
+msgid ""
+"World Mode has been overloaded.\n"
+"The overload will clear in %@.\n"
+"\n"
+"Refilling stamina will immediately restore World Mode.\n"
+"Would you like to refill your Stamina\n"
+"or continue Link Play with Map progress disabled?"
+msgstr ""
+"World Modeが過負荷状態です。\n"
+"解消までの所要時間: %@\n"
+"\n"
+"この状態はスタミナ回復時に解消されます。\n"
+"スタミナを回復しますか？\n"
+"スキップしてLink Playを続行しますか？"
+
+msgid ""
+"World Mode progress randomly increased\n"
+"or decreased between %2@ and %3@"
+msgstr ""
+"World Modeの進行度が\n"
+"%2@から%3@の間でランダムに増減"
+
+msgid "World Overload"
+msgstr "過負荷状態"
+
+msgid ""
+"World Parallel is a limited-time event where\n"
+"3 new Limited Partners and rewards can be obtained."
+msgstr ""
+"『World Parallel』とは、新たな期間限定イベントです。\n"
+"踏破することで、3人の限定パートナーと報酬を獲得できます。"
+
+msgid ""
+"World progress doubled when Stamina\n"
+"is greater than or equal to 6"
+msgstr ""
+"スタミナが6以上のとき\n"
+"Worldの進行度が2倍"
+
+msgid ""
+"World progress increased by\n"
+"%@ if a Fragment reward is collected"
+msgstr ""
+"欠片を入手時、\n"
+"Worldの進行度を%@追加"
+
+msgid ""
+"World progress increased by\n"
+"%@ when starting on a Restriction Step"
+msgstr ""
+"楽曲制限タイルから開始時\n"
+"Worldの進行度を%@追加"
+
+msgid ""
+"World progress increased by up to 10\n"
+"based on completed Maps in a Chapter"
+msgstr ""
+"同Chapter内の開拓済みマップの数に応じて\n"
+"World進行度に最大10のボーナス"
+
+msgid "Yes"
+msgstr "はい"
+
+msgid "You already own this item."
+msgstr "既に入手済みです"
+
+msgid "You are Lead. Select a song..."
+msgstr "選曲できます。曲を選んでください。"
+
+msgid ""
+"You are at the point of no return.\n"
+"Proceeding will make a decision that you can not reverse."
+msgstr ""
+"ここから先、引き返すことは出来ません。\n"
+"取り返しがつかないとしても、続きへ進みますか？"
+
+msgid ""
+"You are close to the end of this map!\n"
+"Are you sure you want to activate Memory Boost?"
+msgstr ""
+"このマップの終わりまでもう直ぐです。\n"
+"本当にメモリーブーストを使用しますか？"
+
+msgid "You are not the Lead."
+msgstr "選曲者は他の人です。"
+
+msgid "You can also organize songs into groups by Version, Level, or Grade."
+msgstr "また、バージョン毎、レベル毎、グレード毎に楽曲をフォルダでまとめることもできます。"
+
+msgid ""
+"You can check this Tutorial again any time\n"
+"from the main menu."
+msgstr ""
+"チュートリアルはメインメニューのAboutから、\n"
+"いつでも見ることができます。"
+
+msgid "You can come back any time to reread story entries you've already unlocked."
+msgstr "また、解禁したストーリーは、いつでも読み返せます。"
+
+msgid "You can see what pack you'll need for a specific story entry by tapping on it."
+msgstr "特定のストーリーにはどのパックの入手が必要か、タップで確認できます。"
+
+msgid "You can't be friends with yourself ;_;"
+msgstr "あなた自身をフレンドにすることはできません(´；ω；｀)"
+
+msgid ""
+"You cannot make a new account\n"
+"from this IP address today."
+msgstr ""
+"このIPアドレスからは本日、\n"
+"新規アカウントを作ることはできません。"
+
+msgid ""
+"You currently cannot add more friends.\n"
+"Extend your friend limit to add more."
+msgstr ""
+"今よりもフレンドを追加することはできません。\n"
+"追加するためにはフレンド上限を拡張してください。"
+
+msgid ""
+"You currently have a total of %@ Fragments\n"
+"(including stacks of %2@)."
+msgstr ""
+"現在、%@個の欠片を持っています。\n"
+"（スタック（%2@個）分も含む）"
+
+msgid ""
+"You do not have enough Stamina\n"
+"to progress in World Parallel.\n"
+"\n"
+"Would you like to refill your Stamina\n"
+"or continue Link Play with Map progress disabled?"
+msgstr ""
+"World Parallelの進行に必要なスタミナが不足しています。\n"
+"Link Playはこのまま続行できますが、\n"
+"World Parallelは進行しません。\n"
+"\n"
+"スタミナを回復しますか？\n"
+"スキップしてLink Playを続行しますか？"
+
+msgid "You do not have enough Stamina."
+msgstr "スタミナが足りません。"
+
+msgid "You do not have enough Warped Shards."
+msgstr "次元の硝片が足りません。"
+
+msgid "You do not have enough stamina."
+msgstr "スタミナが不足しています"
+
+msgid ""
+"You have been logged out by another device.\n"
+"Please restart Arcaea."
+msgstr ""
+"他のデバイスからログアウト操作がされました。\n"
+"Arcaeaアプリを再起動してください。"
+
+msgid ""
+"You have incomplete purchases pending.\n"
+"These may require any or all of the following to be done:\n"
+"• A parent to approve your purchase\n"
+"• Paying for the purchase at a store\n"
+"• Waiting for payment approval\n"
+"Once the necessary steps are complete,\n"
+"please tap \"Complete Purchase\"."
+msgstr ""
+"未完了の購入手続きが保留されています。以下の\n"
+"該当するいずれか、または全てを解消する必要があります。\n"
+"・保護者による購入の承認\n"
+"・アプリストアでの支払い\n"
+"・ストアによる支払い承認待ち\n"
+"\n"
+"該当する問題が解消できましたら、\n"
+"「購入を完了する」を押してください。"
+
+msgid ""
+"You have incomplete purchases.\n"
+"Please attempt tapping 'Complete Purchase'."
+msgstr ""
+"未完了の支払いがあります。\n"
+"【支払いを完了する】をタップして下さい。"
+
+msgid ""
+"You have no Ether Drops. Ether Drops can be acquired\n"
+"by progressing through World Mode."
+msgstr ""
+"エーテルの雫を持っていません。\n"
+"エーテルの雫はワールドモードにて獲得可能です。"
+
+msgid "You have not yet unlocked a special song in this course."
+msgstr "このコースに必要な特殊曲をまだ解禁していません。"
+
+msgid "You have not yet unlocked all of the songs in this course."
+msgstr "このコースに必要な楽曲をまだ解禁していません。"
+
+msgid "You have reached the maximum friend limit."
+msgstr "フレンド登録数が上限に達しました。"
+
+msgid "You may complete these requirements on any difficulty level."
+msgstr "これらの解禁条件はどの難易度でも達成可能です。"
+
+msgid ""
+"You must be online and logged in to play Link Play.\n"
+"Log in via Network on the main menu."
+msgstr ""
+"Link Playで遊ぶにはログインしてオンライン\n"
+"である必要があります。メインメニューの\n"
+"『Network』からログインしてください。"
+
+msgid "You must be online and logged in to unlock songs."
+msgstr "購入はネットへのログイン状態が必須となります。"
+
+msgid ""
+"You must be online and logged in to unlock songs.\n"
+"Log in via Network on the main menu."
+msgstr ""
+"追加楽曲の開放にはオンライン接続環境とログインが必要です\n"
+"「メニュー」のネットワーク項目よりログインを行ってください"
+
+msgid ""
+"You must be online and logged into an account\n"
+"to claim mission rewards."
+msgstr ""
+"報酬を入手するには、『Arcaeaアカウント』が\n"
+"オンラインである必要があります。"
+
+msgid "You must complete the previous course to challenge this one."
+msgstr ""
+"このコースに挑戦するには、\n"
+"一つ前のコースをクリアしてください。"
+
+msgid "You must integrate %@ more Beyond to unlock this Map."
+msgstr "本マップの解禁には、あと%@つのBYD解禁が必要です。"
+
+msgid "You must integrate %@ more Beyonds to unlock this Map."
+msgstr "本マップの解禁には、あと%@つのBYD解禁が必要です。"
+
+msgid "You must unlock the previous map to reveal this song."
+msgstr "この楽曲を開放するには、前のマップを解禁する必要があります。"
+
+msgid "You must unlock ‘%@’ %2@ and ‘%3@’ %4@ to engage this song."
+msgstr "この楽曲のプレイには、 【%@】 %2@と【%3@】 %4@ の解禁が必要です。"
+
+msgid "You must unlock ‘%@’ %2@ to engage this song."
+msgstr "この楽曲のプレイには、 【%@】 %2@ の解禁が必要です。"
+
+msgid ""
+"You no longer have enough Fragments\n"
+"to use this boost."
+msgstr ""
+"ブースト機能に必要な\n"
+"欠片の量が足りません"
+
+msgid "You were removed from the room."
+msgstr "ルームから退出させました"
+
+msgid "You'll also earn Fragments to unlock more songs and difficulties."
+msgstr "また、ロックされた楽曲や、他の譜面難易度の解禁などに使用する「欠片」が手に入ります。\t"
+
+msgid ""
+"You've logged into over 2 devices in 24 hours.\n"
+"Please wait %@ before using this new device."
+msgstr ""
+"24時間以内に3つ以上のデバイスからのログインを検知。\n"
+"%@の間、このデバイスからのログインはできません。"
+
+msgid "Your account functionality is currently limited."
+msgstr "あなたのアカウントの機能は現在、制限されています。"
+
+msgid "Your cloud save will be replaced with data from this device."
+msgstr "この端末のデータをアップロード後、クラウドのデータを上書きします。"
+
+msgid "Your email address will be used to log in"
+msgstr "メールアドレスはログインの際に必要です"
+
+msgid "Your friends list is full."
+msgstr "フレンドリストが一杯です"
+
+msgid "Your gauge has not increased enough to use Beyond Boost."
+msgstr "Beyondブーストを使用するには、ゲージの残量が足りません。"
+
+msgid "Your purchase has been completed successfully."
+msgstr "購入が成功しました。"
+
+msgid ""
+"Your want of fragments:\n"
+"make that matter as well."
+msgstr ""
+"欠片、欲しいよね？口でなんと言おうとさ。\n"
+"うまく使うんだね、せいぜいその欲をサ……"
+
+msgid "You’re early!"
+msgstr "ゆっくりいきましょう。"
+
+msgid "Yume"
+msgstr "ユメ"
+
+msgid "Yuno"
+msgstr "夢乃"
+
+msgid "Zero"
+msgstr "Zero"
+
+msgid "[PARALLEL]Boosts"
+msgstr "ブースト倍率"
+
+msgid "[PARALLEL]Performance"
+msgstr "パフォーマンスレート"
+
+msgid "[PARALLEL]Refill"
+msgstr "回復する"
+
+msgid "[PARALLEL]Skip"
+msgstr "スキップ"
+
+msgid "[PARALLEL]Sync"
+msgstr "シンクブーストについて"
+
+msgid "[PARTNERSELECT]Date"
+msgstr "入手日"
+
+msgid "[PARTNERSELECT]Locked"
+msgstr "未所持"
+
+msgid "[PROFILEMONTH]%1@"
+msgstr "%1@"
+
+msgid "[PROFILEYEAR]%1@"
+msgstr "%1@"
+
+msgid "[PROFILE]Friends"
+msgstr "フレンドのみ"
+
+msgid "[PROFILE]None"
+msgstr "なし"
+
+msgid "[PROFILE]Options"
+msgstr "設定"
+
+msgid "[PROFILE]Private"
+msgstr "非公開"
+
+msgid "[PROFILE]Visibility"
+msgstr "公開範囲"
+
+msgid "[RESULT]Boosts"
+msgstr "ブースト"
+
+msgid "[SKILL]SEALED"
+msgstr "スキル無効"
+
+msgid "[STORYPROGRESS]Story"
+msgstr "ストーリー"
+
+msgid "and when you are invited to Link Play."
+msgstr "Arcaeaのプッシュ通知としてお知らせします。"
+
+msgid "complete"
+msgstr "完了"
+
+msgid "from '%@'"
+msgstr "「%@」より"
+
+msgid "has joined the room"
+msgstr "さん が参加しました"
+
+msgid "has left the room"
+msgstr "さん が退出しました"
+
+msgid "illust:"
+msgstr "イラスト："
+
+msgid "is now the Lead"
+msgstr "さん が選曲者です"
+
+msgid "maimai Core"
+msgstr "maimaiの核"
+
+msgid "now"
+msgstr "今"
+
+msgid "or"
+msgstr "OR"
+
+msgid "remain"
+msgstr "残り"
+
+msgid "song"
+msgstr "楽曲"
+
+msgid "song pack"
+msgstr "楽曲パック"
+
+msgid "the App Store"
+msgstr "App Store"
+
+msgid "via Arcaea Online"
+msgstr "Arcaea Online経由で購入"
+
+msgid "with 5th Anniversary Ticket"
+msgstr "記念チケットを消費します"
+
+msgid "x%@ Boost"
+msgstr "ブースト%@倍"
+
+msgid "△BPM△"
+msgstr "△BPM△"
+
+msgid "△Difficulty△"
+msgstr "△難易度△"
+
+msgid "▽BPM△"
+msgstr "▽BPM△"
+
+msgid ""
+"⸗ anomaly or ⸗ song\n"
+"while using ⸗⸗⸗⸗"
+msgstr ""
+"アノマリー/⸗⸗曲を\n"
+"⸗⸗⸗で⸗⸗⸗"
+
+msgid ""
+"⸗⸗ Axiom of the end\n"
+"⸗⸗⸗⸗"
+msgstr ""
+"Axiom of the End⸗⸗\n"
+"⸗⸗⸗⸗⸗⸗"
+
+msgid "⸗⸗ Random ⸗⸗⸗"
+msgstr ""
+"ランダム⸗⸗⸗\n"
+"⸗⸗⸗⸗⸗"
+
+msgid ""
+"⸗⸗ each digit ⸗⸗\n"
+"⸗⸗⸗⸗⸗⸗"
+msgstr ""
+"⸗⸗⸗の数(全桁)⸗⸗\n"
+"⸗⸗⸗⸗"
+
+msgid ""
+"⸗⸗each Tairitsu⸗⸗\n"
+"⸗⸗ her s⸗⸗ Her"
+msgstr ""
+"対立を全て⸗⸗\n"
+"彼女の⸗⸗対立⸗⸗"
+
+msgid "⸗⸗⸗⸗ LOSTs"
+msgstr "LOST⸗⸗⸗"
+
+msgid ""
+"⸗⸗⸗⸗ first song of\n"
+"⸗⸗⸗⸗⸗⸗"
+msgstr ""
+"⸗⸗⸗の\n"
+"初めの曲⸗⸗"
+
+msgid ""
+"⸗⸗⸗⸗ minute begins,\n"
+"⸗⸗⸗⸗⸗⸗⸗⸗"
+msgstr ""
+"⸗⸗秒針が0のときに\n"
+"⸗⸗⸗⸗⸗"
+
+msgid ""
+"⸗⸗⸗⸗⸗ in\n"
+"Infinite Strife, ⸗⸗⸗"
+msgstr ""
+"【Infinite Strife,】の⸗⸗\n"
+"⸗⸗⸗⸗⸗"
+
+msgid ""
+"⸗⸗⸗⸗⸗⸗\n"
+"Tempest Tairitsu"
+msgstr "対立 (テンペスト)⸗⸗⸗⸗"
+
+msgid ""
+"⸗⸗⸗⸗⸗⸗\n"
+"above ⸗⸗ Potential"
+msgstr ""
+"ポテンシャル⸗⸗を\n"
+"超えた⸗⸗"
+
+msgid ""
+"⸗⸗⸗⸗⸗⸗\n"
+"⸗⸗ level ⸗⸗⸗⸗"
+msgstr ""
+"⸗⸗⸗レベル⸗\n"
+"⸗⸗⸗⸗⸗"
