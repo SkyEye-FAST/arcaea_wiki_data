@@ -18,7 +18,7 @@ PAGE_FILE_MAP = {
     "Module:Story/data/zh-hant": OUTPUT_DIR / "arcaea_story_zh-hant.lua",
     "Module:Story/data/ja": OUTPUT_DIR / "arcaea_story_ja.lua",
     "Module:Story/data/ko": OUTPUT_DIR / "arcaea_story_ko.lua",
-    "Module:Translation/data.json": OUTPUT_DIR / "tl.json",
+    "Template:Translation.json": OUTPUT_DIR / "tl.json",
     "Template:Version": OUTPUT_DIR / "version",
     "Template:Songlist.json": OUTPUT_DIR / "songlist",
     "Template:Packlist.json": OUTPUT_DIR / "packlist",
