@@ -46,6 +46,15 @@ FALLBACK_UA = (
 
 TL_LANGUAGES = ["zh-Hans", "zh-Hant", "ja", "ko"]
 
+STORY_SONG_PAGE_OVERRIDES = {
+    "aiueoon": "AI［UE］OON|AI[UE]OON",
+    "genesis": "Genesis (Iris)|Genesis",
+    "genesischunithm": "Genesis (Morrigan)|Genesis",
+    "ifi": "＃1f1e33|#1f1e33",
+    "quon": "Quon (Feryquitous)|Quon",
+    "quonwacca": "Quon (DJ Noriken)|Quon",
+}
+
 
 def po_string(keyword: str, value: str) -> list[str]:
     """Format a PO keyword as one or more string-literal lines."""
@@ -590,10 +599,12 @@ def build_story_data(
         if pack_id in pack_mapping:
             return pack_mapping[pack_id]
         if pack_id in song_mapping:
-            return song_mapping[pack_id]
+            return get_song_name(pack_id)
         return pack_id
 
     def get_song_name(song_id: str) -> str:
+        if song_id in STORY_SONG_PAGE_OVERRIDES:
+            return STORY_SONG_PAGE_OVERRIDES[song_id]
         return song_mapping.get(song_id, song_id)
 
     def get_char_name(char_id: Any) -> str:

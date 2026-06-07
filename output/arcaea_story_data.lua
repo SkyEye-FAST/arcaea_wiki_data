@@ -538,7 +538,7 @@ return {
         ["icon"] = "mirai",
         ["requiredPurchase"] = "Ambivalent Vision",
         ["clearChar"] = "忘却",
-        ["clearSong"] = "Genesis",
+        ["clearSong"] = "Genesis (Iris)|Genesis",
     },
     ["5-2"] = {
         ["icon"] = "mirai",
@@ -588,7 +588,7 @@ return {
         ["requiredMinor"] = "18-I",
         ["requiredPurchase"] = "Ambivalent Vision",
         ["clearChar"] = "忘却（Apophenia）",
-        ["clearSong"] = "Genesis",
+        ["clearSong"] = "Genesis (Iris)|Genesis",
     },
     ["18-III"] = {
         ["icon"] = "apophenia",
