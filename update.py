@@ -46,15 +46,6 @@ FALLBACK_UA = (
 
 TL_LANGUAGES = ["zh-Hans", "zh-Hant", "ja", "ko"]
 
-STORY_SONG_PAGE_OVERRIDES = {
-    "aiueoon": "AI［UE］OON|AI[UE]OON",
-    "genesis": "Genesis (Iris)|Genesis",
-    "genesischunithm": "Genesis (Morrigan)|Genesis",
-    "ifi": "＃1f1e33|#1f1e33",
-    "quon": "Quon (Feryquitous)|Quon",
-    "quonwacca": "Quon (DJ Noriken)|Quon",
-}
-
 
 def po_string(keyword: str, value: str) -> list[str]:
     """Format a PO keyword as one or more string-literal lines."""
@@ -588,7 +579,6 @@ def load_pack_song_mapping_from_apk(
 def build_story_data(
     all_stories: dict[str, dict[str, str]],
     vns_keys: set[str],
-    char_mapping: dict[str, str],
     manual_mapping: dict[str, dict[str, str]],
     pack_mapping: dict[str, str],
     song_mapping: dict[str, str],
@@ -603,12 +593,7 @@ def build_story_data(
         return pack_id
 
     def get_song_name(song_id: str) -> str:
-        if song_id in STORY_SONG_PAGE_OVERRIDES:
-            return STORY_SONG_PAGE_OVERRIDES[song_id]
         return song_mapping.get(song_id, song_id)
-
-    def get_char_name(char_id: Any) -> str:
-        return char_mapping.get(str(char_id), f"Unknown ({char_id})")
 
     def get_title_clean(entry: dict[str, Any], major: str) -> str:
         m = entry.get("minor", 0)
@@ -687,13 +672,11 @@ def build_story_data(
                         get_pack_name(req_purch) if req_purch and req_purch != "base" else ""
                     )
                     clear_char_str = (
-                        get_char_name(clear_char)
-                        if clear_char is not None and clear_char != -1
-                        else ""
+                        str(clear_char) if clear_char is not None and clear_char != -1 else ""
                     )
                     if clear_song and clear_song.startswith("_"):
                         clear_song = None
-                    clear_song_str = get_song_name(clear_song) if clear_song else ""
+                    clear_song_str = clear_song if clear_song else ""
 
                     params: dict[str, str] = {}
                     if is_changed:
@@ -830,7 +813,6 @@ def main(*, force_refresh: bool = False) -> None:
 
     print("[0/5] Starting Lua export pipeline...", flush=True)
 
-    char_mapping = orjson.loads((PROJECT_ROOT / "char_mapping.json").read_bytes())
     manual_mapping_raw = orjson.loads((PROJECT_ROOT / "manual.json").read_bytes())
     manual_mapping: dict[str, dict[str, str]] = {}
     for k, v in manual_mapping_raw.items():
@@ -864,7 +846,6 @@ def main(*, force_refresh: bool = False) -> None:
     lua_story_data = build_story_data(
         all_stories=all_stories,
         vns_keys=vns_keys,
-        char_mapping=char_mapping,
         manual_mapping=manual_mapping,
         pack_mapping=pack_mapping,
         song_mapping=song_mapping,
