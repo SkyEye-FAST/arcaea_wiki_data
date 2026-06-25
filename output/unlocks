@@ -7626,6 +7626,46 @@
           "credit": 180
         }
       ]
+    },
+    {
+      "songId": "telepathy",
+      "ratingClass": 4,
+      "conditions": [
+        {
+          "type": 0,
+          "credit": 100
+        }
+      ]
+    },
+    {
+      "songId": "kamippoi",
+      "ratingClass": 4,
+      "conditions": [
+        {
+          "type": 0,
+          "credit": 100
+        }
+      ]
+    },
+    {
+      "songId": "override",
+      "ratingClass": 4,
+      "conditions": [
+        {
+          "type": 0,
+          "credit": 100
+        }
+      ]
+    },
+    {
+      "songId": "aishite",
+      "ratingClass": 4,
+      "conditions": [
+        {
+          "type": 0,
+          "credit": 100
+        }
+      ]
     }
   ]
 }

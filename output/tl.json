@@ -2483,6 +2483,18 @@
     "ja": "Facebook",
     "ko": "Facebook"
   },
+  "Failed to complete purchase.\n\nRegion cannot be determined from the user's device\nor Memory purchases.": {
+    "zh-Hans": "无法完成购买。根据您使用的设备及源点购买情况，\n我们无法判断您所在的地区。",
+    "zh-Hant": "無法完成購買。根據您使用的設備及源點購買情況，\n我們無法判斷您所在的地區。",
+    "ja": "決済を完了できませんでした。\n\n端末内の各種ストア地域情報、もしくはWebからの\nメモリー購入時の地域情報のどちらかが取得できません。",
+    "ko": "구매에 실패했습니다.\n\n디바이스 내 스토어 정보, 또는 메모리 구매 당시의 지역\n정보를 가져올 수 없습니다."
+  },
+  "Failed to complete purchase. [Error: 117]\n\nTry again later or contact support@lowiro.com.": {
+    "zh-Hans": "无法完成购买。（错误代码：117）\n\n请稍后再试，或通过support@lowiro.com联系我们。",
+    "zh-Hant": "無法完成購買。（錯誤程式碼：117）\n\n請稍後再試，或通過support@lowiro.com聯繫我們。",
+    "ja": "決済を完了できませんでした。（エラーコード: 117）\n\n後ほど再度お試しいただくか、\n以下のサポートまでご連絡ください。\nsupport@lowiro.com",
+    "ko": "구매해 실패했습니다. [Error: 117]\n\n나중에 다시 시도하거나 아래 메일 주소를 통해 고객 센터로 문의해주십시오.\nsupport@lowiro.com"
+  },
   "Failed to get the latest content information.\nPlease check your internet connection. Error Code: %1@": {
     "zh-Hans": "无法获取更新信息，请检查网络连接。\n错误代码：%1@",
     "zh-Hant": "無法獲取更新信息，請檢查網路連結。\n錯誤代碼：%1@",
@@ -3488,7 +3500,7 @@
   "LIGHT - Rewrite the paradigms\nof Light and Conflict.": {
     "zh-Hans": "光芒 - 改写光芒与纷争的规则",
     "zh-Hant": "光芒 - 改寫光芒與紛爭的規則",
-    "ja": "光 - 光と対立のパラダイム属性を書き換える。",
+    "ja": "光 - 光と対立のパラダイム属性を書き換える",
     "ko": "LIGHT - Light와 Conflict의\n패러다임을 재작성"
   },
   "LIMITED": {
@@ -4327,7 +4339,7 @@
   },
   "OK": {
     "zh-Hans": "好的",
-    "zh-Hant": "好",
+    "zh-Hant": "好的",
     "ja": "OK",
     "ko": "결정"
   },
@@ -6623,6 +6635,12 @@
     "ja": "かの侵犯者は最大レベルに到達しました",
     "ko": "침입자의 레벨이 최고 상한에 도달했습니다."
   },
+  "This Pack is available to obtain until 24 June 2029.\n\nOnce obtained, the Pack's contents can continue\nto be accessed after 24 June 2029.": {
+    "zh-Hans": "当前曲包为期间限定获得内容，须在2029年6月24日前取得，\n规定时段内未获取的，将无法通过任何其他方式获取。\n\n在规定时段内购买该曲包后，\n曲包内容在2029年6月24日后仍然有效。",
+    "zh-Hant": "當前曲包為期間限定獲得內容，須在2029年6月24日前取得，\n規定時段內未獲取的，將無法通過任何其他方式獲取。\n\n在規定時段內購買該曲包後，\n曲包內容在2029年6月24日後仍然有效。",
+    "ja": "このパックは、2029/06/24 までの\n期間限定で入手できます。\n\nパック内の楽曲は、一度入手すると\n上記の期間後もプレイ可能です。",
+    "ko": "본 팩은 2029년 6월 24일까지만 구매 가능합니다.\n\n구매 후에는 2029년 6월 24일 이후로도 팩의\n콘텐츠를 이용할 수 있습니다."
+  },
   "This Pack is available to obtain until 30 April 2027.\n\nOnce obtained, the Pack's contents can continue\nto be accessed after 30 April 2027.": {
     "zh-Hans": "当前曲包为期间限定获得内容，须在2027年4月30日前取得，\n规定时段内未获取的，将无法通过任何其他方式获取。\n\n在规定时段内购买该曲包后，\n曲包内容在2027年3月9日后仍然有效。",
     "zh-Hant": "當前曲包為期間限定獲得內容，須在2027年4月30日前取得，\n規定時段內未獲取的，將無法通過任何其他方式獲取。\n\n在規定時段內購買該曲包後，\n曲包內容在2027年3月9日後仍然有效。",
@@ -7216,6 +7234,12 @@
     "zh-Hant": "綜合",
     "ja": "バラエティ",
     "ko": "버라이어티"
+  },
+  "Variety[PACKLIST]": {
+    "zh-Hans": "综合",
+    "zh-Hant": "綜合",
+    "ja": "バラエティ",
+    "ko": "Variety"
   },
   "Verifying files...": {
     "zh-Hans": "更新校验中……",

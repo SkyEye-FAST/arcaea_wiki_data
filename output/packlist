@@ -295,6 +295,7 @@
     {
       "id": "megarex",
       "section": "collab",
+      "coming_soon": false,
       "custom_banner": true,
       "plus_character": 96,
       "name_localized": {
@@ -306,22 +307,6 @@
         "ko": "미래는 이미 시작되었습니다.\n\nMEGAREX에서 넘어온 4개의 악곡,\n그리고 1개의 오리지널 악곡과 함께\n과거를 뒤로하고 지평선을 향해 나아가세요.\n\n낮과 밤 사이를 건너, 시라히메 (Flow)가 등장합니다!",
         "zh-Hant": "未來已來。\n\n穿越昨日不曾觸及的地平線，\n與來自MEGAREX的四首曲目及\n一首全新原創單曲會面。\n\n跨越白天與黑夜，白姬 (Flow) 閃亮登場！",
         "zh-Hans": "未来已来。\n\n穿越昨日不曾触及的地平线，\n与来自MEGAREX的四首曲目及\n一首全新原创单曲会面。\n\n跨越白天与黑夜，白姬 (Flow) 闪亮登场！"
-      }
-    },
-    {
-      "id": "nextstage",
-      "section": "collab",
-      "custom_banner": true,
-      "plus_character": 92,
-      "name_localized": {
-        "en": "Arcaea Next Stage"
-      },
-      "description_localized": {
-        "en": "Worlds turn in a grand crossing...\n\n12 artists are brought together to bring 6 original\nsongs in this commemorative collection!\n\nStride toward the farthest heights alongside\nHikari & Tairitsu (Debut)!",
-        "ja": "繋がり、交わり、そしてまだ見ぬ舞台へと──。\n\nアーティスト6組12名が結集、\nイベント記念の合作6曲を収録！\n\n『光&対立 (Debut)』と共に、\n遥かなる高み、新たなるステージへ！",
-        "ko": "웅장한 소리와 함께, 세계가 맞물립니다.\n\n이 기념 Pack으로\n12명의 아티스트가 자아내는 6개의 악곡을 경험해보세요!\n\n히카리 & 타이리츠 (Debut)와 함께\n더 높은 경지를 향해보세요!",
-        "zh-Hant": "世界在壯闊的交匯中傾轉…\n\n紀念此段獨特回憶，\n12位藝術家齊聚一堂\n為該曲包獻上6首原創歌曲。\n\n與光 & 對立 (Debut)共同邁向最遙遠的巔峰！",
-        "zh-Hans": "世界在壮阔的交汇中倾转……\n\n纪念此段独特回忆，\n12位艺术家齐聚一堂\n为该曲包献上6首原创歌曲。\n\n与光 & 对立(Debut)共同迈向最遥远的巅峰！"
       }
     },
     {
@@ -572,40 +557,6 @@
         "ko": "DJMAX를 다시 한 번.\n당신의 마음을 시험할 5개의 악곡.\n\n황혼 나미 & 스이와 함께,\n침묵으로 사라지지 마세요.\nFEVER의 열기가 당신을 부릅니다!",
         "zh-Hant": "又有五首DJMAX曲目到來，\n這是另一次心之試煉。\n\n同奈美（暮光）&希依一起，\n勇敢發聲，拒絕沈默！\nFEVER仍在召喚！",
         "zh-Hans": "又有五首DJMAX曲目到来，\n这是另一次心的试炼。\n\n同奈美（暮光）&希依一起，\n勇敢发声，拒绝沉默！\nFEVER仍在召唤！"
-      }
-    },
-    {
-      "id": "undertale",
-      "section": "collab",
-      "plus_character": -1,
-      "custom_banner": true,
-      "limitedSaleEndTime": 1804550400,
-      "name_localized": {
-        "en": "UNDERTALE"
-      },
-      "description_localized": {
-        "en": "A long time ago, a human fell into the ruins...\n\n5 iconic songs from UNDERTALE bring\nmemories flooding back.\n\nFight, or show mercy, but always remember:\nnever lose determination!",
-        "ja": "むかしむかし、とあるいせきに落ちた、\nニンゲンとモンスターの物語。\n\nタマシイと共鳴するような、\n5つの楽曲がUNDERTALEより登場！\n\nたたかえ、こうどうせよ、みなぎるケツイをその胸に。",
-        "ko": "오래 전, 한 인간이 폐허로 떨어졌다.\n\nUNDERTALE에서 건너온 5개의 악곡이,\n기억을 파도처럼 몰고 옵니다.\n\n맞서 싸우거나, 자비를 보이세요.\n넘치는 결의를, 잊지 마세요.",
-        "zh-Hant": "很久很久以前，一個人類掉入了地下的遺跡⋯\n\n五首經典的UNDERTALE曲目將帶你踏上回憶之旅。\n\n戰鬥，或是仁慈，均由你來決定，但請記住：\n永遠不要喪失決心！",
-        "zh-Hans": "很久很久以前，一个人类掉入了地下的遗迹⋯\n\n五首经典的UNDERTALE曲目将带你踏上回忆之旅。\n\n战斗，或是仁慈，均由你来决定，但请记住：\n永远不要丧失决心！"
-      }
-    },
-    {
-      "id": "undertale_append_1",
-      "section": "collab",
-      "pack_parent": "undertale",
-      "plus_character": -1,
-      "limitedSaleEndTime": 1809043200,
-      "name_localized": {
-        "en": "UNDERTALE Pack Append"
-      },
-      "description_localized": {
-        "en": "Hope: for a future of Humans and Monsters.\n\nRetrace your steps in the Underground with\n3 new songs from UNDERTALE.\n\nFeel the pounding of each and every one\nof those hearts!",
-        "ja": "きぼうをいだいて。　ニンゲンと\nモンスターの　みらいのために。\n\nUNDERTALEより、地底の世界の\n冒険を彩った3曲が登場。\n\n胸は高鳴り、今皆のこころがひとつになる。",
-        "ko": "희망...\n인간과 괴물이 평화롭게 지내는\n새롭고 밝은 미래의 시작입니다.\n\nUNDERTALE에서 건너온 3개의 악곡으로,\n지하 세계에서 겪었던 여정을 되돌아보세요.\n\n모든 이들의 심장이 박동하는 소리가 들려옵니다!",
-        "zh-Hant": "我希望：\n那個人類與怪物共存的未來。\n\n重溫地下世界的足跡，聆聽來自\nUNDERTALE的三首全新歌曲。\n\n感受每一顆跳動的心！",
-        "zh-Hans": "我希望：\n那个人类与怪物共存的未来。\n\n重温地下世界的足迹，聆听来自\nUNDERTALE的三首全新歌曲。\n\n感受每一颗跳动的心！"
       }
     },
     {
@@ -959,6 +910,74 @@
         "ko": "지금껏 없었던 놀라운 음악을 체험하세요.\n인기있는 모바일 리듬게임 'Dynamix'의\n'Sapphire'가 여러분을 만나러 찾아왔습니다.\n\n 지금껏 없었던 에너지 넘치는 사운드를\nArcaea에서 즐기실 수 있습니다!",
          "zh-Hant": "與人氣音樂手遊 Dynamix \n的薩菲亞一起徜徉于這些動人心弦的曲目，\n揭開沉睡在秘術之地裡的全新樂章！",
         "zh-Hans": "与来自著名音乐手游Dynamix \n的萨菲亚一起欣赏精彩而又动人的乐曲，\n揭开沉睡在Arcaea世界中的全新乐章！"
+      }
+    },
+    {
+      "id": "virtualsingers",
+      "section": "variety",
+      "plus_character": -1,
+      "custom_banner": true,
+      "limitedSaleEndTime": 1877040000,
+      "name_localized": {
+        "en": "Virtual Singers"
+      },
+      "description_localized": {
+        "en": "Behind the captivating glow, voices reach out\ninto reality...\n\n5 celebrated songs step onto the virtual stage!\n\nHand in hand with the digital world:\nLet dreams take form.",
+        "ja": "カガヤキの向こう、心を震わすコエ。\n――隔たりを超えて、現実となる！\n\nいま開演、バーチャルの舞台より5曲が登場！\n\nつながろう、電子の世界へと。\n描いたユメを形に変えて。",
+        "ko": "빛 너머에서 마음을 사로잡는 목소리가...\n\"가상\"에서 \"현실\"로.\n\n버추얼 무대에 울려퍼지는 다섯 개의 명곡!\n\n전자의 세계에서 손에 손을 잡고.\n꿈을 현실로 이루어냅시다.",
+        "zh-Hant": "攝人心魄的光芒背後，\n歌聲向現實世界蔓延開來……\n\n五首經典歌曲，\n即將在這虛擬的舞台上開演！\n\n與虛擬世界攜手同行，讓夢想，幻化成形！",
+        "zh-Hans": "摄人心魄的光芒背后，\n歌声向现实世界蔓延开来……\n\n五首经典歌曲，\n即将在这虚拟的舞台上开演！\n\n与虚拟世界携手同行，让梦想，幻化成形！"
+      }
+    },
+    {
+      "id": "nextstage",
+      "section": "variety",
+      "coming_soon": false,
+      "custom_banner": true,
+      "plus_character": 92,
+      "name_localized": {
+        "en": "Arcaea Next Stage"
+      },
+      "description_localized": {
+        "en": "Worlds turn in a grand crossing...\n\n12 artists are brought together to bring 6 original\nsongs in this commemorative collection!\n\nStride toward the farthest heights alongside\nHikari & Tairitsu (Debut)!",
+        "ja": "繋がり、交わり、そしてまだ見ぬ舞台へと──。\n\nアーティスト6組12名が結集、\nイベント記念の合作6曲を収録！\n\n『光&対立 (Debut)』と共に、\n遥かなる高み、新たなるステージへ！",
+        "ko": "웅장한 소리와 함께, 세계가 맞물립니다.\n\n이 기념 Pack으로\n12명의 아티스트가 자아내는 6개의 악곡을 경험해보세요!\n\n히카리 & 타이리츠 (Debut)와 함께\n더 높은 경지를 향해보세요!",
+        "zh-Hant": "世界在壯闊的交匯中傾轉…\n\n紀念此段獨特回憶，\n12位藝術家齊聚一堂\n為該曲包獻上6首原創歌曲。\n\n與光 & 對立 (Debut)共同邁向最遙遠的巔峰！",
+        "zh-Hans": "世界在壮阔的交汇中倾转……\n\n纪念此段独特回忆，\n12位艺术家齐聚一堂\n为该曲包献上6首原创歌曲。\n\n与光 & 对立(Debut)共同迈向最遥远的巅峰！"
+      }
+    },
+    {
+      "id": "undertale",
+      "section": "variety",
+      "plus_character": -1,
+      "custom_banner": true,
+      "limitedSaleEndTime": 1804550400,
+      "name_localized": {
+        "en": "UNDERTALE"
+      },
+      "description_localized": {
+        "en": "A long time ago, a human fell into the ruins...\n\n5 iconic songs from UNDERTALE bring\nmemories flooding back.\n\nFight, or show mercy, but always remember:\nnever lose determination!",
+        "ja": "むかしむかし、とあるいせきに落ちた、\nニンゲンとモンスターの物語。\n\nタマシイと共鳴するような、\n5つの楽曲がUNDERTALEより登場！\n\nたたかえ、こうどうせよ、みなぎるケツイをその胸に。",
+        "ko": "오래 전, 한 인간이 폐허로 떨어졌다.\n\nUNDERTALE에서 건너온 5개의 악곡이,\n기억을 파도처럼 몰고 옵니다.\n\n맞서 싸우거나, 자비를 보이세요.\n넘치는 결의를, 잊지 마세요.",
+        "zh-Hant": "很久很久以前，一個人類掉入了地下的遺跡⋯\n\n五首經典的UNDERTALE曲目將帶你踏上回憶之旅。\n\n戰鬥，或是仁慈，均由你來決定，但請記住：\n永遠不要喪失決心！",
+        "zh-Hans": "很久很久以前，一个人类掉入了地下的遗迹⋯\n\n五首经典的UNDERTALE曲目将带你踏上回忆之旅。\n\n战斗，或是仁慈，均由你来决定，但请记住：\n永远不要丧失决心！"
+      }
+    },
+    {
+      "id": "undertale_append_1",
+      "section": "variety",
+      "pack_parent": "undertale",
+      "plus_character": -1,
+      "limitedSaleEndTime": 1809043200,
+      "name_localized": {
+        "en": "UNDERTALE Pack Append"
+      },
+      "description_localized": {
+        "en": "Hope: for a future of Humans and Monsters.\n\nRetrace your steps in the Underground with\n3 new songs from UNDERTALE.\n\nFeel the pounding of each and every one\nof those hearts!",
+        "ja": "きぼうをいだいて。　ニンゲンと\nモンスターの　みらいのために。\n\nUNDERTALEより、地底の世界の\n冒険を彩った3曲が登場。\n\n胸は高鳴り、今皆のこころがひとつになる。",
+        "ko": "희망...\n인간과 괴물이 평화롭게 지내는\n새롭고 밝은 미래의 시작입니다.\n\nUNDERTALE에서 건너온 3개의 악곡으로,\n지하 세계에서 겪었던 여정을 되돌아보세요.\n\n모든 이들의 심장이 박동하는 소리가 들려옵니다!",
+        "zh-Hant": "我希望：\n那個人類與怪物共存的未來。\n\n重溫地下世界的足跡，聆聽來自\nUNDERTALE的三首全新歌曲。\n\n感受每一顆跳動的心！",
+        "zh-Hans": "我希望：\n那个人类与怪物共存的未来。\n\n重温地下世界的足迹，聆听来自\nUNDERTALE的三首全新歌曲。\n\n感受每一颗跳动的心！"
       }
     }
   ]
