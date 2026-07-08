@@ -1,0 +1,750 @@
+{
+  "special": {
+    "axiumcrisis": true,
+    "grievouslady": true,
+    "etherstrike": true,
+    "fractureray": true,
+    "solitarydream": true,
+    "lostdesire": true,
+    "tempestissimo": true,
+    "arcahv": true,
+    "aegleseeker": true,
+    "defection": true,
+    "infinitestrife": true,
+    "worldender": true,
+    "pentiment": true,
+    "arcanaeden": true,
+    "testify": true,
+    "lovelessdress": true,
+    "callimakarma": true,
+    "abstrusedilemma": true,
+    "arghena": true,
+    "last": true,
+    "lasteternity": true,
+    "tothefurthestdream": true,
+    "desive": true,
+    "innocence": true,
+    "alterego": true,
+    "pragmatism": true,
+    "viciousheroism": true,
+    "blrink": true,
+    "astralquant": true,
+    "lamentrain": true,
+    "designant": true,
+    "undyingmacula": true
+  },
+  "simple": [
+    {
+      "display": "Nitro",
+      "link": "Nitro"
+    },
+    {
+      "display": "夜浪",
+      "link": "Nitro"
+    },
+    {
+      "display": "NITRO",
+      "link": "Nitro"
+    },
+    {
+      "display": "nitro",
+      "link": "Nitro"
+    },
+    {
+      "display": "Toaster",
+      "link": "Toaster"
+    },
+    {
+      "display": "toaster",
+      "link": "Toaster"
+    },
+    {
+      "display": "東星",
+      "link": "Toaster"
+    },
+    {
+      "display": "k//eternal",
+      "link": "k//eternal"
+    },
+    {
+      "display": "TaroNuke",
+      "link": "TaroNuke"
+    },
+    {
+      "display": "Exschwasion",
+      "link": "Exschwasion"
+    },
+    {
+      "display": "antymis",
+      "link": "antymis"
+    },
+    {
+      "display": "Luxance",
+      "link": "Luxance"
+    },
+    {
+      "display": "chartaesthesia",
+      "link": "-chartaesthesia-"
+    },
+    {
+      "display": "絶滅",
+      "link": "絶滅"
+    },
+    {
+      "display": "moonquay",
+      "link": "moonquay"
+    },
+    {
+      "display": "én",
+      "link": "én"
+    },
+    {
+      "display": "Dec18",
+      "link": "Dec18"
+    },
+    {
+      "display": "KLMNOP",
+      "link": "KLMNOP"
+    },
+    {
+      "display": "Arcaea Charting Team",
+      "link": "Arcaea Charting Team"
+    },
+    {
+      "display": "raycast",
+      "link": "raycast"
+    },
+    {
+      "display": "M理論",
+      "link": "M理論"
+    },
+    {
+      "display": "sidewaves",
+      "link": "sidewaves"
+    },
+    {
+      "display": "karat",
+      "link": "karat"
+    },
+    {
+      "display": "零下",
+      "link": "零下"
+    },
+    {
+      "display": "反水",
+      "link": "反水"
+    },
+    {
+      "display": "nora::neko",
+      "link": "nora::neko"
+    },
+    {
+      "display": "瑞獣",
+      "link": "瑞獣"
+    },
+    {
+      "display": "煌磨",
+      "link": "煌磨"
+    }
+  ],
+  "complex": {
+    "Nitro": {
+      "Nitro": "Nitro"
+    },
+    "夜浪": {
+      "Nitro": "夜浪"
+    },
+    "NITRO": {
+      "Nitro": "NITRO"
+    },
+    "nitro": {
+      "Nitro": "nitro"
+    },
+    "Toaster": {
+      "Toaster": "Toaster"
+    },
+    "toaster": {
+      "Toaster": "toaster"
+    },
+    "東星": {
+      "Toaster": "東星"
+    },
+    "Kurorak": {
+      "Kurorak": "Kurorak"
+    },
+    "k//eternal": {
+      "k//eternal": "k//eternal"
+    },
+    "TaroNuke": {
+      "TaroNuke": "TaroNuke"
+    },
+    "Exschwasion": {
+      "Exschwasion": "Exschwasion"
+    },
+    "CERiNG": {
+      "CERiNG": "CERiNG"
+    },
+    "Aster": {
+      "CERiNG": "Aster"
+    },
+    "antymis": {
+      "antymis": "antymis"
+    },
+    "Luxance": {
+      "Luxance": "Luxance"
+    },
+    "-chartaesthesia-": {
+      "-chartaesthesia-": "%-chartaesthesia%-"
+    },
+    "絶滅": {
+      "絶滅": "絶滅"
+    },
+    "moonquay": {
+      "moonquay": "moonquay"
+    },
+    "én": {
+      "én": "én"
+    },
+    "Dec18": {
+      "Dec18": "Dec18"
+    },
+    "KLMNOP": {
+      "KLMNOP": "KLMNOP"
+    },
+    "Arcaea Charting Team": {
+      "Arcaea Charting Team": "Arcaea Charting Team"
+    },
+    "Nitr∞": {
+      "Nitro": "Nitr∞"
+    },
+    "N↓TRO": {
+      "Nitro": "N↓TRO"
+    },
+    "N↑TRO": {
+      "Nitro": "N↑TRO"
+    },
+    "N↕TRO": {
+      "Nitro": "N↕TRO"
+    },
+    "NiTRO": {
+      "Nitro": "NiTRO"
+    },
+    "N⇑TRO": {
+      "Nitro": "N⇑TRO"
+    },
+    "N[I]TRO": {
+      "Nitro": "N%[I]TRO"
+    },
+    "Nite Schwa Power": {
+      "Nitro": "Nite",
+      "Exschwasion": "Schwa"
+    },
+    "Nitrome X": {
+      "Nitro": "Nitro"
+    },
+    "N↕TRO v1.0.5": {
+      "Nitro": "N↕TRO"
+    },
+    "NITR<O>": {
+      "Nitro": "NITR<O>"
+    },
+    "ny＊tree": {
+      "Nitro": "ny＊tree"
+    },
+    "XERiNG × eXschwasion × NitromeX": {
+      "Nitro": "NitromeX",
+      "Exschwasion": "eXschwasion",
+      "CERiNG": "XERiNG"
+    },
+    "NO₂": {
+      "Nitro": "NO₂"
+    },
+    "小東星": {
+      "Toaster": "東星"
+    },
+    "Toastie": {
+      "Toaster": "Toastie"
+    },
+    "Toastmaker": {
+      "Toaster": "Toast"
+    },
+    "TO4STER": {
+      "Toaster": "TO4STER"
+    },
+    "トーストピア  ~Utopia of Toast~": {
+      "Toaster": "Toast"
+    },
+    "GOODTOAST": {
+      "Toaster": "TOAST"
+    },
+    "BADTOAST ft. Kurorak": {
+      "Toaster": "TOAST",
+      "Kurorak": "Kurorak"
+    },
+    "東超新星": {
+      "Toaster": "東超新星"
+    },
+    "Black Tea": {
+      "Toaster": "Tea",
+      "Kurorak": "Black"
+    },
+    "₸öα$†ε₹": {
+      "Toaster": "₸öα%$†ε₹"
+    },
+    "ΤΟΑΣΤΕΡ": {
+      "Toaster": "ΤΟΑΣΤΕΡ"
+    },
+    "τoastεr": {
+      "Toaster": "τoastεr"
+    },
+    "THE TOAST": {
+      "Toaster": "TOAST"
+    },
+    "τ0": {
+      "Toaster": "τ0"
+    },
+    "AMAZING TOASTYYYY!!!!": {
+      "Toaster": "TOAST"
+    },
+    "Toaster vs ₸öα$†ε₹": {
+      "Toaster": [
+        "Toaster",
+        "₸öα%$†ε₹"
+      ]
+    },
+    "Avant Toast": {
+      "Toaster": "Toast"
+    },
+    "トースト食べる？笑": {
+      "Toaster": "トースト"
+    },
+    "ToastErr0r": {
+      "Toaster": "ToastErr0r"
+    },
+    "TOASTER DATA PATCHER": {
+      "Toaster": "TOASTER"
+    },
+    "C7H11NO配合!!!!!!": {
+      "Toaster": "C7H11NO"
+    },
+    "TOA5TIE": {
+      "Toaster": "TOA5TIE"
+    },
+    "k//urorak": {
+      "Kurorak": "urorak",
+      "k//eternal": "k//"
+    },
+    "Shirorak": {
+      "Kurorak": "Shirorak"
+    },
+    "Haruba": {
+      "Kurorak": "Haruba"
+    },
+    "KURORAK": {
+      "Kurorak": "KURORAK"
+    },
+    "闇運": {
+      "Kurorak": "闇運"
+    },
+    "Kuro rak": {
+      "Kurorak": "Kuro rak"
+    },
+    "Revoke Kurorak": {
+      "Kurorak": "Kurorak"
+    },
+    "Kuro my Nitro": {
+      "Kurorak": "Kuro",
+      "Nitro": "Nitro"
+    },
+    "Kurorak + Nitro": {
+      "Kurorak": "Kurorak",
+      "Nitro": "Nitro"
+    },
+    "chaos//engine": {
+      "k//eternal": "chaos//engine"
+    },
+    "TΔroNuke": {
+      "TaroNuke": "TΔroNuke"
+    },
+    "TaroNukeΔ": {
+      "TaroNuke": "TaroNukeΔ"
+    },
+    "NitroNukeδ": {
+      "TaroNuke": "Nukeδ",
+      "Nitro": "Nitro"
+    },
+    "OptoNuke": {
+      "TaroNuke": "OptoNuke"
+    },
+    "Got More Taro?": {
+      "TaroNuke": "Taro"
+    },
+    "Exschwas↑on with CER↑NG": {
+      "Exschwasion": "Exschwas↑on",
+      "CERiNG": "CER↑NG"
+    },
+    "EXSCHWASiON": {
+      "Exschwasion": "EXSCHWASiON"
+    },
+    "EXSCHWASION": {
+      "Exschwasion": "EXSCHWASION"
+    },
+    "E.E.X.X.E.X.X.": {
+      "Exschwasion": "E%.E%.X%.X%.E%.X%.X%."
+    },
+    "Exschwas↕on": {
+      "Exschwasion": "Exschwas↕on"
+    },
+    "exschwasion -彩色-": {
+      "Exschwasion": "exschwasion"
+    },
+    "eXschwasion": {
+      "Exschwasion": "eXschwasion"
+    },
+    "ex＊tree": {
+      "Exschwasion": "ex＊tree"
+    },
+    "Exschwasión": {
+      "Exschwasion": "Exschwasión"
+    },
+    "CER↑NG": {
+      "CERiNG": "CER↑NG"
+    },
+    "CERiNG -liminal-": {
+      "CERiNG": "CERiNG"
+    },
+    "CERiNG、": {
+      "CERiNG": "CERiNG"
+    },
+    "CERiNG + Nitro": {
+      "CERiNG": "CERiNG",
+      "Nitro": "Nitro"
+    },
+    "XERiNG": {
+      "CERiNG": "XERiNG"
+    },
+    "antymīs": {
+      "antymis": "antymīs"
+    },
+    "ANTyMIS": {
+      "antymis": "ANTyMIS"
+    },
+    "るくあんす": {
+      "Luxance": "るくあんす"
+    },
+    "écologie (from SEGA)": {
+      "én": "écologie"
+    },
+    "ÉCOLOGIE IMPACT": {
+      "én": "ÉCOLOGIE"
+    },
+    "én feat. écologie": {
+      "én": [
+        "én",
+        "écologie"
+      ]
+    },
+    "《WARNING》<br />Arcaea Charting Team<br />vs -chromaesthesia-": {
+      "-chartaesthesia-": "%-chromaesthesia%-",
+      "Arcaea Charting Team": "Arcaea Charting Team"
+    },
+    "EXtINcTiON": {
+      "絶滅": "EXtINcTiON"
+    },
+    "eién": {
+      "én": "én"
+    },
+    "ÉN IMPACT": {
+      "én": "ÉN"
+    },
+    "N": {
+      "Nitro": "N"
+    },
+    "NーHelix": {
+      "Nitro": "N"
+    },
+    "N-Helix": {
+      "Nitro": "N"
+    },
+    "Exschwas↓on": {
+      "Exschwasion": "Exschwas↓on"
+    },
+    "Arcaea Team": {
+      "Arcaea Charting Team": "Arcaea Team"
+    },
+    "《WARNING》<br />Arcaea Cognition Team<br />-assimilated-": {
+      "Arcaea Charting Team": "Arcaea Cognition Team"
+    },
+    "[NITRO]": {
+      "Nitro": "%[NITRO]"
+    },
+    "ディストーション・ルクアンス": {
+      "Luxance": "ルクアンス"
+    },
+    "N•Ex•T": {
+      "N•Ex•T": "N•Ex•T"
+    },
+    "終点": {
+      "én": "終点"
+    },
+    "小終点": {
+      "én": "終点"
+    },
+    "聖輪": {
+      "聖輪": "聖輪"
+    },
+    "聖輪↓↑夜浪": {
+      "聖輪": "聖輪",
+      "Nitro": "夜浪"
+    },
+    "raycast": {
+      "raycast": "raycast"
+    },
+    "nora::neko": {
+      "nora::neko": "nora::neko"
+    },
+    "Kero": {
+      "Kero": "Kero"
+    },
+    "Kero + Nitro": {
+      "Kero": "Kero",
+      "Nitro": "Nitro"
+    },
+    "Aster -Får i Vaaris-": {
+      "CERiNG": "Aster"
+    },
+    "Aster join Toaster.": {
+      "CERiNG": "Aster",
+      "Toaster": "Toaster"
+    },
+    "石樂": {
+      "石樂": "石樂"
+    },
+    "Toaster × 石樂": {
+      "Toaster": "Toaster",
+      "石樂": "石樂"
+    },
+    "nora::nue": {
+      "nora::neko": "nora::nue"
+    },
+    "nora::kuma": {
+      "nora::neko": "nora::kuma"
+    },
+    "X-SCHWASION": {
+      "Exschwasion": "X%-SCHWASION"
+    },
+    "BlazinG ÉND": {
+      "én": "ÉN"
+    },
+    "EXSCHWASiON vs 絶滅": {
+      "Exschwasion": "EXSCHWASiON",
+      "絶滅": "絶滅"
+    },
+    "反水 × 夜浪": {
+      "反水": "反水",
+      "Nitro": "夜浪"
+    },
+    "反水": {
+      "反水": "反水"
+    },
+    "瑞獣": {
+      "瑞獣": "瑞獣"
+    },
+    "瑞獣 ＬＶ３": {
+      "瑞獣": "瑞獣"
+    },
+    "瑞獣 ＬＶ８": {
+      "瑞獣": "瑞獣"
+    },
+    "瑞獣 ＬＶ１５": {
+      "瑞獣": "瑞獣"
+    },
+    "瑞獣 ＬＶ１９": {
+      "瑞獣": "瑞獣"
+    },
+    "écologie": {
+      "én": "écologie"
+    },
+    "M理論": {
+      "M理論": "M理論"
+    },
+    "M理論 《Quintessence》": {
+      "M理論": "M理論"
+    },
+    "ə₀": {
+      "Exschwasion": "ə"
+    },
+    "ə (exschwasion)": {
+      "Exschwasion": "ə %(exschwasion%)"
+    },
+    "¬ə": {
+      "Exschwasion": "ə"
+    },
+    "nora::neko << fantasy": {
+      "nora::neko": "nora::neko"
+    },
+    "Exschwas⇅on": {
+      "Exschwasion": "Exschwas⇅on"
+    },
+    "sidewaves": {
+      "sidewaves": "sidewaves"
+    },
+    "Interator": {
+      "Interator": "Interator"
+    },
+    "零下": {
+      "零下": "零下"
+    },
+    "零下 -descent-": {
+      "零下": "零下"
+    },
+    "↑零下↑": {
+      "零下": "零下"
+    },
+    "sidewaves + Nitro": {
+      "sidewaves": "sidewaves",
+      "Nitro": "Nitro"
+    },
+    "sidewaves + Exschwasion": {
+      "sidewaves": "sidewaves",
+      "Exschwasion": "Exschwasion"
+    },
+    "RAYCAST [NM]": {
+      "raycast": "RAYCAST"
+    },
+    "RAYCAST [HD]": {
+      "raycast": "RAYCAST"
+    },
+    "RAYCAST [MX]": {
+      "raycast": "RAYCAST"
+    },
+    "瑞獣【応龍】": {
+      "瑞獣": "瑞獣"
+    },
+    "絶∥滅": {
+      "絶滅": "絶∥滅"
+    },
+    "青月sidewaves": {
+      "sidewaves": "sidewaves"
+    },
+    "反水【天龍】": {
+      "反水": "反水"
+    },
+    "Luxance -Lost Colors-": {
+      "Luxance": "Luxance"
+    },
+    "<>ntym1s": {
+      "antymis": "<>ntym1s"
+    },
+    "NITRO「THE ANARQISM」": {
+      "Nitro": "NITRO"
+    },
+    "ようこそ、瑞獣。": {
+      "瑞獣": "瑞獣"
+    },
+    "虚偽の玉座【夜浪】": {
+      "Nitro": "夜浪"
+    },
+    "karat": {
+      "karat": "karat"
+    },
+    "M理論_halt": {
+      "M理論": "M理論"
+    },
+    "|karat|": {
+      "__FullData__": [
+        {
+          "display": "&#x7C;"
+        },
+        {
+          "link": "karat",
+          "display": "karat"
+        },
+        {
+          "display": "&#x7C;"
+        }
+      ]
+    },
+    "反∧水": {
+      "反水": "反∧水"
+    },
+    "[絶,滅)": {
+      "__FullData__": [
+        {
+          "display": "&#91;"
+        },
+        {
+          "link": "絶滅",
+          "display": "絶,滅"
+        },
+        {
+          "display": ")"
+        }
+      ]
+    },
+    "M理論_charmq": {
+      "M理論": "M理論"
+    },
+    "M理論_strangeq": {
+      "M理論": "M理論"
+    },
+    "M理論_origin": {
+      "M理論": "M理論"
+    },
+    "ray∞cast": {
+      "raycast": "ray∞cast"
+    },
+    "NORΛ::NEKO × KΛRΛT": {
+      "nora::neko": "NORΛ::NEKO",
+      "karat": "KΛRΛT"
+    },
+    "Souplex + Nitro": {
+      "Souplex": "Souplex",
+      "Nitro": "Nitro"
+    },
+    "~sidewaves": {
+      "sidewaves": "sidewaves"
+    },
+    "raycast against. 零下": {
+      "raycast": "raycast",
+      "零下": "零下"
+    },
+    "SiDEWAVES": {
+      "sidewaves": "SiDEWAVES"
+    },
+    "KARA+_~1.TMP": {
+      "karat": "KARA"
+    },
+    "Souplex": {
+      "Souplex": "Souplex"
+    },
+    "BE KARAT": {
+      "karat": "KARAT"
+    },
+    "NORANEKO": {
+      "nora::neko": "NORANEKO"
+    },
+    "絶･零･夜": {
+      "絶滅": "絶",
+      "Nitro": "夜",
+      "零下": "零"
+    },
+    "karat -weathered-": {
+      "karat": "karat"
+    },
+    "@#7¥M!$": {
+      "__FullData__": [
+        {
+          "link": "antymis",
+          "display": "@#7¥M!$"
+        }
+      ]
+    },
+    "Interioter": {
+      "Interator": "Interioter"
+    },
+    "24 KARAT GOLD": {
+      "karat": "KARAT"
+    }
+  }
+}
