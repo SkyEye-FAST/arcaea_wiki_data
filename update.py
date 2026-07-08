@@ -25,6 +25,7 @@ OUTPUT_SONGLIST_FILE = OUTPUT_DIR / "songlist"
 OUTPUT_UNLOCKS_FILE = OUTPUT_DIR / "unlocks"
 OUTPUT_CHARACTERS_FILE = OUTPUT_DIR / "characters.json"
 OUTPUT_VERSION_FILE = OUTPUT_DIR / "version"
+OUTPUT_ARCAEA_INDEX_FILE = OUTPUT_DIR / "arcaea_index.json"
 OUTPUT_ARTIST_SONG_CACHE_FILE = OUTPUT_DIR / "artist_song_cache.json"
 OUTPUT_DESIGNER_SONG_CACHE_FILE = OUTPUT_DIR / "designer_song_cache.json"
 OUTPUT_TL_DIR = OUTPUT_DIR / "tl"
@@ -673,12 +674,69 @@ def build_designer_song_cache(
     }
 
 
+def build_song_index(songlist_raw: dict[str, Any]) -> dict[str, dict[str, int]]:
+    """Build 1-based song indexes by ID and title from a songlist payload."""
+    by_id: dict[str, int] = {}
+    by_name: dict[str, int] = {}
+
+    for index, song in enumerate(songlist_raw.get("songs", []), start=1):
+        if song.get("deleted"):
+            continue
+
+        song_id = song.get("id")
+        if song_id:
+            by_id[str(song_id)] = index
+
+        title = (song.get("title_localized") or {}).get("en")
+        if title:
+            by_name[str(title)] = index
+
+    return {"id": by_id, "name": by_name}
+
+
+def preserve_cache_date_if_unchanged(
+    cache_data: dict[str, Any],
+    output_file: Path,
+) -> dict[str, Any]:
+    """Keep the previous timestamp when only the generated timestamp changed."""
+    if not output_file.exists():
+        return cache_data
+
+    try:
+        previous_cache = orjson.loads(output_file.read_bytes())
+    except Exception:
+        return cache_data
+
+    if not isinstance(previous_cache, dict):
+        return cache_data
+
+    previous_comparable = dict(previous_cache)
+    current_comparable = dict(cache_data)
+    previous_comparable.pop("date", None)
+    current_comparable.pop("date", None)
+
+    if previous_comparable != current_comparable:
+        return cache_data
+
+    previous_date = previous_cache.get("date")
+    if previous_date is None:
+        return cache_data
+
+    preserved_cache = dict(cache_data)
+    preserved_cache["date"] = previous_date
+    return preserved_cache
+
+
 def write_cache_outputs(
     songlist_raw: dict[str, Any],
     packlist_raw: dict[str, Any],
     version_name: str,
 ) -> None:
-    """Write ArtistSong and DesignerSong cache JSON files."""
+    """Write generated cache JSON files consumed by wiki modules."""
+    existing_arcaea_index = load_wiki_json_page(
+        "Module:Arcaea/Index.json",
+        OUTPUT_ARCAEA_INDEX_FILE,
+    )
     complex_artists = load_wiki_json_page(
         "Template:ComplexArtistsList.json",
         OUTPUT_DIR / "complex_artists.json",
@@ -688,7 +746,19 @@ def write_cache_outputs(
         OUTPUT_DIR / "designers_list.json",
     )
 
+    arcaea_index = dict(existing_arcaea_index)
+    arcaea_index["mobile"] = build_song_index(songlist_raw)
+    print(f"[5/5] Writing {OUTPUT_ARCAEA_INDEX_FILE.relative_to(PROJECT_ROOT)}...", flush=True)
+    OUTPUT_ARCAEA_INDEX_FILE.write_text(
+        json_dumps_pretty(arcaea_index),
+        encoding="utf-8",
+    )
+
     artist_cache = build_artist_song_cache(songlist_raw, version_name, complex_artists)
+    artist_cache = preserve_cache_date_if_unchanged(
+        artist_cache,
+        OUTPUT_ARTIST_SONG_CACHE_FILE,
+    )
     print(f"[5/5] Writing {OUTPUT_ARTIST_SONG_CACHE_FILE.relative_to(PROJECT_ROOT)}...", flush=True)
     OUTPUT_ARTIST_SONG_CACHE_FILE.write_text(
         json_dumps_pretty(artist_cache),
@@ -697,6 +767,10 @@ def write_cache_outputs(
 
     designer_cache = build_designer_song_cache(
         songlist_raw, packlist_raw, version_name, designers_list
+    )
+    designer_cache = preserve_cache_date_if_unchanged(
+        designer_cache,
+        OUTPUT_DESIGNER_SONG_CACHE_FILE,
     )
     print(
         f"[5/5] Writing {OUTPUT_DESIGNER_SONG_CACHE_FILE.relative_to(PROJECT_ROOT)}...", flush=True
