@@ -28,6 +28,7 @@ OUTPUT_VERSION_FILE = OUTPUT_DIR / "version"
 OUTPUT_ARCAEA_INDEX_FILE = OUTPUT_DIR / "arcaea_index.json"
 OUTPUT_ARTIST_SONG_CACHE_FILE = OUTPUT_DIR / "artist_song_cache.json"
 OUTPUT_DESIGNER_SONG_CACHE_FILE = OUTPUT_DIR / "designer_song_cache.json"
+OUTPUT_TRANSITION_FILE = OUTPUT_DIR / "transition.json"
 OUTPUT_TL_DIR = OUTPUT_DIR / "tl"
 OUTPUT_TL_JSON_FILE = OUTPUT_DIR / "tl.json"
 LANGUAGES = ["zh-Hans", "zh-Hant", "en", "ja", "ko"]
@@ -554,10 +555,12 @@ def build_designer_song_cache(
     packlist_raw: dict[str, Any],
     version_name: str,
     designer_list_data: dict[str, Any],
+    transition_data: dict[str, Any],
 ) -> dict[str, Any]:
-    """Build base Module:DesignerSong/Cache.json content from songlist."""
+    """Build Module:DesignerSong/Cache.json content from game and wiki data."""
     songs = songlist_raw.get("songs", [])
     special_song = designer_list_data.get("special", {})
+    transition_pack_names = transition_data.get("packName", {})
     byd_append = {284: "last"}
 
     pick_list: dict[str, dict[str, dict[str, bool]]] = {}
@@ -619,17 +622,22 @@ def build_designer_song_cache(
         }
     }
     for index, pack in enumerate(packlist_raw.get("packs", []), start=1):
+        pack_id = pack["id"]
         pack_info[pack["id"]] = {
             "_parentId_": pack.get("pack_parent"),
-            "name": pack.get("name_localized", {}).get("en"),
+            "name": transition_pack_names.get(pack_id)
+            or pack.get("name_localized", {}).get("en"),
             "section": pack.get("section"),
             "numero": index,
         }
-    for item in pack_info.values():
+    for pack_id, item in pack_info.items():
         parent_id = item.get("_parentId_")
         if parent_id and parent_id in pack_info:
             parent = pack_info[parent_id]
-            if item.get("name", "").find("Collaboration Chapter") != -1:
+            if (
+                pack_id not in transition_pack_names
+                and item.get("name", "").find("Collaboration Chapter") != -1
+            ):
                 item["name"] = parent.get("name", "") + " " + item.get("name", "")
             item["section"] = item.get("section") or parent.get("section")
 
@@ -745,6 +753,10 @@ def write_cache_outputs(
         "Template:DesignersList.json",
         OUTPUT_DIR / "designers_list.json",
     )
+    transition_data = load_wiki_json_page(
+        "Template:Transition.json",
+        OUTPUT_TRANSITION_FILE,
+    )
 
     arcaea_index = dict(existing_arcaea_index)
     arcaea_index["mobile"] = build_song_index(songlist_raw)
@@ -766,7 +778,7 @@ def write_cache_outputs(
     )
 
     designer_cache = build_designer_song_cache(
-        songlist_raw, packlist_raw, version_name, designers_list
+        songlist_raw, packlist_raw, version_name, designers_list, transition_data
     )
     designer_cache = preserve_cache_date_if_unchanged(
         designer_cache,

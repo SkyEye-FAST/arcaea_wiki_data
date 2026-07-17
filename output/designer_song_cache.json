@@ -1,6 +1,6 @@
 {
     "ver": "v6.15.0",
-    "date": 1783522863,
+    "date": 1784270758,
     "data": {
         "sayonarahatsukoi": {
             "title": "Sayonara Hatsukoi",
@@ -414,7 +414,7 @@
             "title": "Moonlight of Sand Castle",
             "bydTitle": null,
             "pack": "dynamix",
-            "packName": "Dynamix",
+            "packName": "Dynamix Collaboration",
             "sort": {
                 "section": "collab",
                 "numero": 57,
@@ -426,7 +426,7 @@
             "title": "REconstruction",
             "bydTitle": null,
             "pack": "dynamix",
-            "packName": "Dynamix",
+            "packName": "Dynamix Collaboration",
             "sort": {
                 "section": "collab",
                 "numero": 57,
@@ -438,7 +438,7 @@
             "title": "Evoltex (poppi'n mix)",
             "bydTitle": null,
             "pack": "dynamix",
-            "packName": "Dynamix",
+            "packName": "Dynamix Collaboration",
             "sort": {
                 "section": "collab",
                 "numero": 57,
@@ -450,7 +450,7 @@
             "title": "Oracle",
             "bydTitle": null,
             "pack": "dynamix",
-            "packName": "Dynamix",
+            "packName": "Dynamix Collaboration",
             "sort": {
                 "section": "collab",
                 "numero": 57,
@@ -462,7 +462,7 @@
             "title": "αterlβus",
             "bydTitle": null,
             "pack": "dynamix",
-            "packName": "Dynamix",
+            "packName": "Dynamix Collaboration",
             "sort": {
                 "section": "collab",
                 "numero": 57,
@@ -750,7 +750,7 @@
             "title": "cyanine",
             "bydTitle": null,
             "pack": "lanota",
-            "packName": "Lanota",
+            "packName": "Lanota Collaboration",
             "sort": {
                 "section": "collab",
                 "numero": 55,
@@ -762,7 +762,7 @@
             "title": "Dream goes on",
             "bydTitle": null,
             "pack": "lanota",
-            "packName": "Lanota",
+            "packName": "Lanota Collaboration",
             "sort": {
                 "section": "collab",
                 "numero": 55,
@@ -774,7 +774,7 @@
             "title": "Journey",
             "bydTitle": null,
             "pack": "lanota",
-            "packName": "Lanota",
+            "packName": "Lanota Collaboration",
             "sort": {
                 "section": "collab",
                 "numero": 55,
@@ -786,7 +786,7 @@
             "title": "Specta",
             "bydTitle": null,
             "pack": "lanota",
-            "packName": "Lanota",
+            "packName": "Lanota Collaboration",
             "sort": {
                 "section": "collab",
                 "numero": 55,
@@ -798,7 +798,7 @@
             "title": "Quon",
             "bydTitle": null,
             "pack": "lanota",
-            "packName": "Lanota",
+            "packName": "Lanota Collaboration",
             "sort": {
                 "section": "collab",
                 "numero": 55,
@@ -1158,7 +1158,7 @@
             "title": "Hikari",
             "bydTitle": null,
             "pack": "tonesphere",
-            "packName": "Tone Sphere",
+            "packName": "Tone Sphere Collaboration",
             "sort": {
                 "section": "collab",
                 "numero": 54,
@@ -1170,7 +1170,7 @@
             "title": "STAGER (ALL STAGE CLEAR)",
             "bydTitle": null,
             "pack": "tonesphere",
-            "packName": "Tone Sphere",
+            "packName": "Tone Sphere Collaboration",
             "sort": {
                 "section": "collab",
                 "numero": 54,
@@ -1182,7 +1182,7 @@
             "title": "Hall of Mirrors",
             "bydTitle": null,
             "pack": "tonesphere",
-            "packName": "Tone Sphere",
+            "packName": "Tone Sphere Collaboration",
             "sort": {
                 "section": "collab",
                 "numero": 54,
@@ -1194,7 +1194,7 @@
             "title": "Linear Accelerator",
             "bydTitle": null,
             "pack": "tonesphere",
-            "packName": "Tone Sphere",
+            "packName": "Tone Sphere Collaboration",
             "sort": {
                 "section": "collab",
                 "numero": 54,
@@ -1206,7 +1206,7 @@
             "title": "Tiferet",
             "bydTitle": null,
             "pack": "tonesphere",
-            "packName": "Tone Sphere",
+            "packName": "Tone Sphere Collaboration",
             "sort": {
                 "section": "collab",
                 "numero": 54,
@@ -1278,7 +1278,7 @@
             "title": "MERLIN",
             "bydTitle": null,
             "pack": "groovecoaster",
-            "packName": "Groove Coaster",
+            "packName": "Groove Coaster Collaboration",
             "sort": {
                 "section": "collab",
                 "numero": 52,
@@ -1290,7 +1290,7 @@
             "title": "DX Choseinou Full Metal Shojo",
             "bydTitle": null,
             "pack": "groovecoaster",
-            "packName": "Groove Coaster",
+            "packName": "Groove Coaster Collaboration",
             "sort": {
                 "section": "collab",
                 "numero": 52,
@@ -1302,7 +1302,7 @@
             "title": "OMAKENO Stroke",
             "bydTitle": null,
             "pack": "groovecoaster",
-            "packName": "Groove Coaster",
+            "packName": "Groove Coaster Collaboration",
             "sort": {
                 "section": "collab",
                 "numero": 52,
@@ -1314,7 +1314,7 @@
             "title": "Scarlet Lance",
             "bydTitle": null,
             "pack": "groovecoaster",
-            "packName": "Groove Coaster",
+            "packName": "Groove Coaster Collaboration",
             "sort": {
                 "section": "collab",
                 "numero": 52,
@@ -1326,7 +1326,7 @@
             "title": "ouroboros -twin stroke of the end-",
             "bydTitle": null,
             "pack": "groovecoaster",
-            "packName": "Groove Coaster",
+            "packName": "Groove Coaster Collaboration",
             "sort": {
                 "section": "collab",
                 "numero": 52,
@@ -1482,7 +1482,7 @@
             "title": "Garakuta Doll Play",
             "bydTitle": null,
             "pack": "chunithm",
-            "packName": "CHUNITHM",
+            "packName": "CHUNITHM Collaboration",
             "sort": {
                 "section": "collab",
                 "numero": 48,
@@ -1494,7 +1494,7 @@
             "title": "Ikazuchi",
             "bydTitle": null,
             "pack": "chunithm",
-            "packName": "CHUNITHM",
+            "packName": "CHUNITHM Collaboration",
             "sort": {
                 "section": "collab",
                 "numero": 48,
@@ -1506,7 +1506,7 @@
             "title": "World Vanquisher",
             "bydTitle": null,
             "pack": "chunithm",
-            "packName": "CHUNITHM",
+            "packName": "CHUNITHM Collaboration",
             "sort": {
                 "section": "collab",
                 "numero": 48,
@@ -2094,7 +2094,7 @@
             "title": "Got hive of Ra",
             "bydTitle": null,
             "pack": "groovecoaster",
-            "packName": "Groove Coaster",
+            "packName": "Groove Coaster Collaboration",
             "sort": {
                 "section": "collab",
                 "numero": 52,
@@ -2286,7 +2286,7 @@
             "title": "Lazy Addiction",
             "bydTitle": null,
             "pack": "ongeki",
-            "packName": "O.N.G.E.K.I.",
+            "packName": "O.N.G.E.K.I. Collaboration",
             "sort": {
                 "section": "collab",
                 "numero": 45,
@@ -2298,7 +2298,7 @@
             "title": "Dazzle hop",
             "bydTitle": null,
             "pack": "ongeki",
-            "packName": "O.N.G.E.K.I.",
+            "packName": "O.N.G.E.K.I. Collaboration",
             "sort": {
                 "section": "collab",
                 "numero": 45,
@@ -2310,7 +2310,7 @@
             "title": "Viyella's Tears",
             "bydTitle": null,
             "pack": "ongeki",
-            "packName": "O.N.G.E.K.I.",
+            "packName": "O.N.G.E.K.I. Collaboration",
             "sort": {
                 "section": "collab",
                 "numero": 45,
@@ -2322,7 +2322,7 @@
             "title": "ω4",
             "bydTitle": null,
             "pack": "ongeki",
-            "packName": "O.N.G.E.K.I.",
+            "packName": "O.N.G.E.K.I. Collaboration",
             "sort": {
                 "section": "collab",
                 "numero": 45,
@@ -2334,7 +2334,7 @@
             "title": "April showers",
             "bydTitle": null,
             "pack": "maimai",
-            "packName": "maimai",
+            "packName": "maimai Collaboration",
             "sort": {
                 "section": "collab",
                 "numero": 42,
@@ -2346,7 +2346,7 @@
             "title": "7thSense",
             "bydTitle": null,
             "pack": "maimai",
-            "packName": "maimai",
+            "packName": "maimai Collaboration",
             "sort": {
                 "section": "collab",
                 "numero": 42,
@@ -2358,7 +2358,7 @@
             "title": "Oshama Scramble!",
             "bydTitle": null,
             "pack": "maimai",
-            "packName": "maimai",
+            "packName": "maimai Collaboration",
             "sort": {
                 "section": "collab",
                 "numero": 42,
@@ -2370,7 +2370,7 @@
             "title": "AMAZING MIGHTYYYY!!!!",
             "bydTitle": null,
             "pack": "maimai",
-            "packName": "maimai",
+            "packName": "maimai Collaboration",
             "sort": {
                 "section": "collab",
                 "numero": 42,
@@ -2718,7 +2718,7 @@
             "title": "Mazy Metroplex",
             "bydTitle": null,
             "pack": "wacca",
-            "packName": "WACCA",
+            "packName": "WACCA Collaboration",
             "sort": {
                 "section": "collab",
                 "numero": 40,
@@ -2730,7 +2730,7 @@
             "title": "Quon",
             "bydTitle": null,
             "pack": "wacca",
-            "packName": "WACCA",
+            "packName": "WACCA Collaboration",
             "sort": {
                 "section": "collab",
                 "numero": 40,
@@ -2742,7 +2742,7 @@
             "title": "with U",
             "bydTitle": null,
             "pack": "wacca",
-            "packName": "WACCA",
+            "packName": "WACCA Collaboration",
             "sort": {
                 "section": "collab",
                 "numero": 40,
@@ -2754,7 +2754,7 @@
             "title": "GENOCIDER",
             "bydTitle": null,
             "pack": "wacca",
-            "packName": "WACCA",
+            "packName": "WACCA Collaboration",
             "sort": {
                 "section": "collab",
                 "numero": 40,
@@ -2766,7 +2766,7 @@
             "title": "Let you DIVE! (nitro rmx)",
             "bydTitle": null,
             "pack": "wacca",
-            "packName": "WACCA",
+            "packName": "WACCA Collaboration",
             "sort": {
                 "section": "collab",
                 "numero": 40,
@@ -2982,7 +2982,7 @@
             "title": "Lights of Muse",
             "bydTitle": null,
             "pack": "musedash",
-            "packName": "Muse Dash",
+            "packName": "Muse Dash Collaboration",
             "sort": {
                 "section": "collab",
                 "numero": 39,
@@ -2994,7 +2994,7 @@
             "title": "Final Step!",
             "bydTitle": null,
             "pack": "musedash",
-            "packName": "Muse Dash",
+            "packName": "Muse Dash Collaboration",
             "sort": {
                 "section": "collab",
                 "numero": 39,
@@ -3006,7 +3006,7 @@
             "title": "Haze of Autumn",
             "bydTitle": null,
             "pack": "musedash",
-            "packName": "Muse Dash",
+            "packName": "Muse Dash Collaboration",
             "sort": {
                 "section": "collab",
                 "numero": 39,
@@ -3018,7 +3018,7 @@
             "title": "Medusa",
             "bydTitle": null,
             "pack": "musedash",
-            "packName": "Muse Dash",
+            "packName": "Muse Dash Collaboration",
             "sort": {
                 "section": "collab",
                 "numero": 39,
@@ -3882,7 +3882,7 @@
             "title": "Bullet Waiting for Me (James Landino remix)",
             "bydTitle": null,
             "pack": "cytusii",
-            "packName": "CYTUS II",
+            "packName": "Cytus II Collaboration",
             "sort": {
                 "section": "collab",
                 "numero": 37,
@@ -3894,7 +3894,7 @@
             "title": "Devillic Sphere",
             "bydTitle": null,
             "pack": "cytusii",
-            "packName": "CYTUS II",
+            "packName": "Cytus II Collaboration",
             "sort": {
                 "section": "collab",
                 "numero": 37,
@@ -3906,7 +3906,7 @@
             "title": "Lucid Traveler",
             "bydTitle": null,
             "pack": "cytusii",
-            "packName": "CYTUS II",
+            "packName": "Cytus II Collaboration",
             "sort": {
                 "section": "collab",
                 "numero": 37,
@@ -3918,7 +3918,7 @@
             "title": "CHAOS",
             "bydTitle": null,
             "pack": "cytusii",
-            "packName": "CYTUS II",
+            "packName": "Cytus II Collaboration",
             "sort": {
                 "section": "collab",
                 "numero": 37,
@@ -3930,7 +3930,7 @@
             "title": "Used to be",
             "bydTitle": null,
             "pack": "cytusii",
-            "packName": "CYTUS II",
+            "packName": "Cytus II Collaboration",
             "sort": {
                 "section": "collab",
                 "numero": 37,
@@ -3954,7 +3954,7 @@
             "title": "syūten",
             "bydTitle": null,
             "pack": "cytusii_append_1",
-            "packName": "CYTUS II Collaboration Chapter 2",
+            "packName": "Cytus II Collaboration Chapter 2",
             "sort": {
                 "section": "collab",
                 "numero": 38,
@@ -3966,7 +3966,7 @@
             "title": "DRG",
             "bydTitle": null,
             "pack": "cytusii_append_1",
-            "packName": "CYTUS II Collaboration Chapter 2",
+            "packName": "Cytus II Collaboration Chapter 2",
             "sort": {
                 "section": "collab",
                 "numero": 38,
@@ -3978,7 +3978,7 @@
             "title": "99 Glooms",
             "bydTitle": null,
             "pack": "cytusii_append_1",
-            "packName": "CYTUS II Collaboration Chapter 2",
+            "packName": "Cytus II Collaboration Chapter 2",
             "sort": {
                 "section": "collab",
                 "numero": 38,
@@ -3990,7 +3990,7 @@
             "title": " ͟͝͞Ⅱ́̕ ",
             "bydTitle": null,
             "pack": "cytusii_append_1",
-            "packName": "CYTUS II Collaboration Chapter 2",
+            "packName": "Cytus II Collaboration Chapter 2",
             "sort": {
                 "section": "collab",
                 "numero": 38,
@@ -4002,7 +4002,7 @@
             "title": "Magnolia",
             "bydTitle": null,
             "pack": "cytusii_append_1",
-            "packName": "CYTUS II Collaboration Chapter 2",
+            "packName": "Cytus II Collaboration Chapter 2",
             "sort": {
                 "section": "collab",
                 "numero": 38,
@@ -4890,7 +4890,7 @@
             "title": "Waltz for Lorelei",
             "bydTitle": null,
             "pack": "rotaeno",
-            "packName": "Rotaeno",
+            "packName": "Rotaeno Collaboration",
             "sort": {
                 "section": "collab",
                 "numero": 36,
@@ -4902,7 +4902,7 @@
             "title": "Dual Doom Deathmatch",
             "bydTitle": null,
             "pack": "rotaeno",
-            "packName": "Rotaeno",
+            "packName": "Rotaeno Collaboration",
             "sort": {
                 "section": "collab",
                 "numero": 36,
@@ -4914,7 +4914,7 @@
             "title": "Inverted World",
             "bydTitle": null,
             "pack": "rotaeno",
-            "packName": "Rotaeno",
+            "packName": "Rotaeno Collaboration",
             "sort": {
                 "section": "collab",
                 "numero": 36,
@@ -4926,7 +4926,7 @@
             "title": "MVURBD",
             "bydTitle": null,
             "pack": "rotaeno",
-            "packName": "Rotaeno",
+            "packName": "Rotaeno Collaboration",
             "sort": {
                 "section": "collab",
                 "numero": 36,
@@ -4938,7 +4938,7 @@
             "title": "Vulcānus",
             "bydTitle": null,
             "pack": "rotaeno",
-            "packName": "Rotaeno",
+            "packName": "Rotaeno Collaboration",
             "sort": {
                 "section": "collab",
                 "numero": 36,
@@ -5490,7 +5490,7 @@
             "title": "Ladymade Star",
             "bydTitle": null,
             "pack": "djmax",
-            "packName": "DJMAX",
+            "packName": "DJMAX Collaboration",
             "sort": {
                 "section": "collab",
                 "numero": 34,
@@ -5502,7 +5502,7 @@
             "title": "End of The Moonlight",
             "bydTitle": null,
             "pack": "djmax",
-            "packName": "DJMAX",
+            "packName": "DJMAX Collaboration",
             "sort": {
                 "section": "collab",
                 "numero": 34,
@@ -5514,7 +5514,7 @@
             "title": "U.A.D",
             "bydTitle": null,
             "pack": "djmax",
-            "packName": "DJMAX",
+            "packName": "DJMAX Collaboration",
             "sort": {
                 "section": "collab",
                 "numero": 34,
@@ -5526,7 +5526,7 @@
             "title": "OBLIVION",
             "bydTitle": null,
             "pack": "djmax",
-            "packName": "DJMAX",
+            "packName": "DJMAX Collaboration",
             "sort": {
                 "section": "collab",
                 "numero": 34,
@@ -5538,7 +5538,7 @@
             "title": "Nightmare",
             "bydTitle": null,
             "pack": "djmax",
-            "packName": "DJMAX",
+            "packName": "DJMAX Collaboration",
             "sort": {
                 "section": "collab",
                 "numero": 34,
@@ -6150,7 +6150,7 @@
             "title": "CHAIN2NITE",
             "bydTitle": null,
             "pack": "megarex",
-            "packName": "MEGAREX",
+            "packName": "MEGAREX Collaboration",
             "sort": {
                 "section": "collab",
                 "numero": 19,
@@ -6162,7 +6162,7 @@
             "title": "One Step Closer",
             "bydTitle": null,
             "pack": "megarex",
-            "packName": "MEGAREX",
+            "packName": "MEGAREX Collaboration",
             "sort": {
                 "section": "collab",
                 "numero": 19,
@@ -6174,7 +6174,7 @@
             "title": "My life is mine alone!",
             "bydTitle": null,
             "pack": "megarex",
-            "packName": "MEGAREX",
+            "packName": "MEGAREX Collaboration",
             "sort": {
                 "section": "collab",
                 "numero": 19,
@@ -6186,7 +6186,7 @@
             "title": "Melty Rhapsody",
             "bydTitle": null,
             "pack": "megarex",
-            "packName": "MEGAREX",
+            "packName": "MEGAREX Collaboration",
             "sort": {
                 "section": "collab",
                 "numero": 19,
@@ -6198,7 +6198,7 @@
             "title": "Signal",
             "bydTitle": null,
             "pack": "megarex",
-            "packName": "MEGAREX",
+            "packName": "MEGAREX Collaboration",
             "sort": {
                 "section": "collab",
                 "numero": 19,
