@@ -1,58 +1,58 @@
 {
-	"packName": {
-		"description": "将曲包ID转换为曲包名称。若ID和名称一致,则不需要此转换。用途：模块:Arcaea Data",
-		"chunithm": "CHUNITHM Collaboration",
-		"chunithm_append_1": "CHUNITHM Collaboration Chapter 2",
-		"chunithm_append_2": "CHUNITHM Collaboration Chapter 3",
-		"chunithm_append_3": "CHUNITHM Collaboration Chapter 4",
-		"groovecoaster": "Groove Coaster Collaboration",
-		"groovecoaster_append_1": "Groove Coaster Chapter 2",
-		"lanota": "Lanota Collaboration",
-		"lanota_append_1": "Lanota Collaboration Chapter 2",
-		"tonesphere": "Tone Sphere Collaboration",
-		"dynamix": "Dynamix Collaboration",
-		"maimai": "maimai Collaboration",
-		"maimai_append_1": "maimai Collaboration Chapter 2",
-		"maimai_append_2": "maimai Collaboration Chapter 3",
-		"ongeki": "O.N.G.E.K.I. Collaboration",
-		"ongeki_append_1": "O.N.G.E.K.I. Collaboration Chapter 2",
-		"ongeki_append_2": "O.N.G.E.K.I. Collaboration Chapter 3",
-		"musedash": "Muse Dash Collaboration",
-		"cytusii": "Cytus II Collaboration",
-		"cytusii_append_1": "Cytus II Collaboration Chapter 2",
-		"wacca": "WACCA Collaboration",
-		"wacca_append_1": "WACCA Collaboration Chapter 2",
-		"rotaeno": "Rotaeno Collaboration",
-		"undertale_append_1": "UNDERTALE Pack Append",
-		"djmax": "DJMAX Collaboration",
-		"djmax_append_1": "DJMAX Collaboration Chapter 2",
-		"single": "Memory Archive",
-		"megarex": "MEGAREX Collaboration"
-	},
-	"songNameToDisplayName": {
-		"description": "本表列出 实际曲目名称 到 代替后的显示页面名称，可能是由于 曲目名称中存在Mediawiki不支持的名称时导致用其他名称代替/曲目难度名称和页面名称不符",
-		"#1f1e33": "＃1f1e33",
-		"AI[UE]OON": "AI［UE］OON",
-		"[X]": "［X］",
-		"Last | Eternity": "Last",
-		"Last | Moment": "Last"
-	},
-	"displayNameToSongName": {
-		"description": "本表列出 代替后的显示页面名称 到 实际曲目名称，可能是由于 曲目名称中存在Mediawiki不支持的名称时导致用其他名称代替"
-	},
-	"sameName": {
-		"description": "本表列出 名称重复的曲目 到 实际页面名称",
-		"Quon": {
-			"quon": "Quon_(Feryquitous)",
-			"quonwacca": "Quon_(DJ_Noriken)"
-		},
-		"Genesis": {
-			"genesis": "Genesis_(Iris)",
-			"genesischunithm": "Genesis_(Morrigan)"
-		}
-	},
-	"multiId": {
-		"__description": "双平台具有不同id的相同曲目，本表列出 NS版songid 到 移动版songid",
-		"eden": "edenwacca"
-	}
+  "packName": {
+    "description": "将曲包ID转换为曲包名称。若ID和名称一致,则不需要此转换。用途：模块:Arcaea Data",
+    "chunithm": "CHUNITHM Collaboration",
+    "chunithm_append_1": "CHUNITHM Collaboration Chapter 2",
+    "chunithm_append_2": "CHUNITHM Collaboration Chapter 3",
+    "chunithm_append_3": "CHUNITHM Collaboration Chapter 4",
+    "groovecoaster": "Groove Coaster Collaboration",
+    "groovecoaster_append_1": "Groove Coaster Chapter 2",
+    "lanota": "Lanota Collaboration",
+    "lanota_append_1": "Lanota Collaboration Chapter 2",
+    "tonesphere": "Tone Sphere Collaboration",
+    "dynamix": "Dynamix Collaboration",
+    "maimai": "maimai Collaboration",
+    "maimai_append_1": "maimai Collaboration Chapter 2",
+    "maimai_append_2": "maimai Collaboration Chapter 3",
+    "ongeki": "O.N.G.E.K.I. Collaboration",
+    "ongeki_append_1": "O.N.G.E.K.I. Collaboration Chapter 2",
+    "ongeki_append_2": "O.N.G.E.K.I. Collaboration Chapter 3",
+    "musedash": "Muse Dash Collaboration",
+    "cytusii": "Cytus II Collaboration",
+    "cytusii_append_1": "Cytus II Collaboration Chapter 2",
+    "wacca": "WACCA Collaboration",
+    "wacca_append_1": "WACCA Collaboration Chapter 2",
+    "rotaeno": "Rotaeno Collaboration",
+    "undertale_append_1": "UNDERTALE Pack Append",
+    "djmax": "DJMAX Collaboration",
+    "djmax_append_1": "DJMAX Collaboration Chapter 2",
+    "single": "Memory Archive",
+    "megarex": "MEGAREX Collaboration"
+  },
+  "songNameToDisplayName": {
+    "description": "本表列出 实际曲目名称 到 代替后的显示页面名称，可能是由于 曲目名称中存在Mediawiki不支持的名称时导致用其他名称代替/曲目难度名称和页面名称不符",
+    "#1f1e33": "＃1f1e33",
+    "AI[UE]OON": "AI［UE］OON",
+    "[X]": "［X］",
+    "Last | Eternity": "Last",
+    "Last | Moment": "Last"
+  },
+  "displayNameToSongName": {
+    "description": "本表列出 代替后的显示页面名称 到 实际曲目名称，可能是由于 曲目名称中存在Mediawiki不支持的名称时导致用其他名称代替"
+  },
+  "sameName": {
+    "description": "本表列出 名称重复的曲目 到 实际页面名称",
+    "Quon": {
+      "quon": "Quon_(Feryquitous)",
+      "quonwacca": "Quon_(DJ_Noriken)"
+    },
+    "Genesis": {
+      "genesis": "Genesis_(Iris)",
+      "genesischunithm": "Genesis_(Morrigan)"
+    }
+  },
+  "multiId": {
+    "__description": "双平台具有不同id的相同曲目，本表列出 NS版songid 到 移动版songid",
+    "eden": "edenwacca"
+  }
 }
