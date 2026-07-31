@@ -461,6 +461,12 @@
     "ja": "承認",
     "ko": "수락"
   },
+  "Access to Link Play is currently limited.\nPlease wait %1@ before joining again.": {
+    "zh-Hans": "当前无法联机，请等待%1@后再试。",
+    "zh-Hant": "當前無法連線，請等待%1@後再試。",
+    "ja": "Link Playへの参加が制限されています。\n%1@後に再度お試しください。",
+    "ko": "Link Play가 제한되었습니다.\n다시 플레이하기 전 %1@ 대기해주세요."
+  },
   "Account Created": {
     "zh-Hans": "账号已被创建",
     "zh-Hant": "帳號已建立。",
@@ -1318,6 +1324,18 @@
     "zh-Hant": "通關%1@次%2@曲目 (%3@/%1@)",
     "ja": "%2@楽曲を%1@曲クリア (%3@ / %1@)",
     "ko": "%2@ 악곡을 %1@개 클리어하기 (%3@/%1@)"
+  },
+  "Clear %1@ %2@ songs from Main Story Act %3@": {
+    "zh-Hans": "通关主线剧情第%3@幕%1@首%2@难度乐曲",
+    "zh-Hant": "通關主線劇情第%3@幕%1@首%2@難度樂曲",
+    "ja": "メインストーリーAct %3@の楽曲を%1@つ %2@難易度でクリア",
+    "ko": "Main Story Act %3@의 %2@ 악곡 %1@ 개 클리어"
+  },
+  "Clear %1@ %2@ songs from Main Story Act %3@ (%4@/%1@)": {
+    "zh-Hans": "通关主线剧情第%3@幕%1@首%2@难度乐曲(%4@/%1@)",
+    "zh-Hant": "通關主線劇情第%3@幕%1@首%2@難度樂曲(%4@/%1@)",
+    "ja": "メインストーリーAct %3@の楽曲を %1@つ %2@難易度でクリア (%4@/%1@)",
+    "ko": "Main Story Act %3@의 %2@ 악곡 %1@ 개 클리어 (%4@/%1@)"
   },
   "Clear %1@ %2@ songs with Grade %4@ or above": {
     "zh-Hans": "以%4@或更高的成绩通关%1@次%2@曲目",
@@ -3191,6 +3209,12 @@
     "ja": "流れてくる線、アークノートを長押ししましょう\nノートの終わりまで、押し続けて下さい",
     "ko": "'아크 노트'가 가까이 왔을 때 판정선에 맞춰 탭하고,\n노트가 끝날 때까지 누르고 있으세요."
   },
+  "Hold to Unlock": {
+    "zh-Hans": "长按解锁",
+    "zh-Hant": "長按解鎖",
+    "ja": "長押しで解禁",
+    "ko": "길게 눌러 해금"
+  },
   "Hollow Core": {
     "zh-Hans": "中空核心",
     "zh-Hant": "中空核心",
@@ -4601,6 +4625,12 @@
     "ja": "このPack Appendの購入には、\n『Lasting Eden』の所持が必須です。",
     "ko": "이 Pack Append를 소유하려면\nLasting Eden Pack을 소유해야 합니다."
   },
+  "Ownership of any\nCHUNITHM Collaboration\nPack up to Chapter 4\nis required to unlock\nETR difficulty": {
+    "zh-Hans": "解锁ETR必须\n至少拥有一个\nCHUNITHM\n曲包（1-4章）",
+    "zh-Hant": "解鎖ETR必須\n至少擁有一個\nCHUNITHM\n曲包（1-4章）",
+    "ja": "ETR難易度の開放には\n以下のCHUNITHMコラボ\nどれかの所持が必要です\n\n・楽曲パック本体\n・Chapter 4までの\n　任意のPack Append",
+    "ko": "ETR 난이도를 해금하려면\n이하의 CHUNITHM\nCollaboration Pack 중\n적어도 하나를 소유하고\n있어야 합니다.\n\n・Collaboration Pack 본체\n・Chapter 4 까지의\nPack Append"
+  },
   "PARTNER": {
     "zh-Hans": "搭档",
     "zh-Hant": "搭檔",
@@ -4918,6 +4948,12 @@
     "zh-Hant": "請在再次使用此功能前等待24小時。",
     "ja": "本機能の再使用は24時間後までお待ち下さい。",
     "ko": "이 기능은 24시간 후에 이용 가능합니다."
+  },
+  "Please wait at least 60 seconds between joining\nrooms or access to Link Play may become limited.": {
+    "zh-Hans": "请等待至少60秒再加入房间，短时间内重复尝试\n联机可能触发冷却机制。",
+    "zh-Hant": "請等待至少60秒再加入房間，短時間內重複嘗試\n連線可能觸發冷卻機制。",
+    "ja": "Link Playへの参加は60秒以上の間隔を空けてください。\n短時間に頻繁な入退室を繰り返すと、\nLink Playの使用に制限がかかる場合があります。",
+    "ko": "다른 룸에 참가하기 전 최소 60초 대기하지 않으면\nLink Play가 제한됩니다."
   },
   "Pop / Recommended": {
     "zh-Hans": "流行/推荐",

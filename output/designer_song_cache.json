@@ -1,6 +1,6 @@
 {
-    "ver": "v6.15.0",
-    "date": 1784270758,
+    "ver": "v6.16.0",
+    "date": 1785456057,
     "data": {
         "sayonarahatsukoi": {
             "title": "Sayonara Hatsukoi",
@@ -6481,6 +6481,42 @@
                 "rating": 8,
                 "ratingPlus": true
             }
+        },
+        "synthesis": {
+            "title": "Synthesis.",
+            "bydTitle": null,
+            "pack": "single",
+            "packName": "Memory Archive",
+            "sort": {
+                "section": "single",
+                "numero": 0,
+                "rating": 9,
+                "ratingPlus": true
+            }
+        },
+        "acidgod": {
+            "title": "Acid God",
+            "bydTitle": null,
+            "pack": "single",
+            "packName": "Memory Archive",
+            "sort": {
+                "section": "single",
+                "numero": 0,
+                "rating": 9,
+                "ratingPlus": true
+            }
+        },
+        "chronologia": {
+            "title": "chronologia",
+            "bydTitle": null,
+            "pack": "single",
+            "packName": "Memory Archive",
+            "sort": {
+                "section": "single",
+                "numero": 0,
+                "rating": 9,
+                "ratingPlus": true
+            }
         }
     },
     "list": {
@@ -6679,6 +6715,9 @@
             },
             "lavie": {
                 "PST": true
+            },
+            "chronologia": {
+                "ETR": true
             },
             "lostcivilization": {
                 "BYD": true
@@ -7386,6 +7425,9 @@
             },
             "rainofconflict": {
                 "ETR": true
+            },
+            "chronologia": {
+                "ETR": true
             }
         },
         "Exschwasion": {
@@ -7657,6 +7699,9 @@
             },
             "nnglooms": {
                 "PST": true
+            },
+            "acidgod": {
+                "ETR": true
             },
             "onandon": {
                 "PST": true
@@ -8361,6 +8406,9 @@
             },
             "telepathy": {
                 "PST": true
+            },
+            "acidgod": {
+                "PST": true
             }
         },
         "N•Ex•T": {
@@ -8478,6 +8526,9 @@
             },
             "cryogenic": {
                 "PST": true
+            },
+            "synthesis": {
+                "ETR": true
             }
         },
         "M理論": {
@@ -8595,6 +8646,9 @@
                 "FTR": true
             },
             "sucromania": {
+                "PST": true
+            },
+            "synthesis": {
                 "PST": true
             }
         },
@@ -17316,6 +17370,63 @@
             {
                 "diff": "ETR",
                 "designer": "煌磨煌磨煌磨"
+            }
+        ],
+        "synthesis": [
+            {
+                "diff": "PST",
+                "designer": "Souplex",
+                "rowspan": 3
+            },
+            {
+                "diff": "PRS",
+                "designer": false
+            },
+            {
+                "diff": "FTR",
+                "designer": false
+            },
+            {
+                "diff": "ETR",
+                "designer": "Synthesis.raycast()"
+            }
+        ],
+        "acidgod": [
+            {
+                "diff": "PST",
+                "designer": "nora::pengin",
+                "rowspan": 3
+            },
+            {
+                "diff": "PRS",
+                "designer": false
+            },
+            {
+                "diff": "FTR",
+                "designer": false
+            },
+            {
+                "diff": "ETR",
+                "designer": "終点"
+            }
+        ],
+        "chronologia": [
+            {
+                "diff": "PST",
+                "designer": "Nitro",
+                "rowspan": 3
+            },
+            {
+                "diff": "PRS",
+                "designer": false
+            },
+            {
+                "diff": "FTR",
+                "designer": false
+            },
+            {
+                "diff": "ETR",
+                "designer": "Nitro x Toaster"
             }
         ]
     },

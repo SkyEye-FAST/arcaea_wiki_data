@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"PO-Revision-Date: 2026-06-17 00:57+0100\n"
+"PO-Revision-Date: 2026-07-24 02:34+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: ko\n"
@@ -372,6 +372,13 @@ msgstr "플레이 중단"
 
 msgid "Accept"
 msgstr "수락"
+
+msgid ""
+"Access to Link Play is currently limited.\n"
+"Please wait %1@ before joining again."
+msgstr ""
+"Link Play가 제한되었습니다.\n"
+"다시 플레이하기 전 %1@ 대기해주세요."
 
 msgid "Account Created"
 msgstr "계정 생성 완료"
@@ -943,6 +950,12 @@ msgstr "%2@ 악곡을 %1@개 클리어하기"
 
 msgid "Clear %1@ %2@ songs (%3@/%1@)"
 msgstr "%2@ 악곡을 %1@개 클리어하기 (%3@/%1@)"
+
+msgid "Clear %1@ %2@ songs from Main Story Act %3@"
+msgstr "Main Story Act %3@의 %2@ 악곡 %1@ 개 클리어"
+
+msgid "Clear %1@ %2@ songs from Main Story Act %3@ (%4@/%1@)"
+msgstr "Main Story Act %3@의 %2@ 악곡 %1@ 개 클리어 (%4@/%1@)"
 
 msgid "Clear %1@ %2@ songs with Grade %4@ or above"
 msgstr "%2@ 난이도 악곡 %1@개를 %4@ 등급 이상으로 클리어"
@@ -2256,6 +2269,9 @@ msgstr ""
 "'아크 노트'가 가까이 왔을 때 판정선에 맞춰 탭하고,\n"
 "노트가 끝날 때까지 누르고 있으세요."
 
+msgid "Hold to Unlock"
+msgstr "길게 눌러 해금"
+
 msgid "Hollow Core"
 msgstr "공허한 코어"
 
@@ -3177,6 +3193,23 @@ msgstr ""
 "이 Pack Append를 소유하려면\n"
 "Lasting Eden Pack을 소유해야 합니다."
 
+msgid ""
+"Ownership of any\n"
+"CHUNITHM Collaboration\n"
+"Pack up to Chapter 4\n"
+"is required to unlock\n"
+"ETR difficulty"
+msgstr ""
+"ETR 난이도를 해금하려면\n"
+"이하의 CHUNITHM\n"
+"Collaboration Pack 중\n"
+"적어도 하나를 소유하고\n"
+"있어야 합니다.\n"
+"\n"
+"・Collaboration Pack 본체\n"
+"・Chapter 4 까지의\n"
+"Pack Append"
+
 msgid "PARTNER"
 msgstr "파트너"
 
@@ -3381,6 +3414,13 @@ msgstr "인증 링크를 재발송하려면 %@분 기다려주십시오."
 
 msgid "Please wait 24 hours before using this feature again."
 msgstr "이 기능은 24시간 후에 이용 가능합니다."
+
+msgid ""
+"Please wait at least 60 seconds between joining\n"
+"rooms or access to Link Play may become limited."
+msgstr ""
+"다른 룸에 참가하기 전 최소 60초 대기하지 않으면\n"
+"Link Play가 제한됩니다."
 
 msgid "Pop / Recommended"
 msgstr "인기곡 및 추천곡"

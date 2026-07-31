@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"PO-Revision-Date: 2026-06-17 00:57+0100\n"
+"PO-Revision-Date: 2026-07-24 00:06+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: ja\n"
@@ -380,6 +380,13 @@ msgstr "楽曲を放棄"
 
 msgid "Accept"
 msgstr "承認"
+
+msgid ""
+"Access to Link Play is currently limited.\n"
+"Please wait %1@ before joining again."
+msgstr ""
+"Link Playへの参加が制限されています。\n"
+"%1@後に再度お試しください。"
 
 msgid "Account Created"
 msgstr "アカウント作成済"
@@ -967,6 +974,12 @@ msgstr "%2@楽曲を%1@曲クリア"
 
 msgid "Clear %1@ %2@ songs (%3@/%1@)"
 msgstr "%2@楽曲を%1@曲クリア (%3@ / %1@)"
+
+msgid "Clear %1@ %2@ songs from Main Story Act %3@"
+msgstr "メインストーリーAct %3@の楽曲を%1@つ %2@難易度でクリア"
+
+msgid "Clear %1@ %2@ songs from Main Story Act %3@ (%4@/%1@)"
+msgstr "メインストーリーAct %3@の楽曲を %1@つ %2@難易度でクリア (%4@/%1@)"
 
 msgid "Clear %1@ %2@ songs with Grade %4@ or above"
 msgstr "%2@難易度の楽曲を%4@グレード以上で%1@曲クリア"
@@ -2308,6 +2321,9 @@ msgstr ""
 "流れてくる線、アークノートを長押ししましょう\n"
 "ノートの終わりまで、押し続けて下さい"
 
+msgid "Hold to Unlock"
+msgstr "長押しで解禁"
+
 msgid "Hollow Core"
 msgstr "空虚の核"
 
@@ -3239,6 +3255,21 @@ msgstr ""
 "このPack Appendの購入には、\n"
 "『Lasting Eden』の所持が必須です。"
 
+msgid ""
+"Ownership of any\n"
+"CHUNITHM Collaboration\n"
+"Pack up to Chapter 4\n"
+"is required to unlock\n"
+"ETR difficulty"
+msgstr ""
+"ETR難易度の開放には\n"
+"以下のCHUNITHMコラボ\n"
+"どれかの所持が必要です\n"
+"\n"
+"・楽曲パック本体\n"
+"・Chapter 4までの\n"
+"　任意のPack Append"
+
 msgid "PARTNER"
 msgstr "パートナー"
 
@@ -3443,6 +3474,14 @@ msgstr "認証メールの再申請まで、あと%@分ほどお待ち下さい�
 
 msgid "Please wait 24 hours before using this feature again."
 msgstr "本機能の再使用は24時間後までお待ち下さい。"
+
+msgid ""
+"Please wait at least 60 seconds between joining\n"
+"rooms or access to Link Play may become limited."
+msgstr ""
+"Link Playへの参加は60秒以上の間隔を空けてください。\n"
+"短時間に頻繁な入退室を繰り返すと、\n"
+"Link Playの使用に制限がかかる場合があります。"
 
 msgid "Pop / Recommended"
 msgstr "ポップ・おすすめ"

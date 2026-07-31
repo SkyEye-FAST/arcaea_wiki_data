@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"PO-Revision-Date: 2026-06-17 02:02+0100\n"
+"PO-Revision-Date: 2026-07-24 00:08+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: zh_TW\n"
@@ -368,6 +368,11 @@ msgstr "放棄本曲目"
 
 msgid "Accept"
 msgstr "接受"
+
+msgid ""
+"Access to Link Play is currently limited.\n"
+"Please wait %1@ before joining again."
+msgstr "當前無法連線，請等待%1@後再試。"
 
 msgid "Account Created"
 msgstr "帳號已建立。"
@@ -922,6 +927,12 @@ msgstr "通關%1@次%2@曲目"
 
 msgid "Clear %1@ %2@ songs (%3@/%1@)"
 msgstr "通關%1@次%2@曲目 (%3@/%1@)"
+
+msgid "Clear %1@ %2@ songs from Main Story Act %3@"
+msgstr "通關主線劇情第%3@幕%1@首%2@難度樂曲"
+
+msgid "Clear %1@ %2@ songs from Main Story Act %3@ (%4@/%1@)"
+msgstr "通關主線劇情第%3@幕%1@首%2@難度樂曲(%4@/%1@)"
 
 msgid "Clear %1@ %2@ songs with Grade %4@ or above"
 msgstr "以%4@或更高的成績通關%1@次%2@曲目"
@@ -2201,6 +2212,9 @@ msgid ""
 "Keep holding until the note has ended."
 msgstr "當「音弧」靠近時，以一支手指壓住，直到「音弧」消失。"
 
+msgid "Hold to Unlock"
+msgstr "長按解鎖"
+
 msgid "Hollow Core"
 msgstr "中空核心"
 
@@ -3110,6 +3124,18 @@ msgstr ""
 "購買此Pack Append前\n"
 "需要持有曲包Lasting Eden"
 
+msgid ""
+"Ownership of any\n"
+"CHUNITHM Collaboration\n"
+"Pack up to Chapter 4\n"
+"is required to unlock\n"
+"ETR difficulty"
+msgstr ""
+"解鎖ETR必須\n"
+"至少擁有一個\n"
+"CHUNITHM\n"
+"曲包（1-4章）"
+
 msgid "PARTNER"
 msgstr "搭檔"
 
@@ -3316,6 +3342,13 @@ msgstr "請在%@分鐘後重新嘗試。"
 
 msgid "Please wait 24 hours before using this feature again."
 msgstr "請在再次使用此功能前等待24小時。"
+
+msgid ""
+"Please wait at least 60 seconds between joining\n"
+"rooms or access to Link Play may become limited."
+msgstr ""
+"請等待至少60秒再加入房間，短時間內重複嘗試\n"
+"連線可能觸發冷卻機制。"
 
 msgid "Pop / Recommended"
 msgstr "流行/推薦"

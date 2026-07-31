@@ -1,6 +1,6 @@
 {
-    "ver": "v6.15.0",
-    "date": 1783522863,
+    "ver": "v6.16.0",
+    "date": 1785456057,
     "data": {
         "sayonarahatsukoi": {
             "title": "Sayonara Hatsukoi",
@@ -3829,6 +3829,27 @@
             "date": 1782345605,
             "version": "6.15",
             "set": "virtualsingers"
+        },
+        "synthesis": {
+            "title": "Synthesis.",
+            "bpm": "180",
+            "date": 1785369600,
+            "version": "6.16",
+            "set": "single"
+        },
+        "acidgod": {
+            "title": "Acid God",
+            "bpm": "160",
+            "date": 1785369601,
+            "version": "6.16",
+            "set": "single"
+        },
+        "chronologia": {
+            "title": "chronologia",
+            "bpm": "180",
+            "date": 1785369603,
+            "version": "6.16",
+            "set": "single"
         }
     },
     "list": {
@@ -5181,6 +5202,7 @@
         "Yuta Imai": {
             "normal": [
                 "unknownlevels",
+                "acidgod",
                 "alterego"
             ]
         },
@@ -5728,6 +5750,16 @@
         "DECO*27": {
             "normal": [
                 "telepathy"
+            ]
+        },
+        "tn-shi": {
+            "normal": [
+                "synthesis"
+            ]
+        },
+        "lowiro Sound Team (ak+q x nitro)": {
+            "normal": [
+                "chronologia"
             ]
         }
     },

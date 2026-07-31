@@ -7666,6 +7666,75 @@
           "credit": 100
         }
       ]
+    },
+    {
+      "songId": "acidgod",
+      "ratingClass": 4,
+      "conditions": [
+        {
+          "type": 4,
+          "conditions": [
+            {
+              "type": 1,
+              "song_id": "worldvanquisher",
+              "song_difficulty": 2,
+              "grade": 0
+            },
+            {
+              "type": 1,
+              "song_id": "gou",
+              "song_difficulty": 2,
+              "grade": 0
+            },
+            {
+              "type": 1,
+              "song_id": "spidersthread",
+              "song_difficulty": 2,
+              "grade": 0
+            },
+            {
+              "type": 1,
+              "song_id": "daat",
+              "song_difficulty": 2,
+              "grade": 0
+            }
+          ]
+        },
+        {
+          "type": 5,
+          "rating": 1000
+        },
+        {
+          "type": 0,
+          "credit": 360
+        }
+      ]
+    },
+    {
+      "songId": "chronologia",
+      "ratingClass": 4,
+      "conditions": [
+        {
+          "type": 113,
+          "act": 1,
+          "count": 5,
+          "difficulty": 2
+        },
+        {
+          "type": 113,
+          "act": 2,
+          "count": 5,
+          "difficulty": 2
+        },
+        {
+          "type": 5,
+          "rating": 616
+        },
+        {
+          "type": 0,
+          "credit": 360
+        }
+      ]
     }
   ]
 }

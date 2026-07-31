@@ -540,7 +540,10 @@
             "kamippoi": 538,
             "override": 539,
             "telepathy": 540,
-            "aishite": 541
+            "aishite": 541,
+            "synthesis": 542,
+            "acidgod": 543,
+            "chronologia": 544
         },
         "name": {
             "Sayonara Hatsukoi": 1,
@@ -1080,7 +1083,10 @@
             "God-ish": 538,
             "Override": 539,
             "Telepathy": 540,
-            "Love me, Love me, Love me": 541
+            "Love me, Love me, Love me": 541,
+            "Synthesis.": 542,
+            "Acid God": 543,
+            "chronologia": 544
         }
     },
     "ns": {
