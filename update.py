@@ -1070,16 +1070,6 @@ def build_story_data(
 ) -> dict[str, dict[str, Any]]:
     """Build Lua story object containing metadata and per-language texts."""
 
-    def get_pack_name(pack_id: str) -> str:
-        if pack_id in pack_mapping:
-            return pack_mapping[pack_id]
-        if pack_id in song_mapping:
-            return get_song_name(pack_id)
-        return pack_id
-
-    def get_song_name(song_id: str) -> str:
-        return song_mapping.get(song_id, song_id)
-
     def get_title_clean(entry: dict[str, Any], major: str) -> str:
         m = entry.get("minor", 0)
         alt_p = entry.get("alternatePrefix", "")
@@ -1140,6 +1130,7 @@ def build_story_data(
                     req_purch = entry.get("requiredPurchase")
                     clear_char = entry.get("clearCharaId")
                     clear_song = entry.get("clearSongId")
+                    unlocked_song = entry.get("requirementAnomalyId")
 
                     req_minor_str = (
                         minor_to_title.get(req_minor, f"{major}-{req_minor}")
@@ -1153,9 +1144,7 @@ def build_story_data(
                         if additional_requires
                         else ""
                     )
-                    req_purch_str = (
-                        get_pack_name(req_purch) if req_purch and req_purch != "base" else ""
-                    )
+                    req_purch_id = req_purch if req_purch and req_purch != "base" else ""
                     clear_char_str = (
                         str(clear_char) if clear_char is not None and clear_char != -1 else ""
                     )
@@ -1186,8 +1175,8 @@ def build_story_data(
                             params["requiredMinor"] = req_minor_str
                         if additional_req_str:
                             params["additionalRequires"] = additional_req_str
-                        if req_purch_str:
-                            params["requiredPurchase"] = req_purch_str
+                        if req_purch_id:
+                            params["requiredPurchase"] = req_purch_id
                         is_single_purchase = (
                             req_purch
                             and req_purch not in pack_mapping
@@ -1199,17 +1188,20 @@ def build_story_data(
                             params["clearChar"] = clear_char_str
                         if clear_song_str:
                             params["clearSong"] = clear_song_str
+                        if unlocked_song:
+                            params["unlockedSong"] = unlocked_song
 
                     if title_clean in manual_mapping:
                         overrides = manual_mapping[title_clean]
                         params.update(overrides)
-                        if "condition" in overrides:
+                        if "requirement" in overrides:
                             params.pop("requiredMinor", None)
                             params.pop("requiredPurchase", None)
                             params.pop("singlePurchase", None)
-                        if "requirement" in overrides:
+                        if "condition" in overrides:
                             params.pop("clearChar", None)
                             params.pop("clearSong", None)
+                            params.pop("unlockedSong", None)
 
                     if title_clean not in lua_story_data:
                         lua_story_data[title_clean] = {}

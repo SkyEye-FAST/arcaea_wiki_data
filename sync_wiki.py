@@ -12,12 +12,12 @@ PROJECT_ROOT = Path(__file__).resolve().parent
 OUTPUT_DIR = PROJECT_ROOT / "output"
 
 PAGE_FILE_MAP = {
-    "Module:Story/data": OUTPUT_DIR / "arcaea_story_data.lua",
-    "Module:Story/data/en": OUTPUT_DIR / "arcaea_story_en.lua",
-    "Module:Story/data/zh-hans": OUTPUT_DIR / "arcaea_story_zh-hans.lua",
-    "Module:Story/data/zh-hant": OUTPUT_DIR / "arcaea_story_zh-hant.lua",
-    "Module:Story/data/ja": OUTPUT_DIR / "arcaea_story_ja.lua",
-    "Module:Story/data/ko": OUTPUT_DIR / "arcaea_story_ko.lua",
+    "Module:Story/data/mobile": OUTPUT_DIR / "arcaea_story_data.lua",
+    "Module:Story/data/mobile/en": OUTPUT_DIR / "arcaea_story_en.lua",
+    "Module:Story/data/mobile/zh-hans": OUTPUT_DIR / "arcaea_story_zh-hans.lua",
+    "Module:Story/data/mobile/zh-hant": OUTPUT_DIR / "arcaea_story_zh-hant.lua",
+    "Module:Story/data/mobile/ja": OUTPUT_DIR / "arcaea_story_ja.lua",
+    "Module:Story/data/mobile/ko": OUTPUT_DIR / "arcaea_story_ko.lua",
     "Template:Translation.json": OUTPUT_DIR / "tl.json",
     "Template:Version": OUTPUT_DIR / "version",
     "Template:Songlist.json": OUTPUT_DIR / "songlist",
