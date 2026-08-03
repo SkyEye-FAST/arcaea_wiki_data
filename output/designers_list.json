@@ -745,6 +745,9 @@
     },
     "24 KARAT GOLD": {
       "karat": "KARAT"
+    },
+    "nora::pengin": {
+      "nora::neko": "nora::pengin"
     }
   }
 }
