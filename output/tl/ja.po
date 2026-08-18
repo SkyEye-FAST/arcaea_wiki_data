@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"PO-Revision-Date: 2026-07-24 00:06+0100\n"
+"PO-Revision-Date: 2026-08-14 01:08+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: ja\n"
@@ -346,6 +346,9 @@ msgstr ""
 msgid "A rising tension"
 msgstr "駆け上がる戦慄"
 
+msgid "A seed, once planted"
+msgstr "蒔かれしかつての種子"
+
 msgid "A song at the start of time"
 msgstr "時の始まりに奏でる曲"
 
@@ -358,6 +361,9 @@ msgid ""
 msgstr ""
 "アカウントに一時停止措置を適用しております。\n"
 "公式サイトをご確認のうえ、対応をよろしくおねがいします。"
+
+msgid "A wish, once made"
+msgstr "願われしかつてのもの"
 
 msgid "AFFINITY"
 msgstr "親和度"
@@ -5656,6 +5662,9 @@ msgstr "さん が選曲者です"
 
 msgid "maimai Core"
 msgstr "maimaiの核"
+
+msgid "may not grow in a lightless place"
+msgstr "光なき地では、育ち得るものか"
 
 msgid "now"
 msgstr "今"

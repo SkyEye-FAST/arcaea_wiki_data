@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"PO-Revision-Date: 2026-07-24 00:08+0100\n"
+"PO-Revision-Date: 2026-08-13 20:47+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: zh_CN\n"
@@ -336,6 +336,9 @@ msgstr ""
 msgid "A rising tension"
 msgstr "局势愈发紧张"
 
+msgid "A seed, once planted"
+msgstr "曾经播撒的种子"
+
 msgid "A song at the start of time"
 msgstr "时初之间的歌曲"
 
@@ -346,6 +349,9 @@ msgid ""
 "A temporary hold has been placed on your account.\n"
 "Please visit the official website to resolve the issue."
 msgstr "您的账号已被暂时冻结。请访问官方网站以解决此问题。"
+
+msgid "A wish, once made"
+msgstr "曾经许下的愿望"
 
 msgid "AFFINITY"
 msgstr "相性契合"
@@ -5444,6 +5450,9 @@ msgstr "现在是房主"
 
 msgid "maimai Core"
 msgstr "舞萌核心"
+
+msgid "may not grow in a lightless place"
+msgstr "在无光之地中无法生存"
 
 msgid "now"
 msgstr "现在"

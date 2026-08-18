@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"PO-Revision-Date: 2026-07-24 02:34+0100\n"
+"PO-Revision-Date: 2026-08-13 20:46+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: ko\n"
@@ -338,6 +338,9 @@ msgstr ""
 msgid "A rising tension"
 msgstr "고조되는 전율"
 
+msgid "A seed, once planted"
+msgstr "한 때 누군가 심었던 씨앗도,"
+
 msgid "A song at the start of time"
 msgstr "시간의 시작에 흐르는 노래"
 
@@ -350,6 +353,9 @@ msgid ""
 msgstr ""
 "현재 계정이 임시보류 상태로 전환되어 있습니다.\n"
 "문제 해결을 위해 공식 홈페이지를 방문해주십시오."
+
+msgid "A wish, once made"
+msgstr "한 때 누군가 빈 소원도,"
 
 msgid "AFFINITY"
 msgstr "호환성"
@@ -5545,6 +5551,9 @@ msgstr "가(이) 선곡합니다"
 
 msgid "maimai Core"
 msgstr "maimai 코어"
+
+msgid "may not grow in a lightless place"
+msgstr "이 빛 없는 세계에서는 싹을 틔우지 못하리니."
 
 msgid "now"
 msgstr "현재"
