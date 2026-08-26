@@ -18,7 +18,7 @@ from sync_wiki import (
 UPDATE_SKIPPED_MARKER = update.PROJECT_ROOT / ".update-skipped"
 UPDATE_LISTEN_TIMEZONE = ZoneInfo("Asia/Shanghai")
 UPDATE_LISTEN_START = (7, 50)
-UPDATE_LISTEN_END = (8, 10)
+UPDATE_LISTEN_END = (8, 30)
 UPDATE_LISTEN_POLL_SECONDS = 10
 
 
@@ -118,7 +118,7 @@ def main() -> None:
                 break
             time.sleep(min(UPDATE_LISTEN_POLL_SECONDS, remaining_seconds))
 
-    print("[0/5] No new version detected before 08:10; stopping.", flush=True)
+    print("[0/5] No new version detected before 08:30; stopping.", flush=True)
     UPDATE_SKIPPED_MARKER.write_text(
         "no new version before listen deadline\n",
         encoding="utf-8",
