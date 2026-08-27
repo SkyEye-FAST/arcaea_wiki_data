@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"PO-Revision-Date: 2026-08-13 20:47+0100\n"
+"PO-Revision-Date: 2026-08-24 05:59+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: zh_TW\n"
@@ -218,6 +218,68 @@ msgstr "，壹零捌。"
 msgid "- None -"
 msgstr "無"
 
+msgid ""
+"// No, it is instead more like a sea. Arcaea’s fabric exists as an ever-shifting, almost incomprehensible thing which one tends to describe with terms of emotion: calm or raging, dark or peaceful.\n"
+"\n"
+"Ebbing, and flowing... //"
+msgstr ""
+"// 比起細膩柔軟的布料，這個世界更像是難以捉摸的大海，\n"
+"組成Arcaea的東西無時無刻不在以令人難以理解的方式變化。\n"
+"很多人也許會用描述情感的詞來形容這種變化：冷靜的，\n"
+"或是憤怒的；陰暗的，或是柔和的。\n"
+"\n"
+"潮水般，時漲，時落…… //"
+
+msgid ""
+"// Seven colors ring out, and the flow of time goes still.\n"
+"\n"
+"This has surely happened before. This refusal. This—\n"
+"\n"
+"In this frozen moment she can feel herself wanting to stop.\n"
+"From that feeling, frustration threatens to build. //"
+msgstr ""
+"// 七彩的光芒透過破碎的玻璃噴湧而出，連帶著時間也停止了下來。\n"
+"這種情況先前肯定也發生過。\n"
+"\n"
+"這種抗拒的方式，這種似曾相識的感覺——\n"
+"時光仍處於冰封之中，她的心情也低沉到了冰點。\n"
+"現在的她，只想讓自己就此打住。//"
+
+msgid "// She holds her clothing more tightly to herself and thinks to close her eyes, but does not. Wincing, she keeps her eyes steady on the glass formation ahead and above her, even as the wind almost pushes her from her course—even as the snow begins to climb beyond her calves, beyond her knees. Her heavy robe begins to feel thin, and her breathing begins to shorten. //"
+msgstr ""
+"她將自己的衣服捂得更緊了點，思量著要不要閉上眼睛。\n"
+"最後她沒有那麼做，而是哆嗦著死死盯著她前方上空中碎片的變化。\n"
+"即使是自己都快要給吹跑了，雪沒過小腿，沒過膝蓋了，\n"
+"她也絲毫沒有移開視線。她那厚厚的長袍此時顯得特別單薄，\n"
+"而她的呼吸也逐漸急促了起來。 "
+
+msgid ""
+"// That was the flower from the cradle of life.\n"
+"As blood dropped from the spear's tip, Her eyes opened to see. She gazed into the bones of God, and She told Him:\n"
+"\n"
+"Give me everything. //"
+msgstr ""
+"她是生命的搖籃孕育的花。\n"
+"矛尖的殷紅不斷墜落，她的雙眼卻再次睜開。\n"
+"凝視那神明的骸骨吧，少女，然後命令祂——\n"
+"給予你一切。"
+
+msgid "// With every step until now, the scene has shifted. Her steps shift the ground—shift space. She nears the tapestry’s edges, only to find that the cloth had never been entirely sewn. Glass glides past her quietly, and then moves suddenly, as if startled. The world around her has become black, rather than white. In the air, stars hang. The way is fractured... //"
+msgstr ""
+"每踏出一步，場景就轉換一次。她的腳步能改變腳下的地面，\n"
+"並改造空間。她走向織錦旁，卻發現布料並未好好縫上。\n"
+"玻璃靜靜地滑過她的身邊，然後突然四散，像是受到了驚嚇。\n"
+"她周遭的世界已變得漆黑而不再潔白。繁星洒落在空中，\n"
+"腳下的路卻是如此支離破碎……"
+
+msgid "// With the new formation complete, she wastes no time in beginning her ascent. One by one, step by step, she rises with her armchair floating close by, ready to catch her should she fall. As the girl makes her way, she pulls from the bottom of the stairs and sends those steps to the top. Soon after, she finds herself climbing an ever-building, ever-breaking staircase. Through layers of fog, to the highest point. //"
+msgstr ""
+"新的路徑已經完工，她自然刻不容緩地登上了階梯。\n"
+"那把浮空座椅近距離陪伴在她身旁，隨時準備接住也許會不慎失足的她。\n"
+"當女孩往上邁進時，她更是抽走了位於最下端的梯級，接續在整體結構的最上方。\n"
+"沒過多久，她便意識到自己是在攀爬一段永無止境地延伸的螺旋長梯。\n"
+"穿過層層雲霧，直到抵達最高點。"
+
 msgid "1 second remains"
 msgstr "僅剩1秒"
 
@@ -336,9 +398,6 @@ msgstr ""
 msgid "A rising tension"
 msgstr "局勢愈發緊張"
 
-msgid "A seed, once planted"
-msgstr "曾經播撒的種子"
-
 msgid "A song at the start of time"
 msgstr "時初之間的歌曲"
 
@@ -349,9 +408,6 @@ msgid ""
 "A temporary hold has been placed on your account.\n"
 "Please visit the official website to resolve the issue."
 msgstr "您的賬戶已被臨時凍結。請前往官方網頁解決這個問題。"
-
-msgid "A wish, once made"
-msgstr "曾經許下的願望"
 
 msgid "AFFINITY"
 msgstr "相性契合"
@@ -371,6 +427,9 @@ msgstr "放棄挑戰"
 
 msgid "Abandon Song"
 msgstr "放棄本曲目"
+
+msgid "Absolution"
+msgstr "Absolution"
 
 msgid "Accept"
 msgstr "接受"
@@ -638,6 +697,13 @@ msgstr "檔案故事"
 
 msgid "Archive△ || Eternal, Beyond△"
 msgstr "檔案△ | | Eternal, Beyond△"
+
+msgid ""
+"Are you prepared to burn a soul away in the pursuit of a better end?\n"
+"Then proceed, heedless, into the last of light."
+msgstr ""
+"妳是否準備好為了更好的結局而燃燒靈魂？\n"
+"那麼，毫不猶豫地走向最後的光明吧。"
 
 msgid "Are you sure you want to download data from Cloud?"
 msgstr "確定想要下載雲端數據嗎？"
@@ -1659,6 +1725,9 @@ msgstr "遊玩《Aegleseeker》"
 msgid "Experience Arghena"
 msgstr "遊玩《Arghena》"
 
+msgid "Experience DEINOS PHAINEIN"
+msgstr "經歷DEINOS PHAINEIN"
+
 msgid "Experience Designant."
 msgstr "探究Designant."
 
@@ -2004,6 +2073,9 @@ msgstr ""
 "按任意方式分類歌曲\n"
 "並打開該曲目分類夾"
 
+msgid "Grow a sense for the imperceptible."
+msgstr "培養對不可察覺之物的感知。"
+
 msgid ""
 "HARD + 6% chance to lose 6x Recollection Rate\n"
 "STEP increased by 6 on clear"
@@ -2107,6 +2179,9 @@ msgid ""
 "HARD + World Mode progress increased by 1\n"
 "for each %@ combo reached"
 msgstr "困難 + 每達%@連擊數世界模式進度+1"
+
+msgid "HARD - Endure Fate"
+msgstr "困難 - 啞忍命運"
 
 msgid ""
 "HARD - Fatalis Gauge + sacrifices stamina\n"
@@ -2237,11 +2312,30 @@ msgstr ""
 "現在我可以肯定：這個地方的時間流逝的速度本身，\n"
 "以及和Arcaea世界時間流逝的關係均似乎有些詭異。這聽起來很像時間膨脹。"
 
+msgid "I: Obscure Path"
+msgstr "I. 晦澀之道"
+
 msgid "ID must be 9 digits."
 msgstr "ID 均為 9 位數字。"
 
+msgid "II: Twisting Path"
+msgstr "II. 扭曲之道"
+
+msgid "III: Vast Path"
+msgstr "III. 無際之道"
+
 msgid "INTRUDER"
 msgstr "侵襲者"
+
+msgid "IV: Incomplete Path"
+msgstr "IV. 殘缺之道"
+
+msgid ""
+"If you are so desperate to meet me...\n"
+"...Try again, soon."
+msgstr ""
+"如果真的那麼想見我…\n"
+"…那就過段時間再來吧。"
 
 msgid ""
 "If you're enjoying Arcaea, please consider writing a review.\n"
@@ -2601,6 +2695,9 @@ msgstr "主線回憶錄"
 
 msgid "Main Story[PACKLIST]"
 msgstr "主線"
+
+msgid "Make the way."
+msgstr "開拓。"
 
 msgid "Manage Downloads"
 msgstr "管理下載"
@@ -3547,6 +3644,9 @@ msgid ""
 "by the end of the song to clear it."
 msgstr "在曲目結束時獲得 70% 以上的回憶率即可過關。"
 
+msgid "Reach out and touch the impossible."
+msgstr "伸手，觸碰那不可能之物。"
+
 msgid "Read '%@'"
 msgstr "閱讀劇情【%@】"
 
@@ -3689,6 +3789,9 @@ msgstr ""
 msgid "Regulus"
 msgstr "軒轅十四"
 
+msgid "Remain..."
+msgstr "停留"
+
 msgid "Remember a better girl, and stay to certain time."
 msgstr "回憶定格在那段時日，於此銘記卓越的少女。"
 
@@ -3717,6 +3820,9 @@ msgid ""
 msgstr ""
 "清除全部已下載的歌曲。\n"
 "您可以隨時重新下載它們。"
+
+msgid "Reorient the world."
+msgstr "重構世界。"
 
 msgid "Requirement"
 msgstr "條件"
@@ -4050,6 +4156,9 @@ msgstr ""
 msgid "Slide songs to the right to add them to Favorites."
 msgstr "將歌曲向右滑動就可以將它們加入「Favorites」"
 
+msgid "Slip free from time."
+msgstr "掙脫時間的桎梏。"
+
 msgid "Slow"
 msgstr "稍慢"
 
@@ -4196,6 +4305,9 @@ msgstr ""
 msgid "Stella"
 msgstr "星"
 
+msgid "Stop in between, and start again."
+msgstr "稍歇一會，便再度邁步吧。"
+
 msgid "Stored Progress"
 msgstr "儲備進度"
 
@@ -4232,6 +4344,9 @@ msgstr "成功"
 
 msgid "Success! Welcome to Arcaea!"
 msgstr "成功！ 歡迎來到 Arcaea！"
+
+msgid "Such a persistent soul. Well done."
+msgstr "真是固執的靈魂啊⋯不錯。"
 
 msgid "Suggested by"
 msgstr "推薦者"
@@ -4401,6 +4516,20 @@ msgstr ""
 "繼續使用Arcaea即表示\n"
 "您已閱讀並接受我們更新後的隱私權政策。"
 
+msgid ""
+"The paths that lie ahead are dark, yet they beckon you with distant light.\n"
+"\n"
+"Challenge each song, meet each end, distort reality and bring about new fate.\n"
+"\n"
+"Be sure that the history of this place changes here and now."
+msgstr ""
+"幽暗之道徐徐鋪開，隱隱透著遠處的光芒。\n"
+"\n"
+"挑戰每一首歌曲，迎接每一個終點。\n"
+"打破枷鎖，扭曲現實，創造新的命運。\n"
+"\n"
+"就在此時此刻，徹底改寫所謂的歷史吧。"
+
 msgid "The purchase could not be completed."
 msgstr "購買無法完成。"
 
@@ -4538,6 +4667,9 @@ msgstr "你隨時可從設定調整之。"
 msgid "This code has already been claimed."
 msgstr "此序號已使用。"
 
+msgid "This content cannot be purchased from within Link Play."
+msgstr "該內容無法透過Link Play介面獲取。"
+
 msgid "This email address is already in use."
 msgstr "此電子信箱已有人使用。"
 
@@ -4669,6 +4801,9 @@ msgstr "王座級。"
 
 msgid "Tier reward has been claimed"
 msgstr "該階段獎勵已領取"
+
+msgid "Time cannot be reversed."
+msgstr "時光不會倒流。"
 
 msgid "Time remaining until Course abandoned"
 msgstr "在以下時間截止後段位挑戰將自動放棄"
@@ -4886,6 +5021,12 @@ msgstr "使用者名稱必須為 3~15 碼的英數字元、大小寫有別。"
 
 msgid "Username or password incorrect."
 msgstr "使用者名稱或帳號不正確。"
+
+msgid "V: Intangible Path"
+msgstr "V. 無形之道"
+
+msgid "VI:              "
+msgstr "VI."
 
 msgid "VIIM"
 msgstr "VIIM"
@@ -5369,6 +5510,9 @@ msgstr "夢乃"
 msgid "Zero"
 msgstr "Zero"
 
+msgid "[KONZETSU]Confirm"
+msgstr "前進"
+
 msgid "[PARALLEL]Boosts"
 msgstr "強化"
 
@@ -5443,9 +5587,6 @@ msgstr "現在是房主"
 
 msgid "maimai Core"
 msgstr "舞萌核心"
-
-msgid "may not grow in a lightless place"
-msgstr "在無光之地中無法生存"
 
 msgid "now"
 msgstr "現在"

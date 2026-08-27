@@ -2073,7 +2073,7 @@
   ,
   {
 	  "character_id": 73,
-      "base_character": true,
+    "base_character": true,
 	  "name": "luin",
 	  "is_available": false,
 	  "is_previewable": false,
@@ -2750,6 +2750,35 @@
         "시라히메 플로우"
     ],
     "pack_id": "megarex"
+  }
+  ,
+  {
+    "character_id": 97,
+    "base_character_id": 23,
+    "base_character": false,
+    "name": "saya_konzetsu",
+    "is_available": false,
+    "is_previewable": false,
+    "base_frag": 54,
+    "base_prog": 71,
+    "base_over": 51.5,
+    "max_frag": 125,
+    "max_prog": 160,
+    "max_over": 120,
+    "char_type": 2,
+    "skill_unlock_level": 0,
+    "skill_id": "skill_saya_konzetsu",
+    "uncap_cores": [],
+    "version_from": "7.0.0",
+    "search_strings": [
+        "サヤ",
+        "咲弥",
+        "咲彌",
+        "사야",
+        "さやあぶそりゅーしょん",
+        "あぶそりゅーしょんさや"
+    ],
+    "pack_id": "konzetsu"
   }
   ,
   {

@@ -1,6 +1,6 @@
 {
-    "ver": "v6.16.8",
-    "date": 1787038635,
+    "ver": "v7.0.0",
+    "date": 1787799807,
     "data": {
         "sayonarahatsukoi": {
             "title": "Sayonara Hatsukoi",
@@ -3844,12 +3844,68 @@
             "version": "6.16",
             "set": "single"
         },
+        "diein": {
+            "title": "DIE IN",
+            "bpm": "160-230",
+            "date": 1787788800,
+            "version": "7.0",
+            "set": "single"
+        },
         "chronologia": {
             "title": "chronologia",
             "bpm": "180",
             "date": 1785369603,
             "version": "6.16",
             "set": "single"
+        },
+        "balor": {
+            "title": "Balor",
+            "bpm": "157",
+            "date": 1787788801,
+            "version": "7.0",
+            "set": "konzetsu"
+        },
+        "dreadarea": {
+            "title": "DREAD AREA",
+            "bpm": "205",
+            "date": 1787788802,
+            "version": "7.0",
+            "set": "konzetsu"
+        },
+        "un": {
+            "title": "un",
+            "bpm": "188",
+            "date": 1787788803,
+            "version": "7.0",
+            "set": "konzetsu"
+        },
+        "rivenpilgrim": {
+            "title": "Riven Pilgrimage",
+            "bpm": "180",
+            "date": 1787788804,
+            "version": "7.0",
+            "set": "konzetsu"
+        },
+        "cataclysmcry": {
+            "title": "Cataclysm Cry",
+            "bpm": "180",
+            "date": 1787788805,
+            "version": "7.0",
+            "set": "konzetsu"
+        },
+        "deinosphainein": {
+            "title": "DEINOS PHAINEIN",
+            "bpm": "190",
+            "date": 1787788806,
+            "version": "7.0",
+            "set": "konzetsu"
+        },
+        "ember": {
+            "title": "Ember",
+            "bpm": "190",
+            "date": 1787788807,
+            "version": "7.0",
+            "set": "konzetsu"
         }
     },
     "list": {
@@ -4848,7 +4904,8 @@
                 "vandalism",
                 "undyingmacula",
                 "abstrusedilemma",
-                "lamentrain"
+                "lamentrain",
+                "dreadarea"
             ]
         },
         "A/I": {
@@ -4935,7 +4992,8 @@
                 "firstsnow",
                 "tothemilkyway",
                 "dontfightmusic",
-                "andrevivemelody"
+                "andrevivemelody",
+                "un"
             ]
         },
         "Ayatsugu_Otowa": {
@@ -5210,6 +5268,7 @@
             "normal": [
                 "abstrusedilemma",
                 "lamentrain",
+                "dreadarea",
                 "wishuponasnow",
                 "welcomequeen"
             ]
@@ -5755,6 +5814,36 @@
         "tn-shi": {
             "normal": [
                 "synthesis"
+            ]
+        },
+        "TAK x Sobrem": {
+            "normal": [
+                "diein"
+            ]
+        },
+        "Redsign": {
+            "normal": [
+                "balor"
+            ]
+        },
+        "rejection & Supire feat. eili": {
+            "normal": [
+                "rivenpilgrim"
+            ]
+        },
+        "Aid": {
+            "normal": [
+                "cataclysmcry"
+            ]
+        },
+        "Blacklolita vs Juggernaut.": {
+            "normal": [
+                "deinosphainein"
+            ]
+        },
+        "Powerless & siqlo feat. Tia": {
+            "normal": [
+                "ember"
             ]
         }
     },

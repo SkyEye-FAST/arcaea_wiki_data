@@ -1,5 +1,6 @@
 """Export Arcaea data files from game APK for wiki.arcaea.cn."""
 
+import argparse
 import json
 import re
 import shutil
@@ -625,8 +626,7 @@ def build_designer_song_cache(
         pack_id = pack["id"]
         pack_info[pack["id"]] = {
             "_parentId_": pack.get("pack_parent"),
-            "name": transition_pack_names.get(pack_id)
-            or pack.get("name_localized", {}).get("en"),
+            "name": transition_pack_names.get(pack_id) or pack.get("name_localized", {}).get("en"),
             "section": pack.get("section"),
             "numero": index,
         }
@@ -820,6 +820,55 @@ def derive_apk_filename(info_value: dict[str, Any], apk_url: str) -> str:
     return "arcaea.apk"
 
 
+def derive_local_apk_version(apk_path: Path) -> str:
+    """Derive a version such as 7.0.0 from a local APK filename."""
+    match = re.search(r"(\d+(?:\.\d+){2,})c?$", apk_path.stem)
+    if not match:
+        raise ValueError(
+            f"Unable to derive version from APK filename: {apk_path.name}. "
+            "Pass --version explicitly."
+        )
+    return match.group(1)
+
+
+def extract_outputs_from_apk(
+    apk_source: Path | BytesIO,
+    version_name: str,
+) -> tuple[dict[str, str], dict[str, str]]:
+    """Extract generated data inputs from an APK path or in-memory download."""
+    with zipfile.ZipFile(apk_source) as apk_zip:
+        packlist_bytes = apk_zip.read("assets/songs/packlist")
+        songlist_bytes = apk_zip.read("assets/songs/songlist")
+        unlocks_bytes = apk_zip.read("assets/songs/unlocks")
+        characters_bytes = apk_zip.read("assets/char/characters.json")
+        extract_story_sources_from_apk_zip(apk_zip)
+        extract_tl_from_apk_zip(apk_zip)
+
+    packlist_raw = orjson.loads(packlist_bytes)
+    songlist_raw = orjson.loads(songlist_bytes)
+    characters_raw = orjson.loads(characters_bytes)
+    pack_mapping, song_mapping = build_pack_song_mapping(packlist_raw, songlist_raw)
+
+    OUTPUT_PACKLIST_FILE.write_bytes(packlist_bytes)
+    OUTPUT_SONGLIST_FILE.write_bytes(songlist_bytes)
+    OUTPUT_UNLOCKS_FILE.write_bytes(unlocks_bytes)
+    OUTPUT_CHARACTERS_FILE.write_bytes(characters_bytes)
+    print(
+        f"[2/5] Extracted characters JSON: {len(characters_raw)} entries.",
+        flush=True,
+    )
+    if version_name:
+        OUTPUT_VERSION_FILE.write_text(version_name + "\n", encoding="utf-8")
+        print(f"[2/5] Latest version: {version_name}", flush=True)
+
+    print(
+        f"[2/5] Loaded pack/song mappings: {len(pack_mapping)} packs, {len(song_mapping)} songs.",
+        flush=True,
+    )
+
+    return pack_mapping, song_mapping
+
+
 def request_with_retry(
     session: requests.Session,
     url: str,
@@ -878,9 +927,20 @@ def request_with_retry(
 def load_pack_song_mapping_from_apk(
     *,
     force_refresh: bool = False,
+    apk_path: Path | None = None,
+    apk_version: str | None = None,
 ) -> tuple[dict[str, str], dict[str, str]]:
     """Fetch latest APK and load packlist/songlist mapping from assets/app-data."""
     OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
+
+    if apk_path is not None:
+        local_apk_path = apk_path.expanduser().resolve()
+        if not local_apk_path.is_file():
+            raise FileNotFoundError(f"Local APK not found: {local_apk_path}")
+        version_name = (apk_version or derive_local_apk_version(local_apk_path)).strip()
+        version_name = version_name.removeprefix("v").removesuffix("c")
+        print(f"[2/5] Using local APK: {local_apk_path}", flush=True)
+        return extract_outputs_from_apk(local_apk_path, version_name)
 
     apk_url: str | None = None
     version_name = ""
@@ -1028,37 +1088,7 @@ def load_pack_song_mapping_from_apk(
     if apk_data is None:
         raise RuntimeError("APK data is empty")
 
-    with zipfile.ZipFile(BytesIO(apk_data)) as apk_zip:
-        packlist_bytes = apk_zip.read("assets/songs/packlist")
-        songlist_bytes = apk_zip.read("assets/songs/songlist")
-        unlocks_bytes = apk_zip.read("assets/songs/unlocks")
-        characters_bytes = apk_zip.read("assets/char/characters.json")
-        extract_story_sources_from_apk_zip(apk_zip)
-        extract_tl_from_apk_zip(apk_zip)
-
-    packlist_raw = orjson.loads(packlist_bytes)
-    songlist_raw = orjson.loads(songlist_bytes)
-    characters_raw = orjson.loads(characters_bytes)
-    pack_mapping, song_mapping = build_pack_song_mapping(packlist_raw, songlist_raw)
-
-    OUTPUT_PACKLIST_FILE.write_bytes(packlist_bytes)
-    OUTPUT_SONGLIST_FILE.write_bytes(songlist_bytes)
-    OUTPUT_UNLOCKS_FILE.write_bytes(unlocks_bytes)
-    OUTPUT_CHARACTERS_FILE.write_bytes(characters_bytes)
-    print(
-        f"[2/5] Extracted characters JSON: {len(characters_raw)} entries.",
-        flush=True,
-    )
-    if version_name:
-        OUTPUT_VERSION_FILE.write_text(version_name + "\n", encoding="utf-8")
-        print(f"[2/5] Latest version: {version_name}", flush=True)
-
-    print(
-        f"[2/5] Loaded pack/song mappings: {len(pack_mapping)} packs, {len(song_mapping)} songs.",
-        flush=True,
-    )
-
-    return pack_mapping, song_mapping
+    return extract_outputs_from_apk(BytesIO(apk_data), version_name)
 
 
 def build_story_data(
@@ -1284,7 +1314,12 @@ def write_lua_outputs(lua_story_data: dict[str, dict[str, Any]]) -> None:
             out.write("}\n")
 
 
-def main(*, force_refresh: bool = False) -> None:
+def main(
+    *,
+    force_refresh: bool = False,
+    apk_path: Path | None = None,
+    apk_version: str | None = None,
+) -> None:
     """Run full Lua export pipeline."""
     OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
 
@@ -1302,7 +1337,11 @@ def main(*, force_refresh: bool = False) -> None:
 
     print("[1/5] Loaded local mapping files.", flush=True)
 
-    pack_mapping, song_mapping = load_pack_song_mapping_from_apk(force_refresh=force_refresh)
+    pack_mapping, song_mapping = load_pack_song_mapping_from_apk(
+        force_refresh=force_refresh,
+        apk_path=apk_path,
+        apk_version=apk_version,
+    )
     if not STORY_ROOT.exists():
         raise FileNotFoundError(f"Story root not found: {STORY_ROOT}")
 
@@ -1341,4 +1380,23 @@ def main(*, force_refresh: bool = False) -> None:
 
 
 if __name__ == "__main__":
-    main()
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument("--apk", type=Path, help="Use this local APK instead of fetching one.")
+    parser.add_argument(
+        "--version",
+        dest="apk_version",
+        help="Version for --apk; otherwise derived from the APK filename.",
+    )
+    parser.add_argument(
+        "--force-refresh",
+        action="store_true",
+        help="Regenerate outputs even when the fetched version is unchanged.",
+    )
+    args = parser.parse_args()
+    if args.apk_version and not args.apk:
+        parser.error("--version requires --apk")
+    main(
+        force_refresh=args.force_refresh,
+        apk_path=args.apk,
+        apk_version=args.apk_version,
+    )

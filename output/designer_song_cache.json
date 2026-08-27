@@ -1,6 +1,6 @@
 {
-    "ver": "v6.16.8",
-    "date": 1787038635,
+    "ver": "v7.0.0",
+    "date": 1787799807,
     "data": {
         "sayonarahatsukoi": {
             "title": "Sayonara Hatsukoi",
@@ -45,7 +45,7 @@
             "packName": "Eternal Core",
             "sort": {
                 "section": "mainstory",
-                "numero": 14,
+                "numero": 15,
                 "rating": 8,
                 "ratingPlus": true
             }
@@ -93,7 +93,7 @@
             "packName": "Eternal Core",
             "sort": {
                 "section": "mainstory",
-                "numero": 14,
+                "numero": 15,
                 "rating": 8,
                 "ratingPlus": false
             }
@@ -117,7 +117,7 @@
             "packName": "Eternal Core",
             "sort": {
                 "section": "mainstory",
-                "numero": 14,
+                "numero": 15,
                 "rating": 8,
                 "ratingPlus": true
             }
@@ -141,7 +141,7 @@
             "packName": "Eternal Core",
             "sort": {
                 "section": "mainstory",
-                "numero": 14,
+                "numero": 15,
                 "rating": 8,
                 "ratingPlus": false
             }
@@ -177,7 +177,7 @@
             "packName": "Eternal Core",
             "sort": {
                 "section": "mainstory",
-                "numero": 14,
+                "numero": 15,
                 "rating": 9,
                 "ratingPlus": false
             }
@@ -201,7 +201,7 @@
             "packName": "Eternal Core",
             "sort": {
                 "section": "mainstory",
-                "numero": 14,
+                "numero": 15,
                 "rating": 10,
                 "ratingPlus": false
             }
@@ -213,7 +213,7 @@
             "packName": "Eternal Core",
             "sort": {
                 "section": "mainstory",
-                "numero": 14,
+                "numero": 15,
                 "rating": 10,
                 "ratingPlus": false
             }
@@ -225,7 +225,7 @@
             "packName": "Eternal Core",
             "sort": {
                 "section": "mainstory",
-                "numero": 14,
+                "numero": 15,
                 "rating": 8,
                 "ratingPlus": false
             }
@@ -285,7 +285,7 @@
             "packName": "Crimson Solace",
             "sort": {
                 "section": "sidestory",
-                "numero": 33,
+                "numero": 34,
                 "rating": 9,
                 "ratingPlus": false
             }
@@ -297,7 +297,7 @@
             "packName": "Crimson Solace",
             "sort": {
                 "section": "sidestory",
-                "numero": 33,
+                "numero": 34,
                 "rating": 8,
                 "ratingPlus": true
             }
@@ -309,7 +309,7 @@
             "packName": "Crimson Solace",
             "sort": {
                 "section": "sidestory",
-                "numero": 33,
+                "numero": 34,
                 "rating": 9,
                 "ratingPlus": false
             }
@@ -321,7 +321,7 @@
             "packName": "Crimson Solace",
             "sort": {
                 "section": "sidestory",
-                "numero": 33,
+                "numero": 34,
                 "rating": 10,
                 "ratingPlus": false
             }
@@ -333,7 +333,7 @@
             "packName": "Crimson Solace",
             "sort": {
                 "section": "sidestory",
-                "numero": 33,
+                "numero": 34,
                 "rating": 7,
                 "ratingPlus": true
             }
@@ -417,7 +417,7 @@
             "packName": "Dynamix Collaboration",
             "sort": {
                 "section": "collab",
-                "numero": 57,
+                "numero": 58,
                 "rating": 7,
                 "ratingPlus": true
             }
@@ -429,7 +429,7 @@
             "packName": "Dynamix Collaboration",
             "sort": {
                 "section": "collab",
-                "numero": 57,
+                "numero": 58,
                 "rating": 8,
                 "ratingPlus": false
             }
@@ -441,7 +441,7 @@
             "packName": "Dynamix Collaboration",
             "sort": {
                 "section": "collab",
-                "numero": 57,
+                "numero": 58,
                 "rating": 8,
                 "ratingPlus": true
             }
@@ -453,7 +453,7 @@
             "packName": "Dynamix Collaboration",
             "sort": {
                 "section": "collab",
-                "numero": 57,
+                "numero": 58,
                 "rating": 9,
                 "ratingPlus": false
             }
@@ -465,7 +465,7 @@
             "packName": "Dynamix Collaboration",
             "sort": {
                 "section": "collab",
-                "numero": 57,
+                "numero": 58,
                 "rating": 10,
                 "ratingPlus": false
             }
@@ -513,7 +513,7 @@
             "packName": "Ambivalent Vision",
             "sort": {
                 "section": "sidestory",
-                "numero": 32,
+                "numero": 33,
                 "rating": 9,
                 "ratingPlus": true
             }
@@ -525,7 +525,7 @@
             "packName": "Ambivalent Vision",
             "sort": {
                 "section": "sidestory",
-                "numero": 32,
+                "numero": 33,
                 "rating": 7,
                 "ratingPlus": true
             }
@@ -537,7 +537,7 @@
             "packName": "Ambivalent Vision",
             "sort": {
                 "section": "sidestory",
-                "numero": 32,
+                "numero": 33,
                 "rating": 7,
                 "ratingPlus": false
             }
@@ -549,7 +549,7 @@
             "packName": "Ambivalent Vision",
             "sort": {
                 "section": "sidestory",
-                "numero": 32,
+                "numero": 33,
                 "rating": 8,
                 "ratingPlus": false
             }
@@ -561,7 +561,7 @@
             "packName": "Ambivalent Vision",
             "sort": {
                 "section": "sidestory",
-                "numero": 32,
+                "numero": 33,
                 "rating": 8,
                 "ratingPlus": false
             }
@@ -621,7 +621,7 @@
             "packName": "Vicious Labyrinth",
             "sort": {
                 "section": "mainstory",
-                "numero": 13,
+                "numero": 14,
                 "rating": 9,
                 "ratingPlus": true
             }
@@ -633,7 +633,7 @@
             "packName": "Vicious Labyrinth",
             "sort": {
                 "section": "mainstory",
-                "numero": 13,
+                "numero": 14,
                 "rating": 9,
                 "ratingPlus": true
             }
@@ -645,7 +645,7 @@
             "packName": "Vicious Labyrinth",
             "sort": {
                 "section": "mainstory",
-                "numero": 13,
+                "numero": 14,
                 "rating": 9,
                 "ratingPlus": false
             }
@@ -657,7 +657,7 @@
             "packName": "Vicious Labyrinth",
             "sort": {
                 "section": "mainstory",
-                "numero": 13,
+                "numero": 14,
                 "rating": 10,
                 "ratingPlus": false
             }
@@ -669,7 +669,7 @@
             "packName": "Vicious Labyrinth",
             "sort": {
                 "section": "mainstory",
-                "numero": 13,
+                "numero": 14,
                 "rating": 10,
                 "ratingPlus": false
             }
@@ -681,7 +681,7 @@
             "packName": "Vicious Labyrinth",
             "sort": {
                 "section": "mainstory",
-                "numero": 13,
+                "numero": 14,
                 "rating": 11,
                 "ratingPlus": false
             }
@@ -753,7 +753,7 @@
             "packName": "Lanota Collaboration",
             "sort": {
                 "section": "collab",
-                "numero": 55,
+                "numero": 56,
                 "rating": 10,
                 "ratingPlus": false
             }
@@ -765,7 +765,7 @@
             "packName": "Lanota Collaboration",
             "sort": {
                 "section": "collab",
-                "numero": 55,
+                "numero": 56,
                 "rating": 7,
                 "ratingPlus": true
             }
@@ -777,7 +777,7 @@
             "packName": "Lanota Collaboration",
             "sort": {
                 "section": "collab",
-                "numero": 55,
+                "numero": 56,
                 "rating": 9,
                 "ratingPlus": false
             }
@@ -789,7 +789,7 @@
             "packName": "Lanota Collaboration",
             "sort": {
                 "section": "collab",
-                "numero": 55,
+                "numero": 56,
                 "rating": 9,
                 "ratingPlus": false
             }
@@ -801,7 +801,7 @@
             "packName": "Lanota Collaboration",
             "sort": {
                 "section": "collab",
-                "numero": 55,
+                "numero": 56,
                 "rating": 9,
                 "ratingPlus": false
             }
@@ -837,7 +837,7 @@
             "packName": "Binary Enfold",
             "sort": {
                 "section": "sidestory",
-                "numero": 30,
+                "numero": 31,
                 "rating": 8,
                 "ratingPlus": false
             }
@@ -849,7 +849,7 @@
             "packName": "Binary Enfold",
             "sort": {
                 "section": "sidestory",
-                "numero": 30,
+                "numero": 31,
                 "rating": 10,
                 "ratingPlus": false
             }
@@ -861,7 +861,7 @@
             "packName": "Binary Enfold",
             "sort": {
                 "section": "sidestory",
-                "numero": 30,
+                "numero": 31,
                 "rating": 9,
                 "ratingPlus": true
             }
@@ -873,7 +873,7 @@
             "packName": "Binary Enfold",
             "sort": {
                 "section": "sidestory",
-                "numero": 30,
+                "numero": 31,
                 "rating": 9,
                 "ratingPlus": false
             }
@@ -885,7 +885,7 @@
             "packName": "Binary Enfold",
             "sort": {
                 "section": "sidestory",
-                "numero": 30,
+                "numero": 31,
                 "rating": 8,
                 "ratingPlus": true
             }
@@ -993,7 +993,7 @@
             "packName": "Luminous Sky",
             "sort": {
                 "section": "mainstory",
-                "numero": 12,
+                "numero": 13,
                 "rating": 8,
                 "ratingPlus": true
             }
@@ -1005,7 +1005,7 @@
             "packName": "Luminous Sky",
             "sort": {
                 "section": "mainstory",
-                "numero": 12,
+                "numero": 13,
                 "rating": 9,
                 "ratingPlus": true
             }
@@ -1017,7 +1017,7 @@
             "packName": "Luminous Sky",
             "sort": {
                 "section": "mainstory",
-                "numero": 12,
+                "numero": 13,
                 "rating": 9,
                 "ratingPlus": true
             }
@@ -1029,7 +1029,7 @@
             "packName": "Luminous Sky",
             "sort": {
                 "section": "mainstory",
-                "numero": 12,
+                "numero": 13,
                 "rating": 10,
                 "ratingPlus": false
             }
@@ -1041,7 +1041,7 @@
             "packName": "Luminous Sky",
             "sort": {
                 "section": "mainstory",
-                "numero": 12,
+                "numero": 13,
                 "rating": 10,
                 "ratingPlus": false
             }
@@ -1053,7 +1053,7 @@
             "packName": "Luminous Sky",
             "sort": {
                 "section": "mainstory",
-                "numero": 12,
+                "numero": 13,
                 "rating": 11,
                 "ratingPlus": false
             }
@@ -1161,7 +1161,7 @@
             "packName": "Tone Sphere Collaboration",
             "sort": {
                 "section": "collab",
-                "numero": 54,
+                "numero": 55,
                 "rating": 8,
                 "ratingPlus": false
             }
@@ -1173,7 +1173,7 @@
             "packName": "Tone Sphere Collaboration",
             "sort": {
                 "section": "collab",
-                "numero": 54,
+                "numero": 55,
                 "rating": 9,
                 "ratingPlus": false
             }
@@ -1185,7 +1185,7 @@
             "packName": "Tone Sphere Collaboration",
             "sort": {
                 "section": "collab",
-                "numero": 54,
+                "numero": 55,
                 "rating": 8,
                 "ratingPlus": false
             }
@@ -1197,7 +1197,7 @@
             "packName": "Tone Sphere Collaboration",
             "sort": {
                 "section": "collab",
-                "numero": 54,
+                "numero": 55,
                 "rating": 9,
                 "ratingPlus": true
             }
@@ -1209,7 +1209,7 @@
             "packName": "Tone Sphere Collaboration",
             "sort": {
                 "section": "collab",
-                "numero": 54,
+                "numero": 55,
                 "rating": 10,
                 "ratingPlus": false
             }
@@ -1281,7 +1281,7 @@
             "packName": "Groove Coaster Collaboration",
             "sort": {
                 "section": "collab",
-                "numero": 52,
+                "numero": 53,
                 "rating": 8,
                 "ratingPlus": true
             }
@@ -1293,7 +1293,7 @@
             "packName": "Groove Coaster Collaboration",
             "sort": {
                 "section": "collab",
-                "numero": 52,
+                "numero": 53,
                 "rating": 9,
                 "ratingPlus": true
             }
@@ -1305,7 +1305,7 @@
             "packName": "Groove Coaster Collaboration",
             "sort": {
                 "section": "collab",
-                "numero": 52,
+                "numero": 53,
                 "rating": 9,
                 "ratingPlus": false
             }
@@ -1317,7 +1317,7 @@
             "packName": "Groove Coaster Collaboration",
             "sort": {
                 "section": "collab",
-                "numero": 52,
+                "numero": 53,
                 "rating": 10,
                 "ratingPlus": false
             }
@@ -1329,7 +1329,7 @@
             "packName": "Groove Coaster Collaboration",
             "sort": {
                 "section": "collab",
-                "numero": 52,
+                "numero": 53,
                 "rating": 10,
                 "ratingPlus": true
             }
@@ -1353,7 +1353,7 @@
             "packName": "Eternal Core",
             "sort": {
                 "section": "mainstory",
-                "numero": 14,
+                "numero": 15,
                 "rating": 8,
                 "ratingPlus": true
             }
@@ -1365,7 +1365,7 @@
             "packName": "Absolute Reason",
             "sort": {
                 "section": "sidestory",
-                "numero": 29,
+                "numero": 30,
                 "rating": 8,
                 "ratingPlus": true
             }
@@ -1377,7 +1377,7 @@
             "packName": "Absolute Reason",
             "sort": {
                 "section": "sidestory",
-                "numero": 29,
+                "numero": 30,
                 "rating": 9,
                 "ratingPlus": true
             }
@@ -1389,7 +1389,7 @@
             "packName": "Absolute Reason",
             "sort": {
                 "section": "sidestory",
-                "numero": 29,
+                "numero": 30,
                 "rating": 9,
                 "ratingPlus": true
             }
@@ -1401,7 +1401,7 @@
             "packName": "Absolute Reason",
             "sort": {
                 "section": "sidestory",
-                "numero": 29,
+                "numero": 30,
                 "rating": 10,
                 "ratingPlus": false
             }
@@ -1413,7 +1413,7 @@
             "packName": "Absolute Reason",
             "sort": {
                 "section": "sidestory",
-                "numero": 29,
+                "numero": 30,
                 "rating": 10,
                 "ratingPlus": true
             }
@@ -1485,7 +1485,7 @@
             "packName": "CHUNITHM Collaboration",
             "sort": {
                 "section": "collab",
-                "numero": 48,
+                "numero": 49,
                 "rating": 10,
                 "ratingPlus": false
             }
@@ -1497,7 +1497,7 @@
             "packName": "CHUNITHM Collaboration",
             "sort": {
                 "section": "collab",
-                "numero": 48,
+                "numero": 49,
                 "rating": 10,
                 "ratingPlus": false
             }
@@ -1509,7 +1509,7 @@
             "packName": "CHUNITHM Collaboration",
             "sort": {
                 "section": "collab",
-                "numero": 48,
+                "numero": 49,
                 "rating": 10,
                 "ratingPlus": true
             }
@@ -1533,7 +1533,7 @@
             "packName": "Adverse Prelude",
             "sort": {
                 "section": "mainstory",
-                "numero": 11,
+                "numero": 12,
                 "rating": 9,
                 "ratingPlus": false
             }
@@ -1545,7 +1545,7 @@
             "packName": "Adverse Prelude",
             "sort": {
                 "section": "mainstory",
-                "numero": 11,
+                "numero": 12,
                 "rating": 9,
                 "ratingPlus": true
             }
@@ -1557,7 +1557,7 @@
             "packName": "Adverse Prelude",
             "sort": {
                 "section": "mainstory",
-                "numero": 11,
+                "numero": 12,
                 "rating": 10,
                 "ratingPlus": true
             }
@@ -1569,7 +1569,7 @@
             "packName": "Sunset Radiance",
             "sort": {
                 "section": "sidestory",
-                "numero": 28,
+                "numero": 29,
                 "rating": 8,
                 "ratingPlus": true
             }
@@ -1581,7 +1581,7 @@
             "packName": "Sunset Radiance",
             "sort": {
                 "section": "sidestory",
-                "numero": 28,
+                "numero": 29,
                 "rating": 9,
                 "ratingPlus": false
             }
@@ -1593,7 +1593,7 @@
             "packName": "Sunset Radiance",
             "sort": {
                 "section": "sidestory",
-                "numero": 28,
+                "numero": 29,
                 "rating": 9,
                 "ratingPlus": false
             }
@@ -1605,7 +1605,7 @@
             "packName": "Sunset Radiance",
             "sort": {
                 "section": "sidestory",
-                "numero": 28,
+                "numero": 29,
                 "rating": 8,
                 "ratingPlus": false
             }
@@ -1617,7 +1617,7 @@
             "packName": "Sunset Radiance",
             "sort": {
                 "section": "sidestory",
-                "numero": 28,
+                "numero": 29,
                 "rating": 10,
                 "ratingPlus": false
             }
@@ -1665,7 +1665,7 @@
             "packName": "Crimson Solace",
             "sort": {
                 "section": "sidestory",
-                "numero": 33,
+                "numero": 34,
                 "rating": 10,
                 "ratingPlus": false
             }
@@ -1809,7 +1809,7 @@
             "packName": "Adverse Prelude",
             "sort": {
                 "section": "mainstory",
-                "numero": 11,
+                "numero": 12,
                 "rating": 9,
                 "ratingPlus": true
             }
@@ -1845,7 +1845,7 @@
             "packName": "Ambivalent Vision",
             "sort": {
                 "section": "sidestory",
-                "numero": 32,
+                "numero": 33,
                 "rating": 10,
                 "ratingPlus": false
             }
@@ -1857,7 +1857,7 @@
             "packName": "Black Fate",
             "sort": {
                 "section": "mainstory",
-                "numero": 10,
+                "numero": 11,
                 "rating": 9,
                 "ratingPlus": false
             }
@@ -1869,7 +1869,7 @@
             "packName": "Black Fate",
             "sort": {
                 "section": "mainstory",
-                "numero": 10,
+                "numero": 11,
                 "rating": 9,
                 "ratingPlus": true
             }
@@ -1881,7 +1881,7 @@
             "packName": "Black Fate",
             "sort": {
                 "section": "mainstory",
-                "numero": 10,
+                "numero": 11,
                 "rating": 9,
                 "ratingPlus": true
             }
@@ -1893,7 +1893,7 @@
             "packName": "Black Fate",
             "sort": {
                 "section": "mainstory",
-                "numero": 10,
+                "numero": 11,
                 "rating": 10,
                 "ratingPlus": true
             }
@@ -1905,7 +1905,7 @@
             "packName": "Black Fate",
             "sort": {
                 "section": "mainstory",
-                "numero": 10,
+                "numero": 11,
                 "rating": 11,
                 "ratingPlus": false
             }
@@ -1917,7 +1917,7 @@
             "packName": "Black Fate",
             "sort": {
                 "section": "mainstory",
-                "numero": 10,
+                "numero": 11,
                 "rating": 10,
                 "ratingPlus": true
             }
@@ -1929,7 +1929,7 @@
             "packName": "Black Fate",
             "sort": {
                 "section": "mainstory",
-                "numero": 10,
+                "numero": 11,
                 "rating": 9,
                 "ratingPlus": true
             }
@@ -2097,7 +2097,7 @@
             "packName": "Groove Coaster Collaboration",
             "sort": {
                 "section": "collab",
-                "numero": 52,
+                "numero": 53,
                 "rating": 9,
                 "ratingPlus": true
             }
@@ -2193,7 +2193,7 @@
             "packName": "Ephemeral Page",
             "sort": {
                 "section": "sidestory",
-                "numero": 26,
+                "numero": 27,
                 "rating": 9,
                 "ratingPlus": false
             }
@@ -2205,7 +2205,7 @@
             "packName": "Ephemeral Page",
             "sort": {
                 "section": "sidestory",
-                "numero": 26,
+                "numero": 27,
                 "rating": 8,
                 "ratingPlus": false
             }
@@ -2217,7 +2217,7 @@
             "packName": "Ephemeral Page",
             "sort": {
                 "section": "sidestory",
-                "numero": 26,
+                "numero": 27,
                 "rating": 9,
                 "ratingPlus": false
             }
@@ -2229,7 +2229,7 @@
             "packName": "Ephemeral Page",
             "sort": {
                 "section": "sidestory",
-                "numero": 26,
+                "numero": 27,
                 "rating": 9,
                 "ratingPlus": false
             }
@@ -2241,7 +2241,7 @@
             "packName": "Ephemeral Page",
             "sort": {
                 "section": "sidestory",
-                "numero": 26,
+                "numero": 27,
                 "rating": 10,
                 "ratingPlus": false
             }
@@ -2253,7 +2253,7 @@
             "packName": "The Journey Onwards",
             "sort": {
                 "section": "sidestory",
-                "numero": 27,
+                "numero": 28,
                 "rating": 8,
                 "ratingPlus": true
             }
@@ -2265,7 +2265,7 @@
             "packName": "The Journey Onwards",
             "sort": {
                 "section": "sidestory",
-                "numero": 27,
+                "numero": 28,
                 "rating": 9,
                 "ratingPlus": true
             }
@@ -2277,7 +2277,7 @@
             "packName": "The Journey Onwards",
             "sort": {
                 "section": "sidestory",
-                "numero": 27,
+                "numero": 28,
                 "rating": 10,
                 "ratingPlus": false
             }
@@ -2289,7 +2289,7 @@
             "packName": "O.N.G.E.K.I. Collaboration",
             "sort": {
                 "section": "collab",
-                "numero": 45,
+                "numero": 46,
                 "rating": 9,
                 "ratingPlus": false
             }
@@ -2301,7 +2301,7 @@
             "packName": "O.N.G.E.K.I. Collaboration",
             "sort": {
                 "section": "collab",
-                "numero": 45,
+                "numero": 46,
                 "rating": 9,
                 "ratingPlus": true
             }
@@ -2313,7 +2313,7 @@
             "packName": "O.N.G.E.K.I. Collaboration",
             "sort": {
                 "section": "collab",
-                "numero": 45,
+                "numero": 46,
                 "rating": 10,
                 "ratingPlus": false
             }
@@ -2325,7 +2325,7 @@
             "packName": "O.N.G.E.K.I. Collaboration",
             "sort": {
                 "section": "collab",
-                "numero": 45,
+                "numero": 46,
                 "rating": 10,
                 "ratingPlus": true
             }
@@ -2337,7 +2337,7 @@
             "packName": "maimai Collaboration",
             "sort": {
                 "section": "collab",
-                "numero": 42,
+                "numero": 43,
                 "rating": 8,
                 "ratingPlus": false
             }
@@ -2349,7 +2349,7 @@
             "packName": "maimai Collaboration",
             "sort": {
                 "section": "collab",
-                "numero": 42,
+                "numero": 43,
                 "rating": 9,
                 "ratingPlus": true
             }
@@ -2361,7 +2361,7 @@
             "packName": "maimai Collaboration",
             "sort": {
                 "section": "collab",
-                "numero": 42,
+                "numero": 43,
                 "rating": 10,
                 "ratingPlus": false
             }
@@ -2373,7 +2373,7 @@
             "packName": "maimai Collaboration",
             "sort": {
                 "section": "collab",
-                "numero": 42,
+                "numero": 43,
                 "rating": 10,
                 "ratingPlus": true
             }
@@ -2385,7 +2385,7 @@
             "packName": "CHUNITHM Collaboration Chapter 2",
             "sort": {
                 "section": "collab",
-                "numero": 49,
+                "numero": 50,
                 "rating": 10,
                 "ratingPlus": false
             }
@@ -2397,7 +2397,7 @@
             "packName": "CHUNITHM Collaboration Chapter 2",
             "sort": {
                 "section": "collab",
-                "numero": 49,
+                "numero": 50,
                 "rating": 10,
                 "ratingPlus": false
             }
@@ -2409,7 +2409,7 @@
             "packName": "CHUNITHM Collaboration Chapter 2",
             "sort": {
                 "section": "collab",
-                "numero": 49,
+                "numero": 50,
                 "rating": 10,
                 "ratingPlus": true
             }
@@ -2505,7 +2505,7 @@
             "packName": "Esoteric Order",
             "sort": {
                 "section": "sidestory",
-                "numero": 22,
+                "numero": 23,
                 "rating": 8,
                 "ratingPlus": true
             }
@@ -2517,7 +2517,7 @@
             "packName": "Esoteric Order",
             "sort": {
                 "section": "sidestory",
-                "numero": 22,
+                "numero": 23,
                 "rating": 9,
                 "ratingPlus": false
             }
@@ -2529,7 +2529,7 @@
             "packName": "Esoteric Order",
             "sort": {
                 "section": "sidestory",
-                "numero": 22,
+                "numero": 23,
                 "rating": 9,
                 "ratingPlus": true
             }
@@ -2541,7 +2541,7 @@
             "packName": "Esoteric Order",
             "sort": {
                 "section": "sidestory",
-                "numero": 22,
+                "numero": 23,
                 "rating": 10,
                 "ratingPlus": false
             }
@@ -2553,7 +2553,7 @@
             "packName": "Esoteric Order",
             "sort": {
                 "section": "sidestory",
-                "numero": 22,
+                "numero": 23,
                 "rating": 11,
                 "ratingPlus": false
             }
@@ -2565,7 +2565,7 @@
             "packName": "Pale Tapestry",
             "sort": {
                 "section": "sidestory",
-                "numero": 23,
+                "numero": 24,
                 "rating": 9,
                 "ratingPlus": false
             }
@@ -2577,7 +2577,7 @@
             "packName": "Pale Tapestry",
             "sort": {
                 "section": "sidestory",
-                "numero": 23,
+                "numero": 24,
                 "rating": 9,
                 "ratingPlus": false
             }
@@ -2589,7 +2589,7 @@
             "packName": "Pale Tapestry",
             "sort": {
                 "section": "sidestory",
-                "numero": 23,
+                "numero": 24,
                 "rating": 10,
                 "ratingPlus": false
             }
@@ -2673,7 +2673,7 @@
             "packName": "Esoteric Order",
             "sort": {
                 "section": "sidestory",
-                "numero": 22,
+                "numero": 23,
                 "rating": 10,
                 "ratingPlus": false
             }
@@ -2685,7 +2685,7 @@
             "packName": "Light of Salvation",
             "sort": {
                 "section": "sidestory",
-                "numero": 24,
+                "numero": 25,
                 "rating": 9,
                 "ratingPlus": false
             }
@@ -2697,7 +2697,7 @@
             "packName": "Light of Salvation",
             "sort": {
                 "section": "sidestory",
-                "numero": 24,
+                "numero": 25,
                 "rating": 9,
                 "ratingPlus": true
             }
@@ -2709,7 +2709,7 @@
             "packName": "Light of Salvation",
             "sort": {
                 "section": "sidestory",
-                "numero": 24,
+                "numero": 25,
                 "rating": 10,
                 "ratingPlus": true
             }
@@ -2721,7 +2721,7 @@
             "packName": "WACCA Collaboration",
             "sort": {
                 "section": "collab",
-                "numero": 40,
+                "numero": 41,
                 "rating": 9,
                 "ratingPlus": true
             }
@@ -2733,7 +2733,7 @@
             "packName": "WACCA Collaboration",
             "sort": {
                 "section": "collab",
-                "numero": 40,
+                "numero": 41,
                 "rating": 8,
                 "ratingPlus": true
             }
@@ -2745,7 +2745,7 @@
             "packName": "WACCA Collaboration",
             "sort": {
                 "section": "collab",
-                "numero": 40,
+                "numero": 41,
                 "rating": 9,
                 "ratingPlus": false
             }
@@ -2757,7 +2757,7 @@
             "packName": "WACCA Collaboration",
             "sort": {
                 "section": "collab",
-                "numero": 40,
+                "numero": 41,
                 "rating": 10,
                 "ratingPlus": true
             }
@@ -2769,7 +2769,7 @@
             "packName": "WACCA Collaboration",
             "sort": {
                 "section": "collab",
-                "numero": 40,
+                "numero": 41,
                 "rating": 9,
                 "ratingPlus": false
             }
@@ -2877,7 +2877,7 @@
             "packName": "Shared Time",
             "sort": {
                 "section": "sidestory",
-                "numero": 31,
+                "numero": 32,
                 "rating": 8,
                 "ratingPlus": true
             }
@@ -2889,7 +2889,7 @@
             "packName": "Shared Time",
             "sort": {
                 "section": "sidestory",
-                "numero": 31,
+                "numero": 32,
                 "rating": 9,
                 "ratingPlus": true
             }
@@ -2901,7 +2901,7 @@
             "packName": "Shared Time",
             "sort": {
                 "section": "sidestory",
-                "numero": 31,
+                "numero": 32,
                 "rating": 10,
                 "ratingPlus": false
             }
@@ -2925,7 +2925,7 @@
             "packName": "Divided Heart",
             "sort": {
                 "section": "sidestory",
-                "numero": 25,
+                "numero": 26,
                 "rating": 7,
                 "ratingPlus": true
             }
@@ -2937,7 +2937,7 @@
             "packName": "Divided Heart",
             "sort": {
                 "section": "sidestory",
-                "numero": 25,
+                "numero": 26,
                 "rating": 9,
                 "ratingPlus": false
             }
@@ -2949,7 +2949,7 @@
             "packName": "Divided Heart",
             "sort": {
                 "section": "sidestory",
-                "numero": 25,
+                "numero": 26,
                 "rating": 9,
                 "ratingPlus": false
             }
@@ -2961,7 +2961,7 @@
             "packName": "Divided Heart",
             "sort": {
                 "section": "sidestory",
-                "numero": 25,
+                "numero": 26,
                 "rating": 9,
                 "ratingPlus": true
             }
@@ -2973,7 +2973,7 @@
             "packName": "Divided Heart",
             "sort": {
                 "section": "sidestory",
-                "numero": 25,
+                "numero": 26,
                 "rating": 10,
                 "ratingPlus": false
             }
@@ -2985,7 +2985,7 @@
             "packName": "Muse Dash Collaboration",
             "sort": {
                 "section": "collab",
-                "numero": 39,
+                "numero": 40,
                 "rating": 8,
                 "ratingPlus": true
             }
@@ -2997,7 +2997,7 @@
             "packName": "Muse Dash Collaboration",
             "sort": {
                 "section": "collab",
-                "numero": 39,
+                "numero": 40,
                 "rating": 9,
                 "ratingPlus": false
             }
@@ -3009,7 +3009,7 @@
             "packName": "Muse Dash Collaboration",
             "sort": {
                 "section": "collab",
-                "numero": 39,
+                "numero": 40,
                 "rating": 9,
                 "ratingPlus": true
             }
@@ -3021,7 +3021,7 @@
             "packName": "Muse Dash Collaboration",
             "sort": {
                 "section": "collab",
-                "numero": 39,
+                "numero": 40,
                 "rating": 10,
                 "ratingPlus": false
             }
@@ -3165,7 +3165,7 @@
             "packName": "Lanota Collaboration Chapter 2",
             "sort": {
                 "section": "collab",
-                "numero": 56,
+                "numero": 57,
                 "rating": 8,
                 "ratingPlus": false
             }
@@ -3177,7 +3177,7 @@
             "packName": "Lanota Collaboration Chapter 2",
             "sort": {
                 "section": "collab",
-                "numero": 56,
+                "numero": 57,
                 "rating": 9,
                 "ratingPlus": true
             }
@@ -3189,7 +3189,7 @@
             "packName": "Lanota Collaboration Chapter 2",
             "sort": {
                 "section": "collab",
-                "numero": 56,
+                "numero": 57,
                 "rating": 10,
                 "ratingPlus": true
             }
@@ -3297,7 +3297,7 @@
             "packName": "Final Verdict",
             "sort": {
                 "section": "mainstory",
-                "numero": 9,
+                "numero": 10,
                 "rating": 9,
                 "ratingPlus": true
             }
@@ -3309,7 +3309,7 @@
             "packName": "Final Verdict",
             "sort": {
                 "section": "mainstory",
-                "numero": 9,
+                "numero": 10,
                 "rating": 9,
                 "ratingPlus": true
             }
@@ -3321,7 +3321,7 @@
             "packName": "Final Verdict",
             "sort": {
                 "section": "mainstory",
-                "numero": 9,
+                "numero": 10,
                 "rating": 10,
                 "ratingPlus": false
             }
@@ -3333,7 +3333,7 @@
             "packName": "Final Verdict",
             "sort": {
                 "section": "mainstory",
-                "numero": 9,
+                "numero": 10,
                 "rating": 10,
                 "ratingPlus": false
             }
@@ -3345,7 +3345,7 @@
             "packName": "Final Verdict",
             "sort": {
                 "section": "mainstory",
-                "numero": 9,
+                "numero": 10,
                 "rating": 10,
                 "ratingPlus": false
             }
@@ -3357,7 +3357,7 @@
             "packName": "Final Verdict",
             "sort": {
                 "section": "mainstory",
-                "numero": 9,
+                "numero": 10,
                 "rating": 10,
                 "ratingPlus": true
             }
@@ -3369,7 +3369,7 @@
             "packName": "Silent Answer",
             "sort": {
                 "section": "mainstory",
-                "numero": 8,
+                "numero": 9,
                 "rating": 9,
                 "ratingPlus": true
             }
@@ -3381,7 +3381,7 @@
             "packName": "Silent Answer",
             "sort": {
                 "section": "mainstory",
-                "numero": 8,
+                "numero": 9,
                 "rating": 9,
                 "ratingPlus": false
             }
@@ -3393,7 +3393,7 @@
             "packName": "Silent Answer",
             "sort": {
                 "section": "mainstory",
-                "numero": 8,
+                "numero": 9,
                 "rating": 0,
                 "ratingPlus": false
             }
@@ -3405,7 +3405,7 @@
             "packName": "Silent Answer",
             "sort": {
                 "section": "mainstory",
-                "numero": 8,
+                "numero": 9,
                 "rating": 9,
                 "ratingPlus": true
             }
@@ -3417,7 +3417,7 @@
             "packName": "O.N.G.E.K.I. Collaboration Chapter 2",
             "sort": {
                 "section": "collab",
-                "numero": 46,
+                "numero": 47,
                 "rating": 9,
                 "ratingPlus": false
             }
@@ -3429,7 +3429,7 @@
             "packName": "O.N.G.E.K.I. Collaboration Chapter 2",
             "sort": {
                 "section": "collab",
-                "numero": 46,
+                "numero": 47,
                 "rating": 9,
                 "ratingPlus": true
             }
@@ -3441,7 +3441,7 @@
             "packName": "O.N.G.E.K.I. Collaboration Chapter 2",
             "sort": {
                 "section": "collab",
-                "numero": 46,
+                "numero": 47,
                 "rating": 9,
                 "ratingPlus": true
             }
@@ -3453,7 +3453,7 @@
             "packName": "O.N.G.E.K.I. Collaboration Chapter 2",
             "sort": {
                 "section": "collab",
-                "numero": 46,
+                "numero": 47,
                 "rating": 10,
                 "ratingPlus": false
             }
@@ -3465,7 +3465,7 @@
             "packName": "O.N.G.E.K.I. Collaboration Chapter 2",
             "sort": {
                 "section": "collab",
-                "numero": 46,
+                "numero": 47,
                 "rating": 11,
                 "ratingPlus": false
             }
@@ -3645,7 +3645,7 @@
             "packName": "maimai Collaboration Chapter 2",
             "sort": {
                 "section": "collab",
-                "numero": 43,
+                "numero": 44,
                 "rating": 8,
                 "ratingPlus": true
             }
@@ -3657,7 +3657,7 @@
             "packName": "maimai Collaboration Chapter 2",
             "sort": {
                 "section": "collab",
-                "numero": 43,
+                "numero": 44,
                 "rating": 9,
                 "ratingPlus": true
             }
@@ -3669,7 +3669,7 @@
             "packName": "maimai Collaboration Chapter 2",
             "sort": {
                 "section": "collab",
-                "numero": 43,
+                "numero": 44,
                 "rating": 10,
                 "ratingPlus": false
             }
@@ -3681,7 +3681,7 @@
             "packName": "maimai Collaboration Chapter 2",
             "sort": {
                 "section": "collab",
-                "numero": 43,
+                "numero": 44,
                 "rating": 10,
                 "ratingPlus": true
             }
@@ -3705,7 +3705,7 @@
             "packName": "CHUNITHM Collaboration Chapter 3",
             "sort": {
                 "section": "collab",
-                "numero": 50,
+                "numero": 51,
                 "rating": 8,
                 "ratingPlus": true
             }
@@ -3717,7 +3717,7 @@
             "packName": "CHUNITHM Collaboration Chapter 3",
             "sort": {
                 "section": "collab",
-                "numero": 50,
+                "numero": 51,
                 "rating": 9,
                 "ratingPlus": false
             }
@@ -3729,7 +3729,7 @@
             "packName": "CHUNITHM Collaboration Chapter 3",
             "sort": {
                 "section": "collab",
-                "numero": 50,
+                "numero": 51,
                 "rating": 9,
                 "ratingPlus": true
             }
@@ -3741,7 +3741,7 @@
             "packName": "CHUNITHM Collaboration Chapter 3",
             "sort": {
                 "section": "collab",
-                "numero": 50,
+                "numero": 51,
                 "rating": 10,
                 "ratingPlus": false
             }
@@ -3753,7 +3753,7 @@
             "packName": "CHUNITHM Collaboration Chapter 3",
             "sort": {
                 "section": "collab",
-                "numero": 50,
+                "numero": 51,
                 "rating": 10,
                 "ratingPlus": true
             }
@@ -3885,7 +3885,7 @@
             "packName": "Cytus II Collaboration",
             "sort": {
                 "section": "collab",
-                "numero": 37,
+                "numero": 38,
                 "rating": 8,
                 "ratingPlus": false
             }
@@ -3897,7 +3897,7 @@
             "packName": "Cytus II Collaboration",
             "sort": {
                 "section": "collab",
-                "numero": 37,
+                "numero": 38,
                 "rating": 9,
                 "ratingPlus": true
             }
@@ -3909,7 +3909,7 @@
             "packName": "Cytus II Collaboration",
             "sort": {
                 "section": "collab",
-                "numero": 37,
+                "numero": 38,
                 "rating": 10,
                 "ratingPlus": false
             }
@@ -3921,7 +3921,7 @@
             "packName": "Cytus II Collaboration",
             "sort": {
                 "section": "collab",
-                "numero": 37,
+                "numero": 38,
                 "rating": 10,
                 "ratingPlus": true
             }
@@ -3933,7 +3933,7 @@
             "packName": "Cytus II Collaboration",
             "sort": {
                 "section": "collab",
-                "numero": 37,
+                "numero": 38,
                 "rating": 9,
                 "ratingPlus": false
             }
@@ -3957,7 +3957,7 @@
             "packName": "Cytus II Collaboration Chapter 2",
             "sort": {
                 "section": "collab",
-                "numero": 38,
+                "numero": 39,
                 "rating": 8,
                 "ratingPlus": false
             }
@@ -3969,7 +3969,7 @@
             "packName": "Cytus II Collaboration Chapter 2",
             "sort": {
                 "section": "collab",
-                "numero": 38,
+                "numero": 39,
                 "rating": 9,
                 "ratingPlus": false
             }
@@ -3981,7 +3981,7 @@
             "packName": "Cytus II Collaboration Chapter 2",
             "sort": {
                 "section": "collab",
-                "numero": 38,
+                "numero": 39,
                 "rating": 10,
                 "ratingPlus": false
             }
@@ -3993,7 +3993,7 @@
             "packName": "Cytus II Collaboration Chapter 2",
             "sort": {
                 "section": "collab",
-                "numero": 38,
+                "numero": 39,
                 "rating": 10,
                 "ratingPlus": true
             }
@@ -4005,7 +4005,7 @@
             "packName": "Cytus II Collaboration Chapter 2",
             "sort": {
                 "section": "collab",
-                "numero": 38,
+                "numero": 39,
                 "rating": 10,
                 "ratingPlus": false
             }
@@ -4041,7 +4041,7 @@
             "packName": "Lasting Eden",
             "sort": {
                 "section": "mainstory2",
-                "numero": 16,
+                "numero": 17,
                 "rating": 8,
                 "ratingPlus": true
             }
@@ -4053,7 +4053,7 @@
             "packName": "Lasting Eden",
             "sort": {
                 "section": "mainstory2",
-                "numero": 16,
+                "numero": 17,
                 "rating": 9,
                 "ratingPlus": false
             }
@@ -4065,7 +4065,7 @@
             "packName": "Lasting Eden",
             "sort": {
                 "section": "mainstory2",
-                "numero": 16,
+                "numero": 17,
                 "rating": 10,
                 "ratingPlus": false
             }
@@ -4077,7 +4077,7 @@
             "packName": "Lasting Eden",
             "sort": {
                 "section": "mainstory2",
-                "numero": 16,
+                "numero": 17,
                 "rating": 10,
                 "ratingPlus": false
             }
@@ -4089,7 +4089,7 @@
             "packName": "Lasting Eden",
             "sort": {
                 "section": "mainstory2",
-                "numero": 16,
+                "numero": 17,
                 "rating": 11,
                 "ratingPlus": false
             }
@@ -4173,7 +4173,7 @@
             "packName": "Lasting Eden Chapter 2",
             "sort": {
                 "section": "mainstory2",
-                "numero": 17,
+                "numero": 18,
                 "rating": 9,
                 "ratingPlus": false
             }
@@ -4185,7 +4185,7 @@
             "packName": "Lasting Eden Chapter 2",
             "sort": {
                 "section": "mainstory2",
-                "numero": 17,
+                "numero": 18,
                 "rating": 9,
                 "ratingPlus": true
             }
@@ -4197,7 +4197,7 @@
             "packName": "Lasting Eden Chapter 2",
             "sort": {
                 "section": "mainstory2",
-                "numero": 17,
+                "numero": 18,
                 "rating": 10,
                 "ratingPlus": false
             }
@@ -4209,7 +4209,7 @@
             "packName": "Lasting Eden Chapter 2",
             "sort": {
                 "section": "mainstory2",
-                "numero": 17,
+                "numero": 18,
                 "rating": 10,
                 "ratingPlus": false
             }
@@ -4221,7 +4221,7 @@
             "packName": "Lasting Eden Chapter 2",
             "sort": {
                 "section": "mainstory2",
-                "numero": 17,
+                "numero": 18,
                 "rating": 11,
                 "ratingPlus": false
             }
@@ -4245,7 +4245,7 @@
             "packName": "Shifting Veil",
             "sort": {
                 "section": "mainstory2",
-                "numero": 18,
+                "numero": 19,
                 "rating": 9,
                 "ratingPlus": false
             }
@@ -4257,7 +4257,7 @@
             "packName": "Shifting Veil",
             "sort": {
                 "section": "mainstory2",
-                "numero": 18,
+                "numero": 19,
                 "rating": 9,
                 "ratingPlus": true
             }
@@ -4269,7 +4269,7 @@
             "packName": "Shifting Veil",
             "sort": {
                 "section": "mainstory2",
-                "numero": 18,
+                "numero": 19,
                 "rating": 10,
                 "ratingPlus": true
             }
@@ -4281,7 +4281,7 @@
             "packName": "WACCA Collaboration Chapter 2",
             "sort": {
                 "section": "collab",
-                "numero": 41,
+                "numero": 42,
                 "rating": 9,
                 "ratingPlus": false
             }
@@ -4293,7 +4293,7 @@
             "packName": "WACCA Collaboration Chapter 2",
             "sort": {
                 "section": "collab",
-                "numero": 41,
+                "numero": 42,
                 "rating": 9,
                 "ratingPlus": true
             }
@@ -4305,7 +4305,7 @@
             "packName": "WACCA Collaboration Chapter 2",
             "sort": {
                 "section": "collab",
-                "numero": 41,
+                "numero": 42,
                 "rating": 10,
                 "ratingPlus": false
             }
@@ -4317,7 +4317,7 @@
             "packName": "WACCA Collaboration Chapter 2",
             "sort": {
                 "section": "collab",
-                "numero": 41,
+                "numero": 42,
                 "rating": 10,
                 "ratingPlus": false
             }
@@ -4329,7 +4329,7 @@
             "packName": "WACCA Collaboration Chapter 2",
             "sort": {
                 "section": "collab",
-                "numero": 41,
+                "numero": 42,
                 "rating": 10,
                 "ratingPlus": true
             }
@@ -4413,7 +4413,7 @@
             "packName": "Sunset Radiance",
             "sort": {
                 "section": "sidestory",
-                "numero": 28,
+                "numero": 29,
                 "rating": 9,
                 "ratingPlus": true
             }
@@ -4749,7 +4749,7 @@
             "packName": "Groove Coaster Chapter 2",
             "sort": {
                 "section": "collab",
-                "numero": 53,
+                "numero": 54,
                 "rating": 9,
                 "ratingPlus": false
             }
@@ -4761,7 +4761,7 @@
             "packName": "Groove Coaster Chapter 2",
             "sort": {
                 "section": "collab",
-                "numero": 53,
+                "numero": 54,
                 "rating": 9,
                 "ratingPlus": true
             }
@@ -4773,7 +4773,7 @@
             "packName": "Groove Coaster Chapter 2",
             "sort": {
                 "section": "collab",
-                "numero": 53,
+                "numero": 54,
                 "rating": 10,
                 "ratingPlus": true
             }
@@ -4821,7 +4821,7 @@
             "packName": "Absolute Nihil",
             "sort": {
                 "section": "mainstory2",
-                "numero": 15,
+                "numero": 16,
                 "rating": 9,
                 "ratingPlus": false
             }
@@ -4833,7 +4833,7 @@
             "packName": "Absolute Nihil",
             "sort": {
                 "section": "mainstory2",
-                "numero": 15,
+                "numero": 16,
                 "rating": 8,
                 "ratingPlus": true
             }
@@ -4845,7 +4845,7 @@
             "packName": "Absolute Nihil",
             "sort": {
                 "section": "mainstory2",
-                "numero": 15,
+                "numero": 16,
                 "rating": 9,
                 "ratingPlus": true
             }
@@ -4857,7 +4857,7 @@
             "packName": "Absolute Nihil",
             "sort": {
                 "section": "mainstory2",
-                "numero": 15,
+                "numero": 16,
                 "rating": 10,
                 "ratingPlus": false
             }
@@ -4869,7 +4869,7 @@
             "packName": "Absolute Nihil",
             "sort": {
                 "section": "mainstory2",
-                "numero": 15,
+                "numero": 16,
                 "rating": 10,
                 "ratingPlus": false
             }
@@ -4893,7 +4893,7 @@
             "packName": "Rotaeno Collaboration",
             "sort": {
                 "section": "collab",
-                "numero": 36,
+                "numero": 37,
                 "rating": 8,
                 "ratingPlus": true
             }
@@ -4905,7 +4905,7 @@
             "packName": "Rotaeno Collaboration",
             "sort": {
                 "section": "collab",
-                "numero": 36,
+                "numero": 37,
                 "rating": 8,
                 "ratingPlus": true
             }
@@ -4917,7 +4917,7 @@
             "packName": "Rotaeno Collaboration",
             "sort": {
                 "section": "collab",
-                "numero": 36,
+                "numero": 37,
                 "rating": 9,
                 "ratingPlus": false
             }
@@ -4929,7 +4929,7 @@
             "packName": "Rotaeno Collaboration",
             "sort": {
                 "section": "collab",
-                "numero": 36,
+                "numero": 37,
                 "rating": 10,
                 "ratingPlus": false
             }
@@ -4941,7 +4941,7 @@
             "packName": "Rotaeno Collaboration",
             "sort": {
                 "section": "collab",
-                "numero": 36,
+                "numero": 37,
                 "rating": 10,
                 "ratingPlus": true
             }
@@ -4965,7 +4965,7 @@
             "packName": "Adverse Prelude",
             "sort": {
                 "section": "mainstory",
-                "numero": 11,
+                "numero": 12,
                 "rating": 8,
                 "ratingPlus": true
             }
@@ -5085,7 +5085,7 @@
             "packName": "O.N.G.E.K.I. Collaboration Chapter 3",
             "sort": {
                 "section": "collab",
-                "numero": 47,
+                "numero": 48,
                 "rating": 8,
                 "ratingPlus": false
             }
@@ -5097,7 +5097,7 @@
             "packName": "O.N.G.E.K.I. Collaboration Chapter 3",
             "sort": {
                 "section": "collab",
-                "numero": 47,
+                "numero": 48,
                 "rating": 10,
                 "ratingPlus": false
             }
@@ -5109,7 +5109,7 @@
             "packName": "O.N.G.E.K.I. Collaboration Chapter 3",
             "sort": {
                 "section": "collab",
-                "numero": 47,
+                "numero": 48,
                 "rating": 9,
                 "ratingPlus": false
             }
@@ -5121,7 +5121,7 @@
             "packName": "O.N.G.E.K.I. Collaboration Chapter 3",
             "sort": {
                 "section": "collab",
-                "numero": 47,
+                "numero": 48,
                 "rating": 10,
                 "ratingPlus": true
             }
@@ -5133,7 +5133,7 @@
             "packName": "Lucent Historia",
             "sort": {
                 "section": "mainstory2",
-                "numero": 7,
+                "numero": 8,
                 "rating": 9,
                 "ratingPlus": true
             }
@@ -5145,7 +5145,7 @@
             "packName": "Lucent Historia",
             "sort": {
                 "section": "mainstory2",
-                "numero": 7,
+                "numero": 8,
                 "rating": 9,
                 "ratingPlus": false
             }
@@ -5157,7 +5157,7 @@
             "packName": "Lucent Historia",
             "sort": {
                 "section": "mainstory2",
-                "numero": 7,
+                "numero": 8,
                 "rating": 9,
                 "ratingPlus": true
             }
@@ -5169,7 +5169,7 @@
             "packName": "Lucent Historia",
             "sort": {
                 "section": "mainstory2",
-                "numero": 7,
+                "numero": 8,
                 "rating": 10,
                 "ratingPlus": false
             }
@@ -5181,7 +5181,7 @@
             "packName": "Lucent Historia",
             "sort": {
                 "section": "mainstory2",
-                "numero": 7,
+                "numero": 8,
                 "rating": 10,
                 "ratingPlus": false
             }
@@ -5193,7 +5193,7 @@
             "packName": "Lucent Historia",
             "sort": {
                 "section": "mainstory2",
-                "numero": 7,
+                "numero": 8,
                 "rating": 10,
                 "ratingPlus": true
             }
@@ -5205,7 +5205,7 @@
             "packName": "Lucent Historia",
             "sort": {
                 "section": "mainstory2",
-                "numero": 7,
+                "numero": 8,
                 "rating": 10,
                 "ratingPlus": false
             }
@@ -5217,7 +5217,7 @@
             "packName": "CHUNITHM Collaboration Chapter 4",
             "sort": {
                 "section": "collab",
-                "numero": 51,
+                "numero": 52,
                 "rating": 9,
                 "ratingPlus": true
             }
@@ -5229,7 +5229,7 @@
             "packName": "CHUNITHM Collaboration Chapter 4",
             "sort": {
                 "section": "collab",
-                "numero": 51,
+                "numero": 52,
                 "rating": 8,
                 "ratingPlus": true
             }
@@ -5241,7 +5241,7 @@
             "packName": "CHUNITHM Collaboration Chapter 4",
             "sort": {
                 "section": "collab",
-                "numero": 51,
+                "numero": 52,
                 "rating": 9,
                 "ratingPlus": false
             }
@@ -5253,7 +5253,7 @@
             "packName": "CHUNITHM Collaboration Chapter 4",
             "sort": {
                 "section": "collab",
-                "numero": 51,
+                "numero": 52,
                 "rating": 10,
                 "ratingPlus": true
             }
@@ -5265,7 +5265,7 @@
             "packName": "maimai Collaboration Chapter 3",
             "sort": {
                 "section": "collab",
-                "numero": 44,
+                "numero": 45,
                 "rating": 8,
                 "ratingPlus": true
             }
@@ -5277,7 +5277,7 @@
             "packName": "maimai Collaboration Chapter 3",
             "sort": {
                 "section": "collab",
-                "numero": 44,
+                "numero": 45,
                 "rating": 9,
                 "ratingPlus": false
             }
@@ -5289,7 +5289,7 @@
             "packName": "maimai Collaboration Chapter 3",
             "sort": {
                 "section": "collab",
-                "numero": 44,
+                "numero": 45,
                 "rating": 9,
                 "ratingPlus": true
             }
@@ -5301,7 +5301,7 @@
             "packName": "maimai Collaboration Chapter 3",
             "sort": {
                 "section": "collab",
-                "numero": 44,
+                "numero": 45,
                 "rating": 9,
                 "ratingPlus": true
             }
@@ -5313,7 +5313,7 @@
             "packName": "CHUNITHM Collaboration Chapter 4",
             "sort": {
                 "section": "collab",
-                "numero": 51,
+                "numero": 52,
                 "rating": 10,
                 "ratingPlus": false
             }
@@ -5325,7 +5325,7 @@
             "packName": "UNDERTALE",
             "sort": {
                 "section": "variety",
-                "numero": 60,
+                "numero": 61,
                 "rating": 7,
                 "ratingPlus": false
             }
@@ -5337,7 +5337,7 @@
             "packName": "UNDERTALE",
             "sort": {
                 "section": "variety",
-                "numero": 60,
+                "numero": 61,
                 "rating": 7,
                 "ratingPlus": true
             }
@@ -5349,7 +5349,7 @@
             "packName": "UNDERTALE",
             "sort": {
                 "section": "variety",
-                "numero": 60,
+                "numero": 61,
                 "rating": 8,
                 "ratingPlus": true
             }
@@ -5361,7 +5361,7 @@
             "packName": "UNDERTALE",
             "sort": {
                 "section": "variety",
-                "numero": 60,
+                "numero": 61,
                 "rating": 8,
                 "ratingPlus": false
             }
@@ -5373,7 +5373,7 @@
             "packName": "UNDERTALE",
             "sort": {
                 "section": "variety",
-                "numero": 60,
+                "numero": 61,
                 "rating": 9,
                 "ratingPlus": false
             }
@@ -5493,7 +5493,7 @@
             "packName": "DJMAX Collaboration",
             "sort": {
                 "section": "collab",
-                "numero": 34,
+                "numero": 35,
                 "rating": 8,
                 "ratingPlus": false
             }
@@ -5505,7 +5505,7 @@
             "packName": "DJMAX Collaboration",
             "sort": {
                 "section": "collab",
-                "numero": 34,
+                "numero": 35,
                 "rating": 9,
                 "ratingPlus": false
             }
@@ -5517,7 +5517,7 @@
             "packName": "DJMAX Collaboration",
             "sort": {
                 "section": "collab",
-                "numero": 34,
+                "numero": 35,
                 "rating": 8,
                 "ratingPlus": true
             }
@@ -5529,7 +5529,7 @@
             "packName": "DJMAX Collaboration",
             "sort": {
                 "section": "collab",
-                "numero": 34,
+                "numero": 35,
                 "rating": 9,
                 "ratingPlus": false
             }
@@ -5541,7 +5541,7 @@
             "packName": "DJMAX Collaboration",
             "sort": {
                 "section": "collab",
-                "numero": 34,
+                "numero": 35,
                 "rating": 9,
                 "ratingPlus": true
             }
@@ -5601,7 +5601,7 @@
             "packName": "DJMAX Collaboration Chapter 2",
             "sort": {
                 "section": "collab",
-                "numero": 35,
+                "numero": 36,
                 "rating": 8,
                 "ratingPlus": false
             }
@@ -5613,7 +5613,7 @@
             "packName": "DJMAX Collaboration Chapter 2",
             "sort": {
                 "section": "collab",
-                "numero": 35,
+                "numero": 36,
                 "rating": 9,
                 "ratingPlus": true
             }
@@ -5625,7 +5625,7 @@
             "packName": "DJMAX Collaboration Chapter 2",
             "sort": {
                 "section": "collab",
-                "numero": 35,
+                "numero": 36,
                 "rating": 10,
                 "ratingPlus": false
             }
@@ -5637,7 +5637,7 @@
             "packName": "DJMAX Collaboration Chapter 2",
             "sort": {
                 "section": "collab",
-                "numero": 35,
+                "numero": 36,
                 "rating": 9,
                 "ratingPlus": false
             }
@@ -5649,7 +5649,7 @@
             "packName": "DJMAX Collaboration Chapter 2",
             "sort": {
                 "section": "collab",
-                "numero": 35,
+                "numero": 36,
                 "rating": 10,
                 "ratingPlus": false
             }
@@ -5673,7 +5673,7 @@
             "packName": "Extant Anima",
             "sort": {
                 "section": "sidestory",
-                "numero": 20,
+                "numero": 21,
                 "rating": 8,
                 "ratingPlus": false
             }
@@ -5685,7 +5685,7 @@
             "packName": "Extant Anima",
             "sort": {
                 "section": "sidestory",
-                "numero": 20,
+                "numero": 21,
                 "rating": 9,
                 "ratingPlus": true
             }
@@ -5697,7 +5697,7 @@
             "packName": "Extant Anima",
             "sort": {
                 "section": "sidestory",
-                "numero": 20,
+                "numero": 21,
                 "rating": 9,
                 "ratingPlus": false
             }
@@ -5709,7 +5709,7 @@
             "packName": "Extant Anima",
             "sort": {
                 "section": "sidestory",
-                "numero": 20,
+                "numero": 21,
                 "rating": 9,
                 "ratingPlus": true
             }
@@ -5721,7 +5721,7 @@
             "packName": "Extant Anima",
             "sort": {
                 "section": "sidestory",
-                "numero": 20,
+                "numero": 21,
                 "rating": 10,
                 "ratingPlus": false
             }
@@ -5745,7 +5745,7 @@
             "packName": "Chapter Experientia",
             "sort": {
                 "section": "sidestory",
-                "numero": 21,
+                "numero": 22,
                 "rating": 8,
                 "ratingPlus": false
             }
@@ -5757,7 +5757,7 @@
             "packName": "Chapter Experientia",
             "sort": {
                 "section": "sidestory",
-                "numero": 21,
+                "numero": 22,
                 "rating": 8,
                 "ratingPlus": true
             }
@@ -5769,7 +5769,7 @@
             "packName": "Chapter Experientia",
             "sort": {
                 "section": "sidestory",
-                "numero": 21,
+                "numero": 22,
                 "rating": 9,
                 "ratingPlus": false
             }
@@ -5781,7 +5781,7 @@
             "packName": "Chapter Experientia",
             "sort": {
                 "section": "sidestory",
-                "numero": 21,
+                "numero": 22,
                 "rating": 10,
                 "ratingPlus": false
             }
@@ -5793,7 +5793,7 @@
             "packName": "Chapter Experientia",
             "sort": {
                 "section": "sidestory",
-                "numero": 21,
+                "numero": 22,
                 "rating": 10,
                 "ratingPlus": true
             }
@@ -5841,7 +5841,7 @@
             "packName": "Liminal Eclipse",
             "sort": {
                 "section": "mainstory2",
-                "numero": 6,
+                "numero": 7,
                 "rating": 9,
                 "ratingPlus": false
             }
@@ -5853,7 +5853,7 @@
             "packName": "Liminal Eclipse",
             "sort": {
                 "section": "mainstory2",
-                "numero": 6,
+                "numero": 7,
                 "rating": 8,
                 "ratingPlus": false
             }
@@ -5865,7 +5865,7 @@
             "packName": "Liminal Eclipse",
             "sort": {
                 "section": "mainstory2",
-                "numero": 6,
+                "numero": 7,
                 "rating": 8,
                 "ratingPlus": true
             }
@@ -5877,7 +5877,7 @@
             "packName": "Liminal Eclipse",
             "sort": {
                 "section": "mainstory2",
-                "numero": 6,
+                "numero": 7,
                 "rating": 9,
                 "ratingPlus": true
             }
@@ -5889,7 +5889,7 @@
             "packName": "Liminal Eclipse",
             "sort": {
                 "section": "mainstory2",
-                "numero": 6,
+                "numero": 7,
                 "rating": 10,
                 "ratingPlus": false
             }
@@ -5985,7 +5985,7 @@
             "packName": "Arcaea Next Stage",
             "sort": {
                 "section": "variety",
-                "numero": 59,
+                "numero": 60,
                 "rating": 8,
                 "ratingPlus": false
             }
@@ -5997,7 +5997,7 @@
             "packName": "Arcaea Next Stage",
             "sort": {
                 "section": "variety",
-                "numero": 59,
+                "numero": 60,
                 "rating": 8,
                 "ratingPlus": true
             }
@@ -6009,7 +6009,7 @@
             "packName": "Arcaea Next Stage",
             "sort": {
                 "section": "variety",
-                "numero": 59,
+                "numero": 60,
                 "rating": 9,
                 "ratingPlus": false
             }
@@ -6021,7 +6021,7 @@
             "packName": "Arcaea Next Stage",
             "sort": {
                 "section": "variety",
-                "numero": 59,
+                "numero": 60,
                 "rating": 9,
                 "ratingPlus": false
             }
@@ -6033,7 +6033,7 @@
             "packName": "Arcaea Next Stage",
             "sort": {
                 "section": "variety",
-                "numero": 59,
+                "numero": 60,
                 "rating": 9,
                 "ratingPlus": true
             }
@@ -6045,7 +6045,7 @@
             "packName": "Arcaea Next Stage",
             "sort": {
                 "section": "variety",
-                "numero": 59,
+                "numero": 60,
                 "rating": 9,
                 "ratingPlus": false
             }
@@ -6153,7 +6153,7 @@
             "packName": "MEGAREX Collaboration",
             "sort": {
                 "section": "collab",
-                "numero": 19,
+                "numero": 20,
                 "rating": 8,
                 "ratingPlus": false
             }
@@ -6165,7 +6165,7 @@
             "packName": "MEGAREX Collaboration",
             "sort": {
                 "section": "collab",
-                "numero": 19,
+                "numero": 20,
                 "rating": 9,
                 "ratingPlus": false
             }
@@ -6177,7 +6177,7 @@
             "packName": "MEGAREX Collaboration",
             "sort": {
                 "section": "collab",
-                "numero": 19,
+                "numero": 20,
                 "rating": 8,
                 "ratingPlus": true
             }
@@ -6189,7 +6189,7 @@
             "packName": "MEGAREX Collaboration",
             "sort": {
                 "section": "collab",
-                "numero": 19,
+                "numero": 20,
                 "rating": 9,
                 "ratingPlus": false
             }
@@ -6201,7 +6201,7 @@
             "packName": "MEGAREX Collaboration",
             "sort": {
                 "section": "collab",
-                "numero": 19,
+                "numero": 20,
                 "rating": 9,
                 "ratingPlus": true
             }
@@ -6309,7 +6309,7 @@
             "packName": "UNDERTALE Pack Append",
             "sort": {
                 "section": "variety",
-                "numero": 61,
+                "numero": 62,
                 "rating": 7,
                 "ratingPlus": true
             }
@@ -6321,7 +6321,7 @@
             "packName": "UNDERTALE Pack Append",
             "sort": {
                 "section": "variety",
-                "numero": 61,
+                "numero": 62,
                 "rating": 8,
                 "ratingPlus": false
             }
@@ -6333,7 +6333,7 @@
             "packName": "UNDERTALE Pack Append",
             "sort": {
                 "section": "variety",
-                "numero": 61,
+                "numero": 62,
                 "rating": 8,
                 "ratingPlus": true
             }
@@ -6429,7 +6429,7 @@
             "packName": "Virtual Singers",
             "sort": {
                 "section": "variety",
-                "numero": 58,
+                "numero": 59,
                 "rating": 8,
                 "ratingPlus": true
             }
@@ -6441,7 +6441,7 @@
             "packName": "Virtual Singers",
             "sort": {
                 "section": "variety",
-                "numero": 58,
+                "numero": 59,
                 "rating": 9,
                 "ratingPlus": false
             }
@@ -6453,7 +6453,7 @@
             "packName": "Virtual Singers",
             "sort": {
                 "section": "variety",
-                "numero": 58,
+                "numero": 59,
                 "rating": 9,
                 "ratingPlus": false
             }
@@ -6465,7 +6465,7 @@
             "packName": "Virtual Singers",
             "sort": {
                 "section": "variety",
-                "numero": 58,
+                "numero": 59,
                 "rating": 9,
                 "ratingPlus": false
             }
@@ -6477,7 +6477,7 @@
             "packName": "Virtual Singers",
             "sort": {
                 "section": "variety",
-                "numero": 58,
+                "numero": 59,
                 "rating": 8,
                 "ratingPlus": true
             }
@@ -6506,6 +6506,18 @@
                 "ratingPlus": true
             }
         },
+        "diein": {
+            "title": "DIE IN",
+            "bydTitle": null,
+            "pack": "single",
+            "packName": "Memory Archive",
+            "sort": {
+                "section": "single",
+                "numero": 0,
+                "rating": 10,
+                "ratingPlus": false
+            }
+        },
         "chronologia": {
             "title": "chronologia",
             "bydTitle": null,
@@ -6514,6 +6526,90 @@
             "sort": {
                 "section": "single",
                 "numero": 0,
+                "rating": 9,
+                "ratingPlus": true
+            }
+        },
+        "balor": {
+            "title": "Balor",
+            "bydTitle": null,
+            "pack": "konzetsu",
+            "packName": "Divine Oblivion",
+            "sort": {
+                "section": "mainstory2",
+                "numero": 6,
+                "rating": 9,
+                "ratingPlus": false
+            }
+        },
+        "dreadarea": {
+            "title": "DREAD AREA",
+            "bydTitle": null,
+            "pack": "konzetsu",
+            "packName": "Divine Oblivion",
+            "sort": {
+                "section": "mainstory2",
+                "numero": 6,
+                "rating": 10,
+                "ratingPlus": false
+            }
+        },
+        "un": {
+            "title": "un",
+            "bydTitle": null,
+            "pack": "konzetsu",
+            "packName": "Divine Oblivion",
+            "sort": {
+                "section": "mainstory2",
+                "numero": 6,
+                "rating": 9,
+                "ratingPlus": true
+            }
+        },
+        "rivenpilgrim": {
+            "title": "Riven Pilgrimage",
+            "bydTitle": null,
+            "pack": "konzetsu",
+            "packName": "Divine Oblivion",
+            "sort": {
+                "section": "mainstory2",
+                "numero": 6,
+                "rating": 10,
+                "ratingPlus": false
+            }
+        },
+        "cataclysmcry": {
+            "title": "Cataclysm Cry",
+            "bydTitle": null,
+            "pack": "konzetsu",
+            "packName": "Divine Oblivion",
+            "sort": {
+                "section": "mainstory2",
+                "numero": 6,
+                "rating": 10,
+                "ratingPlus": false
+            }
+        },
+        "deinosphainein": {
+            "title": "DEINOS PHAINEIN",
+            "bydTitle": null,
+            "pack": "konzetsu",
+            "packName": "Divine Oblivion",
+            "sort": {
+                "section": "mainstory2",
+                "numero": 6,
+                "rating": 10,
+                "ratingPlus": true
+            }
+        },
+        "ember": {
+            "title": "Ember",
+            "bydTitle": null,
+            "pack": "konzetsu",
+            "packName": "Divine Oblivion",
+            "sort": {
+                "section": "mainstory2",
+                "numero": 6,
                 "rating": 9,
                 "ratingPlus": true
             }
@@ -7078,6 +7174,12 @@
             },
             "subsphere": {
                 "PST": true
+            },
+            "un": {
+                "ETR": true
+            },
+            "rivenpilgrim": {
+                "BYD": true
             }
         },
         "Toaster": {
@@ -7720,6 +7822,9 @@
             },
             "breakbreak": {
                 "PST": true
+            },
+            "un": {
+                "PST": true
             }
         },
         "石樂": {
@@ -8114,6 +8219,9 @@
             },
             "kamippoi": {
                 "PST": true
+            },
+            "dreadarea": {
+                "PST": true
             }
         },
         "karat": {
@@ -8145,6 +8253,9 @@
                 "PST": true
             },
             "spiderdance": {
+                "PST": true
+            },
+            "balor": {
                 "PST": true
             }
         },
@@ -8301,6 +8412,9 @@
             },
             "marenyx": {
                 "PST": true
+            },
+            "rivenpilgrim": {
+                "BYD": true
             }
         },
         "Arcaea Charting Team": {
@@ -8408,6 +8522,18 @@
                 "PST": true
             },
             "telepathy": {
+                "PST": true
+            },
+            "diein": {
+                "ETR": true
+            },
+            "cataclysmcry": {
+                "BYD": true
+            },
+            "deinosphainein": {
+                "BYD": true
+            },
+            "ember": {
                 "PST": true
             }
         },
@@ -17410,6 +17536,25 @@
                 "designer": "終点"
             }
         ],
+        "diein": [
+            {
+                "diff": "PST",
+                "designer": "antymIV",
+                "rowspan": 3
+            },
+            {
+                "diff": "PRS",
+                "designer": false
+            },
+            {
+                "diff": "FTR",
+                "designer": false
+            },
+            {
+                "diff": "ETR",
+                "designer": "Beyond the ExtinctioIV"
+            }
+        ],
         "chronologia": [
             {
                 "diff": "PST",
@@ -17427,6 +17572,133 @@
             {
                 "diff": "ETR",
                 "designer": "Nitro x Toaster"
+            }
+        ],
+        "balor": [
+            {
+                "diff": "PST",
+                "designer": "karat, the Piercing Eye",
+                "rowspan": 4
+            },
+            {
+                "diff": "PRS",
+                "designer": false
+            },
+            {
+                "diff": "FTR",
+                "designer": false
+            },
+            {
+                "diff": "ETR",
+                "designer": false
+            }
+        ],
+        "dreadarea": [
+            {
+                "diff": "PST",
+                "designer": "絶滅「天道」",
+                "rowspan": 4
+            },
+            {
+                "diff": "PRS",
+                "designer": false
+            },
+            {
+                "diff": "FTR",
+                "designer": false
+            },
+            {
+                "diff": "BYD",
+                "designer": false
+            }
+        ],
+        "un": [
+            {
+                "diff": "PST",
+                "designer": "én「The Resolute」",
+                "rowspan": 3
+            },
+            {
+                "diff": "PRS",
+                "designer": false
+            },
+            {
+                "diff": "FTR",
+                "designer": false
+            },
+            {
+                "diff": "ETR",
+                "designer": "NITRO「The Absolute」"
+            }
+        ],
+        "rivenpilgrim": [
+            {
+                "diff": "PST",
+                "designer": "零下「kuratoro」",
+                "rowspan": 3
+            },
+            {
+                "diff": "PRS",
+                "designer": false
+            },
+            {
+                "diff": "FTR",
+                "designer": false
+            },
+            {
+                "diff": "BYD",
+                "designer": "零下 vs 夜浪「gardantoj」"
+            }
+        ],
+        "cataclysmcry": [
+            {
+                "diff": "PST",
+                "designer": "運命の響 -echo of fate-"
+            },
+            {
+                "diff": "PRS",
+                "designer": "運命の目 -eye of fate-"
+            },
+            {
+                "diff": "FTR",
+                "designer": "運命の手 -hand of fate-"
+            },
+            {
+                "diff": "BYD",
+                "designer": "運命の淵 -threshold of fate-"
+            }
+        ],
+        "deinosphainein": [
+            {
+                "diff": "PST",
+                "designer": "DIVINE INSIGHT ⟦識眼⟧"
+            },
+            {
+                "diff": "PRS",
+                "designer": "DIVINE KNOWLEDGE ⟦叡智⟧"
+            },
+            {
+                "diff": "FTR",
+                "designer": "DIVINE CURSE ⟦呪詛⟧"
+            },
+            {
+                "diff": "BYD",
+                "designer": "DIVINE WRATH ⟦憤怒⟧"
+            }
+        ],
+        "ember": [
+            {
+                "diff": "PST",
+                "designer": "Fate's End",
+                "rowspan": 3
+            },
+            {
+                "diff": "PRS",
+                "designer": false
+            },
+            {
+                "diff": "FTR",
+                "designer": false
             }
         ]
     },

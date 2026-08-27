@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"PO-Revision-Date: 2026-08-13 20:46+0100\n"
+"PO-Revision-Date: 2026-08-24 05:43+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: ko\n"
@@ -221,6 +221,71 @@ msgstr ", 108일."
 msgid "- None -"
 msgstr " - None -"
 
+msgid ""
+"// No, it is instead more like a sea. Arcaea’s fabric exists as an ever-shifting, almost incomprehensible thing which one tends to describe with terms of emotion: calm or raging, dark or peaceful.\n"
+"\n"
+"Ebbing, and flowing... //"
+msgstr ""
+"// 그보다는 바다에 가깝지. 아르케아의 현실 구조는 계속해서 변화해. 마치 감정처럼 말이지. 고요했다가, 화를 냈다가, 우울해졌다가, 평온해졌다가…\n"
+"\n"
+"밑물과 썰물처럼, 밀려들었다 잦아들어. //"
+
+msgid ""
+"// Seven colors ring out, and the flow of time goes still.\n"
+"\n"
+"This has surely happened before. This refusal. This—\n"
+"\n"
+"In this frozen moment she can feel herself wanting to stop.\n"
+"From that feeling, frustration threatens to build. //"
+msgstr ""
+"// 그러자 일곱 빛깔의 색채가 일렁이더니, 시간이 멈추었다.\n"
+"\n"
+"전에도 이런 적이 있었다.\n"
+"\n"
+"멈춘 시간 속에서, 모든 것을 그만두고픈 욕구가 솟아올랐다. 그 욕구는 이윽고 짜증으로 변했다. // "
+
+msgid "// She holds her clothing more tightly to herself and thinks to close her eyes, but does not. Wincing, she keeps her eyes steady on the glass formation ahead and above her, even as the wind almost pushes her from her course—even as the snow begins to climb beyond her calves, beyond her knees. Her heavy robe begins to feel thin, and her breathing begins to shorten. //"
+msgstr ""
+"// 그녀는 옷을 더 단단하게 여미고는 잠시 눈을 감을까, 하고 생각했지만 결국 그러지 않았다.\n"
+"\n"
+"미간을 구긴 채 자신의 앞과 위를 맴도는 유리 조각의 대형에서 결코 눈을 떼지 않았다.\n"
+"\n"
+"강한 바람에 밀려 길을 잘못 잡을 것 같았다.\n"
+"무릎 위까지 쌓인 눈이 걸음을 방해했다.\n"
+"옷이 점점 더 얕아지는 듯한 느낌. 들숨과 날숨의 간격이 점점 더 얕아졌다. // "
+
+msgid ""
+"// That was the flower from the cradle of life.\n"
+"As blood dropped from the spear's tip, Her eyes opened to see. She gazed into the bones of God, and She told Him:\n"
+"\n"
+"Give me everything. //"
+msgstr ""
+"// 생명의 요람에서 피어난 꽃.\n"
+"창 끝에 맺혀 떨어지는 핏방울.\n"
+"뜨이는, 눈.\n"
+"신의 해골을 바라보며, 그녀는 말했어.\n"
+"\n"
+"\"모든 것을 나에게.\" //"
+
+msgid "// With every step until now, the scene has shifted. Her steps shift the ground—shift space. She nears the tapestry’s edges, only to find that the cloth had never been entirely sewn. Glass glides past her quietly, and then moves suddenly, as if startled. The world around her has become black, rather than white. In the air, stars hang. The way is fractured... //"
+msgstr ""
+"// 풍경이 바뀌었다.\n"
+"\n"
+"매 걸음마다 풍경이 변했다. 라그랑주의 걸음이 땅을... 그리고 공간을 움직였다. 태피스트리로 다가갔다.\n"
+"\n"
+"실이 완전히 꿰여 있지 않았다. 유리 조각이 그녀를 소리 없이 지나쳤다가 놀란 듯이 갑작스럽게 움직였다.\n"
+"\n"
+"주변의 세계는 백색이 아닌 흑색이었다. 허공에 별들이 걸려있었다. 가야 할 길은 조각이 나있었다. //"
+
+msgid "// With the new formation complete, she wastes no time in beginning her ascent. One by one, step by step, she rises with her armchair floating close by, ready to catch her should she fall. As the girl makes her way, she pulls from the bottom of the stairs and sends those steps to the top. Soon after, she finds herself climbing an ever-building, ever-breaking staircase. Through layers of fog, to the highest point. //"
+msgstr ""
+"// 아직 뒤틀리고 뒤죽박죽인 생김새지만 아까 전의 탑보다는 훨씬 괜찮은 만듦새였다. 적어도 소녀는 그렇게 생각했다.\n"
+"마음속으로 자기 머리를 쓰다듬어주었다.\n"
+"\n"
+"소녀는 지체 없이 계단을 타고 올라갔다. 떨어질 때를 대비해 안락의자를 옆에 동행시킨 채로, 소녀는 한 걸음 한 걸음 하늘을 향해 올라갔다.\n"
+"일정 높이에 다다를 때마다, 소녀는 가장 밑에 있는 계단을 뜯어내 위에 붙였다.\n"
+"영원히 파괴와 재조립을 반복하는 무한 계단의 완성이었다. 안개를 뚫고 세상의 정점을 향하는 계단을 소녀는 계속해서 올라갔다. // "
+
 msgid "1 second remains"
 msgstr "1초 남음"
 
@@ -338,9 +403,6 @@ msgstr ""
 msgid "A rising tension"
 msgstr "고조되는 전율"
 
-msgid "A seed, once planted"
-msgstr "한 때 누군가 심었던 씨앗도,"
-
 msgid "A song at the start of time"
 msgstr "시간의 시작에 흐르는 노래"
 
@@ -353,9 +415,6 @@ msgid ""
 msgstr ""
 "현재 계정이 임시보류 상태로 전환되어 있습니다.\n"
 "문제 해결을 위해 공식 홈페이지를 방문해주십시오."
-
-msgid "A wish, once made"
-msgstr "한 때 누군가 빈 소원도,"
 
 msgid "AFFINITY"
 msgstr "호환성"
@@ -375,6 +434,9 @@ msgstr "코스 포기"
 
 msgid "Abandon Song"
 msgstr "플레이 중단"
+
+msgid "Absolution"
+msgstr "Absolution"
 
 msgid "Accept"
 msgstr "수락"
@@ -655,6 +717,13 @@ msgstr "Archive Story"
 
 msgid "Archive△ || Eternal, Beyond△"
 msgstr "Archive △ || ETERNAL 또는 BEYOND △"
+
+msgid ""
+"Are you prepared to burn a soul away in the pursuit of a better end?\n"
+"Then proceed, heedless, into the last of light."
+msgstr ""
+"더 행복한 결말을 위해영혼을 불태울 준비가 되었는가?\n"
+"그렇다면 거침없이 나아가라. 마지막 빛으로."
 
 msgid "Are you sure you want to download data from Cloud?"
 msgstr "정말로 클라우드에서 데이터를 불러오시겠습니까?"
@@ -1695,6 +1764,9 @@ msgstr "Aegleseeker 경험하기"
 msgid "Experience Arghena"
 msgstr "Arghena 경험하기"
 
+msgid "Experience DEINOS PHAINEIN"
+msgstr "DEINOS PHAINEIN 경험하기"
+
 msgid "Experience Designant."
 msgstr "Designant. 경험하기"
 
@@ -2043,6 +2115,9 @@ msgstr ""
 "악곡을 분류하고\n"
 "분류된 폴더 열기"
 
+msgid "Grow a sense for the imperceptible."
+msgstr "사소한 것 하나도 놓치지 않는 감각을 기르라."
+
 msgid ""
 "HARD + 6% chance to lose 6x Recollection Rate\n"
 "STEP increased by 6 on clear"
@@ -2156,6 +2231,9 @@ msgid ""
 msgstr ""
 "HARD + 매 %@ 콤보마다\n"
 "월드 진행도 1 증가"
+
+msgid "HARD - Endure Fate"
+msgstr "HARD - 운명 감내하기"
 
 msgid ""
 "HARD - Fatalis Gauge + sacrifices stamina\n"
@@ -2294,11 +2372,30 @@ msgstr ""
 "이제는 확신할 수 있다. 이 저택과 아르케아에선 시간이 다르게 흘러간다.\n"
 "시간 팽창이라는 원리가 떠오르는 부분이다."
 
+msgid "I: Obscure Path"
+msgstr "I. 막연한 길"
+
 msgid "ID must be 9 digits."
 msgstr "ID는 9자리여야 합니다."
 
+msgid "II: Twisting Path"
+msgstr "II. 왜곡된 길"
+
+msgid "III: Vast Path"
+msgstr "III. 광대한 길"
+
 msgid "INTRUDER"
 msgstr "침입자"
+
+msgid "IV: Incomplete Path"
+msgstr "IV. 불완전한 길"
+
+msgid ""
+"If you are so desperate to meet me...\n"
+"...Try again, soon."
+msgstr ""
+"그렇게 나를 만나고 싶으면...\n"
+"나중에 다시 도전해봐."
 
 msgid ""
 "If you're enjoying Arcaea, please consider writing a review.\n"
@@ -2666,6 +2763,9 @@ msgstr "메인 스토리 연대기"
 
 msgid "Main Story[PACKLIST]"
 msgstr "Main Story"
+
+msgid "Make the way."
+msgstr "길을 만들어라."
 
 msgid "Manage Downloads"
 msgstr "다운로드 관리"
@@ -3627,6 +3727,9 @@ msgstr ""
 "악곡이 끝날 때까지 '기억회상률'이 70%\n"
 "이상이면 클리어합니다."
 
+msgid "Reach out and touch the impossible."
+msgstr "불가능에 손을 뻗어, 닿아라."
+
 msgid "Read '%@'"
 msgstr "'%@' 감상하기"
 
@@ -3769,6 +3872,9 @@ msgstr ""
 msgid "Regulus"
 msgstr "레굴루스"
 
+msgid "Remain..."
+msgstr "멈추기"
+
 msgid "Remember a better girl, and stay to certain time."
 msgstr "뛰어난 그 아이를 기억하며, 한 순간에 머물러."
 
@@ -3797,6 +3903,9 @@ msgid ""
 msgstr ""
 "다운로드된 모든 악곡을 삭제합니다.\n"
 "언제든지 다시 다운로드할 수 있습니다."
+
+msgid "Reorient the world."
+msgstr "세계를 재구축하라."
 
 msgid "Requirement"
 msgstr "요구사항"
@@ -4129,6 +4238,9 @@ msgstr ""
 msgid "Slide songs to the right to add them to Favorites."
 msgstr "악곡을 오른쪽으로 스와이프하여 즐겨찾기 하세요."
 
+msgid "Slip free from time."
+msgstr "시간의 구속에서 벗어나라."
+
 msgid "Slow"
 msgstr "느림"
 
@@ -4276,6 +4388,9 @@ msgstr ""
 msgid "Stella"
 msgstr "스텔라"
 
+msgid "Stop in between, and start again."
+msgstr "마음을 붙잡고, 다시 걸어나가라."
+
 msgid "Stored Progress"
 msgstr "보관된 진행도"
 
@@ -4312,6 +4427,9 @@ msgstr "성공"
 
 msgid "Success! Welcome to Arcaea!"
 msgstr "Arcaea에 오신 것을 환영합니다!"
+
+msgid "Such a persistent soul. Well done."
+msgstr "끈질긴 영혼이구나. 칭찬해줄게."
 
 msgid "Suggested by"
 msgstr "제안한 플레이어:"
@@ -4483,6 +4601,19 @@ msgstr ""
 "Arcaea를 계속 플레이할 시, 개인정보처리방침에 동의한\n"
 "것으로 간주합니다."
 
+msgid ""
+"The paths that lie ahead are dark, yet they beckon you with distant light.\n"
+"\n"
+"Challenge each song, meet each end, distort reality and bring about new fate.\n"
+"\n"
+"Be sure that the history of this place changes here and now."
+msgstr ""
+"앞에 놓인 길은 칠흑처럼 어둡지만, 멀리서 한 줄기의 빛이 당신을 부르고 있습니다.\n"
+"\n"
+"각 악곡에 도전하여, 그 끝을 보고, 현실을 비틀어 새로운 운명을 불러오십시오.\n"
+"\n"
+"지금 이 순간, 이 세계의 역사가 바뀝니다."
+
 msgid "The purchase could not be completed."
 msgstr "구매가 완료되지 않았습니다."
 
@@ -4624,6 +4755,9 @@ msgstr "이는 설정에서 언제든지 조정할 수 있습니다."
 msgid "This code has already been claimed."
 msgstr "이미 사용된 코드입니다."
 
+msgid "This content cannot be purchased from within Link Play."
+msgstr "Link Play중에는 해당 콘텐츠을 구입할 수 없습니다."
+
 msgid "This email address is already in use."
 msgstr "이미 사용중인 이메일 주소입니다."
 
@@ -4756,6 +4890,9 @@ msgstr "왕좌."
 
 msgid "Tier reward has been claimed"
 msgstr "티어 보상을 획득했습니다"
+
+msgid "Time cannot be reversed."
+msgstr "이미 새겨진 시간을 다시 거슬러 올라갈 순 없는 법이야."
 
 msgid "Time remaining until Course abandoned"
 msgstr "코스 포기까지 남은 시간"
@@ -4975,6 +5112,12 @@ msgstr "닉네임은 특수문자를 제외한 3-15자여야 합니다"
 
 msgid "Username or password incorrect."
 msgstr "로그인 정보가 일치하지 않습니다."
+
+msgid "V: Intangible Path"
+msgstr "V. 무형의 길"
+
+msgid "VI:              "
+msgstr "VI."
 
 msgid "VIIM"
 msgstr "VIIM"
@@ -5475,6 +5618,9 @@ msgstr "유노"
 msgid "Zero"
 msgstr "Zero"
 
+msgid "[KONZETSU]Confirm"
+msgstr "나아가기"
+
 msgid "[PARALLEL]Boosts"
 msgstr "부스트"
 
@@ -5551,9 +5697,6 @@ msgstr "가(이) 선곡합니다"
 
 msgid "maimai Core"
 msgstr "maimai 코어"
-
-msgid "may not grow in a lightless place"
-msgstr "이 빛 없는 세계에서는 싹을 틔우지 못하리니."
 
 msgid "now"
 msgstr "현재"

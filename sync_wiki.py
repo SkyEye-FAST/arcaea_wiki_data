@@ -99,7 +99,7 @@ def sync_pages(
             continue
 
         page.text = new_text
-        page.save(summary=summary, minor=minor)
+        page.save(summary=summary, minor=minor, bot=True)
         print(f"[save] {title}: updated")
 
     return changed

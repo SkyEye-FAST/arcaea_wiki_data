@@ -7668,6 +7668,32 @@
       ]
     },
     {
+      "songId": "diein",
+      "ratingClass": 4,
+      "conditions": [
+        {
+          "type": 1,
+          "song_id": "nightmare",
+          "song_difficulty": 4,
+          "grade": 0
+        },
+        {
+          "type": 1,
+          "song_id": "wereallgonnadie",
+          "song_difficulty": 4,
+          "grade": 0
+        },
+        {
+          "type": 5,
+          "rating": 1100
+        },
+        {
+          "type": 0,
+          "credit": 1000
+        }
+      ]
+    },
+    {
       "songId": "acidgod",
       "ratingClass": 4,
       "conditions": [
@@ -7733,6 +7759,375 @@
         {
           "type": 0,
           "credit": 360
+        }
+      ]
+    },
+    {
+      "songId": "balor",
+      "ratingClass": 0,
+      "conditions": [
+        {
+          "type": 115,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "songId": "balor",
+      "ratingClass": 1,
+      "conditions": [
+        {
+          "type": 115,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "songId": "balor",
+      "ratingClass": 2,
+      "conditions": [
+        {
+          "type": 115,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "songId": "balor",
+      "ratingClass": 4,
+      "conditions": [
+        {
+          "type": 115,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "songId": "dreadarea",
+      "ratingClass": 0,
+      "conditions": [
+        {
+          "type": 1,
+          "song_id": "balor",
+          "song_difficulty": 0,
+          "grade": 0
+        },
+        {
+          "type": 115,
+          "count": 2
+        }
+      ]
+    },
+    {
+      "songId": "dreadarea",
+      "ratingClass": 1,
+      "conditions": [
+        {
+          "type": 1,
+          "song_id": "balor",
+          "song_difficulty": 1,
+          "grade": 0
+        },
+        {
+          "type": 115,
+          "count": 2
+        }
+      ]
+    },
+    {
+      "songId": "dreadarea",
+      "ratingClass": 2,
+      "conditions": [
+        {
+          "type": 1,
+          "song_id": "balor",
+          "song_difficulty": 2,
+          "grade": 0
+        },
+        {
+          "type": 115,
+          "count": 2
+        }
+      ]
+    },
+    {
+      "songId": "dreadarea",
+      "ratingClass": 3,
+      "conditions": [
+        {
+          "type": 114,
+          "count": 1
+        },
+        {
+          "type": 115,
+          "count": 2
+        }
+      ]
+    },
+    {
+      "songId": "un",
+      "ratingClass": 0,
+      "conditions": [
+        {
+          "type": 1,
+          "song_id": "dreadarea",
+          "song_difficulty": 0,
+          "grade": 0
+        },
+        {
+          "type": 115,
+          "count": 3
+        }
+      ]
+    },
+    {
+      "songId": "un",
+      "ratingClass": 1,
+      "conditions": [
+        {
+          "type": 1,
+          "song_id": "dreadarea",
+          "song_difficulty": 1,
+          "grade": 0
+        },
+        {
+          "type": 115,
+          "count": 3
+        }
+      ]
+    },
+    {
+      "songId": "un",
+      "ratingClass": 2,
+      "conditions": [
+        {
+          "type": 1,
+          "song_id": "dreadarea",
+          "song_difficulty": 2,
+          "grade": 0
+        },
+        {
+          "type": 115,
+          "count": 3
+        }
+      ]
+    },
+    {
+      "songId": "un",
+      "ratingClass": 4,
+      "conditions": [
+        {
+          "type": 1,
+          "song_id": "dreadarea",
+          "song_difficulty": 2,
+          "grade": 0
+        },
+        {
+          "type": 115,
+          "count": 3
+        }
+      ]
+    },
+    
+    {
+      "songId": "rivenpilgrim",
+      "ratingClass": 0,
+      "conditions": [
+        {
+          "type": 1,
+          "song_id": "un",
+          "song_difficulty": 0,
+          "grade": 0
+        },
+        {
+          "type": 115,
+          "count": 4
+        }
+      ]
+    },
+    {
+      "songId": "rivenpilgrim",
+      "ratingClass": 1,
+      "conditions": [
+        {
+          "type": 1,
+          "song_id": "un",
+          "song_difficulty": 1,
+          "grade": 0
+        },
+        {
+          "type": 115,
+          "count": 4
+        }
+      ]
+    },
+    {
+      "songId": "rivenpilgrim",
+      "ratingClass": 2,
+      "conditions": [
+        {
+          "type": 1,
+          "song_id": "un",
+          "song_difficulty": 2,
+          "grade": 0
+        },
+        {
+          "type": 115,
+          "count": 4
+        }
+      ]
+    },
+    {
+      "songId": "rivenpilgrim",
+      "ratingClass": 3,
+      "conditions": [
+        {
+          "type": 114,
+          "count": 2
+        },
+        {
+          "type": 115,
+          "count": 4
+        }
+      ]
+    },
+    {
+      "songId": "cataclysmcry",
+      "ratingClass": 0,
+      "conditions": [
+        {
+          "type": 1,
+          "song_id": "rivenpilgrim",
+          "song_difficulty": 0,
+          "grade": 0
+        },
+        {
+          "type": 115,
+          "count": 5
+        }
+      ]
+    },
+    {
+      "songId": "cataclysmcry",
+      "ratingClass": 1,
+      "conditions": [
+        {
+          "type": 1,
+          "song_id": "rivenpilgrim",
+          "song_difficulty": 1,
+          "grade": 0
+        },
+        {
+          "type": 115,
+          "count": 5
+        }
+      ]
+    },
+    {
+      "songId": "cataclysmcry",
+      "ratingClass": 2,
+      "conditions": [
+        {
+          "type": 1,
+          "song_id": "rivenpilgrim",
+          "song_difficulty": 2,
+          "grade": 0
+        },
+        {
+          "type": 115,
+          "count": 5
+        }
+      ]
+    },
+    {
+      "songId": "cataclysmcry",
+      "ratingClass": 3,
+      "conditions": [
+        {
+          "type": 114,
+          "count": 3
+        },
+        {
+          "type": 115,
+          "count": 5
+        }
+      ]
+    },
+    {
+      "songId": "deinosphainein",
+      "ratingClass": 0,
+      "conditions": [
+        {
+          "type": 101,
+          "min": 0,
+          "max": 0
+        }
+      ]
+    },
+    {
+      "songId": "deinosphainein",
+      "ratingClass": 1,
+      "conditions": [
+        {
+          "type": 101,
+          "min": 0,
+          "max": 0
+        }
+      ]
+    },
+    {
+      "songId": "deinosphainein",
+      "ratingClass": 2,
+      "conditions": [
+        {
+          "type": 101,
+          "min": 0,
+          "max": 0
+        }
+      ]
+    },
+    {
+      "songId": "deinosphainein",
+      "ratingClass": 3,
+      "conditions": [
+        {
+          "type": 101,
+          "min": 0,
+          "max": 0
+        }
+      ]
+    },
+    
+    {
+      "songId": "ember",
+      "ratingClass": 0,
+      "conditions": [
+        {
+          "type": 101,
+          "min": 0,
+          "max": 0
+        }
+      ]
+    },
+    {
+      "songId": "ember",
+      "ratingClass": 1,
+      "conditions": [
+        {
+          "type": 101,
+          "min": 0,
+          "max": 0
+        }
+      ]
+    },
+    {
+      "songId": "ember",
+      "ratingClass": 2,
+      "conditions": [
+        {
+          "type": 101,
+          "min": 0,
+          "max": 0
         }
       ]
     }

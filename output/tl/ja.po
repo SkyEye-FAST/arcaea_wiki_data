@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"PO-Revision-Date: 2026-08-14 01:08+0100\n"
+"PO-Revision-Date: 2026-08-24 06:02+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: ja\n"
@@ -222,6 +222,70 @@ msgstr "- 108.〕"
 msgid "- None -"
 msgstr "-なし-"
 
+msgid ""
+"// No, it is instead more like a sea. Arcaea’s fabric exists as an ever-shifting, almost incomprehensible thing which one tends to describe with terms of emotion: calm or raging, dark or peaceful.\n"
+"\n"
+"Ebbing, and flowing... //"
+msgstr ""
+"// より明確に言うなら、そこに在ったのは流体──『海』のようなものだ。\n"
+"留まるコトなく揺らぎ続け、掴みどころなく、奇しくもそれは感情のようで……\n"
+"\n"
+"つまり観測できるのは、荒れているか、凪いでいるか……その程度というコトさ。\n"
+"潮がそうであるように、引いては満ちて、揺らぎ続ける……まさに情緒、というわけだ。//"
+
+msgid ""
+"// Seven colors ring out, and the flow of time goes still.\n"
+"\n"
+"This has surely happened before. This refusal. This—\n"
+"\n"
+"In this frozen moment she can feel herself wanting to stop.\n"
+"From that feeling, frustration threatens to build. //"
+msgstr ""
+"// 硝子の檻は七色に響いて割れて行く。そうして、時も止まった。そうだ、前にもあった。そのはずだ。\n"
+"拒絶するような、この感覚。まるで全てが、自分から距離を取ろうとしているかのような。\n"
+"\n"
+"この凍りついた瞬間のなかで、全てを拒んで、やめてしまいたい自分がいて。\n"
+"じくじくと内側の不協和に焦がれるように、苛立ちが募っていく。//"
+
+msgid "// She holds her clothing more tightly to herself and thinks to close her eyes, but does not. Wincing, she keeps her eyes steady on the glass formation ahead and above her, even as the wind almost pushes her from her course—even as the snow begins to climb beyond her calves, beyond her knees. Her heavy robe begins to feel thin, and her breathing begins to shorten. //"
+msgstr ""
+"// 容赦のない風雪に、彼女は装いをより堅く締め直した。\n"
+"閉じそうになる目蓋を開き、顔を顰めながらも視線は逸らさない。\n"
+"前方はすこし上方、その先には硝子が描く微かな星座。あれが標だ。\n"
+"……そう、取るべき道は明らかだった。ただ、吹雪が強すぎた。\n"
+"今もこちらの体丸ごと押し退けんばかりの猛風が容赦なく吹き付けてくる。\n"
+"重い洋羽織を着込んでも、易々と寒さは貫いていた。 //"
+
+msgid ""
+"// That was the flower from the cradle of life.\n"
+"As blood dropped from the spear's tip, Her eyes opened to see. She gazed into the bones of God, and She told Him:\n"
+"\n"
+"Give me everything. //"
+msgstr ""
+"// 命の揺り籠より、手向けの花を。\n"
+"巨槍の先端、零れる赤……その双眸は今開く。\n"
+"視線は虚ろの骸、神の躯。今、彼女は告げる。\n"
+"\n"
+"──『さあ、全て私に与え給え』と。//"
+
+msgid "// With every step until now, the scene has shifted. Her steps shift the ground—shift space. She nears the tapestry’s edges, only to find that the cloth had never been entirely sewn. Glass glides past her quietly, and then moves suddenly, as if startled. The world around her has become black, rather than white. In the air, stars hang. The way is fractured... //"
+msgstr ""
+"// 一歩一歩が踏まれる度、その一歩が地面を変え、空間を、そして景色を変えていく。\n"
+"今、少女は終端に近づいていた。世界という名の織物が、\n"
+"決して縫製されきっていないと確かめるためだけに。\n"
+"ゆるやかに、すぐ近くを通った硝片が、まるで動揺した様に急に蠢めいた。\n"
+"少女の周囲に白さは乏しく、むしろ黒くなっている。\n"
+"宙空に星がきらめき、歩いてきた軌跡はひび割れていた。 //"
+
+msgid "// With the new formation complete, she wastes no time in beginning her ascent. One by one, step by step, she rises with her armchair floating close by, ready to catch her should she fall. As the girl makes her way, she pulls from the bottom of the stairs and sends those steps to the top. Soon after, she finds herself climbing an ever-building, ever-breaking staircase. Through layers of fog, to the highest point. //"
+msgstr ""
+"// 新しい造形が完成したことで、一刻も無駄には出来ないと彼女は上昇を開始した。\n"
+"そばに浮かび、落ちた彼女を受け止めるための肘掛け椅子とともに螺旋階段を一段一段、一歩一歩登っていく。\n"
+"\n"
+"少女が道を進むたび、最下層の一段を最上部へと持ってくる。\n"
+"やがて彼女が登っているのは永遠に構築と解体を続ける階段ともいえるものだった。\n"
+"立ち込める霧の層を抜けて、最高高度まで登っていく。//"
+
 msgid "1 second remains"
 msgstr "あと1秒。"
 
@@ -346,9 +410,6 @@ msgstr ""
 msgid "A rising tension"
 msgstr "駆け上がる戦慄"
 
-msgid "A seed, once planted"
-msgstr "蒔かれしかつての種子"
-
 msgid "A song at the start of time"
 msgstr "時の始まりに奏でる曲"
 
@@ -361,9 +422,6 @@ msgid ""
 msgstr ""
 "アカウントに一時停止措置を適用しております。\n"
 "公式サイトをご確認のうえ、対応をよろしくおねがいします。"
-
-msgid "A wish, once made"
-msgstr "願われしかつてのもの"
 
 msgid "AFFINITY"
 msgstr "親和度"
@@ -383,6 +441,9 @@ msgstr "リタイアする"
 
 msgid "Abandon Song"
 msgstr "楽曲を放棄"
+
+msgid "Absolution"
+msgstr "Absolution"
 
 msgid "Accept"
 msgstr "承認"
@@ -676,6 +737,13 @@ msgstr "アーカイブ"
 
 msgid "Archive△ || Eternal, Beyond△"
 msgstr "アーカイブ△ || Eternal または Beyond△"
+
+msgid ""
+"Are you prepared to burn a soul away in the pursuit of a better end?\n"
+"Then proceed, heedless, into the last of light."
+msgstr ""
+"あなたはある命を、魂を灼き尽くしても、よりよい結末を望みますか？\n"
+"ならば疾く臨みなさい──最後の戦いへと。"
 
 msgid "Are you sure you want to download data from Cloud?"
 msgstr "本当にこの端末のデータを上書きしますか？"
@@ -1739,6 +1807,9 @@ msgstr "楽曲『Aegleseeker』をプレイする"
 msgid "Experience Arghena"
 msgstr "楽曲『Arghena』をプレイする"
 
+msgid "Experience DEINOS PHAINEIN"
+msgstr "【DEINOS PHAINEIN】を\"識\"れ"
+
 msgid "Experience Designant."
 msgstr "楽曲『Designant.』を\"識\"る"
 
@@ -2097,6 +2168,9 @@ msgstr ""
 "曲をフォルダで分類し\n"
 "フォルダをどれか開く"
 
+msgid "Grow a sense for the imperceptible."
+msgstr "───研ぎ澄まし、感じ得ぬモノを視ろ。"
+
 msgid ""
 "HARD + 6% chance to lose 6x Recollection Rate\n"
 "STEP increased by 6 on clear"
@@ -2208,6 +2282,9 @@ msgid ""
 msgstr ""
 "HARD + World Modeの進行度が、\n"
 "%@コンボ毎に1増える"
+
+msgid "HARD - Endure Fate"
+msgstr "HARD - 知命不撓"
 
 msgid ""
 "HARD - Fatalis Gauge + sacrifices stamina\n"
@@ -2346,11 +2423,30 @@ msgstr ""
 "〔明言できる、この館の時の流れは奇妙で、Arcaeaの世界と違う。\n"
 "まるでタイム・ダイレーションのようだ〕"
 
+msgid "I: Obscure Path"
+msgstr "I: 蒙昧なる[路]"
+
 msgid "ID must be 9 digits."
 msgstr "9桁の数字を入れてください"
 
+msgid "II: Twisting Path"
+msgstr "II: 歪形なる[路]"
+
+msgid "III: Vast Path"
+msgstr "III: 茫洋なる[路]"
+
 msgid "INTRUDER"
 msgstr "侵犯者"
+
+msgid "IV: Incomplete Path"
+msgstr "IV: 未完なる[路]"
+
+msgid ""
+"If you are so desperate to meet me...\n"
+"...Try again, soon."
+msgstr ""
+"君がなおも拝謁を望むのなら……、\n"
+"懲りずにまた試すことだ、すぐにね。"
 
 msgid ""
 "If you're enjoying Arcaea, please consider writing a review.\n"
@@ -2716,6 +2812,9 @@ msgstr "メインストーリークロニクル"
 
 msgid "Main Story[PACKLIST]"
 msgstr "メインストーリー"
+
+msgid "Make the way."
+msgstr "───[路]を拓け。"
 
 msgid "Manage Downloads"
 msgstr "ダウンロードの管理"
@@ -3694,6 +3793,9 @@ msgid ""
 "by the end of the song to clear it."
 msgstr "曲の終わったときに左のゲージが70%以上で、クリアとなります"
 
+msgid "Reach out and touch the impossible."
+msgstr "───不可能へと手を伸ばし、触れろ。"
+
 msgid "Read '%@'"
 msgstr "%@の読了"
 
@@ -3836,6 +3938,9 @@ msgstr ""
 msgid "Regulus"
 msgstr "レグルス"
 
+msgid "Remain..."
+msgstr "留まる"
+
 msgid "Remember a better girl, and stay to certain time."
 msgstr ""
 "ある時期に留まることだ──\n"
@@ -3872,6 +3977,9 @@ msgid ""
 msgstr ""
 "ダウンロードされた全楽曲を削除します。\n"
 "なお、いつでも再ダウンロードが可能です。"
+
+msgid "Reorient the world."
+msgstr "───世界を変向せよ。"
 
 msgid "Requirement"
 msgstr "購入条件"
@@ -4208,6 +4316,9 @@ msgstr ""
 msgid "Slide songs to the right to add them to Favorites."
 msgstr "楽曲を右にスワイプして、『Favorites』に追加できます。"
 
+msgid "Slip free from time."
+msgstr "───時の軛から抜け出せ。"
+
 msgid "Slow"
 msgstr "遅め"
 
@@ -4355,6 +4466,9 @@ msgstr ""
 msgid "Stella"
 msgstr "ステラ"
 
+msgid "Stop in between, and start again."
+msgstr "───狭間にて止まれ、また進め。"
+
 msgid "Stored Progress"
 msgstr "蓄積中の進行度"
 
@@ -4391,6 +4505,11 @@ msgstr "成功"
 
 msgid "Success! Welcome to Arcaea!"
 msgstr "登録が完了しました。Arcaeaの世界へようこそ！"
+
+msgid "Such a persistent soul. Well done."
+msgstr ""
+"───ここまでとはね。\n"
+"気概ある魂なら、ワタシも厭わない。"
 
 msgid "Suggested by"
 msgstr "おすすめの一曲"
@@ -4562,6 +4681,22 @@ msgstr ""
 "なお、Arcaeaを継続的にご利用いただく場合、\n"
 "改定後のプライバシーポリシーにご同意頂いたものとします。"
 
+msgid ""
+"The paths that lie ahead are dark, yet they beckon you with distant light.\n"
+"\n"
+"Challenge each song, meet each end, distort reality and bring about new fate.\n"
+"\n"
+"Be sure that the history of this place changes here and now."
+msgstr ""
+"先へ進む者よ、これより続くは昏き『路[みち]』。\n"
+"けれど彼方には手招く光あり。\n"
+"\n"
+"さあ踏破せよ───眼前の現実を歪め、待ち受ける楽曲全てを駆け抜けて。\n"
+"願わくばその果てに、新たなる運命を齎せ。\n"
+"\n"
+"これより変わるはこの地、かの楽園の歴史。\n"
+"───君が刻むは、その趨勢である───"
+
 msgid "The purchase could not be completed."
 msgstr "購入処理が完了できませんでした"
 
@@ -4711,6 +4846,9 @@ msgstr "この項目は設定からいつでも変えることができます"
 msgid "This code has already been claimed."
 msgstr "このコードは既に使用されています"
 
+msgid "This content cannot be purchased from within Link Play."
+msgstr "本コンテンツはLink Play中には購入できません。"
+
 msgid "This email address is already in use."
 msgstr "このメールアドレスは既に利用されています"
 
@@ -4846,6 +4984,9 @@ msgstr "玉座"
 
 msgid "Tier reward has been claimed"
 msgstr "このTier報酬は入手済みです"
+
+msgid "Time cannot be reversed."
+msgstr "刻まれた時は戻らない。"
 
 msgid "Time remaining until Course abandoned"
 msgstr "リタイアまでの残り時間"
@@ -5072,6 +5213,12 @@ msgstr ""
 
 msgid "Username or password incorrect."
 msgstr "ユーザー名またはパスワードが間違っています"
+
+msgid "V: Intangible Path"
+msgstr "V: 無形なる[路]"
+
+msgid "VI:              "
+msgstr "VI:"
 
 msgid "VIIM"
 msgstr "VIIM"
@@ -5588,6 +5735,9 @@ msgstr "夢乃"
 msgid "Zero"
 msgstr "Zero"
 
+msgid "[KONZETSU]Confirm"
+msgstr "臨む"
+
 msgid "[PARALLEL]Boosts"
 msgstr "ブースト倍率"
 
@@ -5662,9 +5812,6 @@ msgstr "さん が選曲者です"
 
 msgid "maimai Core"
 msgstr "maimaiの核"
-
-msgid "may not grow in a lightless place"
-msgstr "光なき地では、育ち得るものか"
 
 msgid "now"
 msgstr "今"
