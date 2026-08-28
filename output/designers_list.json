@@ -31,7 +31,10 @@
     "astralquant": true,
     "lamentrain": true,
     "designant": true,
-    "undyingmacula": true
+    "undyingmacula": true,
+    "ember": true,
+    "cataclysmcry": true,
+    "deinosphainein": true
   },
   "simple": [
     {
@@ -748,6 +751,12 @@
     },
     "nora::pengin": {
       "nora::neko": "nora::pengin"
+    },
+    "antymIV": {
+      "antymis": "antymIV"
+    },
+    "Beyond the ExtinctioIV": {
+      "絶滅": "ExtinctioIV"
     }
   }
 }

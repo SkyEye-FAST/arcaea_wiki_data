@@ -1,6 +1,6 @@
 {
-    "ver": "v7.0.0",
-    "date": 1787799807,
+    "ver": "v7.0.1",
+    "date": 1787961298,
     "data": {
         "sayonarahatsukoi": {
             "title": "Sayonara Hatsukoi",
@@ -7968,6 +7968,15 @@
             },
             "undyingmacula": {
                 "ETR": true
+            },
+            "cataclysmcry": {
+                "BYD": true
+            },
+            "deinosphainein": {
+                "BYD": true
+            },
+            "ember": {
+                "PST": true
             }
         },
         "k//eternal": {
@@ -8220,6 +8229,9 @@
             "kamippoi": {
                 "PST": true
             },
+            "diein": {
+                "ETR": true
+            },
             "dreadarea": {
                 "PST": true
             }
@@ -8324,6 +8336,9 @@
             },
             "incarnator": {
                 "ETR": true
+            },
+            "diein": {
+                "PST": true
             }
         },
         "CERiNG": {
@@ -8522,18 +8537,6 @@
                 "PST": true
             },
             "telepathy": {
-                "PST": true
-            },
-            "diein": {
-                "ETR": true
-            },
-            "cataclysmcry": {
-                "BYD": true
-            },
-            "deinosphainein": {
-                "BYD": true
-            },
-            "ember": {
                 "PST": true
             }
         },
