@@ -1,15 +1,31 @@
 """Sync generated output files to wiki.arcaea.cn via pywikibot."""
 
 import argparse
+import hashlib
+import html
+import json
 import os
 import re
+import time
 from pathlib import Path
-
-import pywikibot
-from pywikibot.site import BaseSite
+from typing import TypeGuard
 
 PROJECT_ROOT = Path(__file__).resolve().parent
+os.environ.setdefault("PYWIKIBOT_DIR", str(PROJECT_ROOT))
+
+import pywikibot  # noqa: E402
+from pywikibot.comms import http  # noqa: E402
+from pywikibot.site import BaseSite  # noqa: E402
+
 OUTPUT_DIR = PROJECT_ROOT / "output"
+
+ANUBIS_SCRIPT_RE = re.compile(
+    r'<script\b[^>]*\bid=["\'](?P<id>anubis_[^"\']+)["\'][^>]*>'
+    r"(?P<value>.*?)</script\s*>",
+    re.IGNORECASE | re.DOTALL,
+)
+ANUBIS_PASS_PATH = "/.within.website/x/cmd/anubis/api/pass-challenge"
+ANUBIS_MAX_DIFFICULTY = 6
 
 PAGE_FILE_MAP = {
     "Module:Story/data/mobile": OUTPUT_DIR / "arcaea_story_data.lua",
@@ -34,6 +50,117 @@ TEMPLATE_VERSION_MOBILE_RE = re.compile(
     r"v[^\|\}\s]+"
     r"(\s*(?:\|[^\}]*)?\}\}\s*)$"
 )
+
+
+def _is_string_object_dict(value: object) -> TypeGuard[dict[str, object]]:
+    """Return whether a JSON value is an object with string keys."""
+    return isinstance(value, dict) and all(isinstance(key, str) for key in value)
+
+
+def _anubis_page_data(page_text: str) -> dict[str, object]:
+    """Extract JSON values embedded in an Anubis challenge page."""
+    values: dict[str, object] = {}
+    for match in ANUBIS_SCRIPT_RE.finditer(page_text):
+        values[match.group("id")] = json.loads(html.unescape(match.group("value")))
+    return values
+
+
+def _solve_anubis_pow(random_data: str, difficulty: int) -> tuple[str, int, int]:
+    """Solve Anubis' SHA-256 proof of work and return hash, nonce, and time."""
+    if not 1 <= difficulty <= ANUBIS_MAX_DIFFICULTY:
+        raise RuntimeError(
+            "Unsupported Anubis challenge difficulty "
+            f"{difficulty}; expected 1-{ANUBIS_MAX_DIFFICULTY}."
+        )
+
+    started_at = time.monotonic()
+    prefix = "0" * difficulty
+    nonce = 0
+    encoded_random_data = random_data.encode("utf-8")
+
+    while True:
+        digest = hashlib.sha256(encoded_random_data + str(nonce).encode("ascii")).hexdigest()
+        if digest.startswith(prefix):
+            elapsed_ms = max(1, round((time.monotonic() - started_at) * 1000))
+            return digest, nonce, elapsed_ms
+        nonce += 1
+
+
+def ensure_api_available(site: BaseSite) -> None:
+    """Pass an Anubis challenge when necessary before using the MediaWiki API."""
+    response = http.request(
+        site,
+        uri=site.apipath(),
+        params={"action": "query", "meta": "siteinfo", "format": "json"},
+    )
+
+    try:
+        api_data = response.json()
+    except ValueError:
+        api_data = None
+
+    if isinstance(api_data, dict):
+        return
+
+    page_data = _anubis_page_data(response.text)
+    challenge_payload = page_data.get("anubis_challenge")
+    if not _is_string_object_dict(challenge_payload):
+        content_type = response.headers.get("content-type", "unknown")
+        raise RuntimeError(
+            "MediaWiki API returned a non-JSON response that is not a recognized "
+            f"Anubis challenge (HTTP {response.status_code}, Content-Type: {content_type})."
+        )
+
+    rules = challenge_payload.get("rules")
+    challenge = challenge_payload.get("challenge")
+    if not _is_string_object_dict(rules) or not _is_string_object_dict(challenge):
+        raise RuntimeError("Anubis challenge response is missing rules or challenge data.")
+
+    algorithm = rules.get("algorithm")
+    if algorithm not in {"fast", "slow"}:
+        raise RuntimeError(f"Unsupported Anubis challenge algorithm: {algorithm!r}.")
+
+    challenge_id = challenge.get("id")
+    random_data = challenge.get("randomData")
+    if not isinstance(challenge_id, str) or not isinstance(random_data, str):
+        raise RuntimeError("Anubis challenge response is missing its id or random data.")
+
+    difficulty_value = rules.get("difficulty")
+    if isinstance(difficulty_value, bool) or not isinstance(difficulty_value, (int, str)):
+        raise RuntimeError("Anubis challenge has an invalid difficulty value.")
+    try:
+        difficulty = int(difficulty_value)
+    except ValueError as exc:
+        raise RuntimeError("Anubis challenge has an invalid difficulty value.") from exc
+
+    print(f"Anubis challenge detected; solving difficulty {difficulty} proof of work.")
+    digest, nonce, elapsed_ms = _solve_anubis_pow(random_data, difficulty)
+
+    base_prefix = page_data.get("anubis_base_prefix", "")
+    if not isinstance(base_prefix, str):
+        raise RuntimeError("Anubis challenge has an invalid base prefix.")
+    pass_path = f"{base_prefix.rstrip('/')}{ANUBIS_PASS_PATH}"
+
+    verified_response = http.request(
+        site,
+        uri=pass_path,
+        params={
+            "id": challenge_id,
+            "response": digest,
+            "nonce": nonce,
+            "redir": response.url,
+            "elapsedTime": elapsed_ms,
+        },
+    )
+    try:
+        verified_data = verified_response.json()
+    except ValueError as exc:
+        raise RuntimeError("Anubis accepted no usable API session after verification.") from exc
+
+    if not isinstance(verified_data, dict):
+        raise RuntimeError("MediaWiki API returned an unexpected response after verification.")
+
+    print("Anubis challenge passed; MediaWiki API is available.")
 
 
 def ensure_inputs(selected_pages: list[str] | None) -> dict[str, Path]:
@@ -167,6 +294,7 @@ def main() -> None:
     mapping = ensure_inputs(args.pages)
 
     site = pywikibot.Site("arcaea", "arcaea")
+    ensure_api_available(site)
     if not args.dry_run:
         materialize_password_file_from_env()
 

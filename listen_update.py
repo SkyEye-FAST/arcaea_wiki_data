@@ -1,14 +1,20 @@
 """Run the listened update flow and sync wiki version as soon as it changes."""
 
+import os
 import time
 from datetime import datetime, timedelta
+from pathlib import Path
 from zoneinfo import ZoneInfo
 
-import pywikibot
-import requests
+PROJECT_ROOT = Path(__file__).resolve().parent
+os.environ.setdefault("PYWIKIBOT_DIR", str(PROJECT_ROOT))
 
-import update
-from sync_wiki import (
+import pywikibot  # noqa: E402
+import requests  # noqa: E402
+
+import update  # noqa: E402
+from sync_wiki import (  # noqa: E402
+    ensure_api_available,
     ensure_authenticated,
     ensure_inputs,
     materialize_password_file_from_env,
@@ -90,6 +96,7 @@ def main() -> None:
                         print("[0/5] Syncing wiki version before export.", flush=True)
 
                         site = pywikibot.Site("arcaea", "arcaea")
+                        ensure_api_available(site)
                         materialize_password_file_from_env()
                         site.login()
                         ensure_authenticated(site, "Masertwer")
