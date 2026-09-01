@@ -35022,8 +35022,7 @@
                     "ratingClass": 1,
                     "chartDesigner": "絶滅「天道」",
                     "jacketDesigner": "あらへなす",
-                    "rating": 8,
-                    "ratingPlus": true
+                    "rating": 8
                 },
                 {
                     "ratingClass": 2,
@@ -35090,7 +35089,8 @@
                     "ratingClass": 1,
                     "chartDesigner": "én「The Resolute」",
                     "jacketDesigner": "_ziro",
-                    "rating": 7
+                    "rating": 7,
+                    "ratingPlus": true
                 },
                 {
                     "ratingClass": 2,

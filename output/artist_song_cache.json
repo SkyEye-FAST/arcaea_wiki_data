@@ -1,6 +1,6 @@
 {
-    "ver": "v7.0.1",
-    "date": 1787961298,
+    "ver": "v7.0.2",
+    "date": 1788260388,
     "data": {
         "sayonarahatsukoi": {
             "title": "Sayonara Hatsukoi",
@@ -4522,7 +4522,8 @@
         "Blacklolita": {
             "normal": [
                 "antithese",
-                "infinity"
+                "infinity",
+                "deinosphainein"
             ]
         },
         "3R2": {
@@ -4636,13 +4637,15 @@
         "Juggernaut.": {
             "normal": [
                 "valhallazero",
-                "lilly"
+                "lilly",
+                "deinosphainein"
             ]
         },
         "siqlo": {
             "normal": [
                 "mirzam",
-                "lethalvoltage"
+                "lethalvoltage",
+                "ember"
             ]
         },
         "Kolaa": {
@@ -4733,7 +4736,8 @@
         "Powerless": {
             "normal": [
                 "lostdesire",
-                "innocence"
+                "innocence",
+                "ember"
             ]
         },
         "かめりあ": {
@@ -5364,7 +5368,8 @@
             "normal": [
                 "mirinae",
                 "uad",
-                "tictactoe"
+                "tictactoe",
+                "diein"
             ]
         },
         "rider": {
@@ -5436,7 +5441,8 @@
         "rejection": {
             "normal": [
                 "hypnotize",
-                "signal"
+                "signal",
+                "rivenpilgrim"
             ]
         },
         "Tatsunoshin": {
@@ -5447,7 +5453,8 @@
         "Sobrem": {
             "normal": [
                 "waltzforlorelei",
-                "andorxor"
+                "andorxor",
+                "diein"
             ]
         },
         "庭師": {
@@ -5528,7 +5535,8 @@
         },
         "Supire": {
             "normal": [
-                "breachoffaith"
+                "breachoffaith",
+                "rivenpilgrim"
             ]
         },
         "Designant": {
@@ -5816,34 +5824,14 @@
                 "synthesis"
             ]
         },
-        "TAK x Sobrem": {
-            "normal": [
-                "diein"
-            ]
-        },
         "Redsign": {
             "normal": [
                 "balor"
             ]
         },
-        "rejection & Supire feat. eili": {
-            "normal": [
-                "rivenpilgrim"
-            ]
-        },
         "Aid": {
             "normal": [
                 "cataclysmcry"
-            ]
-        },
-        "Blacklolita vs Juggernaut.": {
-            "normal": [
-                "deinosphainein"
-            ]
-        },
-        "Powerless & siqlo feat. Tia": {
-            "normal": [
-                "ember"
             ]
         }
     },
