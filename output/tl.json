@@ -278,7 +278,7 @@
   "// Seven colors ring out, and the flow of time goes still.\n\nThis has surely happened before. This refusal. This—\n\nIn this frozen moment she can feel herself wanting to stop.\nFrom that feeling, frustration threatens to build. //": {
     "zh-Hans": "// 七彩的光芒透过破碎的玻璃喷涌而出，连带着时间也停止了下来。\n这种情况先前肯定也发生过。\n\n这种抗拒的方式，这种似曾相识的感觉——\n时光仍处于冰封之中，她的心情也低沉到了冰点。\n现在的她，只想让自己就此打住。//",
     "zh-Hant": "// 七彩的光芒透過破碎的玻璃噴湧而出，連帶著時間也停止了下來。\n這種情況先前肯定也發生過。\n\n這種抗拒的方式，這種似曾相識的感覺——\n時光仍處於冰封之中，她的心情也低沉到了冰點。\n現在的她，只想讓自己就此打住。//",
-    "ja": "// 硝子の檻は七色に響いて割れて行く。そうして、時も止まった。そうだ、前にもあった。そのはずだ。\n拒絶するような、この感覚。まるで全てが、自分から距離を取ろうとしているかのような。\n\nこの凍りついた瞬間のなかで、全てを拒んで、やめてしまいたい自分がいて。\nじくじくと内側の不協和に焦がれるように、苛立ちが募っていく。//",
+    "ja": "// 硝子の檻は七色に響いて割れて行く。そうして、時も止まった。\nそうだ、前にもあった。そのはずだ。拒絶するような、この感覚。\nまるで全てが、自分から距離を取ろうとしているかのような。\n\nこの凍りついた瞬間のなかで、全てを拒んで、やめてしまいたい自分がいて。\nじくじくと内側の不協和に焦がれるように、苛立ちが募っていく。 //",
     "ko": "// 그러자 일곱 빛깔의 색채가 일렁이더니, 시간이 멈추었다.\n\n전에도 이런 적이 있었다.\n\n멈춘 시간 속에서, 모든 것을 그만두고픈 욕구가 솟아올랐다. 그 욕구는 이윽고 짜증으로 변했다. // "
   },
   "// She holds her clothing more tightly to herself and thinks to close her eyes, but does not. Wincing, she keeps her eyes steady on the glass formation ahead and above her, even as the wind almost pushes her from her course—even as the snow begins to climb beyond her calves, beyond her knees. Her heavy robe begins to feel thin, and her breathing begins to shorten. //": {
@@ -3089,6 +3089,12 @@
     "ja": "HARD + World Modeの進行度が、\n%@コンボ毎に1増える",
     "ko": "HARD + 매 %@ 콤보마다\n월드 진행도 1 증가"
   },
+  "HARD - Echelon %1@ Nullified Gauge\n+ Judgment effect altered": {
+    "zh-Hans": "困难 - 梯度%1@级镌刻回忆槽 \n+ 判定效果受到篡改",
+    "zh-Hant": "困難 - 梯度%1@級鐫刻回憶槽\n+ 判定效果受到竄改",
+    "ja": "HARD - Inscribedゲージ: 第%1@階位\n+ 判定エフェクト改竄",
+    "ko": "HARD - Inscribed 게이지: 제 %1@계\n+ 판정 효과 변경"
+  },
   "HARD - Endure Fate": {
     "zh-Hans": "困难 - 哑忍命运",
     "zh-Hant": "困難 - 啞忍命運",
@@ -4426,6 +4432,12 @@
     "zh-Hant": "用雙腳丈量這個世界，這固然值得令人欽佩。\n但也別忘了，有時事情可是會事倍功半的哦。",
     "ja": "さあ、キミの足取りが再び真価を問われるよ。\nけれど半分だ、半分だけさ……",
     "ko": "자, 네 발걸음의 진가를 또다시 보여줄 때가 왔어.\n절반 뿐이라도 말이야..."
+  },
+  "Nullified": {
+    "zh-Hans": "Nullified",
+    "zh-Hant": "Nullified",
+    "ja": "Nullified",
+    "ko": "Nullified"
   },
   "O.N.G.E.K.I. - Boost random stats\non dealing Overdamage": {
     "zh-Hans": "O.N.G.E.K.I. - 造成溢伤\n后随机提高一种搭档能力",
@@ -6184,6 +6196,12 @@
     "zh-Hant": "慢",
     "ja": "かなり遅め",
     "ko": "매우 느림"
+  },
+  "Some darkness recedes... %1@%": {
+    "zh-Hans": "驱散了些许暗影……%1@%",
+    "zh-Hant": "驅散了些許暗影⋯%1@%",
+    "ja": "辺りから翳りが薄れてゆく… %1@%",
+    "ko": "그림자가 조금 물러납니다... %1@%"
   },
   "Some maps have requirements to start them.\nOther maps are timed events, so check back often to find them.": {
     "zh-Hans": "解锁某些地图需要达成特殊条件\n有的地图为限时活动地图，记得经常来查看一下",

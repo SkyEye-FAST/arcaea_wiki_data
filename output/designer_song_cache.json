@@ -1,6 +1,6 @@
 {
-    "ver": "v7.0.2",
-    "date": 1788260492,
+    "ver": "v7.0.255",
+    "date": 1788314763,
     "data": {
         "sayonarahatsukoi": {
             "title": "Sayonara Hatsukoi",
@@ -6613,6 +6613,18 @@
                 "rating": 9,
                 "ratingPlus": true
             }
+        },
+        "sacrosanct": {
+            "title": "⊥⊬",
+            "bydTitle": null,
+            "pack": "konzetsu",
+            "packName": "Divine Oblivion",
+            "sort": {
+                "section": "mainstory2",
+                "numero": 6,
+                "rating": 10,
+                "ratingPlus": true
+            }
         }
     },
     "list": {
@@ -8537,6 +8549,9 @@
                 "PST": true
             },
             "telepathy": {
+                "PST": true
+            },
+            "sacrosanct": {
                 "PST": true
             }
         },
@@ -17693,6 +17708,21 @@
             {
                 "diff": "PST",
                 "designer": "Fate's End",
+                "rowspan": 3
+            },
+            {
+                "diff": "PRS",
+                "designer": false
+            },
+            {
+                "diff": "FTR",
+                "designer": false
+            }
+        ],
+        "sacrosanct": [
+            {
+                "diff": "PST",
+                "designer": "▯",
                 "rowspan": 3
             },
             {

@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"PO-Revision-Date: 2026-08-24 05:59+0100\n"
+"PO-Revision-Date: 2026-08-28 09:22+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: zh_CN\n"
@@ -2180,6 +2180,13 @@ msgid ""
 "for each %@ combo reached"
 msgstr "困难 + 每达%@连击数世界模式进度+1"
 
+msgid ""
+"HARD - Echelon %1@ Nullified Gauge\n"
+"+ Judgment effect altered"
+msgstr ""
+"困难 - 梯度%1@级镌刻回忆槽 \n"
+"+ 判定效果受到篡改"
+
 msgid "HARD - Endure Fate"
 msgstr "困难 - 哑忍命运"
 
@@ -3018,6 +3025,9 @@ msgid ""
 msgstr ""
 "用双脚丈量这个世界，这固然值得令人钦佩。\n"
 "但也别忘了，有时事情可是会事倍功半的哦。"
+
+msgid "Nullified"
+msgstr "Nullified"
 
 msgid ""
 "O.N.G.E.K.I. - Boost random stats\n"
@@ -4167,6 +4177,9 @@ msgstr "稍慢"
 
 msgid "Slower"
 msgstr "慢"
+
+msgid "Some darkness recedes... %1@%"
+msgstr "驱散了些许暗影……%1@%"
 
 msgid ""
 "Some maps have requirements to start them.\n"

@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"PO-Revision-Date: 2026-08-24 05:43+0100\n"
+"PO-Revision-Date: 2026-08-28 09:22+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: ko\n"
@@ -2232,6 +2232,13 @@ msgstr ""
 "HARD + 매 %@ 콤보마다\n"
 "월드 진행도 1 증가"
 
+msgid ""
+"HARD - Echelon %1@ Nullified Gauge\n"
+"+ Judgment effect altered"
+msgstr ""
+"HARD - Inscribed 게이지: 제 %1@계\n"
+"+ 판정 효과 변경"
+
 msgid "HARD - Endure Fate"
 msgstr "HARD - 운명 감내하기"
 
@@ -3088,6 +3095,9 @@ msgid ""
 msgstr ""
 "자, 네 발걸음의 진가를 또다시 보여줄 때가 왔어.\n"
 "절반 뿐이라도 말이야..."
+
+msgid "Nullified"
+msgstr "Nullified"
 
 msgid ""
 "O.N.G.E.K.I. - Boost random stats\n"
@@ -4246,6 +4256,9 @@ msgstr "느림"
 
 msgid "Slower"
 msgstr "매우 느림"
+
+msgid "Some darkness recedes... %1@%"
+msgstr "그림자가 조금 물러납니다... %1@%"
 
 msgid ""
 "Some maps have requirements to start them.\n"

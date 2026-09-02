@@ -305,6 +305,13 @@ return {
         ["requiredMinor"] = "C-8",
         ["requiredPurchase"] = "konzetsu",
     },
+    ["C-10"] = {
+        ["hidden"] = "1",
+        ["hasCg"] = "1",
+        ["icon"] = "konzetsu_10",
+        ["requiredMinor"] = "C-9",
+        ["requiredPurchase"] = "konzetsu",
+    },
     ["V-0"] = {
         ["hasCg"] = "1",
         ["icon"] = "con",

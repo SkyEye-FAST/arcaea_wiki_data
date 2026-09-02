@@ -8130,6 +8130,39 @@
           "max": 0
         }
       ]
+    },
+    {
+      "songId": "sacrosanct",
+      "ratingClass": 0,
+      "conditions": [
+        {
+          "type": 101,
+          "min": 0,
+          "max": 0
+        }
+      ]
+    },
+    {
+      "songId": "sacrosanct",
+      "ratingClass": 1,
+      "conditions": [
+        {
+          "type": 101,
+          "min": 0,
+          "max": 0
+        }
+      ]
+    },
+    {
+      "songId": "sacrosanct",
+      "ratingClass": 2,
+      "conditions": [
+        {
+          "type": 101,
+          "min": 0,
+          "max": 0
+        }
+      ]
     }
   ]
 }
