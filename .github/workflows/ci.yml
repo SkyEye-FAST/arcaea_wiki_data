@@ -1,0 +1,19 @@
+name: Validate pipeline
+
+on: [push, pull_request]
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.14"
+      - uses: astral-sh/setup-uv@cec208311dfd045dd5311c1add060b2062131d57
+      - run: uv sync --frozen
+      - run: uv run ruff check .
+      - run: uv run python -m unittest discover -s tests

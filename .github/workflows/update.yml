@@ -3,65 +3,79 @@ name: Update Arcaea Game Data
 on:
   workflow_dispatch:
 
+concurrency:
+  group: arcaea-production
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
 jobs:
   update:
     runs-on: ubuntu-latest
-    permissions:
-      contents: write
+    timeout-minutes: 90
     steps:
-      - name: Checkout
+      - name: Checkout producer
         uses: actions/checkout@v4
-
-      - name: Set up Python
-        uses: actions/setup-python@v5
+        with:
+          ref: main
+      - uses: actions/setup-python@v5
         with:
           python-version: "3.14"
+      - uses: astral-sh/setup-uv@cec208311dfd045dd5311c1add060b2062131d57
+      - run: uv sync --frozen
+      - run: uv run python -m unittest discover -s tests
 
-      - name: Set up uv
-        uses: astral-sh/setup-uv@cec208311dfd045dd5311c1add060b2062131d57
-
-      - name: Sync dependencies
-        run: uv sync --frozen
-
-      - name: Generate Lua outputs
-        id: generate
+      - name: Acquire shared APK
+        id: acquire
         env:
           PYWIKIBOT_PASSWORD_FILE_CONTENT: ${{ secrets.PYWIKIBOT_PASSWORD_FILE_CONTENT }}
-        run: |
-          uv run listen_update.py
-          if [ -f .update-skipped ]; then
-            echo "updated=false" >> "$GITHUB_OUTPUT"
-          else
-            echo "updated=true" >> "$GITHUB_OUTPUT"
-          fi
+        run: uv run listen_update.py
 
-      - name: Check wiki auth secret
-        if: steps.generate.outputs.updated == 'true'
-        id: auth
-        env:
-          PYWIKIBOT_PASSWORD: ${{ secrets.PYWIKIBOT_PASSWORD_FILE_CONTENT }}
-        run: |
-          if [ -n "$PYWIKIBOT_PASSWORD" ]; then
-            echo "has_password=true" >> "$GITHUB_OUTPUT"
-          fi
-
-      - name: Write user-password.cfg
-        if: steps.generate.outputs.updated == 'true' && steps.auth.outputs.has_password == 'true'
-        env:
-          PYWIKIBOT_PASSWORD: ${{ secrets.PYWIKIBOT_PASSWORD_FILE_CONTENT }}
-        run: |
-          echo "$PYWIKIBOT_PASSWORD" > user-password.cfg
-
-      - name: Sync wiki pages
-        if: steps.generate.outputs.updated == 'true' && steps.auth.outputs.has_password == 'true'
-        run: |
-          VERSION=$(cat output/version)
-          echo "VERSION=$VERSION" >> $GITHUB_ENV
-          uv run sync_wiki.py --summary "Bot: Sync data to v$VERSION"
-
-      - name: Commit changes
-        if: ${{ !cancelled() && steps.generate.outputs.updated == 'true' }}
-        uses: EndBug/add-and-commit@v10
+      - name: Checkout story history
+        id: history
+        uses: actions/checkout@v4
         with:
-          default_author: github_actions
-          message: "chore: update data"
+          repository: SkyEye-FAST/arcaea_story
+          ref: main
+          path: arcaea_story
+          ssh-key: ${{ secrets.STORY_DEPLOY_KEY }}
+
+      - name: Export and publish story snapshot
+        if: ${{ !cancelled() && steps.acquire.outcome == 'success' && steps.history.outcome == 'success' }}
+        env:
+          APK: ${{ steps.acquire.outputs.apk }}
+          VERSION: ${{ steps.acquire.outputs.version }}
+        run: |
+          uv run story_history.py --apk "$APK" --repository arcaea_story
+          git -C arcaea_story add --all -- story story2
+          if ! git -C arcaea_story diff --cached --quiet; then
+            git -C arcaea_story -c user.name='github-actions[bot]' -c user.email='41898282+github-actions[bot]@users.noreply.github.com' -c commit.gpgsign=false commit -m "$VERSION"
+            git -C arcaea_story push origin HEAD:main
+          fi
+
+      - name: Generate Wiki outputs
+        id: generate
+        if: ${{ !cancelled() && steps.acquire.outcome == 'success' }}
+        env:
+          APK: ${{ steps.acquire.outputs.apk }}
+          VERSION: ${{ steps.acquire.outputs.version }}
+        run: uv run update.py --apk "$APK" --version "$VERSION"
+
+      - name: Save generated Wiki data
+        if: ${{ !cancelled() && steps.generate.outcome == 'success' }}
+        run: |
+          git add --all -- output
+          if ! git diff --cached --quiet; then
+            git -c user.name='github-actions[bot]' -c user.email='41898282+github-actions[bot]@users.noreply.github.com' -c commit.gpgsign=false commit -m 'chore: update data'
+            git push origin HEAD:main
+          fi
+
+      - name: Sync Wiki pages
+        if: ${{ !cancelled() && steps.generate.outcome == 'success' }}
+        env:
+          PYWIKIBOT_PASSWORD_FILE_CONTENT: ${{ secrets.PYWIKIBOT_PASSWORD_FILE_CONTENT }}
+          VERSION: ${{ steps.acquire.outputs.version }}
+        run: |
+          test -n "$PYWIKIBOT_PASSWORD_FILE_CONTENT"
+          uv run sync_wiki.py --summary "Bot: Sync data to v$VERSION"

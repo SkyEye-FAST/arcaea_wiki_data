@@ -290,8 +290,20 @@ def main() -> None:
         action="store_true",
         help="Mark edits as minor edits.",
     )
+    parser.add_argument(
+        "--version-file",
+        type=Path,
+        help="Publish only the early version notice from this file.",
+    )
     args = parser.parse_args()
-    mapping = ensure_inputs(args.pages)
+    if args.version_file:
+        if args.pages:
+            parser.error("--version-file cannot be combined with --page")
+        if not args.version_file.is_file():
+            parser.error("--version-file must exist")
+        mapping = {"Template:Version": args.version_file.resolve()}
+    else:
+        mapping = ensure_inputs(args.pages)
 
     site = pywikibot.Site("arcaea", "arcaea")
     ensure_api_available(site)

@@ -1,136 +1,110 @@
-"""Run the listened update flow and sync wiki version as soon as it changes."""
+"""Acquire one APK for the Wiki and story history publishers."""
 
+import json
 import os
+import subprocess
+import sys
 import time
-from datetime import datetime, timedelta
+import zipfile
+from datetime import datetime
 from pathlib import Path
 from zoneinfo import ZoneInfo
 
-PROJECT_ROOT = Path(__file__).resolve().parent
-os.environ.setdefault("PYWIKIBOT_DIR", str(PROJECT_ROOT))
+import requests
 
-import pywikibot  # noqa: E402
-import requests  # noqa: E402
+import update
 
-import update  # noqa: E402
-from sync_wiki import (  # noqa: E402
-    ensure_api_available,
-    ensure_authenticated,
-    ensure_inputs,
-    materialize_password_file_from_env,
-    sync_pages,
-)
-
-UPDATE_SKIPPED_MARKER = update.PROJECT_ROOT / ".update-skipped"
-UPDATE_LISTEN_TIMEZONE = ZoneInfo("Asia/Shanghai")
-UPDATE_LISTEN_START = (7, 50)
-UPDATE_LISTEN_END = (8, 30)
-UPDATE_LISTEN_POLL_SECONDS = 10
+DOWNLOAD_DIR = update.PROJECT_ROOT / ".pipeline"
+TIMEZONE = ZoneInfo("Asia/Shanghai")
+LISTEN_START = (7, 50)
+LISTEN_END = (8, 30)
+POLL_SECONDS = 10
 
 
-def main() -> None:
-    """Listen for a new APK version, pre-sync wiki version, then run update.py."""
-    UPDATE_SKIPPED_MARKER.unlink(missing_ok=True)
+def fetch_metadata(session: requests.Session) -> tuple[str, str]:
+    """Read the version and URL from the same metadata response."""
+    with update.request_with_retry(session, update.APK_INFO_API, timeout=30) as response:
+        info = response.json()
+    if not info.get("success"):
+        raise RuntimeError("Failed to fetch APK metadata")
+    version = str(info["value"]["version"]).strip().removesuffix("c")
+    url = str(info["value"]["url"])
+    if not version or any(character not in "0123456789." for character in version):
+        raise ValueError("Invalid APK version")
+    if not url.startswith("https://"):
+        raise ValueError("APK URL must use HTTPS")
+    return version, url
 
-    current_version = ""
-    if update.OUTPUT_VERSION_FILE.exists():
-        current_version = update.OUTPUT_VERSION_FILE.read_text(encoding="utf-8").strip()
 
-    now = datetime.now(UPDATE_LISTEN_TIMEZONE)
-    start_at = now.replace(
-        hour=UPDATE_LISTEN_START[0],
-        minute=UPDATE_LISTEN_START[1],
-        second=0,
-        microsecond=0,
-    )
-    end_at = now.replace(
-        hour=UPDATE_LISTEN_END[0],
-        minute=UPDATE_LISTEN_END[1],
-        second=0,
-        microsecond=0,
-    )
-    if end_at <= start_at:
-        end_at += timedelta(days=1)
-
-    print(
-        "[0/5] Listening for new APK version from "
-        f"{start_at:%Y-%m-%d %H:%M} to {end_at:%Y-%m-%d %H:%M} "
-        f"({UPDATE_LISTEN_TIMEZONE.key}).",
-        flush=True,
-    )
-    if current_version:
-        print(f"[0/5] Current output version: {current_version}", flush=True)
-
-    if now < start_at or now > end_at:
-        print(
-            "[0/5] Current time is outside the listen window; running update directly.",
-            flush=True,
+def publish_version(version: str) -> None:
+    """Publish the early version notice without changing generated output state."""
+    version_file = DOWNLOAD_DIR / "version"
+    version_file.write_text(version + "\n", encoding="utf-8")
+    try:
+        result = subprocess.run(
+            [
+                sys.executable,
+                "sync_wiki.py",
+                "--version-file",
+                str(version_file),
+                "--summary",
+                f"Bot: sync Arcaea mobile version to {version}",
+            ],
+            cwd=update.PROJECT_ROOT,
+            check=False,
+            timeout=120,
         )
-        update.main()
+    except subprocess.TimeoutExpired:
+        print("Early Wiki version notice timed out; continuing acquisition.", flush=True)
         return
+    if result.returncode:
+        print("Early Wiki version notice failed; the full Wiki sync will retry it.", flush=True)
 
+
+def acquire() -> tuple[Path, str]:
+    """Listen during the release window, then download and validate one APK."""
+    DOWNLOAD_DIR.mkdir(exist_ok=True)
+    current_version = (
+        update.OUTPUT_VERSION_FILE.read_text(encoding="utf-8").strip()
+        if update.OUTPUT_VERSION_FILE.exists()
+        else ""
+    )
     with requests.Session() as session:
         while True:
-            now = datetime.now(UPDATE_LISTEN_TIMEZONE)
-            if now > end_at:
+            version, url = fetch_metadata(session)
+            now = datetime.now(TIMEZONE)
+            in_window = LISTEN_START <= (now.hour, now.minute) < LISTEN_END
+            if version != current_version:
+                if in_window:
+                    publish_version(version)
                 break
-
-            try:
-                info_resp = update.request_with_retry(session, update.APK_INFO_API, timeout=30)
-                with info_resp:
-                    info = info_resp.json()
-
-                if not info.get("success"):
-                    raise RuntimeError("Failed to fetch APK metadata")
-
-                latest_version = str(info.get("value", {}).get("version", "")).strip()
-                latest_version = latest_version.removesuffix("c")
-                if latest_version:
-                    print(f"[0/5] Latest upstream version: {latest_version}", flush=True)
-                    if latest_version != current_version:
-                        print("[0/5] New version detected.", flush=True)
-                        update.OUTPUT_VERSION_FILE.write_text(
-                            latest_version + "\n",
-                            encoding="utf-8",
-                        )
-                        print("[0/5] Syncing wiki version before export.", flush=True)
-
-                        site = pywikibot.Site("arcaea", "arcaea")
-                        ensure_api_available(site)
-                        materialize_password_file_from_env()
-                        site.login()
-                        ensure_authenticated(site, "Masertwer")
-                        changed = sync_pages(
-                            site,
-                            ensure_inputs(["Template:Version"]),
-                            summary=f"Bot: sync Arcaea mobile version to {latest_version}",
-                            dry_run=False,
-                            minor=False,
-                        )
-
-                        print(
-                            f"[0/5] Wiki version sync finished. Updated pages: {changed}",
-                            flush=True,
-                        )
-                        print("[0/5] Continuing export.", flush=True)
-                        update.main(force_refresh=True)
-                        return
-                else:
-                    print("[0/5] Upstream metadata did not include a version.", flush=True)
-            except Exception as exc:
-                print(f"[0/5] Version check failed: {exc}", flush=True)
-
-            remaining_seconds = (end_at - datetime.now(UPDATE_LISTEN_TIMEZONE)).total_seconds()
-            if remaining_seconds <= 0:
+            if not in_window:
                 break
-            time.sleep(min(UPDATE_LISTEN_POLL_SECONDS, remaining_seconds))
+            print(f"Waiting for a release after {current_version}...", flush=True)
+            time.sleep(POLL_SECONDS)
 
-    print("[0/5] No new version detected before 08:30; stopping.", flush=True)
-    UPDATE_SKIPPED_MARKER.write_text(
-        "no new version before listen deadline\n",
-        encoding="utf-8",
+        # Inspect unchanged versions too: publishers may need retries, and upstream
+        # can revise story content without changing its version number.
+        apk_path = DOWNLOAD_DIR / "game.apk"
+        partial_path = DOWNLOAD_DIR / "game.apk.part"
+        with update.request_with_retry(session, url, timeout=120, stream=True) as response:
+            with partial_path.open("wb") as destination:
+                for chunk in response.iter_content(chunk_size=1024 * 1024):
+                    destination.write(chunk)
+        with zipfile.ZipFile(partial_path) as archive:
+            corrupt = archive.testzip()
+            if corrupt:
+                raise ValueError(f"Corrupt APK entry: {corrupt}")
+        partial_path.replace(apk_path)
+    (DOWNLOAD_DIR / "source.json").write_text(
+        json.dumps({"version": version, "url": url}, indent=2) + "\n", encoding="utf-8"
     )
+    return apk_path, version
 
 
 if __name__ == "__main__":
-    main()
+    apk, version = acquire()
+    if output := os.environ.get("GITHUB_OUTPUT"):
+        with Path(output).open("a", encoding="utf-8") as stream:
+            stream.write(f"apk={apk}\nversion={version}\n")
+    print(f"Acquired APK version {version}: {apk}", flush=True)

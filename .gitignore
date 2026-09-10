@@ -4,7 +4,7 @@ __pycache__/
 logs/
 apicache/
 .arcaea-story-data/
-.update-skipped
+.pipeline/
 arcaea_story/
 
 *.mo
