@@ -2798,7 +2798,7 @@
     "skill_unlock_level": 0,
     "skill_id": "skill_insight_konzetsu",
     "uncap_cores": [],
-    "version_from": "8.0.0",
+    "version_from": "7.0.255",
     "search_strings": [
         "Lacrymira",
         "Insight",

@@ -3090,10 +3090,10 @@
     "ko": "HARD + 매 %@ 콤보마다\n월드 진행도 1 증가"
   },
   "HARD - Echelon %1@ Nullified Gauge\n+ Judgment effect altered": {
-    "zh-Hans": "困难 - 梯度%1@级镌刻回忆槽 \n+ 判定效果受到篡改",
-    "zh-Hant": "困難 - 梯度%1@級鐫刻回憶槽\n+ 判定效果受到竄改",
+    "zh-Hans": "困难 - 梯度%1@级镌刻回忆槽 + 判定效果受到篡改",
+    "zh-Hant": "困難 - 梯度%1@級鐫刻回憶槽 + 判定效果受到竄改",
     "ja": "HARD - Inscribedゲージ: 第%1@階位\n+ 判定エフェクト改竄",
-    "ko": "HARD - Inscribed 게이지: 제 %1@계\n+ 판정 효과 변경"
+    "ko": "HARD - Inscribed 게이지: 제 %1@계+ 판정 효과 변경"
   },
   "HARD - Endure Fate": {
     "zh-Hans": "困难 - 哑忍命运",
@@ -3401,6 +3401,12 @@
     "ja": "イラスト",
     "ko": "일러스트레이션"
   },
+  "In Falsus - Out Now on Steam!": {
+    "zh-Hans": "《In Falsus》现已在 Steam 正式推出！",
+    "zh-Hant": "《In Falsus》現已在 Steam 正式推出！",
+    "ja": "『In Falsus』Steamにてリリース！",
+    "ko": "In Falsus - Steam에서 지금 플레이 가능!"
+  },
   "In Lead selection, the Lead selects a song to play.": {
     "zh-Hans": "房主选择模式下，游玩的曲目将由房主一人决定。",
     "zh-Hant": "房主選擇模式下，遊玩的曲目將由房主一人決定。",
@@ -3430,6 +3436,12 @@
     "zh-Hant": "在那佈滿玻璃碎片的世界中，伴隨著孤獨、恐懼\n與堅定的內心，在經歷了種種悲劇後最終互相邂逅。\n現在，她們的記憶也已成形。\n\n主線回憶錄將包含「Black Fate」\n以及之前所有的主線劇情曲包。\n加入光與對立的這場艱鉅的旅途，直至遠方吧。",
     "ja": "硝子の地平、別々に目覚めた少女たち。\n怯える少女、臆さぬ少女。\n悲劇を越え、ついに二人は邂逅する。\n旅路はいま、ここに収束する。\n\n『Black Fate』までのパック5種を含むセットです。\n光と対立の数奇な旅路を巡り、そしてその先へ──。",
     "ko": "두려운 자, 그리고 두렵지 않은 자. \n모두가 고독한 유리의 세계. \n비극을 마주하고, 드디어 서로를 만난 소녀들.\n마침내 형태를 갖추는 기억...\n\n메인 스토리 연대기는 Black Fate까지의\n모든 메인 스토리를 포함하고 있습니다.\n히카리와 타이리츠의 고된 여정과\n그 너머의 이야기에 함께하세요."
+  },
+  "In a world bound by truths: connect.\n\nIn Falsus, the second music game from lowiro, officially launches\nSeptember 9th, 2026, on PC.\n\nA narrative-centric PC rhythm game built around\noriginal keyboard and mouse controls, a full-length ADV\nScenario voiced in Japanese, and Card Crafting gameplay.\n\nIn Falsus releases with over 70 songs, more than 40 entirely original—\ncomposed by artists across many genres, including many not\nseen before in Arcaea.": {
+    "zh-Hans": "在被真实裹挟的世界里，「连接」。\n\nlowiro 的第二款节奏音乐游戏《In Falsus》，\n已于 2026 年 9 月 9 日在 PC 平台正式推出。\n\n《In Falsus》是一款全新的剧情导向节奏音乐游戏，\n包含操作键鼠游玩的独特节奏游戏系统、\n以日文全语音呈现的长篇视觉小说剧情，以及精致的卡牌制成元素。\n\n游戏收录超过 70 首歌曲，\n其中超过 40 首为专为《In Falsus》制作的原创乐曲。\n参与的作者与歌曲的类型包罗万象，\n可以享受不同于《Arcaea》，别有一番风味的音乐内容。",
+    "zh-Hant": "在被真實裹挾的世界裡，「連結」。\n\nlowiro 的第二款節奏音樂遊戲《In Falsus》，\n已於 2026 年 9 月 9 日在 PC 平台正式推出。\n\n《In Falsus》是一款全新的劇情導向節奏音樂遊戲，\n包含操作鍵盤滑鼠遊玩的獨特節奏遊戲系統、\n以日文全語音呈現的長篇視覺小說劇情，以及精緻的卡牌製作元素。\n\n遊戲收錄超過 70 首歌曲，\n其中超過 40 首為專為《In Falsus》製作的原創樂曲。\n參與的作者與歌曲的類型包羅萬象，\n可以享受不同於《Arcaea》，別有一番風味的音樂內容。",
+    "ja": "繋がれ───真実に絆された世界で。\n\nlowiroが贈るリズムゲーム第2弾、『In Falsus』のPC版が\n2026年9月9日、正式にリリース。\n\n『In Falsus』は、キーボードとマウスを用いた独自の\n操作システムのリズムゲームと、日本語フルボイスで\n贈る長編ADVシナリオ、そしてカードクラフト要素の三つを\n軸に据えた、新しい物語重視のPCリズムゲームです。\n\n『In Falsus』には70曲以上の楽曲が収録され、そのうちの40曲以上が\n『In Falsus』のために書き下ろされた完全オリジナル楽曲です。\n『Arcaea』とはまた一味異なった、新たな多様性に満ちた楽曲群をお楽しみください。",
+    "ko": "이어져라. 진실에 얽메인 세계에서.\n\nlowiro의 신작 리듬 게임, In Falsus가 2026년 9월 9일, PC로 릴리즈!\n\nIn Falsus는 독창적인 키보드 & 마우스 조작, 일본어 풀 보이스 비주얼\n노벨, 그리고 카드 크래프팅이라는 요소 세 가지를 하나로 묶은\nPC 리듬게임입니다.\n\n릴리즈와 함께 70곡이 제공되며, 그 중 40곡은 Arcaea에서 보지 못했던\n아티스트와 장르를 다수 포함한 완전한 오리지널 악곡입니다."
   },
   "In order to use the Arcaea online services\nyou must read and agree to the following:": {
     "zh-Hans": "如要享受韵律源点的网络相关服务，\n您必须阅读并同意如下条款：",
@@ -4979,6 +4991,12 @@
     "ja": "%@ %2@ をプレイする",
     "ko": "%@ %2@ 플레이"
   },
+  "Play Now": {
+    "zh-Hans": "即刻游玩",
+    "zh-Hant": "立即遊玩",
+    "ja": "今すぐプレイ",
+    "ko": "지금 플레이"
+  },
   "Play Result": {
     "zh-Hans": "游玩结果",
     "zh-Hant": "遊玩結果",
@@ -4996,6 +5014,12 @@
     "zh-Hant": "此房間正在遊玩歌曲\n目前無法加入",
     "ja": "楽曲プレイ中です。\n今すぐこのルームに参加することはできません。",
     "ko": "게임 진행 중.\n선택하신 룸은 현재 참가 불가능합니다."
+  },
+  "Play it now on Steam!": {
+    "zh-Hans": "现在就前往 Steam 体验吧！",
+    "zh-Hant": "現在就前往 Steam 體驗吧！",
+    "ja": "今すぐSteamで『In Falsus』をプレイ！",
+    "ko": "지금 Steam에서 In Falsus를 플레이해보세요!"
   },
   "Player ID": {
     "zh-Hans": "玩家ID",
