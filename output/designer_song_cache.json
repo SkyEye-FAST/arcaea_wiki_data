@@ -1,6 +1,6 @@
 {
     "ver": "v7.0.256",
-    "date": 1789023782,
+    "date": 1789086659,
     "data": {
         "sayonarahatsukoi": {
             "title": "Sayonara Hatsukoi",
@@ -7978,6 +7978,9 @@
             "astralquant": {
                 "PST": true
             },
+            "extradimensional": {
+                "PST": true
+            },
             "undyingmacula": {
                 "ETR": true
             },
@@ -7988,6 +7991,9 @@
                 "BYD": true
             },
             "ember": {
+                "PST": true
+            },
+            "sacrosanct": {
                 "PST": true
             }
         },
@@ -8533,9 +8539,6 @@
             "shinchoku": {
                 "ETR": true
             },
-            "extradimensional": {
-                "PST": true
-            },
             "rostpagegene": {
                 "PST": true
             },
@@ -8549,9 +8552,6 @@
                 "PST": true
             },
             "telepathy": {
-                "PST": true
-            },
-            "sacrosanct": {
                 "PST": true
             }
         },

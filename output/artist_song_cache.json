@@ -1,6 +1,6 @@
 {
     "ver": "v7.0.256",
-    "date": 1789023782,
+    "date": 1789086659,
     "data": {
         "sayonarahatsukoi": {
             "title": "Sayonara Hatsukoi",
@@ -4186,7 +4186,8 @@
                 "nulctrl",
                 "protoflicker",
                 "aegleseeker",
-                "incarnator"
+                "incarnator",
+                "sacrosanct"
             ]
         },
         "T2Kazuya": {
@@ -4938,7 +4939,8 @@
         },
         "かたぎり": {
             "normal": [
-                "hivemind"
+                "hivemind",
+                "sacrosanct"
             ]
         },
         "テヅカ": {
@@ -5839,11 +5841,6 @@
         "Aid": {
             "normal": [
                 "cataclysmcry"
-            ]
-        },
-        "Silentroom Dismantled XOR かたぎり": {
-            "normal": [
-                "sacrosanct"
             ]
         }
     },
