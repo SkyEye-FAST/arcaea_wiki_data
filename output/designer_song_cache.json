@@ -1,6 +1,6 @@
 {
-    "ver": "v7.0.256",
-    "date": 1789086659,
+    "ver": "v7.0.260",
+    "date": 1789780539,
     "data": {
         "sayonarahatsukoi": {
             "title": "Sayonara Hatsukoi",
@@ -6625,6 +6625,18 @@
                 "rating": 10,
                 "ratingPlus": true
             }
+        },
+        "chateaudecartes": {
+            "title": "Château de cartes",
+            "bydTitle": null,
+            "pack": "single",
+            "packName": "Memory Archive",
+            "sort": {
+                "section": "single",
+                "numero": 0,
+                "rating": 9,
+                "ratingPlus": false
+            }
         }
     },
     "list": {
@@ -8552,6 +8564,9 @@
                 "PST": true
             },
             "telepathy": {
+                "PST": true
+            },
+            "chateaudecartes": {
                 "PST": true
             }
         },
@@ -17731,6 +17746,25 @@
             },
             {
                 "diff": "FTR",
+                "designer": false
+            }
+        ],
+        "chateaudecartes": [
+            {
+                "diff": "PST",
+                "designer": "Intérateur",
+                "rowspan": 4
+            },
+            {
+                "diff": "PRS",
+                "designer": false
+            },
+            {
+                "diff": "FTR",
+                "designer": false
+            },
+            {
+                "diff": "ETR",
                 "designer": false
             }
         ]

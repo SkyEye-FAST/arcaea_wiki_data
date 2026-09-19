@@ -35498,6 +35498,80 @@
                     "hidden_until": "song"
                 }
             ]
+        },
+        {
+            "idx": 554,
+            "id": "chateaudecartes",
+            "title_localized": {
+                "en": "Château de cartes",
+                "ko_dialog": "Chateau de cartes"
+            },
+            "artist": "Inverted Silence ft. Pernelle",
+            "search_title": {
+                "en": [
+                    "Chateau"
+                ],
+                "ja": [
+                    "しゃとーどかると"
+                ],
+                "ko": [
+                    "샤또 드 카흐뜨",
+                    "샤또 드 카뜨"
+                ]
+            },
+            "search_artist": {
+                "ja": [
+                    "いんばーてっどさいれんす",
+                    "いんゔぁーてっどさいれんす",
+                    "ぺるねる"
+                ],
+                "ko": [
+                    "인버티드 사일런스",
+                    "페넬레",
+                    "페르넬레"
+                ]
+            },
+            "bpm": "126",
+            "bpm_base": 252,
+            "set": "single",
+            "category": "original",
+            "purchase": "chateaudecartes",
+            "audioPreview": 0,
+            "audioPreviewEnd": 0,
+            "side": 0,
+            "bg": "alice_light",
+            "bg_inverse": "alice_conflict",
+            "remote_dl": true,
+            "world_unlock": false,
+            "date": 1789808400,
+            "version": "7.0",
+            "difficulties": [
+                {
+                    "ratingClass": 0,
+                    "chartDesigner": "Intérateur",
+                    "jacketDesigner": "辷",
+                    "rating": 4
+                },
+                {
+                    "ratingClass": 1,
+                    "chartDesigner": "Intérateur",
+                    "jacketDesigner": "辷",
+                    "rating": 7,
+                    "ratingPlus": true
+                },
+                {
+                    "ratingClass": 2,
+                    "chartDesigner": "Intérateur",
+                    "jacketDesigner": "辷",
+                    "rating": 9
+                },
+                {
+                    "ratingClass": 4,
+                    "chartDesigner": "Intérateur",
+                    "jacketDesigner": "辷",
+                    "rating": 10
+                }
+            ]
         }
     ]
 }

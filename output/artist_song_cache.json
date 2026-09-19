@@ -1,6 +1,6 @@
 {
-    "ver": "v7.0.256",
-    "date": 1789086659,
+    "ver": "v7.0.260",
+    "date": 1789780539,
     "data": {
         "sayonarahatsukoi": {
             "title": "Sayonara Hatsukoi",
@@ -3913,6 +3913,13 @@
             "date": 1787788808,
             "version": "7.0",
             "set": "konzetsu"
+        },
+        "chateaudecartes": {
+            "title": "Château de cartes",
+            "bpm": "126",
+            "date": 1789808400,
+            "version": "7.0",
+            "set": "single"
         }
     },
     "list": {
@@ -5841,6 +5848,11 @@
         "Aid": {
             "normal": [
                 "cataclysmcry"
+            ]
+        },
+        "Inverted Silence ft. Pernelle": {
+            "normal": [
+                "chateaudecartes"
             ]
         }
     },
