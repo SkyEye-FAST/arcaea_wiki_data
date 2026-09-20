@@ -1,6 +1,6 @@
 {
     "ver": "v7.0.260",
-    "date": 1789780539,
+    "date": 1789864250,
     "data": {
         "sayonarahatsukoi": {
             "title": "Sayonara Hatsukoi",
@@ -8565,9 +8565,6 @@
             },
             "telepathy": {
                 "PST": true
-            },
-            "chateaudecartes": {
-                "PST": true
             }
         },
         "N•Ex•T": {
@@ -8788,6 +8785,9 @@
                 "PST": true
             },
             "riotsystem": {
+                "PST": true
+            },
+            "chateaudecartes": {
                 "PST": true
             }
         },
