@@ -41,8 +41,6 @@ PAGE_FILE_MAP = {
     "Template:Unlocks.json": OUTPUT_DIR / "unlocks",
     "Template:Characters.json": OUTPUT_DIR / "characters.json",
     "Module:Arcaea/Index.json": OUTPUT_DIR / "arcaea_index.json",
-    "Module:ArtistSong/Cache.json": OUTPUT_DIR / "artist_song_cache.json",
-    "Module:DesignerSong/Cache.json": OUTPUT_DIR / "designer_song_cache.json",
 }
 
 TEMPLATE_VERSION_MOBILE_RE = re.compile(

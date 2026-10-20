@@ -27,9 +27,6 @@ OUTPUT_UNLOCKS_FILE = OUTPUT_DIR / "unlocks"
 OUTPUT_CHARACTERS_FILE = OUTPUT_DIR / "characters.json"
 OUTPUT_VERSION_FILE = OUTPUT_DIR / "version"
 OUTPUT_ARCAEA_INDEX_FILE = OUTPUT_DIR / "arcaea_index.json"
-OUTPUT_ARTIST_SONG_CACHE_FILE = OUTPUT_DIR / "artist_song_cache.json"
-OUTPUT_DESIGNER_SONG_CACHE_FILE = OUTPUT_DIR / "designer_song_cache.json"
-OUTPUT_TRANSITION_FILE = OUTPUT_DIR / "transition.json"
 OUTPUT_TL_DIR = OUTPUT_DIR / "tl"
 OUTPUT_TL_JSON_FILE = OUTPUT_DIR / "tl.json"
 LANGUAGES = ["zh-Hans", "zh-Hant", "en", "ja", "ko"]
@@ -52,18 +49,10 @@ FALLBACK_UA = (
 )
 
 TL_LANGUAGES = ["zh-Hans", "zh-Hant", "ja", "ko"]
-ARTIST_CACHE_ZH = {"旅人E": True}
-DIFFICULTY_SHORT_NAMES = {
-    0: "PST",
-    1: "PRS",
-    2: "FTR",
-    3: "BYD",
-    4: "ETR",
-}
 
 
 def json_dumps_pretty(data: Any) -> str:
-    """Dump JSON in the MediaWiki cache page style."""
+    """Dump JSON in the MediaWiki JSON page style."""
     return json.dumps(data, ensure_ascii=False, indent=4) + "\n"
 
 
@@ -328,48 +317,6 @@ def build_pack_song_mapping(
     return pack_mapping, song_mapping
 
 
-def ordered_difficulties(
-    song_or_difficulties: dict[str, Any] | list[dict[str, Any]],
-) -> list[dict[str, Any]]:
-    """Return charts ordered by ratingClass, matching Module:Arcaea/Song."""
-    difficulties = (
-        song_or_difficulties.get("difficulties", [])
-        if isinstance(song_or_difficulties, dict)
-        else song_or_difficulties
-    )
-    by_rating_class: dict[int, dict[str, Any]] = {}
-    for chart in difficulties or []:
-        rating_class = chart.get("ratingClass", chart.get("rating_class"))
-        if rating_class is not None:
-            by_rating_class[int(rating_class)] = chart
-    return [
-        by_rating_class[rating_class]
-        for rating_class in range(5)
-        if rating_class in by_rating_class
-    ]
-
-
-def difficulty_short_name(chart_or_rating_class: dict[str, Any] | int | str | None) -> str | None:
-    """Return PST/PRS/FTR/BYD/ETR for a chart or rating class."""
-    if isinstance(chart_or_rating_class, dict):
-        rating_class = chart_or_rating_class.get(
-            "ratingClass", chart_or_rating_class.get("rating_class")
-        )
-    else:
-        rating_class = chart_or_rating_class
-    if rating_class is None:
-        return None
-    return DIFFICULTY_SHORT_NAMES.get(int(rating_class))
-
-
-def beyond_chart(song: dict[str, Any]) -> dict[str, Any] | None:
-    """Return a song's BYD chart, if present."""
-    for chart in song.get("difficulties", []):
-        if int(chart.get("ratingClass", chart.get("rating_class", -1))) == 3:
-            return chart
-    return None
-
-
 def load_wiki_json_page(title: str, cache_file: Path) -> dict[str, Any]:
     """Load a JSON wiki page, refreshing a local output cache when reachable."""
     params = {
@@ -409,279 +356,6 @@ def load_wiki_json_page(title: str, cache_file: Path) -> dict[str, Any]:
         return orjson.loads(cache_file.read_bytes())
 
 
-def merge_song_ids(target: dict[str, Any], source: dict[str, Any], list_key: str) -> None:
-    """Append song IDs from source[list_key] into target[list_key]."""
-    if list_key not in source:
-        return
-    target.setdefault(list_key, [])
-    target[list_key].extend(source[list_key])
-
-
-def build_artist_single_list(
-    convert_list: dict[str, dict[str, list[str]]],
-    complex_artists: dict[str, Any],
-) -> dict[str, dict[str, list[str]]]:
-    """Expand complex artist names into per-artist song lists."""
-    single_list: dict[str, dict[str, list[str]]] = {}
-
-    def categorize(complex_artist: str, artist: str | None = None) -> None:
-        target_artist = artist or complex_artist
-        target = single_list.setdefault(target_artist, {})
-        merge_song_ids(target, convert_list[complex_artist], "beyond")
-        merge_song_ids(target, convert_list[complex_artist], "normal")
-
-    for complex_artist in convert_list:
-        artist_seen: set[str] = set()
-        artist_data = complex_artists.get(complex_artist)
-        if artist_data:
-            full_data = artist_data.get("__FullData__") if isinstance(artist_data, dict) else None
-            if full_data:
-                for text in full_data:
-                    artist = text.get("link")
-                    if artist and artist not in artist_seen:
-                        categorize(complex_artist, artist)
-                        artist_seen.add(artist)
-            else:
-                for artist in artist_data:
-                    if artist not in artist_seen:
-                        categorize(complex_artist, artist)
-                        artist_seen.add(artist)
-        else:
-            categorize(complex_artist)
-
-    return single_list
-
-
-def build_artist_song_cache(
-    songlist_raw: dict[str, Any],
-    version_name: str,
-    complex_artists: dict[str, Any],
-) -> dict[str, Any]:
-    """Build Module:ArtistSong/Cache.json content from songlist."""
-    data: dict[str, Any] = {}
-    convert_list: dict[str, dict[str, list[str]]] = {}
-
-    def add_artist_song(artist: str, song_id: str, list_key: str) -> None:
-        convert_list.setdefault(artist, {}).setdefault(list_key, []).append(song_id)
-
-    for song in songlist_raw.get("songs", []):
-        if song.get("deleted"):
-            continue
-        song_id = song["id"]
-        title = song.get("title_localized", {}).get("en")
-        data[song_id] = {
-            "title": title,
-            "bpm": song.get("bpm"),
-            "date": song.get("date"),
-            "version": song.get("version"),
-            "set": song.get("set"),
-        }
-        add_artist_song(song.get("artist", ""), song_id, "normal")
-
-        byd_chart = beyond_chart(song)
-        if byd_chart and (byd_chart.get("artist") or byd_chart.get("title_localized")):
-            data[song_id]["byd"] = {
-                "title": (byd_chart.get("title_localized") or {}).get("en"),
-                "bpm": byd_chart.get("bpm"),
-                "date": byd_chart.get("date"),
-                "version": byd_chart.get("version"),
-            }
-            add_artist_song(byd_chart.get("artist") or song.get("artist", ""), song_id, "beyond")
-
-    return {
-        "ver": f"v{version_name}",
-        "date": int(time.time()),
-        "data": data,
-        "list": build_artist_single_list(convert_list, complex_artists),
-        "zh": ARTIST_CACHE_ZH,
-    }
-
-
-def build_designer_single_list(
-    pick_list: dict[str, dict[str, dict[str, bool]]],
-    designer_list_data: dict[str, Any],
-    special_designers: set[str],
-) -> dict[str, dict[str, dict[str, bool]]]:
-    """Expand complex chart designer names into per-designer song lists."""
-    complex_designers = designer_list_data.get("complex", {})
-    simple_designers = designer_list_data.get("simple", [])
-    single_list: dict[str, dict[str, dict[str, bool]]] = {}
-
-    def categorize(complex_designer: str, designer: str | None = None) -> None:
-        target_designer = designer or complex_designer
-        target = single_list.setdefault(target_designer, {})
-        for song_id, diff in pick_list[complex_designer].items():
-            target[song_id] = diff
-
-    for complex_designer in pick_list:
-        designer_seen: set[str] = set()
-        designer_data = complex_designers.get(complex_designer)
-        if designer_data:
-            full_data = (
-                designer_data.get("__FullData__") if isinstance(designer_data, dict) else None
-            )
-            if full_data:
-                for text in full_data:
-                    designer = text.get("link")
-                    if designer and designer not in designer_seen:
-                        categorize(complex_designer, designer)
-                        designer_seen.add(designer)
-            else:
-                for designer in designer_data:
-                    if designer not in designer_seen:
-                        categorize(complex_designer, designer)
-                        designer_seen.add(designer)
-        else:
-            temp_text = complex_designer
-            matched_count = 0
-            for item in simple_designers:
-                designer = item.get("link")
-                display = item.get("display", "")
-                if display and display in temp_text:
-                    categorize(complex_designer, designer)
-                    designer_seen.add(designer)
-                    temp_text = temp_text.replace(display, "")
-                    matched_count += 1
-            if matched_count == 0:
-                fallback = (
-                    "剧情相关名义" if complex_designer in special_designers else "其他未确认名义"
-                )
-                categorize(complex_designer, fallback)
-
-    return single_list
-
-
-def build_designer_song_cache(
-    songlist_raw: dict[str, Any],
-    packlist_raw: dict[str, Any],
-    version_name: str,
-    designer_list_data: dict[str, Any],
-    transition_data: dict[str, Any],
-) -> dict[str, Any]:
-    """Build Module:DesignerSong/Cache.json content from game and wiki data."""
-    songs = songlist_raw.get("songs", [])
-    special_song = designer_list_data.get("special", {})
-    transition_pack_names = transition_data.get("packName", {})
-    byd_append = {284: "last"}
-
-    pick_list: dict[str, dict[str, dict[str, bool]]] = {}
-    song_diff_designers: dict[str, list[dict[str, Any]]] = {}
-    special_designers: set[str] = set()
-    byd_append_info: dict[str, dict[str, Any]] = {}
-
-    def write_song(song_id: str, song_diff_list: list[dict[str, Any]]) -> None:
-        if song_id in song_diff_designers:
-            return
-
-        song_diff_designers[song_id] = []
-        same_count = 0
-        last_designer: str | None = None
-
-        for level in ordered_difficulties(song_diff_list):
-            rating_class = int(level.get("ratingClass", level.get("rating_class", 0)))
-            designer = level.get("chart_designer") or level.get("chartDesigner") or ""
-            diff = difficulty_short_name(rating_class)
-            if diff is None:
-                continue
-            if last_designer != designer:
-                same_count = 0
-                pick_list.setdefault(designer, {}).setdefault(song_id, {})[diff] = True
-                song_diff_designers[song_id].append({"diff": diff, "designer": designer})
-                if special_song.get(song_id):
-                    special_designers.add(designer)
-                last_designer = designer
-            else:
-                same_count += 1
-                song_diff_designers[song_id].append({"diff": diff, "designer": False})
-                song_diff_designers[song_id][-same_count - 1]["rowspan"] = same_count + 1
-
-    for index, target_song_id in byd_append.items():
-        source_index = index - 1
-        if 0 <= source_index < len(songs):
-            source_song = songs[source_index]
-            chart = beyond_chart(source_song)
-            if chart:
-                info = dict(chart)
-                info["id"] = source_song.get("id")
-                byd_append_info[target_song_id] = info
-
-    for index, song in enumerate(songs, start=1):
-        if song.get("deleted"):
-            continue
-        song_id = song["id"]
-        song_diff_list = ordered_difficulties(song)
-        if song_id in byd_append_info:
-            song_diff_list.append(byd_append_info[song_id])
-        if index not in byd_append:
-            write_song(song_id, song_diff_list)
-
-    pack_info: dict[str, dict[str, Any]] = {
-        "single": {
-            "name": "Memory Archive",
-            "section": "single",
-            "numero": 0,
-        }
-    }
-    for index, pack in enumerate(packlist_raw.get("packs", []), start=1):
-        pack_id = pack["id"]
-        pack_info[pack["id"]] = {
-            "_parentId_": pack.get("pack_parent"),
-            "name": transition_pack_names.get(pack_id) or pack.get("name_localized", {}).get("en"),
-            "section": pack.get("section"),
-            "numero": index,
-        }
-    for pack_id, item in pack_info.items():
-        parent_id = item.get("_parentId_")
-        if parent_id and parent_id in pack_info:
-            parent = pack_info[parent_id]
-            if (
-                pack_id not in transition_pack_names
-                and item.get("name", "").find("Collaboration Chapter") != -1
-            ):
-                item["name"] = parent.get("name", "") + " " + item.get("name", "")
-            item["section"] = item.get("section") or parent.get("section")
-
-    song_data: dict[str, dict[str, Any]] = {}
-    for song in songs:
-        if song.get("deleted"):
-            continue
-        song_id = song["id"]
-        title = song.get("title_localized", {}).get("en")
-        byd = beyond_chart(song)
-        ftr = next(
-            (
-                chart
-                for chart in song.get("difficulties", [])
-                if int(chart.get("ratingClass", chart.get("rating_class", -1))) == 2
-            ),
-            None,
-        )
-        pack = pack_info.get(song.get("set"), {"section": "unknown", "numero": 0})
-        rating = ftr and ftr.get("rating")
-        rating_plus = ftr and ftr.get("ratingPlus")
-        song_data[song_id] = {
-            "title": title,
-            "bydTitle": ((byd or {}).get("title_localized") or {}).get("en"),
-            "pack": song.get("set"),
-            "packName": pack.get("name"),
-            "sort": {
-                "section": pack.get("section") or "unknown",
-                "numero": pack.get("numero") or 0,
-                "rating": rating,
-                "ratingPlus": bool(rating_plus),
-            },
-        }
-
-    return {
-        "ver": f"v{version_name}",
-        "date": int(time.time()),
-        "data": song_data,
-        "list": build_designer_single_list(pick_list, designer_list_data, special_designers),
-        "songDiffDesigner": song_diff_designers,
-        "bydAppendInfo": byd_append_info,
-    }
-
-
 def build_song_index(songlist_raw: dict[str, Any]) -> dict[str, dict[str, int]]:
     """Build 1-based song indexes by ID and title from a songlist payload."""
     by_id: dict[str, int] = {}
@@ -702,60 +376,11 @@ def build_song_index(songlist_raw: dict[str, Any]) -> dict[str, dict[str, int]]:
     return {"id": by_id, "name": by_name}
 
 
-def preserve_cache_date_if_unchanged(
-    cache_data: dict[str, Any],
-    output_file: Path,
-) -> dict[str, Any]:
-    """Keep the previous timestamp when only the generated timestamp changed."""
-    if not output_file.exists():
-        return cache_data
-
-    try:
-        previous_cache = orjson.loads(output_file.read_bytes())
-    except Exception:
-        return cache_data
-
-    if not isinstance(previous_cache, dict):
-        return cache_data
-
-    previous_comparable = dict(previous_cache)
-    current_comparable = dict(cache_data)
-    previous_comparable.pop("date", None)
-    current_comparable.pop("date", None)
-
-    if previous_comparable != current_comparable:
-        return cache_data
-
-    previous_date = previous_cache.get("date")
-    if previous_date is None:
-        return cache_data
-
-    preserved_cache = dict(cache_data)
-    preserved_cache["date"] = previous_date
-    return preserved_cache
-
-
-def write_cache_outputs(
-    songlist_raw: dict[str, Any],
-    packlist_raw: dict[str, Any],
-    version_name: str,
-) -> None:
-    """Write generated cache JSON files consumed by wiki modules."""
+def write_arcaea_index(songlist_raw: dict[str, Any]) -> None:
+    """Write Module:Arcaea/Index.json with the mobile song index."""
     existing_arcaea_index = load_wiki_json_page(
         "Module:Arcaea/Index.json",
         OUTPUT_ARCAEA_INDEX_FILE,
-    )
-    complex_artists = load_wiki_json_page(
-        "Template:ComplexArtistsList.json",
-        OUTPUT_DIR / "complex_artists.json",
-    )
-    designers_list = load_wiki_json_page(
-        "Template:DesignersList.json",
-        OUTPUT_DIR / "designers_list.json",
-    )
-    transition_data = load_wiki_json_page(
-        "Template:Transition.json",
-        OUTPUT_TRANSITION_FILE,
     )
 
     arcaea_index = dict(existing_arcaea_index)
@@ -763,32 +388,6 @@ def write_cache_outputs(
     print(f"[5/5] Writing {OUTPUT_ARCAEA_INDEX_FILE.relative_to(PROJECT_ROOT)}...", flush=True)
     OUTPUT_ARCAEA_INDEX_FILE.write_text(
         json_dumps_pretty(arcaea_index),
-        encoding="utf-8",
-    )
-
-    artist_cache = build_artist_song_cache(songlist_raw, version_name, complex_artists)
-    artist_cache = preserve_cache_date_if_unchanged(
-        artist_cache,
-        OUTPUT_ARTIST_SONG_CACHE_FILE,
-    )
-    print(f"[5/5] Writing {OUTPUT_ARTIST_SONG_CACHE_FILE.relative_to(PROJECT_ROOT)}...", flush=True)
-    OUTPUT_ARTIST_SONG_CACHE_FILE.write_text(
-        json_dumps_pretty(artist_cache),
-        encoding="utf-8",
-    )
-
-    designer_cache = build_designer_song_cache(
-        songlist_raw, packlist_raw, version_name, designers_list, transition_data
-    )
-    designer_cache = preserve_cache_date_if_unchanged(
-        designer_cache,
-        OUTPUT_DESIGNER_SONG_CACHE_FILE,
-    )
-    print(
-        f"[5/5] Writing {OUTPUT_DESIGNER_SONG_CACHE_FILE.relative_to(PROJECT_ROOT)}...", flush=True
-    )
-    OUTPUT_DESIGNER_SONG_CACHE_FILE.write_text(
-        json_dumps_pretty(designer_cache),
         encoding="utf-8",
     )
 
@@ -1370,9 +969,7 @@ def main(
     print(f"[4/5] Built Lua dataset with {len(lua_story_data)} titles.", flush=True)
 
     songlist_raw = orjson.loads(OUTPUT_SONGLIST_FILE.read_bytes())
-    packlist_raw = orjson.loads(OUTPUT_PACKLIST_FILE.read_bytes())
-    version_name = OUTPUT_VERSION_FILE.read_text(encoding="utf-8").strip()
-    write_cache_outputs(songlist_raw, packlist_raw, version_name)
+    write_arcaea_index(songlist_raw)
 
     write_lua_outputs(lua_story_data)
 
