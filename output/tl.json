@@ -707,6 +707,12 @@
     "ja": "『非公開ルーム』では、フレンドの招待のほか、\n『ルームコード』を共有したプレイヤーと遊べます。",
     "ko": "또는 코드를 사용하여 존재하는 룸에 입장해보세요!"
   },
+  "Always Link Play\nGain +20 stats on Match win": {
+    "zh-Hans": "常驻 Link Play\n获胜时所有能力 +20",
+    "zh-Hant": "常駐 Link Play\n獲勝時所有能力 +20",
+    "ja": "Link Playをいつでもプレイ\n勝利時にステータスを+20",
+    "ko": "상시 Link Play 상태\n매치 승리 시 스탯 +20"
+  },
   "Amane": {
     "zh-Hans": "天音",
     "zh-Hant": "天音",
@@ -2987,6 +2993,12 @@
     "ja": "HARD + 6%の確率でゲージの減少量が6倍\nクリア時、一時的にSTEP値を6増加 ",
     "ko": "HARD + LOST시 6% 확률로 회상률 6배 손실\n악곡 클리어시 STEP이 6 증가"
   },
+  "HARD + Collect Prizes during song play\nAnd then...": {
+    "zh-Hans": "困难 + 游玩歌曲时收集奖励\n然后……",
+    "zh-Hant": "困难 + 遊玩歌曲時收集獎勵\n然後……",
+    "ja": "HARD +\n楽曲プレイ中にギフトを収集すると……",
+    "ko": "HARD + 악곡 플레이 중 아이템을 수집하면..."
+  },
   "HARD + Earn +%@ Fragments\nReward increases for consecutive clears": {
     "zh-Hans": "困难 - 获得+%@残片\n奖励随连续通关次数上升",
     "zh-Hant": "困難 - 獲得+%@殘片\n獎勵隨連續通關次數上升",
@@ -3154,6 +3166,12 @@
     "zh-Hant": "困難 - 回憶率降至 0% 時，曲目視為失敗",
     "ja": "HARD - 想起率ゲージが0%時点で強制終了\nTrack Lostとなる",
     "ko": "HARD - 기억회상률이 0에 도달시\nTrack Lost"
+  },
+  "Hallows' Eve": {
+    "zh-Hans": "万圣夜",
+    "zh-Hant": "萬聖夜",
+    "ja": "Hallows' Eve",
+    "ko": "Hallows' Eve"
   },
   "Hard": {
     "zh-Hans": "困难通关",
@@ -4222,6 +4240,12 @@
     "zh-Hant": "我的排名",
     "ja": "ランク",
     "ko": "내 순위"
+  },
+  "NENE & silky6": {
+    "zh-Hans": "NENE & silky6",
+    "zh-Hant": "NENE & silky6",
+    "ja": "ネネ&シルキー",
+    "ko": "네네 & 실키6"
   },
   "NEXT": {
     "zh-Hans": "下一个",

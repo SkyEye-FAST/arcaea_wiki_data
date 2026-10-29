@@ -566,6 +566,13 @@ msgstr "您也可以通过左侧的按钮来快速切换分类。"
 msgid "Alternatively, use a code to join an existing room."
 msgstr "除此以外，您也可通过输入房间号加入任意房间游玩。"
 
+msgid ""
+"Always Link Play\n"
+"Gain +20 stats on Match win"
+msgstr ""
+"常驻 Link Play\n"
+"获胜时所有能力 +20"
+
 msgid "Amane"
 msgstr "天音"
 
@@ -2084,6 +2091,13 @@ msgstr ""
 "曲目通关时获得+6步数加成"
 
 msgid ""
+"HARD + Collect Prizes during song play\n"
+"And then..."
+msgstr ""
+"困难 + 游玩歌曲时收集奖励\n"
+"然后……"
+
+msgid ""
 "HARD + Earn +%@ Fragments\n"
 "Reward increases for consecutive clears"
 msgstr ""
@@ -2228,6 +2242,9 @@ msgid ""
 "HARD - Track Lost when Recollection Rate\n"
 "reaches 0%"
 msgstr "困难 - 回忆率归零后直接判定为乐曲失败"
+
+msgid "Hallows' Eve"
+msgstr "万圣夜"
 
 msgid "Hard"
 msgstr "困难通关"
@@ -2912,6 +2929,9 @@ msgstr "开始游戏"
 
 msgid "My Rank"
 msgstr "我的排名"
+
+msgid "NENE & silky6"
+msgstr "NENE & silky6"
 
 msgid "NEXT"
 msgstr "下一个"

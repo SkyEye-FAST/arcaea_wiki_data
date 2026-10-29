@@ -581,6 +581,13 @@ msgstr "또는, 왼쪽의 카테고리 버튼을 탭하여 카테고리를 빠�
 msgid "Alternatively, use a code to join an existing room."
 msgstr "또는 코드를 사용하여 존재하는 룸에 입장해보세요!"
 
+msgid ""
+"Always Link Play\n"
+"Gain +20 stats on Match win"
+msgstr ""
+"상시 Link Play 상태\n"
+"매치 승리 시 스탯 +20"
+
 msgid "Amane"
 msgstr "아마네"
 
@@ -2126,6 +2133,11 @@ msgstr ""
 "악곡 클리어시 STEP이 6 증가"
 
 msgid ""
+"HARD + Collect Prizes during song play\n"
+"And then..."
+msgstr "HARD + 악곡 플레이 중 아이템을 수집하면..."
+
+msgid ""
 "HARD + Earn +%@ Fragments\n"
 "Reward increases for consecutive clears"
 msgstr ""
@@ -2286,6 +2298,9 @@ msgid ""
 msgstr ""
 "HARD - 기억회상률이 0에 도달시\n"
 "Track Lost"
+
+msgid "Hallows' Eve"
+msgstr "Hallows' Eve"
 
 msgid "Hard"
 msgstr "HARD"
@@ -2980,6 +2995,9 @@ msgstr "Music Play"
 
 msgid "My Rank"
 msgstr "내 순위"
+
+msgid "NENE & silky6"
+msgstr "네네 & 실키6"
 
 msgid "NEXT"
 msgstr "다음"

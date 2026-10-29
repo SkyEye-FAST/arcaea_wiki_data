@@ -8163,6 +8163,256 @@
           "max": 0
         }
       ]
+    },
+    {
+      "songId": "etherdrive",
+      "ratingClass": 1,
+      "conditions": [
+        {
+          "type": 0,
+          "credit": 20
+        }
+      ]
+    },
+    {
+      "songId": "etherdrive",
+      "ratingClass": 2,
+      "conditions": [
+        {
+          "type": 1,
+          "song_id": "ran",
+          "song_difficulty": 2,
+          "grade": 0
+        },
+        {
+          "type": 0,
+          "credit": 30
+        }
+      ]
+    },
+    {
+      "songId": "etherdrive",
+      "ratingClass": 4,
+      "conditions": [
+        {
+          "type": 1,
+          "song_id": "ran",
+          "song_difficulty": 4,
+          "grade": 0
+        },
+        {
+          "type": 0,
+          "credit": 50
+        }
+      ]
+    },
+    {
+      "songId": "schrago",
+      "ratingClass": 1,
+      "conditions": [
+        {
+          "type": 0,
+          "credit": 20
+        }
+      ]
+    },
+    {
+      "songId": "schrago",
+      "ratingClass": 2,
+      "conditions": [
+        {
+          "type": 1,
+          "song_id": "ran",
+          "song_difficulty": 2,
+          "grade": 0
+        },
+        {
+          "type": 0,
+          "credit": 30
+        }
+      ]
+    },
+    {
+      "songId": "schrago",
+      "ratingClass": 4,
+      "conditions": [
+        {
+          "type": 1,
+          "song_id": "ran",
+          "song_difficulty": 4,
+          "grade": 0
+        },
+        {
+          "type": 0,
+          "credit": 50
+        }
+      ]
+    },
+    {
+      "songId": "fatality",
+      "ratingClass": 1,
+      "conditions": [
+        {
+          "type": 0,
+          "credit": 20
+        }
+      ]
+    },
+    {
+      "songId": "fatality",
+      "ratingClass": 2,
+      "conditions": [
+        {
+          "type": 1,
+          "song_id": "ran",
+          "song_difficulty": 2,
+          "grade": 0
+        },
+        {
+          "type": 0,
+          "credit": 30
+        }
+      ]
+    },
+    {
+      "songId": "fatality",
+      "ratingClass": 4,
+      "conditions": [
+        {
+          "type": 1,
+          "song_id": "ran",
+          "song_difficulty": 4,
+          "grade": 0
+        },
+        {
+          "type": 0,
+          "credit": 50
+        }
+      ]
+    },
+    {
+      "songId": "parallax",
+      "ratingClass": 1,
+      "conditions": [
+        {
+          "type": 1,
+          "song_id": "etherdrive",
+          "song_difficulty": 1,
+          "grade": 0
+        },
+        {
+          "type": 1,
+          "song_id": "schrago",
+          "song_difficulty": 1,
+          "grade": 0
+        },
+        {
+          "type": 1,
+          "song_id": "fatality",
+          "song_difficulty": 1,
+          "grade": 0
+        },
+        {
+          "type": 0,
+          "credit": 80
+        }
+      ]
+    },
+    {
+      "songId": "parallax",
+      "ratingClass": 2,
+      "conditions": [
+        {
+          "type": 1,
+          "song_id": "etherdrive",
+          "song_difficulty": 2,
+          "grade": 0
+        },
+        {
+          "type": 1,
+          "song_id": "schrago",
+          "song_difficulty": 2,
+          "grade": 0
+        },
+        {
+          "type": 1,
+          "song_id": "fatality",
+          "song_difficulty": 2,
+          "grade": 0
+        },
+        {
+          "type": 0,
+          "credit": 150
+        }
+      ]
+    },
+    {
+      "songId": "parallax",
+      "ratingClass": 4,
+           "conditions": [
+        {
+          "type": 4,
+          "conditions": [
+            {
+              "type": 1,
+              "song_id": "etherdrive",
+              "song_difficulty": 4,
+              "grade": 4
+            },
+            {
+              "type": 3,
+              "song_id": "etherdrive",
+              "song_difficulty": 4,
+              "grade": 3,
+              "times": 10
+            }
+          ]
+        },
+        {
+          "type": 4,
+          "conditions": [
+            {
+              "type": 1,
+              "song_id": "schrago",
+              "song_difficulty": 4,
+              "grade": 4
+            },
+            {
+              "type": 3,
+              "song_id": "schrago",
+              "song_difficulty": 4,
+              "grade": 3,
+              "times": 10
+            }
+          ]
+        },
+        {
+          "type": 4,
+          "conditions": [
+            {
+              "type": 1,
+              "song_id": "fatality",
+              "song_difficulty": 4,
+              "grade": 4
+            },
+            {
+              "type": 3,
+              "song_id": "fatality",
+              "song_difficulty": 4,
+              "grade": 3,
+              "times": 10
+            }
+          ]
+        },
+        {
+          "type": 5,
+          "rating": 1100
+        },
+        {
+          "type": 0,
+          "credit": 1000
+        }
+      ]
     }
   ]
 }

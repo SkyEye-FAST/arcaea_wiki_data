@@ -2841,5 +2841,52 @@
         "시라히메"
     ],
     "pack_id": "dividedheart"
+  },
+  {
+      "character_id": 100,
+      "base_character": false,
+      "name": "ilith_halloween",
+      "char_type": 2,
+      "is_available": false,
+      "is_previewable": false,
+      "base_frag": 39.5,
+      "base_prog": 67,
+      "base_over": 39.5,
+      "max_frag": 60,
+      "max_prog": 101,
+      "max_over": 60,
+      "skill_id": "skill_ilith_halloween",
+      "skill_unlock_level": 0,
+      "version_from": "7.1.0",
+      "search_strings": [
+          "はろーずあいいりす",
+          "はろうずあいいりす",
+          "いりすはろーずあい",
+          "いりすはろうずあい",
+          "할로우즈 이브 이리스",
+          "할로우스 이브 이리스"
+      ]
+  },
+  {
+      "character_id": 101,
+      "base_character": true,
+      "name": "silky6_nene",
+      "char_type": 0,
+      "is_available": false,
+      "is_previewable": false,
+      "base_frag": 45,
+      "base_prog": 39.5,
+      "base_over": 41.5,
+      "max_frag": 72,
+      "max_prog": 63,
+      "max_over": 66,
+      "skill_id": "skill_stream_palette",
+      "skill_unlock_level": 0,
+      "version_from": "7.1.0",
+      "pack_id": "diversesystem",
+      "search_strings": [
+          "네네 육 실키",
+          "네네 식스 실키"
+      ]
   }
 ]

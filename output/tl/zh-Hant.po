@@ -566,6 +566,13 @@ msgstr "您也可以通過左側的按鈕來快速切換分類。"
 msgid "Alternatively, use a code to join an existing room."
 msgstr "除此以外，您也可通過輸入房間號加入任意房間遊玩。"
 
+msgid ""
+"Always Link Play\n"
+"Gain +20 stats on Match win"
+msgstr ""
+"常駐 Link Play\n"
+"獲勝時所有能力 +20"
+
 msgid "Amane"
 msgstr "天音"
 
@@ -2084,6 +2091,13 @@ msgstr ""
 "曲目通關時獲得+6步數加成"
 
 msgid ""
+"HARD + Collect Prizes during song play\n"
+"And then..."
+msgstr ""
+"困难 + 遊玩歌曲時收集獎勵\n"
+"然後……"
+
+msgid ""
 "HARD + Earn +%@ Fragments\n"
 "Reward increases for consecutive clears"
 msgstr ""
@@ -2228,6 +2242,9 @@ msgid ""
 "HARD - Track Lost when Recollection Rate\n"
 "reaches 0%"
 msgstr "困難 - 回憶率降至 0% 時，曲目視為失敗"
+
+msgid "Hallows' Eve"
+msgstr "萬聖夜"
 
 msgid "Hard"
 msgstr "HARD"
@@ -2907,6 +2924,9 @@ msgstr "開始遊戲"
 
 msgid "My Rank"
 msgstr "我的排名"
+
+msgid "NENE & silky6"
+msgstr "NENE & silky6"
 
 msgid "NEXT"
 msgstr "下一步"
