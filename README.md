@@ -21,6 +21,35 @@ uv run update.py --apk /path/to/arcaea_7.0.0c.apk
 
 The version is derived from the APK filename. Use `--version` when the filename does not contain the game version.
 
+The update workflow also uploads new song jackets, pack covers, partner
+illustrations/icons, and gameplay backgrounds from the same APK. It uses existing
+Wiki filenames (`Songs_`, `Pack_`, `Partner_`, `Background_`), prefers full-size
+artwork, and excludes thumbnails, multiplayer crops, and background effect layers.
+Before generation, the uploader compares the APK with the checkout's existing
+`output/songlist`, `output/packlist`, and `output/characters.json`. Resources in
+those lists are assumed already uploaded: historical gaps are not scanned or
+backfilled. Only new songs/packs/partners, added jacket overrides/awakenings, and
+newly referenced backgrounds become candidates. Wiki existence checks apply only
+to these additions, preserving existing files, redirects, and shared files.
+Upload failures fail the step after the remaining images have been attempted;
+generated lists are committed only after successful artwork publication, keeping
+the old baseline available for retries.
+The upload summary is `{{Information Arcaea}}`; file descriptions contain that
+template and `{{Non-free fair use in}}`, equivalent to choosing **通用** in the
+upload form's license selector. The API does not have a separate license field.
+
+Before updating the output lists, preview and upload additions:
+
+```bash
+uv run sync_images.py --apk /path/to/arcaea_7.1.0c.apk --dry-run
+uv run sync_images.py --apk /path/to/arcaea_7.1.0c.apk
+```
+
+Use `--baseline /path/to/old-output` if the working output lists were already updated.
+
+The uploader uses the same Wiki credentials as `sync_wiki.py` and requires upload
+and bot rights. Image binaries are temporary and are never committed to Git.
+
 To export the complete story snapshot into a separate Git checkout, run:
 
 ```bash

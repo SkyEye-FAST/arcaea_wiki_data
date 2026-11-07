@@ -54,6 +54,17 @@ jobs:
             git -C arcaea_story push origin HEAD:main
           fi
 
+      # Compare against checkout's lists before generation replaces them.
+      - name: Upload new Wiki artwork
+        id: images
+        if: ${{ !cancelled() && steps.acquire.outcome == 'success' }}
+        env:
+          PYWIKIBOT_PASSWORD_FILE_CONTENT: ${{ secrets.PYWIKIBOT_PASSWORD_FILE_CONTENT }}
+          APK: ${{ steps.acquire.outputs.apk }}
+        run: |
+          test -n "$PYWIKIBOT_PASSWORD_FILE_CONTENT"
+          uv run sync_images.py --apk "$APK"
+
       - name: Generate Wiki outputs
         id: generate
         if: ${{ !cancelled() && steps.acquire.outcome == 'success' }}
@@ -63,7 +74,7 @@ jobs:
         run: uv run update.py --apk "$APK" --version "$VERSION"
 
       - name: Save generated Wiki data
-        if: ${{ !cancelled() && steps.generate.outcome == 'success' }}
+        if: ${{ !cancelled() && steps.generate.outcome == 'success' && steps.images.outcome == 'success' }}
         run: |
           git add --all -- output
           if ! git diff --cached --quiet; then
