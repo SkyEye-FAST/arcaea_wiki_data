@@ -74,12 +74,19 @@ The workflow serializes updates and acquires one validated APK for both publishe
 During 07:50–08:30 Asia/Shanghai it polls every ten seconds for a new version and
 attempts an early Wiki version notice before downloading. At the deadline, or
 outside that window, it processes the current APK. Unchanged versions are downloaded
-too, so retries and same-version content revisions are not skipped.
+too, so story retries and same-version story content revisions are not skipped.
 
 Story publication and Wiki generation/synchronization run independently after
-acquisition. Generated Wiki files are committed even if Wiki synchronization fails.
-Failures remain visible in the workflow result; rerun the workflow to retry. The
-early version notice does not modify the generated `output/version` file.
+acquisition. Wiki artwork upload, output generation/commits, and page synchronization
+only run when the acquired version differs from the checkout's `output/version`.
+To save Wiki pages again at the same version, manually run **Update Arcaea Game Data**
+with **force_wiki_sync** enabled (default: disabled). SCF dispatches without inputs
+therefore skip Wiki publication for unchanged versions.
+
+Generated Wiki files are committed even if Wiki synchronization fails. Failures
+remain visible in the workflow result; use **force_wiki_sync** to retry Wiki
+publication after the generated version has already been committed. The early
+version notice does not modify the generated `output/version` file.
 
 Required repository secrets:
 

@@ -2,6 +2,12 @@ name: Update Arcaea Game Data
 
 on:
   workflow_dispatch:
+    inputs:
+      force_wiki_sync:
+        description: "即使版本号未变化，也上传 Wiki 图片并保存 Wiki 页面"
+        type: boolean
+        required: false
+        default: false
 
 concurrency:
   group: arcaea-production
@@ -57,7 +63,9 @@ jobs:
       # Compare against checkout's lists before generation replaces them.
       - name: Upload new Wiki artwork
         id: images
-        if: ${{ !cancelled() && steps.acquire.outcome == 'success' }}
+        if: >-
+          ${{ !cancelled() && steps.acquire.outcome == 'success' &&
+              (steps.acquire.outputs.version_changed == 'true' || inputs.force_wiki_sync) }}
         env:
           PYWIKIBOT_PASSWORD_FILE_CONTENT: ${{ secrets.PYWIKIBOT_PASSWORD_FILE_CONTENT }}
           APK: ${{ steps.acquire.outputs.apk }}
@@ -67,7 +75,9 @@ jobs:
 
       - name: Generate Wiki outputs
         id: generate
-        if: ${{ !cancelled() && steps.acquire.outcome == 'success' }}
+        if: >-
+          ${{ !cancelled() && steps.acquire.outcome == 'success' &&
+              (steps.acquire.outputs.version_changed == 'true' || inputs.force_wiki_sync) }}
         env:
           APK: ${{ steps.acquire.outputs.apk }}
           VERSION: ${{ steps.acquire.outputs.version }}

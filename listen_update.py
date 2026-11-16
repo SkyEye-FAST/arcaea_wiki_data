@@ -61,7 +61,7 @@ def publish_version(version: str) -> None:
         print("Early Wiki version notice failed; the full Wiki sync will retry it.", flush=True)
 
 
-def acquire() -> tuple[Path, str]:
+def acquire() -> tuple[Path, str, bool]:
     """Listen during the release window, then download and validate one APK."""
     DOWNLOAD_DIR.mkdir(exist_ok=True)
     current_version = (
@@ -99,12 +99,20 @@ def acquire() -> tuple[Path, str]:
     (DOWNLOAD_DIR / "source.json").write_text(
         json.dumps({"version": version, "url": url}, indent=2) + "\n", encoding="utf-8"
     )
-    return apk_path, version
+    return apk_path, version, version != current_version
+
+
+def main() -> None:
+    """Expose the acquisition result and version change to GitHub Actions."""
+    apk, version, version_changed = acquire()
+    if output := os.environ.get("GITHUB_OUTPUT"):
+        with Path(output).open("a", encoding="utf-8") as stream:
+            stream.write(
+                f"apk={apk}\nversion={version}\n"
+                f"version_changed={str(version_changed).lower()}\n"
+            )
+    print(f"Acquired APK version {version}: {apk}", flush=True)
 
 
 if __name__ == "__main__":
-    apk, version = acquire()
-    if output := os.environ.get("GITHUB_OUTPUT"):
-        with Path(output).open("a", encoding="utf-8") as stream:
-            stream.write(f"apk={apk}\nversion={version}\n")
-    print(f"Acquired APK version {version}: {apk}", flush=True)
+    main()
