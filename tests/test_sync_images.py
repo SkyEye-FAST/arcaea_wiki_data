@@ -8,7 +8,7 @@ import zipfile
 from pathlib import Path
 from unittest.mock import Mock, patch
 
-import sync_images as images
+from arcaea_wiki_data import sync_images as images
 
 
 class ArtworkTests(unittest.TestCase):
@@ -65,19 +65,20 @@ class ArtworkTests(unittest.TestCase):
         with self.archive() as archive, tempfile.TemporaryDirectory() as directory:
             baseline = Path(directory)
             for filename, member in [
-                ("songlist", "assets/songs/songlist"),
-                ("packlist", "assets/songs/packlist"),
-                ("characters.json", "assets/char/characters.json"),
+                ("songs/songlist", "assets/songs/songlist"),
+                ("songs/packlist", "assets/songs/packlist"),
+                ("char/characters.json", "assets/char/characters.json"),
             ]:
+                (baseline / filename).parent.mkdir(parents=True, exist_ok=True)
                 (baseline / filename).write_bytes(archive.read(member))
             self.assertEqual(images.new_artwork(archive, baseline), [])
             # Existing entities can gain a jacket override and an awakening.
-            songs = json.loads((baseline / "songlist").read_bytes())
+            songs = json.loads((baseline / "songs/songlist").read_bytes())
             songs["songs"][0]["difficulties"] = []
-            (baseline / "songlist").write_text(json.dumps(songs))
-            characters = json.loads((baseline / "characters.json").read_bytes())
+            (baseline / "songs/songlist").write_text(json.dumps(songs))
+            characters = json.loads((baseline / "char/characters.json").read_bytes())
             characters[2]["uncap_cores"] = []
-            (baseline / "characters.json").write_text(json.dumps(characters))
+            (baseline / "char/characters.json").write_text(json.dumps(characters))
             self.assertEqual({item.title for item in images.new_artwork(archive, baseline)}, {
                 "Songs_example_byd.jpg", "Partner_11_awaken.png", "Partner_11_awaken_icon.png",
             })
@@ -87,9 +88,10 @@ class ArtworkTests(unittest.TestCase):
         with self.archive() as archive, tempfile.TemporaryDirectory() as directory:
             baseline = Path(directory)
             for filename, value in [
-                ("songlist", {"songs": []}), ("packlist", {"packs": []}),
-                ("characters.json", []),
+                ("songs/songlist", {"songs": []}), ("songs/packlist", {"packs": []}),
+                ("char/characters.json", []),
             ]:
+                (baseline / filename).parent.mkdir(parents=True, exist_ok=True)
                 (baseline / filename).write_text(json.dumps(value))
             self.assertEqual(images.new_artwork(archive, baseline), images.collect_artwork(archive))
 

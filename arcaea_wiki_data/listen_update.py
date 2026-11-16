@@ -12,7 +12,7 @@ from zoneinfo import ZoneInfo
 
 import requests
 
-import update
+from arcaea_wiki_data import update
 
 DOWNLOAD_DIR = update.PROJECT_ROOT / ".pipeline"
 TIMEZONE = ZoneInfo("Asia/Shanghai")
@@ -44,7 +44,8 @@ def publish_version(version: str) -> None:
         result = subprocess.run(
             [
                 sys.executable,
-                "sync_wiki.py",
+                "-m",
+                "arcaea_wiki_data.sync_wiki",
                 "--version-file",
                 str(version_file),
                 "--summary",

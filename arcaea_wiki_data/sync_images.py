@@ -9,7 +9,7 @@ from collections import Counter
 from dataclasses import dataclass
 from pathlib import Path
 
-import sync_wiki
+from arcaea_wiki_data import sync_wiki
 
 pywikibot = sync_wiki.pywikibot
 UPLOAD_SUMMARY = "{{Information Arcaea}}"
@@ -135,12 +135,15 @@ def new_artwork(archive: zipfile.ZipFile, baseline: Path) -> list[Artwork]:
     """Select additions against the pre-update lists, assuming old assets uploaded."""
     old_songs = {
         song["id"]: song
-        for song in json.loads((baseline / "songlist").read_bytes())["songs"]
+        for song in json.loads((baseline / "songs" / "songlist").read_bytes())["songs"]
     }
-    old_packs = {pack["id"] for pack in json.loads((baseline / "packlist").read_bytes())["packs"]}
+    old_packs = {
+        pack["id"]
+        for pack in json.loads((baseline / "songs" / "packlist").read_bytes())["packs"]
+    }
     old_characters = {
         str(character["character_id"]): character
-        for character in json.loads((baseline / "characters.json").read_bytes())
+        for character in json.loads((baseline / "char" / "characters.json").read_bytes())
     }
     songs = json.loads(archive.read("assets/songs/songlist"))["songs"]
     current_songs = {song["id"]: song for song in songs}
@@ -233,7 +236,7 @@ def main() -> None:
     parser.add_argument("--dry-run", action="store_true")
     parser.add_argument(
         "--baseline", type=Path, default=sync_wiki.OUTPUT_DIR,
-        help="Directory containing songlist, packlist and characters.json BEFORE updating.",
+        help="Region output directory with songs/ and char/ BEFORE updating.",
     )
     args = parser.parse_args()
     with zipfile.ZipFile(args.apk) as archive:

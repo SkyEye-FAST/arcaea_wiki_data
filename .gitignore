@@ -5,6 +5,7 @@ logs/
 apicache/
 .arcaea-story-data/
 .pipeline/
+.local/
 arcaea_story/
 
 *.mo

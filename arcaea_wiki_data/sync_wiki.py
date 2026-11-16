@@ -10,14 +10,16 @@ import time
 from pathlib import Path
 from typing import TypeGuard
 
-PROJECT_ROOT = Path(__file__).resolve().parent
+from arcaea_wiki_data import cn_overlay
+from arcaea_wiki_data.paths import CN_OUTPUT, INTL_OUTPUT, PROJECT_ROOT
+
 os.environ.setdefault("PYWIKIBOT_DIR", str(PROJECT_ROOT))
 
 import pywikibot  # noqa: E402
 from pywikibot.comms import http  # noqa: E402
 from pywikibot.site import BaseSite  # noqa: E402
 
-OUTPUT_DIR = PROJECT_ROOT / "output"
+OUTPUT_DIR = INTL_OUTPUT
 
 ANUBIS_SCRIPT_RE = re.compile(
     r'<script\b[^>]*\bid=["\'](?P<id>anubis_[^"\']+)["\'][^>]*>'
@@ -36,11 +38,12 @@ PAGE_FILE_MAP = {
     "Module:Story/data/mobile/ko": OUTPUT_DIR / "arcaea_story_ko.lua",
     "Template:Translation.json": OUTPUT_DIR / "tl.json",
     "Template:Version": OUTPUT_DIR / "version",
-    "Template:Songlist.json": OUTPUT_DIR / "songlist",
-    "Template:Packlist.json": OUTPUT_DIR / "packlist",
-    "Template:Unlocks.json": OUTPUT_DIR / "unlocks",
-    "Template:Characters.json": OUTPUT_DIR / "characters.json",
+    "Template:Songlist.json": OUTPUT_DIR / "songs" / "songlist",
+    "Template:Packlist.json": OUTPUT_DIR / "songs" / "packlist",
+    "Template:Unlocks.json": OUTPUT_DIR / "songs" / "unlocks",
+    "Template:Characters.json": OUTPUT_DIR / "char" / "characters.json",
     "Module:Arcaea/Index.json": OUTPUT_DIR / "arcaea_index.json",
+    cn_overlay.PAGE: CN_OUTPUT / cn_overlay.FILENAME,
 }
 
 TEMPLATE_VERSION_MOBILE_RE = re.compile(
@@ -177,7 +180,8 @@ def ensure_inputs(selected_pages: list[str] | None) -> dict[str, Path]:
     if missing_files:
         details = "\n".join(f"- {path.relative_to(PROJECT_ROOT)}" for path in missing_files)
         raise FileNotFoundError(
-            f"Required output files are missing. Run update.py first.\n{details}"
+            "Required output files are missing. "
+            f"Run python -m arcaea_wiki_data.update first.\n{details}"
         )
 
     return mapping
@@ -213,18 +217,25 @@ def sync_pages(
         else:
             new_text = source_text
 
-        if old_text == new_text:
+        same_json = (
+            title.endswith(".json")
+            and bool(old_text.strip())
+            and json.dumps(json.loads(old_text), sort_keys=True)
+            == json.dumps(json.loads(new_text), sort_keys=True)
+        )
+        if old_text == new_text or same_json:
             print(f"[skip] {title}: no changes")
             continue
 
         changed += 1
-        print(f"[diff] {title}: will update from {file_path.relative_to(PROJECT_ROOT)}")
+        print(f"[diff] {title}: will update from {file_path}")
 
         if dry_run:
             continue
 
         page.text = new_text
-        page.save(summary=summary, minor=minor, bot=True)
+        options = {"contentmodel": "json"} if title.endswith(".json") else {}
+        page.save(summary=summary, minor=minor, bot=True, **options)
         print(f"[save] {title}: updated")
 
     return changed

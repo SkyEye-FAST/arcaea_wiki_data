@@ -8,7 +8,7 @@ from datetime import datetime as real_datetime
 from pathlib import Path
 from unittest.mock import Mock, patch
 
-import listen_update
+from arcaea_wiki_data import listen_update
 
 
 class AcquisitionTests(unittest.TestCase):

@@ -6,7 +6,7 @@ import zipfile
 from pathlib import Path
 from unittest.mock import patch
 
-from story_history import export_snapshot
+from arcaea_wiki_data.story_history import export_snapshot
 
 
 class SnapshotTests(unittest.TestCase):

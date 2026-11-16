@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
     inputs:
       force_wiki_sync:
-        description: "即使版本号未变化，也上传 Wiki 图片并保存 Wiki 页面"
+        description: "Publish Wiki artwork and pages even when the version is unchanged"
         type: boolean
         required: false
         default: false
@@ -36,7 +36,7 @@ jobs:
         id: acquire
         env:
           PYWIKIBOT_PASSWORD_FILE_CONTENT: ${{ secrets.PYWIKIBOT_PASSWORD_FILE_CONTENT }}
-        run: uv run listen_update.py
+        run: uv run python -m arcaea_wiki_data.listen_update
 
       - name: Checkout story history
         id: history
@@ -53,7 +53,7 @@ jobs:
           APK: ${{ steps.acquire.outputs.apk }}
           VERSION: ${{ steps.acquire.outputs.version }}
         run: |
-          uv run story_history.py --apk "$APK" --repository arcaea_story
+          uv run python -m arcaea_wiki_data.story_history --apk "$APK" --repository arcaea_story
           git -C arcaea_story add --all -- story story2
           if ! git -C arcaea_story diff --cached --quiet; then
             git -C arcaea_story -c user.name='github-actions[bot]' -c user.email='41898282+github-actions[bot]@users.noreply.github.com' -c commit.gpgsign=false commit -m "$VERSION"
@@ -71,7 +71,7 @@ jobs:
           APK: ${{ steps.acquire.outputs.apk }}
         run: |
           test -n "$PYWIKIBOT_PASSWORD_FILE_CONTENT"
-          uv run sync_images.py --apk "$APK"
+          uv run python -m arcaea_wiki_data.sync_images --apk "$APK"
 
       - name: Generate Wiki outputs
         id: generate
@@ -81,12 +81,12 @@ jobs:
         env:
           APK: ${{ steps.acquire.outputs.apk }}
           VERSION: ${{ steps.acquire.outputs.version }}
-        run: uv run update.py --apk "$APK" --version "$VERSION"
+        run: uv run python -m arcaea_wiki_data.update --apk "$APK" --version "$VERSION"
 
       - name: Save generated Wiki data
         if: ${{ !cancelled() && steps.generate.outcome == 'success' && steps.images.outcome == 'success' }}
         run: |
-          git add --all -- output
+          git add --all -- output/intl output/cn/CN_Overlay.json
           if ! git diff --cached --quiet; then
             git -c user.name='github-actions[bot]' -c user.email='41898282+github-actions[bot]@users.noreply.github.com' -c commit.gpgsign=false commit -m 'chore: update data'
             git push origin HEAD:main
@@ -99,4 +99,4 @@ jobs:
           VERSION: ${{ steps.acquire.outputs.version }}
         run: |
           test -n "$PYWIKIBOT_PASSWORD_FILE_CONTENT"
-          uv run sync_wiki.py --summary "Bot: Sync data to v$VERSION"
+          uv run python -m arcaea_wiki_data.sync_wiki --summary "Bot: Sync data to v$VERSION"

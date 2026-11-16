@@ -18,13 +18,15 @@ import orjson
 import requests
 from fake_useragent import UserAgent
 
-PROJECT_ROOT = Path(__file__).resolve().parent
+from arcaea_wiki_data import cn_overlay
+from arcaea_wiki_data.paths import CN_OUTPUT, INTL_OUTPUT, PROJECT_ROOT
+
 STORY_ROOT = PROJECT_ROOT / ".arcaea-story-data" / "story"
-OUTPUT_DIR = PROJECT_ROOT / "output"
-OUTPUT_PACKLIST_FILE = OUTPUT_DIR / "packlist"
-OUTPUT_SONGLIST_FILE = OUTPUT_DIR / "songlist"
-OUTPUT_UNLOCKS_FILE = OUTPUT_DIR / "unlocks"
-OUTPUT_CHARACTERS_FILE = OUTPUT_DIR / "characters.json"
+OUTPUT_DIR = INTL_OUTPUT
+OUTPUT_PACKLIST_FILE = OUTPUT_DIR / "songs" / "packlist"
+OUTPUT_SONGLIST_FILE = OUTPUT_DIR / "songs" / "songlist"
+OUTPUT_UNLOCKS_FILE = OUTPUT_DIR / "songs" / "unlocks"
+OUTPUT_CHARACTERS_FILE = OUTPUT_DIR / "char" / "characters.json"
 OUTPUT_VERSION_FILE = OUTPUT_DIR / "version"
 OUTPUT_ARCAEA_INDEX_FILE = OUTPUT_DIR / "arcaea_index.json"
 OUTPUT_TL_DIR = OUTPUT_DIR / "tl"
@@ -448,6 +450,8 @@ def extract_outputs_from_apk(
     characters_raw = orjson.loads(characters_bytes)
     pack_mapping, song_mapping = build_pack_song_mapping(packlist_raw, songlist_raw)
 
+    OUTPUT_PACKLIST_FILE.parent.mkdir(parents=True, exist_ok=True)
+    OUTPUT_CHARACTERS_FILE.parent.mkdir(parents=True, exist_ok=True)
     OUTPUT_PACKLIST_FILE.write_bytes(packlist_bytes)
     OUTPUT_SONGLIST_FILE.write_bytes(songlist_bytes)
     OUTPUT_UNLOCKS_FILE.write_bytes(unlocks_bytes)
@@ -924,7 +928,7 @@ def main(
 
     print("[0/5] Starting Lua export pipeline...", flush=True)
 
-    manual_mapping_raw = orjson.loads((PROJECT_ROOT / "manual.json").read_bytes())
+    manual_mapping_raw = orjson.loads((PROJECT_ROOT / "data" / "manual.json").read_bytes())
     manual_mapping: dict[str, dict[str, str]] = {}
     for k, v in manual_mapping_raw.items():
         overrides = {}
@@ -972,6 +976,9 @@ def main(
     write_arcaea_index(songlist_raw)
 
     write_lua_outputs(lua_story_data)
+
+    if (CN_OUTPUT / "songs/songlist").is_file() and (CN_OUTPUT / "songs/packlist").is_file():
+        print(f"[5/5] Writing {cn_overlay.generate_overlay(OUTPUT_DIR, CN_OUTPUT)}...", flush=True)
 
     print("[5/5] Export complete.", flush=True)
 
