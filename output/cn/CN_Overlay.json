@@ -1,0 +1,465 @@
+{
+    "songs": {
+        "patches": {
+            "parallax": {
+                "side": 1
+            },
+            "trickmaster": {
+                "category": "partner"
+            }
+        }
+    },
+    "packs": {
+        "patches": {
+            "extend_4": {
+                "name_localized": {
+                    "zh-Hans_override": "世界延展4"
+                },
+                "description_localized": {
+                    "zh-Hans_override": "解锁本曲包后，\n将可获得所有「世界延展」曲包的歌曲。\n\n未来加入「世界延展 4：显露」的歌曲\n也将立即解锁，无需再次购买。\n您仍可游玩对应曲目的限时地图，\n推进地图后可获得其他奖励。"
+                }
+            },
+            "extend_3": {
+                "name_localized": {
+                    "zh-Hans_override": "延展档案3"
+                },
+                "description_localized": {
+                    "zh-Hans_override": "20 首歌曲，归档了属于 Arcaea 的\n第三批更广阔的回忆……\n\n若先前已通过其他方式获得部分收录曲目，\n曲包售价将在结算时自动做出相应调整。"
+                }
+            },
+            "extend_2": {
+                "name_localized": {
+                    "zh-Hans_override": "延展档案2"
+                },
+                "description_localized": {
+                    "zh_Hans_override": "20 首歌曲，归档了属于 Arcaea 的\n第二批更广阔的回忆……\n\n若先前已通过其他方式获得部分收录曲目，\n曲包售价将在结算时自动做出相应调整。"
+                }
+            },
+            "extend": {
+                "name_localized": {
+                    "zh-Hans_override": "延展档案1"
+                },
+                "description_localized": {
+                    "zh-Hans_override": "20 首歌曲，归档了属于 Arcaea 的\n第一批更广阔的回忆……\n\n若先前已通过其他方式获得部分收录曲目，\n曲包售价将在结算时自动做出相应调整。"
+                }
+            },
+            "konzetsu": {
+                "name_localized": {
+                    "zh-Hans_override": "神圣毁灭"
+                },
+                "description_localized": {
+                    "zh-Hans_override": "光芒尽散，灵魂在救赎中得以焚烧。\n于此，少女高举长剑，为他人而战。\n\n《韵律源点》主线第二幕的巅峰已至：\n在世界的边缘，第八席来势汹汹。\n握紧咲弥的手，向神明举起长剑。"
+                }
+            },
+            "eclipse": {
+                "name_localized": {
+                    "zh-Hans_override": "临界蚀影"
+                },
+                "description_localized": {
+                    "zh-Hans_override": "跨越这众多世界，你已抵达完美。\n睁开你奇异的双眼，探寻崭新绚丽星辰下的美丽世界。\n\n五首歌曲追溯摩耶的足迹和她最后的话语。\n她探索着一位未知神明的殿堂，\n直到她能够遗忘，直到她黯然失色……她将仍被铭记。"
+                }
+            },
+            "lephon": {
+                "name_localized": {
+                    "zh-Hans_override": "流光史迹"
+                },
+                "description_localized": {
+                    "zh-Hans_override": "一段远古的往事被再次提起，\n快被遗忘的世界再度落入世人视野。\n引路人与洞察者的过往，须由另一位来讲述。\n揭开那过去的面纱，看向祂灵魂的深处吧……\n\n「流光史迹」为你揭开 Arcaea 世界之外的篇章。\n随五首歌曲寻找「至高：第八探索者 - 慈悲」的过往。"
+                }
+            },
+            "epilogue": {
+                "name_localized": {
+                    "zh-Hans_override": "静默答复"
+                },
+                "description_localized": {
+                    "zh-Hans_override": ""
+                }
+            },
+            "finale": {
+                "name_localized": {
+                    "zh-Hans_override": "最终裁决"
+                },
+                "description_localized": {
+                    "zh-Hans": "《Arcaea》主线剧情曲包最终章。\n迈入高潮的故事，即将在此走向终结。\n\n「Final Verdict」曲包内含四首隐藏歌曲。\n除此之外，你需要与其他玩家通力合作，\n才能完全解锁所有内容。\n就像光与对立一样，你将面临真正深不可测的考验。",
+                    "zh-Hans_override": "《韵律源点》主线剧情曲包最终章。\n迈入高潮的故事，即将在此走向终结。\n\n「最终裁决」曲包内含四首隐藏歌曲。\n除此之外，你需要与其他玩家通力合作，\n才能完全解锁所有内容。\n就像光与对立一样，你将面临真正深不可测的考验。"
+                }
+            },
+            "vs": {
+                "name_localized": {
+                    "zh-Hans_override": "漆黑宿命"
+                },
+                "description_localized": {
+                    "zh-Hans": "一场暴风雨正呼啸而来。\n妥协的可能性，或许并不存在。\n一切，真的只是命中注定吗？\n在终点站等待着少女们的，究竟是怎样的真理？\n\n《Arcaea》主线故事的下一篇章。\n在此之前，强烈建议先游玩过去的故事包。",
+                    "zh-Hans_override": "一场暴风雨正呼啸而来。\n妥协的可能性，或许并不存在。\n一切，真的只是命中注定吗？\n在终点等待着少女们的，究竟是怎样的真理？\n\n《韵律源点》主线故事的下一篇章。\n在此之前，强烈建议先游玩过去的故事包。"
+                }
+            },
+            "prelude": {
+                "name_localized": {
+                    "zh-Hans_override": "冲突序曲"
+                },
+                "description_localized": {
+                    "zh-Hans_override": "一段蜿蜒曲折的旅途，\n一场不可思议的邂逅。\n一由光芒环抱，一则缠绕纷争——\n少女们的命运，将于此刻交织。\n\n五首重量级的全新乐曲，\n将随这场相遇席卷而来……"
+                }
+            },
+            "rei": {
+                "name_localized": {
+                    "zh-Hans_override": "璀璨天空"
+                },
+                "description_localized": {
+                    "zh-Hans_override": "Arcaea 的天空在头顶闪闪发亮。\n\n跟随踏入精神领域的光，\n穿梭于情感与回忆之中，\n体验那关于光明的紧张而又激烈的故事。\n她并不知晓那正静待着她的结局，\n也对那可能成为她的救赎的异象毫不知情……"
+                }
+            },
+            "yugamu": {
+                "name_localized": {
+                    "zh-Hans_override": "暴虐迷宫"
+                },
+                "description_localized": {
+                    "zh-Hans_override": "哀伤的潮汐冲刷着 Arcaea 的世界。\n跟随对立探索扭曲的尘封往事，\n以及潜伏其中的恶毒异象。\n体验她所经历的苦难……\n\n紧凑、挑战性极高的旋律将接踵而至。"
+                }
+            },
+            "core": {
+                "name_localized": {
+                    "zh-Hans_override": "永恒核心"
+                },
+                "description_localized": {
+                    "zh-Hans": "解开永恒核心的封印，\n探索《Arcaea》的宝贵原创乐曲。\n\n与光和对立一同探索失落的破碎世界。\n等待着你的，是光芒与混沌的无尽纠缠。",
+                    "zh-Hans_override": "解开永恒核心的封印，\n探索《韵律源点》的宝贵原创乐曲。\n\n与光和对立一同探索失落的破碎世界。\n等待着你的，是光芒与混沌的无尽纠缠。"
+                }
+            },
+            "nihil": {
+                "name_localized": {
+                    "zh-Hans_override": "绝对虚无"
+                },
+                "description_localized": {
+                    "zh-Hans_override": "掠夺信念的那刻，雨滴倾泻，天空黯然。\n文静的孩子追随着她，而她成为了谬错的信徒。\n至此，咲弥的故事仅剩「虚无」。\n\n五首曲目与一次无情的会面：短兵相接，你自诩愚者；\n但这场激烈而空洞的信仰之战仍将继续。\n同时领悟「绝对信念」之时，你将觉醒。"
+                }
+            },
+            "eden": {
+                "_delete": [
+                    "custom_banner"
+                ],
+                "name_localized": {
+                    "zh-Hans_override": "永恒伊甸"
+                },
+                "description_localized": {
+                    "zh-Hans_override": "一望无际的深沉夜幕笼罩之下，\n哪怕是一丝微弱的光亮也将刺痛她的眼睛；\n少女独自醒来之时，残酷的苦痛便已加诸其身。\n\n薄暮怀抱之下，\n五首 Imagining After 大赛的获奖歌曲，\n将与你和摩耶一同踏上这段炫彩夺目的旅程。"
+                }
+            },
+            "eden_append_1": {
+                "name_localized": {
+                    "zh-Hans_override": "永恒伊甸·第二章"
+                },
+                "description_localized": {
+                    "zh-Hans_override": "风吹散了纷争与悲剧的尘埃，\n于这场风暴之中，一个声音呼唤着：\nArcaea 将会改变。\n\n五首 Imagining After 大赛的获奖歌曲等待着你。\n她，也一样。天空落下了她的「眼泪」。\n「永恒伊甸」的追加曲包，旅途缓缓启程……"
+                }
+            },
+            "eden_append_2": {
+                "name_localized": {
+                    "zh-Hans_override": "流转帷幕"
+                },
+                "description_localized": {
+                    "zh-Hans_override": "此般真相，无人能料。\n降临于此的，便是真相。\n但真相昭示着的，仍为未知。\n\n在这包「永恒伊甸」的追加曲包中，\n发掘 Imagining After 大赛的另三首获奖歌曲。"
+                }
+            },
+            "megarex": {
+                "description_localized": {
+                    "zh-Hans_override": "未来已至。\n\n穿越昨日不曾触及的地平线，\n与来自《MEGAREX》的四首曲目\n及一首全新原创单曲会面。\n\n跨越白天与黑夜，「白姬 (Flow) 」闪亮登场！"
+                }
+            },
+            "anima": {
+                "name_localized": {
+                    "zh-Hans_override": "现世灵魂"
+                },
+                "description_localized": {
+                    "zh-Hans_override": "向那遥远的星辰进发！\n\n「Coalescence」歌曲公募大赛的\n五首动听歌曲正在水平线远处呼唤着。\n\n在璀璨光影和动听乐声中，\n和野乃香一起踏上她的太空之旅吧！"
+                }
+            },
+            "anima_append_1": {
+                "name_localized": {
+                    "zh-Hans_override": "经验之章"
+                },
+                "description_localized": {
+                    "zh-Hans_override": "它来了，因你张开了双臂。\n睁开双眼，竖起双耳，\n你将聆听宇宙崩坏时美妙的声响。\n\n自最深的蓝中，最深的心底，「Coalescence」\n歌曲公募大赛的另外五首获奖歌曲现已来临。\n「现世灵魂」曲包的续篇正式登场。"
+                }
+            },
+            "observer": {
+                "name_localized": {
+                    "zh-Hans_override": "奥秘哲理"
+                },
+                "description_localized": {
+                    "zh-Hans_override": "一名少女，\n在所有人都看不见的地方，\n孤零零地站在 Arcaea 世界的尽头……\n\n与拉格兰和卡戎一起，\n享受「韵律源点 2020 歌曲公募大赛」\n带来的六首优胜作品吧！"
+                }
+            },
+            "observer_append_1": {
+                "name_localized": {
+                    "zh-Hans_override": "苍白织锦"
+                },
+                "description_localized": {
+                    "zh-Hans_override": "美丽的织锦向外延伸，\n越来越远，直到那之后……\n\n在「奥秘哲理」的追加曲包中，\n体验「韵律源点 2020 歌曲公募大赛」的\n另外三首获奖歌曲！"
+                }
+            },
+            "observer_append_2": {
+                "name_localized": {
+                    "zh-Hans_override": "救赎之光"
+                },
+                "description_localized": {
+                    "zh-Hans_override": "一道神圣的光芒闪亮于无尽的虚空之中，\n指引出返回光与对立的世界的道路……\n\n「韵律源点 2020 歌曲公募大赛」的另外三首获奖歌曲，\n现已作为「奥秘哲理」的追加曲包到来！"
+                }
+            },
+            "dividedheart": {
+                "name_localized": {
+                    "zh-Hans_override": "歧路心象"
+                },
+                "description_localized": {
+                    "zh-Hans_override": "在割裂的天空下，\n饱受未知带来的折磨，\n尽管如此，她依然坚定而高贵。\n\n在五首舒缓顺滑\n而又激动人心的曲目中，\n和白姬一同踏上旅程吧！"
+                }
+            },
+            "alice": {
+                "name_localized": {
+                    "zh-Hans_override": "浮生篇章"
+                },
+                "description_localized": {
+                    "zh-Hans_override": "现实看似触手可及，\n却始终求之不得……\n\n在爱丽丝与坦尼尔的旅途中，揭开真相与谎言，\n同时体验五首风格鲜明的动感乐曲，\n并沉浸在音乐的世界当中。"
+                }
+            },
+            "alice_append_1": {
+                "name_localized": {
+                    "zh-Hans_override": "续行之旅"
+                },
+                "description_localized": {
+                    "zh-Hans_override": "探索之旅永无止境……\n\n在「浮生篇章」的追加曲包中，\n体验爱丽丝视角的三首歌曲，\n并领略 Arcaea 中无尽变幻的风景。"
+                }
+            },
+            "omatsuri": {
+                "name_localized": {
+                    "zh-Hans_override": "夕照辉光"
+                },
+                "description_localized": {
+                    "zh-Hans_override": "所求均愿天遂，万紫千红，甜似酣梦。\n客路漫漫长夜，踏雪寻梅，渐入薄暮。\n庆典之声，萦绕于心……\n\n在六段优美旋律的陪伴下，听群愿娓娓道来一段往事：\n五首韵律源点歌曲公募大赛的获奖歌曲，\n外加象征冬日的一首新曲，重磅登场！"
+                }
+            },
+            "zettai": {
+                "name_localized": {
+                    "zh-Hans_override": "绝对信念"
+                },
+                "description_localized": {
+                    "zh-Hans_override": "记忆，是通往尚未被揭晓之真实与奥秘的窗户……\n\n与神秘少女「咲弥」一同探索究极真相，\n并在无情的旅途中邂逅五首全新的硬核曲目！\n\n获得「绝对虚无」曲包后，还可进一步使咲弥觉醒！"
+                }
+            },
+            "nijuusei": {
+                "name_localized": {
+                    "zh-Hans_override": "双星交织"
+                },
+                "description_localized": {
+                    "zh-Hans_override": "在双子「爱托」和「露娜」的带领下\n跃入那些充满活力的未知世界中。\n\n与爱托一起在悠远的回忆中旅行，\n并面对露娜无情的挑战……"
+                }
+            },
+            "nijuusei_append_1": {
+                "name_localized": {
+                    "zh-Hans_override": "共度时光"
+                },
+                "description_localized": {
+                    "zh-Hans_override": "一缕星月在空中凝视着，\n静候着夜幕的降临……\n\n和爱托与露娜再度重逢，\n一起体验「双星交织」曲包追加的\n三首全新曲目吧！"
+                }
+            },
+            "mirai": {
+                "name_localized": {
+                    "zh-Hans_override": "矛盾视界"
+                },
+                "description_localized": {
+                    "zh-Hans_override": "过去的世界，埋藏在充满矛盾的回忆之中……\n和忘却一同探寻时间轴的两极——过去与未来。\n\n无论你的水平如何，\n相信你都可以在 Arcaea 的世界提升自己的技巧。"
+                }
+            },
+            "shiawase": {
+                "name_localized": {
+                    "zh-Hans_override": "绯红慰藉"
+                },
+                "description_localized": {
+                    "zh-Hans_override": "和红一起探索这仍旧存在欢乐、\n会让你倍感熟悉的失落世界。\n\n在全新的原创曲目以及绯红所渲染的时空中，\n迎接 Arcaea 的光明。"
+                }
+            },
+            "djmax": {
+                "description_localized": {
+                    "zh-Hans_override": "准备好 PAY RESPECT 了吗？\n\n千禧年代经典之作——《DJMAX》的五首金曲到来。\n\n让「光 & 克莱尔」陪伴你，一起进入 FEVER 模式吧！"
+                }
+            },
+            "djmax_append_1": {
+                "name_localized": {
+                    "zh-Hans_override": "第二章"
+                },
+                "description_localized": {
+                    "zh-Hans_override": "又有五首《DJMAX》曲目到来，\n这是另一次心的试炼。\n\n同「奈美（暮光）& 希依」一起，\n勇敢发声，拒绝沉默！\nFEVER 仍在召唤！"
+                }
+            },
+            "rotaeno": {
+                "description_localized": {
+                    "zh-Hans_override": "世界于天空倒转。与《Rotaeno》的邂逅，就此出发！\n\n五首曲目开启全新联动篇章，其中包含一首原创新曲。\n更有随附全新剧情！\n\n跟随着露娜和「伊洛」的脚步，\n尽情在阿古亚星探索吧！"
+                }
+            },
+            "cytusii": {
+                "description_localized": {
+                    "zh-Hans_override": "动身吧，去唤醒那沉睡之人。\n\n《韵律源点》与《Cytus II》，两个世界终于相遇。\n四首经典曲目，以及一首不曾出现于\n两个游戏中的全新原创曲目到来。\n\n让「Ilith & Ivy」加入你的「CHAOS」之中吧。"
+                }
+            },
+            "cytusii_append_1": {
+                "name_localized": {
+                    "zh-Hans_override": "第二章"
+                },
+                "description_localized": {
+                    "zh-Hans_override": "“Ivy……”\n\n纯净的光之世界中，刚苏醒的Vanessa与Hikari相遇。\n与《Cytus II》联动的道路还将延展：\n探寻那来之不易的真相吧，即使前方的路布满荆棘。\n昭示着浩劫的四首歌曲再次袭来，\n而在那真相之后，还有一曲在等待着你……"
+                }
+            },
+            "musedash": {
+                "description_localized": {
+                    "zh-Hans_override": "Ready? GO!!\n\n和「玛莉嘉」一起游玩来自跑酷音乐游戏\n《Muse Dash》的三首动感歌曲！\n本曲包另外包含一首\n纪念此次联动的全新曲目！"
+                }
+            },
+            "wacca": {
+                "description_localized": {
+                    "zh-Hans_override": "和「咲弥 & 伊莉莎白」一起潜入\n《韵律源点》与《WACCA》的联动吧！\n\n来自火热街机音游的五首歌曲，\n迫不及待绕着你转。\n其中包括一首全新的重混歌曲！"
+                }
+            },
+            "wacca_append_1": {
+                "name_localized": {
+                    "zh-Hans_override": "第二章"
+                },
+                "description_localized": {
+                    "zh-Hans_override": "两个世界再度交汇。\n五首魅力十足的歌曲，\n于《WACCA》联动的第二弹中闪亮登场！\n\n听，从远方传来的声音说道：\n“是时候给这无趣的世界，添上有趣的一笔了！”"
+                }
+            },
+            "maimai": {
+                "description_localized": {
+                    "zh-Hans_override": "做好准备让水花四溅！\n\n大受欢迎的节奏游戏《maimai》\n为《韵律源点》掀起了新的热浪！\n千万不要错过四首标志性的曲目——\n但不要被拖下水！"
+                }
+            },
+            "maimai_append_1": {
+                "name_localized": {
+                    "zh-Hans_override": "第二章"
+                },
+                "description_localized": {
+                    "zh-Hans_override": "快来迎接一波全新的浪潮！\n\n跟着来自《maimai DX》的\n四首新曲目飞舞盘旋吧！\n\n形影不离的一对伙伴也将加入我们，\n那就是——「米露可」和「霞玛」！"
+                }
+            },
+            "maimai_append_2": {
+                "name_localized": {
+                    "zh-Hans_override": "第三章"
+                },
+                "description_localized": {
+                    "zh-Hans_override": "万花筒般绚烂而又华丽的旅程\n将再度变换，不停倾转。\n四首充满活力的歌曲自《maimai DX》袭来！\n\n不会留你孤身一人的——\n新的旅行伙伴「莎露朵」加入了哟！\n璀璨星辰之下许愿可是很灵验的哦，要开始了哟！"
+                }
+            },
+            "ongeki": {
+                "description_localized": {
+                    "zh-Hans_override": "一种在《韵律源点》从未出现过的全新战斗……\n\n四首来自《O.N.G.E.K.I.》的精彩曲目现已登陆！\n以「露娜 & 美亚」作为搭档一同出击！"
+                }
+            },
+            "ongeki_append_1": {
+                "name_localized": {
+                    "zh-Hans_override": "第二章"
+                },
+                "description_localized": {
+                    "zh-Hans_override": "一场全新的试炼已蓄势待发，\n你的信念会因此动摇吗？\n\n在《O.N.G.E.K.I.》联动追加曲包中，\n你将面对并挑战另外五首联动歌曲。\n而作为联动第二弹的搭档，\n「咲姬」也将加入这场挑战！"
+                }
+            },
+            "ongeki_append_2": {
+                "name_localized": {
+                    "zh-Hans_override": "第三章"
+                },
+                "description_localized": {
+                    "zh-Hans_override": "四首来自《O.N.G.E.K.I.》的\n动听歌曲等待你来征服！\n其中两个强大无比的存在，\n必然会带来永恒难忘的回忆。\n\n「纺」也将挺身而出，用自己的方式帮助大家！\n她是认真的：“那便将此刻封存吧！”"
+                }
+            },
+            "chunithm": {
+                "description_localized": {
+                    "zh-Hans_override": "三首来自街机节奏游戏\n《CHUNITHM》的震撼新曲\n已于天际展露锋芒！\n\n与「对立 & 中二企鹅」携手，\n迎接一系列无比艰难的挑战！"
+                }
+            },
+            "chunithm_append_1": {
+                "name_localized": {
+                    "zh-Hans_override": "第二章"
+                },
+                "description_localized": {
+                    "zh-Hans_override": "本次《CHUNITHM》联动的大型更新，\n将推出三首全新的高难度曲目！\n\n而这次，即使是众神也不再有怜悯……"
+                }
+            },
+            "chunithm_append_2": {
+                "name_localized": {
+                    "zh-Hans_override": "第三章"
+                },
+                "description_localized": {
+                    "zh-Hans_override": "《CHUNITHM》联动的下一章节，\n既让人鼓舞欢欣，或许也同样使人胆战心惊……\n\n五首令人心跳加速的曲目正等待着你！\n\n请前去吧，怀揣一颗正义的心；\n请迈步吧，沉着冷静是最好的锦囊。"
+                }
+            },
+            "chunithm_append_3": {
+                "name_localized": {
+                    "zh-Hans_override": "第四章"
+                },
+                "description_localized": {
+                    "zh-Hans_override": "来吧，鼓动起来！\n\n《CHUNITHM》联动第四章闪亮登场：\n五首新曲骤然登上舞台，一跃成为全部视线的焦点！\n\n探求的灵魂啊，上前来，接受那无尽的试炼吧！"
+                }
+            },
+            "groovecoaster": {
+                "description_localized": {
+                    "zh-Hans_override": "六首美妙的新歌曲正在 Arcaea 与音乐游戏\n《Groove Coaster》的联动曲包中等着你！\n\n跟随「光 & 晴音」，\n踏上那唯美星空之下的崭新小径！"
+                }
+            },
+            "groovecoaster_append_1": {
+                "name_localized": {
+                    "zh-Hans_override": "第二章"
+                },
+                "description_localized": {
+                    "zh-Hans_override": "5 - 4 - 3 - 2 - 1\n节奏永不停歇！\n\n轰隆隆——引擎的怒吼向你发出邀请：\n跟随着《Groove Coaster》联动追加的\n三首新曲，一路向前！\n\n准备好驰骋吧，去迎接那汹涌澎湃的音律轰击！"
+                }
+            },
+            "tonesphere": {
+                "description_localized": {
+                    "zh-Hans_override": "经历一场空间碰撞，\n在 Arcaea 的世界中体验 Sta 制作的\n移动端节奏游戏《Tone Sphere》。\n\n在「对立 & 托凛」的带领下，\n一起在五首象征性的歌曲中旅行！"
+                }
+            },
+            "lanota": {
+                "description_localized": {
+                    "zh-Hans_override": "永不停歇的时间使得 Arcaea 的世界与\n情感丰富的音乐游戏《Lanota》纠缠在了一起。\n\n与光和来自调律诗篇的「菲希卡」\n在《Lanota》的乐曲中旅行吧！\n曲包另收录全新的合作曲「Quon」！"
+                }
+            },
+            "lanota_append_1": {
+                "name_localized": {
+                    "zh-Hans_override": "第二章"
+                },
+                "description_localized": {
+                    "zh-Hans_override": "在那寂静世界的深处，\n回荡着古老机械的残响……\n\n在《Lanota》联动的追加曲包中，\n享受这三首为世界带来活力音符的全新歌曲。\n现在，在空中展翅翱翔吧！"
+                }
+            },
+            "dynamix": {
+                "description_localized": {
+                    "zh-Hans_override": "与来自著名音乐手游《Dynamix》的萨菲亚\n一起欣赏精彩而又动人的乐曲，\n揭开沉睡在 Arcaea 世界中的全新乐章！"
+                }
+            },
+            "virtualsingers": {
+                "name_localized": {
+                    "zh-Hans_override": "虚拟歌手"
+                },
+                "description_localized": {
+                    "zh-Hans_override": "摄人心魄的光芒背后，\n歌声向现实世界蔓延开来……\n\n五首经典歌曲，\n即将在这虚拟的舞台上开演！\n\n与虚拟世界携手同行，让梦想，幻化成形！"
+                }
+            },
+            "nextstage": {
+                "description_localized": {
+                    "zh-Hans_override": "世界在壮阔的交汇中倾转……\n\n纪念此段独特回忆，\n12位艺术家齐聚一堂\n为该曲包献上6首原创歌曲。\n\n与「光 & 对立(Debut)」共同迈向最遥远的巅峰！"
+                }
+            },
+            "undertale": {
+                "description_localized": {
+                    "zh-Hans_override": "很久很久以前，一个人类掉入了地下的遗迹⋯\n\n五首经典的《UNDERTALE》曲目，\n将带你踏上回忆之旅。\n\n战斗，或是仁慈，均由你来决定。\n但请记住：永远不要失去决心！"
+                }
+            },
+            "undertale_append_1": {
+                "name_localized": {
+                    "zh-Hans_override": "UNDERTALE·追加曲包"
+                },
+                "description_localized": {
+                    "zh-Hans_override": "希望。\n愿人类与怪物终有一天得以共存。\n\n重温地下世界的足迹，\n聆听来自《UNDERTALE》的三首全新歌曲。\n\n感受每一颗跳动的心！"
+                }
+            }
+        }
+    }
+}

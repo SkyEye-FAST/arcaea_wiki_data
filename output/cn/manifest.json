@@ -1,0 +1,38 @@
+{
+    "package": "com.xd.arcaea.tapcn",
+    "active_root": "/data/data/com.xd.arcaea.tapcn/files/cb/active",
+    "versionName": "7.2.0",
+    "versionCode": "285",
+    "files": {
+        "songs/songlist": {
+            "source": "songs/songlist",
+            "sha256": "a929676b309eeb81f6d17cfbbf2669183a2e659b1a3012459888487e07ae14c0",
+            "bytes": 1113419,
+            "entries": 561
+        },
+        "songs/packlist": {
+            "source": "songs/packlist",
+            "sha256": "10fab4e051e47540b4a1e90a58e9749084d7ee794bf805979ab562dfca5bd89e",
+            "bytes": 108931,
+            "entries": 63
+        },
+        "songs/unlocks": {
+            "source": "songs/unlocks",
+            "sha256": "a576df39fec71f6158e239f90a6129084046b597d01b54f08fe88ea879fb3e37",
+            "bytes": 154425,
+            "entries": 483
+        },
+        "tl/zh-Hans_merged_automatic.mo": {
+            "source": "tl/zh-Hans_merged_automatic.mo",
+            "sha256": "35125afa5155418ad84e27069e6f75dfe12456c6a0a631e0e9e11bcd4cc0fe94",
+            "bytes": 136094,
+            "entries": 1425
+        },
+        "tl.json": {
+            "source": "tl/zh-Hans_merged_automatic.mo",
+            "sha256": "02fc84b9de3d624e68b6851e2d367573432c8af8ffa83b83d2856d332d969ab3",
+            "bytes": 120505,
+            "entries": 1425
+        }
+    }
+}
