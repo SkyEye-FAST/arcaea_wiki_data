@@ -81,8 +81,9 @@ def collect_artwork(archive: zipfile.ZipFile) -> list[Artwork]:
             continue
         match = re.fullmatch(r"assets/char/1080/(\d+)([uol]?)\.png", member)
         icon = re.fullmatch(r"assets/char/(\d+)([uol]?)_icon\.png", member)
-        if match or icon:
-            character_id, variant = (match or icon).groups()
+        character_match = match or icon
+        if character_match is not None:
+            character_id, variant = character_match.groups()
             # This icon is intentionally excluded from automatic Wiki uploads.
             if icon and character_id == "1" and variant == "l":
                 continue
@@ -173,6 +174,7 @@ def new_artwork(archive: zipfile.ZipFile, baseline: Path) -> list[Artwork]:
                 r"assets/songs/(?:dl_)?([^/]+)/(?:1080_)?(base(?:_night|_ja)?|[0-4])\.jpg",
                 item.member,
             )
+            assert match is not None, f"Unexpected jacket member: {item.member}"
             song_id, variant = match.groups()
             old_song = old_songs.get(song_id)
             added = old_song is None or (
@@ -182,7 +184,9 @@ def new_artwork(archive: zipfile.ZipFile, baseline: Path) -> list[Artwork]:
             pack_id = item.title.removeprefix("Pack_").removesuffix(".png")
             added = pack_id not in old_packs and pack_id.removesuffix("_alt") not in old_packs
         elif item.kind in {"partner", "icon"}:
-            character_id = re.match(r"Partner_(\d+)", item.title)[1]
+            match = re.match(r"Partner_(\d+)", item.title)
+            assert match is not None, f"Unexpected partner title: {item.title}"
+            character_id = match[1]
             old_character = old_characters.get(character_id)
             added = old_character is None or (
                 "_awaken" in item.title
