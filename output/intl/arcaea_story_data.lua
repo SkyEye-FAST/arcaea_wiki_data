@@ -1329,4 +1329,33 @@ return {
         ["clearChar"] = "99",
         ["clearSong"] = "lightningscrew",
     },
+    ["24-0"] = {
+        ["hasCg"] = "1",
+        ["icon"] = "arknights2",
+        ["requiredPurchase"] = "arknights",
+        ["clearSong"] = "hascome",
+    },
+    ["24-1"] = {
+        ["icon"] = "arknights",
+        ["requiredMinor"] = "24-0",
+        ["requiredPurchase"] = "arknights",
+        ["clearChar"] = "102",
+        ["clearSong"] = "speedoflight",
+    },
+    ["24-2"] = {
+        ["hasCg"] = "1",
+        ["icon"] = "arknights",
+        ["requiredMinor"] = "24-1",
+        ["requiredPurchase"] = "arknights",
+        ["clearChar"] = "102",
+        ["clearSong"] = "somniomancer",
+    },
+    ["24-3"] = {
+        ["hasCg"] = "1",
+        ["icon"] = "arknights",
+        ["requiredMinor"] = "24-2",
+        ["requiredPurchase"] = "arknights",
+        ["clearChar"] = "102",
+        ["clearSong"] = "radiant",
+    },
 }

@@ -560,7 +560,16 @@
             "schrago": 558,
             "fatality": 559,
             "parallax": 560,
-            "trickmaster": 561
+            "trickmaster": 561,
+            "renegadeark": 562,
+            "missyou": 563,
+            "speedoflight": 564,
+            "fadingsky": 565,
+            "radiant": 566,
+            "alive": 567,
+            "hascome": 568,
+            "opspectheme": 569,
+            "somniomancer": 570
         },
         "name": {
             "Sayonara Hatsukoi": 1,
@@ -989,7 +998,7 @@
             "Don't Fight The Music": 427,
             "And Revive The Melody": 428,
             "Swan Song": 429,
-            "Renegade": 430,
+            "Renegade": 562,
             "Rays of Remnant": 431,
             "Breach of Faith": 432,
             "Lament Rain": 433,
@@ -1120,7 +1129,15 @@
             "Schra Go (Uchina Time)": 558,
             "Fatality": 559,
             "Parallax": 560,
-            "Tr!cK Ma?tEr": 561
+            "Tr!cK Ma?tEr": 561,
+            "Miss You": 563,
+            "Speed of Light": 564,
+            "Fading Sky": 565,
+            "Radiant": 566,
+            "ALIVE": 567,
+            "......已至。": 568,
+            "Operation Spectrum Battle Theme": 569,
+            "Somniomancer [null set]": 570
         }
     },
     "ns": {

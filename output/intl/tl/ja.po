@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"PO-Revision-Date: 2026-10-22 01:07+0100\n"
+"PO-Revision-Date: 2026-11-11 04:57+0000\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: ja\n"
@@ -290,9 +290,6 @@ msgstr ""
 msgid "1 second remains"
 msgstr "あと1秒。"
 
-msgid "5th Anniversary Ticket"
-msgstr "5周年記念チケット"
-
 msgid "99+"
 msgstr "99+"
 
@@ -446,6 +443,9 @@ msgstr "楽曲を放棄"
 msgid "Absolution"
 msgstr "Absolution"
 
+msgid "Absolution[CUSTOMIZE]"
+msgstr "Absolution"
+
 msgid "Accept"
 msgstr "承認"
 
@@ -584,13 +584,6 @@ msgstr ""
 msgid "Alluring Core"
 msgstr "蠱惑の核"
 
-msgid ""
-"Alternatively, quickly toggle between categories\n"
-"by tapping the left category buttons. "
-msgstr ""
-"または、画面左側の『カテゴリ』ボタンをタップして、\n"
-"手早く特定カテゴリへの切替えも可能です。"
-
 msgid "Alternatively, use a code to join an existing room."
 msgstr ""
 "『非公開ルーム』では、フレンドの招待のほか、\n"
@@ -608,6 +601,9 @@ msgstr "天々音"
 
 msgid "Ambivalent Core"
 msgstr "相反の核"
+
+msgid "Amiya"
+msgstr "アーミヤ"
 
 msgid "An account has already been made from this device."
 msgstr "既にこの端末で登録したアカウントが存在します"
@@ -768,6 +764,15 @@ msgstr "アレウス"
 msgid "Aria"
 msgstr "Aria"
 
+msgid "Arknights"
+msgstr "アークナイツ"
+
+msgid "Arknights Collaboration Pack"
+msgstr "『Arknights Collaboration』パック"
+
+msgid "Arknights Core"
+msgstr "アークナイツの核"
+
 msgid "Article I"
 msgstr "第1問"
 
@@ -893,6 +898,13 @@ msgstr ""
 
 msgid "Beginnings"
 msgstr "旅立ち"
+
+msgid ""
+"Below the selected Partner, their skills and stats are displayed.\n"
+"These can affect the results of gameplay, but not your score."
+msgstr ""
+"『パートナー』を選択すると、スキルの効果とステータス値が画面下に表示されます。\n"
+"この数値やスキルに応じて、ゲームに様々な効果が現れますが、スコア計算には影響しません。"
 
 msgid "Beyond"
 msgstr "Beyond"
@@ -1345,6 +1357,13 @@ msgstr "サーバーへの接続に失敗しました"
 
 msgid "Course Mode"
 msgstr "Course Mode"
+
+msgid ""
+"Course Mode challenges you to clear several songs in sequence\n"
+"for rewards, testing your endurance."
+msgstr ""
+"『Course Mode』は、決められた数曲を連続でプレイする、\n"
+"実力が試されるモードです。クリア時に報酬も手に入ります。"
 
 msgid "Course has been abandoned"
 msgstr "コースをリタイアしました。"
@@ -2000,6 +2019,11 @@ msgstr ""
 "〔私の知る限りをここに記そう。\n"
 "この手記を読むかもしれない、あなたのために〕"
 
+msgid "For those seeking greater challenges, higher difficulties await."
+msgstr ""
+"より無慈悲な挑戦を望まれる方には、\n"
+"他の高難易度もおすすめです。"
+
 msgid "Forget an old adage. Hurry along."
 msgstr "急ぎたまえよ──古臭い言い回しなど忘れるコトだ。"
 
@@ -2190,8 +2214,8 @@ msgid ""
 "HARD + Collect Prizes during song play\n"
 "And then..."
 msgstr ""
-"HARD +\n"
-"楽曲プレイ中にギフトを収集すると……"
+"HARD + 楽曲プレイ時にギフトを収集する\n"
+"すると……"
 
 msgid ""
 "HARD + Earn +%@ Fragments\n"
@@ -2398,6 +2422,9 @@ msgstr "テキストを非表示"
 msgid "High Score"
 msgstr "ハイスコア"
 
+msgid "High score:"
+msgstr "High score:"
+
 msgid "Hikari"
 msgstr "光"
 
@@ -2467,11 +2494,25 @@ msgid "IV: Incomplete Path"
 msgstr "IV: 未完なる[路]"
 
 msgid ""
+"If you are new to rhythm games,\n"
+"it is recommended to choose the \"Past\" difficulty."
+msgstr ""
+"リズムゲームに挑戦するのがはじめてなら、\n"
+"難易度『PAST』がおすすめです。"
+
+msgid ""
 "If you are so desperate to meet me...\n"
 "...Try again, soon."
 msgstr ""
 "君がなおも拝謁を望むのなら……、\n"
 "懲りずにまた試すことだ、すぐにね。"
+
+msgid ""
+"If you have experience with rhythm games,\n"
+"it is recommended to choose the \"Present\" difficulty."
+msgstr ""
+"リズムゲームをやったことがある方には、\n"
+"難易度『PRESENT』がおすすめです。"
 
 msgid ""
 "If you're enjoying Arcaea, please consider writing a review.\n"
@@ -2510,9 +2551,6 @@ msgstr "幻影"
 msgid "Illustration"
 msgstr "イラスト"
 
-msgid "In Falsus - Out Now on Steam!"
-msgstr "『In Falsus』Steamにてリリース！"
-
 msgid "In Lead selection, the Lead selects a song to play."
 msgstr "代表制では、リーダーがプレイ楽曲を選びます。"
 
@@ -2545,34 +2583,6 @@ msgstr ""
 "\n"
 "『Black Fate』までのパック5種を含むセットです。\n"
 "光と対立の数奇な旅路を巡り、そしてその先へ──。"
-
-msgid ""
-"In a world bound by truths: connect.\n"
-"\n"
-"In Falsus, the second music game from lowiro, officially launches\n"
-"September 9th, 2026, on PC.\n"
-"\n"
-"A narrative-centric PC rhythm game built around\n"
-"original keyboard and mouse controls, a full-length ADV\n"
-"Scenario voiced in Japanese, and Card Crafting gameplay.\n"
-"\n"
-"In Falsus releases with over 70 songs, more than 40 entirely original—\n"
-"composed by artists across many genres, including many not\n"
-"seen before in Arcaea."
-msgstr ""
-"繋がれ───真実に絆された世界で。\n"
-"\n"
-"lowiroが贈るリズムゲーム第2弾、『In Falsus』のPC版が\n"
-"2026年9月9日、正式にリリース。\n"
-"\n"
-"『In Falsus』は、キーボードとマウスを用いた独自の\n"
-"操作システムのリズムゲームと、日本語フルボイスで\n"
-"贈る長編ADVシナリオ、そしてカードクラフト要素の三つを\n"
-"軸に据えた、新しい物語重視のPCリズムゲームです。\n"
-"\n"
-"『In Falsus』には70曲以上の楽曲が収録され、そのうちの40曲以上が\n"
-"『In Falsus』のために書き下ろされた完全オリジナル楽曲です。\n"
-"『Arcaea』とはまた一味異なった、新たな多様性に満ちた楽曲群をお楽しみください。"
 
 msgid ""
 "In order to use the Arcaea online services\n"
@@ -2973,18 +2983,18 @@ msgid "Memory Boost"
 msgstr "メモリーブースト"
 
 msgid ""
-"Memory Boost active. In this chapter, your next play progress\n"
-"and Partner experience gain will have a %@x multiplier."
+"Memory Boost increases progress and experience for your next World play.\n"
+"It stays active until you play a song in any map. (Excludes 0 and 1-Stamina maps)"
 msgstr ""
-"現在、メモリーブーストが発動中です。\n"
-"本チャプターでは次曲の進行度・経験値が%@倍になります。"
+"メモリーブーストを使用すると、World Modeの進行度と経験値が増加します。\n"
+"なお、本機能はスタミナ消費0~1以外のマップで1曲プレイするまで有効です。"
 
 msgid ""
-"Memory Boost increases progress and experience for your next World play.\n"
-"It stays active until you play a song in any map. (Excludes Legacy chapters)"
+"Memory Boost is active. Your next play progress for this map\n"
+"and Partner experience gain will have a %@x multiplier."
 msgstr ""
-"メモリーブーストを使用すると、World Modeの進行度と経験値が増加します\n"
-"レガシーチャプター以外のどこかのマップで1曲プレイするまで有効です。"
+"メモリーブーストが発動中です。\n"
+"このマップでは、次曲の進行度・経験値が%@倍になります。"
 
 msgid ""
 "Memory Boost, Stamina Boost, and Beyond Boost do not influence each other\n"
@@ -3038,6 +3048,12 @@ msgstr "More"
 
 msgid "More players are needed to start."
 msgstr "開始にはプレイヤー人数が足りません。"
+
+msgid "Motion"
+msgstr "モーション設定"
+
+msgid "Motion Partner"
+msgstr "モーションパートナー"
 
 msgid "Music"
 msgstr "作曲"
@@ -3473,6 +3489,9 @@ msgstr "パック"
 msgid "Pack Append"
 msgstr "Pack Append"
 
+msgid "Pack Exchange Ticket"
+msgstr "楽曲パック交換チケット"
+
 msgid ""
 "Pack required to\n"
 "unlock FTR difficulty"
@@ -3577,11 +3596,11 @@ msgstr "『ネットワーク』で追加したフレンドは、プロフカー
 msgid "Phase"
 msgstr "Phase"
 
+msgid "Phase %@"
+msgstr "Phase %@"
+
 msgid "Play %@ %2@"
 msgstr "%@ %2@ をプレイする"
-
-msgid "Play Now"
-msgstr "今すぐプレイ"
 
 msgid "Play Result"
 msgstr "プレイ結果"
@@ -3599,9 +3618,6 @@ msgid ""
 msgstr ""
 "楽曲プレイ中です。\n"
 "今すぐこのルームに参加することはできません。"
-
-msgid "Play it now on Steam!"
-msgstr "今すぐSteamで『In Falsus』をプレイ！"
 
 msgid "Player ID"
 msgstr "プレイヤーID"
@@ -3738,6 +3754,9 @@ msgid "Progress through World Mode to earn songs, Partners, & other rewards."
 msgstr ""
 "ワールドモードを進めていくことで\n"
 "楽曲やパートナーなどのコンテンツを開放することができます"
+
+msgid "Progress through World Mode to earn songs, Partners, and other rewards."
+msgstr "『World Mode』からは、様々な楽曲やパートナーの解禁、他にもアイテムなどを獲得することが可能です。"
 
 msgid "Progress through a total of %@X steps in this chapter in order to unlock this Map"
 msgstr "本マップの解禁には、このチャプターでトータル、%@Xステップ分の踏破が必要です。"
@@ -4097,6 +4116,9 @@ msgstr "喚び声を聞く"
 msgid "Review Now"
 msgstr "レビューを書く"
 
+msgid "Reward:"
+msgstr "Reward:"
+
 msgid "Rewards"
 msgstr "報酬"
 
@@ -4190,6 +4212,21 @@ msgstr ""
 "次グレードまでの距離を\n"
 "スコアの代わりに表示"
 
+msgid ""
+"Scroll the category panel vertically to switch the current category,\n"
+"and horizontally to browse the Packs within."
+msgstr ""
+"カテゴリーは上下スワイプで移動でき、\n"
+"左右スワイプでカテゴリーに当てはまる『楽曲パック』が見ることが出来ます。"
+
+msgid "Scroll the list of Partners on the left and tap any diamond to select them."
+msgstr ""
+"左側のリストをスクロールして、ダイヤ型のアイコンをタップすることで、\n"
+"『パートナー』の選択が可能です。"
+
+msgid "Scroll the list on the right and select which song you wish to play."
+msgstr "画面右側の『楽曲リスト』を上下にスクロールし、タップで遊ぶ楽曲を選択できます。"
+
 msgid "Search..."
 msgstr "検索"
 
@@ -4234,27 +4271,8 @@ msgstr "楽曲を選んでください"
 msgid "Select a map and play songs to progress towards rewards."
 msgstr "コンテンツを開放するには、マップを選択し、楽曲をプレイします"
 
-msgid ""
-"Select an obtained Partner to level up, switch between base and\n"
-"Awakened forms, or add to favorites by tapping their icon once more."
-msgstr ""
-"所持済みのパートナーではレベルアップ、通常と覚醒の切り替えなどが行えます。\n"
-"パートナーのアイコンをもう一度タップすると、お気に入りへの追加ができます。"
-
 msgid "Select the Partner '%@'"
 msgstr "パートナー『%@』を選択"
-
-msgid ""
-"Select the desired Partner by scrolling from the list on the left.\n"
-"Find Partners easily by tapping the Filter icon or entering a name in the Search bar."
-msgstr ""
-"左側のリストをスクロールして、パートナーを選択できます。\n"
-"フィルターのタップ、検索欄への名前入力でパートナーを探すこともできます。"
-
-msgid "Selecting an unobtained Partner will preview their Skill and max level stats."
-msgstr ""
-"未所持のパートナーを選択すると、そのパートナーの\n"
-"最大レベル時のスキルとステータスを確認できます。"
 
 msgid "Selene Sheryl"
 msgstr "セレネ・シェリル"
@@ -4285,6 +4303,13 @@ msgstr "セツナ"
 
 msgid "Settings"
 msgstr "設定"
+
+msgid ""
+"Settings such as music offset and note speed are available at the top.\n"
+"If using wireless headphones it is recommended to adjust your offset."
+msgstr ""
+"より詳細な設定（オフセット設定、ハイスピード設定など）は画面上部、\n"
+"『設定』から変更できます。無線イヤホン使用時には、オフセット変更をおすすめします。"
 
 msgid "Setup"
 msgstr "調整する"
@@ -4381,8 +4406,10 @@ msgstr ""
 "すこし上の方にスカイノートが流れてくることがあります\n"
 "上のラインに合わせてタップしましょう"
 
-msgid "Slide songs to the right to add them to Favorites."
-msgstr "楽曲を右にスワイプして、『Favorites』に追加できます。"
+msgid "Slide songs to the right and tap the icon to add them to Favorites."
+msgstr ""
+"楽曲を右にスワイプして出るアイコンをタップすると、\n"
+"『Favorites』に追加できます。"
 
 msgid "Slip free from time."
 msgstr "───時の軛から抜け出せ。"
@@ -4407,14 +4434,20 @@ msgid "Sonata"
 msgstr "Sonata"
 
 msgid ""
-"Song Packs are organized by category. Scroll the category panel vertically\n"
-"to switch the current category, and horizontally to browse the Packs within."
+"Song Packs are organized by category:\n"
+"Main Story, Side Story, Collaboration, and Variety."
 msgstr ""
-"楽曲パックはカテゴリ順に並んでいます。上下スワイプでカテゴリ切り替え、\n"
-"左右にスワイプで該当カテゴリのパックが一覧できます。"
+"『楽曲パック』は様々なカテゴリーで分かれています。\n"
+"『メインストーリー』『サイドストーリー』『コラボレーション』そして、『バラエティ』など。"
+
+msgid "Song Packs contain collections of songs across a variety of themes."
+msgstr "『楽曲パック』は、さまざまなテーマのもとに集められた、複数の楽曲集です。"
 
 msgid "Song Select"
 msgstr "選曲権"
+
+msgid "Song difficulty can be changed from the top left."
+msgstr "楽曲の『難易度』は画面左上からを変えられます。"
 
 msgid "Song."
 msgstr "唄"
@@ -4431,6 +4464,9 @@ msgid ""
 msgstr ""
 "難易度FTR解禁には\n"
 "上記の楽曲が必要です"
+
+msgid "Songs:"
+msgstr "Songs:"
 
 msgid "Sort"
 msgstr "ソート"
@@ -4536,6 +4572,16 @@ msgstr ""
 
 msgid "Stella"
 msgstr "ステラ"
+
+msgid "Steps are granted after completing a song."
+msgstr "『ステップ数』は、1曲クリアした後に獲得できます。"
+
+msgid ""
+"Steps granted are based on song difficulty, your performance from song play,\n"
+"your Partner's STEP stat, and at times your Partner's Skill."
+msgstr ""
+"『ステップ数』は、プレイした1曲の難易度と、そのスコア、そして『パートナー』のステータス項目の一つ『STEP値』\n"
+"によって算出されます。『パートナー』のスキルが影響することもあります。"
 
 msgid "Stop in between, and start again."
 msgstr "───狭間にて止まれ、また進め。"
@@ -4695,6 +4741,13 @@ msgstr "タップすると、他の楽曲パックに切り替えることが出
 msgid "Tempest"
 msgstr "Tempest"
 
+msgid ""
+"Temporarily activate Skill during song play\n"
+"Gain Fragments based on performance"
+msgstr ""
+"楽曲プレイ時、一時的にスキルを発動\n"
+"プレイ成績に応じて欠片を獲得"
+
 msgid "Terms of Service"
 msgstr "利用規約"
 
@@ -4718,11 +4771,22 @@ msgstr ""
 "World Modeでスタミナ消費時、『Beyond ブースト』ゲージが上昇します（最大200%）\n"
 "『Beyond ブースト』を起動すると、Beyondチャプターの進行度が増加します。"
 
+msgid "The Arcaea Pack consists entirely of free songs."
+msgstr "楽曲パック『Arcaea』は、フリープレイ楽曲のみで構成されています。"
+
+msgid "The Arcaea category contains other additional Packs."
+msgstr "『Arcaea』カテゴリーはその他の追加パックを含みます。"
+
 msgid "The Arcaea network is currently under maintenance."
 msgstr "ネットワーク機能は現在メンテナンス中です。"
 
 msgid "The Lead selects a song to play."
 msgstr "選曲者は遊ぶ曲を選びます。"
+
+msgid ""
+"The Memory Archive features individual songs\n"
+"that can be obtained using Memories."
+msgstr "『Memory Archive』は、単曲リリースを集めたカテゴリです。メモリー消費で獲得できます。"
 
 msgid "The battle begins again"
 msgstr "そして再度、戦端を開く"
@@ -4751,6 +4815,13 @@ msgstr ""
 "\n"
 "なお、Arcaeaを継続的にご利用いただく場合、\n"
 "改定後のプライバシーポリシーにご同意頂いたものとします。"
+
+msgid ""
+"The number below each tile indicates how many Steps it takes\n"
+"to move to the next tile."
+msgstr ""
+"各『マス』の下部に表示されている数字が、次の『マス』に必要な数値、\n"
+"『ステップ数』を示します。"
 
 msgid ""
 "The paths that lie ahead are dark, yet they beckon you with distant light.\n"
@@ -4797,6 +4868,9 @@ msgstr ""
 msgid "Their Story"
 msgstr "彼女らの物語"
 
+msgid "Theme"
+msgstr "情景スキン"
+
 msgid ""
 "There are players in your room\n"
 "who have not purchased or unlocked this song."
@@ -4835,6 +4909,18 @@ msgstr "スコアの送信処理中にエラーが発生しました"
 
 msgid "This Intruder has reached maximum level."
 msgstr "かの侵犯者は最大レベルに到達しました"
+
+msgid ""
+"This Pack is available to obtain until 17 March 2028.\n"
+"\n"
+"Once obtained, the Pack's contents can continue\n"
+"to be accessed after 17 March 2028."
+msgstr ""
+"このパックは、2028/03/17 までの\n"
+"期間限定で入手できます。\n"
+"\n"
+"パック内の楽曲は、一度入手すると\n"
+"上記の期間後もプレイ可能です。"
 
 msgid ""
 "This Pack is available to obtain until 24 June 2029.\n"
@@ -5180,8 +5266,11 @@ msgstr ""
 msgid "Unlock all rewards to claim Tier reward"
 msgstr "このTierの全ミッションを完了すると、報酬が獲得できます"
 
-msgid "Unlocked by reaching Potential 9.00"
-msgstr "ポテンシャルが9.0に到達すると、解禁されます"
+msgid "Unlock by obtaining the %1@"
+msgstr "%1@の獲得で解禁"
+
+msgid "Unlocked by reaching Potential 9.000"
+msgstr "ポテンシャルが9.000に到達すると、解禁されます"
 
 msgid "Unlocked in Axiom of the End"
 msgstr "Axiom of the Endにて解禁可能"
@@ -5199,6 +5288,9 @@ msgid ""
 msgstr ""
 "World Modeにて解禁可能\n"
 "Lost Chapter: Beyond"
+
+msgid "Unobtained Partners are previewed at max level and cannot be selected."
+msgstr "獲得していない『パートナー』は、最大レベルでプレビュー表示されますが、選択することは出来ません。"
 
 msgid "Unowned"
 msgstr "未解放"
@@ -5406,6 +5498,13 @@ msgstr ""
 "本アイテムはWorld Modeなど、様々なタイミングで入手できます。"
 
 msgid ""
+"Warped Shards can be used instead of stamina to start any unlocked course.\n"
+"They are obtained through World Mode and various other means."
+msgstr ""
+"次元の硝片をスタミナの代わりに消費することで、解禁済みのコースをプレイ出来ます。\n"
+"本アイテムはWorld Modeなど、様々なタイミングで入手できます。"
+
+msgid ""
 "Watch Axiom of the End\n"
 "from above for 4 minutes"
 msgstr ""
@@ -5494,6 +5593,16 @@ msgstr ""
 "%@%のボーナスが加算されます。"
 
 msgid ""
+"World Extend contains songs that can be obtained freely for a limited time,\n"
+"or obtained later using Memories."
+msgstr ""
+"『World Extend』パックは、期間限定で入手できる一曲ずつを集めたパックです。\n"
+"所定の期間を過ぎた場合は、メモリーを消費して獲得できます。"
+
+msgid "World Mode"
+msgstr "World Mode"
+
+msgid ""
 "World Mode has been overloaded.\n"
 "The overload will clear in %@.\n"
 "\n"
@@ -5518,6 +5627,11 @@ msgstr ""
 "この状態はスタミナ回復時に解消されます。\n"
 "スタミナを回復しますか？\n"
 "スキップしてLink Playを続行しますか？"
+
+msgid "World Mode maps are progressed over a series of tiles."
+msgstr ""
+"『World Mode』のマップは、すごろくのような『マス』で構成されており、\n"
+"それを進むことで進行していきます。"
 
 msgid ""
 "World Mode progress randomly increased\n"
@@ -5905,8 +6019,8 @@ msgstr "App Store"
 msgid "via Arcaea Online"
 msgstr "Arcaea Online経由で購入"
 
-msgid "with 5th Anniversary Ticket"
-msgstr "記念チケットを消費します"
+msgid "with Pack Exchange Ticket"
+msgstr "楽曲パック交換チケット使用で無料"
 
 msgid "x%@ Boost"
 msgstr "ブースト%@倍"

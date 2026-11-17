@@ -2845,6 +2845,7 @@
   {
       "character_id": 100,
       "base_character": false,
+      "base_character_id": 10,
       "name": "ilith_halloween",
       "char_type": 2,
       "is_available": false,
@@ -2885,8 +2886,49 @@
       "version_from": "7.1.0",
       "pack_id": "diversesystem",
       "search_strings": [
+          "ネネ&シルキー",
           "네네 육 실키",
           "네네 식스 실키"
+      ]
+  },
+  {
+      "character_id": 102,
+      "base_character": true,
+      "name": "amiya",
+      "char_type": 0,
+      "is_available": false,
+      "is_previewable": false,
+      "base_frag": 39,
+      "base_prog": 47,
+      "base_over": 40,
+      "max_frag": 62,
+      "max_prog": 75,
+      "max_over": 64,
+      "skill_id": "skill_amiya",
+      "skill_unlock_level": 0,
+      "version_from": "7.3.0",
+      "uncap_version_from": "7.3.0",
+      "pack_id": "arknights",
+      "use_spine_model": 3,
+      "spine_model_path": "models/char/102/Amiya_Arcaea.json",
+      "spine_atlas_path": "models/char/102/Amiya_Arcaea.atlas",
+      "spine_model_path_uncap": "models/char/102u/Amiya_Arcaea.json",
+      "spine_atlas_path_uncap": "models/char/102u/Amiya_Arcaea.atlas",
+      "spine_animations": {
+	"idle": "idle",
+	"greeting": "clear",
+	"result_clear": "greeting",
+	"result_fail": "fail"
+      },
+      "uncap_cores": [{
+        "core_type": "core_arknights",
+        "amount": 15
+      }],
+      "search_strings": [
+          "アーミヤ",
+          "아미야",
+          "阿米娅",
+          "阿米婭"
       ]
   }
 ]

@@ -8413,6 +8413,326 @@
           "credit": 1000
         }
       ]
-    }
+    },
+  {
+    "songId": "radiant",
+    "ratingClass": 1,
+    "conditions": [
+      {
+        "type": 0,
+        "credit": 20
+      }
+    ]
+  },
+  {
+    "songId": "radiant",
+    "ratingClass": 2,
+    "conditions": [
+      {
+        "type": 1,
+        "song_id": "missyou",
+        "song_difficulty": 2,
+        "grade": 0
+      },
+      {
+        "type": 1,
+        "song_id": "speedoflight",
+        "song_difficulty": 2,
+        "grade": 0
+      },
+      {
+        "type": 1,
+        "song_id": "fadingsky",
+        "song_difficulty": 2,
+        "grade": 0
+      },
+      {
+        "type": 0,
+        "credit": 30
+      }
+    ]
+  },
+  {
+    "songId": "radiant",
+    "ratingClass": 4,
+    "conditions": [
+      {
+        "type": 1,
+        "song_id": "speedoflight",
+        "song_difficulty": 4,
+        "grade": 0
+      },
+      {
+        "type": 1,
+        "song_id": "fadingsky",
+        "song_difficulty": 4,
+        "grade": 0
+      },
+      {
+        "type": 0,
+        "credit": 50
+      }
+    ]
+  },
+  {
+    "songId": "hascome",
+    "ratingClass": 1,
+    "conditions": [
+      {
+        "type": 0,
+        "credit": 20
+      }
+    ]
+  },
+  {
+    "songId": "hascome",
+    "ratingClass": 2,
+    "conditions": [
+      {
+        "type": 1,
+        "song_id": "missyou",
+        "song_difficulty": 2,
+        "grade": 0
+      },
+      {
+        "type": 1,
+        "song_id": "speedoflight",
+        "song_difficulty": 2,
+        "grade": 0
+      },
+      {
+        "type": 1,
+        "song_id": "fadingsky",
+        "song_difficulty": 2,
+        "grade": 0
+      },
+      {
+        "type": 0,
+        "credit": 30
+      }
+    ]
+  },
+  {
+    "songId": "hascome",
+    "ratingClass": 4,
+    "conditions": [
+      {
+        "type": 1,
+        "song_id": "speedoflight",
+        "song_difficulty": 4,
+        "grade": 0
+      },
+      {
+        "type": 1,
+        "song_id": "fadingsky",
+        "song_difficulty": 4,
+        "grade": 0
+      },
+      {
+        "type": 0,
+        "credit": 50
+      }
+    ]
+  },
+  {
+    "songId": "opspectheme",
+    "ratingClass": 1,
+    "conditions": [
+      {
+        "type": 0,
+        "credit": 20
+      }
+    ]
+  },
+  {
+    "songId": "opspectheme",
+    "ratingClass": 2,
+    "conditions": [
+      {
+        "type": 1,
+        "song_id": "missyou",
+        "song_difficulty": 2,
+        "grade": 0
+      },
+      {
+        "type": 1,
+        "song_id": "speedoflight",
+        "song_difficulty": 2,
+        "grade": 0
+      },
+      {
+        "type": 1,
+        "song_id": "fadingsky",
+        "song_difficulty": 2,
+        "grade": 0
+      },
+      {
+        "type": 0,
+        "credit": 30
+      }
+    ]
+  },
+  {
+    "songId": "opspectheme",
+    "ratingClass": 4,
+    "conditions": [
+      {
+        "type": 1,
+        "song_id": "speedoflight",
+        "song_difficulty": 4,
+        "grade": 0
+      },
+      {
+        "type": 1,
+        "song_id": "fadingsky",
+        "song_difficulty": 4,
+        "grade": 0
+      },
+      {
+        "type": 0,
+        "credit": 150
+      }
+    ]
+  },
+  {
+    "songId": "alive",
+    "ratingClass": 1,
+    "conditions": [
+      {
+        "type": 1,
+        "song_id": "radiant",
+        "song_difficulty": 1,
+        "grade": 0
+      },
+      {
+        "type": 1,
+        "song_id": "hascome",
+        "song_difficulty": 1,
+        "grade": 0
+      },
+      {
+        "type": 1,
+        "song_id": "opspectheme",
+        "song_difficulty": 1,
+        "grade": 0
+      },
+      {
+        "type": 0,
+        "credit": 80
+      }
+    ]
+  },
+  {
+    "songId": "alive",
+    "ratingClass": 2,
+    "conditions": [
+      {
+        "type": 1,
+        "song_id": "radiant",
+        "song_difficulty": 2,
+        "grade": 0
+      },
+      {
+        "type": 1,
+        "song_id": "hascome",
+        "song_difficulty": 2,
+        "grade": 0
+      },
+      {
+        "type": 1,
+        "song_id": "opspectheme",
+        "song_difficulty": 2,
+        "grade": 0
+      },
+      {
+        "type": 0,
+        "credit": 150
+      }
+    ]
+  },
+  {
+    "songId": "somniomancer",
+    "ratingClass": 1,
+    "conditions": [
+      {
+        "type": 1,
+        "song_id": "radiant",
+        "song_difficulty": 1,
+        "grade": 0
+      },
+      {
+        "type": 1,
+        "song_id": "hascome",
+        "song_difficulty": 1,
+        "grade": 0
+      },
+      {
+        "type": 1,
+        "song_id": "opspectheme",
+        "song_difficulty": 1,
+        "grade": 0
+      },
+      {
+        "type": 0,
+        "credit": 80
+      }
+    ]
+  },
+  {
+    "songId": "somniomancer",
+    "ratingClass": 2,
+    "conditions": [
+      {
+        "type": 1,
+        "song_id": "radiant",
+        "song_difficulty": 2,
+        "grade": 0
+      },
+      {
+        "type": 1,
+        "song_id": "hascome",
+        "song_difficulty": 2,
+        "grade": 0
+      },
+      {
+        "type": 1,
+        "song_id": "opspectheme",
+        "song_difficulty": 2,
+        "grade": 0
+      },
+      {
+        "type": 0,
+        "credit": 150
+      }
+    ]
+  },
+  {
+    "songId": "somniomancer",
+    "ratingClass": 4,
+    "conditions": [
+      {
+        "type": 1,
+        "song_id": "radiant",
+        "song_difficulty": 4,
+        "grade": 0
+      },
+      {
+        "type": 1,
+        "song_id": "hascome",
+        "song_difficulty": 4,
+        "grade": 0
+      },
+      {
+        "type": 2,
+        "song_id": "opspectheme",
+        "song_difficulty": 4,
+        "grade": 0
+      },
+      {
+        "type": 0,
+        "credit": 180
+      }
+    ]
+  }
   ]
 }

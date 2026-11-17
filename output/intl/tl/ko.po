@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"PO-Revision-Date: 2026-09-07 02:45+0100\n"
+"PO-Revision-Date: 2026-11-11 04:58+0000\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: ko\n"
@@ -9,7 +9,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 3.9\n"
+"X-Generator: Poedit 3.10\n"
 "X-Poedit-Basepath: ../../Classes\n"
 "X-Poedit-KeywordsList: _\n"
 "X-Poedit-SearchPath-0: .\n"
@@ -289,9 +289,6 @@ msgstr ""
 msgid "1 second remains"
 msgstr "1초 남음"
 
-msgid "5th Anniversary Ticket"
-msgstr "5주년 기념 티켓"
-
 msgid "99+"
 msgstr "99+"
 
@@ -438,6 +435,9 @@ msgstr "플레이 중단"
 msgid "Absolution"
 msgstr "Absolution"
 
+msgid "Absolution[CUSTOMIZE]"
+msgstr "Absolution"
+
 msgid "Accept"
 msgstr "수락"
 
@@ -573,11 +573,6 @@ msgstr ""
 msgid "Alluring Core"
 msgstr "매혹적인 코어"
 
-msgid ""
-"Alternatively, quickly toggle between categories\n"
-"by tapping the left category buttons. "
-msgstr "또는, 왼쪽의 카테고리 버튼을 탭하여 카테고리를 빠르게 변경해보세요."
-
 msgid "Alternatively, use a code to join an existing room."
 msgstr "또는 코드를 사용하여 존재하는 룸에 입장해보세요!"
 
@@ -593,6 +588,9 @@ msgstr "아마네"
 
 msgid "Ambivalent Core"
 msgstr "양가성 코어"
+
+msgid "Amiya"
+msgstr "아미야"
 
 msgid "An account has already been made from this device."
 msgstr "이미 이 기기에서 계정이 생성된 기록이 있습니다"
@@ -747,6 +745,15 @@ msgstr "아레우스"
 msgid "Aria"
 msgstr "Aria"
 
+msgid "Arknights"
+msgstr "명일방주"
+
+msgid "Arknights Collaboration Pack"
+msgstr "Arknights Collaboration Pack"
+
+msgid "Arknights Core"
+msgstr "명일방주 코어"
+
 msgid "Article I"
 msgstr "제1권"
 
@@ -869,6 +876,13 @@ msgstr ""
 
 msgid "Beginnings"
 msgstr "이야기의 시작"
+
+msgid ""
+"Below the selected Partner, their skills and stats are displayed.\n"
+"These can affect the results of gameplay, but not your score."
+msgstr ""
+"선택한 파트너 밑에는, 스킬과 능력치가 표기됩니다.\n"
+"스킬과 능력치는 게임플레이 자체에 영향을 끼치고, 점수에는 영향이 없습니다."
 
 msgid "Beyond"
 msgstr "Beyond"
@@ -1316,6 +1330,13 @@ msgstr "서버에 연결할 수 없습니다."
 
 msgid "Course Mode"
 msgstr "Course Mode"
+
+msgid ""
+"Course Mode challenges you to clear several songs in sequence\n"
+"for rewards, testing your endurance."
+msgstr ""
+"코스 모드는 여러 악곡을 연속으로 클리어하는 챌린지입니다.\n"
+"의지를 시험하고 보상을 얻어보세요."
 
 msgid "Course has been abandoned"
 msgstr "코스를 포기하였습니다"
@@ -1946,6 +1967,11 @@ msgstr "콘테스트 (Light 속성) △"
 msgid "For the one who might find this: I'll write down all that I know, for you."
 msgstr "이 일지를 찾을 지도 모르는 그대를 위해, 내가 아는 것을 적어놓으려고 한다."
 
+msgid "For those seeking greater challenges, higher difficulties await."
+msgstr ""
+"어려운 도전을 원하시는 분을 위해,\n"
+"더 높은 난이도가 기다리고 있습니다."
+
 msgid "Forget an old adage. Hurry along."
 msgstr "오래된 격언 따위 잊어버려. 서두르라고."
 
@@ -2342,6 +2368,9 @@ msgstr "텍스트 감추기"
 msgid "High Score"
 msgstr "하이스코어"
 
+msgid "High score:"
+msgstr "High score:"
+
 msgid "Hikari"
 msgstr "히카리"
 
@@ -2411,11 +2440,25 @@ msgid "IV: Incomplete Path"
 msgstr "IV. 불완전한 길"
 
 msgid ""
+"If you are new to rhythm games,\n"
+"it is recommended to choose the \"Past\" difficulty."
+msgstr ""
+"리듬 게임에 입문하시는 분이라면,\n"
+"\"PAST\" 난이도를 추천드립니다."
+
+msgid ""
 "If you are so desperate to meet me...\n"
 "...Try again, soon."
 msgstr ""
 "그렇게 나를 만나고 싶으면...\n"
 "나중에 다시 도전해봐."
+
+msgid ""
+"If you have experience with rhythm games,\n"
+"it is recommended to choose the \"Present\" difficulty."
+msgstr ""
+"리듬 게임에 경험이 있는 분이라면,\n"
+"\"PRESENT\" 난이도를 추천드립니다."
 
 msgid ""
 "If you're enjoying Arcaea, please consider writing a review.\n"
@@ -2453,9 +2496,6 @@ msgstr "환각"
 msgid "Illustration"
 msgstr "일러스트레이션"
 
-msgid "In Falsus - Out Now on Steam!"
-msgstr "In Falsus - Steam에서 지금 플레이 가능!"
-
 msgid "In Lead selection, the Lead selects a song to play."
 msgstr "\"방장만\" 선택시 방장이 선곡합니다."
 
@@ -2490,31 +2530,6 @@ msgstr ""
 "모든 메인 스토리를 포함하고 있습니다.\n"
 "히카리와 타이리츠의 고된 여정과\n"
 "그 너머의 이야기에 함께하세요."
-
-msgid ""
-"In a world bound by truths: connect.\n"
-"\n"
-"In Falsus, the second music game from lowiro, officially launches\n"
-"September 9th, 2026, on PC.\n"
-"\n"
-"A narrative-centric PC rhythm game built around\n"
-"original keyboard and mouse controls, a full-length ADV\n"
-"Scenario voiced in Japanese, and Card Crafting gameplay.\n"
-"\n"
-"In Falsus releases with over 70 songs, more than 40 entirely original—\n"
-"composed by artists across many genres, including many not\n"
-"seen before in Arcaea."
-msgstr ""
-"이어져라. 진실에 얽메인 세계에서.\n"
-"\n"
-"lowiro의 신작 리듬 게임, In Falsus가 2026년 9월 9일, PC로 릴리즈!\n"
-"\n"
-"In Falsus는 독창적인 키보드 & 마우스 조작, 일본어 풀 보이스 비주얼\n"
-"노벨, 그리고 카드 크래프팅이라는 요소 세 가지를 하나로 묶은\n"
-"PC 리듬게임입니다.\n"
-"\n"
-"릴리즈와 함께 70곡이 제공되며, 그 중 40곡은 Arcaea에서 보지 못했던\n"
-"아티스트와 장르를 다수 포함한 완전한 오리지널 악곡입니다."
 
 msgid ""
 "In order to use the Arcaea online services\n"
@@ -2918,18 +2933,18 @@ msgid "Memory Boost"
 msgstr "메모리 부스트"
 
 msgid ""
-"Memory Boost active. In this chapter, your next play progress\n"
+"Memory Boost increases progress and experience for your next World play.\n"
+"It stays active until you play a song in any map. (Excludes 0 and 1-Stamina maps)"
+msgstr ""
+"메모리 부스트를 사용하면 다음 월드 플레이 시 진행도와 경험치 획득량이 증가합니다.\n"
+"아무 맵에서든 악곡을 플레이할 때까지 유지됩니다. (스태미나 소비량이 0 또는 1인 맵은 제외)"
+
+msgid ""
+"Memory Boost is active. Your next play progress for this map\n"
 "and Partner experience gain will have a %@x multiplier."
 msgstr ""
 "메모리 부스트가 활성화되었습니다.\n"
-"현 챕터에서 얻는 파트너 경험치와 진행도가 %@배 증가합니다."
-
-msgid ""
-"Memory Boost increases progress and experience for your next World play.\n"
-"It stays active until you play a song in any map. (Excludes Legacy chapters)"
-msgstr ""
-"메모리 부스트는 다음 플레이의 진행률과 경험치 획득량을 늘려줍니다.\n"
-"맵에서 악곡을 선택하여 플레이하기 전까지 계속 활성화 됩니다. (초기 챕터 제외)"
+"해당 맵에서 얻는 파트너 경험치와진행도가 %@배 증가합니다."
 
 msgid ""
 "Memory Boost, Stamina Boost, and Beyond Boost do not influence each other\n"
@@ -2983,6 +2998,12 @@ msgstr "More"
 
 msgid "More players are needed to start."
 msgstr "시작하기 위해 더 많은 플레이어가 필요합니다."
+
+msgid "Motion"
+msgstr "모션"
+
+msgid "Motion Partner"
+msgstr "모션 파트너"
 
 msgid "Music"
 msgstr "음악"
@@ -3406,6 +3427,9 @@ msgstr "팩"
 msgid "Pack Append"
 msgstr "Pack Append"
 
+msgid "Pack Exchange Ticket"
+msgstr "Pack 교환 티켓"
+
 msgid ""
 "Pack required to\n"
 "unlock FTR difficulty"
@@ -3512,11 +3536,11 @@ msgstr ""
 msgid "Phase"
 msgstr "Phase"
 
+msgid "Phase %@"
+msgstr "Phase %@"
+
 msgid "Play %@ %2@"
 msgstr "%@ %2@ 플레이"
-
-msgid "Play Now"
-msgstr "지금 플레이"
 
 msgid "Play Result"
 msgstr "플레이 결과"
@@ -3534,9 +3558,6 @@ msgid ""
 msgstr ""
 "게임 진행 중.\n"
 "선택하신 룸은 현재 참가 불가능합니다."
-
-msgid "Play it now on Steam!"
-msgstr "지금 Steam에서 In Falsus를 플레이해보세요!"
 
 msgid "Player ID"
 msgstr "플레이어 ID"
@@ -3666,6 +3687,9 @@ msgstr "진행 상황"
 
 msgid "Progress through World Mode to earn songs, Partners, & other rewards."
 msgstr "월드 모드를 통해 악곡, 파트너 및 기타 보상을 얻을 수 있습니다."
+
+msgid "Progress through World Mode to earn songs, Partners, and other rewards."
+msgstr "월드 모드를 진행하여 다양한 악곡, 파트너, 기타 보상을 얻어보세요."
 
 msgid "Progress through a total of %@X steps in this chapter in order to unlock this Map"
 msgstr "이 맵을 해금하려면 현 챕터를 %@X 스텝까지 진행해야 합니다."
@@ -4015,6 +4039,9 @@ msgstr "속삭임 개방하기"
 msgid "Review Now"
 msgstr "리뷰하기"
 
+msgid "Reward:"
+msgstr "Reward:"
+
 msgid "Rewards"
 msgstr "보상"
 
@@ -4108,6 +4135,19 @@ msgstr ""
 "가장 가까운 등급까지의\n"
 "스코어 차이를 스코어판에 표시"
 
+msgid ""
+"Scroll the category panel vertically to switch the current category,\n"
+"and horizontally to browse the Packs within."
+msgstr ""
+"카테고리 패널을 상하로 스크롤하여 카테고리를 변경하고,\n"
+"좌우로 스크롤하여 해당 분류의 Pack을 열람할 수 있습니다."
+
+msgid "Scroll the list of Partners on the left and tap any diamond to select them."
+msgstr "왼쪽에서 파트너 리스트를 스크롤한 후, 다이아몬드를 탭하여 파트너를 선택하세요."
+
+msgid "Scroll the list on the right and select which song you wish to play."
+msgstr "오른쪽의 리스트를 스크롤하여 원하는 악곡을 선택하세요."
+
 msgid "Search..."
 msgstr "검색"
 
@@ -4152,25 +4192,8 @@ msgstr "악곡 선택"
 msgid "Select a map and play songs to progress towards rewards."
 msgstr "맵을 선택하고 악곡을 플레이하여 보상을 얻으십시오."
 
-msgid ""
-"Select an obtained Partner to level up, switch between base and\n"
-"Awakened forms, or add to favorites by tapping their icon once more."
-msgstr ""
-"소유 중인 파트너를 선택하면 레벨업과 각성 상태 전환이 가능하며,\n"
-"아이콘을 한 번 더 탭하면 즐겨찾기에 추가할 수 있습니다."
-
 msgid "Select the Partner '%@'"
 msgstr "'%@' 파트너를 선택하십시오."
-
-msgid ""
-"Select the desired Partner by scrolling from the list on the left.\n"
-"Find Partners easily by tapping the Filter icon or entering a name in the Search bar."
-msgstr ""
-"왼쪽의 리스트에서 원하는 파트너를 선택하세요.\n"
-"필터를 사용하거나 검색창에 이름을 입력하여 원하는 파트너를 간편하게 찾아보세요."
-
-msgid "Selecting an unobtained Partner will preview their Skill and max level stats."
-msgstr "미소유 파트너를 선택할 시 스킬 및 최대 레벨 능력치를 확인해볼 수 있습니다."
 
 msgid "Selene Sheryl"
 msgstr "셀레네 셰릴"
@@ -4201,6 +4224,13 @@ msgstr "세츠나"
 
 msgid "Settings"
 msgstr "설정"
+
+msgid ""
+"Settings such as music offset and note speed are available at the top.\n"
+"If using wireless headphones it is recommended to adjust your offset."
+msgstr ""
+"악곡 오프셋 및 노트 속도와 같은 설정은 화면 상단에서 바꿀 수 있습니다.\n"
+"무선 이어폰을 사용중이라면 오프셋을 조정하는 것을 추천드립니다."
 
 msgid "Setup"
 msgstr "설정"
@@ -4295,8 +4325,10 @@ msgstr ""
 "스카이 노트는 트레이스를 따라 나타납니다\n"
 "노트가 상단의 판정선 가까이 왔을 때, 타이밍에 맞춰 노트를 탭하십시오."
 
-msgid "Slide songs to the right to add them to Favorites."
-msgstr "악곡을 오른쪽으로 스와이프하여 즐겨찾기 하세요."
+msgid "Slide songs to the right and tap the icon to add them to Favorites."
+msgstr ""
+"악곡을 오른쪽으로 슬라이드한 후 아이콘을 탭하면 즐겨찾기에\n"
+"추가할 수 있습니다."
 
 msgid "Slip free from time."
 msgstr "시간의 구속에서 벗어나라."
@@ -4321,14 +4353,18 @@ msgid "Sonata"
 msgstr "Sonata"
 
 msgid ""
-"Song Packs are organized by category. Scroll the category panel vertically\n"
-"to switch the current category, and horizontally to browse the Packs within."
-msgstr ""
-"악곡 팩은 카테고리 별로 분류됩니다. 카테고리 패널을 수직으로 스크롤하여 카테고리를 변경하고,\n"
-"수평으로 스크롤하여 팩에 담긴 악곡을 살펴보세요."
+"Song Packs are organized by category:\n"
+"Main Story, Side Story, Collaboration, and Variety."
+msgstr "악곡 Pack은 \"Main Story\", \"Side Story\", \"Collaboration\", \"Variety\"로 분류됩니다."
+
+msgid "Song Packs contain collections of songs across a variety of themes."
+msgstr "악곡 Pack은 다양한 주제로 묶은 악곡을 담고 있습니다."
 
 msgid "Song Select"
 msgstr "선곡 방법"
+
+msgid "Song difficulty can be changed from the top left."
+msgstr "왼쪽 상단에서 악곡 난이도를 변경할 수 있습니다."
 
 msgid "Song."
 msgstr "노래."
@@ -4345,6 +4381,9 @@ msgid ""
 msgstr ""
 "FTR 난이도의 해금을 위해\n"
 "먼저 소지해야 할 악곡"
+
+msgid "Songs:"
+msgstr "Songs:"
 
 msgid "Sort"
 msgstr "정렬"
@@ -4450,6 +4489,16 @@ msgstr ""
 
 msgid "Stella"
 msgstr "스텔라"
+
+msgid "Steps are granted after completing a song."
+msgstr "악곡을 클리어하여 STEP을 획득할 수 있습니다."
+
+msgid ""
+"Steps granted are based on song difficulty, your performance from song play,\n"
+"your Partner's STEP stat, and at times your Partner's Skill."
+msgstr ""
+"STEP은 악곡 난이도. 악곡 플레이 퍼포먼스,\n"
+"파트너의 STEP 능력치, 파트너의 STEP 관련 스킬에 따라 부여됩니다."
 
 msgid "Stop in between, and start again."
 msgstr "마음을 붙잡고, 다시 걸어나가라."
@@ -4607,6 +4656,13 @@ msgstr "다른 팩으로 전환하려면 스위치를 탭하십시오."
 msgid "Tempest"
 msgstr "Tempest"
 
+msgid ""
+"Temporarily activate Skill during song play\n"
+"Gain Fragments based on performance"
+msgstr ""
+"악곡 플레이 중 일시적으로 스킬 발동\n"
+"퍼포먼스에 따라 조각 획득"
+
 msgid "Terms of Service"
 msgstr "이용약관"
 
@@ -4630,11 +4686,22 @@ msgstr ""
 "월드 모드에서 스태미나를 소비하면 'Beyond 부스트' 게이지가 최대 200%까지 차오릅니다.\n"
 "부스트를 발동하면 다음 Beyond 챕터 플레이시 진행도 획득률이 증가합니다. "
 
+msgid "The Arcaea Pack consists entirely of free songs."
+msgstr "Arcaea Pack에 포함된 악곡들은 모두 무료입니다."
+
+msgid "The Arcaea category contains other additional Packs."
+msgstr "\"Arcaea\" 기타 추가 악곡 Pack이 포함되어있습니다."
+
 msgid "The Arcaea network is currently under maintenance."
 msgstr "서버 점검이 진행중입니다."
 
 msgid "The Lead selects a song to play."
 msgstr "선곡 권한자는 플레이할 곡을 선택합니다."
+
+msgid ""
+"The Memory Archive features individual songs\n"
+"that can be obtained using Memories."
+msgstr "Memory Archive에는 메모리를 소비하여 획득할 수 있는 악곡이 들어있습니다."
 
 msgid "The battle begins again"
 msgstr "그리고, 다시 시작되는 싸움"
@@ -4663,6 +4730,11 @@ msgstr ""
 "\n"
 "Arcaea를 계속 플레이할 시, 개인정보처리방침에 동의한\n"
 "것으로 간주합니다."
+
+msgid ""
+"The number below each tile indicates how many Steps it takes\n"
+"to move to the next tile."
+msgstr "각 타일 밑의 숫자는 다음 타일로 진행하는 데에 필요한 STEP입니다."
 
 msgid ""
 "The paths that lie ahead are dark, yet they beckon you with distant light.\n"
@@ -4704,6 +4776,9 @@ msgstr ""
 msgid "Their Story"
 msgstr "그들의 이야기"
 
+msgid "Theme"
+msgstr "테마"
+
 msgid ""
 "There are players in your room\n"
 "who have not purchased or unlocked this song."
@@ -4740,6 +4815,17 @@ msgstr "서버에 점수를 등록할 수 없습니다."
 
 msgid "This Intruder has reached maximum level."
 msgstr "침입자의 레벨이 최고 상한에 도달했습니다."
+
+msgid ""
+"This Pack is available to obtain until 17 March 2028.\n"
+"\n"
+"Once obtained, the Pack's contents can continue\n"
+"to be accessed after 17 March 2028."
+msgstr ""
+"본 팩은 2028년 3월 17일까지만 구매 가능합니다.\n"
+"\n"
+"구매 후에는 2028년 3월 17일 이후로도 팩의\n"
+"콘텐츠를 이용할 수 있습니다."
 
 msgid ""
 "This Pack is available to obtain until 24 June 2029.\n"
@@ -5078,8 +5164,11 @@ msgstr ""
 msgid "Unlock all rewards to claim Tier reward"
 msgstr "모든 미션을 완료하여 티어 보상을 획득하세요"
 
-msgid "Unlocked by reaching Potential 9.00"
-msgstr "Potential 9.00 달성 시 해금"
+msgid "Unlock by obtaining the %1@"
+msgstr "%1@을(를) 획득하여 해금"
+
+msgid "Unlocked by reaching Potential 9.000"
+msgstr "Potential 9.000 달성 시 해금"
 
 msgid "Unlocked in Axiom of the End"
 msgstr "Axiom of the End 해금"
@@ -5097,6 +5186,9 @@ msgid ""
 msgstr ""
 "월드 모드에서 해금 가능\n"
 "Lost Chapter: Beyond"
+
+msgid "Unobtained Partners are previewed at max level and cannot be selected."
+msgstr "미획득 파트너는 최대 레벨 상태로 미리보기가 가능하며, 선택할 수 없습니다."
 
 msgid "Unowned"
 msgstr "미해금"
@@ -5292,7 +5384,14 @@ msgid ""
 "They are obtained through World Mode and various means."
 msgstr ""
 "이미 해금된 코스라면 스태미나 대신 뒤틀린 파편을 이용해 시작할 수 있습니다.\n"
-"뒤틀린 파편은 월드 모드를 비롯한 다양한 방법으로 획득 가능합니다. "
+"뒤틀린 파편은 월드 모드를 비롯한 다양한 방법으로 획득 가능합니다."
+
+msgid ""
+"Warped Shards can be used instead of stamina to start any unlocked course.\n"
+"They are obtained through World Mode and various other means."
+msgstr ""
+"이미 해금된 코스라면 스태미나 대신 뒤틀린 파편을 이용해 시작할 수 있습니다.\n"
+"뒤틀린 파편은 월드 모드를 비롯한 다양한 방법으로 획득 가능합니다."
 
 msgid ""
 "Watch Axiom of the End\n"
@@ -5380,6 +5479,16 @@ msgstr ""
 "%@%만큼 더 증가합니다."
 
 msgid ""
+"World Extend contains songs that can be obtained freely for a limited time,\n"
+"or obtained later using Memories."
+msgstr ""
+"World Extend에는 한정된 기간동안 무료로 획득할 수 있거나,\n"
+"추후 메모리를 소비하여 획득할 수 있는 악곡들이 들어있습니다."
+
+msgid "World Mode"
+msgstr "World Mode"
+
+msgid ""
 "World Mode has been overloaded.\n"
 "The overload will clear in %@.\n"
 "\n"
@@ -5403,6 +5512,9 @@ msgstr ""
 "스태미나를 회복하면 즉시 과부하가 해제됩니다.\n"
 "스태미나를 회복하시겠습니까? 아니면 맵을 진행하지\n"
 "못하더라도 Link Play를 계속하시겠습니까?"
+
+msgid "World Mode maps are progressed over a series of tiles."
+msgstr "월드 모드 맵은 타일을 통해 진행됩니다."
 
 msgid ""
 "World Mode progress randomly increased\n"
@@ -5782,8 +5894,8 @@ msgstr "App Store"
 msgid "via Arcaea Online"
 msgstr "Arcaea Online에서 구입시"
 
-msgid "with 5th Anniversary Ticket"
-msgstr "5주년 기념 티켓 이용시"
+msgid "with Pack Exchange Ticket"
+msgstr "Pack 교환 티켓 소지시"
 
 msgid "x%@ Boost"
 msgstr "x%@ 배 부스트"
